@@ -1,0 +1,124 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews definitions and prior research on propaganda, with dense citations and a focus,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' data preparation steps, including OCR, translation, and preprocessing, all of"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of LDA topic modeling, including software, rationale, and references to prior use, "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the lexicon-based approach for emotion extraction, including the specific lexicon used and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the process of aggregating and normalizing emotions from the text, which is a methodological"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from exploratory analysis, including word counts, coverage, and observed trends, wh"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the results of polarity analysis at the magazine issue level, including observed sentiment "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the main findings of emotion analysis at the magazine issue level, including patterns and f"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the findings from LDA topic modeling, including the number of topics, features, and examp"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the results of emotion analysis on LDA topic words, comparing patterns and discussing the "
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

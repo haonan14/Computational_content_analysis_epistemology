@@ -1,0 +1,201 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews definitions and prior research on trust, cognition-based trust, and social info"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines 'narrative' and discusses prior literature on narrative content and structure, "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the importance of narrative structure, referencing prior studies and setting "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews literature on within-team narrative diversity, citing prior work and developin"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses between-team narrative distinctiveness, referencing prior work and developi"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the moderating role of resource scarcity, referencing theoretical perspectiv"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the sampling procedure and sample characteristics, detailing what the author"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how narrative topics and structural dimensions were derived from interviews,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the use of LDA topic modeling to derive narrative topics from the data, descri"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section explains how within-team narrative diversity was measured and operationalized, describ"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section explains how between-team narrative distinctiveness was measured, describing the metho"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how the dependent variable (cognition-based trust) was measured, including s"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how the moderator variable (perceived resource scarcity) was measured, which,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how the moderator variable (perceived resource scarcity) was measured, which,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the statistical approach (endogeneity tests) used to address potential bias in"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section lists survey items for a construct (cognition-based trust), which is typical of an"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides survey items and some statistical output for affect-based trust, which is"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

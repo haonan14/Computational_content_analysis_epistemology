@@ -1,0 +1,840 @@
+{
+  "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/social_sciences_interdisciplinary/Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches.tei.xml",
+  "metadata": {
+    "title": "Theory-Driven Analysis of Large Corpora: Semisupervised Topic Classification of the UN Speeches",
+    "authors": [
+      "Kohei Watanabe",
+      "Yuan Zhou"
+    ],
+    "journal": "Social Science Computer Review",
+    "year": "2020",
+    "doi": "10.1177/0894439320907027",
+    "keywords": [
+      "text analysis",
+      "dictionary making",
+      "semisupervised learning",
+      "international relations",
+      "United Nations"
+    ]
+  },
+  "abstract": "There is a growing interest in quantitative analysis of large corpora among the international relations (IR) scholars, but many of them find it difficult to perform analysis consistently with existing theoretical frameworks using unsupervised machine learning models to further develop the field. To solve this problem, we created a set of techniques that utilize a semisupervised model that allows researchers to classify documents into predefined categories efficiently. We propose a dictionary making procedure to avoid inclusion of words that are likely to confuse the model and deteriorate the its classification performance classification accuracy using a new entropy-based diagnostic tool.\n\nIn our experiments, we classify sentences of the United Nations General Assembly speeches into six predefined categories using the seeded Latent Dirichlet allocation and Newsmap, which were trained with a small \"seed word dictionary\" that we created following the procedure. The result shows that, while keyword dictionary can only classify 25% of sentences, Newsmap can classify over 60% of them accurately correctly and; its accuracy exceeds 70% when contextual information is taken into consideration by kernel smoothing of topic likelihoods. We argue that once seed word dictionaries are created by the international relations community, semisupervised models would become more useful than unsupervised models for theory-driven text analysis.",
+  "sections": [
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "NO_HEADER",
+      "header_norm": "",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        ", and Japanese nationalism (Suzuki, 2015) in official speeches, government statements, newspaper articles, and academic works.",
+        "While discourse analysis is conducted qualitatively in those studies, an increasing number of IR scholars are embarking on quantitative analysis of large textual data such as debates at the United Nations (UN) General Assembly, employing natural language processing techniques (Baturo et al., 2017;Gurciullo & Mikhaylov, 2017;Schoenfeld et al., 2018). These speeches are a very useful source of information for IR scholars because representatives of the member countries express their foreign policy on various issues such as development, terrorism, and human rights in the forum. The speeches are approximately 15 min long and transcribed and translated into English. The content of the speeches enables IR scholars to infer and compare foreign policies of the UN member states over the years. Baturo et al. (2017) collected all the speech transcripts from 1970 to 2017 and made them available in the UN General Debate Corpus.",
+        "The corpus was analyzed to measure similarity of foreign policies between states by Baturo et al. (2017) and Gurciullo and Mikhaylov (2017) using quantitative text analysis techniques, but their classification or measurement schemes lacked consistency with earlier content analysis that was conducted manually (e.g., Brunn, 1999) due to the limitation of the machine learning models: Latent Dirichlet allocation (LDA) is a unsupervised model widely used in legislative or electoral studies to classify documents into topics, but it is nearly impossible for researchers to match topics identified by an unsupervised LDA and human coders; supervised models such as naive Bayes, Random Forest and support-vector machines (SVMs) allow researchers to define topics, but a large training set is often too expensive for resource-strapped researchers to create.",
+        "We aim to solve these problems by developing a set of techniques to identify predefined topics of documents using semisupervised machine learning models. In the following sections, we will point out the problems of existing methods for topic classification, explain our semisupervised document classification techniques, and demonstrate their effectiveness in a series of experiments. We will employ two semisupervised models, Newsmap (Watanabe, 2018b) and seeded LDA (Lu et al., 2011) both of which take seed words as weak supervision. The former is a variant of naive Bayes classifier trained on documents that contain seed words, while the latter is an LDA model fitted with word priors weighted by seed words. Therefore, the central piece of this article is the technique to find good seed words for topics.",
+        "In the experiments, we will classify sentences of the speeches in the General Debate Corpus into six topics (\"greeting,\" \"UN,\" \"security,\" \"human rights,\" \"democracy,\" \"development\") that are considered important in the IR literature. We choose sentences as the unit of analysis not only because classification of smaller units enables fine-grained analysis, such as association between topics and countries or sentiments, but also because sentences have greater validity than paragraphs or quasi-sentences that contain multiple topics or lack objective boundaries (Da ¨ubler et al., 2012;Grimmer & Stewart, 2013). However, sentence classification is more challenging than classification of the larger text units due to the small number of words they contain.",
+        "The result of our experiments will show that researchers can perform topic classification of sentences by Newsmap with 60% accuracy, which is better than by the seeded LDA. The classification result is the best when the entropy-based diagnostic tool is used to identify words that are likely to make definition of topics less clear if included. Furthermore, over 70% of sentences can be classified accurately if the contextual information is exploited by kernel smoothing of topic likelihoods.",
+        "We believe that IR scholars can further develop the theory in the field by analyzing large corpora systematically and consistently with existing theoretical frameworks using semisupervised models. We recommend researchers to use these models because they achieve good balance between the cost and control, that is, they can control classification results without costly manual coding of documents. Once valid seed words for relevant topics are identified, they can repeat the same analysis on different corpora using semisupervised models and compare the results for vigorous scientific debates.",
+        "In our discussion, \"keywords\" refers to words that are used to obtain frequency counts of words for document classification in the classic dictionary-based approach, while \"seed words\" refers to words used to train semisupervised document classifiers (Newsmap and seeded LDA). These words are both in a dictionary, but we distinguish between these two types of lexica by calling them \"keyword dictionary\" or \"seed word dictionary.\"",
+        "For the following examples and experiments, we preprocessed the texts in the following manner to construct a document-feature matrix using an R package quanteda v.1.3.14 (Benoit et al., 2018). We divided speeches into sentences, segmented these sentences into tokens (words), and removed numeric tokens and punctuation marks based on the rules and character classes defined by International Component for Unicode (ICU). After compounding sequences of tokens for multiword expressions in the dictionaries (e.g., \"human rights\" and \"climate change\") into single tokens, we removed grammatical words and infrequent words (less than 10 times in the corpus). 1"
+      ],
+      "footnotes": [],
+      "text": ", and Japanese nationalism (Suzuki, 2015) in official speeches, government statements, newspaper articles, and academic works.\n\nWhile discourse analysis is conducted qualitatively in those studies, an increasing number of IR scholars are embarking on quantitative analysis of large textual data such as debates at the United Nations (UN) General Assembly, employing natural language processing techniques (Baturo et al., 2017;Gurciullo & Mikhaylov, 2017;Schoenfeld et al., 2018). These speeches are a very useful source of information for IR scholars because representatives of the member countries express their foreign policy on various issues such as development, terrorism, and human rights in the forum. The speeches are approximately 15 min long and transcribed and translated into English. The content of the speeches enables IR scholars to infer and compare foreign policies of the UN member states over the years. Baturo et al. (2017) collected all the speech transcripts from 1970 to 2017 and made them available in the UN General Debate Corpus.\n\nThe corpus was analyzed to measure similarity of foreign policies between states by Baturo et al. (2017) and Gurciullo and Mikhaylov (2017) using quantitative text analysis techniques, but their classification or measurement schemes lacked consistency with earlier content analysis that was conducted manually (e.g., Brunn, 1999) due to the limitation of the machine learning models: Latent Dirichlet allocation (LDA) is a unsupervised model widely used in legislative or electoral studies to classify documents into topics, but it is nearly impossible for researchers to match topics identified by an unsupervised LDA and human coders; supervised models such as naive Bayes, Random Forest and support-vector machines (SVMs) allow researchers to define topics, but a large training set is often too expensive for resource-strapped researchers to create.\n\nWe aim to solve these problems by developing a set of techniques to identify predefined topics of documents using semisupervised machine learning models. In the following sections, we will point out the problems of existing methods for topic classification, explain our semisupervised document classification techniques, and demonstrate their effectiveness in a series of experiments. We will employ two semisupervised models, Newsmap (Watanabe, 2018b) and seeded LDA (Lu et al., 2011) both of which take seed words as weak supervision. The former is a variant of naive Bayes classifier trained on documents that contain seed words, while the latter is an LDA model fitted with word priors weighted by seed words. Therefore, the central piece of this article is the technique to find good seed words for topics.\n\nIn the experiments, we will classify sentences of the speeches in the General Debate Corpus into six topics (\"greeting,\" \"UN,\" \"security,\" \"human rights,\" \"democracy,\" \"development\") that are considered important in the IR literature. We choose sentences as the unit of analysis not only because classification of smaller units enables fine-grained analysis, such as association between topics and countries or sentiments, but also because sentences have greater validity than paragraphs or quasi-sentences that contain multiple topics or lack objective boundaries (Da ¨ubler et al., 2012;Grimmer & Stewart, 2013). However, sentence classification is more challenging than classification of the larger text units due to the small number of words they contain.\n\nThe result of our experiments will show that researchers can perform topic classification of sentences by Newsmap with 60% accuracy, which is better than by the seeded LDA. The classification result is the best when the entropy-based diagnostic tool is used to identify words that are likely to make definition of topics less clear if included. Furthermore, over 70% of sentences can be classified accurately if the contextual information is exploited by kernel smoothing of topic likelihoods.\n\nWe believe that IR scholars can further develop the theory in the field by analyzing large corpora systematically and consistently with existing theoretical frameworks using semisupervised models. We recommend researchers to use these models because they achieve good balance between the cost and control, that is, they can control classification results without costly manual coding of documents. Once valid seed words for relevant topics are identified, they can repeat the same analysis on different corpora using semisupervised models and compare the results for vigorous scientific debates.\n\nIn our discussion, \"keywords\" refers to words that are used to obtain frequency counts of words for document classification in the classic dictionary-based approach, while \"seed words\" refers to words used to train semisupervised document classifiers (Newsmap and seeded LDA). These words are both in a dictionary, but we distinguish between these two types of lexica by calling them \"keyword dictionary\" or \"seed word dictionary.\"\n\nFor the following examples and experiments, we preprocessed the texts in the following manner to construct a document-feature matrix using an R package quanteda v.1.3.14 (Benoit et al., 2018). We divided speeches into sentences, segmented these sentences into tokens (words), and removed numeric tokens and punctuation marks based on the rules and character classes defined by International Component for Unicode (ICU). After compounding sequences of tokens for multiword expressions in the dictionaries (e.g., \"human rights\" and \"climate change\") into single tokens, we removed grammatical words and infrequent words (less than 10 times in the corpus). 1",
+      "text_with_footnotes": ", and Japanese nationalism (Suzuki, 2015) in official speeches, government statements, newspaper articles, and academic works.\n\nWhile discourse analysis is conducted qualitatively in those studies, an increasing number of IR scholars are embarking on quantitative analysis of large textual data such as debates at the United Nations (UN) General Assembly, employing natural language processing techniques (Baturo et al., 2017;Gurciullo & Mikhaylov, 2017;Schoenfeld et al., 2018). These speeches are a very useful source of information for IR scholars because representatives of the member countries express their foreign policy on various issues such as development, terrorism, and human rights in the forum. The speeches are approximately 15 min long and transcribed and translated into English. The content of the speeches enables IR scholars to infer and compare foreign policies of the UN member states over the years. Baturo et al. (2017) collected all the speech transcripts from 1970 to 2017 and made them available in the UN General Debate Corpus.\n\nThe corpus was analyzed to measure similarity of foreign policies between states by Baturo et al. (2017) and Gurciullo and Mikhaylov (2017) using quantitative text analysis techniques, but their classification or measurement schemes lacked consistency with earlier content analysis that was conducted manually (e.g., Brunn, 1999) due to the limitation of the machine learning models: Latent Dirichlet allocation (LDA) is a unsupervised model widely used in legislative or electoral studies to classify documents into topics, but it is nearly impossible for researchers to match topics identified by an unsupervised LDA and human coders; supervised models such as naive Bayes, Random Forest and support-vector machines (SVMs) allow researchers to define topics, but a large training set is often too expensive for resource-strapped researchers to create.\n\nWe aim to solve these problems by developing a set of techniques to identify predefined topics of documents using semisupervised machine learning models. In the following sections, we will point out the problems of existing methods for topic classification, explain our semisupervised document classification techniques, and demonstrate their effectiveness in a series of experiments. We will employ two semisupervised models, Newsmap (Watanabe, 2018b) and seeded LDA (Lu et al., 2011) both of which take seed words as weak supervision. The former is a variant of naive Bayes classifier trained on documents that contain seed words, while the latter is an LDA model fitted with word priors weighted by seed words. Therefore, the central piece of this article is the technique to find good seed words for topics.\n\nIn the experiments, we will classify sentences of the speeches in the General Debate Corpus into six topics (\"greeting,\" \"UN,\" \"security,\" \"human rights,\" \"democracy,\" \"development\") that are considered important in the IR literature. We choose sentences as the unit of analysis not only because classification of smaller units enables fine-grained analysis, such as association between topics and countries or sentiments, but also because sentences have greater validity than paragraphs or quasi-sentences that contain multiple topics or lack objective boundaries (Da ¨ubler et al., 2012;Grimmer & Stewart, 2013). However, sentence classification is more challenging than classification of the larger text units due to the small number of words they contain.\n\nThe result of our experiments will show that researchers can perform topic classification of sentences by Newsmap with 60% accuracy, which is better than by the seeded LDA. The classification result is the best when the entropy-based diagnostic tool is used to identify words that are likely to make definition of topics less clear if included. Furthermore, over 70% of sentences can be classified accurately if the contextual information is exploited by kernel smoothing of topic likelihoods.\n\nWe believe that IR scholars can further develop the theory in the field by analyzing large corpora systematically and consistently with existing theoretical frameworks using semisupervised models. We recommend researchers to use these models because they achieve good balance between the cost and control, that is, they can control classification results without costly manual coding of documents. Once valid seed words for relevant topics are identified, they can repeat the same analysis on different corpora using semisupervised models and compare the results for vigorous scientific debates.\n\nIn our discussion, \"keywords\" refers to words that are used to obtain frequency counts of words for document classification in the classic dictionary-based approach, while \"seed words\" refers to words used to train semisupervised document classifiers (Newsmap and seeded LDA). These words are both in a dictionary, but we distinguish between these two types of lexica by calling them \"keyword dictionary\" or \"seed word dictionary.\"\n\nFor the following examples and experiments, we preprocessed the texts in the following manner to construct a document-feature matrix using an R package quanteda v.1.3.14 (Benoit et al., 2018). We divided speeches into sentences, segmented these sentences into tokens (words), and removed numeric tokens and punctuation marks based on the rules and character classes defined by International Component for Unicode (ICU). After compounding sequences of tokens for multiword expressions in the dictionaries (e.g., \"human rights\" and \"climate change\") into single tokens, we removed grammatical words and infrequent words (less than 10 times in the corpus). 1",
+      "preview_head": ", and Japanese nationalism (Suzuki, 2015) in official speeches, government statements, newspaper articles, and academic works.",
+      "preview_tail": "For the following examples and experiments, we preprocessed the texts in the following manner to construct a document-feature matrix using an R package quanteda v.1.3.14 (Benoit et al., 2018). We divided speeches into sentences, segmented these sentences into tokens (words), and removed numeric tokens and punctuation marks based on the rules and character classes defined by International Component for Unicode (ICU). After compounding sequences of tokens for multiword expressions in the dictionaries (e.g., \"human rights\" and \"climate change\") into single tokens, we removed grammatical words and infrequent words (less than 10 times in the corpus). 1",
+      "word_count": 842,
+      "paragraph_count": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses prior research and existing literature, referencing Suzuki (2015) and others,,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Problems of Existing Methods",
+      "header_norm": "problems of existing methods",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Dictionary Analysis",
+      "header_norm": "dictionary analysis",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Dictionaries are sets of keywords in predefined categories corresponding to certain concepts, and often used in quantitative analysis as a robust theory-driven method. For example, the Lexicoder Topic Dictionary (Albugh et al., 2013) contains 1,387 keywords under 28 topics (e.g., macroeconomics, civil rights, health care, agriculture) based on the Comparative Agenda Project's coding scheme. Since keywords for categories are manually selected, dictionary analysis allows researchers to assess not only the \"criterion validity\" but also the \"content validity\" of the measurement (cf Adcock & Collier, 2001;Sartori & Pasini, 2007).",
+        "However, dictionaries sometimes produce false results due to their strong context dependency (Grimmer & Stewart, 2013). Therefore, if researchers wish to study documents in fields or languages that are new to quantitative text analysis, they have to create a dictionary from scratch, but it is not easy to collect hundreds of words manually (King et al., 2017). The number of keywords required for a dictionary depends on the concepts to capture and documents to analyze, but it tends to be very large when they are complex and sparse.",
+        "Even if dictionaries are available, researchers can only produce simple frequency counts in dictionary analysis. They usually obtain frequency counts of words in documents using a dictionary and divide them by their lengths (i.e., total number of words) to gauge the salience of the concepts, which is only relative to other categories. Therefore, keyword-based classification does not offer theoretically grounded threshold for the reliability of classification results based on probabilities such the likelihood ratio."
+      ],
+      "footnotes": [],
+      "text": "Dictionaries are sets of keywords in predefined categories corresponding to certain concepts, and often used in quantitative analysis as a robust theory-driven method. For example, the Lexicoder Topic Dictionary (Albugh et al., 2013) contains 1,387 keywords under 28 topics (e.g., macroeconomics, civil rights, health care, agriculture) based on the Comparative Agenda Project's coding scheme. Since keywords for categories are manually selected, dictionary analysis allows researchers to assess not only the \"criterion validity\" but also the \"content validity\" of the measurement (cf Adcock & Collier, 2001;Sartori & Pasini, 2007).\n\nHowever, dictionaries sometimes produce false results due to their strong context dependency (Grimmer & Stewart, 2013). Therefore, if researchers wish to study documents in fields or languages that are new to quantitative text analysis, they have to create a dictionary from scratch, but it is not easy to collect hundreds of words manually (King et al., 2017). The number of keywords required for a dictionary depends on the concepts to capture and documents to analyze, but it tends to be very large when they are complex and sparse.\n\nEven if dictionaries are available, researchers can only produce simple frequency counts in dictionary analysis. They usually obtain frequency counts of words in documents using a dictionary and divide them by their lengths (i.e., total number of words) to gauge the salience of the concepts, which is only relative to other categories. Therefore, keyword-based classification does not offer theoretically grounded threshold for the reliability of classification results based on probabilities such the likelihood ratio.",
+      "text_with_footnotes": "Dictionaries are sets of keywords in predefined categories corresponding to certain concepts, and often used in quantitative analysis as a robust theory-driven method. For example, the Lexicoder Topic Dictionary (Albugh et al., 2013) contains 1,387 keywords under 28 topics (e.g., macroeconomics, civil rights, health care, agriculture) based on the Comparative Agenda Project's coding scheme. Since keywords for categories are manually selected, dictionary analysis allows researchers to assess not only the \"criterion validity\" but also the \"content validity\" of the measurement (cf Adcock & Collier, 2001;Sartori & Pasini, 2007).\n\nHowever, dictionaries sometimes produce false results due to their strong context dependency (Grimmer & Stewart, 2013). Therefore, if researchers wish to study documents in fields or languages that are new to quantitative text analysis, they have to create a dictionary from scratch, but it is not easy to collect hundreds of words manually (King et al., 2017). The number of keywords required for a dictionary depends on the concepts to capture and documents to analyze, but it tends to be very large when they are complex and sparse.\n\nEven if dictionaries are available, researchers can only produce simple frequency counts in dictionary analysis. They usually obtain frequency counts of words in documents using a dictionary and divide them by their lengths (i.e., total number of words) to gauge the salience of the concepts, which is only relative to other categories. Therefore, keyword-based classification does not offer theoretically grounded threshold for the reliability of classification results based on probabilities such the likelihood ratio.",
+      "preview_head": "Dictionaries are sets of keywords in predefined categories corresponding to certain concepts, and often used in quantitative analysis as a robust theory-driven method. For example, the Lexicoder Topic Dictionary (Albugh et al., 2013) contains 1,387 keywords under 28 topics (e.g., macroeconomics, civil rights, health care, agriculture) based on the Comparative Agenda Project's coding scheme. Since keywords for categories are manually selected, dictionary analysis allows researchers to assess not only the \"criterion validity\" but also the \"content validity\" of the measurement (cf Adcock & Collier, 2001;Sartori & Pasini, 2007).",
+      "preview_tail": "Even if dictionaries are available, researchers can only produce simple frequency counts in dictionary analysis. They usually obtain frequency counts of words in documents using a dictionary and divide them by their lengths (i.e., total number of words) to gauge the salience of the concepts, which is only relative to other categories. Therefore, keyword-based classification does not offer theoretically grounded threshold for the reliability of classification results based on probabilities such the likelihood ratio.",
+      "word_count": 250,
+      "paragraph_count": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes dictionary-based methods, referencing prior work and established tools (e.g.,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Unsupervised Topic Models",
+      "header_norm": "unsupervised topic models",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "A variety of unsupervised topic models such as the LDA (Blei et al., 2003), the correlated topic model (CTM; Blei & Lafferty, 2007), and the Bayesian hierarchical topic model (Grimmer, 2010) have been used to identify topics in documents. Roberts et al. (2016) developed a structural topic model (STM), which allows researchers to discover the relationship between topics and documents' attributes (e.g., country and year) by incorporating them into topic identification. These \"topic models\" assume that documents are mixture of multiple topics and identify user-provided number of topics as clusters of words solely based on their co-occurrences.",
+        "However, unsupervised topic models almost always produce topics that are inconsistent with the theoretical framework. To highlight this problem, we fitted an unsupervised, or unseeded, LDA model to discover 20 topics in the UN General Assembly speeches in the post-Cold War period (Table 1). 2 To make topics more interpretable, we applied the frequency and exclusivity (FREX) method that down weights common words (Roberts et al., 2014) and manually mapped 18 LDA topics to the six substantive topics, excluding two that are very difficult to interpret (aka \"garbage topics\"). We are fully aware that such post hoc interpretation and selection of topics risks error and distortions, but this is a common practice among the users of unsupervised topic models. We also evaluated the result of classification by the model using a manually coded data set (explained in the Experiment section) and found its performance was very poor: The F1 scores ranged between .01 (\"democracy\") and .28 (\"development\"), making the overall score to be F1 ¼ .13. 3"
+      ],
+      "footnotes": [],
+      "text": "A variety of unsupervised topic models such as the LDA (Blei et al., 2003), the correlated topic model (CTM; Blei & Lafferty, 2007), and the Bayesian hierarchical topic model (Grimmer, 2010) have been used to identify topics in documents. Roberts et al. (2016) developed a structural topic model (STM), which allows researchers to discover the relationship between topics and documents' attributes (e.g., country and year) by incorporating them into topic identification. These \"topic models\" assume that documents are mixture of multiple topics and identify user-provided number of topics as clusters of words solely based on their co-occurrences.\n\nHowever, unsupervised topic models almost always produce topics that are inconsistent with the theoretical framework. To highlight this problem, we fitted an unsupervised, or unseeded, LDA model to discover 20 topics in the UN General Assembly speeches in the post-Cold War period (Table 1). 2 To make topics more interpretable, we applied the frequency and exclusivity (FREX) method that down weights common words (Roberts et al., 2014) and manually mapped 18 LDA topics to the six substantive topics, excluding two that are very difficult to interpret (aka \"garbage topics\"). We are fully aware that such post hoc interpretation and selection of topics risks error and distortions, but this is a common practice among the users of unsupervised topic models. We also evaluated the result of classification by the model using a manually coded data set (explained in the Experiment section) and found its performance was very poor: The F1 scores ranged between .01 (\"democracy\") and .28 (\"development\"), making the overall score to be F1 ¼ .13. 3",
+      "text_with_footnotes": "A variety of unsupervised topic models such as the LDA (Blei et al., 2003), the correlated topic model (CTM; Blei & Lafferty, 2007), and the Bayesian hierarchical topic model (Grimmer, 2010) have been used to identify topics in documents. Roberts et al. (2016) developed a structural topic model (STM), which allows researchers to discover the relationship between topics and documents' attributes (e.g., country and year) by incorporating them into topic identification. These \"topic models\" assume that documents are mixture of multiple topics and identify user-provided number of topics as clusters of words solely based on their co-occurrences.\n\nHowever, unsupervised topic models almost always produce topics that are inconsistent with the theoretical framework. To highlight this problem, we fitted an unsupervised, or unseeded, LDA model to discover 20 topics in the UN General Assembly speeches in the post-Cold War period (Table 1). 2 To make topics more interpretable, we applied the frequency and exclusivity (FREX) method that down weights common words (Roberts et al., 2014) and manually mapped 18 LDA topics to the six substantive topics, excluding two that are very difficult to interpret (aka \"garbage topics\"). We are fully aware that such post hoc interpretation and selection of topics risks error and distortions, but this is a common practice among the users of unsupervised topic models. We also evaluated the result of classification by the model using a manually coded data set (explained in the Experiment section) and found its performance was very poor: The F1 scores ranged between .01 (\"democracy\") and .28 (\"development\"), making the overall score to be F1 ¼ .13. 3",
+      "preview_head": "A variety of unsupervised topic models such as the LDA (Blei et al., 2003), the correlated topic model (CTM; Blei & Lafferty, 2007), and the Bayesian hierarchical topic model (Grimmer, 2010) have been used to identify topics in documents. Roberts et al. (2016) developed a structural topic model (STM), which allows researchers to discover the relationship between topics and documents' attributes (e.g., country and year) by incorporating them into topic identification. These \"topic models\" assume that documents are mixture of multiple topics and identify user-provided number of topics as clusters of words solely based on their co-occurrences.",
+      "preview_tail": "To highlight this problem, we fitted an unsupervised, or unseeded, LDA model to discover 20 topics in the UN General Assembly speeches in the post-Cold War period (Table 1). 2 To make topics more interpretable, we applied the frequency and exclusivity (FREX) method that down weights common words (Roberts et al., 2014) and manually mapped 18 LDA topics to the six substantive topics, excluding two that are very difficult to interpret (aka \"garbage topics\"). We are fully aware that such post hoc interpretation and selection of topics risks error and distortions, but this is a common practice among the users of unsupervised topic models. We also evaluated the result of classification by the model using a manually coded data set (explained in the Experiment section) and found its performance was very poor: The F1 scores ranged between .01 (\"democracy\") and .28 (\"development\"), making the overall score to be F1 ¼ .13. 3",
+      "word_count": 264,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews unsupervised topic models, citing foundational papers and describing what others"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Semisupervised Topic Classification Techniques",
+      "header_norm": "semisupervised topic classification techniques",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Computer scientists have developed various types of semisupervised techniques, which exploit not only labeled documents but also unlabeled documents in training models (Chapelle et al., 2010). For example, Blum and Mitchell's (1998) \"co-training\" technique extracts features from a small number of labeled documents and uses these features to expand the training set for a better classification result. In their experiment, they iteratively expanded the training set by including the most reliable classification results from a naive Bayes classifier and achieved significantly lower prediction errors than a model without the expansion. Zelikovitz and Hirsh (2000) have proposed a technique to expand training sets by nearest neighbor classification of unlabeled documents and demonstrated that this technique is the most effective when labeled documents are short and scarce. More recently, external data such as Wikipedia have been used as a source of universal knowledge to improve classification results (Banerjee et al., 2007;Scho ¨nhofen, 2009). In the same vain, Phan et al. (2008) also trained topic models (LDA and Latent Semantic Analysis) on external data to accurately classify short documents using a supervised model. While the above models are aimed at increasing the efficiency of supervised learning, seeded models are aimed at improving the interpretability of results by using prior lexical knowledge. Lu et al. (2011) developed a technique to weight prior distribution of topics over words to detect sentences that mention specific issues. In their semisupervised LDA model, 4 pseudocounts are added to user-defined topic seed words before an LDA model is fitted. Jagarlamudi et al. (2012) modeled topics as a mixture of user-defined topics and other topics by adding extra parameters. Watanabe (2018b) developed Newsmap, a semisupervised model for geographical classification of documents, by combining dictionary analysis and the naive Bayes classifier. The model was also used for semisupervised topic classification (Watanabe, 2018a).",
+        "Naive Bayes models can classify sentences into topics accurately because each sentence usually has only one topic. However, creation of a seed word dictionary for topic classification is more difficult than for geographical classification since there are many more potential seed words for topics than for countries. Seed word selection is a two-step process in which analysts collate candidate words that potentially help to define the categories and choose only words that have little ambiguity as seed words. Usually, short texts require a greater number of seed words than long texts because there is a smaller chance that seed words occur in shorter texts than in longer texts. However, seed words that match unrelated texts significantly deteriorate the classifier's performance because false positive cases confound the true association between topics and words in the machine learning process (Jagarlamudi et al., 2012). We call words that match intended documents true seed words and those that match unintended documents false seed words. Therefore, the goal in dictionary making for semisupervised models is maximizing the number of true seed words while minimizing the number of false seed words."
+      ],
+      "footnotes": [],
+      "text": "Computer scientists have developed various types of semisupervised techniques, which exploit not only labeled documents but also unlabeled documents in training models (Chapelle et al., 2010). For example, Blum and Mitchell's (1998) \"co-training\" technique extracts features from a small number of labeled documents and uses these features to expand the training set for a better classification result. In their experiment, they iteratively expanded the training set by including the most reliable classification results from a naive Bayes classifier and achieved significantly lower prediction errors than a model without the expansion. Zelikovitz and Hirsh (2000) have proposed a technique to expand training sets by nearest neighbor classification of unlabeled documents and demonstrated that this technique is the most effective when labeled documents are short and scarce. More recently, external data such as Wikipedia have been used as a source of universal knowledge to improve classification results (Banerjee et al., 2007;Scho ¨nhofen, 2009). In the same vain, Phan et al. (2008) also trained topic models (LDA and Latent Semantic Analysis) on external data to accurately classify short documents using a supervised model. While the above models are aimed at increasing the efficiency of supervised learning, seeded models are aimed at improving the interpretability of results by using prior lexical knowledge. Lu et al. (2011) developed a technique to weight prior distribution of topics over words to detect sentences that mention specific issues. In their semisupervised LDA model, 4 pseudocounts are added to user-defined topic seed words before an LDA model is fitted. Jagarlamudi et al. (2012) modeled topics as a mixture of user-defined topics and other topics by adding extra parameters. Watanabe (2018b) developed Newsmap, a semisupervised model for geographical classification of documents, by combining dictionary analysis and the naive Bayes classifier. The model was also used for semisupervised topic classification (Watanabe, 2018a).\n\nNaive Bayes models can classify sentences into topics accurately because each sentence usually has only one topic. However, creation of a seed word dictionary for topic classification is more difficult than for geographical classification since there are many more potential seed words for topics than for countries. Seed word selection is a two-step process in which analysts collate candidate words that potentially help to define the categories and choose only words that have little ambiguity as seed words. Usually, short texts require a greater number of seed words than long texts because there is a smaller chance that seed words occur in shorter texts than in longer texts. However, seed words that match unrelated texts significantly deteriorate the classifier's performance because false positive cases confound the true association between topics and words in the machine learning process (Jagarlamudi et al., 2012). We call words that match intended documents true seed words and those that match unintended documents false seed words. Therefore, the goal in dictionary making for semisupervised models is maximizing the number of true seed words while minimizing the number of false seed words.",
+      "text_with_footnotes": "Computer scientists have developed various types of semisupervised techniques, which exploit not only labeled documents but also unlabeled documents in training models (Chapelle et al., 2010). For example, Blum and Mitchell's (1998) \"co-training\" technique extracts features from a small number of labeled documents and uses these features to expand the training set for a better classification result. In their experiment, they iteratively expanded the training set by including the most reliable classification results from a naive Bayes classifier and achieved significantly lower prediction errors than a model without the expansion. Zelikovitz and Hirsh (2000) have proposed a technique to expand training sets by nearest neighbor classification of unlabeled documents and demonstrated that this technique is the most effective when labeled documents are short and scarce. More recently, external data such as Wikipedia have been used as a source of universal knowledge to improve classification results (Banerjee et al., 2007;Scho ¨nhofen, 2009). In the same vain, Phan et al. (2008) also trained topic models (LDA and Latent Semantic Analysis) on external data to accurately classify short documents using a supervised model. While the above models are aimed at increasing the efficiency of supervised learning, seeded models are aimed at improving the interpretability of results by using prior lexical knowledge. Lu et al. (2011) developed a technique to weight prior distribution of topics over words to detect sentences that mention specific issues. In their semisupervised LDA model, 4 pseudocounts are added to user-defined topic seed words before an LDA model is fitted. Jagarlamudi et al. (2012) modeled topics as a mixture of user-defined topics and other topics by adding extra parameters. Watanabe (2018b) developed Newsmap, a semisupervised model for geographical classification of documents, by combining dictionary analysis and the naive Bayes classifier. The model was also used for semisupervised topic classification (Watanabe, 2018a).\n\nNaive Bayes models can classify sentences into topics accurately because each sentence usually has only one topic. However, creation of a seed word dictionary for topic classification is more difficult than for geographical classification since there are many more potential seed words for topics than for countries. Seed word selection is a two-step process in which analysts collate candidate words that potentially help to define the categories and choose only words that have little ambiguity as seed words. Usually, short texts require a greater number of seed words than long texts because there is a smaller chance that seed words occur in shorter texts than in longer texts. However, seed words that match unrelated texts significantly deteriorate the classifier's performance because false positive cases confound the true association between topics and words in the machine learning process (Jagarlamudi et al., 2012). We call words that match intended documents true seed words and those that match unintended documents false seed words. Therefore, the goal in dictionary making for semisupervised models is maximizing the number of true seed words while minimizing the number of false seed words.",
+      "preview_head": "Computer scientists have developed various types of semisupervised techniques, which exploit not only labeled documents but also unlabeled documents in training models (Chapelle et al., 2010). For example, Blum and Mitchell's (1998) \"co-training\" technique extracts features from a small number of labeled documents and uses these features to expand the training set for a better classification result. In their experiment, they iteratively expanded the training set by including the most reliable classification results from a naive Bayes classifier and achieved significantly lower prediction errors than a model without the expansion.",
+      "preview_tail": "However, seed words that match unrelated texts significantly deteriorate the classifier's performance because false positive cases confound the true association between topics and words in the machine learning process (Jagarlamudi et al., 2012). We call words that match intended documents true seed words and those that match unintended documents false seed words. Therefore, the goal in dictionary making for semisupervised models is maximizing the number of true seed words while minimizing the number of false seed words.",
+      "word_count": 486,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews semisupervised topic classification techniques, referencing prior work and"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Semisupervised Classification",
+      "header_norm": "semisupervised classification",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Newsmap is a semisupervised learning technique originally created to classify short news summaries according to their geographical focus (Watanabe, 2018b). Unlike full-supervised models, Newsmap does not require a manually coded training set but a seed word dictionary. First, the model searches the entire corpus for seed words in the dictionary in order to assign labels to documents; second, the labels are used to estimate the association between the labels and features. This dictionary-based learning is advantageous because (1) training of new models does not require any manual coding, (2) searching a corpus for dictionary words is not computationally intensive, and (3) dictionaries can be ported to different projects without or little modification.",
+        "However, Newsmap requires users to define all the relevant topics in a seed dictionary because it estimates features' association with a topic by comparing between their frequencies in documents with the label and all other labels, ignoring documents without labels. This exhaustiveness of topics is important not only to produce the best classification results but also to avoid arbitrary post hoc selection of topics."
+      ],
+      "footnotes": [],
+      "text": "Newsmap is a semisupervised learning technique originally created to classify short news summaries according to their geographical focus (Watanabe, 2018b). Unlike full-supervised models, Newsmap does not require a manually coded training set but a seed word dictionary. First, the model searches the entire corpus for seed words in the dictionary in order to assign labels to documents; second, the labels are used to estimate the association between the labels and features. This dictionary-based learning is advantageous because (1) training of new models does not require any manual coding, (2) searching a corpus for dictionary words is not computationally intensive, and (3) dictionaries can be ported to different projects without or little modification.\n\nHowever, Newsmap requires users to define all the relevant topics in a seed dictionary because it estimates features' association with a topic by comparing between their frequencies in documents with the label and all other labels, ignoring documents without labels. This exhaustiveness of topics is important not only to produce the best classification results but also to avoid arbitrary post hoc selection of topics.",
+      "text_with_footnotes": "Newsmap is a semisupervised learning technique originally created to classify short news summaries according to their geographical focus (Watanabe, 2018b). Unlike full-supervised models, Newsmap does not require a manually coded training set but a seed word dictionary. First, the model searches the entire corpus for seed words in the dictionary in order to assign labels to documents; second, the labels are used to estimate the association between the labels and features. This dictionary-based learning is advantageous because (1) training of new models does not require any manual coding, (2) searching a corpus for dictionary words is not computationally intensive, and (3) dictionaries can be ported to different projects without or little modification.\n\nHowever, Newsmap requires users to define all the relevant topics in a seed dictionary because it estimates features' association with a topic by comparing between their frequencies in documents with the label and all other labels, ignoring documents without labels. This exhaustiveness of topics is important not only to produce the best classification results but also to avoid arbitrary post hoc selection of topics.",
+      "preview_head": "Newsmap is a semisupervised learning technique originally created to classify short news summaries according to their geographical focus (Watanabe, 2018b). Unlike full-supervised models, Newsmap does not require a manually coded training set but a seed word dictionary. First, the model searches the entire corpus for seed words in the dictionary in order to assign labels to documents; second, the labels are used to estimate the association between the labels and features.",
+      "preview_tail": "However, Newsmap requires users to define all the relevant topics in a seed dictionary because it estimates features' association with a topic by comparing between their frequencies in documents with the label and all other labels, ignoring documents without labels. This exhaustiveness of topics is important not only to produce the best classification results but also to avoid arbitrary post hoc selection of topics.",
+      "word_count": 176,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the Newsmap technique and how it is applied, focusing on the authors' methodological"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Seed Word Selection",
+      "header_norm": "seed word selection",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "A common approach to evaluating the contribution of seed words to classification accuracy is using a manually labeled \"gold standard\" (King et al., 2017), but it might risk overfitting the seed word dictionary to the sample and making it less portable to other projects. Use of multiple samples for evaluation reduces this risk but manual coding of large amounts of the document is expensive. Therefore, we devised an heuristic approach that does not require manually coded documents in seed word selection. In this approach, analysts use coverage and entropy as diagnostic statistics to judge whether a seed word would positively or negatively contribute to classifiers' performance. Since these statistics are computed without manually coded documents, their diagnosis is only probabilistic, but we will demonstrate that they offer analysts good guidance in dictionary making in our experiments."
+      ],
+      "footnotes": [],
+      "text": "A common approach to evaluating the contribution of seed words to classification accuracy is using a manually labeled \"gold standard\" (King et al., 2017), but it might risk overfitting the seed word dictionary to the sample and making it less portable to other projects. Use of multiple samples for evaluation reduces this risk but manual coding of large amounts of the document is expensive. Therefore, we devised an heuristic approach that does not require manually coded documents in seed word selection. In this approach, analysts use coverage and entropy as diagnostic statistics to judge whether a seed word would positively or negatively contribute to classifiers' performance. Since these statistics are computed without manually coded documents, their diagnosis is only probabilistic, but we will demonstrate that they offer analysts good guidance in dictionary making in our experiments.",
+      "text_with_footnotes": "A common approach to evaluating the contribution of seed words to classification accuracy is using a manually labeled \"gold standard\" (King et al., 2017), but it might risk overfitting the seed word dictionary to the sample and making it less portable to other projects. Use of multiple samples for evaluation reduces this risk but manual coding of large amounts of the document is expensive. Therefore, we devised an heuristic approach that does not require manually coded documents in seed word selection. In this approach, analysts use coverage and entropy as diagnostic statistics to judge whether a seed word would positively or negatively contribute to classifiers' performance. Since these statistics are computed without manually coded documents, their diagnosis is only probabilistic, but we will demonstrate that they offer analysts good guidance in dictionary making in our experiments.",
+      "preview_head": "A common approach to evaluating the contribution of seed words to classification accuracy is using a manually labeled \"gold standard\" (King et al., 2017), but it might risk overfitting the seed word dictionary to the sample and making it less portable to other projects. Use of multiple samples for evaluation reduces this risk but manual coding of large amounts of the document is expensive. Therefore, we devised an heuristic approach that does not require manually coded documents in seed word selection.",
+      "preview_tail": "Therefore, we devised an heuristic approach that does not require manually coded documents in seed word selection. In this approach, analysts use coverage and entropy as diagnostic statistics to judge whether a seed word would positively or negatively contribute to classifiers' performance. Since these statistics are computed without manually coded documents, their diagnosis is only probabilistic, but we will demonstrate that they offer analysts good guidance in dictionary making in our experiments.",
+      "word_count": 136,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the approach for seed word selection, including the authors' devised heuristic, which is a"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Seed Word Coverage",
+      "header_norm": "seed word coverage",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Seed word coverage indicates the proportion of the documents in which seed words occur. While keyword coverage refers to the proportion of documents that can be classified regardless of its accuracy in simple dictionary-based topic classification, seed word coverage indicates the proportion of documents that can be used to train a model in semisupervised learning. Therefore, a higher seed word coverage is more desirable, but sentence-level classification requires many seed words to achieve this due to the small number of words in each unit."
+      ],
+      "footnotes": [],
+      "text": "Seed word coverage indicates the proportion of the documents in which seed words occur. While keyword coverage refers to the proportion of documents that can be classified regardless of its accuracy in simple dictionary-based topic classification, seed word coverage indicates the proportion of documents that can be used to train a model in semisupervised learning. Therefore, a higher seed word coverage is more desirable, but sentence-level classification requires many seed words to achieve this due to the small number of words in each unit.",
+      "text_with_footnotes": "Seed word coverage indicates the proportion of the documents in which seed words occur. While keyword coverage refers to the proportion of documents that can be classified regardless of its accuracy in simple dictionary-based topic classification, seed word coverage indicates the proportion of documents that can be used to train a model in semisupervised learning. Therefore, a higher seed word coverage is more desirable, but sentence-level classification requires many seed words to achieve this due to the small number of words in each unit.",
+      "preview_head": "Seed word coverage indicates the proportion of the documents in which seed words occur. While keyword coverage refers to the proportion of documents that can be classified regardless of its accuracy in simple dictionary-based topic classification, seed word coverage indicates the proportion of documents that can be used to train a model in semisupervised learning. Therefore, a higher seed word coverage is more desirable, but sentence-level classification requires many seed words to achieve this due to the small number of words in each unit.",
+      "preview_tail": "Seed word coverage indicates the proportion of the documents in which seed words occur. While keyword coverage refers to the proportion of documents that can be classified regardless of its accuracy in simple dictionary-based topic classification, seed word coverage indicates the proportion of documents that can be used to train a model in semisupervised learning. Therefore, a higher seed word coverage is more desirable, but sentence-level classification requires many seed words to achieve this due to the small number of words in each unit.",
+      "word_count": 84,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines and explains the metric of seed word coverage as used in the authors' methodological"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Average Feature Entropy (AFE)",
+      "header_norm": "average feature entropy afe",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "AFE statistic builds on the entropy function that is commonly used to measure uniformity of distribution produced by discrete variables in information processing:",
+        "where m is the total number of features, H is the entropy function, and F i is a vector of frequencies of features co-occurring with seed words for n topics. Feature frequencies are smoothed by adding one before computing entropy. By taking frequency of co-occurrences between seed words and all other words, AFE predicts randomness of labels given to documents that tend to deteriorate the classifiers' performance: AFE becomes high when features co-occur equally frequently with seed words for many topics, but it becomes low when they co-occur only with seed words for few topics (AFE ¼ 0 when features cooccur only with seed word for one topic). To compute this statistic, we first apply a seed word dictionary to the corpus and aggregate feature frequencies by topic labels, then compute entropy for each feature. 5"
+      ],
+      "footnotes": [],
+      "text": "AFE statistic builds on the entropy function that is commonly used to measure uniformity of distribution produced by discrete variables in information processing:\n\nwhere m is the total number of features, H is the entropy function, and F i is a vector of frequencies of features co-occurring with seed words for n topics. Feature frequencies are smoothed by adding one before computing entropy. By taking frequency of co-occurrences between seed words and all other words, AFE predicts randomness of labels given to documents that tend to deteriorate the classifiers' performance: AFE becomes high when features co-occur equally frequently with seed words for many topics, but it becomes low when they co-occur only with seed words for few topics (AFE ¼ 0 when features cooccur only with seed word for one topic). To compute this statistic, we first apply a seed word dictionary to the corpus and aggregate feature frequencies by topic labels, then compute entropy for each feature. 5",
+      "text_with_footnotes": "AFE statistic builds on the entropy function that is commonly used to measure uniformity of distribution produced by discrete variables in information processing:\n\nwhere m is the total number of features, H is the entropy function, and F i is a vector of frequencies of features co-occurring with seed words for n topics. Feature frequencies are smoothed by adding one before computing entropy. By taking frequency of co-occurrences between seed words and all other words, AFE predicts randomness of labels given to documents that tend to deteriorate the classifiers' performance: AFE becomes high when features co-occur equally frequently with seed words for many topics, but it becomes low when they co-occur only with seed words for few topics (AFE ¼ 0 when features cooccur only with seed word for one topic). To compute this statistic, we first apply a seed word dictionary to the corpus and aggregate feature frequencies by topic labels, then compute entropy for each feature. 5",
+      "preview_head": "AFE statistic builds on the entropy function that is commonly used to measure uniformity of distribution produced by discrete variables in information processing:",
+      "preview_tail": "Feature frequencies are smoothed by adding one before computing entropy. By taking frequency of co-occurrences between seed words and all other words, AFE predicts randomness of labels given to documents that tend to deteriorate the classifiers' performance: AFE becomes high when features co-occur equally frequently with seed words for many topics, but it becomes low when they co-occur only with seed words for few topics (AFE ¼ 0 when features cooccur only with seed word for one topic). To compute this statistic, we first apply a seed word dictionary to the corpus and aggregate feature frequencies by topic labels, then compute entropy for each feature. 5",
+      "word_count": 159,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the Average Feature Entropy (AFE) statistic and how it is used in the authors' analysis,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "Contextual Smoothing",
+      "header_norm": "contextual smoothing",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "A trained Newsmap model can recognize a very large number of features thanks to the semisupervised learning, but some of the sentences lack topic indicators at all. In such a case, however, we can classify those sentences by considering the topics of surrounding sentences as we did in our manual coding. Contextual smoothing does not require us to modify Newsmap's algorithm because we can simply postprocess the likelihood of topics predicted by the model: We train the classifier and predict topics in the same way as described above and smooth the likelihood using a kernel smoother to reclassify sentences into topics with the highest scores."
+      ],
+      "footnotes": [],
+      "text": "A trained Newsmap model can recognize a very large number of features thanks to the semisupervised learning, but some of the sentences lack topic indicators at all. In such a case, however, we can classify those sentences by considering the topics of surrounding sentences as we did in our manual coding. Contextual smoothing does not require us to modify Newsmap's algorithm because we can simply postprocess the likelihood of topics predicted by the model: We train the classifier and predict topics in the same way as described above and smooth the likelihood using a kernel smoother to reclassify sentences into topics with the highest scores.",
+      "text_with_footnotes": "A trained Newsmap model can recognize a very large number of features thanks to the semisupervised learning, but some of the sentences lack topic indicators at all. In such a case, however, we can classify those sentences by considering the topics of surrounding sentences as we did in our manual coding. Contextual smoothing does not require us to modify Newsmap's algorithm because we can simply postprocess the likelihood of topics predicted by the model: We train the classifier and predict topics in the same way as described above and smooth the likelihood using a kernel smoother to reclassify sentences into topics with the highest scores.",
+      "preview_head": "A trained Newsmap model can recognize a very large number of features thanks to the semisupervised learning, but some of the sentences lack topic indicators at all. In such a case, however, we can classify those sentences by considering the topics of surrounding sentences as we did in our manual coding. Contextual smoothing does not require us to modify Newsmap's algorithm because we can simply postprocess the likelihood of topics predicted by the model: We train the classifier and predict topics in the same way as described above and smooth the likelihood using a kernel smoother to reclassify sentences into topics with the highest scores.",
+      "preview_tail": "A trained Newsmap model can recognize a very large number of features thanks to the semisupervised learning, but some of the sentences lack topic indicators at all. In such a case, however, we can classify those sentences by considering the topics of surrounding sentences as we did in our manual coding. Contextual smoothing does not require us to modify Newsmap's algorithm because we can simply postprocess the likelihood of topics predicted by the model: We train the classifier and predict topics in the same way as described above and smooth the likelihood using a kernel smoother to reclassify sentences into topics with the highest scores.",
+      "word_count": 105,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the contextual smoothing technique as applied in the authors' methodology, focusing on"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Experiments",
+      "header_norm": "experiments",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "The data for our experiments are a subset of the General Debate Corpus (Baturo et al., 2017). After excluding speeches during the Cold War to ensure the consistency of topics, we sampled one speech every year from a different country (Table 2). In choosing sample countries, we kept the balance in their international influence, geographical location, and levels of industrialization. We segmented these speeches into sentences and manually classified them into five topics (\"UN,\" \"security,\" \"human rights,\" \"democracy,\" \"development\"). These topics are based on the previous studies on the UN (Smith, 2006;Zanotti, 2005), but we added \"greeting\" as a category for speakers' opening remarks, although they are unlikely to be of IR scholars' interest."
+      ],
+      "footnotes": [],
+      "text": "The data for our experiments are a subset of the General Debate Corpus (Baturo et al., 2017). After excluding speeches during the Cold War to ensure the consistency of topics, we sampled one speech every year from a different country (Table 2). In choosing sample countries, we kept the balance in their international influence, geographical location, and levels of industrialization. We segmented these speeches into sentences and manually classified them into five topics (\"UN,\" \"security,\" \"human rights,\" \"democracy,\" \"development\"). These topics are based on the previous studies on the UN (Smith, 2006;Zanotti, 2005), but we added \"greeting\" as a category for speakers' opening remarks, although they are unlikely to be of IR scholars' interest.",
+      "text_with_footnotes": "The data for our experiments are a subset of the General Debate Corpus (Baturo et al., 2017). After excluding speeches during the Cold War to ensure the consistency of topics, we sampled one speech every year from a different country (Table 2). In choosing sample countries, we kept the balance in their international influence, geographical location, and levels of industrialization. We segmented these speeches into sentences and manually classified them into five topics (\"UN,\" \"security,\" \"human rights,\" \"democracy,\" \"development\"). These topics are based on the previous studies on the UN (Smith, 2006;Zanotti, 2005), but we added \"greeting\" as a category for speakers' opening remarks, although they are unlikely to be of IR scholars' interest.",
+      "preview_head": "The data for our experiments are a subset of the General Debate Corpus (Baturo et al., 2017). After excluding speeches during the Cold War to ensure the consistency of topics, we sampled one speech every year from a different country (Table 2). In choosing sample countries, we kept the balance in their international influence, geographical location, and levels of industrialization.",
+      "preview_tail": "In choosing sample countries, we kept the balance in their international influence, geographical location, and levels of industrialization. We segmented these speeches into sentences and manually classified them into five topics (\"UN,\" \"security,\" \"human rights,\" \"democracy,\" \"development\"). These topics are based on the previous studies on the UN (Smith, 2006;Zanotti, 2005), but we added \"greeting\" as a category for speakers' opening remarks, although they are unlikely to be of IR scholars' interest.",
+      "word_count": 114,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the experimental design, data selection, and sampling procedures used by the authors,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Manual Coding",
+      "header_norm": "manual coding",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "We employ manually classified sentences as the gold standard against which we test our diagnostic tools and analytical techniques. However, sentence-level classification is not an easy task even for human coders because sentences often (1) contain more than one indicator or (2) lack a clear indication of topics. If a sentence contains multiple topics, we classify them into the most salient one; if sentences mention the UN's role in issues such as human rights protection or security assurance, we classify them into those substantive topics. If a sentence does not contain clear topic indicators, we resort to topics in surrounding sentences to classify it. 5 One of the authors, who has much experience in analyzing the corpus from a more substantive point of view, performed the manual coding. 6"
+      ],
+      "footnotes": [],
+      "text": "We employ manually classified sentences as the gold standard against which we test our diagnostic tools and analytical techniques. However, sentence-level classification is not an easy task even for human coders because sentences often (1) contain more than one indicator or (2) lack a clear indication of topics. If a sentence contains multiple topics, we classify them into the most salient one; if sentences mention the UN's role in issues such as human rights protection or security assurance, we classify them into those substantive topics. If a sentence does not contain clear topic indicators, we resort to topics in surrounding sentences to classify it. 5 One of the authors, who has much experience in analyzing the corpus from a more substantive point of view, performed the manual coding. 6",
+      "text_with_footnotes": "We employ manually classified sentences as the gold standard against which we test our diagnostic tools and analytical techniques. However, sentence-level classification is not an easy task even for human coders because sentences often (1) contain more than one indicator or (2) lack a clear indication of topics. If a sentence contains multiple topics, we classify them into the most salient one; if sentences mention the UN's role in issues such as human rights protection or security assurance, we classify them into those substantive topics. If a sentence does not contain clear topic indicators, we resort to topics in surrounding sentences to classify it. 5 One of the authors, who has much experience in analyzing the corpus from a more substantive point of view, performed the manual coding. 6",
+      "preview_head": "We employ manually classified sentences as the gold standard against which we test our diagnostic tools and analytical techniques. However, sentence-level classification is not an easy task even for human coders because sentences often (1) contain more than one indicator or (2) lack a clear indication of topics. If a sentence contains multiple topics, we classify them into the most salient one; if sentences mention the UN's role in issues such as human rights protection or security assurance, we classify them into those substantive topics.",
+      "preview_tail": "However, sentence-level classification is not an easy task even for human coders because sentences often (1) contain more than one indicator or (2) lack a clear indication of topics. If a sentence contains multiple topics, we classify them into the most salient one; if sentences mention the UN's role in issues such as human rights protection or security assurance, we classify them into those substantive topics. If a sentence does not contain clear topic indicators, we resort to topics in surrounding sentences to classify it. 5 One of the authors, who has much experience in analyzing the corpus from a more substantive point of view, performed the manual coding. 6",
+      "word_count": 129,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the manual coding process for creating a gold standard, focusing on the authors' data"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Seed Word Selection",
+      "header_norm": "seed word selection",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Seed word selection has a critical importance in seeded models. However, humans can judge the relevance of words in a list but cannot easily create such a list themselves (King et al., 2017). Therefore, we constructed two sets of seed words based on knowledge or frequency. Knowledgebased seed words are smaller sets of words selected based on researchers' background knowledge in the field, while frequency-based seed words are larger sets of words chosen from the most frequent words in the corpus. We consider knowledge-based seed words superior to frequency-based seed words because knowledge-based seed words offer operational definitions of the concepts and have greater external validity that ensures portability across corpora.",
+        "For our experiment, we read the debate transcripts carefully and consulted glossaries and indices of relevant books to select knowledge-based seed words; then we obtained a list of the 300 most frequent words in the entire corpus and manually classified the words into relevant topics as frequency-based seed words; if the knowledge-based and frequency-based sets had common elements, we removed them from the former, except the words that define the topics (i.e., names of the topics), to highlight the impact of frequent seed words in the experiment (Table 3). In other words, we aim to identify words that are both frequent and defining in our experiments.",
+        "After stemming the collected seed words to create glob patterns, we trained a Newsmap model and tested its performance by the F1 score, which is one of the standard measures in computer science. Overall, knowledge-based seed words (F1 ¼ .53) achieved slightly better than frequencybased seed words (F1 ¼ .52); a larger set combining these two performed the best (F1 ¼ .57). Classification accuracy is highest in \"development\" (F1 ¼ .65) and lowest in \"democracy\" (F1 ¼ .36) and \"human rights\" (F1 ¼ .37) in knowledge-based seed words, but \"greeting\" (F1 ¼ .23), \"human rights\" (F1 ¼ .25), and \"democracy\" (F1 ¼ .27) are even lower in frequencybased seed words (Table 4).",
+        "We also fitted a seeded LDA with the knowledge-based seed words for comparison and obtained a more interpretable model than the unseeded LDA without FREX weighting (Table 5). 7 Although there are words that are strongly associated with unexpected topics (e.g., \"peace\" and \"security\" in \"democracy\"), many of the words in our frequency-based seed words are correctly identified as topic words (e.g., \"sustainable\" and \"poverty\" in \"development\"). However, the seeded LDA achieved only F1 ¼ .40 overall even when all the seed words are used (Table 6), although it is a significant improvement from the unseeded LDA (F1 ¼ .13). Contrary to Newsmap, the seeded LDA performed better with the frequency-based set than the knowledge-based set and combining these two sets changed its classification performance only very little. The poor performance of the seeded LDA also indicates that it is very difficult to classify sentences accurately using existing tools."
+      ],
+      "footnotes": [],
+      "text": "Seed word selection has a critical importance in seeded models. However, humans can judge the relevance of words in a list but cannot easily create such a list themselves (King et al., 2017). Therefore, we constructed two sets of seed words based on knowledge or frequency. Knowledgebased seed words are smaller sets of words selected based on researchers' background knowledge in the field, while frequency-based seed words are larger sets of words chosen from the most frequent words in the corpus. We consider knowledge-based seed words superior to frequency-based seed words because knowledge-based seed words offer operational definitions of the concepts and have greater external validity that ensures portability across corpora.\n\nFor our experiment, we read the debate transcripts carefully and consulted glossaries and indices of relevant books to select knowledge-based seed words; then we obtained a list of the 300 most frequent words in the entire corpus and manually classified the words into relevant topics as frequency-based seed words; if the knowledge-based and frequency-based sets had common elements, we removed them from the former, except the words that define the topics (i.e., names of the topics), to highlight the impact of frequent seed words in the experiment (Table 3). In other words, we aim to identify words that are both frequent and defining in our experiments.\n\nAfter stemming the collected seed words to create glob patterns, we trained a Newsmap model and tested its performance by the F1 score, which is one of the standard measures in computer science. Overall, knowledge-based seed words (F1 ¼ .53) achieved slightly better than frequencybased seed words (F1 ¼ .52); a larger set combining these two performed the best (F1 ¼ .57). Classification accuracy is highest in \"development\" (F1 ¼ .65) and lowest in \"democracy\" (F1 ¼ .36) and \"human rights\" (F1 ¼ .37) in knowledge-based seed words, but \"greeting\" (F1 ¼ .23), \"human rights\" (F1 ¼ .25), and \"democracy\" (F1 ¼ .27) are even lower in frequencybased seed words (Table 4).\n\nWe also fitted a seeded LDA with the knowledge-based seed words for comparison and obtained a more interpretable model than the unseeded LDA without FREX weighting (Table 5). 7 Although there are words that are strongly associated with unexpected topics (e.g., \"peace\" and \"security\" in \"democracy\"), many of the words in our frequency-based seed words are correctly identified as topic words (e.g., \"sustainable\" and \"poverty\" in \"development\"). However, the seeded LDA achieved only F1 ¼ .40 overall even when all the seed words are used (Table 6), although it is a significant improvement from the unseeded LDA (F1 ¼ .13). Contrary to Newsmap, the seeded LDA performed better with the frequency-based set than the knowledge-based set and combining these two sets changed its classification performance only very little. The poor performance of the seeded LDA also indicates that it is very difficult to classify sentences accurately using existing tools.",
+      "text_with_footnotes": "Seed word selection has a critical importance in seeded models. However, humans can judge the relevance of words in a list but cannot easily create such a list themselves (King et al., 2017). Therefore, we constructed two sets of seed words based on knowledge or frequency. Knowledgebased seed words are smaller sets of words selected based on researchers' background knowledge in the field, while frequency-based seed words are larger sets of words chosen from the most frequent words in the corpus. We consider knowledge-based seed words superior to frequency-based seed words because knowledge-based seed words offer operational definitions of the concepts and have greater external validity that ensures portability across corpora.\n\nFor our experiment, we read the debate transcripts carefully and consulted glossaries and indices of relevant books to select knowledge-based seed words; then we obtained a list of the 300 most frequent words in the entire corpus and manually classified the words into relevant topics as frequency-based seed words; if the knowledge-based and frequency-based sets had common elements, we removed them from the former, except the words that define the topics (i.e., names of the topics), to highlight the impact of frequent seed words in the experiment (Table 3). In other words, we aim to identify words that are both frequent and defining in our experiments.\n\nAfter stemming the collected seed words to create glob patterns, we trained a Newsmap model and tested its performance by the F1 score, which is one of the standard measures in computer science. Overall, knowledge-based seed words (F1 ¼ .53) achieved slightly better than frequencybased seed words (F1 ¼ .52); a larger set combining these two performed the best (F1 ¼ .57). Classification accuracy is highest in \"development\" (F1 ¼ .65) and lowest in \"democracy\" (F1 ¼ .36) and \"human rights\" (F1 ¼ .37) in knowledge-based seed words, but \"greeting\" (F1 ¼ .23), \"human rights\" (F1 ¼ .25), and \"democracy\" (F1 ¼ .27) are even lower in frequencybased seed words (Table 4).\n\nWe also fitted a seeded LDA with the knowledge-based seed words for comparison and obtained a more interpretable model than the unseeded LDA without FREX weighting (Table 5). 7 Although there are words that are strongly associated with unexpected topics (e.g., \"peace\" and \"security\" in \"democracy\"), many of the words in our frequency-based seed words are correctly identified as topic words (e.g., \"sustainable\" and \"poverty\" in \"development\"). However, the seeded LDA achieved only F1 ¼ .40 overall even when all the seed words are used (Table 6), although it is a significant improvement from the unseeded LDA (F1 ¼ .13). Contrary to Newsmap, the seeded LDA performed better with the frequency-based set than the knowledge-based set and combining these two sets changed its classification performance only very little. The poor performance of the seeded LDA also indicates that it is very difficult to classify sentences accurately using existing tools.",
+      "preview_head": "Seed word selection has a critical importance in seeded models. However, humans can judge the relevance of words in a list but cannot easily create such a list themselves (King et al., 2017). Therefore, we constructed two sets of seed words based on knowledge or frequency.",
+      "preview_tail": "However, the seeded LDA achieved only F1 ¼ .40 overall even when all the seed words are used (Table 6), although it is a significant improvement from the unseeded LDA (F1 ¼ .13). Contrary to Newsmap, the seeded LDA performed better with the frequency-based set than the knowledge-based set and combining these two sets changed its classification performance only very little. The poor performance of the seeded LDA also indicates that it is very difficult to classify sentences accurately using existing tools.",
+      "word_count": 478,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process of seed word selection and the construction of seed word sets by the authors,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Experiment 1: Seed Word Coverage",
+      "header_norm": "experiment 1 seed word coverage",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "We randomly drew 1-7 seed words from each topic and trained a Newsmap model to understand the relationship between the seed word coverage and the classification performance. Figure 1 shows that seed word coverage is strongly correlated (r ¼ .74) with the F1 scores: They score .4 when the coverage is around 4%, but they increase to .5 when the coverage is 10%. Furthermore, the coverage is roughly the function of the number of seed words: The coverage is less than 5% when each topic has one to two seed words, but it increases to more than 10% when each has six to seven seed words. This also suggests that the optimal size of seed dictionary is approximately six to seven words for each topic in this task.",
+        "The strong positive correlation between the number of seed words and classification performance suggests that the most effective strategy in classification by Newsmap is adding as many seed words as possible to a dictionary. However, the improvement of performance slows down as the size of the dictionary grows because newly added words are often false seed words that confuses the learning process as discussed in Experiment 3."
+      ],
+      "footnotes": [],
+      "text": "We randomly drew 1-7 seed words from each topic and trained a Newsmap model to understand the relationship between the seed word coverage and the classification performance. Figure 1 shows that seed word coverage is strongly correlated (r ¼ .74) with the F1 scores: They score .4 when the coverage is around 4%, but they increase to .5 when the coverage is 10%. Furthermore, the coverage is roughly the function of the number of seed words: The coverage is less than 5% when each topic has one to two seed words, but it increases to more than 10% when each has six to seven seed words. This also suggests that the optimal size of seed dictionary is approximately six to seven words for each topic in this task.\n\nThe strong positive correlation between the number of seed words and classification performance suggests that the most effective strategy in classification by Newsmap is adding as many seed words as possible to a dictionary. However, the improvement of performance slows down as the size of the dictionary grows because newly added words are often false seed words that confuses the learning process as discussed in Experiment 3.",
+      "text_with_footnotes": "We randomly drew 1-7 seed words from each topic and trained a Newsmap model to understand the relationship between the seed word coverage and the classification performance. Figure 1 shows that seed word coverage is strongly correlated (r ¼ .74) with the F1 scores: They score .4 when the coverage is around 4%, but they increase to .5 when the coverage is 10%. Furthermore, the coverage is roughly the function of the number of seed words: The coverage is less than 5% when each topic has one to two seed words, but it increases to more than 10% when each has six to seven seed words. This also suggests that the optimal size of seed dictionary is approximately six to seven words for each topic in this task.\n\nThe strong positive correlation between the number of seed words and classification performance suggests that the most effective strategy in classification by Newsmap is adding as many seed words as possible to a dictionary. However, the improvement of performance slows down as the size of the dictionary grows because newly added words are often false seed words that confuses the learning process as discussed in Experiment 3.",
+      "preview_head": "We randomly drew 1-7 seed words from each topic and trained a Newsmap model to understand the relationship between the seed word coverage and the classification performance. Figure 1 shows that seed word coverage is strongly correlated (r ¼ .74) with the F1 scores: They score .4 when the coverage is around 4%, but they increase to .5 when the coverage is 10%. Furthermore, the coverage is roughly the function of the number of seed words: The coverage is less than 5% when each topic has one to two seed words, but it increases to more than 10% when each has six to seven seed words.",
+      "preview_tail": "The strong positive correlation between the number of seed words and classification performance suggests that the most effective strategy in classification by Newsmap is adding as many seed words as possible to a dictionary. However, the improvement of performance slows down as the size of the dictionary grows because newly added words are often false seed words that confuses the learning process as discussed in Experiment 3.",
+      "word_count": 195,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of Experiment 1, including statistical results (correlation values"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of Experiment 1, including statistical results (correlation values"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Experiment 2: Average Feature Entropy",
+      "header_norm": "experiment 2 average feature entropy",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "We incrementally expanded the dictionary by randomly drawing a seed word from the candidate set to reveal the relationship between AFE and the F1 scores (Figure 2). Starting only with the knowledge-based seed words as the most reliable benchmark, we sampled the frequency-based seed words, added them one by one (\"weapon*,\" \"econom*,\" \"war*,\" etc.) to the dictionary and computed the AFE and the F1 scores. The classifier's performance gradually increased as we added more seed words, but F1 fell sharply coinciding with a rise in AFE when we included \"people\" (20th) and \"hop*\" (30th). Changes in F1 and AFE in opposite directions can be also found in \"legal*\" (5th), \"women\" (6th), \"respect*\" (12th), \"responsib*\" (15th), \"institution*\" (19th), \"anniversary*\" (21th), and \"government*\" (27th).",
+        "We repeated the same procedure 100 times to understand the relationship between AFE and F1. Figure 3 shows that changes in the AFE and F1 are negatively correlated (r ¼ À.49, p < .001), namely, it is twice more likely that F1 decreases when a new seed word increases AFE. This result indicates that changes in AFE can be used to identify risky seed words that lead to lower classification performance if included."
+      ],
+      "footnotes": [],
+      "text": "We incrementally expanded the dictionary by randomly drawing a seed word from the candidate set to reveal the relationship between AFE and the F1 scores (Figure 2). Starting only with the knowledge-based seed words as the most reliable benchmark, we sampled the frequency-based seed words, added them one by one (\"weapon*,\" \"econom*,\" \"war*,\" etc.) to the dictionary and computed the AFE and the F1 scores. The classifier's performance gradually increased as we added more seed words, but F1 fell sharply coinciding with a rise in AFE when we included \"people\" (20th) and \"hop*\" (30th). Changes in F1 and AFE in opposite directions can be also found in \"legal*\" (5th), \"women\" (6th), \"respect*\" (12th), \"responsib*\" (15th), \"institution*\" (19th), \"anniversary*\" (21th), and \"government*\" (27th).\n\nWe repeated the same procedure 100 times to understand the relationship between AFE and F1. Figure 3 shows that changes in the AFE and F1 are negatively correlated (r ¼ À.49, p < .001), namely, it is twice more likely that F1 decreases when a new seed word increases AFE. This result indicates that changes in AFE can be used to identify risky seed words that lead to lower classification performance if included.",
+      "text_with_footnotes": "We incrementally expanded the dictionary by randomly drawing a seed word from the candidate set to reveal the relationship between AFE and the F1 scores (Figure 2). Starting only with the knowledge-based seed words as the most reliable benchmark, we sampled the frequency-based seed words, added them one by one (\"weapon*,\" \"econom*,\" \"war*,\" etc.) to the dictionary and computed the AFE and the F1 scores. The classifier's performance gradually increased as we added more seed words, but F1 fell sharply coinciding with a rise in AFE when we included \"people\" (20th) and \"hop*\" (30th). Changes in F1 and AFE in opposite directions can be also found in \"legal*\" (5th), \"women\" (6th), \"respect*\" (12th), \"responsib*\" (15th), \"institution*\" (19th), \"anniversary*\" (21th), and \"government*\" (27th).\n\nWe repeated the same procedure 100 times to understand the relationship between AFE and F1. Figure 3 shows that changes in the AFE and F1 are negatively correlated (r ¼ À.49, p < .001), namely, it is twice more likely that F1 decreases when a new seed word increases AFE. This result indicates that changes in AFE can be used to identify risky seed words that lead to lower classification performance if included.",
+      "preview_head": "We incrementally expanded the dictionary by randomly drawing a seed word from the candidate set to reveal the relationship between AFE and the F1 scores (Figure 2). Starting only with the knowledge-based seed words as the most reliable benchmark, we sampled the frequency-based seed words, added them one by one (\"weapon*,\" \"econom*,\" \"war*,\" etc.) to the dictionary and computed the AFE and the F1 scores. The classifier's performance gradually increased as we added more seed words, but F1 fell sharply coinciding with a rise in AFE when we included \"people\" (20th) and \"hop*\" (30th).",
+      "preview_tail": "We repeated the same procedure 100 times to understand the relationship between AFE and F1. Figure 3 shows that changes in the AFE and F1 are negatively correlated (r ¼ À.49, p < .001), namely, it is twice more likely that F1 decreases when a new seed word increases AFE. This result indicates that changes in AFE can be used to identify risky seed words that lead to lower classification performance if included.",
+      "word_count": 195,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of Experiment 2, including the relationship between AFE and F1, as"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of Experiment 2, including the relationship between AFE and F1, as"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Experiment 3: Selection Criteria",
+      "header_norm": "experiment 3 selection criteria",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "The results of Experiment 1 and 2 suggest that it is possible to reduce the risk of adding seed words that are likely to deteriorate the classifier's performance using the AFE statistic. In order to test this possibility, we computed changes in AFE when the frequency-based seed words are added to a dictionary only with the knowledge-based seed words.",
+        "The result showed that 7 words in \"greeting,\" 10 words in \"human rights,\" and 6 words in \"democracy\" are risky seed words (Table 7). The risky seed words are concentrated in the three topics because AFE correctly predicted that these frequency-based seed words deteriorate the classifier's performance (Table 4). If the frequency-based seed words are added to the dictionary excluding the risky seed words, its performance improved to F1 ¼ .61, which is significantly higher than only with the knowledge-based seed words (F1 ¼ .53) or with all the seed words (F1 ¼ .57). Conversely, if only the risky seed words are added to the dictionary, the classifier's performance decreased significantly (F1 ¼ .44), showing that risky seed words identified by AFE are false seed words. Changes in the classifier's performance by risky words are shown in Figure 4."
+      ],
+      "footnotes": [],
+      "text": "The results of Experiment 1 and 2 suggest that it is possible to reduce the risk of adding seed words that are likely to deteriorate the classifier's performance using the AFE statistic. In order to test this possibility, we computed changes in AFE when the frequency-based seed words are added to a dictionary only with the knowledge-based seed words.\n\nThe result showed that 7 words in \"greeting,\" 10 words in \"human rights,\" and 6 words in \"democracy\" are risky seed words (Table 7). The risky seed words are concentrated in the three topics because AFE correctly predicted that these frequency-based seed words deteriorate the classifier's performance (Table 4). If the frequency-based seed words are added to the dictionary excluding the risky seed words, its performance improved to F1 ¼ .61, which is significantly higher than only with the knowledge-based seed words (F1 ¼ .53) or with all the seed words (F1 ¼ .57). Conversely, if only the risky seed words are added to the dictionary, the classifier's performance decreased significantly (F1 ¼ .44), showing that risky seed words identified by AFE are false seed words. Changes in the classifier's performance by risky words are shown in Figure 4.",
+      "text_with_footnotes": "The results of Experiment 1 and 2 suggest that it is possible to reduce the risk of adding seed words that are likely to deteriorate the classifier's performance using the AFE statistic. In order to test this possibility, we computed changes in AFE when the frequency-based seed words are added to a dictionary only with the knowledge-based seed words.\n\nThe result showed that 7 words in \"greeting,\" 10 words in \"human rights,\" and 6 words in \"democracy\" are risky seed words (Table 7). The risky seed words are concentrated in the three topics because AFE correctly predicted that these frequency-based seed words deteriorate the classifier's performance (Table 4). If the frequency-based seed words are added to the dictionary excluding the risky seed words, its performance improved to F1 ¼ .61, which is significantly higher than only with the knowledge-based seed words (F1 ¼ .53) or with all the seed words (F1 ¼ .57). Conversely, if only the risky seed words are added to the dictionary, the classifier's performance decreased significantly (F1 ¼ .44), showing that risky seed words identified by AFE are false seed words. Changes in the classifier's performance by risky words are shown in Figure 4.",
+      "preview_head": "The results of Experiment 1 and 2 suggest that it is possible to reduce the risk of adding seed words that are likely to deteriorate the classifier's performance using the AFE statistic. In order to test this possibility, we computed changes in AFE when the frequency-based seed words are added to a dictionary only with the knowledge-based seed words.",
+      "preview_tail": "If the frequency-based seed words are added to the dictionary excluding the risky seed words, its performance improved to F1 ¼ .61, which is significantly higher than only with the knowledge-based seed words (F1 ¼ .53) or with all the seed words (F1 ¼ .57). Conversely, if only the risky seed words are added to the dictionary, the classifier's performance decreased significantly (F1 ¼ .44), showing that risky seed words identified by AFE are false seed words. Changes in the classifier's performance by risky words are shown in Figure 4.",
+      "word_count": 198,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of Experiment 3, including performance improvements and F1 scores."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Experiment 4: Contextual Smoothing",
+      "header_norm": "experiment 4 contextual smoothing",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "We constructed a dictionary excluding the risky seed words and trained a Newsmap model to achieve the best performance of the classifier, but the model still cannot classify sentences that lack topic indicators at all. Human coders can resort to surrounding topics to classify such sentences but Newsmap models cannot. To mimic manual classification, we predicted topics of individual sentences and smoothed the topic likelihood ratios by Daniell kernel with window size m ¼ 3 to reclassify them. With this window size, we take topics of three preceding and succeeding sentences into consideration to identify the topic of the current sentence. Figure 5 shows that the smoothed Table 7. Risky Seed Words Identified by Average Feature Entropy."
+      ],
+      "footnotes": [],
+      "text": "We constructed a dictionary excluding the risky seed words and trained a Newsmap model to achieve the best performance of the classifier, but the model still cannot classify sentences that lack topic indicators at all. Human coders can resort to surrounding topics to classify such sentences but Newsmap models cannot. To mimic manual classification, we predicted topics of individual sentences and smoothed the topic likelihood ratios by Daniell kernel with window size m ¼ 3 to reclassify them. With this window size, we take topics of three preceding and succeeding sentences into consideration to identify the topic of the current sentence. Figure 5 shows that the smoothed Table 7. Risky Seed Words Identified by Average Feature Entropy.",
+      "text_with_footnotes": "We constructed a dictionary excluding the risky seed words and trained a Newsmap model to achieve the best performance of the classifier, but the model still cannot classify sentences that lack topic indicators at all. Human coders can resort to surrounding topics to classify such sentences but Newsmap models cannot. To mimic manual classification, we predicted topics of individual sentences and smoothed the topic likelihood ratios by Daniell kernel with window size m ¼ 3 to reclassify them. With this window size, we take topics of three preceding and succeeding sentences into consideration to identify the topic of the current sentence. Figure 5 shows that the smoothed Table 7. Risky Seed Words Identified by Average Feature Entropy.",
+      "preview_head": "We constructed a dictionary excluding the risky seed words and trained a Newsmap model to achieve the best performance of the classifier, but the model still cannot classify sentences that lack topic indicators at all. Human coders can resort to surrounding topics to classify such sentences but Newsmap models cannot. To mimic manual classification, we predicted topics of individual sentences and smoothed the topic likelihood ratios by Daniell kernel with window size m ¼ 3 to reclassify them.",
+      "preview_tail": "With this window size, we take topics of three preceding and succeeding sentences into consideration to identify the topic of the current sentence. Figure 5 shows that the smoothed Table 7. Risky Seed Words Identified by Average Feature Entropy.",
+      "word_count": 117,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of Experiment 4, describing model performance and referencing a fi"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Topic",
+      "header_norm": "topic",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Seed Words Greeting great*, mr, wish*, hop*, contribut*, anniversar*, welcom* Human rights humanitarian, child*, women, refugee*, communit*, people, respect*, responsib*, food*, health* Democracy party, institution*, law*, republic*, free*, legal* Note. These words are likely to confuse learning process if included in the seed word dictionary. likelihood ratios can capture the actual transition of topics in a speech made by the representative of Ukraine in 1993.",
+        "The contextual smoothing improved the result of classification from F1 ¼ .61 to .72 overall. Table 8 and Figure 6 show that smoothing had a significant positive effect in most of the cases, especially in Ukraine (þ.22), Mexico (þ.24), Russia (þ.26), Sweden (þ.22), and France (þ.21). Although the classification accuracy of the United States (F1 ¼ .56) and France (F1 ¼ .61) is still low in absolute terms because of the low F1 scores in \"human rights\" and \"emocracy\" that speakers of the two countries tend to emphasize, the result clearly shows the effectiveness of contextual smoothing in sentence classification. In Tunisia (À.15), Turkmenistan (À.10), and Zimbabwe (À.05), however, contextual smoothing had negative effect on the classification result. This is primarily because their speeches are relatively short in the number of sentences, and the Note. We find improvement in the F1 scores all but three countries (Tunisia, Turkmenistan, and Zimbabwe). window size was too large. For example, Figure 7 shows that smoothing does not keep up with the rapid change in the topics in the speech by the representative of Turkmenistan in 2009, which was only in 68-sentence long."
+      ],
+      "footnotes": [],
+      "text": "Seed Words Greeting great*, mr, wish*, hop*, contribut*, anniversar*, welcom* Human rights humanitarian, child*, women, refugee*, communit*, people, respect*, responsib*, food*, health* Democracy party, institution*, law*, republic*, free*, legal* Note. These words are likely to confuse learning process if included in the seed word dictionary. likelihood ratios can capture the actual transition of topics in a speech made by the representative of Ukraine in 1993.\n\nThe contextual smoothing improved the result of classification from F1 ¼ .61 to .72 overall. Table 8 and Figure 6 show that smoothing had a significant positive effect in most of the cases, especially in Ukraine (þ.22), Mexico (þ.24), Russia (þ.26), Sweden (þ.22), and France (þ.21). Although the classification accuracy of the United States (F1 ¼ .56) and France (F1 ¼ .61) is still low in absolute terms because of the low F1 scores in \"human rights\" and \"emocracy\" that speakers of the two countries tend to emphasize, the result clearly shows the effectiveness of contextual smoothing in sentence classification. In Tunisia (À.15), Turkmenistan (À.10), and Zimbabwe (À.05), however, contextual smoothing had negative effect on the classification result. This is primarily because their speeches are relatively short in the number of sentences, and the Note. We find improvement in the F1 scores all but three countries (Tunisia, Turkmenistan, and Zimbabwe). window size was too large. For example, Figure 7 shows that smoothing does not keep up with the rapid change in the topics in the speech by the representative of Turkmenistan in 2009, which was only in 68-sentence long.",
+      "text_with_footnotes": "Seed Words Greeting great*, mr, wish*, hop*, contribut*, anniversar*, welcom* Human rights humanitarian, child*, women, refugee*, communit*, people, respect*, responsib*, food*, health* Democracy party, institution*, law*, republic*, free*, legal* Note. These words are likely to confuse learning process if included in the seed word dictionary. likelihood ratios can capture the actual transition of topics in a speech made by the representative of Ukraine in 1993.\n\nThe contextual smoothing improved the result of classification from F1 ¼ .61 to .72 overall. Table 8 and Figure 6 show that smoothing had a significant positive effect in most of the cases, especially in Ukraine (þ.22), Mexico (þ.24), Russia (þ.26), Sweden (þ.22), and France (þ.21). Although the classification accuracy of the United States (F1 ¼ .56) and France (F1 ¼ .61) is still low in absolute terms because of the low F1 scores in \"human rights\" and \"emocracy\" that speakers of the two countries tend to emphasize, the result clearly shows the effectiveness of contextual smoothing in sentence classification. In Tunisia (À.15), Turkmenistan (À.10), and Zimbabwe (À.05), however, contextual smoothing had negative effect on the classification result. This is primarily because their speeches are relatively short in the number of sentences, and the Note. We find improvement in the F1 scores all but three countries (Tunisia, Turkmenistan, and Zimbabwe). window size was too large. For example, Figure 7 shows that smoothing does not keep up with the rapid change in the topics in the speech by the representative of Turkmenistan in 2009, which was only in 68-sentence long.",
+      "preview_head": "Seed Words Greeting great*, mr, wish*, hop*, contribut*, anniversar*, welcom* Human rights humanitarian, child*, women, refugee*, communit*, people, respect*, responsib*, food*, health* Democracy party, institution*, law*, republic*, free*, legal* Note. These words are likely to confuse learning process if included in the seed word dictionary. likelihood ratios can capture the actual transition of topics in a speech made by the representative of Ukraine in 1993.",
+      "preview_tail": "This is primarily because their speeches are relatively short in the number of sentences, and the Note. We find improvement in the F1 scores all but three countries (Tunisia, Turkmenistan, and Zimbabwe). window size was too large. For example, Figure 7 shows that smoothing does not keep up with the rapid change in the topics in the speech by the representative of Turkmenistan in 2009, which was only in 68-sentence long.",
+      "word_count": 254,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents empirical findings about seed words and F1 score improvements for countries."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "Proposed Dictionary-Making Procedure",
+      "header_norm": "proposed dictionary making procedure",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Our experiments suggest that the best strategy in dictionary making for semisupervised models is increasing the number of seed words to maximize the seed word coverage while avoiding false seed words that damage classifiers' performance. Researchers can easily increase the number of seed words if they collect frequent words from corpora but some of them can be false seed words. Therefore, we propose the following procedure as the best practice in seed word dictionary making employing the AFE statistic."
+      ],
+      "footnotes": [],
+      "text": "Our experiments suggest that the best strategy in dictionary making for semisupervised models is increasing the number of seed words to maximize the seed word coverage while avoiding false seed words that damage classifiers' performance. Researchers can easily increase the number of seed words if they collect frequent words from corpora but some of them can be false seed words. Therefore, we propose the following procedure as the best practice in seed word dictionary making employing the AFE statistic.",
+      "text_with_footnotes": "Our experiments suggest that the best strategy in dictionary making for semisupervised models is increasing the number of seed words to maximize the seed word coverage while avoiding false seed words that damage classifiers' performance. Researchers can easily increase the number of seed words if they collect frequent words from corpora but some of them can be false seed words. Therefore, we propose the following procedure as the best practice in seed word dictionary making employing the AFE statistic.",
+      "preview_head": "Our experiments suggest that the best strategy in dictionary making for semisupervised models is increasing the number of seed words to maximize the seed word coverage while avoiding false seed words that damage classifiers' performance. Researchers can easily increase the number of seed words if they collect frequent words from corpora but some of them can be false seed words. Therefore, we propose the following procedure as the best practice in seed word dictionary making employing the AFE statistic.",
+      "preview_tail": "Our experiments suggest that the best strategy in dictionary making for semisupervised models is increasing the number of seed words to maximize the seed word coverage while avoiding false seed words that damage classifiers' performance. Researchers can easily increase the number of seed words if they collect frequent words from corpora but some of them can be false seed words. Therefore, we propose the following procedure as the best practice in seed word dictionary making employing the AFE statistic.",
+      "word_count": 79,
+      "paragraph_count": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the experimental results and provides recommendations for dictionary-making."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Identify Categories",
+      "header_norm": "identify categories",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Researchers identify category of document classification based on literature in the field. Categories should be identified based on the theoretical framework of the study or adopted from earlier quantitative or qualitative text analysis studies."
+      ],
+      "footnotes": [],
+      "text": "Researchers identify category of document classification based on literature in the field. Categories should be identified based on the theoretical framework of the study or adopted from earlier quantitative or qualitative text analysis studies.",
+      "text_with_footnotes": "Researchers identify category of document classification based on literature in the field. Categories should be identified based on the theoretical framework of the study or adopted from earlier quantitative or qualitative text analysis studies.",
+      "preview_head": "Researchers identify category of document classification based on literature in the field. Categories should be identified based on the theoretical framework of the study or adopted from earlier quantitative or qualitative text analysis studies.",
+      "preview_tail": "Researchers identify category of document classification based on literature in the field. Categories should be identified based on the theoretical framework of the study or adopted from earlier quantitative or qualitative text analysis studies.",
+      "word_count": 34,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the procedure for identifying document categories, which is a methodological "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Operationalize Categories",
+      "header_norm": "operationalize categories",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Researchers define categories by a set of words that are collected from either the corpus or other sources (i.e., thesauri, glossaries, and indices of books). Selection of words should be solely based on the researchers' knowledge of relevant discourses ignoring their frequencies in the corpus (knowledge-based selection). Researchers should always consider whether the operationalization is valid for the same categories in other corpora."
+      ],
+      "footnotes": [],
+      "text": "Researchers define categories by a set of words that are collected from either the corpus or other sources (i.e., thesauri, glossaries, and indices of books). Selection of words should be solely based on the researchers' knowledge of relevant discourses ignoring their frequencies in the corpus (knowledge-based selection). Researchers should always consider whether the operationalization is valid for the same categories in other corpora.",
+      "text_with_footnotes": "Researchers define categories by a set of words that are collected from either the corpus or other sources (i.e., thesauri, glossaries, and indices of books). Selection of words should be solely based on the researchers' knowledge of relevant discourses ignoring their frequencies in the corpus (knowledge-based selection). Researchers should always consider whether the operationalization is valid for the same categories in other corpora.",
+      "preview_head": "Researchers define categories by a set of words that are collected from either the corpus or other sources (i.e., thesauri, glossaries, and indices of books). Selection of words should be solely based on the researchers' knowledge of relevant discourses ignoring their frequencies in the corpus (knowledge-based selection). Researchers should always consider whether the operationalization is valid for the same categories in other corpora.",
+      "preview_tail": "Researchers define categories by a set of words that are collected from either the corpus or other sources (i.e., thesauri, glossaries, and indices of books). Selection of words should be solely based on the researchers' knowledge of relevant discourses ignoring their frequencies in the corpus (knowledge-based selection). Researchers should always consider whether the operationalization is valid for the same categories in other corpora.",
+      "word_count": 63,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details how categories are operationalized, which is a methodological step."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "Improve Seed Word Coverage",
+      "header_norm": "improve seed word coverage",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "Researchers collect a set of words that are frequent in the corpus to increase the number of documents that can be used to train the semisupervised machine learning model (frequency-based selection). These seed words can be collected from a list of most frequent words (term or document frequency) in the corpus but they must be semantically equivalent to the knowledge-based seed words. Seed words that increase seed word coverage usually have great impact on the classifier's performance either positively or negatively. In order to minimize the risk of including false seed words, researchers should monitor changes in AFE relative to the value when only the knowledgebased seed words are included. If a frequency-based seed word increases AFE, researchers should check carefully if the seed word occur only in relevant documents using a keyword-in-context tool before adding them to the dictionary."
+      ],
+      "footnotes": [],
+      "text": "Researchers collect a set of words that are frequent in the corpus to increase the number of documents that can be used to train the semisupervised machine learning model (frequency-based selection). These seed words can be collected from a list of most frequent words (term or document frequency) in the corpus but they must be semantically equivalent to the knowledge-based seed words. Seed words that increase seed word coverage usually have great impact on the classifier's performance either positively or negatively. In order to minimize the risk of including false seed words, researchers should monitor changes in AFE relative to the value when only the knowledgebased seed words are included. If a frequency-based seed word increases AFE, researchers should check carefully if the seed word occur only in relevant documents using a keyword-in-context tool before adding them to the dictionary.",
+      "text_with_footnotes": "Researchers collect a set of words that are frequent in the corpus to increase the number of documents that can be used to train the semisupervised machine learning model (frequency-based selection). These seed words can be collected from a list of most frequent words (term or document frequency) in the corpus but they must be semantically equivalent to the knowledge-based seed words. Seed words that increase seed word coverage usually have great impact on the classifier's performance either positively or negatively. In order to minimize the risk of including false seed words, researchers should monitor changes in AFE relative to the value when only the knowledgebased seed words are included. If a frequency-based seed word increases AFE, researchers should check carefully if the seed word occur only in relevant documents using a keyword-in-context tool before adding them to the dictionary.",
+      "preview_head": "Researchers collect a set of words that are frequent in the corpus to increase the number of documents that can be used to train the semisupervised machine learning model (frequency-based selection). These seed words can be collected from a list of most frequent words (term or document frequency) in the corpus but they must be semantically equivalent to the knowledge-based seed words. Seed words that increase seed word coverage usually have great impact on the classifier's performance either positively or negatively.",
+      "preview_tail": "These seed words can be collected from a list of most frequent words (term or document frequency) in the corpus but they must be semantically equivalent to the knowledge-based seed words. Seed words that increase seed word coverage usually have great impact on the classifier's performance either positively or negatively. In order to minimize the risk of including false seed words, researchers should monitor changes in AFE relative to the value when only the knowledgebased seed words are included. If a frequency-based seed word increases AFE, researchers should check carefully if the seed word occur only in relevant documents using a keyword-in-context tool before adding them to the dictionary.",
+      "word_count": 140,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how to improve seed word coverage, which is a methodological procedure."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Example",
+      "header_norm": "example",
+      "container_raw": "Problems of Existing Methods",
+      "container_norm": "problems of existing methods",
+      "is_container": false,
+      "paragraphs": [
+        "We classified all the sentences of speeches by the five permanent members of the UN Security Council to demonstrate a possible application of the techniques described above (Figure 8). First, the figure reveals that the proportion of \"UN\" have decreased significantly because the peacekeeping and Security Council reforms, which have been became prevalent issues after the end of the Cold War, lost their importance in more recent years. Second, \"human rights\" and \"democracy\" became more visible in the United States, Britain, and France in the latter period, but they almost disappeared in China. This result might challenge the conventional wisdom that economic development can cause democratization (Huber et al., 1993). Third, \"security\" has increased considerably in the UK and France after 2011 because the 9/11 attack raised European countries' security concerns (Nesser, 2008)."
+      ],
+      "footnotes": [],
+      "text": "We classified all the sentences of speeches by the five permanent members of the UN Security Council to demonstrate a possible application of the techniques described above (Figure 8). First, the figure reveals that the proportion of \"UN\" have decreased significantly because the peacekeeping and Security Council reforms, which have been became prevalent issues after the end of the Cold War, lost their importance in more recent years. Second, \"human rights\" and \"democracy\" became more visible in the United States, Britain, and France in the latter period, but they almost disappeared in China. This result might challenge the conventional wisdom that economic development can cause democratization (Huber et al., 1993). Third, \"security\" has increased considerably in the UK and France after 2011 because the 9/11 attack raised European countries' security concerns (Nesser, 2008).",
+      "text_with_footnotes": "We classified all the sentences of speeches by the five permanent members of the UN Security Council to demonstrate a possible application of the techniques described above (Figure 8). First, the figure reveals that the proportion of \"UN\" have decreased significantly because the peacekeeping and Security Council reforms, which have been became prevalent issues after the end of the Cold War, lost their importance in more recent years. Second, \"human rights\" and \"democracy\" became more visible in the United States, Britain, and France in the latter period, but they almost disappeared in China. This result might challenge the conventional wisdom that economic development can cause democratization (Huber et al., 1993). Third, \"security\" has increased considerably in the UK and France after 2011 because the 9/11 attack raised European countries' security concerns (Nesser, 2008).",
+      "preview_head": "We classified all the sentences of speeches by the five permanent members of the UN Security Council to demonstrate a possible application of the techniques described above (Figure 8). First, the figure reveals that the proportion of \"UN\" have decreased significantly because the peacekeeping and Security Council reforms, which have been became prevalent issues after the end of the Cold War, lost their importance in more recent years. Second, \"human rights\" and \"democracy\" became more visible in the United States, Britain, and France in the latter period, but they almost disappeared in China.",
+      "preview_tail": "Second, \"human rights\" and \"democracy\" became more visible in the United States, Britain, and France in the latter period, but they almost disappeared in China. This result might challenge the conventional wisdom that economic development can cause democratization (Huber et al., 1993). Third, \"security\" has increased considerably in the UK and France after 2011 because the 9/11 attack raised European countries' security concerns (Nesser, 2008).",
+      "word_count": 133,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of applying the classification techniques to UN Security Council sp"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Watanabe and Zhou - 2022 - Theory-Driven Analysis of Large Corpora Semisupervised Topic Classification of the UN Speeches",
+      "sec_index": 24,
+      "depth": 0,
+      "header_raw": "Conclusions",
+      "header_norm": "conclusions",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Compared to unsupervised topic models and simple dictionary analysis, the advantage of the semisupervised classification is clear in IR research: (1) Researchers can define categories of classification using seed words to make their analysis consistent with existing theoretical frameworks and (2) they only need to choose a small number of seed words for each category to classify documents correctly. In the experiments, we have demonstrated that Newsmap can identify topics of more than half of sentences with only a few seed words for each topic and its accuracy exceeded 60% when more seed words were added. In contrast, the simple dictionary analysis could classify only 25% of sentences and the seeded LDA only 40% of setences correctly, highlighting the difficulty in classifying short texts using existing tools.",
+        "The seeded LDA underperformed Newsmap, presumably because the model has inappropriate assumption for sentence classification and excessive complexity considering the small number of seed words available. LDA models assume documents to have multiple topics but sentences of speeches usually have only one topic. The complexity of the model also demands a greater amount of weak supervision to sufficiently learn. The greater cost of training the seeded LDA is clear as it performs better with frequency-based seed words than knowledge-based seed words. Nevertheless, we admit that further investigation is required to make conclusive remarks on the seeded LDA models. The model would outperform Newsmap when documents are longer or it is trained with a sufficiently large number of seed words.",
+        "The semisupervised classification technique is particularly useful when researchers apply quantitative text analysis in new fields because training sets for full-supervised models are very expensive to produce and keyword dictionaries are often unavailable outside comparative politics or political communication and nearly nonexistent in non-European languages. While it is infeasible for underresourced researchers to create a large keyword dictionary from scratch, they can easily create a seed word dictionary for semisupervised models because the number of words required for a seed word dictionary is a fraction of a keyword dictionary.",
+        "Semisupervised document classification is also an alternative approach to multilingual text analysis, which is becoming increasingly important in recent years. Multilingual analysis can be achieved by translating a keyword dictionary (Proksch et al., n.d.) or a corpus (De Vries et al., 2018), but it can also be done only by translating a seed word dictionary if a semisupervised model is employed. In fact, Newsmap performs multilingual geographical classification of news articles using seed word dictionaries in more than 10 European and non-European languages. 8 However, we recognized that the difficulty in making a proper seed word dictionary is an obstacle for researchers to employ semisupervised models. For this reason, we created the AFE statistic as a diagnostic tool that does not require manually coded documents as the gold standard. We argue that seed word dictionaries should be constructed based primarily on theory, but they should also include frequent words to produce good classification results. Inclusion of frequent false seed words to a seed word dictionary hugely damages the classifier's performance, but researchers can reduce this risk by monitoring relative changes in AFE.",
+        "The AFE statistic allowed us to achieve a higher classification accuracy by removing many of the frequency-based seed words in \"greeting,\" \"human rights,\" and \"democracy\" in our experiment, but it is still likely that some of them were true seed words that could improve the classifier's performance if included. This did not occur in our experiment probably because our knowledgebased seed words were not entirely appropriate, and some of the true frequent seed words were wrongly identified as risky seed words. This shows how difficult it is to operationalize abstract concepts such as human rights and democracy using words, but we believe it is possible as a collective endeavor: Researchers who employ semisupervised models should publish their seed word dictionaries to allow others to refine them by adding or removing words; words that are commonly used in these seed word dictionaries will be the knowledge-based seed words that are independent of corpora.",
+        "Contextual smoothing of topic probability is an auxiliary technique in this study, which is not directly related to the semisupervised models, but we believe that this technique can be useful in many studies. We expect that the contextual smoothing technique would improve classification accuracy of sentences in various machine learning models without changing model assumptions and specifications. This is the primary reason that we decided to train the Newsmap model on individual sentences instead of temporal groups of sentences, although training on both labeled sentences and surrounding unlabeled sentences is closer to semisupervised learning techniques in computer science (Zelikovitz & Hirsh, 2000).",
+        "Nevertheless, contextual smoothing does not always perform well as we saw in the experiment: The classifier's performance deteriorated when it was applied to relatively short speeches. In fact, we found a positive correlation between the number of sentences and the changes in the F1 scores (r ¼ .38), which suggest that the window size should be smaller depending on the length of the speech that sentences compose. More importantly, contextual smoothing has negative impact on the classification results when topics changes between sentences in any length of speech. Although we did not develop algorithms to adjust window sizes to tackle this problem, we expect that common words in adjacent sentences will offer useful information to achieve this in future research.",
+        "Another limitation of this study is that we only tested our approach on the corpus of the UN General Assembly speeches. We believe that the proposed seed word selection procedure holds conceptually in wider research settings, but the AFE statistic would behave differently depending on the types of texts and the categories for classification. Since AFE is created for classification of sentences, which usually have only one topic each, its behavior can be different when it is applied to entire documents. For this reason, we recommend users of AFE to segment documents into the smallest unit (e.g., sentences or paragraphs) in seed word dictionary making. After a seed word dictionary has been created, they can apply the dictionary to train a Newsmap model on entire documents. This seems possible because Newsmap has already demonstrated its ability to classify longer texts correctly (Lankina & Watanabe, 2017;Watanabe, 2017) despite its geographical dictionary was created for news summaries originally. Relatedly, classification categories should also be mutually exclusive for AFE because it gauges co-occurrences of words with seed words in different categories to detect risky seed words. To avoid this problem, we recommend users to define smallest categories in a dictionary and aggregate them after classification. Newsmap takes similar approach in classification of oversea territories of European countries (e.g., British Virgin Islands and French Guiana).",
+        "Finally, we hope the readers of this article understand the strengths and weaknesses of semisupervised models vis-à-vis popular unsupervised topic models and simple dictionary analysis. Use of semisupervised models requires knowledge of both methodology and substance, but there will be an increasing number of young political scientists who understand both aspects. We hope our work will encourage them to embark on quantitative analysis of documents in understudied subjects and languages on the horizon of quantitative text analysis."
+      ],
+      "footnotes": [],
+      "text": "Compared to unsupervised topic models and simple dictionary analysis, the advantage of the semisupervised classification is clear in IR research: (1) Researchers can define categories of classification using seed words to make their analysis consistent with existing theoretical frameworks and (2) they only need to choose a small number of seed words for each category to classify documents correctly. In the experiments, we have demonstrated that Newsmap can identify topics of more than half of sentences with only a few seed words for each topic and its accuracy exceeded 60% when more seed words were added. In contrast, the simple dictionary analysis could classify only 25% of sentences and the seeded LDA only 40% of setences correctly, highlighting the difficulty in classifying short texts using existing tools.\n\nThe seeded LDA underperformed Newsmap, presumably because the model has inappropriate assumption for sentence classification and excessive complexity considering the small number of seed words available. LDA models assume documents to have multiple topics but sentences of speeches usually have only one topic. The complexity of the model also demands a greater amount of weak supervision to sufficiently learn. The greater cost of training the seeded LDA is clear as it performs better with frequency-based seed words than knowledge-based seed words. Nevertheless, we admit that further investigation is required to make conclusive remarks on the seeded LDA models. The model would outperform Newsmap when documents are longer or it is trained with a sufficiently large number of seed words.\n\nThe semisupervised classification technique is particularly useful when researchers apply quantitative text analysis in new fields because training sets for full-supervised models are very expensive to produce and keyword dictionaries are often unavailable outside comparative politics or political communication and nearly nonexistent in non-European languages. While it is infeasible for underresourced researchers to create a large keyword dictionary from scratch, they can easily create a seed word dictionary for semisupervised models because the number of words required for a seed word dictionary is a fraction of a keyword dictionary.\n\nSemisupervised document classification is also an alternative approach to multilingual text analysis, which is becoming increasingly important in recent years. Multilingual analysis can be achieved by translating a keyword dictionary (Proksch et al., n.d.) or a corpus (De Vries et al., 2018), but it can also be done only by translating a seed word dictionary if a semisupervised model is employed. In fact, Newsmap performs multilingual geographical classification of news articles using seed word dictionaries in more than 10 European and non-European languages. 8 However, we recognized that the difficulty in making a proper seed word dictionary is an obstacle for researchers to employ semisupervised models. For this reason, we created the AFE statistic as a diagnostic tool that does not require manually coded documents as the gold standard. We argue that seed word dictionaries should be constructed based primarily on theory, but they should also include frequent words to produce good classification results. Inclusion of frequent false seed words to a seed word dictionary hugely damages the classifier's performance, but researchers can reduce this risk by monitoring relative changes in AFE.\n\nThe AFE statistic allowed us to achieve a higher classification accuracy by removing many of the frequency-based seed words in \"greeting,\" \"human rights,\" and \"democracy\" in our experiment, but it is still likely that some of them were true seed words that could improve the classifier's performance if included. This did not occur in our experiment probably because our knowledgebased seed words were not entirely appropriate, and some of the true frequent seed words were wrongly identified as risky seed words. This shows how difficult it is to operationalize abstract concepts such as human rights and democracy using words, but we believe it is possible as a collective endeavor: Researchers who employ semisupervised models should publish their seed word dictionaries to allow others to refine them by adding or removing words; words that are commonly used in these seed word dictionaries will be the knowledge-based seed words that are independent of corpora.\n\nContextual smoothing of topic probability is an auxiliary technique in this study, which is not directly related to the semisupervised models, but we believe that this technique can be useful in many studies. We expect that the contextual smoothing technique would improve classification accuracy of sentences in various machine learning models without changing model assumptions and specifications. This is the primary reason that we decided to train the Newsmap model on individual sentences instead of temporal groups of sentences, although training on both labeled sentences and surrounding unlabeled sentences is closer to semisupervised learning techniques in computer science (Zelikovitz & Hirsh, 2000).\n\nNevertheless, contextual smoothing does not always perform well as we saw in the experiment: The classifier's performance deteriorated when it was applied to relatively short speeches. In fact, we found a positive correlation between the number of sentences and the changes in the F1 scores (r ¼ .38), which suggest that the window size should be smaller depending on the length of the speech that sentences compose. More importantly, contextual smoothing has negative impact on the classification results when topics changes between sentences in any length of speech. Although we did not develop algorithms to adjust window sizes to tackle this problem, we expect that common words in adjacent sentences will offer useful information to achieve this in future research.\n\nAnother limitation of this study is that we only tested our approach on the corpus of the UN General Assembly speeches. We believe that the proposed seed word selection procedure holds conceptually in wider research settings, but the AFE statistic would behave differently depending on the types of texts and the categories for classification. Since AFE is created for classification of sentences, which usually have only one topic each, its behavior can be different when it is applied to entire documents. For this reason, we recommend users of AFE to segment documents into the smallest unit (e.g., sentences or paragraphs) in seed word dictionary making. After a seed word dictionary has been created, they can apply the dictionary to train a Newsmap model on entire documents. This seems possible because Newsmap has already demonstrated its ability to classify longer texts correctly (Lankina & Watanabe, 2017;Watanabe, 2017) despite its geographical dictionary was created for news summaries originally. Relatedly, classification categories should also be mutually exclusive for AFE because it gauges co-occurrences of words with seed words in different categories to detect risky seed words. To avoid this problem, we recommend users to define smallest categories in a dictionary and aggregate them after classification. Newsmap takes similar approach in classification of oversea territories of European countries (e.g., British Virgin Islands and French Guiana).\n\nFinally, we hope the readers of this article understand the strengths and weaknesses of semisupervised models vis-à-vis popular unsupervised topic models and simple dictionary analysis. Use of semisupervised models requires knowledge of both methodology and substance, but there will be an increasing number of young political scientists who understand both aspects. We hope our work will encourage them to embark on quantitative analysis of documents in understudied subjects and languages on the horizon of quantitative text analysis.",
+      "text_with_footnotes": "Compared to unsupervised topic models and simple dictionary analysis, the advantage of the semisupervised classification is clear in IR research: (1) Researchers can define categories of classification using seed words to make their analysis consistent with existing theoretical frameworks and (2) they only need to choose a small number of seed words for each category to classify documents correctly. In the experiments, we have demonstrated that Newsmap can identify topics of more than half of sentences with only a few seed words for each topic and its accuracy exceeded 60% when more seed words were added. In contrast, the simple dictionary analysis could classify only 25% of sentences and the seeded LDA only 40% of setences correctly, highlighting the difficulty in classifying short texts using existing tools.\n\nThe seeded LDA underperformed Newsmap, presumably because the model has inappropriate assumption for sentence classification and excessive complexity considering the small number of seed words available. LDA models assume documents to have multiple topics but sentences of speeches usually have only one topic. The complexity of the model also demands a greater amount of weak supervision to sufficiently learn. The greater cost of training the seeded LDA is clear as it performs better with frequency-based seed words than knowledge-based seed words. Nevertheless, we admit that further investigation is required to make conclusive remarks on the seeded LDA models. The model would outperform Newsmap when documents are longer or it is trained with a sufficiently large number of seed words.\n\nThe semisupervised classification technique is particularly useful when researchers apply quantitative text analysis in new fields because training sets for full-supervised models are very expensive to produce and keyword dictionaries are often unavailable outside comparative politics or political communication and nearly nonexistent in non-European languages. While it is infeasible for underresourced researchers to create a large keyword dictionary from scratch, they can easily create a seed word dictionary for semisupervised models because the number of words required for a seed word dictionary is a fraction of a keyword dictionary.\n\nSemisupervised document classification is also an alternative approach to multilingual text analysis, which is becoming increasingly important in recent years. Multilingual analysis can be achieved by translating a keyword dictionary (Proksch et al., n.d.) or a corpus (De Vries et al., 2018), but it can also be done only by translating a seed word dictionary if a semisupervised model is employed. In fact, Newsmap performs multilingual geographical classification of news articles using seed word dictionaries in more than 10 European and non-European languages. 8 However, we recognized that the difficulty in making a proper seed word dictionary is an obstacle for researchers to employ semisupervised models. For this reason, we created the AFE statistic as a diagnostic tool that does not require manually coded documents as the gold standard. We argue that seed word dictionaries should be constructed based primarily on theory, but they should also include frequent words to produce good classification results. Inclusion of frequent false seed words to a seed word dictionary hugely damages the classifier's performance, but researchers can reduce this risk by monitoring relative changes in AFE.\n\nThe AFE statistic allowed us to achieve a higher classification accuracy by removing many of the frequency-based seed words in \"greeting,\" \"human rights,\" and \"democracy\" in our experiment, but it is still likely that some of them were true seed words that could improve the classifier's performance if included. This did not occur in our experiment probably because our knowledgebased seed words were not entirely appropriate, and some of the true frequent seed words were wrongly identified as risky seed words. This shows how difficult it is to operationalize abstract concepts such as human rights and democracy using words, but we believe it is possible as a collective endeavor: Researchers who employ semisupervised models should publish their seed word dictionaries to allow others to refine them by adding or removing words; words that are commonly used in these seed word dictionaries will be the knowledge-based seed words that are independent of corpora.\n\nContextual smoothing of topic probability is an auxiliary technique in this study, which is not directly related to the semisupervised models, but we believe that this technique can be useful in many studies. We expect that the contextual smoothing technique would improve classification accuracy of sentences in various machine learning models without changing model assumptions and specifications. This is the primary reason that we decided to train the Newsmap model on individual sentences instead of temporal groups of sentences, although training on both labeled sentences and surrounding unlabeled sentences is closer to semisupervised learning techniques in computer science (Zelikovitz & Hirsh, 2000).\n\nNevertheless, contextual smoothing does not always perform well as we saw in the experiment: The classifier's performance deteriorated when it was applied to relatively short speeches. In fact, we found a positive correlation between the number of sentences and the changes in the F1 scores (r ¼ .38), which suggest that the window size should be smaller depending on the length of the speech that sentences compose. More importantly, contextual smoothing has negative impact on the classification results when topics changes between sentences in any length of speech. Although we did not develop algorithms to adjust window sizes to tackle this problem, we expect that common words in adjacent sentences will offer useful information to achieve this in future research.\n\nAnother limitation of this study is that we only tested our approach on the corpus of the UN General Assembly speeches. We believe that the proposed seed word selection procedure holds conceptually in wider research settings, but the AFE statistic would behave differently depending on the types of texts and the categories for classification. Since AFE is created for classification of sentences, which usually have only one topic each, its behavior can be different when it is applied to entire documents. For this reason, we recommend users of AFE to segment documents into the smallest unit (e.g., sentences or paragraphs) in seed word dictionary making. After a seed word dictionary has been created, they can apply the dictionary to train a Newsmap model on entire documents. This seems possible because Newsmap has already demonstrated its ability to classify longer texts correctly (Lankina & Watanabe, 2017;Watanabe, 2017) despite its geographical dictionary was created for news summaries originally. Relatedly, classification categories should also be mutually exclusive for AFE because it gauges co-occurrences of words with seed words in different categories to detect risky seed words. To avoid this problem, we recommend users to define smallest categories in a dictionary and aggregate them after classification. Newsmap takes similar approach in classification of oversea territories of European countries (e.g., British Virgin Islands and French Guiana).\n\nFinally, we hope the readers of this article understand the strengths and weaknesses of semisupervised models vis-à-vis popular unsupervised topic models and simple dictionary analysis. Use of semisupervised models requires knowledge of both methodology and substance, but there will be an increasing number of young political scientists who understand both aspects. We hope our work will encourage them to embark on quantitative analysis of documents in understudied subjects and languages on the horizon of quantitative text analysis.",
+      "preview_head": "Compared to unsupervised topic models and simple dictionary analysis, the advantage of the semisupervised classification is clear in IR research: (1) Researchers can define categories of classification using seed words to make their analysis consistent with existing theoretical frameworks and (2) they only need to choose a small number of seed words for each category to classify documents correctly. In the experiments, we have demonstrated that Newsmap can identify topics of more than half of sentences with only a few seed words for each topic and its accuracy exceeded 60% when more seed words were added. In contrast, the simple dictionary analysis could classify only 25% of sentences and the seeded LDA only 40% of setences correctly, highlighting the difficulty in classifying short texts using existing tools.",
+      "preview_tail": "Finally, we hope the readers of this article understand the strengths and weaknesses of semisupervised models vis-à-vis popular unsupervised topic models and simple dictionary analysis. Use of semisupervised models requires knowledge of both methodology and substance, but there will be an increasing number of young political scientists who understand both aspects. We hope our work will encourage them to embark on quantitative analysis of documents in understudied subjects and languages on the horizon of quantitative text analysis.",
+      "word_count": 1189,
+      "paragraph_count": 9,
+      "_original_container_raw": "Problems of Existing Methods",
+      "_original_container_norm": "problems of existing methods",
+      "_container_unnested": true,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*conclusion(s)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*conclusion(s)?\\s*$",
+      "major_label": "CONCLUSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 24,
+    "content_sections": 23,
+    "total_words": 5820,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 24,
+    "by_source": {
+      "heuristic": 1,
+      "llm": 22,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

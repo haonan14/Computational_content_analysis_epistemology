@@ -1,0 +1,79 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section reviews prior literature on free movement of people (FMP), citing multiple studies and their"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Section also sets up expectations and theoretical implications, which is interpretive."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section discusses theoretical frameworks (postfunctionalism) and reviews prior research with heavy c"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "Section reviews explanations from prior research for country-level variation, with dense citations."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "Section briefly interprets how these factors might reinforce politicization, which is interpretive."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents empirical results, as stated in the opening sentence."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports findings (e.g., Figure 1, trends in news coverage, observed patterns)."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section interprets findings, offering possible explanations for observed trends."
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

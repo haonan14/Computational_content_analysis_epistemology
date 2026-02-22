@@ -1,0 +1,38 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section introduces the research context (Chinese migration to Europe), frames the research gap,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section introduces the research context (Chinese migration to Europe), frames the research gap,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses conceptual controversies in news frame research, referencing prior literature,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "The section also introduces the research questions for the current study, which is an introductory/f"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

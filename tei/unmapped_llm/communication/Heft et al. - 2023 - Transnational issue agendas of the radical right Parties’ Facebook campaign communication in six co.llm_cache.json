@@ -1,0 +1,45 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews theoretical frameworks and prior literature, with dense citations and a focus,\u00a0"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the study, describing what was found in the analysis of RRPs'\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section continues to report empirical findings about communication dynamics and thematic reperto"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of the results, especially regarding the meaning of observed patterns a"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

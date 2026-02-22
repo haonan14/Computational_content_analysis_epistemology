@@ -1,0 +1,105 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, discusses the expansion of the concept of 'violence,' and,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section introduces the current study, its exploratory nature, and the research questions, which"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the analysis plan, including the two-stage approach and methodological choices,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports preliminary findings, including descriptive statistics about the corpus and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of the word embeddings analysis, including statistical findings and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets findings in the context of group differences, discusses implications, and"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the implications and contributions of the findings, connecting them to the"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "There is some forward-looking summary and closing remarks about the paper's contribution, which is"
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard declaration of conflicting interests, not part of the main research narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

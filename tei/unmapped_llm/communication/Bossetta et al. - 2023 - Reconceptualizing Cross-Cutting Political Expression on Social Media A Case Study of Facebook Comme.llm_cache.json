@@ -1,0 +1,177 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section develops conceptual distinctions and critiques prior definitions of cross-cutting, with"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Focuses on definitions and prior scholarly conceptualizations of 'cross-cutting', with citations and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses prior literature on political expression, critiques existing emphases, and advances a new"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explores how platform design and social context shape cross-cutting expression, referencing prior"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the exploratory research design, case selection, and rationale for methodological choices."
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "Also frames the research questions and motivates the empirical approach, which is an introductory"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the procedure for estimating Brexit attitudes and operationalizing cross-cutting flows,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the sampling, coding, and operationalization of reasoned political arguments, all describing"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of structural topic modeling (STM), including sampling and analytic approach, which"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents descriptive statistics and findings (e.g., Figure 1, breakdowns of posts, users, comments)"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on cross-cutting expression, referencing data visualizations and empirical patterns"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports empirical findings from manual coding and statistical models regarding reasoned arguments"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents results from topic modeling and regression analyses, directly answering RQ3 with empirical"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides supplementary information, data availability, and technical notes, which are a"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "The 'Disclosure statement' is a standard non-research section reporting conflicts of interest, not a"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

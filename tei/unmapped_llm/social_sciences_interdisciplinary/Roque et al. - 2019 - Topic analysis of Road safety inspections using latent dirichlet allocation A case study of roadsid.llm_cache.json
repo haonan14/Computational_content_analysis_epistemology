@@ -1,0 +1,79 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section discusses general concepts and prior work in text mining, including citations and background"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Touches on methodological concepts relevant to the paper's approach, but focus is on background and,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports findings from the analysis, referencing figures and describing observed patterns in"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Some interpretation of the meaning of the relationships is present, but the main focus is on reporti"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports the application of LDA, describes topic frequencies, and references Table 4 findings"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of the results, such as the significance of topic frequencies in diff"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Standard administrative section declaring conflicts of interest, not part of the research narrative"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Table presents empirical findings (relative frequencies of topics), which is a results function"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

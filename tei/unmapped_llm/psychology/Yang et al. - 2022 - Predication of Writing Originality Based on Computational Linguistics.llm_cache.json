@@ -1,0 +1,406 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work on automated essay scoring (AES), citing multiple studies and summar"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior work on automated essay scoring, with heavy use of citations and summary, "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the theoretical background of distributional semantics in creativity, citing "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior research on using network/graph features in essay scoring, with citations "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses limitations of past work, referencing prior studies and summarizing gaps in t"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "This section frames the current study's aims, research questions, and approach, providing a roadmap "
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "It briefly outlines the methodological steps (LDA estimation, semantic network analysis) that will b"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the participants in the study, including demographics and sampling, which is a standard pa"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the writing prompts and sample sizes, which are part of the study's data collection and de"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Provides details about Prompt 1, including instructions to participants, which is part of the data c"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes Prompt 2 and its instructions, which is part of the data collection and study design."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes Prompt 3 and its instructions, which is part of the data collection and study design."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the materials used in the study, including the nature of the prompts and the collection of"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the rubric scoring process, rater procedures, and data cleaning, all of which are methodol"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the computational tools and software packages used for data preprocessing, topic analysis,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the computational tools and software packages used for data preprocessing, topic analysis,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the essay pre-processing steps (word segmentation, stop word removal, statistics on word/ess"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of LDA topic modeling for essays, including rationale and process, as applied by th"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how essays are mapped to networks and the development of network-based features for orig"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the technical process of representing essays as networks/matrices, including node/edge d"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the extraction of features from semantic distance in the essay networks, a methodological"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the extraction of features based on path distance in the essay networks, a methodological d"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the extraction of features based on centrality in the essay networks, a methodological de"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the extraction of features based on similarity between essay networks, a methodological de"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of lasso regression for predicting originality scores from network-based features"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the process and findings of LDA topic number selection and substantive topic labeling, incl"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports statistical findings on the relationship between semantic network structure and human-rated"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section describes the selection of example essays with different originality scores and the creation"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive intent in illustrating the relationship between semantic and path"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents visualizations and descriptions of individual semantic networks for essays with"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes the use of lasso regression, model selection, and feature selection process."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Reports variance explained by models and some findings about model performance."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings about model performance, R-squared values, and interpretation rates."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section header and placement indicate interpretive discussion about moving beyond current methods."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Section interprets results in light of theory and discusses implications for automated scoring."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "References specific findings about semantic distance and originality."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section provides interpretive insights for human scoring, focusing on implications and challenges."
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

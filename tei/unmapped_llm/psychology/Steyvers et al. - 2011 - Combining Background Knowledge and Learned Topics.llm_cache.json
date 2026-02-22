@@ -1,0 +1,207 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work on data-driven learning approaches, describing unsupervised methods,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior work and approaches for extracting semantic representations from text, and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses human-defined semantic representations, referencing prior work and databases,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses the limitations of both data-driven and human-defined approaches, referencing"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "It also frames the motivation for the paper's approach and previews the structure of the article."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Describes the background and rationale for concept-topic models, referencing prior work."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Begins to introduce the models that will be used in the paper, setting up for methodological details"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the structure and assumptions of the concept-topic model, focusing on what the authors did"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the hierarchical concept-topic model, detailing its structure and implementation."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data sources, preprocessing, and vocabulary construction used in the experiments."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the application of concept models for tagging documents, focusing on the process and steps."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Presents an illustration and qualitative results of tagging with the concept-topic model."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes the procedure for tagging and summarizing documents with the model."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Provides qualitative results and visualizations from the hierarchical concept-topic model."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes the inference process and how the model is applied to documents."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports quantitative evaluation and generalization performance of the models."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents a comparison of perplexity across models, reporting empirical findings."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section discusses what the learned topics reveal, provides examples of word groupings, and how '"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of what the results mean for the relationship between learned topics, '"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings about the performance of the concept-topic model versus LSA in a task, "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the implications for human-defined knowledge databases and model "
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

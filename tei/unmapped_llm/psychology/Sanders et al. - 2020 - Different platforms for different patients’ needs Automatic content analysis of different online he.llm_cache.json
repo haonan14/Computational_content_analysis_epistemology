@@ -1,0 +1,177 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research, introduces theoretical frameworks, and builds towards a model,,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the first layer of the theoretical framework, referencing prior literature to"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section continues to elaborate the theoretical model, citing prior work and defining social"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section synthesizes prior research to propose a model, referencing previous studies and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "It begins to transition toward operationalizing the model and hints at measurement and mapping,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the types of online platforms and how they relate to the theoretical model,"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the parameter choices and procedures for running the LDA model, which are"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the analytic procedures (topic modeling, MANOVA) used to compare platforms,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the topic modeling, identifying which social support topics"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of the analysis for informational support topics, describing what"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section continues to report findings, focusing on the presence and grouping of esteem, network,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of the MANOVA and differences between platforms, focusing on what"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section details the findings regarding informational support subtopics across platforms, with"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports quantitative findings (means, comparisons across platforms) about the coverage/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard disclosure section (Declaration of Competing Interest), not part of the main body"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

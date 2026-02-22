@@ -1,0 +1,69 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, discusses the importance of SNSs for health information, as"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "While there are some citations, the main function is to introduce the topic and motivate the study, "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the analytic procedures, including topic modeling, sentiment analysis, and da"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings for RQ1, including the number of topics, themes, and sentiment di"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports statistical findings for RQ2, including which topics and sentiments predict po"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results for RQ3, including statistical associations between topics/sentime"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

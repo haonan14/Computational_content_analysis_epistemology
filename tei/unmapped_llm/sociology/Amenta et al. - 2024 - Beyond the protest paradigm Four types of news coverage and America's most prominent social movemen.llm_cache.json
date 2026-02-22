@@ -1,0 +1,122 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the protest paradigm, references prior literature (e.g., Iyengar, 1991), and is"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the importance of news coverage for social movement organizations, references"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section header 'Sentiment' and its position suggest it is part of a conceptual framework or typ"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes types of news coverage and their characteristics, referencing ideal types and"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section draws on multiple literatures, cites prior work, and develops theoretical expectations"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive commentary about what is expected when movement actors challenge authorit"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section continues to build theoretical expectations, referencing prior research and developing"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive commentary about the likely outcomes of different movement actions, but t"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the data, sample, and analytic approach (QCA), indicating what the authors di"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about patterns in news coverage quality for organizations, including s"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "This section summarizes the main findings, discusses implications, and suggests directions for futur"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

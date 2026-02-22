@@ -1,0 +1,33 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section reviews prior research on xenophobia and racism during COVID-19, references multiple (c."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from logistic regression and descriptive statistics about the relation."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the results, such as comparing pro- and anti-China users, but the."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

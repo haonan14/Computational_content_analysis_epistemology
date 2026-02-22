@@ -1,0 +1,16 @@
+{
+  "classifications": [
+    {
+      "sec_index": 6,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "This section is the final wrap-up of the paper, summarizing the main findings and their significance"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of the sharing economy, its definitions, and debates in the field,,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of the sharing economy, its definitions, and debates in the field,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "The section discusses the concept of social entrepreneurship, its relevance to sustainable developm"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "The section discusses the concept of social entrepreneurship, its relevance to sustainable developm"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "The section introduces hypotheses (H1, H2), which is a minor function often associated with the in"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

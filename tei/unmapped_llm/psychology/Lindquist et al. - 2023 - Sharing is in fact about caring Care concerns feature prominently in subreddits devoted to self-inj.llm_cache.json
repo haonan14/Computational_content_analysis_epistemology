@@ -1,0 +1,110 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the public health significance and contextualizes the research problem, which is"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "No substantial review of prior work; focus is on significance."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section introduces the current study, its aims, and the methods at a high level, serving as a '"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.0,
+          "reason": "Although methods are mentioned, the focus is on study framing, not detailed procedures."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data collection, exclusions, privacy, and openness\u2014core methodological transparency."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the neural network classifier and its training, which are methodological procedures."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about topics, frequencies, and modeling outcomes\u2014core results reporting."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about moral concerns, frequencies, and content\u2014clear results section."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets findings, discusses implications for clinical practice, and connects to broader meaning."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Declaration of competing interest is a standard disclosure, not part of the research narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

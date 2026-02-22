@@ -1,0 +1,240 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "Section discusses the role of media coverage in environmental risk perception, referencing prior key"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "Section ends with a research question (RQ2), which is a forward-looking framing element."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "Section reviews literature on media framing, referencing Entman (1993) and discussing how frames can"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "Section concludes with a statement of the need to examine framing during the pandemic, which is a"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the collection of news articles, specifying sources, timeframes, and sample sizes."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details data preprocessing steps, including segmentation and filtering criteria."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes computational and analytical methods (topic modeling, semantic network analysis)"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings on changes in news frames before and after COVID-19, referencing specific"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports results of semantic network and centrality analyses, comparing pre- and post-pandem"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings on the correlation between news article volume and COVID-19 case numbers."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports word frequency analysis results for each pandemic peak period."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports results of semantic network analysis for each pandemic peak, describing changes in"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section appears to present statistical results (Rank, Coef.), likely as part of a results table or"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section appears to present statistical results (Rank, Coef.), likely as part of a results table or"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section appears to present ranked coefficients, likely from statistical analysis or model output, a "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section appears to present ranked coefficients, likely from statistical analysis or model output, a "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents ranked coefficients, indicating reporting of statistical/model results."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents ranked coefficients, indicating reporting of statistical/model results."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents ranked coefficients, indicating reporting of statistical/model results."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents ranked coefficients, indicating reporting of statistical/model results."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section presents detailed coefficient values and rankings, which is characteristic of reporting the "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "The tail sentence interprets the results in light of previous studies and theoretical implications, "
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

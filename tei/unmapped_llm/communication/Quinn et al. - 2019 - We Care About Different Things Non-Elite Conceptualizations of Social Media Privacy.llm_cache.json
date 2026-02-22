@@ -1,0 +1,89 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the topic of privacy in social media, and sets,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the topic of privacy in social media, and sets,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of framing, citing prior work and theoretical models (e.g., Goffman"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of framing, citing prior work and theoretical models (e.g., Goffman"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the literature and theoretical debates on privacy, referencing key scholars and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the literature and theoretical debates on privacy, referencing key scholars and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports findings from the semantic network analysis, including statistics (nodes, edges"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the E/I index and what the clusters mean, but the main focus is on"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "This section reports the results of logistic regression analysis, including statistical significance"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "There is a brief interpretation of the gender effect, but the section is primarily focused on report"
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the methodological approach (RPA and LDA), and,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the methodological approach (RPA and LDA), and,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data collection, clustering process, and the development of a new demographic proposal"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Provides background on anime, its history, and references prior work (Condry, 2013)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes established anime demographic categories, citing prior literature and industry patterns"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses the evolution of anime distribution and consumption, referencing prior research and market"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the selection and characteristics of the anime databases used for the study"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Outlines the structure of the results presentation, focusing on methodological steps (RPA, LDA, and"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the data extraction process from selected databases, specifying variables and procedures"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the application of the LDA algorithm for clustering, including technical details and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Describes the output of the LDA clustering process, including the resulting matrix and topic"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Begins to interpret the meaning of the clusters and their demographic implications"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "Summarizes the paper's contributions, feasibility, and methodological proposal"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Provides supplementary material (explanation chart) not part of the main argument"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

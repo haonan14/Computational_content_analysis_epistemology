@@ -1,0 +1,221 @@
+{
+  "classifications": [
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the LDA model, its application, and the process of topic extraction as performed in this ("
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "Includes background and citations about LDA and its general use, referencing prior work."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Explains the use of Spearman correlation in the study, including its calculation and application to "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "Provides background and citation on Spearman correlation, referencing prior literature."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the use of Baidu AI Open Platform for sentiment analysis in this study, including its  "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "Mentions prior work and general capabilities of the platform, with some citation."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about public attention levels, including specific dates, trends, and topic examples"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the results of correlation analyses between public attention and COVID-19 case numbers,  "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings of correlation analysis between lagged public attention and COVID-19 case numbers, "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents results of topic analysis for the first stage, including topic weights and descriptions."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports results of topic analysis for the second stage, including topic frequencies and descriptions"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Table presenting the results of topic analysis for the first stage."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports results of topic analysis for the third stage, including topic rates and descriptions."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents results of topic analysis for the fourth stage, including topic frequencies and focus."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports results of topic analysis for the fifth stage, including topic frequencies and focus."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents a table summarizing the COVID-19 related topics in a specific time period, as,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents a table summarizing the COVID-19 related topics in a specific time period, as,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from sentiment analysis, describing the evolution and patterns of Weibo"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive commentary on what the sentiment results mean for public attention, but t"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the study's strengths and limitations, discusses implications, and addresses"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents a table of statistical results (correlation between sentiment score and public"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the order and rationale of preprocessing steps performed by the authors on their data, a '"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses common practices and trends in the literature regarding algorithm selection, with multiple"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data collection process and corpus construction performed by the authors for their own"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the algorithms considered and compared by the authors, including implementation specifics, a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the stopword removal process applied by the authors to their data, a methodological step."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' choices and procedures for lemmatization and stemming, which are methodolog"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the extraction of n-grams and chunks as performed by the authors, a methodological detail."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the vectorization techniques used by the authors, including rationale and implementation, "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about interpretability of different tokenizations and vectorizations, referencing t"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretive commentary on what the results mean for concept abstraction and interpret"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings on representativeness, summarizing empirical patterns and effects of preprocessing "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretive summary and implications of the results for representativeness and algorithm c"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports empirical findings on computational time requirements, referencing figures and observed eff"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of the implications of computational requirements for different method"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section is structured as a checklist or summary of preprocessing steps performed or omitted by the a"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

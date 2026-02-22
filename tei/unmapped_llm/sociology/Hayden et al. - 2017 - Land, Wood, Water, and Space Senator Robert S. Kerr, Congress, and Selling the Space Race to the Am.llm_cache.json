@@ -1,0 +1,91 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens with historical context, frames the research problem, and outlines the paper's own"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides historical and scholarly background on NASA's establishment, referencing prior"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses motivations for the Apollo Project and space exploration, referencing prior"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports findings from the topic model about 'national interest' as a theme in the data."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of the meaning and historical context of the 'national interest' topic."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports which topics were most prevalent in the data (e.g., satellite communications)."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of the significance of the satellite communications topic."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports findings about the prominence of Oklahoma's interests in the analyzed materials"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of why Oklahoma's interests were prominent and their implications."
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

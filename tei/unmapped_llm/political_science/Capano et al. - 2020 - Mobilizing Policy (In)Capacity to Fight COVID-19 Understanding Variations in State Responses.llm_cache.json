@@ -1,0 +1,93 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section frames the research problem, introduces the COVID-19 policy challenge, and sets up the paper"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section discusses the theoretical and conceptual background of COVID-19 as a policy problem, with a "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section discusses the theoretical and conceptual background of COVID-19 as a policy problem, with a "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews standard policy responses and policy mix theory, referencing prior frameworks and co"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports empirical findings on cross-national variation in policy response timing, scope, and"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section provides country case summaries, reporting observed patterns and differences in national res"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Disclosure statement about conflicts of interest; not part of the research narrative"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Notes on contributors; biographical information, not part of research content"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "This section provides background on Pakistan, climate change, and media, referencing statistics, the"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "There is some framing of the research gap and rationale, but the dominant function is literature and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' data cleaning and pre-processing steps, including duplicate removal, use of R"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the topic modeling method (LDA) used in the study, including its logic and application to"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Focuses on the methodological decision of selecting the number of topics (k) for LDA, including"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on the frequency of climate change news coverage in Pakistan, referencing figures,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the results of topic modeling, including main themes, sub-topics, key terms, and their"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on the occurrence and development of overarching themes in news media coverage,"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

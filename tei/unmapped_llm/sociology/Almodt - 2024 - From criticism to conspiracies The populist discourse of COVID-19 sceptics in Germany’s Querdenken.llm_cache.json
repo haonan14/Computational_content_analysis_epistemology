@@ -1,0 +1,81 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on the Querdenken movement, referencing prior research and situates"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section describes the origins, development, and scholarly interpretations of the Querdenken anti"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews theoretical concepts and prior literature on far-right populist discourse, with"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports empirical findings about the types and frequencies of external links shared in"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of a community detection analysis, describing the structure and cha"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of a semi-automated content analysis, including quantitative resul"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard declaration of conflicting interests, not part of the main research narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

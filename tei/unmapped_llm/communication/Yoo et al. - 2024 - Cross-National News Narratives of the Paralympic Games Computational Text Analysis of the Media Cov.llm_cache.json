@@ -1,0 +1,171 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section frames the research problem, highlights the gap in media coverage, and outlines the study's,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section frames the research problem, highlights the gap in media coverage, and outlines the study's,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior scholarship on media framing, national values, and the role of media in the,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section discusses prior research and theoretical concepts (supercrip narrative, ableism) with heavy,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior work on media framing of the Paralympics as national projects, with citations,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section compares prior findings on US and South Korean media coverage, referencing previous studies,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "Section ends with the research question, which is a forward-looking framing element."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the data collection process, including sources, time frame, and rationale for sample"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Section describes the computational approach (LDA topic modeling), software, and evaluation method,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Section begins to report the results of the topic modeling, including identified themes and their,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports findings from the analysis of US coverage, including identified topics and their,"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Section includes some interpretation of the meaning of the topics and their implications."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports findings from the topic modeling of South Korean coverage, including identified,"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Section includes some interpretation of the meaning and significance of the topics."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports findings about the supercrip narrative and patriotism in South Korean coverage,"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section interprets the meaning of the supercrip narrative in the context of South Korean media."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports findings about public diplomacy and mega sports events as topics in the media,"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section interprets the significance of these topics in the context of international relations."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

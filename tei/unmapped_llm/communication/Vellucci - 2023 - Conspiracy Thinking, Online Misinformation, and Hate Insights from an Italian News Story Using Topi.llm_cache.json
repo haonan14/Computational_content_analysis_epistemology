@@ -1,0 +1,124 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data collection process for the study, including how datasets were built and what was/"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the data preprocessing steps performed by the authors on their dataset, which is a core part"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Lists specific preprocessing steps and tools used by the authors, including references to software,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the coherence score metric and how it was applied in this study, including the construction"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Lists the books used to build the ad hoc Italian corpus for topic coherence evaluation, which is a"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Continues the description of the corpus construction and technical details for topic model evaluatio"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the construction and content of dataset D1, specifying the criteria and time window for"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings from the topic modeling, including references to tables, figures, and the conte"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the construction and content of dataset D2, specifying inclusion criteria and observation"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about the user retention in dataset D2 two years later, provides explanations, and"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

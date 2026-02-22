@@ -1,0 +1,134 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the importance of citizen participation and voice in democracy, referencing key"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews the importance of citizen participation and voice in democracy, referencing key,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses how government agencies define and implement public participation in rulemak"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews literature on social media as a tool for public engagement, citing prior work"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses prior research and examples of social media's role in political activism, wi"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the literature on the impact of social media-enabled participation on governme"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section provides background on the research context and setting, referencing the FOIA and rel"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some transition to the specific case and event being studied, which is relevant for under"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the analytical methods used in the study, including descriptive comparison, s"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings from the analysis of tweets before, during, and after the commen"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the results of the sentiment analysis, including statistical findings and in"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of the structural topic modeling, describing the topics and patte"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

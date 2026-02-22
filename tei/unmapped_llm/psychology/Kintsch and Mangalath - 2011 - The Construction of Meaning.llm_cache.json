@@ -1,0 +1,123 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews theoretical models and prior work on the representation of semantic knowledge,,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews theoretical models and prior work on the representation of semantic knowledge,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section discusses theoretical models (LSA, Predication model, CI model) and how meaning is built"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is some reference to the authors' own modeling approach (Predication model), but the focus is"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses the CI-II model, its theoretical components, and arguments for its structure,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some outlining of the proposed model, which is the authors' own work, but the emphasis is"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section discusses the role of syntactic structure in meaning construction, referencing psychol"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is some reference to the authors' own modeling and examples, but the main focus is on theory"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses theoretical distinctions between types of semantic representations and refer"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some discussion of how models like LSA and Topic models are used, which relates to method"
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "This section describes the data (TASA corpus), preprocessing, and analytic procedures (parsing, v"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "There is some reference to prior models and tools (e.g., MALT parser), but the focus is on what t"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section describes the procedure for constructing meaning in working memory, including feature"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "The section references Table 7 and model predictions, indicating some reporting of findings."
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

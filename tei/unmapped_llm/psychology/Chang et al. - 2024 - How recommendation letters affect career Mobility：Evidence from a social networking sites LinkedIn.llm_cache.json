@@ -1,0 +1,322 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of career mobility, citing prior research and summarizing what is ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains signaling theory, referencing foundational and recent literature, and is fully"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section introduces the Elaboration Likelihood Model (ELM), citing its origin and applications, "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section explains the central route of ELM with citations and theoretical explanation."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "It introduces a hypothesis (H1), which is part of the study's conceptual model and signals a shift t"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section states a hypothesis (H2), which is part of the study's conceptual framework and signals"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section explains the peripheral route of ELM with citations and theoretical explanation."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "It introduces a hypothesis (H3), which is part of the study's conceptual model and signals a shift t"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section states a hypothesis (H4), which is part of the study's conceptual framework and signals"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.5,
+          "reason": "The section discusses theoretical background on social networks and network size, with citations."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.5,
+          "reason": "It introduces a hypothesis (H6) and discusses the moderating effect, which is part of the study's co"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the operationalization of variables, data processing, and the methodological "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the use of LDA for variable construction and describes the process for measurin"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how the depth and breadth of recommendation letters are measured, including e"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the operationalization of peripheral route independent variables, focusing on"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section defines operationalizations for key variables (relations, field) used in the study, and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "Although it references prior work, the main function is to describe how variables are measured in *"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the operationalization and measurement of the moderating variable (social network size) in"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports results of robustness checks (Probit regression), including findings and consistency with pr"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes the use of an alternative estimation method (Probit model) as a robustness check."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines how the 'depth of recommendation letter content' is measured/calculated for the analysis."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines the operationalization of the 'relations' variable for the study's analysis."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines the operationalization of the 'field' variable for the study's analysis."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines the operationalization of the moderating variable 'social network size' for the study."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines how the 'skills' variable is measured for the analysis."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 33,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents descriptive statistics and correlation analysis, which are empirical results from the study"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Summarizes the main empirical findings of the study, referencing the results of the analysis."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Includes some interpretation and theoretical implications, but the main focus is on reporting key fi"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 40,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Authorship contribution statements are not part of the main scientific content sections."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 41,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Declaration of competing interest is a standard disclosure, not part of the scientific content."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

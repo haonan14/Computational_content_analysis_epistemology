@@ -1,0 +1,100 @@
+{
+  "classifications": [
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the data cleaning and preparation steps performed by the authors, including the"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the first analysis method used in the study, outlining the descriptive analysis approach, "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the geocoding procedure and the computational tools used by the authors for analysis, which"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the privacy considerations and protocols followed during data collection, which is a meth"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings of the descriptive analysis, including tweet counts, sources, and word frequen"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the results of the geocoding analysis, including user origins and country-level metrics, w"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the process and outcome of determining the optimal number of topics using coherence scores,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the results of the LDA topic modeling, including the identification and labeling of topic"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the topic of AI governance, and outlines the 'G"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section introduces the topic, provides context, and previews the methods and structure of the 'G"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews recent scholarship, identifies key stakeholders, and references prior work and "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the policy implications of the findings, connecting them to broader themes a"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses implications and recommendations for the Global Partnership on Artificial In"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section continues to discuss recommendations and implications for increasing Southeast Asian "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses further recommendations for improving regional balance in GPAI membership, "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews international perspectives and prior literature on AI governance, with referen"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses potential barriers to GPAI membership, referencing prior research and existi"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section compares GPAI and national AI strategies, referencing existing policies and prior wor"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings from the quantitative text analysis, including statistics and pa"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings from the qualitative content analysis, summarizing results and p"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents combined results from both quantitative and qualitative analyses, reporting "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section defines a specific policy instrument (certification regulations) and describes its role"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings regarding international cooperation and technology transfer as a policy mechanism"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports on government support for domestic AI production/consumption and summarizes findings about a"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Explicitly interprets findings, discusses policy implications, and connects results to broader"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "Wraps up the paper, summarizes main findings, and suggests future research directions"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Acknowledgments section, not part of the main research narrative"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Conflict of interest statement, not part of the research content"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Data availability statement, not part of the main research content"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "ORCID and end notes, not part of the main research content"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the sampling procedure, use of LDA topic modeling, and BiLSTM model input features, all of"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the sampling procedure, use of LDA topic modeling, and BiLSTM model input features, "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the procedure for unsupervised machine learning analysis, specifically the use of LDA for"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the procedure for unsupervised machine learning analysis, specifically the use of L"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Provides operational definitions and examples for types of actions classified in the analysis, which"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section provides operational definitions and examples for types of actions classified in the analysi"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines and exemplifies the coding/category for 'Political actions' used in the classification, whic"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section defines and exemplifies the coding/category for 'Political actions' used in the classificat"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines and exemplifies the coding/category for 'Government actions' used in the classification, whi"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section defines and exemplifies the coding/category for 'Government actions' used in the classific"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines and exemplifies the coding/category for 'Actions that do not help' used in the classificati"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section defines and exemplifies the coding/category for 'Actions that do not help' used in the cla"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the operationalization of 'Goals on climate change mitigation' and the process for topic "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the operationalization of 'Goals on climate change mitigation' and the process fo"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents findings from the topic modeling analysis, specifically the content and examples of the 'I"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings from the topic modeling analysis, specifically the content and examples o"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents findings from the topic modeling analysis, specifically the content and examples of the 'S"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings from the topic modeling analysis, specifically the content and examples o"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

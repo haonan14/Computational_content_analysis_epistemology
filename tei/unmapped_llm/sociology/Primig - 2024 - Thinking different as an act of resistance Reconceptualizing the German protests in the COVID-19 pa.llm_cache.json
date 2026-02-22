@@ -1,0 +1,124 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides historical and conceptual background on the German coronavirus protests, situ-"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the concept of 'counter-knowledge order' and situates the protests within the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the methodological approach (critical discourse analysis) and its application"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports empirical findings about the network structure, clusters, and quantitative char"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about key actors in the network, based on calculated authority scores"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of the topic modeling, describing the main topics and their trends"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the findings in relation to previous research and discusses the meaning o"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the findings about roles and hierarchy, connecting them to broader theor"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the economic dimension of the counter-knowledge order, discussing impl"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides supplementary notes and clarifications, typical of an appendix or notes se"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

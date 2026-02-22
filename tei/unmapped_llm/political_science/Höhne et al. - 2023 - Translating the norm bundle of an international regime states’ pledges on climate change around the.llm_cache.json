@@ -1,0 +1,123 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the concept of norm bundles in international regimes, referencing prior norm/"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the concept of norm bundles in international regimes, referencing prior norm/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews the UNFCCC norm bundle and the evolution of NDCs, citing prior work and summar"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews the UNFCCC norm bundle and the evolution of NDCs, citing prior work and summar"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the historical development, guidelines, and function of NDCs, referencing UNF"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the historical development, guidelines, and function of NDCs, referencing UNF"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses expectations and conceptual framework based on prior literature and theory, as"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some mention of the authors' approach to comparing NDC contents between categories of state"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports the findings of the investigation into how norms are translated and prioritized"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive content as the authors connect findings to the regime's structure and th"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section details the specific ways states have translated individual norms, reporting the findin"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section details the specific ways states have translated individual norms, reporting the findin"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports which domestic context factors are linked to particular norm translations, focus"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of the meaning of the results, especially regarding material and cultu"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

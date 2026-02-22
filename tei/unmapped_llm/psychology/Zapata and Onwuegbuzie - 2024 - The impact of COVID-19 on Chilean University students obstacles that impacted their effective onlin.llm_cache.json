@@ -1,0 +1,153 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section states the purpose and research question, directly framing the research problem and aim"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the sample, data collection procedures, and participant demographics, all of which are key"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analytic approach (latent class analysis) and how it was applied to the data"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the instruments (questionnaire) used for data collection"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the integrated data analysis approach and quantitizing, which are methodological details"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the first stage of quantitizing and analytic techniques (topic modeling, correlations)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of canonical correlation analysis and other inferential methods"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports prevalence rates, effect sizes, and descriptive statistics from the study's findings"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of the latent class analysis, including cluster proportions and profiles"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of nonparametric correlations and statistical significance"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of Fisher's Exact Tests and their statistical implications"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Interprets the study's implications, recommendations, and lessons learned for future research and"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "Wraps up the study with forward-looking statements and closing remarks"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

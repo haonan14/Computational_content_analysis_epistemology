@@ -1,0 +1,872 @@
+{
+  "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/psychology/Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity.tei.xml",
+  "metadata": {
+    "title": "Imaginative elaboration in agenesis of the corpus callosum: topic modeling and perplexity",
+    "authors": [
+      "Warren Brown",
+      "Matthew Hoard",
+      "Brandon Birath",
+      "Mark Graves",
+      "Anne Nolty",
+      "Lynn Paul"
+    ],
+    "journal": "Journal of the International Neuropsychological Society",
+    "year": "2024",
+    "doi": "10.1017/s1355617724000183",
+    "keywords": [
+      "Corpus callosum",
+      "agenesis of corpus callosum",
+      "Thematic Apperception Test",
+      "linguistic analysis",
+      "creativity",
+      "social cognition",
+      "theory of mind"
+    ]
+  },
+  "abstract": "Objective: Previous studies have found deficits in imaginative elaboration and social inference to be associated with agenesis of the corpus callosum (ACC; Renteria-Vasquez et al., 2022;Turk et al., 2009). In the current study, Thematic Apperception Test (TAT) responses from a neurotypical control group and a group of individuals with ACC were used to further study the capacity for imaginative elaboration and story coherence. Method: Topic modeling was employed utilizing Latent Diritchlet Allocation to characterize the narrative responses to the pictures used in the TAT. A measure of the difference between models (perplexity) was used to compare the topics of the responses of individual participants to the common core model derived from the responses of the control group. Story coherence was tested using sentence-tosentence Latent Semantic Analysis. Results: Group differences in perplexity were statistically significant overall, and for each card individually (p < .001). There were no differences between the groups in story coherence. Conclusions: TAT narratives from persons with ACC were normally coherent, but more conventional (i.e., more similar to the core text) compared to those of neurotypical controls. Individuals with ACC can make conventional social inferences about socially ambiguous stimuli, but are restricted in their imaginative elaborations, resulting in less topical variability (lower perplexity values) compared to neurotypical controls.",
+  "sections": [
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Introduction",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "People with agenesis of the corpus of callosum (ACC) display mild to moderate cognitive and psychosocial deficits, including difficulties with social understanding and inference (Brown & Paul, 2019). For example, Turk et al. (2010) utilized Linguistic Inquiry and Word Count (LIWC) to quantify narrative responses from the Thematic Apperception Test (TAT). Narratives produced by individuals with ACC contained fewer words denoting emotions, social interactions, and the mental states of characters. Similarly, Renteria-Vazquez et al. (2022) utilized topic modeling and perplexity values with reference to a common core text to measure social and imaginative inferences in ACC. It was found that responses on the Animations Test (Abell, Happé & Frith, 2000) of persons with ACC were restricted to core details, showing less capacity for social inference and elaborative imagination.",
+        "In the current study, we used topic modeling in accordance with the procedures of Renteria-Vasquez et al. (2022) to study imaginative elaboration in the TAT narratives of individuals with ACC. Topic models derived using Latent Dirichlet Allocation (Atkins et al., 2012;Blei, 2012;Liu,Tang, Dong, Yao & Zhou, 2016) were used to characterize participant responses. As in Renteria-Vasquez et al. (2022) the degree of elaborative imagination was measured using topic-model perplexity scores (degree of difference) relative to the topic model of the common core of the responses of neurotypical controls."
+      ],
+      "footnotes": [],
+      "text": "People with agenesis of the corpus of callosum (ACC) display mild to moderate cognitive and psychosocial deficits, including difficulties with social understanding and inference (Brown & Paul, 2019). For example, Turk et al. (2010) utilized Linguistic Inquiry and Word Count (LIWC) to quantify narrative responses from the Thematic Apperception Test (TAT). Narratives produced by individuals with ACC contained fewer words denoting emotions, social interactions, and the mental states of characters. Similarly, Renteria-Vazquez et al. (2022) utilized topic modeling and perplexity values with reference to a common core text to measure social and imaginative inferences in ACC. It was found that responses on the Animations Test (Abell, Happé & Frith, 2000) of persons with ACC were restricted to core details, showing less capacity for social inference and elaborative imagination.\n\nIn the current study, we used topic modeling in accordance with the procedures of Renteria-Vasquez et al. (2022) to study imaginative elaboration in the TAT narratives of individuals with ACC. Topic models derived using Latent Dirichlet Allocation (Atkins et al., 2012;Blei, 2012;Liu,Tang, Dong, Yao & Zhou, 2016) were used to characterize participant responses. As in Renteria-Vasquez et al. (2022) the degree of elaborative imagination was measured using topic-model perplexity scores (degree of difference) relative to the topic model of the common core of the responses of neurotypical controls.",
+      "text_with_footnotes": "People with agenesis of the corpus of callosum (ACC) display mild to moderate cognitive and psychosocial deficits, including difficulties with social understanding and inference (Brown & Paul, 2019). For example, Turk et al. (2010) utilized Linguistic Inquiry and Word Count (LIWC) to quantify narrative responses from the Thematic Apperception Test (TAT). Narratives produced by individuals with ACC contained fewer words denoting emotions, social interactions, and the mental states of characters. Similarly, Renteria-Vazquez et al. (2022) utilized topic modeling and perplexity values with reference to a common core text to measure social and imaginative inferences in ACC. It was found that responses on the Animations Test (Abell, Happé & Frith, 2000) of persons with ACC were restricted to core details, showing less capacity for social inference and elaborative imagination.\n\nIn the current study, we used topic modeling in accordance with the procedures of Renteria-Vasquez et al. (2022) to study imaginative elaboration in the TAT narratives of individuals with ACC. Topic models derived using Latent Dirichlet Allocation (Atkins et al., 2012;Blei, 2012;Liu,Tang, Dong, Yao & Zhou, 2016) were used to characterize participant responses. As in Renteria-Vasquez et al. (2022) the degree of elaborative imagination was measured using topic-model perplexity scores (degree of difference) relative to the topic model of the common core of the responses of neurotypical controls.",
+      "preview_head": "People with agenesis of the corpus of callosum (ACC) display mild to moderate cognitive and psychosocial deficits, including difficulties with social understanding and inference (Brown & Paul, 2019). For example, Turk et al. (2010) utilized Linguistic Inquiry and Word Count (LIWC) to quantify narrative responses from the Thematic Apperception Test (TAT). Narratives produced by individuals with ACC contained fewer words denoting emotions, social interactions, and the mental states of characters.",
+      "preview_tail": "In the current study, we used topic modeling in accordance with the procedures of Renteria-Vasquez et al. (2022) to study imaginative elaboration in the TAT narratives of individuals with ACC. Topic models derived using Latent Dirichlet Allocation (Atkins et al., 2012;Blei, 2012;Liu,Tang, Dong, Yao & Zhou, 2016) were used to characterize participant responses. As in Renteria-Vasquez et al. (2022) the degree of elaborative imagination was measured using topic-model perplexity scores (degree of difference) relative to the topic model of the common core of the responses of neurotypical controls.",
+      "word_count": 216,
+      "paragraph_count": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Agenesis of the corpus callosum",
+      "header_norm": "agenesis of the corpus callosum",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "ACC is a congenital malformation involving the absence of part or all of the corpus callosum. ACC has been found to occur in 1 in 4,000 births (Glass et al., 2008;Guillem, Fabre, Cans, Robert-Gnansia & Jouk, 2003;Wang et al., 2004). Individuals with complete or partial ACC (cACC, pACC) but without other brain abnormalities (called isolated ACC) typically have an IQ that falls within the normal-range (Brown & Paul, 2000, 2019). Brown and Paul (2019) posit that in this group, ACC is the primary contributor to a constellation of cognitive and psychosocial difficulties characterized by three core deficits: a reduction in the interhemispheric transfer of complex sensory-motor information, slowed cognitive processing speed, and deficiency in complex reasoning and novel problem-solving. These core cognitive deficits contribute to a variety of secondary social, emotional and behavioral challenges (Brown & Paul, 2019)."
+      ],
+      "footnotes": [],
+      "text": "ACC is a congenital malformation involving the absence of part or all of the corpus callosum. ACC has been found to occur in 1 in 4,000 births (Glass et al., 2008;Guillem, Fabre, Cans, Robert-Gnansia & Jouk, 2003;Wang et al., 2004). Individuals with complete or partial ACC (cACC, pACC) but without other brain abnormalities (called isolated ACC) typically have an IQ that falls within the normal-range (Brown & Paul, 2000, 2019). Brown and Paul (2019) posit that in this group, ACC is the primary contributor to a constellation of cognitive and psychosocial difficulties characterized by three core deficits: a reduction in the interhemispheric transfer of complex sensory-motor information, slowed cognitive processing speed, and deficiency in complex reasoning and novel problem-solving. These core cognitive deficits contribute to a variety of secondary social, emotional and behavioral challenges (Brown & Paul, 2019).",
+      "text_with_footnotes": "ACC is a congenital malformation involving the absence of part or all of the corpus callosum. ACC has been found to occur in 1 in 4,000 births (Glass et al., 2008;Guillem, Fabre, Cans, Robert-Gnansia & Jouk, 2003;Wang et al., 2004). Individuals with complete or partial ACC (cACC, pACC) but without other brain abnormalities (called isolated ACC) typically have an IQ that falls within the normal-range (Brown & Paul, 2000, 2019). Brown and Paul (2019) posit that in this group, ACC is the primary contributor to a constellation of cognitive and psychosocial difficulties characterized by three core deficits: a reduction in the interhemispheric transfer of complex sensory-motor information, slowed cognitive processing speed, and deficiency in complex reasoning and novel problem-solving. These core cognitive deficits contribute to a variety of secondary social, emotional and behavioral challenges (Brown & Paul, 2019).",
+      "preview_head": "ACC is a congenital malformation involving the absence of part or all of the corpus callosum. ACC has been found to occur in 1 in 4,000 births (Glass et al., 2008;Guillem, Fabre, Cans, Robert-Gnansia & Jouk, 2003;Wang et al., 2004). Individuals with complete or partial ACC (cACC, pACC) but without other brain abnormalities (called isolated ACC) typically have an IQ that falls within the normal-range (Brown & Paul, 2000, 2019).",
+      "preview_tail": "Individuals with complete or partial ACC (cACC, pACC) but without other brain abnormalities (called isolated ACC) typically have an IQ that falls within the normal-range (Brown & Paul, 2000, 2019). Brown and Paul (2019) posit that in this group, ACC is the primary contributor to a constellation of cognitive and psychosocial difficulties characterized by three core deficits: a reduction in the interhemispheric transfer of complex sensory-motor information, slowed cognitive processing speed, and deficiency in complex reasoning and novel problem-solving. These core cognitive deficits contribute to a variety of secondary social, emotional and behavioral challenges (Brown & Paul, 2019).",
+      "word_count": 138,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background information on agenesis of the corpus callosum (ACC), including its"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background information on agenesis of the corpus callosum (ACC), including its"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Interhemispheric interactions",
+      "header_norm": "interhemispheric interactions",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Interhemispheric transfer limitations in ACC are primarily evident with more complex and less familiar stimuli. For example, bilateral matching of complex visual patterns was significantly deficient in 5 young adults with Primary cACC, while bilateral letter matching could be done within normal limits (Brown et al., 1999). It was argued that information transferred between the hemispheres by the anterior commissure (still present in most individuals with ACC) is limited to less complex information like letters that are readily encoded (Brown & Jeeves, 1993). Mueller et al. (2009) looked at interhemispheric motor coordination in 13 adults with Primary cACC using the computerized Bimanual Coordination Test, showing deficits in both speed and accuracy in individuals with ACC. Additionally, Forget, Lippé, and Lassonde (2009) reported impaired interhemispheric transfer of perceptual priming, but intact transfer of declarative information in cACC."
+      ],
+      "footnotes": [],
+      "text": "Interhemispheric transfer limitations in ACC are primarily evident with more complex and less familiar stimuli. For example, bilateral matching of complex visual patterns was significantly deficient in 5 young adults with Primary cACC, while bilateral letter matching could be done within normal limits (Brown et al., 1999). It was argued that information transferred between the hemispheres by the anterior commissure (still present in most individuals with ACC) is limited to less complex information like letters that are readily encoded (Brown & Jeeves, 1993). Mueller et al. (2009) looked at interhemispheric motor coordination in 13 adults with Primary cACC using the computerized Bimanual Coordination Test, showing deficits in both speed and accuracy in individuals with ACC. Additionally, Forget, Lippé, and Lassonde (2009) reported impaired interhemispheric transfer of perceptual priming, but intact transfer of declarative information in cACC.",
+      "text_with_footnotes": "Interhemispheric transfer limitations in ACC are primarily evident with more complex and less familiar stimuli. For example, bilateral matching of complex visual patterns was significantly deficient in 5 young adults with Primary cACC, while bilateral letter matching could be done within normal limits (Brown et al., 1999). It was argued that information transferred between the hemispheres by the anterior commissure (still present in most individuals with ACC) is limited to less complex information like letters that are readily encoded (Brown & Jeeves, 1993). Mueller et al. (2009) looked at interhemispheric motor coordination in 13 adults with Primary cACC using the computerized Bimanual Coordination Test, showing deficits in both speed and accuracy in individuals with ACC. Additionally, Forget, Lippé, and Lassonde (2009) reported impaired interhemispheric transfer of perceptual priming, but intact transfer of declarative information in cACC.",
+      "preview_head": "Interhemispheric transfer limitations in ACC are primarily evident with more complex and less familiar stimuli. For example, bilateral matching of complex visual patterns was significantly deficient in 5 young adults with Primary cACC, while bilateral letter matching could be done within normal limits (Brown et al., 1999). It was argued that information transferred between the hemispheres by the anterior commissure (still present in most individuals with ACC) is limited to less complex information like letters that are readily encoded (Brown & Jeeves, 1993).",
+      "preview_tail": "It was argued that information transferred between the hemispheres by the anterior commissure (still present in most individuals with ACC) is limited to less complex information like letters that are readily encoded (Brown & Jeeves, 1993). Mueller et al. (2009) looked at interhemispheric motor coordination in 13 adults with Primary cACC using the computerized Bimanual Coordination Test, showing deficits in both speed and accuracy in individuals with ACC. Additionally, Forget, Lippé, and Lassonde (2009) reported impaired interhemispheric transfer of perceptual priming, but intact transfer of declarative information in cACC.",
+      "word_count": 136,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes prior research and findings on interhemispheric interactions in ACC, with citations and no"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes prior research and findings on interhemispheric interactions in ACC, with citations and no"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Processing speed",
+      "header_norm": "processing speed",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "In a study of WAIS-III scores, adults with isolated ACC had significantly slower processing speed indices than the normative population, but not lower verbal, perceptual, and working memory indices (Erickson et al., 2014). In addition, Macro et al. (2012) found impaired cognitive processing speed in 36 children and adults with ACC (12 pACC) on the Color-Word and Trail Making sections of the Delis-Kaplan Executive Function System (D-KEFS; Kramer et al., 2013)."
+      ],
+      "footnotes": [],
+      "text": "In a study of WAIS-III scores, adults with isolated ACC had significantly slower processing speed indices than the normative population, but not lower verbal, perceptual, and working memory indices (Erickson et al., 2014). In addition, Macro et al. (2012) found impaired cognitive processing speed in 36 children and adults with ACC (12 pACC) on the Color-Word and Trail Making sections of the Delis-Kaplan Executive Function System (D-KEFS; Kramer et al., 2013).",
+      "text_with_footnotes": "In a study of WAIS-III scores, adults with isolated ACC had significantly slower processing speed indices than the normative population, but not lower verbal, perceptual, and working memory indices (Erickson et al., 2014). In addition, Macro et al. (2012) found impaired cognitive processing speed in 36 children and adults with ACC (12 pACC) on the Color-Word and Trail Making sections of the Delis-Kaplan Executive Function System (D-KEFS; Kramer et al., 2013).",
+      "preview_head": "In a study of WAIS-III scores, adults with isolated ACC had significantly slower processing speed indices than the normative population, but not lower verbal, perceptual, and working memory indices (Erickson et al., 2014). In addition, Macro et al. (2012) found impaired cognitive processing speed in 36 children and adults with ACC (12 pACC) on the Color-Word and Trail Making sections of the Delis-Kaplan Executive Function System (D-KEFS; Kramer et al., 2013).",
+      "preview_tail": "In a study of WAIS-III scores, adults with isolated ACC had significantly slower processing speed indices than the normative population, but not lower verbal, perceptual, and working memory indices (Erickson et al., 2014). In addition, Macro et al. (2012) found impaired cognitive processing speed in 36 children and adults with ACC (12 pACC) on the Color-Word and Trail Making sections of the Delis-Kaplan Executive Function System (D-KEFS; Kramer et al., 2013).",
+      "word_count": 71,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Summarizes previous studies on processing speed in ACC, referencing multiple prior works and their"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Summarizes previous studies on processing speed in ACC, referencing multiple prior works and their"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Reasoning & problem-solving",
+      "header_norm": "reasoning problem solving",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Cognitive deficits are most evident in persons with ACC in problem-solving and reasoning, particularly as task complexity increases (Sauerwein et al., 1994;Solursh et al., 1965). On the Ravens Progressive Matrices, which measures nonverbal reasoning abilities, it was found that individuals with cACC performed worse than expected in relationship to their FSIQ scores on items that required more complex reasoning (Schieffer et al., 2000). Su, Graves, Turner and Brown (2023) looked at verbal problemsolving and deductive reasoning skills using the Word Context Test of the D-KEFS in 25 adults with Primary ACC (6 pACC). It was found that semantic similarity to the target word was lower for each of the five cues compared to controls, suggesting that individuals with ACC have difficulty inferring the likely semantic meaning of an unknown word."
+      ],
+      "footnotes": [],
+      "text": "Cognitive deficits are most evident in persons with ACC in problem-solving and reasoning, particularly as task complexity increases (Sauerwein et al., 1994;Solursh et al., 1965). On the Ravens Progressive Matrices, which measures nonverbal reasoning abilities, it was found that individuals with cACC performed worse than expected in relationship to their FSIQ scores on items that required more complex reasoning (Schieffer et al., 2000). Su, Graves, Turner and Brown (2023) looked at verbal problemsolving and deductive reasoning skills using the Word Context Test of the D-KEFS in 25 adults with Primary ACC (6 pACC). It was found that semantic similarity to the target word was lower for each of the five cues compared to controls, suggesting that individuals with ACC have difficulty inferring the likely semantic meaning of an unknown word.",
+      "text_with_footnotes": "Cognitive deficits are most evident in persons with ACC in problem-solving and reasoning, particularly as task complexity increases (Sauerwein et al., 1994;Solursh et al., 1965). On the Ravens Progressive Matrices, which measures nonverbal reasoning abilities, it was found that individuals with cACC performed worse than expected in relationship to their FSIQ scores on items that required more complex reasoning (Schieffer et al., 2000). Su, Graves, Turner and Brown (2023) looked at verbal problemsolving and deductive reasoning skills using the Word Context Test of the D-KEFS in 25 adults with Primary ACC (6 pACC). It was found that semantic similarity to the target word was lower for each of the five cues compared to controls, suggesting that individuals with ACC have difficulty inferring the likely semantic meaning of an unknown word.",
+      "preview_head": "Cognitive deficits are most evident in persons with ACC in problem-solving and reasoning, particularly as task complexity increases (Sauerwein et al., 1994;Solursh et al., 1965). On the Ravens Progressive Matrices, which measures nonverbal reasoning abilities, it was found that individuals with cACC performed worse than expected in relationship to their FSIQ scores on items that required more complex reasoning (Schieffer et al., 2000). Su, Graves, Turner and Brown (2023) looked at verbal problemsolving and deductive reasoning skills using the Word Context Test of the D-KEFS in 25 adults with Primary ACC (6 pACC).",
+      "preview_tail": "On the Ravens Progressive Matrices, which measures nonverbal reasoning abilities, it was found that individuals with cACC performed worse than expected in relationship to their FSIQ scores on items that required more complex reasoning (Schieffer et al., 2000). Su, Graves, Turner and Brown (2023) looked at verbal problemsolving and deductive reasoning skills using the Word Context Test of the D-KEFS in 25 adults with Primary ACC (6 pACC). It was found that semantic similarity to the target word was lower for each of the five cues compared to controls, suggesting that individuals with ACC have difficulty inferring the likely semantic meaning of an unknown word.",
+      "word_count": 130,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews prior findings on reasoning and problem-solving deficits in ACC, with heavy citation and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews prior findings on reasoning and problem-solving deficits in ACC, with heavy citation and"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Language and social understanding in ACC",
+      "header_norm": "language and social understanding in acc",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The core deficits in ACC contribute to a variety of more specific cognitive and psychosocial deficits. Family members have reported that social functioning is one of the most challenging areas for individuals with ACC (Brown & Paul, 2000). Adolescents and adults with Primary ACC have been found to be deficient in the comprehension of second-order meaning in language, a critical skill for social communications. For example, Paul, Van Lancker-Sidtis, Schieffer, Dietrich and Brown (2003) utilized the Formulaic and Novel Language Comprehension Test and found that 10 young adults with cACC showed difficulty comprehending the meaning of nonliteral expressions (idioms), while there was no difficulty in comprehending literal items. Rehmel, Paul and Brown (2016) found that 19 adolescents and adults with ACC (4 pACC) exhibited deficiencies in proverb comprehension on both the Gorham Proverb Test and the Proverb subtest of the D-KEFS. Finally, Brown et al. (2005) found diminished capacity to comprehend verbal humor in 16 adolescents and adults with cACC. These findings indicate difficulties among those with Primary ACC in making elaborative inferences from first ordermeanings to second-order meanings in the comprehension of idioms, proverbs, and jokes.",
+        "Social functioning also involves a form of problem-solving to adequately understand the meaning of complex situations. Brown et al. (2021) utilized the Social Norms Questionnaire to measure the appreciation of social norms in 17 adults with Primary ACC. It was found that individuals with ACC scored significantly lower compared to a neurotypical control group in a manner suggesting over-adherence to social norms. With respect to theory of mind (ToM), Symington, Paul, Symington, Ono and Brown (2010) found that 15 adolescents and adults with Primary cACC scored similarly to a neurotypical control group on the Happé ToM Stories and the Adult Faux Pas tests. However, the ACC group performed significantly lower when interpreting videos of interpersonal social vignettes on the Thames Awareness of Social Inference Test (McDonald, Flanagan, Rollins & Kinch, 2003). Individuals with ACC had difficulty recognizing emotional expressions, sarcasm, and social cues. In general, the presence of ACC made it difficult for individuals to integrate all the available cues to make appropriate social inferences and elaborations."
+      ],
+      "footnotes": [],
+      "text": "The core deficits in ACC contribute to a variety of more specific cognitive and psychosocial deficits. Family members have reported that social functioning is one of the most challenging areas for individuals with ACC (Brown & Paul, 2000). Adolescents and adults with Primary ACC have been found to be deficient in the comprehension of second-order meaning in language, a critical skill for social communications. For example, Paul, Van Lancker-Sidtis, Schieffer, Dietrich and Brown (2003) utilized the Formulaic and Novel Language Comprehension Test and found that 10 young adults with cACC showed difficulty comprehending the meaning of nonliteral expressions (idioms), while there was no difficulty in comprehending literal items. Rehmel, Paul and Brown (2016) found that 19 adolescents and adults with ACC (4 pACC) exhibited deficiencies in proverb comprehension on both the Gorham Proverb Test and the Proverb subtest of the D-KEFS. Finally, Brown et al. (2005) found diminished capacity to comprehend verbal humor in 16 adolescents and adults with cACC. These findings indicate difficulties among those with Primary ACC in making elaborative inferences from first ordermeanings to second-order meanings in the comprehension of idioms, proverbs, and jokes.\n\nSocial functioning also involves a form of problem-solving to adequately understand the meaning of complex situations. Brown et al. (2021) utilized the Social Norms Questionnaire to measure the appreciation of social norms in 17 adults with Primary ACC. It was found that individuals with ACC scored significantly lower compared to a neurotypical control group in a manner suggesting over-adherence to social norms. With respect to theory of mind (ToM), Symington, Paul, Symington, Ono and Brown (2010) found that 15 adolescents and adults with Primary cACC scored similarly to a neurotypical control group on the Happé ToM Stories and the Adult Faux Pas tests. However, the ACC group performed significantly lower when interpreting videos of interpersonal social vignettes on the Thames Awareness of Social Inference Test (McDonald, Flanagan, Rollins & Kinch, 2003). Individuals with ACC had difficulty recognizing emotional expressions, sarcasm, and social cues. In general, the presence of ACC made it difficult for individuals to integrate all the available cues to make appropriate social inferences and elaborations.",
+      "text_with_footnotes": "The core deficits in ACC contribute to a variety of more specific cognitive and psychosocial deficits. Family members have reported that social functioning is one of the most challenging areas for individuals with ACC (Brown & Paul, 2000). Adolescents and adults with Primary ACC have been found to be deficient in the comprehension of second-order meaning in language, a critical skill for social communications. For example, Paul, Van Lancker-Sidtis, Schieffer, Dietrich and Brown (2003) utilized the Formulaic and Novel Language Comprehension Test and found that 10 young adults with cACC showed difficulty comprehending the meaning of nonliteral expressions (idioms), while there was no difficulty in comprehending literal items. Rehmel, Paul and Brown (2016) found that 19 adolescents and adults with ACC (4 pACC) exhibited deficiencies in proverb comprehension on both the Gorham Proverb Test and the Proverb subtest of the D-KEFS. Finally, Brown et al. (2005) found diminished capacity to comprehend verbal humor in 16 adolescents and adults with cACC. These findings indicate difficulties among those with Primary ACC in making elaborative inferences from first ordermeanings to second-order meanings in the comprehension of idioms, proverbs, and jokes.\n\nSocial functioning also involves a form of problem-solving to adequately understand the meaning of complex situations. Brown et al. (2021) utilized the Social Norms Questionnaire to measure the appreciation of social norms in 17 adults with Primary ACC. It was found that individuals with ACC scored significantly lower compared to a neurotypical control group in a manner suggesting over-adherence to social norms. With respect to theory of mind (ToM), Symington, Paul, Symington, Ono and Brown (2010) found that 15 adolescents and adults with Primary cACC scored similarly to a neurotypical control group on the Happé ToM Stories and the Adult Faux Pas tests. However, the ACC group performed significantly lower when interpreting videos of interpersonal social vignettes on the Thames Awareness of Social Inference Test (McDonald, Flanagan, Rollins & Kinch, 2003). Individuals with ACC had difficulty recognizing emotional expressions, sarcasm, and social cues. In general, the presence of ACC made it difficult for individuals to integrate all the available cues to make appropriate social inferences and elaborations.",
+      "preview_head": "The core deficits in ACC contribute to a variety of more specific cognitive and psychosocial deficits. Family members have reported that social functioning is one of the most challenging areas for individuals with ACC (Brown & Paul, 2000). Adolescents and adults with Primary ACC have been found to be deficient in the comprehension of second-order meaning in language, a critical skill for social communications.",
+      "preview_tail": "However, the ACC group performed significantly lower when interpreting videos of interpersonal social vignettes on the Thames Awareness of Social Inference Test (McDonald, Flanagan, Rollins & Kinch, 2003). Individuals with ACC had difficulty recognizing emotional expressions, sarcasm, and social cues. In general, the presence of ACC made it difficult for individuals to integrate all the available cues to make appropriate social inferences and elaborations.",
+      "word_count": 354,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses previous research and findings on language and social understanding in ACC, with numerous"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses previous research and findings on language and social understanding in ACC, with numerous"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Social imagination, inference, and elaboration in ACC",
+      "header_norm": "social imagination inference and elaboration in acc",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Deficits in understanding second-order meanings in language and in social problem-solving may be due to the inability to imaginatively elaborate possibilities beyond the immediate context. That is, persons with ACC have less capacity to imagine other possible meanings of statements, or to imagine alternative situational possibilities that would solve a social/behavioral problem. Renteria-Vazquez et al. (2022) looked at responses from the Animations Test (Abell et al., 2000;Castelli, Happé, Frith & Frith, 2000) in order to compare social imagination, elaboration, and inference in 14 adults with Primary ACC (4 pACC), 13 adults with autism spectrum disorder (ASD), and neurotypical controls. The Animations Test assesses whether an individual can infer appropriate social meanings and mental states based on the interactions of geometric shapes in short animations intended to suggest specific social contexts categorized as Goal Directed or ToM. Each of four Goal Directed animations involved a single form of simple social interaction, while ToM animations each involved sequences that displayed more complex social and relational interactions (coaxing, mocking, seducing, and surprising). After viewing the animation video, participants are asked to tell about what they have seen.",
+        "Using the standard subjective scoring of the test, Renteria-Vazquez et al. (2022) found no significant differences between ACC, ASD and control groups for either appropriateness or intentionality. Responses to the Animations Test were also evaluated using LIWC to assess the rate of usage of words from specific semantic categories: Affect, Social, and Cognitive. Results showed that individuals with ACC and ASD used significantly fewer words in these categories compared to the control group.",
+        "In further analyses, topic models, identified by Latent Dirichlet Allocation (Atkins et al., 2012;Blei & Lafferty, 2006;Blei, 2012;Liu et al., 2016), were used to characterize the topics making up the responses of each person to each animation. The topics of persons with ACC and ASD, as well as neurotypical controls, were compared to the core topic model extracted from the combined responses of all control participants. Perplexity scores were utilized to measure the similarity of each participant's response to this core topic model. For all eight of the Goal Directed and ToM animations, individuals with ACC or ASD showed significantly greater similarity (significantly lower average perplexity) to the core model than controls. This outcome was found for overall perplexity averages, and for perplexity values for each of the animations, with similarly large effect sizes in all cases, and for participants with both ACC and ASD. Thus, persons with ACC and ASD gave highly conventional responses, departing little from the core topic, suggesting that both groups have less capacity for imaginative elaboration."
+      ],
+      "footnotes": [],
+      "text": "Deficits in understanding second-order meanings in language and in social problem-solving may be due to the inability to imaginatively elaborate possibilities beyond the immediate context. That is, persons with ACC have less capacity to imagine other possible meanings of statements, or to imagine alternative situational possibilities that would solve a social/behavioral problem. Renteria-Vazquez et al. (2022) looked at responses from the Animations Test (Abell et al., 2000;Castelli, Happé, Frith & Frith, 2000) in order to compare social imagination, elaboration, and inference in 14 adults with Primary ACC (4 pACC), 13 adults with autism spectrum disorder (ASD), and neurotypical controls. The Animations Test assesses whether an individual can infer appropriate social meanings and mental states based on the interactions of geometric shapes in short animations intended to suggest specific social contexts categorized as Goal Directed or ToM. Each of four Goal Directed animations involved a single form of simple social interaction, while ToM animations each involved sequences that displayed more complex social and relational interactions (coaxing, mocking, seducing, and surprising). After viewing the animation video, participants are asked to tell about what they have seen.\n\nUsing the standard subjective scoring of the test, Renteria-Vazquez et al. (2022) found no significant differences between ACC, ASD and control groups for either appropriateness or intentionality. Responses to the Animations Test were also evaluated using LIWC to assess the rate of usage of words from specific semantic categories: Affect, Social, and Cognitive. Results showed that individuals with ACC and ASD used significantly fewer words in these categories compared to the control group.\n\nIn further analyses, topic models, identified by Latent Dirichlet Allocation (Atkins et al., 2012;Blei & Lafferty, 2006;Blei, 2012;Liu et al., 2016), were used to characterize the topics making up the responses of each person to each animation. The topics of persons with ACC and ASD, as well as neurotypical controls, were compared to the core topic model extracted from the combined responses of all control participants. Perplexity scores were utilized to measure the similarity of each participant's response to this core topic model. For all eight of the Goal Directed and ToM animations, individuals with ACC or ASD showed significantly greater similarity (significantly lower average perplexity) to the core model than controls. This outcome was found for overall perplexity averages, and for perplexity values for each of the animations, with similarly large effect sizes in all cases, and for participants with both ACC and ASD. Thus, persons with ACC and ASD gave highly conventional responses, departing little from the core topic, suggesting that both groups have less capacity for imaginative elaboration.",
+      "text_with_footnotes": "Deficits in understanding second-order meanings in language and in social problem-solving may be due to the inability to imaginatively elaborate possibilities beyond the immediate context. That is, persons with ACC have less capacity to imagine other possible meanings of statements, or to imagine alternative situational possibilities that would solve a social/behavioral problem. Renteria-Vazquez et al. (2022) looked at responses from the Animations Test (Abell et al., 2000;Castelli, Happé, Frith & Frith, 2000) in order to compare social imagination, elaboration, and inference in 14 adults with Primary ACC (4 pACC), 13 adults with autism spectrum disorder (ASD), and neurotypical controls. The Animations Test assesses whether an individual can infer appropriate social meanings and mental states based on the interactions of geometric shapes in short animations intended to suggest specific social contexts categorized as Goal Directed or ToM. Each of four Goal Directed animations involved a single form of simple social interaction, while ToM animations each involved sequences that displayed more complex social and relational interactions (coaxing, mocking, seducing, and surprising). After viewing the animation video, participants are asked to tell about what they have seen.\n\nUsing the standard subjective scoring of the test, Renteria-Vazquez et al. (2022) found no significant differences between ACC, ASD and control groups for either appropriateness or intentionality. Responses to the Animations Test were also evaluated using LIWC to assess the rate of usage of words from specific semantic categories: Affect, Social, and Cognitive. Results showed that individuals with ACC and ASD used significantly fewer words in these categories compared to the control group.\n\nIn further analyses, topic models, identified by Latent Dirichlet Allocation (Atkins et al., 2012;Blei & Lafferty, 2006;Blei, 2012;Liu et al., 2016), were used to characterize the topics making up the responses of each person to each animation. The topics of persons with ACC and ASD, as well as neurotypical controls, were compared to the core topic model extracted from the combined responses of all control participants. Perplexity scores were utilized to measure the similarity of each participant's response to this core topic model. For all eight of the Goal Directed and ToM animations, individuals with ACC or ASD showed significantly greater similarity (significantly lower average perplexity) to the core model than controls. This outcome was found for overall perplexity averages, and for perplexity values for each of the animations, with similarly large effect sizes in all cases, and for participants with both ACC and ASD. Thus, persons with ACC and ASD gave highly conventional responses, departing little from the core topic, suggesting that both groups have less capacity for imaginative elaboration.",
+      "preview_head": "Deficits in understanding second-order meanings in language and in social problem-solving may be due to the inability to imaginatively elaborate possibilities beyond the immediate context. That is, persons with ACC have less capacity to imagine other possible meanings of statements, or to imagine alternative situational possibilities that would solve a social/behavioral problem. Renteria-Vazquez et al. (2022) looked at responses from the Animations Test (Abell et al., 2000;Castelli, Happé, Frith & Frith, 2000) in order to compare social imagination, elaboration, and inference in 14 adults with Primary ACC (4 pACC), 13 adults with autism spectrum disorder (ASD), and neurotypical controls.",
+      "preview_tail": "For all eight of the Goal Directed and ToM animations, individuals with ACC or ASD showed significantly greater similarity (significantly lower average perplexity) to the core model than controls. This outcome was found for overall perplexity averages, and for perplexity values for each of the animations, with similarly large effect sizes in all cases, and for participants with both ACC and ASD. Thus, persons with ACC and ASD gave highly conventional responses, departing little from the core topic, suggesting that both groups have less capacity for imaginative elaboration.",
+      "word_count": 428,
+      "paragraph_count": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explores prior research and theoretical explanations for social imagination and inference deficits"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explores prior research and theoretical explanations for social imagination and inference deficits"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "The thematic apperception test in ACC",
+      "header_norm": "the thematic apperception test in acc",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The Thematic Apperception Test (TAT; Murray, 1943) is a projective psychological assessment instrument that consists of a series of pictures of provocative social scenes. For each card, individuals are asked to provide a story with a beginning, middle, and end, including what the characters are thinking, feeling, and doing. Paul et al. (2004) used the TAT to assess social and emotional insight in 6 young adults with Primary ACC (1 pACC) in producing narratives to six TAT cards (1, 2, 6BM, 8BM, 12 M, and 13MF). Compared to a neurotypical group, raters judged persons with ACC to have deficient story logic and social understanding, as well as atypical story content in their interpretation of the pictures.",
+        "In a follow-up study with 20 children and adults with Primary ACC (3 pACC), Turk et al. (2010) used LIWC to determine the frequency with which participants used specific categories of words in their stories. They found that individuals with ACC produced narratives that involved significantly fewer words denoting the emotions, social interactions, and mental states of the characters portrayed in the pictures. Individuals with ACC also misused emotion words, and tended to misunderstand the social interactions portrayed in particular cards. Individuals with ACC also differed in their patterns of grammatical structure, using fewer verbs in the past or future tense, and more first-person language. These differences in grammatical usage suggested that persons with ACC having difficulty \"imagining social scenarios that might precede or follow the situations depicted\" (Turk et al., 2010, p. 47), as well as difficulty seeing the situation from the perspective of the characters in the story. Generally, the TAT narratives provided by individuals with ACC were overly simplistic and used fewer words interpreting the mental, emotional, and interpersonal processing of characters in their narratives, suggesting that the corpus callosum contributes to inferring and imagining the social and emotional context of interpersonal situations."
+      ],
+      "footnotes": [],
+      "text": "The Thematic Apperception Test (TAT; Murray, 1943) is a projective psychological assessment instrument that consists of a series of pictures of provocative social scenes. For each card, individuals are asked to provide a story with a beginning, middle, and end, including what the characters are thinking, feeling, and doing. Paul et al. (2004) used the TAT to assess social and emotional insight in 6 young adults with Primary ACC (1 pACC) in producing narratives to six TAT cards (1, 2, 6BM, 8BM, 12 M, and 13MF). Compared to a neurotypical group, raters judged persons with ACC to have deficient story logic and social understanding, as well as atypical story content in their interpretation of the pictures.\n\nIn a follow-up study with 20 children and adults with Primary ACC (3 pACC), Turk et al. (2010) used LIWC to determine the frequency with which participants used specific categories of words in their stories. They found that individuals with ACC produced narratives that involved significantly fewer words denoting the emotions, social interactions, and mental states of the characters portrayed in the pictures. Individuals with ACC also misused emotion words, and tended to misunderstand the social interactions portrayed in particular cards. Individuals with ACC also differed in their patterns of grammatical structure, using fewer verbs in the past or future tense, and more first-person language. These differences in grammatical usage suggested that persons with ACC having difficulty \"imagining social scenarios that might precede or follow the situations depicted\" (Turk et al., 2010, p. 47), as well as difficulty seeing the situation from the perspective of the characters in the story. Generally, the TAT narratives provided by individuals with ACC were overly simplistic and used fewer words interpreting the mental, emotional, and interpersonal processing of characters in their narratives, suggesting that the corpus callosum contributes to inferring and imagining the social and emotional context of interpersonal situations.",
+      "text_with_footnotes": "The Thematic Apperception Test (TAT; Murray, 1943) is a projective psychological assessment instrument that consists of a series of pictures of provocative social scenes. For each card, individuals are asked to provide a story with a beginning, middle, and end, including what the characters are thinking, feeling, and doing. Paul et al. (2004) used the TAT to assess social and emotional insight in 6 young adults with Primary ACC (1 pACC) in producing narratives to six TAT cards (1, 2, 6BM, 8BM, 12 M, and 13MF). Compared to a neurotypical group, raters judged persons with ACC to have deficient story logic and social understanding, as well as atypical story content in their interpretation of the pictures.\n\nIn a follow-up study with 20 children and adults with Primary ACC (3 pACC), Turk et al. (2010) used LIWC to determine the frequency with which participants used specific categories of words in their stories. They found that individuals with ACC produced narratives that involved significantly fewer words denoting the emotions, social interactions, and mental states of the characters portrayed in the pictures. Individuals with ACC also misused emotion words, and tended to misunderstand the social interactions portrayed in particular cards. Individuals with ACC also differed in their patterns of grammatical structure, using fewer verbs in the past or future tense, and more first-person language. These differences in grammatical usage suggested that persons with ACC having difficulty \"imagining social scenarios that might precede or follow the situations depicted\" (Turk et al., 2010, p. 47), as well as difficulty seeing the situation from the perspective of the characters in the story. Generally, the TAT narratives provided by individuals with ACC were overly simplistic and used fewer words interpreting the mental, emotional, and interpersonal processing of characters in their narratives, suggesting that the corpus callosum contributes to inferring and imagining the social and emotional context of interpersonal situations.",
+      "preview_head": "The Thematic Apperception Test (TAT; Murray, 1943) is a projective psychological assessment instrument that consists of a series of pictures of provocative social scenes. For each card, individuals are asked to provide a story with a beginning, middle, and end, including what the characters are thinking, feeling, and doing. Paul et al. (2004) used the TAT to assess social and emotional insight in 6 young adults with Primary ACC (1 pACC) in producing narratives to six TAT cards (1, 2, 6BM, 8BM, 12 M, and 13MF).",
+      "preview_tail": "Individuals with ACC also differed in their patterns of grammatical structure, using fewer verbs in the past or future tense, and more first-person language. These differences in grammatical usage suggested that persons with ACC having difficulty \"imagining social scenarios that might precede or follow the situations depicted\" (Turk et al., 2010, p. 47), as well as difficulty seeing the situation from the perspective of the characters in the story. Generally, the TAT narratives provided by individuals with ACC were overly simplistic and used fewer words interpreting the mental, emotional, and interpersonal processing of characters in their narratives, suggesting that the corpus callosum contributes to inferring and imagining the social and emotional context of interpersonal situations.",
+      "word_count": 312,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes the Thematic Apperception Test and summarizes prior findings on its use in ACC, with"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes the Thematic Apperception Test and summarizes prior findings on its use in ACC, with"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Narrative coherence",
+      "header_norm": "narrative coherence",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Latent semantic analysis (LSA; Landauer et al., 1998) maps meaning in texts by mathematically representing words as points in a high dimension semantic space, while phrases, sentences, or paragraphs are represented by vectors. Semantic similarity between texts is calculated as the cosine angle value (-1 to 1) between vectors. It has been shown that LSA accurately estimates knowledge content within student essays (Foltz, 2005).",
+        "Narrative coherence implies a smooth transition of meaning across discourse. A more readily comprehensible text will have well-connected information. To measure coherence, LSA compares each successive section of text (e.g., sentences) to the section immediately after, producing a cosine that reflects their semantic relatedness. Coherence within a short text, such as verbal responses to TAT pictures, is done using sentence-to-sentence comparisonscomparing each sentence to the sentence after it throughout a body of text. Thus, a body of text with n sentences would result in n-1 cosines. Mean of the cosines represents the overall coherence of a particular text. Higher variance in cosines reflects irregular transition of meaning and lower coherence. Smaller movements of meaning (i.e., higher inter-sentence cosines) reflect a more coherent text (Foltz, 2007). Measuring text coherence with LSA has been shown to predict comprehensibility of texts for readers (Foltz et al., 1998),"
+      ],
+      "footnotes": [],
+      "text": "Latent semantic analysis (LSA; Landauer et al., 1998) maps meaning in texts by mathematically representing words as points in a high dimension semantic space, while phrases, sentences, or paragraphs are represented by vectors. Semantic similarity between texts is calculated as the cosine angle value (-1 to 1) between vectors. It has been shown that LSA accurately estimates knowledge content within student essays (Foltz, 2005).\n\nNarrative coherence implies a smooth transition of meaning across discourse. A more readily comprehensible text will have well-connected information. To measure coherence, LSA compares each successive section of text (e.g., sentences) to the section immediately after, producing a cosine that reflects their semantic relatedness. Coherence within a short text, such as verbal responses to TAT pictures, is done using sentence-to-sentence comparisonscomparing each sentence to the sentence after it throughout a body of text. Thus, a body of text with n sentences would result in n-1 cosines. Mean of the cosines represents the overall coherence of a particular text. Higher variance in cosines reflects irregular transition of meaning and lower coherence. Smaller movements of meaning (i.e., higher inter-sentence cosines) reflect a more coherent text (Foltz, 2007). Measuring text coherence with LSA has been shown to predict comprehensibility of texts for readers (Foltz et al., 1998),",
+      "text_with_footnotes": "Latent semantic analysis (LSA; Landauer et al., 1998) maps meaning in texts by mathematically representing words as points in a high dimension semantic space, while phrases, sentences, or paragraphs are represented by vectors. Semantic similarity between texts is calculated as the cosine angle value (-1 to 1) between vectors. It has been shown that LSA accurately estimates knowledge content within student essays (Foltz, 2005).\n\nNarrative coherence implies a smooth transition of meaning across discourse. A more readily comprehensible text will have well-connected information. To measure coherence, LSA compares each successive section of text (e.g., sentences) to the section immediately after, producing a cosine that reflects their semantic relatedness. Coherence within a short text, such as verbal responses to TAT pictures, is done using sentence-to-sentence comparisonscomparing each sentence to the sentence after it throughout a body of text. Thus, a body of text with n sentences would result in n-1 cosines. Mean of the cosines represents the overall coherence of a particular text. Higher variance in cosines reflects irregular transition of meaning and lower coherence. Smaller movements of meaning (i.e., higher inter-sentence cosines) reflect a more coherent text (Foltz, 2007). Measuring text coherence with LSA has been shown to predict comprehensibility of texts for readers (Foltz et al., 1998),",
+      "preview_head": "Latent semantic analysis (LSA; Landauer et al., 1998) maps meaning in texts by mathematically representing words as points in a high dimension semantic space, while phrases, sentences, or paragraphs are represented by vectors. Semantic similarity between texts is calculated as the cosine angle value (-1 to 1) between vectors. It has been shown that LSA accurately estimates knowledge content within student essays (Foltz, 2005).",
+      "preview_tail": "Higher variance in cosines reflects irregular transition of meaning and lower coherence. Smaller movements of meaning (i.e., higher inter-sentence cosines) reflect a more coherent text (Foltz, 2007). Measuring text coherence with LSA has been shown to predict comprehensibility of texts for readers (Foltz et al., 1998),",
+      "word_count": 208,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explains the theoretical and methodological background of narrative coherence and LSA, referencing"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explains the theoretical and methodological background of narrative coherence and LSA, referencing"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "Topic modeling",
+      "header_norm": "topic modeling",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Topic modeling is a process that determines the thematic and semantic patterns within a text (Atkins et al., 2012;Blei & Lafferty, 2006;Blei, 2012;Liu et al., 2016). Topic models factor the content of the text into topics by identifying groups of associated (colocated) words. Latent Dirichlet Allocation makes explicit the thematic cores of a text-that is, the various word groups (topics) that probabilistically were most likely to have generated the text.",
+        "When comparing between topic models, the ability of a model to predict a text is indicated by a perplexity score. Perplexity is defined as a \"canonical measure of goodness [of fit] that is used in language modeling to measure the likelihood of held-out data to be generated from the underlying (learned) distributions of the model\" (AlSumait et al., 2008, p.6). A higher perplexity value indicates deviation from the reference text, while a lower perplexity indicates similarity. In the current research, perplexity was used to measure the relationship between the topic model of a single individual's response to a particular card, and the topic model of the common core response created from responses of all control participants to that card. Renteria-Vazquez et al. (2022) utilized this topic modeling methodology to study social imagination in adults with ACC and ASD in response to the Animations Test. Control-participant responses were used to create core topic models for each Goal Directed and ToM animation. Perplexity analysis was then run to compare the topic model of each participant's response to the core text for each animation (while controlling for FSIQ), resulting in a measurement of the topical similarity between an individual participant and the core text. Neurotypical controls were found to have higher perplexity values, suggesting greater diversity of expression around the core, while individuals with either ACC or ASD had lower perplexity scores, suggesting less extra-core imaginative elaboration."
+      ],
+      "footnotes": [],
+      "text": "Topic modeling is a process that determines the thematic and semantic patterns within a text (Atkins et al., 2012;Blei & Lafferty, 2006;Blei, 2012;Liu et al., 2016). Topic models factor the content of the text into topics by identifying groups of associated (colocated) words. Latent Dirichlet Allocation makes explicit the thematic cores of a text-that is, the various word groups (topics) that probabilistically were most likely to have generated the text.\n\nWhen comparing between topic models, the ability of a model to predict a text is indicated by a perplexity score. Perplexity is defined as a \"canonical measure of goodness [of fit] that is used in language modeling to measure the likelihood of held-out data to be generated from the underlying (learned) distributions of the model\" (AlSumait et al., 2008, p.6). A higher perplexity value indicates deviation from the reference text, while a lower perplexity indicates similarity. In the current research, perplexity was used to measure the relationship between the topic model of a single individual's response to a particular card, and the topic model of the common core response created from responses of all control participants to that card. Renteria-Vazquez et al. (2022) utilized this topic modeling methodology to study social imagination in adults with ACC and ASD in response to the Animations Test. Control-participant responses were used to create core topic models for each Goal Directed and ToM animation. Perplexity analysis was then run to compare the topic model of each participant's response to the core text for each animation (while controlling for FSIQ), resulting in a measurement of the topical similarity between an individual participant and the core text. Neurotypical controls were found to have higher perplexity values, suggesting greater diversity of expression around the core, while individuals with either ACC or ASD had lower perplexity scores, suggesting less extra-core imaginative elaboration.",
+      "text_with_footnotes": "Topic modeling is a process that determines the thematic and semantic patterns within a text (Atkins et al., 2012;Blei & Lafferty, 2006;Blei, 2012;Liu et al., 2016). Topic models factor the content of the text into topics by identifying groups of associated (colocated) words. Latent Dirichlet Allocation makes explicit the thematic cores of a text-that is, the various word groups (topics) that probabilistically were most likely to have generated the text.\n\nWhen comparing between topic models, the ability of a model to predict a text is indicated by a perplexity score. Perplexity is defined as a \"canonical measure of goodness [of fit] that is used in language modeling to measure the likelihood of held-out data to be generated from the underlying (learned) distributions of the model\" (AlSumait et al., 2008, p.6). A higher perplexity value indicates deviation from the reference text, while a lower perplexity indicates similarity. In the current research, perplexity was used to measure the relationship between the topic model of a single individual's response to a particular card, and the topic model of the common core response created from responses of all control participants to that card. Renteria-Vazquez et al. (2022) utilized this topic modeling methodology to study social imagination in adults with ACC and ASD in response to the Animations Test. Control-participant responses were used to create core topic models for each Goal Directed and ToM animation. Perplexity analysis was then run to compare the topic model of each participant's response to the core text for each animation (while controlling for FSIQ), resulting in a measurement of the topical similarity between an individual participant and the core text. Neurotypical controls were found to have higher perplexity values, suggesting greater diversity of expression around the core, while individuals with either ACC or ASD had lower perplexity scores, suggesting less extra-core imaginative elaboration.",
+      "preview_head": "Topic modeling is a process that determines the thematic and semantic patterns within a text (Atkins et al., 2012;Blei & Lafferty, 2006;Blei, 2012;Liu et al., 2016). Topic models factor the content of the text into topics by identifying groups of associated (colocated) words. Latent Dirichlet Allocation makes explicit the thematic cores of a text-that is, the various word groups (topics) that probabilistically were most likely to have generated the text.",
+      "preview_tail": "Renteria-Vazquez et al. (2022) utilized this topic modeling methodology to study social imagination in adults with ACC and ASD in response to the Animations Test. Control-participant responses were used to create core topic models for each Goal Directed and ToM animation. Perplexity analysis was then run to compare the topic model of each participant's response to the core text for each animation (while controlling for FSIQ), resulting in a measurement of the topical similarity between an individual participant and the core text. Neurotypical controls were found to have higher perplexity values, suggesting greater diversity of expression around the core, while individuals with either ACC or ASD had lower perplexity scores, suggesting less extra-core imaginative elaboration.",
+      "word_count": 304,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*topic\\s+model"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*topic\\s+model",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Research aims and hypotheses",
+      "header_norm": "research aims and hypotheses",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The current study applies the topic modeling methodology developed by Renteria-Vasquez et al. (2022), as well as the LSA measure of text coherence, to further examine cognitive processes that may contribute to the poor story logic and social understanding evident in TAT responses from individuals with ACC. It was predicted that compared to narratives from neurotypical controls, TAT responses from individuals with ACC would be equally coherent (indicating intact semantic organization) but more limited in perplexity (indicating a lesser degree of imaginative elaboration)."
+      ],
+      "footnotes": [],
+      "text": "The current study applies the topic modeling methodology developed by Renteria-Vasquez et al. (2022), as well as the LSA measure of text coherence, to further examine cognitive processes that may contribute to the poor story logic and social understanding evident in TAT responses from individuals with ACC. It was predicted that compared to narratives from neurotypical controls, TAT responses from individuals with ACC would be equally coherent (indicating intact semantic organization) but more limited in perplexity (indicating a lesser degree of imaginative elaboration).",
+      "text_with_footnotes": "The current study applies the topic modeling methodology developed by Renteria-Vasquez et al. (2022), as well as the LSA measure of text coherence, to further examine cognitive processes that may contribute to the poor story logic and social understanding evident in TAT responses from individuals with ACC. It was predicted that compared to narratives from neurotypical controls, TAT responses from individuals with ACC would be equally coherent (indicating intact semantic organization) but more limited in perplexity (indicating a lesser degree of imaginative elaboration).",
+      "preview_head": "The current study applies the topic modeling methodology developed by Renteria-Vasquez et al. (2022), as well as the LSA measure of text coherence, to further examine cognitive processes that may contribute to the poor story logic and social understanding evident in TAT responses from individuals with ACC. It was predicted that compared to narratives from neurotypical controls, TAT responses from individuals with ACC would be equally coherent (indicating intact semantic organization) but more limited in perplexity (indicating a lesser degree of imaginative elaboration).",
+      "preview_tail": "The current study applies the topic modeling methodology developed by Renteria-Vasquez et al. (2022), as well as the LSA measure of text coherence, to further examine cognitive processes that may contribute to the poor story logic and social understanding evident in TAT responses from individuals with ACC. It was predicted that compared to narratives from neurotypical controls, TAT responses from individuals with ACC would be equally coherent (indicating intact semantic organization) but more limited in perplexity (indicating a lesser degree of imaginative elaboration).",
+      "word_count": 83,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "guardrail_correction"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.855,
+      "label_reason": "intro_too_late",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Method",
+      "header_norm": "method",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Participants",
+      "header_norm": "participants",
+      "container_raw": "Method",
+      "container_norm": "method",
+      "is_container": false,
+      "paragraphs": [
+        "For all participants exclusionary criteria included: FSIQ < 80, history of major head trauma, neurosurgery, degenerative central nervous system disease, intractable epilepsy, and a diagnosis of psychiatric disorder defined by presence of psychotic symptoms. Participant groups used for LSA and topic modeling analysis were partially overlapping (12 ACC & 12 controls were in both analyses).",
+        "Topics analysis was conducted with TAT stories from both children and adults (ages 7-56), including 26 individuals with ACC (23 cACC, 3 pACC) and 30 neurotypical controls. Groups were matched for age, FSIQ, VIQ, PIQ and male/female ratio (see Table 1). Within the ACC group, absence of the corpus callosum was confirmed through MRI in 25 and via CT scan in one. Direct review of the MRI scans of 22 participants with ACC (19 cACC, 3 pACC) confirmed the presence of anterior commissure in 19 (16 cACC), bilateral Probst bundles in 21 (18 cACC), and additional neuropathology in 3 cACC (heterotopia, large interhemispheric cyst). MRIs and MRI reports were inadequate to determine absence of anterior commissure or Probst bundles. Seventeen participants in the ACC group were previously used in the research by Turk et al. (2010), and 26 were included in Paradiso et al. (2020). All 30 control group participants were included in both prior studies.",
+        "The LSA Analysis was conducted with data from older adolescents and adults (ages 16-52). Participants included 25 individuals with ACC (17 cACC, 7 pACC) and 28 neurotypical controls. Groups were matched for age, FSIQ, VIQ, PIQ and male/ female ratio (see Table 1). ACC was confirmed through MRI for all participants, with the exception of one diagnosis established through a CT scan. Direct review of MRI scans from 23 participants (18 cACC, 6 pACC) confirmed presence of anterior commissure in 21 (16 cACC), bilateral Probst bundles in 20 (15 cACC), unilateral Probst in 1 (cACC) and presence of additional neuropathology in 10. MRIs and MRI reports were inadequate to determine absence of anterior commissure or Probst bundles. Nine participants in the ACC group were also included Turk et al. (2010) and 12 were included in Paradiso et al. (2020). Twelve control group participants were included in both of the prior studies.",
+        "Participants in the control group were recruited from local community colleges, local employment agencies, and elementary schools to reflect similarity in average age and FSIQ to the ACC group."
+      ],
+      "footnotes": [],
+      "text": "For all participants exclusionary criteria included: FSIQ < 80, history of major head trauma, neurosurgery, degenerative central nervous system disease, intractable epilepsy, and a diagnosis of psychiatric disorder defined by presence of psychotic symptoms. Participant groups used for LSA and topic modeling analysis were partially overlapping (12 ACC & 12 controls were in both analyses).\n\nTopics analysis was conducted with TAT stories from both children and adults (ages 7-56), including 26 individuals with ACC (23 cACC, 3 pACC) and 30 neurotypical controls. Groups were matched for age, FSIQ, VIQ, PIQ and male/female ratio (see Table 1). Within the ACC group, absence of the corpus callosum was confirmed through MRI in 25 and via CT scan in one. Direct review of the MRI scans of 22 participants with ACC (19 cACC, 3 pACC) confirmed the presence of anterior commissure in 19 (16 cACC), bilateral Probst bundles in 21 (18 cACC), and additional neuropathology in 3 cACC (heterotopia, large interhemispheric cyst). MRIs and MRI reports were inadequate to determine absence of anterior commissure or Probst bundles. Seventeen participants in the ACC group were previously used in the research by Turk et al. (2010), and 26 were included in Paradiso et al. (2020). All 30 control group participants were included in both prior studies.\n\nThe LSA Analysis was conducted with data from older adolescents and adults (ages 16-52). Participants included 25 individuals with ACC (17 cACC, 7 pACC) and 28 neurotypical controls. Groups were matched for age, FSIQ, VIQ, PIQ and male/ female ratio (see Table 1). ACC was confirmed through MRI for all participants, with the exception of one diagnosis established through a CT scan. Direct review of MRI scans from 23 participants (18 cACC, 6 pACC) confirmed presence of anterior commissure in 21 (16 cACC), bilateral Probst bundles in 20 (15 cACC), unilateral Probst in 1 (cACC) and presence of additional neuropathology in 10. MRIs and MRI reports were inadequate to determine absence of anterior commissure or Probst bundles. Nine participants in the ACC group were also included Turk et al. (2010) and 12 were included in Paradiso et al. (2020). Twelve control group participants were included in both of the prior studies.\n\nParticipants in the control group were recruited from local community colleges, local employment agencies, and elementary schools to reflect similarity in average age and FSIQ to the ACC group.",
+      "text_with_footnotes": "For all participants exclusionary criteria included: FSIQ < 80, history of major head trauma, neurosurgery, degenerative central nervous system disease, intractable epilepsy, and a diagnosis of psychiatric disorder defined by presence of psychotic symptoms. Participant groups used for LSA and topic modeling analysis were partially overlapping (12 ACC & 12 controls were in both analyses).\n\nTopics analysis was conducted with TAT stories from both children and adults (ages 7-56), including 26 individuals with ACC (23 cACC, 3 pACC) and 30 neurotypical controls. Groups were matched for age, FSIQ, VIQ, PIQ and male/female ratio (see Table 1). Within the ACC group, absence of the corpus callosum was confirmed through MRI in 25 and via CT scan in one. Direct review of the MRI scans of 22 participants with ACC (19 cACC, 3 pACC) confirmed the presence of anterior commissure in 19 (16 cACC), bilateral Probst bundles in 21 (18 cACC), and additional neuropathology in 3 cACC (heterotopia, large interhemispheric cyst). MRIs and MRI reports were inadequate to determine absence of anterior commissure or Probst bundles. Seventeen participants in the ACC group were previously used in the research by Turk et al. (2010), and 26 were included in Paradiso et al. (2020). All 30 control group participants were included in both prior studies.\n\nThe LSA Analysis was conducted with data from older adolescents and adults (ages 16-52). Participants included 25 individuals with ACC (17 cACC, 7 pACC) and 28 neurotypical controls. Groups were matched for age, FSIQ, VIQ, PIQ and male/ female ratio (see Table 1). ACC was confirmed through MRI for all participants, with the exception of one diagnosis established through a CT scan. Direct review of MRI scans from 23 participants (18 cACC, 6 pACC) confirmed presence of anterior commissure in 21 (16 cACC), bilateral Probst bundles in 20 (15 cACC), unilateral Probst in 1 (cACC) and presence of additional neuropathology in 10. MRIs and MRI reports were inadequate to determine absence of anterior commissure or Probst bundles. Nine participants in the ACC group were also included Turk et al. (2010) and 12 were included in Paradiso et al. (2020). Twelve control group participants were included in both of the prior studies.\n\nParticipants in the control group were recruited from local community colleges, local employment agencies, and elementary schools to reflect similarity in average age and FSIQ to the ACC group.",
+      "preview_head": "For all participants exclusionary criteria included: FSIQ < 80, history of major head trauma, neurosurgery, degenerative central nervous system disease, intractable epilepsy, and a diagnosis of psychiatric disorder defined by presence of psychotic symptoms. Participant groups used for LSA and topic modeling analysis were partially overlapping (12 ACC & 12 controls were in both analyses).",
+      "preview_tail": "Participants in the control group were recruited from local community colleges, local employment agencies, and elementary schools to reflect similarity in average age and FSIQ to the ACC group.",
+      "word_count": 391,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes participant selection, exclusion criteria, and recruitment for THIS study."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Measures",
+      "header_norm": "measures",
+      "container_raw": "Method",
+      "container_norm": "method",
+      "is_container": false,
+      "paragraphs": [
+        "Six cards from the TAT (1, 2, 6 BM, 8 BM, 12 M, and 13 MF) were chosen for their potential to evoke social and emotional inferences in response narratives. Descriptions of card content are available in supplemental material (Supplement Table 3). Rather than standard scoring, text coherence based on LSA and perplexity scores from topic modeling were used to quantify and measure the quality of TAT narratives. To estimate general intelligence, ACC participants were administered the age-appropriate Wechsler Intelligence test (Wechsler Adult Intelligence Scale-III or Wechsler Intelligence Scale for Children-III) and one received the Stanford-Binet. For 13 neurotypical control participants recruited from an elementary school, FSIQ scores were provided by the school psychologist. The other control participants were administered the Wechsler Abbreviated Scales of Intelligence."
+      ],
+      "footnotes": [],
+      "text": "Six cards from the TAT (1, 2, 6 BM, 8 BM, 12 M, and 13 MF) were chosen for their potential to evoke social and emotional inferences in response narratives. Descriptions of card content are available in supplemental material (Supplement Table 3). Rather than standard scoring, text coherence based on LSA and perplexity scores from topic modeling were used to quantify and measure the quality of TAT narratives. To estimate general intelligence, ACC participants were administered the age-appropriate Wechsler Intelligence test (Wechsler Adult Intelligence Scale-III or Wechsler Intelligence Scale for Children-III) and one received the Stanford-Binet. For 13 neurotypical control participants recruited from an elementary school, FSIQ scores were provided by the school psychologist. The other control participants were administered the Wechsler Abbreviated Scales of Intelligence.",
+      "text_with_footnotes": "Six cards from the TAT (1, 2, 6 BM, 8 BM, 12 M, and 13 MF) were chosen for their potential to evoke social and emotional inferences in response narratives. Descriptions of card content are available in supplemental material (Supplement Table 3). Rather than standard scoring, text coherence based on LSA and perplexity scores from topic modeling were used to quantify and measure the quality of TAT narratives. To estimate general intelligence, ACC participants were administered the age-appropriate Wechsler Intelligence test (Wechsler Adult Intelligence Scale-III or Wechsler Intelligence Scale for Children-III) and one received the Stanford-Binet. For 13 neurotypical control participants recruited from an elementary school, FSIQ scores were provided by the school psychologist. The other control participants were administered the Wechsler Abbreviated Scales of Intelligence.",
+      "preview_head": "Six cards from the TAT (1, 2, 6 BM, 8 BM, 12 M, and 13 MF) were chosen for their potential to evoke social and emotional inferences in response narratives. Descriptions of card content are available in supplemental material (Supplement Table 3). Rather than standard scoring, text coherence based on LSA and perplexity scores from topic modeling were used to quantify and measure the quality of TAT narratives.",
+      "preview_tail": "Descriptions of card content are available in supplemental material (Supplement Table 3). Rather than standard scoring, text coherence based on LSA and perplexity scores from topic modeling were used to quantify and measure the quality of TAT narratives. To estimate general intelligence, ACC participants were administered the age-appropriate Wechsler Intelligence test (Wechsler Adult Intelligence Scale-III or Wechsler Intelligence Scale for Children-III) and one received the Stanford-Binet. For 13 neurotypical control participants recruited from an elementary school, FSIQ scores were provided by the school psychologist. The other control participants were administered the Wechsler Abbreviated Scales of Intelligence.",
+      "word_count": 126,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*measures?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*measures?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Procedure",
+      "header_norm": "procedure",
+      "container_raw": "Method",
+      "container_norm": "method",
+      "is_container": false,
+      "paragraphs": [
+        "In accordance with the standard administration of the TAT (Murray, 1943), the participants were shown the cards one at a time and given this prompt: \"I am going to show you a series of pictures. For each picture, I want you to tell me a story with a beginning, middle, and end. Tell me what the characters are thinking, feeling, and doing. And make sure you tell me how it ends.\" The administrator then wrote down each participant's responses word for word. Queries were used to prompt the participants to address all parts of the directions. Response narratives were transcribed, with contractions expanded (e.g., \"he's\" to \"he is\") and colloquialisms spelled out in standard English (e.g., \"kinda\" becomes \"kind of\").",
+        "Data collection methods and procedures were reviewed and approved by the Institutional Review Board. Participants were treated in accordance with the American Psychiatric Association Ethical Principles and the Helsinki Declaration. All were provided an opportunity to provide informed consented to participate.",
+        "Text Coherence (LSA): Prior to semantic analysis, non-story verbiage (e.g., \"I like this one,\" \"Ok. Well, I think this is : : : \") and verbalized pauses (e.g., \"Uh : : : \") were removed and periods were inserted to break up the transcribed verbal responses into complete thoughts/sentences. LSA's sentence-to-sentence comparison feature was implemented to generate a cosine for each participant's response on each card.",
+        "Topic Modeling: Responses to the TAT were also analyzed in accordance with the topic modeling procedures utilized by Renteria-Vazquez et al. (2022). Latent Dirichlet Allocation (Atkins et al., 2012;Blei, 2012;Liu et al., 2016) was used to derive a topic model for each participant's response to each card. The card-specific index of topic similarity (i.e., a perplexity score) for each ACC participant was derived by comparing the participant's topic model to the model derived from the combination of all control-participant narratives. The card-specific index of perplexity for each control participant was derived by comparing the control participant's topic model to the model derived from the combination of narratives from all other control participants (i.e., omitting the particular comparison participant). As in Renteria-Vasquez et al. (2022), we used the inverse log of perplexity, called \"logword bound,\" as a proxy for perplexity (specifically, Perplexity = 2** [-LogWordBound]) since the range and distribution of values for logword bound better fit the assumptions of statistical analysis."
+      ],
+      "footnotes": [],
+      "text": "In accordance with the standard administration of the TAT (Murray, 1943), the participants were shown the cards one at a time and given this prompt: \"I am going to show you a series of pictures. For each picture, I want you to tell me a story with a beginning, middle, and end. Tell me what the characters are thinking, feeling, and doing. And make sure you tell me how it ends.\" The administrator then wrote down each participant's responses word for word. Queries were used to prompt the participants to address all parts of the directions. Response narratives were transcribed, with contractions expanded (e.g., \"he's\" to \"he is\") and colloquialisms spelled out in standard English (e.g., \"kinda\" becomes \"kind of\").\n\nData collection methods and procedures were reviewed and approved by the Institutional Review Board. Participants were treated in accordance with the American Psychiatric Association Ethical Principles and the Helsinki Declaration. All were provided an opportunity to provide informed consented to participate.\n\nText Coherence (LSA): Prior to semantic analysis, non-story verbiage (e.g., \"I like this one,\" \"Ok. Well, I think this is : : : \") and verbalized pauses (e.g., \"Uh : : : \") were removed and periods were inserted to break up the transcribed verbal responses into complete thoughts/sentences. LSA's sentence-to-sentence comparison feature was implemented to generate a cosine for each participant's response on each card.\n\nTopic Modeling: Responses to the TAT were also analyzed in accordance with the topic modeling procedures utilized by Renteria-Vazquez et al. (2022). Latent Dirichlet Allocation (Atkins et al., 2012;Blei, 2012;Liu et al., 2016) was used to derive a topic model for each participant's response to each card. The card-specific index of topic similarity (i.e., a perplexity score) for each ACC participant was derived by comparing the participant's topic model to the model derived from the combination of all control-participant narratives. The card-specific index of perplexity for each control participant was derived by comparing the control participant's topic model to the model derived from the combination of narratives from all other control participants (i.e., omitting the particular comparison participant). As in Renteria-Vasquez et al. (2022), we used the inverse log of perplexity, called \"logword bound,\" as a proxy for perplexity (specifically, Perplexity = 2** [-LogWordBound]) since the range and distribution of values for logword bound better fit the assumptions of statistical analysis.",
+      "text_with_footnotes": "In accordance with the standard administration of the TAT (Murray, 1943), the participants were shown the cards one at a time and given this prompt: \"I am going to show you a series of pictures. For each picture, I want you to tell me a story with a beginning, middle, and end. Tell me what the characters are thinking, feeling, and doing. And make sure you tell me how it ends.\" The administrator then wrote down each participant's responses word for word. Queries were used to prompt the participants to address all parts of the directions. Response narratives were transcribed, with contractions expanded (e.g., \"he's\" to \"he is\") and colloquialisms spelled out in standard English (e.g., \"kinda\" becomes \"kind of\").\n\nData collection methods and procedures were reviewed and approved by the Institutional Review Board. Participants were treated in accordance with the American Psychiatric Association Ethical Principles and the Helsinki Declaration. All were provided an opportunity to provide informed consented to participate.\n\nText Coherence (LSA): Prior to semantic analysis, non-story verbiage (e.g., \"I like this one,\" \"Ok. Well, I think this is : : : \") and verbalized pauses (e.g., \"Uh : : : \") were removed and periods were inserted to break up the transcribed verbal responses into complete thoughts/sentences. LSA's sentence-to-sentence comparison feature was implemented to generate a cosine for each participant's response on each card.\n\nTopic Modeling: Responses to the TAT were also analyzed in accordance with the topic modeling procedures utilized by Renteria-Vazquez et al. (2022). Latent Dirichlet Allocation (Atkins et al., 2012;Blei, 2012;Liu et al., 2016) was used to derive a topic model for each participant's response to each card. The card-specific index of topic similarity (i.e., a perplexity score) for each ACC participant was derived by comparing the participant's topic model to the model derived from the combination of all control-participant narratives. The card-specific index of perplexity for each control participant was derived by comparing the control participant's topic model to the model derived from the combination of narratives from all other control participants (i.e., omitting the particular comparison participant). As in Renteria-Vasquez et al. (2022), we used the inverse log of perplexity, called \"logword bound,\" as a proxy for perplexity (specifically, Perplexity = 2** [-LogWordBound]) since the range and distribution of values for logword bound better fit the assumptions of statistical analysis.",
+      "preview_head": "In accordance with the standard administration of the TAT (Murray, 1943), the participants were shown the cards one at a time and given this prompt: \"I am going to show you a series of pictures. For each picture, I want you to tell me a story with a beginning, middle, and end. Tell me what the characters are thinking, feeling, and doing.",
+      "preview_tail": "The card-specific index of topic similarity (i.e., a perplexity score) for each ACC participant was derived by comparing the participant's topic model to the model derived from the combination of all control-participant narratives. The card-specific index of perplexity for each control participant was derived by comparing the control participant's topic model to the model derived from the combination of narratives from all other control participants (i.e., omitting the particular comparison participant). As in Renteria-Vasquez et al. (2022), we used the inverse log of perplexity, called \"logword bound,\" as a proxy for perplexity (specifically, Perplexity = 2** [-LogWordBound]) since the range and distribution of values for logword bound better fit the assumptions of statistical analysis.",
+      "word_count": 388,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the procedure for data collection and topic modeling in THIS study."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Statistical methods",
+      "header_norm": "statistical methods",
+      "container_raw": "Method",
+      "container_norm": "method",
+      "is_container": false,
+      "paragraphs": [
+        "Although ACC and neurotypical control groups did not differ significantly on mean IQ scores (Table 1), there was greater variability within the ACC group. To account for the possibility of greater IQ-related modulation in the ACC group, FSIQ was used as a covariate in all analyses. Additionally, due to the extended age range within the topics analysis sample, the square root of age was also covaried in group comparisons with this sample to account for the fact that differences in corpus callosum maturity and cognitive capacities are more pronounced between children of different ages than they are between adults of differing age. Three text characteristics were compared across groups using 6-card MANCOVA (with modified Bonferroni correction): total number of words per response, LSA cosines, and topic model outcome (\"logword bound\" perplexity). Effect sizes are reported (partial eta squared, η p",
+        "2 ) for all group comparisons (.06þ is interpreted as a medium effect and .14þ a large effect). Finally, for each card, perplexity scores were categorized as high or low if they fell 1.5 standard deviations or more above or below the control group mean (each control participant was compared to the mean of all other controls). For each card, permutation test for independent samples (R-package wPerm: perm.ind.test) was used to compare frequencies of high, low and average scores across groups."
+      ],
+      "footnotes": [],
+      "text": "Although ACC and neurotypical control groups did not differ significantly on mean IQ scores (Table 1), there was greater variability within the ACC group. To account for the possibility of greater IQ-related modulation in the ACC group, FSIQ was used as a covariate in all analyses. Additionally, due to the extended age range within the topics analysis sample, the square root of age was also covaried in group comparisons with this sample to account for the fact that differences in corpus callosum maturity and cognitive capacities are more pronounced between children of different ages than they are between adults of differing age. Three text characteristics were compared across groups using 6-card MANCOVA (with modified Bonferroni correction): total number of words per response, LSA cosines, and topic model outcome (\"logword bound\" perplexity). Effect sizes are reported (partial eta squared, η p\n\n2 ) for all group comparisons (.06þ is interpreted as a medium effect and .14þ a large effect). Finally, for each card, perplexity scores were categorized as high or low if they fell 1.5 standard deviations or more above or below the control group mean (each control participant was compared to the mean of all other controls). For each card, permutation test for independent samples (R-package wPerm: perm.ind.test) was used to compare frequencies of high, low and average scores across groups.",
+      "text_with_footnotes": "Although ACC and neurotypical control groups did not differ significantly on mean IQ scores (Table 1), there was greater variability within the ACC group. To account for the possibility of greater IQ-related modulation in the ACC group, FSIQ was used as a covariate in all analyses. Additionally, due to the extended age range within the topics analysis sample, the square root of age was also covaried in group comparisons with this sample to account for the fact that differences in corpus callosum maturity and cognitive capacities are more pronounced between children of different ages than they are between adults of differing age. Three text characteristics were compared across groups using 6-card MANCOVA (with modified Bonferroni correction): total number of words per response, LSA cosines, and topic model outcome (\"logword bound\" perplexity). Effect sizes are reported (partial eta squared, η p\n\n2 ) for all group comparisons (.06þ is interpreted as a medium effect and .14þ a large effect). Finally, for each card, perplexity scores were categorized as high or low if they fell 1.5 standard deviations or more above or below the control group mean (each control participant was compared to the mean of all other controls). For each card, permutation test for independent samples (R-package wPerm: perm.ind.test) was used to compare frequencies of high, low and average scores across groups.",
+      "preview_head": "Although ACC and neurotypical control groups did not differ significantly on mean IQ scores (Table 1), there was greater variability within the ACC group. To account for the possibility of greater IQ-related modulation in the ACC group, FSIQ was used as a covariate in all analyses. Additionally, due to the extended age range within the topics analysis sample, the square root of age was also covaried in group comparisons with this sample to account for the fact that differences in corpus callosum maturity and cognitive capacities are more pronounced between children of different ages than they are between adults of differing age.",
+      "preview_tail": "2 ) for all group comparisons (.06þ is interpreted as a medium effect and .14þ a large effect). Finally, for each card, perplexity scores were categorized as high or low if they fell 1.5 standard deviations or more above or below the control group mean (each control participant was compared to the mean of all other controls). For each card, permutation test for independent samples (R-package wPerm: perm.ind.test) was used to compare frequencies of high, low and average scores across groups.",
+      "word_count": 221,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Latent semantic analysis",
+      "header_norm": "latent semantic analysis",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "MANCOVA controlling for FSIQ revealed a significant overall group difference for word-count in the LSA sample, F (6, 45) = 3.16, p = .011, η p 2 = .297. While group differences were minimal for cards 1, 2 and 12 M (η p 2 .001 to .005), word-counts were moderately lower for the ACC group on cards 6BM and 8BM (η p 2 .060 and .074) and significantly lower on card 13BM, F (1,50) = 5.29, p = .026, η p 2 = .096 (see Supplement Tables 1 & 2). Groups did not differ overall on text coherence as measured by LSA cosine, F (6, 45) = 1.36, p = .306, η p 2 = .141, nor was there a group difference for any individual card (see Table 2). This finding remained when including only the participants with isolated ACC (η p 2 = .204) and the outcome did not change when covarying wordcount for each card."
+      ],
+      "footnotes": [],
+      "text": "MANCOVA controlling for FSIQ revealed a significant overall group difference for word-count in the LSA sample, F (6, 45) = 3.16, p = .011, η p 2 = .297. While group differences were minimal for cards 1, 2 and 12 M (η p 2 .001 to .005), word-counts were moderately lower for the ACC group on cards 6BM and 8BM (η p 2 .060 and .074) and significantly lower on card 13BM, F (1,50) = 5.29, p = .026, η p 2 = .096 (see Supplement Tables 1 & 2). Groups did not differ overall on text coherence as measured by LSA cosine, F (6, 45) = 1.36, p = .306, η p 2 = .141, nor was there a group difference for any individual card (see Table 2). This finding remained when including only the participants with isolated ACC (η p 2 = .204) and the outcome did not change when covarying wordcount for each card.",
+      "text_with_footnotes": "MANCOVA controlling for FSIQ revealed a significant overall group difference for word-count in the LSA sample, F (6, 45) = 3.16, p = .011, η p 2 = .297. While group differences were minimal for cards 1, 2 and 12 M (η p 2 .001 to .005), word-counts were moderately lower for the ACC group on cards 6BM and 8BM (η p 2 .060 and .074) and significantly lower on card 13BM, F (1,50) = 5.29, p = .026, η p 2 = .096 (see Supplement Tables 1 & 2). Groups did not differ overall on text coherence as measured by LSA cosine, F (6, 45) = 1.36, p = .306, η p 2 = .141, nor was there a group difference for any individual card (see Table 2). This finding remained when including only the participants with isolated ACC (η p 2 = .204) and the outcome did not change when covarying wordcount for each card.",
+      "preview_head": "MANCOVA controlling for FSIQ revealed a significant overall group difference for word-count in the LSA sample, F (6, 45) = 3.16, p = .011, η p 2 = .297. While group differences were minimal for cards 1, 2 and 12 M (η p 2 .001 to .005), word-counts were moderately lower for the ACC group on cards 6BM and 8BM (η p 2 .060 and .074) and significantly lower on card 13BM, F (1,50) = 5.29, p = .026, η p 2 = .096 (see Supplement Tables 1 & 2). Groups did not differ overall on text coherence as measured by LSA cosine, F (6, 45) = 1.36, p = .306, η p 2 = .141, nor was there a group difference for any individual card (see Table 2).",
+      "preview_tail": "While group differences were minimal for cards 1, 2 and 12 M (η p 2 .001 to .005), word-counts were moderately lower for the ACC group on cards 6BM and 8BM (η p 2 .060 and .074) and significantly lower on card 13BM, F (1,50) = 5.29, p = .026, η p 2 = .096 (see Supplement Tables 1 & 2). Groups did not differ overall on text coherence as measured by LSA cosine, F (6, 45) = 1.36, p = .306, η p 2 = .141, nor was there a group difference for any individual card (see Table 2). This finding remained when including only the participants with isolated ACC (η p 2 = .204) and the outcome did not change when covarying wordcount for each card.",
+      "word_count": 157,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports statistical findings (MANCOVA, group differences, effect sizes) from THIS study's LSA"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "Topics analysis",
+      "header_norm": "topics analysis",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Unlike the LSA sample, MANCOVA controlling for FSIQ and square root of age did not find a significant overall group difference for word-count in the topic analysis sample, F (6, 47) = 1.011, p = .430, η p 2 = .114, nor on any individual card. The ACC group had significantly lower perplexity values overall than neurotypical controls, F (6,47) = 11.17, p < .001, η p 2 = .588, and had significantly lower values for each of the six cards individually, p < .001; η p 2 = .295 to 478 (see Table 3 and Figure 1). Covarying word-count did not change the outcome of group comparisons for each card. Repeating the MANCOVA with only those participants aged 16þ (ACC n = 15, control n = 16) increased the effect-size of the group difference by 25%, F (6, 22) = 10.27, p < .001, η p 2 = .737. As shown in Figure 1, perplexity values from participants with pACC were distributed across the range of ACC participants.",
+        "The relative frequencies of high, average, and low perplexity scores differed significantly between groups for Card 1, X 2 = 19.51, p < .001, Card 2, X 2 = 14.54, p < .001, and Card 6BM, X 2 = 14.06, p < .001, with many more ACC than control participants exhibiting low perplexity scores and no ACC participants with high perplexity. The observed Chi-square statistics from these cards were not surpassed by any outcomes of 1000 permutations."
+      ],
+      "footnotes": [],
+      "text": "Unlike the LSA sample, MANCOVA controlling for FSIQ and square root of age did not find a significant overall group difference for word-count in the topic analysis sample, F (6, 47) = 1.011, p = .430, η p 2 = .114, nor on any individual card. The ACC group had significantly lower perplexity values overall than neurotypical controls, F (6,47) = 11.17, p < .001, η p 2 = .588, and had significantly lower values for each of the six cards individually, p < .001; η p 2 = .295 to 478 (see Table 3 and Figure 1). Covarying word-count did not change the outcome of group comparisons for each card. Repeating the MANCOVA with only those participants aged 16þ (ACC n = 15, control n = 16) increased the effect-size of the group difference by 25%, F (6, 22) = 10.27, p < .001, η p 2 = .737. As shown in Figure 1, perplexity values from participants with pACC were distributed across the range of ACC participants.\n\nThe relative frequencies of high, average, and low perplexity scores differed significantly between groups for Card 1, X 2 = 19.51, p < .001, Card 2, X 2 = 14.54, p < .001, and Card 6BM, X 2 = 14.06, p < .001, with many more ACC than control participants exhibiting low perplexity scores and no ACC participants with high perplexity. The observed Chi-square statistics from these cards were not surpassed by any outcomes of 1000 permutations.",
+      "text_with_footnotes": "Unlike the LSA sample, MANCOVA controlling for FSIQ and square root of age did not find a significant overall group difference for word-count in the topic analysis sample, F (6, 47) = 1.011, p = .430, η p 2 = .114, nor on any individual card. The ACC group had significantly lower perplexity values overall than neurotypical controls, F (6,47) = 11.17, p < .001, η p 2 = .588, and had significantly lower values for each of the six cards individually, p < .001; η p 2 = .295 to 478 (see Table 3 and Figure 1). Covarying word-count did not change the outcome of group comparisons for each card. Repeating the MANCOVA with only those participants aged 16þ (ACC n = 15, control n = 16) increased the effect-size of the group difference by 25%, F (6, 22) = 10.27, p < .001, η p 2 = .737. As shown in Figure 1, perplexity values from participants with pACC were distributed across the range of ACC participants.\n\nThe relative frequencies of high, average, and low perplexity scores differed significantly between groups for Card 1, X 2 = 19.51, p < .001, Card 2, X 2 = 14.54, p < .001, and Card 6BM, X 2 = 14.06, p < .001, with many more ACC than control participants exhibiting low perplexity scores and no ACC participants with high perplexity. The observed Chi-square statistics from these cards were not surpassed by any outcomes of 1000 permutations.",
+      "preview_head": "Unlike the LSA sample, MANCOVA controlling for FSIQ and square root of age did not find a significant overall group difference for word-count in the topic analysis sample, F (6, 47) = 1.011, p = .430, η p 2 = .114, nor on any individual card. The ACC group had significantly lower perplexity values overall than neurotypical controls, F (6,47) = 11.17, p < .001, η p 2 = .588, and had significantly lower values for each of the six cards individually, p < .001; η p 2 = .295 to 478 (see Table 3 and Figure 1). Covarying word-count did not change the outcome of group comparisons for each card.",
+      "preview_tail": "The relative frequencies of high, average, and low perplexity scores differed significantly between groups for Card 1, X 2 = 19.51, p < .001, Card 2, X 2 = 14.54, p < .001, and Card 6BM, X 2 = 14.06, p < .001, with many more ACC than control participants exhibiting low perplexity scores and no ACC participants with high perplexity. The observed Chi-square statistics from these cards were not surpassed by any outcomes of 1000 permutations.",
+      "word_count": 246,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the topic analysis, including statistical results (MANCOVA, F, "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the topic analysis, including statistical results (MANCOVA, F, "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Discussion",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Topic modeling of responses to the TAT strongly suggested a lesser degree of elaborative imagination in the narratives of individuals with ACC compared to the neurotypical control group. Higher mean perplexity scores of control-participants' responses meant that their responses deviated from the core model to a significantly greater degree, while the lower perplexity scores of persons with ACC indicated narratives with topical content that does not go extensively beyond the core text (see Supplement 4 for sample TAT narratives from each group). Group differences in perplexity of narratives were not due to differences in levels of semantic coherence, participant age, variance in FSIQ, or the number of words per response."
+      ],
+      "footnotes": [],
+      "text": "Topic modeling of responses to the TAT strongly suggested a lesser degree of elaborative imagination in the narratives of individuals with ACC compared to the neurotypical control group. Higher mean perplexity scores of control-participants' responses meant that their responses deviated from the core model to a significantly greater degree, while the lower perplexity scores of persons with ACC indicated narratives with topical content that does not go extensively beyond the core text (see Supplement 4 for sample TAT narratives from each group). Group differences in perplexity of narratives were not due to differences in levels of semantic coherence, participant age, variance in FSIQ, or the number of words per response.",
+      "text_with_footnotes": "Topic modeling of responses to the TAT strongly suggested a lesser degree of elaborative imagination in the narratives of individuals with ACC compared to the neurotypical control group. Higher mean perplexity scores of control-participants' responses meant that their responses deviated from the core model to a significantly greater degree, while the lower perplexity scores of persons with ACC indicated narratives with topical content that does not go extensively beyond the core text (see Supplement 4 for sample TAT narratives from each group). Group differences in perplexity of narratives were not due to differences in levels of semantic coherence, participant age, variance in FSIQ, or the number of words per response.",
+      "preview_head": "Topic modeling of responses to the TAT strongly suggested a lesser degree of elaborative imagination in the narratives of individuals with ACC compared to the neurotypical control group. Higher mean perplexity scores of control-participants' responses meant that their responses deviated from the core model to a significantly greater degree, while the lower perplexity scores of persons with ACC indicated narratives with topical content that does not go extensively beyond the core text (see Supplement 4 for sample TAT narratives from each group). Group differences in perplexity of narratives were not due to differences in levels of semantic coherence, participant age, variance in FSIQ, or the number of words per response.",
+      "preview_tail": "Topic modeling of responses to the TAT strongly suggested a lesser degree of elaborative imagination in the narratives of individuals with ACC compared to the neurotypical control group. Higher mean perplexity scores of control-participants' responses meant that their responses deviated from the core model to a significantly greater degree, while the lower perplexity scores of persons with ACC indicated narratives with topical content that does not go extensively beyond the core text (see Supplement 4 for sample TAT narratives from each group). Group differences in perplexity of narratives were not due to differences in levels of semantic coherence, participant age, variance in FSIQ, or the number of words per response.",
+      "word_count": 110,
+      "paragraph_count": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*discussion\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*discussion\\s*$",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Comparisons between measures of TAT responses",
+      "header_norm": "comparisons between measures of tat responses",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "In this research, LSA and LDA were used to address two different aspects of TAT responses. LSA was used to examine semantic consistency within a narrative-semantic coherence from sentence-to-sentence. In this study, semantic coherence was similar for both groups (Birath, 2012). LDA (topic analysis) was used to examine consistency of semantic content between narratives produced by different participants. The statistical outcomes from our perplexity analyses do not provide information about the specific semantic differences in content. Rather, they indicate the degree of similarity between the semantic content of an individual and the core content most common across the control group.",
+        "In contrast to our use of LSA and LDA to measure semantic consistency within and between narratives, the LIWC findings of Turk et al. (2010) primarily provide details about the actual semantic content of the narratives. The semantic domains that differ between ACC and control narratives are interpreted as indicators of topic-specific deficits involving descriptions of human experiences (e.g., emotions, thoughts and social interactions).",
+        "The findings from LDA and LIWC are complementary. While findings from LIWC indicate that narratives from individuals with ACC are limited in specific semantic domains, the LDA results clarify that the narratives of persons with ACC nevertheless include the semantic content most commonly provided by control participants. Together, these results suggest that ACC interferes with the ability to elaborate and imagine dimensions of human experience that extend beyond the immediate context or facts that are presented in the images. However, ACC does not hinder the ability to make simple social inferences and generate a coherent narrative."
+      ],
+      "footnotes": [],
+      "text": "In this research, LSA and LDA were used to address two different aspects of TAT responses. LSA was used to examine semantic consistency within a narrative-semantic coherence from sentence-to-sentence. In this study, semantic coherence was similar for both groups (Birath, 2012). LDA (topic analysis) was used to examine consistency of semantic content between narratives produced by different participants. The statistical outcomes from our perplexity analyses do not provide information about the specific semantic differences in content. Rather, they indicate the degree of similarity between the semantic content of an individual and the core content most common across the control group.\n\nIn contrast to our use of LSA and LDA to measure semantic consistency within and between narratives, the LIWC findings of Turk et al. (2010) primarily provide details about the actual semantic content of the narratives. The semantic domains that differ between ACC and control narratives are interpreted as indicators of topic-specific deficits involving descriptions of human experiences (e.g., emotions, thoughts and social interactions).\n\nThe findings from LDA and LIWC are complementary. While findings from LIWC indicate that narratives from individuals with ACC are limited in specific semantic domains, the LDA results clarify that the narratives of persons with ACC nevertheless include the semantic content most commonly provided by control participants. Together, these results suggest that ACC interferes with the ability to elaborate and imagine dimensions of human experience that extend beyond the immediate context or facts that are presented in the images. However, ACC does not hinder the ability to make simple social inferences and generate a coherent narrative.",
+      "text_with_footnotes": "In this research, LSA and LDA were used to address two different aspects of TAT responses. LSA was used to examine semantic consistency within a narrative-semantic coherence from sentence-to-sentence. In this study, semantic coherence was similar for both groups (Birath, 2012). LDA (topic analysis) was used to examine consistency of semantic content between narratives produced by different participants. The statistical outcomes from our perplexity analyses do not provide information about the specific semantic differences in content. Rather, they indicate the degree of similarity between the semantic content of an individual and the core content most common across the control group.\n\nIn contrast to our use of LSA and LDA to measure semantic consistency within and between narratives, the LIWC findings of Turk et al. (2010) primarily provide details about the actual semantic content of the narratives. The semantic domains that differ between ACC and control narratives are interpreted as indicators of topic-specific deficits involving descriptions of human experiences (e.g., emotions, thoughts and social interactions).\n\nThe findings from LDA and LIWC are complementary. While findings from LIWC indicate that narratives from individuals with ACC are limited in specific semantic domains, the LDA results clarify that the narratives of persons with ACC nevertheless include the semantic content most commonly provided by control participants. Together, these results suggest that ACC interferes with the ability to elaborate and imagine dimensions of human experience that extend beyond the immediate context or facts that are presented in the images. However, ACC does not hinder the ability to make simple social inferences and generate a coherent narrative.",
+      "preview_head": "In this research, LSA and LDA were used to address two different aspects of TAT responses. LSA was used to examine semantic consistency within a narrative-semantic coherence from sentence-to-sentence. In this study, semantic coherence was similar for both groups (Birath, 2012).",
+      "preview_tail": "While findings from LIWC indicate that narratives from individuals with ACC are limited in specific semantic domains, the LDA results clarify that the narratives of persons with ACC nevertheless include the semantic content most commonly provided by control participants. Together, these results suggest that ACC interferes with the ability to elaborate and imagine dimensions of human experience that extend beyond the immediate context or facts that are presented in the images. However, ACC does not hinder the ability to make simple social inferences and generate a coherent narrative.",
+      "word_count": 260,
+      "paragraph_count": 3,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets and compares the meaning of findings from different analytic approaches (LSA"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reference to specific findings and what was observed in the data."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "Elaborative imagination and social cognition",
+      "header_norm": "elaborative imagination and social cognition",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Several other studies of social cognition in ACC offer additional insights about the influence of deficient imagination and elaboration in daily life. Social communication in adolescents and adults with Primary ACC is compromised by difficulty imagining alternative meanings of words or phrases beyond the immediate literal meanings, resulting in poor comprehension of the second-order meanings of nonliteral language in proverbs (Rehmel et al., 2016), idioms (Paul et al., 2003), and jokes (Brown et al., 2005).",
+        "Similarly, in social interactions, they have difficulty imagining the emotional, social, and intentional states of another person (particularly when they contradict the person's literal message), imaging the wider context of immediate events, and integrating social information between scenes. Consequently, they tend to assume others' have sincere intentions and have a diminished appreciation of sarcasm (Symington et al., 2010). Finally, in the context of making everyday decisions within realistic hypothetical social scenarios, adolescents and adults with Primary ACC had limited imagination regarding the wider consequences of actions, as well as the emotional and cognitive consequences of potential decisions (Young et al., 2019). Likewise, presumably because they lack the imaginative insight necessary to modulate the application of norms in a manner appropriate to a particular context, they display an over adherence to the strict meaning of social norms (Brown et al., 2021).",
+        "Elaborative imagination and task complexity Brown and Paul (2019) asserted that deficits in interhemispheric transfer, cognitive processing speed, and complex problem-solving and reasoning are the core symptoms of isolated ACC, and that these core symptoms interact with other factors (e.g., age, individual variation in aptitude, intervention) to elicit a variety of secondary symptoms. We were unable to examine the association between our current findings and the first two core symptoms (interhemispheric transfer and processing speed); however, comparing our results with that of Renteria-Vasquez et al. (2022) suggests that the limited capacity for imagination and elaboration is not influenced by task complexity. Lower perplexity scores for TAT stories generated by adults with ACC represents a strong replication of the findings of Renteria-Vasquez et al. (2022), with both studies finding that narratives from persons with ACC were more similar to the core text than narratives from neurotypical controls. However, semantic information implied in the Animation stimuli (i.e., two or three 'characters' defined by their actions and size, and by a maximum of two implied contextual features such as an outline of a room with a door) is much simpler than that in the TAT cards (i.e., two or more 'characters' depicted with facial features, posture, clothing, etc. in a realistic social scene). The latter stimuli elicited greater elaboration in both groups (i.e., animations: mean perplexity ranged from 24.8 and 25.9 for controls and 8.5 to 11.5 for ACC; TAT: mean perplexity ranged from 58.1 to 71.7 for controls and 23.0 to 28.8 in ACC). Nevertheless, consistent effect sizes for the group comparisons (ηp 2 = .573 overall for TofM animations in Renteria-Vasquez et al., and ηp 2 = .588 overall in the current study) suggests that a limited capacity for imagination and elaboration constitute an additional core symptom of ACC, and that this deficit can be captured with tasks of both high and low complexity (TAT and Animations Test, respectively)."
+      ],
+      "footnotes": [],
+      "text": "Several other studies of social cognition in ACC offer additional insights about the influence of deficient imagination and elaboration in daily life. Social communication in adolescents and adults with Primary ACC is compromised by difficulty imagining alternative meanings of words or phrases beyond the immediate literal meanings, resulting in poor comprehension of the second-order meanings of nonliteral language in proverbs (Rehmel et al., 2016), idioms (Paul et al., 2003), and jokes (Brown et al., 2005).\n\nSimilarly, in social interactions, they have difficulty imagining the emotional, social, and intentional states of another person (particularly when they contradict the person's literal message), imaging the wider context of immediate events, and integrating social information between scenes. Consequently, they tend to assume others' have sincere intentions and have a diminished appreciation of sarcasm (Symington et al., 2010). Finally, in the context of making everyday decisions within realistic hypothetical social scenarios, adolescents and adults with Primary ACC had limited imagination regarding the wider consequences of actions, as well as the emotional and cognitive consequences of potential decisions (Young et al., 2019). Likewise, presumably because they lack the imaginative insight necessary to modulate the application of norms in a manner appropriate to a particular context, they display an over adherence to the strict meaning of social norms (Brown et al., 2021).\n\nElaborative imagination and task complexity Brown and Paul (2019) asserted that deficits in interhemispheric transfer, cognitive processing speed, and complex problem-solving and reasoning are the core symptoms of isolated ACC, and that these core symptoms interact with other factors (e.g., age, individual variation in aptitude, intervention) to elicit a variety of secondary symptoms. We were unable to examine the association between our current findings and the first two core symptoms (interhemispheric transfer and processing speed); however, comparing our results with that of Renteria-Vasquez et al. (2022) suggests that the limited capacity for imagination and elaboration is not influenced by task complexity. Lower perplexity scores for TAT stories generated by adults with ACC represents a strong replication of the findings of Renteria-Vasquez et al. (2022), with both studies finding that narratives from persons with ACC were more similar to the core text than narratives from neurotypical controls. However, semantic information implied in the Animation stimuli (i.e., two or three 'characters' defined by their actions and size, and by a maximum of two implied contextual features such as an outline of a room with a door) is much simpler than that in the TAT cards (i.e., two or more 'characters' depicted with facial features, posture, clothing, etc. in a realistic social scene). The latter stimuli elicited greater elaboration in both groups (i.e., animations: mean perplexity ranged from 24.8 and 25.9 for controls and 8.5 to 11.5 for ACC; TAT: mean perplexity ranged from 58.1 to 71.7 for controls and 23.0 to 28.8 in ACC). Nevertheless, consistent effect sizes for the group comparisons (ηp 2 = .573 overall for TofM animations in Renteria-Vasquez et al., and ηp 2 = .588 overall in the current study) suggests that a limited capacity for imagination and elaboration constitute an additional core symptom of ACC, and that this deficit can be captured with tasks of both high and low complexity (TAT and Animations Test, respectively).",
+      "text_with_footnotes": "Several other studies of social cognition in ACC offer additional insights about the influence of deficient imagination and elaboration in daily life. Social communication in adolescents and adults with Primary ACC is compromised by difficulty imagining alternative meanings of words or phrases beyond the immediate literal meanings, resulting in poor comprehension of the second-order meanings of nonliteral language in proverbs (Rehmel et al., 2016), idioms (Paul et al., 2003), and jokes (Brown et al., 2005).\n\nSimilarly, in social interactions, they have difficulty imagining the emotional, social, and intentional states of another person (particularly when they contradict the person's literal message), imaging the wider context of immediate events, and integrating social information between scenes. Consequently, they tend to assume others' have sincere intentions and have a diminished appreciation of sarcasm (Symington et al., 2010). Finally, in the context of making everyday decisions within realistic hypothetical social scenarios, adolescents and adults with Primary ACC had limited imagination regarding the wider consequences of actions, as well as the emotional and cognitive consequences of potential decisions (Young et al., 2019). Likewise, presumably because they lack the imaginative insight necessary to modulate the application of norms in a manner appropriate to a particular context, they display an over adherence to the strict meaning of social norms (Brown et al., 2021).\n\nElaborative imagination and task complexity Brown and Paul (2019) asserted that deficits in interhemispheric transfer, cognitive processing speed, and complex problem-solving and reasoning are the core symptoms of isolated ACC, and that these core symptoms interact with other factors (e.g., age, individual variation in aptitude, intervention) to elicit a variety of secondary symptoms. We were unable to examine the association between our current findings and the first two core symptoms (interhemispheric transfer and processing speed); however, comparing our results with that of Renteria-Vasquez et al. (2022) suggests that the limited capacity for imagination and elaboration is not influenced by task complexity. Lower perplexity scores for TAT stories generated by adults with ACC represents a strong replication of the findings of Renteria-Vasquez et al. (2022), with both studies finding that narratives from persons with ACC were more similar to the core text than narratives from neurotypical controls. However, semantic information implied in the Animation stimuli (i.e., two or three 'characters' defined by their actions and size, and by a maximum of two implied contextual features such as an outline of a room with a door) is much simpler than that in the TAT cards (i.e., two or more 'characters' depicted with facial features, posture, clothing, etc. in a realistic social scene). The latter stimuli elicited greater elaboration in both groups (i.e., animations: mean perplexity ranged from 24.8 and 25.9 for controls and 8.5 to 11.5 for ACC; TAT: mean perplexity ranged from 58.1 to 71.7 for controls and 23.0 to 28.8 in ACC). Nevertheless, consistent effect sizes for the group comparisons (ηp 2 = .573 overall for TofM animations in Renteria-Vasquez et al., and ηp 2 = .588 overall in the current study) suggests that a limited capacity for imagination and elaboration constitute an additional core symptom of ACC, and that this deficit can be captured with tasks of both high and low complexity (TAT and Animations Test, respectively).",
+      "preview_head": "Several other studies of social cognition in ACC offer additional insights about the influence of deficient imagination and elaboration in daily life. Social communication in adolescents and adults with Primary ACC is compromised by difficulty imagining alternative meanings of words or phrases beyond the immediate literal meanings, resulting in poor comprehension of the second-order meanings of nonliteral language in proverbs (Rehmel et al., 2016), idioms (Paul et al., 2003), and jokes (Brown et al., 2005).",
+      "preview_tail": "However, semantic information implied in the Animation stimuli (i.e., two or three 'characters' defined by their actions and size, and by a maximum of two implied contextual features such as an outline of a room with a door) is much simpler than that in the TAT cards (i.e., two or more 'characters' depicted with facial features, posture, clothing, etc. in a realistic social scene). The latter stimuli elicited greater elaboration in both groups (i.e., animations: mean perplexity ranged from 24.8 and 25.9 for controls and 8.5 to 11.5 for ACC; TAT: mean perplexity ranged from 58.1 to 71.7 for controls and 23.0 to 28.8 in ACC). Nevertheless, consistent effect sizes for the group comparisons (ηp 2 = .573 overall for TofM animations in Renteria-Vasquez et al., and ηp 2 = .588 overall in the current study) suggests that a limited capacity for imagination and elaboration constitute an additional core symptom of ACC, and that this deficit can be captured with tasks of both high and low complexity (TAT and Animations Test, respectively).",
+      "word_count": 533,
+      "paragraph_count": 3,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets findings in the context of social cognition and elaborative imagination, con"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Limitations and future research",
+      "header_norm": "limitations and future research",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The present study focused upon individuals with ACC with an IQ score above 80 and it remains unclear how these results may generalize to individuals that are lower functioning. Although we controlled for age-effects in the group comparisons of perplexity, the large age range in our sample may obfuscate more subtle effects occurring within narrower age ranges (e.g., effects seen only in teens, but not apparent in adults). Also, the generalizability of the study may be limited due to the small group size, although the group size used was sufficient to reveal strong effect sizes in perplexity.",
+        "Future research could apply topic modeling to responses of persons with ACC from other measures which elicit free verbal responses, such as the Animal Metaphor Test or the Rorschach. In addition, comparison of the current study's findings with results from individuals with diagnoses involving similar symptoms, such as autism spectrum disorder (as in Renteria-Vasquez et al., 2022), and analysis of socioeconomic influences would provide additional context for the results of the current study.",
+        "Finally, to confirm that deficient elaboration and imagination is an additional core symptom of ACC, future studies must demonstrate that this symptom is not explained by weaknesses in processing speed and complex novel problem-solving."
+      ],
+      "footnotes": [],
+      "text": "The present study focused upon individuals with ACC with an IQ score above 80 and it remains unclear how these results may generalize to individuals that are lower functioning. Although we controlled for age-effects in the group comparisons of perplexity, the large age range in our sample may obfuscate more subtle effects occurring within narrower age ranges (e.g., effects seen only in teens, but not apparent in adults). Also, the generalizability of the study may be limited due to the small group size, although the group size used was sufficient to reveal strong effect sizes in perplexity.\n\nFuture research could apply topic modeling to responses of persons with ACC from other measures which elicit free verbal responses, such as the Animal Metaphor Test or the Rorschach. In addition, comparison of the current study's findings with results from individuals with diagnoses involving similar symptoms, such as autism spectrum disorder (as in Renteria-Vasquez et al., 2022), and analysis of socioeconomic influences would provide additional context for the results of the current study.\n\nFinally, to confirm that deficient elaboration and imagination is an additional core symptom of ACC, future studies must demonstrate that this symptom is not explained by weaknesses in processing speed and complex novel problem-solving.",
+      "text_with_footnotes": "The present study focused upon individuals with ACC with an IQ score above 80 and it remains unclear how these results may generalize to individuals that are lower functioning. Although we controlled for age-effects in the group comparisons of perplexity, the large age range in our sample may obfuscate more subtle effects occurring within narrower age ranges (e.g., effects seen only in teens, but not apparent in adults). Also, the generalizability of the study may be limited due to the small group size, although the group size used was sufficient to reveal strong effect sizes in perplexity.\n\nFuture research could apply topic modeling to responses of persons with ACC from other measures which elicit free verbal responses, such as the Animal Metaphor Test or the Rorschach. In addition, comparison of the current study's findings with results from individuals with diagnoses involving similar symptoms, such as autism spectrum disorder (as in Renteria-Vasquez et al., 2022), and analysis of socioeconomic influences would provide additional context for the results of the current study.\n\nFinally, to confirm that deficient elaboration and imagination is an additional core symptom of ACC, future studies must demonstrate that this symptom is not explained by weaknesses in processing speed and complex novel problem-solving.",
+      "preview_head": "The present study focused upon individuals with ACC with an IQ score above 80 and it remains unclear how these results may generalize to individuals that are lower functioning. Although we controlled for age-effects in the group comparisons of perplexity, the large age range in our sample may obfuscate more subtle effects occurring within narrower age ranges (e.g., effects seen only in teens, but not apparent in adults). Also, the generalizability of the study may be limited due to the small group size, although the group size used was sufficient to reveal strong effect sizes in perplexity.",
+      "preview_tail": "Finally, to confirm that deficient elaboration and imagination is an additional core symptom of ACC, future studies must demonstrate that this symptom is not explained by weaknesses in processing speed and complex novel problem-solving.",
+      "word_count": 204,
+      "paragraph_count": 3,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.5,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.5,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "merged_section:DISCUSSION+CONCLUSION",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Brown et al. - 2024 - Imaginative elaboration in agenesis of the corpus callosum topic modeling and perplexity",
+      "sec_index": 24,
+      "depth": 0,
+      "header_raw": "Summary and conclusion",
+      "header_norm": "summary and conclusion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Based on analyses of responses to the TAT using LSA coherence and perplexity scores from topic modeling, the outcome of this study suggested that individuals with ACC provide coherent narratives, but with diminished imaginative elaboration in comparison to neurotypical controls. Individuals with ACC were less able to elaborate beyond the basic core narrative for each TAT card. This project is an important follow-up to the Renteria-Vasquez study, as it provides complementary evidence that imaginative elaboration of social interpretations is an area of deficiency in ACC, further supporting the theory that the corpus callosum plays a vital role in this skill. There are multiple highimpact implications of this deficit in daily life, making it an important intervention target in ACC.",
+        "Additionally, having now been shown to produce similar, consistent, and useful results in two different studies of ACC (Renteria-Vasquez et al., 2022), the current findings suggest that topic modeling and perplexity scores may provide a robust tool for semantic analysis of free response texts in neuropsychological assessment.",
+        "Supplementary material. For supplementary material accompanying this paper visit https://doi.org/10.1017/S1355617724000183"
+      ],
+      "footnotes": [],
+      "text": "Based on analyses of responses to the TAT using LSA coherence and perplexity scores from topic modeling, the outcome of this study suggested that individuals with ACC provide coherent narratives, but with diminished imaginative elaboration in comparison to neurotypical controls. Individuals with ACC were less able to elaborate beyond the basic core narrative for each TAT card. This project is an important follow-up to the Renteria-Vasquez study, as it provides complementary evidence that imaginative elaboration of social interpretations is an area of deficiency in ACC, further supporting the theory that the corpus callosum plays a vital role in this skill. There are multiple highimpact implications of this deficit in daily life, making it an important intervention target in ACC.\n\nAdditionally, having now been shown to produce similar, consistent, and useful results in two different studies of ACC (Renteria-Vasquez et al., 2022), the current findings suggest that topic modeling and perplexity scores may provide a robust tool for semantic analysis of free response texts in neuropsychological assessment.\n\nSupplementary material. For supplementary material accompanying this paper visit https://doi.org/10.1017/S1355617724000183",
+      "text_with_footnotes": "Based on analyses of responses to the TAT using LSA coherence and perplexity scores from topic modeling, the outcome of this study suggested that individuals with ACC provide coherent narratives, but with diminished imaginative elaboration in comparison to neurotypical controls. Individuals with ACC were less able to elaborate beyond the basic core narrative for each TAT card. This project is an important follow-up to the Renteria-Vasquez study, as it provides complementary evidence that imaginative elaboration of social interpretations is an area of deficiency in ACC, further supporting the theory that the corpus callosum plays a vital role in this skill. There are multiple highimpact implications of this deficit in daily life, making it an important intervention target in ACC.\n\nAdditionally, having now been shown to produce similar, consistent, and useful results in two different studies of ACC (Renteria-Vasquez et al., 2022), the current findings suggest that topic modeling and perplexity scores may provide a robust tool for semantic analysis of free response texts in neuropsychological assessment.\n\nSupplementary material. For supplementary material accompanying this paper visit https://doi.org/10.1017/S1355617724000183",
+      "preview_head": "Based on analyses of responses to the TAT using LSA coherence and perplexity scores from topic modeling, the outcome of this study suggested that individuals with ACC provide coherent narratives, but with diminished imaginative elaboration in comparison to neurotypical controls. Individuals with ACC were less able to elaborate beyond the basic core narrative for each TAT card. This project is an important follow-up to the Renteria-Vasquez study, as it provides complementary evidence that imaginative elaboration of social interpretations is an area of deficiency in ACC, further supporting the theory that the corpus callosum plays a vital role in this skill.",
+      "preview_tail": "Supplementary material. For supplementary material accompanying this paper visit https://doi.org/10.1017/S1355617724000183",
+      "word_count": 176,
+      "paragraph_count": 3,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "merged_section:CONCLUSION"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "merged_section:CONCLUSION",
+      "major_label": "CONCLUSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 24,
+    "content_sections": 22,
+    "total_words": 5192,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 24,
+    "by_source": {
+      "heuristic": 7,
+      "llm": 15,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

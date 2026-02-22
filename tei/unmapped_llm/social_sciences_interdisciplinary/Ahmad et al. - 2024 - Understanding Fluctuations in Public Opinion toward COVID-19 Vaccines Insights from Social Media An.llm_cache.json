@@ -1,0 +1,100 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and literature on vaccine hesitancy, referencing studies and the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section synthesizes findings from previous studies on sentiment and emotion analysis regarding"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data preprocessing steps performed by the authors on the collected tweets, detailing"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the exploratory data analysis (EDA) techniques and tools used by the authors, such as hasht"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings of the hashtag analysis, including specific statistics and patterns observed in"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the results of sentiment analysis using various classifiers, including quantitative finding"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings of emotion analysis over time, including specific percentages and trends in emo"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the results of the analysis of pro- and anti-vaccination tweets over time, reporting trend"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

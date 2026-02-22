@@ -1,0 +1,284 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior research on the impact of fertility policy, citing multiple studies and summar"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews previous studies on online public opinion regarding fertility policies, with dense c"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the research design, data collection, and analytic methods used in this paper."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section explains the sentiment analysis technique and how it is applied to the Weibo comments."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the LDA topic modeling method and its application to the data."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the classification and distribution of online comments by sentiment, based on the"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings on the distribution of emotional tendencies in online comments, with sp"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the daily sentiment distribution of online comments, referencing figures and patt"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the sentiment distribution of comments by province, based on the analysis of the"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings from LDA topic clustering of online comments, reporting what people are"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section interprets and discusses differences in public opinion under different fertility policies"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports comparative findings on fertility attitudes under different policies, referencing"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section includes some qualitative interpretation of why attitudes differ, but is primarily result"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the setup and approach for regression analysis, including dependent/independent/IV"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.0,
+          "reason": "No actual findings reported, only setup."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports results of regression analysis, including VIF values and explanatory power (percent)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section explicitly states it will analyze and discuss the research results from multiple interpretiv"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "Section interprets and contextualizes findings (emotional analysis, spatial distribution) in light o"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Some reporting of findings (distribution, attitudes), but focus is on interpretation."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Section discusses changes in attitudes and content, interpreting results."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Some reporting of findings (comparison of comment content), but emphasis is on discussion."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Section interprets regression results and connects to prior research."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Briefly reports findings (negative impact of engagement on attitudes)."
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.1,
+          "reason": "References to prior literature (Liu et al. 2021) to contextualize findings."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "Section summarizes the study, its methods, and main findings."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Some interpretive content and implications are included."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.8,
+          "reason": "Section provides policy suggestions and recommendations, typical of a conclusion."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Some interpretive discussion of implications for policy and attitudes."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

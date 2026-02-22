@@ -1,0 +1,81 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem (gender imbalance in gaming), introduces the context (FGCs,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "While it references prior work, the main function is to introduce the research problem, not review a"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines social support, reviews prior research, and cites multiple studies, focusing on"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of Structural Topic Modeling (STM) as a method for answering research questions, e"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of hierarchical OLS regression and LIWC for analysis, including variables and measu"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings from STM analysis, including extracted topics, statistical associations, and d"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of OLS regression and LIWC analysis, including statistical values and interpre"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

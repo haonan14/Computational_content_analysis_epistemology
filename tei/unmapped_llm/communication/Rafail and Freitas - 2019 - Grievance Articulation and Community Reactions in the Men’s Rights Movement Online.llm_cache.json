@@ -1,0 +1,140 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews how the Internet and social media have influenced social movements, with a mix\u00a0"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews how the Internet and social media have influenced social movements, with a mix\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the formation and dynamics of online communities, referencing prior research,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the formation and dynamics of online communities, referencing prior research,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the characteristics and grievances of the Men's Rights Movement online, with"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the characteristics and grievances of the Men's Rights Movement online, with"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the dependent and control variables used in the analysis, which is a core part"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the dependent and control variables used in the analysis, which is a core part"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the analytic strategy, including the use of LDA and the approach to analyzing"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the analytic strategy, including the use of LDA and the approach to analyzing"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard disclosure section about conflicts of interest, not part of the main research nar"
+        },
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard disclosure section about conflicts of interest, not part of the main research nar"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard funding disclosure section, not part of the main research narrative."
+        },
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard funding disclosure section, not part of the main research narrative."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section contains notes and clarifications, including methodological details and references, wh"
+        },
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section contains notes and clarifications, including methodological details and references, wh"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

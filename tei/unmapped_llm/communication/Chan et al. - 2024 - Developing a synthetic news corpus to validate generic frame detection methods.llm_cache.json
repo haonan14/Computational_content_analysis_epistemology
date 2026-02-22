@@ -1,0 +1,189 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of framing, references prior literature, and discusses theoretical/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section uses a metaphor to illustrate the theoretical concept of frame detection, building on/"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Continues the theoretical discussion of what constitutes a frame, referencing prior concepts and/"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews criticisms and debates in the literature about empirical frame detection, with citations/"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Discusses the theoretical rationale for using generic frames and the need for topic independence, /"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "Partially frames the specific research problem and motivation for the paper's approach."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' approach to creating a synthetic dataset, including rationale and process, /"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the application of different methods to the synthetic dataset, outlining the benchmark/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the 'gold standard' coding procedure, including item selection and rationale, which is/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes an exploratory analysis using expert coding, detailing the process and rationale, which/"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the evaluation approach (multiverse analysis) and methodological decisions for/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the accuracy metric (CCR), describes how it is calculated, and discusses the mapping/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Continues reporting and interpreting the meaning of null values in the results, focusing on what/"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the multiverse analysis of the 'Gold Standard,' including the ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents an exploratory analysis of incorrect answers from two experts, describing what"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This section provides author notes, links to appendices, preregistration, and contact information, "
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

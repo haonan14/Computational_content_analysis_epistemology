@@ -1,0 +1,331 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper, frames the research problem, highlights the importance of adaptation in"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper, frames the research problem, highlights the importance of adaptation in"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the conceptual roots and definitions of adaptation, referencing foundational"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the computational and hand-coded mixed-method approach used by the authors to review the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the output of the topic modeling (themes, clusters), which is a finding from the authors' "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Synthesizes prior literature by categorizing theoretical streams and areas of inquiry in adaptation"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews and synthesizes prior research and theoretical perspectives (RBV, behavioral theory, etc.) "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Lists prior studies and their findings, with dense citations and summary of what others have found."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Summarizes prior research findings and theoretical perspectives (RBV, schemas, etc.) with citations."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Continues to summarize and synthesize prior research findings, with citations and discussion of what"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews prior theoretical perspectives and empirical findings on internal factors affecting adaptati"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Synthesizes prior literature on environmental factors urging adaptation, with citations and discussi"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets and discusses difficulties in adaptation research, drawing on the literature review and "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses conceptual and definitional difficulties in the literature regarding the dem-"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section describes a theoretical fallacy (functionalist adaptation fallacy) with citations and a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Focuses on prior research and theoretical arguments about the role of competition in adaptation, w"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses theoretical issues with the concept of continuous change, referencing prior literature a"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Discusses conceptual and theoretical approaches to multilevel adaptation, referencing types of st"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Mentions methodological approaches (qualitative studies, mixed-effects modeling, simulations) "
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes the concept of coevolution in adaptation, referencing prior literature and theoretical "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses the theoretical notion of adaptation as transitory, with citations and conceptual argum"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets and discusses how the authors' definition and review address the previously outlined "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Introduces a new set of theoretical/empirical difficulties (unobservability) in the literature, f"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses the theoretical and empirical challenge of distinguishing continuous change from adapt"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explores the theoretical issue of unobserved adaptive ability, referencing resource-based theory "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Discusses how to address the empirical/theoretical difficulties of unobservability, interpreting"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets and discusses the challenges arising from interdependent levels of analysis,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "The section continues to interpret the implications of interdependent levels of analysis and how to,"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "The section also begins to wrap up the discussion by summarizing key points and noting limitations,"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

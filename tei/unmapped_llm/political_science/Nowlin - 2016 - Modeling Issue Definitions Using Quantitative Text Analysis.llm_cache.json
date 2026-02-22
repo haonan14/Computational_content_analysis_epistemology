@@ -1,0 +1,146 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior scholarship on issue definitions, frames, and their role in the policy/p0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section proposes a theoretical model and situates it in relation to past literature, focusing on"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "There is some framing of the paper's own model and its purpose, which is a forward-looking element."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the literature on quantitative text analysis, focusing on what other scholars h"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section describes various classification techniques used by other scholars, with heavy citation"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the use of LDA in the author's own analysis, including how it is applied and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data collection process for the analysis (Congressional hearings, search terms, time"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the preprocessing steps applied to the documents before modeling, which is a methodological"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the methodological decision process for selecting the number of topics (K) in LDA, includi"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings from the LDA analysis on Congressional hearings, describing the distribution o"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the substantive content and variation of a specific dimension (programmatic) found in the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports the results of a validity check by examining correspondence between model output and exogen"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of what the results mean in relation to policy events and the validity"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

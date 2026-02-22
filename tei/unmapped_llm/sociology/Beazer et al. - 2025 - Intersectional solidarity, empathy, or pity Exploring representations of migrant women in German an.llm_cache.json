@@ -1,0 +1,182 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research on media representations of women and migrants, citing multiple,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research on media representations of women and migrants, citing multiple,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section introduces intersectionality as a theoretical lens, referencing Crenshaw and other work"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the study's mixed-methods design, phases of analysis, and methodological choices."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the qualitative analysis approach, including coding and theoretical framework."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of word embeddings and how they were constructed for the analysis."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the quantitative analysis, corpus selection, and clustering approach."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about transformative and instrumental solidarity in the analyzed articles."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents findings on combined modes of representation, referencing what the study found."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about empathy in representations, with examples from the corpus."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings about the use of direct quotes and exclusion of migrant women's perspectives."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on 'pitying' representations, with examples and patterns from the data."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents results from the word embedding analysis, confirming patterns found in qualitative findings"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "The 'Notes' section provides technical clarifications and methodological details supplementary to,\u00a0\u2014"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.0,
+          "reason": "While it references a methodological detail (Gamma score in LDA), the section as a whole serves as a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "The 'Disclosure statement' is a standard non-research section reporting conflicts of interest, not a"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

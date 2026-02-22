@@ -1,0 +1,91 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on the evolution of the term 'human trafficking' and frames key, as"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses the historical and policy context of human trafficking, referencing the legal/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section gives a historical overview of US anti-human trafficking policy, referencing laws, trea"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews challenges in measuring human trafficking, prevalence estimates, and draws on p"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses how elite and public perceptions of human trafficking have been shaped by his"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section describes the procedures, design, and sample for a lab experiment conducted by the autho"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "The section also reports some findings from the experiment, such as evidence about perceptions of vi"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports findings about the effects of different messaging strategies on public opinion,"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "The section also interprets the implications of these findings for public opinion and policy, connec"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

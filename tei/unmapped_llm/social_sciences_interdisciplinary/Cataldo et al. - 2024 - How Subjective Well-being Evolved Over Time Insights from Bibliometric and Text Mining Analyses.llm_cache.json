@@ -1,0 +1,238 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section introduces the main research question and frames the overall topic of how subjective well\u2011\u200b\u2011"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section introduces the main research question and frames the overall topic of how subjective well\u2011\u200b\u2011"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews the literature on subjective well-being, discusses definitions, and references prior"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the bibliometric analysis approach, tools, and procedures used by the authors."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section explains the text mining technique and specific R packages used in the authors' analysis."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings addressing the first research question, focusing on influential studies and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents quantitative findings about the most productive countries in SWB research."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the most cited articles in the field, including citation counts and impact."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents data on publication sources and their frequency, reporting quantitative findings."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section introduces and reports the main research themes and trends found via text mining."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the frequency of key terms in the analyzed documents, presenting quantitative data."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section describes the results of a semantic network analysis, reporting findings from the data."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports period-specific findings (1966-1990) from the co-occurrence network analysis."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings for the 1991-2000 period, including document counts, co-occurrence"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports quantitative findings (document counts, co-occurrence statistics, network focus)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings for the 2001-2010 period, including document counts, co-occurrence"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports quantitative findings (document counts, co-occurrence statistics, new links)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings for the 2011-2022 period, including document counts, co-occurrence"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports quantitative findings (document counts, co-occurrence statistics, network focus)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section describes the main topics identified by the analysis, reporting the top words and their"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive commentary about the meaning and naming of topics (e.g., 'This topic can'"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "This section summarizes the study, its main findings, and offers closing remarks and future research"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive commentary on the implications and limitations of the findings"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

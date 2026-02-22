@@ -1,0 +1,84 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section introduces the research context (digitalization, internet, text data), frames the research,,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section introduces the research context (digitalization, internet, text data), frames the research,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews computational text analysis methods, describes prior work, and references other work"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the data (KEP documents), sampling, and procedures used in this study"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "References prior studies and situates the data in the context of previous research"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings from both thematic analysis and topic modeling, comparing their outputs"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretive commentary on the meaning and limitations of the results"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Interprets the implications of the findings, discusses methodological limitations and broader issues"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "Provides some summary statements and closing remarks about the state of the field"
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior scholarly debates and findings about how democracy is understood, with a "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior scholarly debates and findings about how democracy is understood, with a "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the authors' approach to selecting covariates and their methodological stance"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings from the STM analysis, including identified conceptions and keyphr"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports the predicted probabilities and patterns from the STM model, focusing on what c"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the results, especially regarding the influence of internet use and"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports the relationships between covariates and democratic conceptions, based on STM "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of the meaning of these relationships, such as gender differences and "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.6,
+          "reason": "This section provides a final wrap-up and summary of the findings."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.4,
+          "reason": "It also interprets the meaning and implications of the findings, connecting them to broader theory."
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

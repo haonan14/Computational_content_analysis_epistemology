@@ -1,0 +1,141 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses theoretical concepts (innovation attributes) and cites Rogers (2003) to frame"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses theoretical concepts (innovation attributes) and cites Rogers (2003) to frame/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior comparative studies, cites other scholars, and discusses generalizations,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data collection, corpus generation, and coding procedures used in THIS study."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section likely presents findings from the study, as it follows methods and is titled with the paper'"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports quantitative findings about technology use over time, including numbers and trends for Faceb"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents and describes Figure 1, reporting patterns and changes in sourcing over time, with statisti"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings comparing elite vs. nonelite voices, referencing data and figures, and describing p"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes Figure 2 and reports quantitative results about source-article ratios and elite/nonelite"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about topics in source articles, referencing LDA topic clusters and patterns in th"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about thematic shifts in source articles, based on visual comparison and data anal"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "REFERENCES",
+      "tags": [
+        {
+          "label": "REFERENCES",
+          "weight": 1.0,
+          "reason": "Section contains notes and references to sources, including citations and clarifications, which"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, highlights the gap in the literature (focus on subordiates"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Continues to introduce the research context, defines key terms, and outlines the study's aims and f"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews prior typologies and theoretical background, with dense citations and conceptual framing."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the sample, recruitment, and participant characteristics for the study, which are methods"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the data collection procedure, interview process, and validation steps, all of which are met"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings for the 'Entitlement' category, including prevalence and illustrative examples from"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings for the 'Contact-seeking/avoiding' category, including prevalence and examples, "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings for the 'Effort minimization' category, including prevalence and leader quotes, wh"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents findings for the 'Emotionally fluctuating communication' category, with prevalence and exa"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings for the 'Undermining team cohesion' category, including prevalence and leader rep"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the design and aims of Study 2, including research questions and variables of interest, "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the recruitment, compensation, and sample characteristics for Study 2, which are methodolo"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes demographic data collected from participants, detailing what information was asked"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details how the authors measured the individual prevalence of subordinate resistance, i.e., "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details how the authors measured the individual prevalence of subordinate resistance, i.e., "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how general prevalence was measured and how participants were incentivized for accuracy; a"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how leaders were asked to evaluate subordinate resistance using Likert scales; describes a"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of a standardized personality inventory (HEXACO-PI-R) to measure leader per"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the cognitive ability test (ICAR 16) used and how it was administered to leaders; det"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how situational context (industry) was measured by asking leaders to select from cate"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section interprets and discusses the antecedents of subordinate resistance, drawing on findings"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section interprets and discusses the outcomes of subordinate resistance, referencing empirical"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section summarizes and interprets the discussion, introduces a conceptual model (nomological net"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section presents supplementary table (A2) with document-term matrix and frequency data, typical"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section presents supplementary table (A5) with subcategories and illustrative quotes, typical of"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents qualitative findings from interviews, including direct quotes from interviewee"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section continues to report qualitative findings, providing illustrative quotes from interviews"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

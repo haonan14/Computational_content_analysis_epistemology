@@ -1,0 +1,189 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work and background literature, citing other studies and situating the 'g"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior work, discusses what others have found, and provides theoretical context. "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data collection process, including selection of media outlets and use of the Twitter A"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the preprocessing steps applied to the data, which is a methodological detail about what t"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Presents the list of media outlets and their countries, which is part of the data description and me"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the emotion classification model and approach used in the study, which is a methodological"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings regarding the prevalence of emotions in user comments, referencing figures and"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on how emotions change over time, referencing statistical tests and observed patter"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on topics identified in the data and the distribution of emotions across those topi"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents a table of statistical results (prevalence and chi-square values) regarding emotions per to"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on how emotions vary across countries, referencing statistical tests and tables."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on how emotions vary across media outlets, referencing statistical tests and tables"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents a table of statistical results (prevalence and chi-square values) regarding topics per cou"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents a table with prevalence and chi-square values of emotions in user comments per each"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section explicitly discusses limitations and threats to validity, which is a core function of the 'D"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "Section provides a final wrap-up, summary of findings, and suggestions for future research, which is"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior literature on blogs as agenda setters and opinion sources, with dense use"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior research and literature on blogs as sources of agendas and opinions, with"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses existing methodological approaches in the literature, referencing prior work,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section clarifies theoretical concepts ('agenda', 'topic') and discusses their definitions and"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses general properties and challenges of algorithms for social science, with refer"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some reference to the authors' own research and findings about algorithm behavior, but the"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the specific algorithms, software, and manual methods used in the authors' r"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about the topics identified in the data, including proportions and cha"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

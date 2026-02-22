@@ -1,0 +1,174 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem, referencing prior work only to set up a"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem, referencing prior work only to set up a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior scholarship on propaganda and foreign interference, with dense citations,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior scholarship on propaganda and foreign interference, with dense citations,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the goals and purposes of propaganda, referencing prior literature and theory"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the goals and purposes of propaganda, referencing prior literature and theory"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses how media is used in propaganda, referencing prior work and theoretical"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses how media is used in propaganda, referencing prior work and theoretical"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data processing, coding, and analytical procedures performed by the authors on the"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data processing, coding, and analytical procedures performed by the authors on the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analytical steps, statistical tests, and operationalization of variables used by the"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analytical steps, statistical tests, and operationalization of variables used by the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from the topic model, including identified topics and their thematic content,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from the topic model, including identified topics and their thematic content,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports comparative findings about campaign differences, referencing figures and statistical"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports comparative findings about campaign differences, referencing figures and statistical"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes empirical findings about media utilization and deployment strategies, referencing"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes empirical findings about media utilization and deployment strategies, referencing"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Continues reporting empirical findings, describing patterns in campaign deployment and activity,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Continues reporting empirical findings, describing patterns in campaign deployment and activity,"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

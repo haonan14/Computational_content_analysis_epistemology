@@ -1,0 +1,242 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains the core concepts of terror management theory (TMT), referencing foundational,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section applies TMT to the COVID-19 context, referencing prior research and theoretical framing"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Describes TMT-based defense strategies and themes, referencing theoretical constructs and prior work"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly introduces the research question and the use of seven themes to examine responses, hinting"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses cross-cultural aspects of TMT, referencing prior research and theoretical perspectives"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data source (Twitter), data collection process, and dataset characteristics, all actions"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains ethical considerations and privacy protections in data handling, which are part of the"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Introduces findings for the first research question, describing the application of themes to data"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Summarizes observed themes and topics in US tweets, reporting empirical findings from the study"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes specific findings (racial division theme) and provides examples from the data, focusing"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Summarizes observed themes and topics in UK tweets, reporting empirical findings from the study"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes specific findings (behavioral change theme) and provides examples from the data, focusing"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes specific findings (searching for meaning theme) and provides examples from the data,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically describing user responses and themes ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section continues to report empirical findings, describing observed themes and topics from the "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section summarizes the themes and topics found in Indian users' tweets, which is a direct repor"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section details the themes and topics found in the data (calls for behavioral changes), which i"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports comparative findings across countries, summarizing differences in observed them"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive content as the section begins to discuss the meaning of cross-country dif"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the findings, discusses implications for public health and social media, and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a credit author statement, not a substantive research section."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

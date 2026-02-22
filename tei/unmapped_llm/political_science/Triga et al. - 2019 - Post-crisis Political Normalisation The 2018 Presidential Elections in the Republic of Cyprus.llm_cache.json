@@ -1,0 +1,218 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the context of the Cypriot presidency, and lays"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section situates the Cypriot context within broader European trends, referencing prior research"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background and context for the 2018 election, describing key issues and prior"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the economic context and references past events and literature, focusing on"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on the Cyprus problem, referencing historical context and prior"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the climate of polarisation in the 2018 election, referencing historical"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section introduces the candidates and the campaign from a political communication perspective,"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the candidates, their backgrounds, and party support, referencing prior"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on candidate Nicos Anastasiades, including his political history"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on candidate Stavros Malas, including his political history and"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on candidate Nikolas Papadopoulos, including his political history"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on candidate Giorgos Lillikas, including his political history and"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background and descriptive information about the candidate Christos Christou,,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background and descriptive information about the candidate Christos Christou,,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports on the content and outcome of the televised debate, describing what happened (e"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section is described as the 'core empirical section' and reports findings from the media analysi"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the findings, especially in the summary statement about the 'reduced"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard disclosure statement about conflicts of interest, not part of the research narra"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This section provides biographical information about the contributors and includes an annexed list "
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work on text mining in learning analytics, referencing other studies and,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work on text mining in learning analytics, referencing other studies and,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes ecological systems theory and cites foundational and recent literature, with"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research on children's emotional development, citing multiple studies and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the ethical procedures and privacy protections implemented in the study, whic"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of sentiment analysis, including statistics and patterns in the da"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents quantitative results about topic names, subject words, and proportions of post"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports findings from the LDA model about topic distributions and trends in the data."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of why certain topics are more prevalent, referencing theory to explai"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.6,
+          "reason": "This section reports findings from sentiment analysis, describing differences in emotional expressio"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.4,
+          "reason": "The section also interprets the results, explaining developmental changes and linking to cognitive a"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.6,
+          "reason": "This section interprets the study's contributions and discusses limitations."
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.4,
+          "reason": "It also provides a summary and points to future research directions, which are typical of conclusio"
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

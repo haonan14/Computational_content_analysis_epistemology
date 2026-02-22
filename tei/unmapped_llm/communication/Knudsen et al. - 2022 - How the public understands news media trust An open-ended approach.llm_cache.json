@@ -1,0 +1,117 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "Section reviews definitions and conceptualizations of trust, referencing prior literature and summar"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "Section closes by motivating the paper's alternative approach, slightly framing the research problem"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior research on public understanding of news media trust, citing other scholars, a"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the context of the study, including country, media system, and population, which i"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings from the topic modeling analysis, including the four topics induced from th"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section describes the content and prevalence of Topic 1 ('Truthfulness') as found in the data, repo"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section describes the content and prevalence of Topic 2 ('Thoroughness and professionalism') as fou"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section describes the content and prevalence of Topic 3 ('Bias') as found in the data, reporting wh"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section describes the content and prevalence of Topic 4 ('Independence and objectivity') as found "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports statistical analysis of how demographic variables explain variation in topic preval"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

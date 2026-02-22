@@ -1,0 +1,96 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research on gender, experience, and party in campaigns, discusses underre"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior research and theoretical background on gender, experience, and party in U."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section reviews literature on female candidate self-presentation and introduces hypotheses, with"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "The section transitions to the paper's own hypotheses, which is a forward-looking, framing function."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports the results of statistical tests and findings regarding experience emphasis on c"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of what the results mean for candidate communication and strategy."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports findings about gender-based appeals and statistical significance in candidate we"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive commentary on the meaning of the results for amateur and experienced cand"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents additional results, tables, and statistical findings not included in the main "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides supplementary notes, clarifications, and references to figures in the appendi"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and theoretical background on political campaigning in the age,,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and theoretical background on political campaigning in the age,,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses prior findings and theoretical perspectives on party unity and campaigning on"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses prior findings and theoretical perspectives on party unity and campaigning on"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the measurement strategy, including network statistics and sampling procedures,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the measurement strategy, including network statistics and sampling procedures,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the empirical analysis and findings regarding the network structure, including"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the empirical analysis and findings regarding the network structure, including"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings from the analysis of organizational cohesion, reporting observed"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings from the analysis of organizational cohesion, reporting observed"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results for programmatic coherence, including patterns and statistical"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results for programmatic coherence, including patterns and statistical"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard declaration of conflicting interests, not part of the main research narrative."
+        },
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard declaration of conflicting interests, not part of the main research narrative."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides supplementary notes and clarifications, typical of an appendix."
+        },
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides supplementary notes and clarifications, typical of an appendix."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

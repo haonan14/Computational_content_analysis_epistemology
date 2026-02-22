@@ -1,0 +1,86 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data preprocessing and filtration steps performed by the authors, including removal of"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data preprocessing and filtration steps performed by the authors, including removal of"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the use of LDA for data analysis in this study, focusing on the authors' methodological/ML"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "Includes some background and citations about LDA and its applications, referencing prior work."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings of the LDA analysis, including extracted keywords and suggested topics from the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the output of the topic modeling (keywords and topics), which are direct results of the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Lists topic modeling results for the textile industry and energy crisis, showing keywords and topic"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents further topic modeling results (keywords for inflation, economic cooperation, etc.) and"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

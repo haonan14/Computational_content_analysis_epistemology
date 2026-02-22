@@ -1,0 +1,74 @@
+{
+  "classifications": [
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the procedure for word frequency analysis, including word list construction and frequency,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details data preprocessing steps (labeling, stopword removal, stemming) performed by the authors."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the application of LDA topic modeling and extraction of topics, which are methodological."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings from the automatic content analysis, including observed differences and topic evolv"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes the estimation and comparison procedures (GAM smoothing, topic probability estimation)."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports validation findings (e.g., frequency of 'abortion' in magazines, differences by year and mag"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly describes the validation procedure using word frequency analysis."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

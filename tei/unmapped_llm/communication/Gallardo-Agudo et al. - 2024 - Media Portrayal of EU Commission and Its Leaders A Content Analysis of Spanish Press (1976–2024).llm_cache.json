@@ -1,0 +1,199 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the historical and sociopolitical context of European sentiment in Spain, with "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section surveys prior research on Spanish media coverage of the EU, referencing multiple studies"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "This section frames the research problem, highlights the importance of the media, and states the obj"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "It briefly references previous studies to justify the research objectives."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section lists variables used in the content analysis, which is a methodological detail."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section continues listing variables for the study, which is methodological."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section continues the enumeration of variables for the content analysis."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section continues to describe variables and their measurement, which is methodological."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section continues the list of variables and their operationalization."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section continues the methodological description of variables."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the operationalization of headline sentiment, a methodological detail."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "The section continues to describe how variables are coded and analyzed, which is methodological."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "The tail mentions the analysis providing a snapshot and comparison, hinting at initial findings."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports empirical findings (frequency of terms, patterns in headlines) from the content"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about the evolution of sentiment toward the EU over time, including a "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about the evolution of sentiment toward the EU over time, including a "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports findings from Table 2 about sentiment toward EU leaders, including specific data"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section continues to report specific findings about sentiment toward individual EU leaders, as"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

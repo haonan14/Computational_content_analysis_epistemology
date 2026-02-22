@@ -1,0 +1,174 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section explicitly states it will address the current state of research on two themes, indicating a "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section explicitly states it will address the current state of research on two themes, indicating a "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section discusses prior research and theoretical perspectives on photo sharing and heritage, with in"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section discusses prior research and theoretical perspectives on photo sharing and heritage, with in"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews literature on social media, hashtags, and heritage, referencing prior studies and ci"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews literature on social media, hashtags, and heritage, referencing prior studies and ci"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data processing steps, including software used and analytic stages, indicating method"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data processing steps, including software used and analytic stages, indicating method"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the sentiment analysis procedure, tools, and rationale, focusing on what the authors did"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the sentiment analysis procedure, tools, and rationale, focusing on what the authors did"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "Reports findings about hashtag usage, post locations, and patterns observed in the data, with some"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "Ends with a brief interpretive comment about digital divide and elite voices, but the main focus is"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes topic modeling results, cluster composition, and provides direct findings from the analys"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes topic modeling results, cluster composition, and provides direct findings from the analys"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents qualitative findings and examples from user posts, illustrating cultural expressions and "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents qualitative findings and examples from user posts, illustrating cultural expressions and "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports the results of sentiment analysis, including dominant emotions and patterns in the data."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Includes some interpretive commentary about the role of shared photos and community, but the main"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Section is a standard declaration of competing interest, not part of the main research narrative."
+        },
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Section is a standard declaration of competing interest, not part of the main research narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior studies on AV crash analysis, citing multiple sources and summarizing the"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior studies on AV crash analysis, citing multiple sources and summarizing the"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the structural topic model (STM) used in this study, including its components and how it\u2019s"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the procedure for selecting the number of topics in STM, including metrics and rationale, a"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how topics are interpreted using various metrics, focusing on the process and criteria use"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the approach for crash severity analysis, including the use of XGBoost and evaluation metric"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data sources, collection, cleaning, and transformation steps performed by the authors."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the data used, selection criteria, and summary statistics, including figures and descripti"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Includes some reporting of data distributions and word clouds, which are findings from the data."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process of developing STM models, including input data and model selection procedure."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports the output of the STM model, including top words for topics and their interpretation, which "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of what the topics mean and their implications for AV crash understand"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings on the relationship between topics and crash severity, including specific examples "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Provides interpretation of the results, such as the implications of topic relationships for crash se"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

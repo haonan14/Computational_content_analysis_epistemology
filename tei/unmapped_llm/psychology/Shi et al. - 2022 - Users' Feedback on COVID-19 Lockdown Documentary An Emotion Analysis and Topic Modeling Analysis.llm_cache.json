@@ -1,0 +1,16 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section explains the rationale for selecting the specific documentary as the data source, which"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background information on Pegida, AfD, and populist tendencies in Germany, and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior studies on social media use by social movements and populists, with dense"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the literature on party competition and populism, focusing on what other"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from the user behavior analysis, including calculated overlaps and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is some mention of the analytical approach (e.g., calculation of intersections, Equation 1),"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "This section presents findings from the content analysis of posts, reporting on topics addressed by"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.1,
+          "reason": "There is a brief mention of the analytical approach (content analysis of posts), but the focus is on"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports findings on topic similarity and populist agenda items, including the use of"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive content regarding what the identified topics mean for populist"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports the results of the temporal analysis of topic salience, including the use of"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of the findings, relating them to broader frames and populist"
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

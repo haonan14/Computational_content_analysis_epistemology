@@ -1,0 +1,377 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem (obesity, especially childhood obesity), its public health,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "While there are some citations, the main function is to introduce the problem, not review prior work"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and literature on dietary communication on social media, with a"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section presents hypotheses and research questions, which is part of the theoretical framework"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the dataset used in the study, including its origin, ethical approval, and participant"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the computational text analysis approach used in the study, including rationale and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how the data was subsetted using a custom-built dictionary, which is a methodological"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data cleaning process, which is a methodological step in preparing the data for"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how message healthiness was measured and operationalized, which is a methodological"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of LDA topic modeling to identify message topics, which is a methodological"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how sentiment was measured using a specific tool, which is a methodological detail."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of LIWC to assess psychological dimensions, which is a methodological step."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how message liking was measured, which is a methodological detail."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses prior findings about covariates (sex and age) and their relationship to diet-\u00ad"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some indication that these covariates are being included in the current study's analysis, i"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section references prior research and theory (Chaiken, 1987) about message length and persuasion"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "The last sentence indicates that the current study assessed the relation between message length and"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the analytical plan, including computational approach, steps, and regression"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section introduces the first set of analyses and what was addressed (content of messages, frequ"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the frequency of diet-related communications found in the data, including specific numbers."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about message healthiness, central tendency, and distribution, with reference to fi"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the results of LDA topic modeling and the dominant topics found in the data."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Introduces the second set of analyses and what was investigated (linguistic style, sentiment, etc.)"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on message sentiment and subjectivity, including statistics and correlations."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on psychological dimensions and their associations with message healthiness."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Introduces the third set of analyses, focusing on the relationship between message content, linguist"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes regression analyses conducted to investigate the relation between message content and mess"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of regression analyses examining the relationship between message/\u200b"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of regression analyses examining the relationship between message/\u200b"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes the findings of an exploratory regression analysis, reporting which variables"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 33,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the study's strengths and limitations, reflecting on the meaning and quality"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "This section summarizes the main conclusions and implications for research and practice."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "It also interprets findings and connects them to broader implications."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard disclosure statement about conflicts of interest, not part of the main research"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

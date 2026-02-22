@@ -1,0 +1,175 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section explains the mechanics and graphical model of the original LDA algorithm, focusing on '"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the Seeded LDA algorithm, its motivation, and implementation details, focusing on what the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the Sequential LDA algorithm, its differences from standard LDA, and how it is implemented."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the combination of Seeded and Sequential LDA into a new algorithm, focusing on the authors"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Focuses on hyperparameter optimization for the proposed algorithm, detailing the process and choices"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes a new method (regularized topic divergence) for optimizing the number of topics, including"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the evaluation setup, corpus, and steps for applying the algorithms, focusing on what the"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Briefly previews the results to be reported in the section, but the main focus is on the evaluation"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on the optimal number of topics, referencing empirical results and comparisons."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process for selecting seed words, providing guidance for implementation in the study."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the experimental setup for evaluating classification accuracy, including parameter choices"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Begins to report on the evaluation results, but the main focus is on the setup and approach."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports empirical findings (F1 scores, performance differences) from the sequential and non-sequenti"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on how residual topics and seed word weights affect model performance, referencing"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports specific findings (F1 scores, performance at different K values, regional trends"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "There is some interpretive commentary about regional negativity, but the focus is on reporting what,"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

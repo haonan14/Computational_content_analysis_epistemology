@@ -1,0 +1,271 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper, frames the research topic, and introduces the context of family as a un"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines 'institution' and reviews prior research and citations about family and other i"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how the outcome variable (family talk) is constructed, including phases of analysis, me"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Focuses on predictors used in regression models, variables, and analytic details\u2014clear methods sec"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes analytic strategy, including mixed methods and statistical modeling\u2014entirely methods-ori"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section introduces the results, stating the goals of the analyses and what will be reported; focus"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from phase 1 regression and qualitative analysis\u2014clear reporting of this paper's r"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes patterns and findings about family complexity and need as revealed in the data\u2014reporting"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about institutional overlap as observed in the data\u2014focus on what was found in thi"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the design and findings of phase two, focusing on what was found regarding class differe"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents quantitative results (Table 2) and describes findings about family subtopics by social cl"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings from topic modeling and regression (Table 3), and describes how themes were ident"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section also interprets the meaning of the findings, especially in the latter part, by seeking to "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports qualitative findings and themes from the data, describing what was found in the"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports qualitative findings and themes from the data, describing what was found in the\""
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports on findings from the analysis, describing patterns and examples of family and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings and illustrative quotes about the overlap between family and religion"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings and examples of how family and criminal justice topics co-occurred in"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the findings, discusses their implications, and connects them to the broader"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "There is some summary and wrap-up of the paper's contributions and implications."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides supplementary methodological details, as is typical for an appendix."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the data cleaning and word embedding training process, which are methods used"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section draws on theoretical literature to interpret the modeling approach, referencing prior"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the construction of a regression model, including variables and theoretical"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

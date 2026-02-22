@@ -1,0 +1,74 @@
+{
+  "classifications": [
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports empirical findings about core contributors, including statistics on nodes, link"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports empirical findings about core contributors, including statistics on nodes, link"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section presents findings from keyword co-occurrence and burst analyses, reporting which terms, "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section presents findings from keyword co-occurrence and burst analyses, reporting which terms, "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of author co-citation analysis, including frequencies and patterns,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports findings from document citation-based analysis, including identification of land"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of cluster analysis, including identification and interpretation of"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

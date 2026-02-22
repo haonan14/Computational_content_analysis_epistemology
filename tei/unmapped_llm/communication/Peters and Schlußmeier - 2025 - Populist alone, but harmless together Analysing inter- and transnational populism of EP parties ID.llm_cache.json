@@ -1,0 +1,38 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior research on right-wing populism in social media, cites multiple studies, ("
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior research on right-wing populism in social media, cites multiple studies, ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "The section frames the research aim, focus, and presents the main research questions, which is a key"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "There is some reference to prior theoretical concepts (e.g., populist communication strategies, Weyl"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

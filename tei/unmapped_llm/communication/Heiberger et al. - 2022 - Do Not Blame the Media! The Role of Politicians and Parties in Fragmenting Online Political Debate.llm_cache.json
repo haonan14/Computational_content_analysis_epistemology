@@ -1,0 +1,67 @@
+{
+  "classifications": [
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about topic ownership among media outlets and political actors, with a"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about topic ownership among media outlets and political actors, with a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the construction of topic overlap networks and the methodology for measuring convergence, "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Likely includes some initial findings or setup for results, but the main focus is on methodological "
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of the modularity analysis, including reference to Table 1 and interpretation of"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.6,
+          "reason": "Interprets the meaning of the findings, discusses implications for the role of media and political "
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.4,
+          "reason": "Wraps up the paper, summarizes main findings, and provides closing remarks."
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

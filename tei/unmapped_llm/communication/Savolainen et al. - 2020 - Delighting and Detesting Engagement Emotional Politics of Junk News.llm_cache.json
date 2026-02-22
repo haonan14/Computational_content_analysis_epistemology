@@ -1,0 +1,103 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section frames the conceptual and theoretical background of 'delighting and detesting' as forms"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "There is some framing of the research focus and approach, but the main function is theoretical."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Defines 'junk news' with reference to prior literature and established criteria, heavy on citations."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analytic approach, blending quantitative and qualitative methods, and details about 'f"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from the dataset (percentages, patterns, co-occurrence of reactions), with no theor"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about 'detesting engagement' and the types of emotional expressions observed in the"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Some interpretation of what these emotions mean in the context of political identity and populist ep"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about 'delighting engagement' and the types of positive sentiments observed in the "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Some interpretation of the implications of these positive sentiments for the disinformation ecosyste"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets the meaning and implications of mediated emotions, connecting findings to broader theory "
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes text normalization and preprocessing steps performed by the authors on their data, which,,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.6,
+          "reason": "Section explicitly states it presents experimental results and outcomes."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.4,
+          "reason": "Mentions providing insights, trends, and interpretations, which are characteristic of discussion/imp"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the use and tuning of the LDA model, which is a methodological detail."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Reports on similarity scores and findings from the topic modeling, indicating some results reporting"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports comparative results (coherence scores) of different topic models, which is results reporting"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of what the results mean for the effectiveness of the models."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports findings from topic modeling (number of topics, coherence scores, extracted themes)."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Includes some interpretation of the meaning of the topics and their relevance."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Summarizes findings about responsibility and action as identified topics/themes from the analysis."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about government and borders as identified topics/themes from the analysis."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about support and understanding as identified topics/themes from the analysis."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about women's protection as identified topics/themes from the analysis."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about food and aid as identified topics/themes from the analysis."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about beliefs and rejection as identified topics/themes from the analysis."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Synthesizes and reports the key themes identified in the online forum analysis, which is results rep"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from the topic sentiment analysis (TSA), describing the emotional tones"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of what the sentiment patterns mean for understanding the crisis"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "Focuses on interpreting the meaning and implications of the findings for policy and practice"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.2,
+          "reason": "Begins to summarize actionable recommendations and implications, which often appear in conclusions"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

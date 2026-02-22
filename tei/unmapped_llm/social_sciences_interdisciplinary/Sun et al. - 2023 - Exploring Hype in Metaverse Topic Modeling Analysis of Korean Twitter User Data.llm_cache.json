@@ -1,0 +1,211 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides definitions, background, and cites prior work on the metaverse, focusing on a)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses criticisms and conceptual debates about the metaverse, referencing prior work"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Duplicate of Section 2, providing background and literature review on the metaverse with citations"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Continues the review of prior studies and criticisms, referencing existing literature and their data"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes the Gartner hype cycle model, its theoretical basis, and prior conceptualizations"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Continues the explanation of the hype cycle model's stages, which is theoretical background"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Further details on the hype cycle model, still providing theoretical background"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews academic literature on the hype cycle model, citing prior empirical and theoretical studies"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Continues the literature review on the hype cycle, summarizing findings from previous research"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Summarizes insights from the literature and theoretical background, motivating the research"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "Transitions to the study's rationale and introduces the research questions, but is still mostly lit"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "States the research questions, which is a core function of the introduction"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data pre-processing steps performed by the authors on their dataset"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the topic modeling analysis, describing the specific topics and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the quantitative results of topic proportions and their changes over time, as"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the theoretical implications and contributions of the study's findings, situ"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "It also summarizes the main theoretical advances and closes the theoretical discussion, which is a c"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the practical implications of the findings for industry and policy, connecti"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "It also summarizes the practical advances and closes the practical discussion, which is a conclusory"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

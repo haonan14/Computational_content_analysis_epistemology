@@ -1,0 +1,129 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "This section discusses the historical and theoretical context of religious authority in global order"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports findings from descriptive and LDA analyses of papal encyclicals"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly references the use of LDA and model selection, but focus is on findings"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section describes and interprets figures showing model selection and statistical influence of crises"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings and excerpts related to the Cuban Missile Crisis, reporting what was found"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings and excerpts related to the Sexual Revolution, reporting what was found"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings and excerpts from encyclicals during crisis periods, reporting what was in"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings and excerpts from the Centesimus Annus encyclical, reporting what was in"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings and excerpts from Evangelium Vitae, reporting what was found"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings and excerpts from encyclicals, reporting what was found"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings and excerpts related to the Financial Crisis, reporting what was found"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

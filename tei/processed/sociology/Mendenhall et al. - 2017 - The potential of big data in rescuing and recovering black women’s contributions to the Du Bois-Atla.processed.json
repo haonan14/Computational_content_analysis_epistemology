@@ -1,0 +1,113 @@
+{
+  "paper_id": "Mendenhall et al. - 2017 - The potential of big data in rescuing and recovering black women’s contributions to the Du Bois-Atla",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/sociology/Mendenhall et al. - 2017 - The potential of big data in rescuing and recovering black women’s contributions to the Du Bois-Atla.tei.xml",
+  "metadata": {
+    "title": "The potential of big data in rescuing and recovering black women’s contributions to the Du Bois-Atlanta School and to American sociology",
+    "authors": [
+      "Ruby Mendenhall",
+      "Nicole Brown",
+      "Michael Black"
+    ],
+    "journal": "Ethnic and Racial Studies",
+    "year": "2017",
+    "doi": "10.1080/01419870.2017.1285421",
+    "keywords": [
+      "Black women",
+      "big data",
+      "social network analysis",
+      "topic modelling",
+      "sociology",
+      "du bois-atlanta school"
+    ]
+  },
+  "abstract": "",
+  "sections": [
+    {
+      "paper_id": "Mendenhall et al. - 2017 - The potential of big data in rescuing and recovering black women’s contributions to the Du Bois-Atla",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "NO_HEADER",
+      "header_norm": "",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "In The Scholar Denied: W.E.B. Du Bois and the Birth of Modern Sociology, Aldon Morris documents various methods used to suppress Du Bois' role within sociology and then centres him within the creation of the discipline. As Morris and other scholars continue to rescue and recover the genius of Du Bois, they are reframing the very historical foundation that Sociology stands on as a discipline. While this reframing of Du Bois' scholarship is necessary, the erasure of black women's contributions to this rich scholarship needs to be addressed as well.",
+        "Morris provides a framework for how we can rescue and recover other pivotal players and their role in the Du Bois-Atlanta School of Sociology, particularly black women. In his May 2016 \"Rejoinder\" in this journal, he urges scholars to undertake this gender intervention when responding to Patricia Hill Collins' critique about the role of black women in the Du Bois-Atlanta School. Morris states: \"Even though primary data [about Black women] may be difficult to locate, I hope scholars recover their names and make their contributions known to history.\" From a methodological perspective, we argue that one way to recover black women in close proximity to Du Bois and their contributions to the Du Bois-Atlanta School is through the use of \"big data\" and computation (specifically topic modelling and social network analysis).",
+        "Topic modelling involves using Bayesian probability to identify patterns of words that are likely to appear together in massive amounts of digitized documents. Human readers often recognize these grouping as topics because the groupings of words can either be interpreted as representative of semantic structures or of known discursive concepts. We can use social network analysis techniques to document relationships between Du Bois and the black women who worked with or influenced him. Using networking software such as Automap and ORA, we can seek to identify the following information about Du Bois's networks: who knows who, who knows what, who is whom (attributes), who does what tasks, what tasks relate to what event and how does everyone relate to each other.",
+        "Using computational methods, researchers can analyse large amounts of historical and current digitized records (that often cannot be analysed in a life time using traditional methods) and attempt to trace the genius and contributions of black women in relation to the Du Bois-Atlanta School. Such an intervention parallels Morris' rescue of Du Bois from archival erasure and preserves black women's roles in the advancement of sociological theory, knowledge and debates.",
+        "Motivated by this discussion about the difficulty of finding archival documents by or about black women, we examined a \"big data\" set (800,000 documents in JSTOR and HathiTrust) that we created for another project about recovering black women's lost history to determine how (in)visible the black women who were contemporaries of Du Bois (Anna Julia Cooper, Ida B. Wells and Mary Church Terrell) are compared to their white women counterparts (Jane Addams and Mary White Ovington) and compared to Du Bois. See Mendenhall et al. (2016) for a detailed discussion of the methods used to obtain the 800,000 documents.",
+        "To get a sense of whether the erasure of black women voices was present in the big data, we examined the number of times each author's scholarship or scholarship about them appeared in the 800,000 documents. This search yielded a subset of 183 documents. The results reveal that Du Bois towers over all the women with 42 per cent of the citations in the 183 subset. The next most cited author is Jane Addams at 23 per cent with her white counterpart, Ovington representing 4 per cent of the citations. Black women were present in a data set. However, relatively speaking they had some of the lowest levels of visibility with Terrell present in 4 per cent of the citations, Cooper in 7 per cent and Wells-Barnett in 8 per cent.",
+        "This exercise reflects a key limitation of \"big data\" in that the voices of black women are often erased, creating the need for researchers to find out about black women by going through black men, white women or white men who are represented with greater frequency in the historical/digital archives. See Brown et al. (2016) for a critique of \"big data\" and the role of black feminist thought in addressing these erasures.",
+        "One way to address these erasures and recover the lost history of black women in American sociology is to create \"big data\" sets based on black women's writing during the late nineteenth century and early twentieth century that includes diaries, correspondence, essays, newspaper articles, journal articles, autobiographies, slave narratives, other books, photographs, etc. Instead of trying to find a needle (black women's writings) in a haystack, we must create a haystack (big data set) full of needles. Once we have the \"big data\", we can use topic modelling and social network analysis to fill this critical void regarding the role black played in influencing and being influenced by Du Bois and his Atlanta School."
+      ],
+      "footnotes": [],
+      "text": "In The Scholar Denied: W.E.B. Du Bois and the Birth of Modern Sociology, Aldon Morris documents various methods used to suppress Du Bois' role within sociology and then centres him within the creation of the discipline. As Morris and other scholars continue to rescue and recover the genius of Du Bois, they are reframing the very historical foundation that Sociology stands on as a discipline. While this reframing of Du Bois' scholarship is necessary, the erasure of black women's contributions to this rich scholarship needs to be addressed as well.\n\nMorris provides a framework for how we can rescue and recover other pivotal players and their role in the Du Bois-Atlanta School of Sociology, particularly black women. In his May 2016 \"Rejoinder\" in this journal, he urges scholars to undertake this gender intervention when responding to Patricia Hill Collins' critique about the role of black women in the Du Bois-Atlanta School. Morris states: \"Even though primary data [about Black women] may be difficult to locate, I hope scholars recover their names and make their contributions known to history.\" From a methodological perspective, we argue that one way to recover black women in close proximity to Du Bois and their contributions to the Du Bois-Atlanta School is through the use of \"big data\" and computation (specifically topic modelling and social network analysis).\n\nTopic modelling involves using Bayesian probability to identify patterns of words that are likely to appear together in massive amounts of digitized documents. Human readers often recognize these grouping as topics because the groupings of words can either be interpreted as representative of semantic structures or of known discursive concepts. We can use social network analysis techniques to document relationships between Du Bois and the black women who worked with or influenced him. Using networking software such as Automap and ORA, we can seek to identify the following information about Du Bois's networks: who knows who, who knows what, who is whom (attributes), who does what tasks, what tasks relate to what event and how does everyone relate to each other.\n\nUsing computational methods, researchers can analyse large amounts of historical and current digitized records (that often cannot be analysed in a life time using traditional methods) and attempt to trace the genius and contributions of black women in relation to the Du Bois-Atlanta School. Such an intervention parallels Morris' rescue of Du Bois from archival erasure and preserves black women's roles in the advancement of sociological theory, knowledge and debates.\n\nMotivated by this discussion about the difficulty of finding archival documents by or about black women, we examined a \"big data\" set (800,000 documents in JSTOR and HathiTrust) that we created for another project about recovering black women's lost history to determine how (in)visible the black women who were contemporaries of Du Bois (Anna Julia Cooper, Ida B. Wells and Mary Church Terrell) are compared to their white women counterparts (Jane Addams and Mary White Ovington) and compared to Du Bois. See Mendenhall et al. (2016) for a detailed discussion of the methods used to obtain the 800,000 documents.\n\nTo get a sense of whether the erasure of black women voices was present in the big data, we examined the number of times each author's scholarship or scholarship about them appeared in the 800,000 documents. This search yielded a subset of 183 documents. The results reveal that Du Bois towers over all the women with 42 per cent of the citations in the 183 subset. The next most cited author is Jane Addams at 23 per cent with her white counterpart, Ovington representing 4 per cent of the citations. Black women were present in a data set. However, relatively speaking they had some of the lowest levels of visibility with Terrell present in 4 per cent of the citations, Cooper in 7 per cent and Wells-Barnett in 8 per cent.\n\nThis exercise reflects a key limitation of \"big data\" in that the voices of black women are often erased, creating the need for researchers to find out about black women by going through black men, white women or white men who are represented with greater frequency in the historical/digital archives. See Brown et al. (2016) for a critique of \"big data\" and the role of black feminist thought in addressing these erasures.\n\nOne way to address these erasures and recover the lost history of black women in American sociology is to create \"big data\" sets based on black women's writing during the late nineteenth century and early twentieth century that includes diaries, correspondence, essays, newspaper articles, journal articles, autobiographies, slave narratives, other books, photographs, etc. Instead of trying to find a needle (black women's writings) in a haystack, we must create a haystack (big data set) full of needles. Once we have the \"big data\", we can use topic modelling and social network analysis to fill this critical void regarding the role black played in influencing and being influenced by Du Bois and his Atlanta School.",
+      "text_with_footnotes": "In The Scholar Denied: W.E.B. Du Bois and the Birth of Modern Sociology, Aldon Morris documents various methods used to suppress Du Bois' role within sociology and then centres him within the creation of the discipline. As Morris and other scholars continue to rescue and recover the genius of Du Bois, they are reframing the very historical foundation that Sociology stands on as a discipline. While this reframing of Du Bois' scholarship is necessary, the erasure of black women's contributions to this rich scholarship needs to be addressed as well.\n\nMorris provides a framework for how we can rescue and recover other pivotal players and their role in the Du Bois-Atlanta School of Sociology, particularly black women. In his May 2016 \"Rejoinder\" in this journal, he urges scholars to undertake this gender intervention when responding to Patricia Hill Collins' critique about the role of black women in the Du Bois-Atlanta School. Morris states: \"Even though primary data [about Black women] may be difficult to locate, I hope scholars recover their names and make their contributions known to history.\" From a methodological perspective, we argue that one way to recover black women in close proximity to Du Bois and their contributions to the Du Bois-Atlanta School is through the use of \"big data\" and computation (specifically topic modelling and social network analysis).\n\nTopic modelling involves using Bayesian probability to identify patterns of words that are likely to appear together in massive amounts of digitized documents. Human readers often recognize these grouping as topics because the groupings of words can either be interpreted as representative of semantic structures or of known discursive concepts. We can use social network analysis techniques to document relationships between Du Bois and the black women who worked with or influenced him. Using networking software such as Automap and ORA, we can seek to identify the following information about Du Bois's networks: who knows who, who knows what, who is whom (attributes), who does what tasks, what tasks relate to what event and how does everyone relate to each other.\n\nUsing computational methods, researchers can analyse large amounts of historical and current digitized records (that often cannot be analysed in a life time using traditional methods) and attempt to trace the genius and contributions of black women in relation to the Du Bois-Atlanta School. Such an intervention parallels Morris' rescue of Du Bois from archival erasure and preserves black women's roles in the advancement of sociological theory, knowledge and debates.\n\nMotivated by this discussion about the difficulty of finding archival documents by or about black women, we examined a \"big data\" set (800,000 documents in JSTOR and HathiTrust) that we created for another project about recovering black women's lost history to determine how (in)visible the black women who were contemporaries of Du Bois (Anna Julia Cooper, Ida B. Wells and Mary Church Terrell) are compared to their white women counterparts (Jane Addams and Mary White Ovington) and compared to Du Bois. See Mendenhall et al. (2016) for a detailed discussion of the methods used to obtain the 800,000 documents.\n\nTo get a sense of whether the erasure of black women voices was present in the big data, we examined the number of times each author's scholarship or scholarship about them appeared in the 800,000 documents. This search yielded a subset of 183 documents. The results reveal that Du Bois towers over all the women with 42 per cent of the citations in the 183 subset. The next most cited author is Jane Addams at 23 per cent with her white counterpart, Ovington representing 4 per cent of the citations. Black women were present in a data set. However, relatively speaking they had some of the lowest levels of visibility with Terrell present in 4 per cent of the citations, Cooper in 7 per cent and Wells-Barnett in 8 per cent.\n\nThis exercise reflects a key limitation of \"big data\" in that the voices of black women are often erased, creating the need for researchers to find out about black women by going through black men, white women or white men who are represented with greater frequency in the historical/digital archives. See Brown et al. (2016) for a critique of \"big data\" and the role of black feminist thought in addressing these erasures.\n\nOne way to address these erasures and recover the lost history of black women in American sociology is to create \"big data\" sets based on black women's writing during the late nineteenth century and early twentieth century that includes diaries, correspondence, essays, newspaper articles, journal articles, autobiographies, slave narratives, other books, photographs, etc. Instead of trying to find a needle (black women's writings) in a haystack, we must create a haystack (big data set) full of needles. Once we have the \"big data\", we can use topic modelling and social network analysis to fill this critical void regarding the role black played in influencing and being influenced by Du Bois and his Atlanta School.",
+      "preview_head": "In The Scholar Denied: W.E.B. Du Bois and the Birth of Modern Sociology, Aldon Morris documents various methods used to suppress Du Bois' role within sociology and then centres him within the creation of the discipline. As Morris and other scholars continue to rescue and recover the genius of Du Bois, they are reframing the very historical foundation that Sociology stands on as a discipline.",
+      "preview_tail": "One way to address these erasures and recover the lost history of black women in American sociology is to create \"big data\" sets based on black women's writing during the late nineteenth century and early twentieth century that includes diaries, correspondence, essays, newspaper articles, journal articles, autobiographies, slave narratives, other books, photographs, etc. Instead of trying to find a needle (black women's writings) in a haystack, we must create a haystack (big data set) full of needles. Once we have the \"big data\", we can use topic modelling and social network analysis to fill this critical void regarding the role black played in influencing and being influenced by Du Bois and his Atlanta School.",
+      "word_count": 828,
+      "paragraph_count": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "guardrail_correction"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.882,
+      "label_reason": "intro_too_late",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Mendenhall et al. - 2017 - The potential of big data in rescuing and recovering black women’s contributions to the Du Bois-Atla",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Disclosure statement",
+      "header_norm": "disclosure statement",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "No potential conflict of interest was reported by the authors."
+      ],
+      "footnotes": [],
+      "text": "No potential conflict of interest was reported by the authors.",
+      "text_with_footnotes": "No potential conflict of interest was reported by the authors.",
+      "preview_head": "No potential conflict of interest was reported by the authors.",
+      "preview_tail": "No potential conflict of interest was reported by the authors.",
+      "word_count": 10,
+      "paragraph_count": 1,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Disclosure statements are administrative and do not serve a research function."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    }
+  ],
+  "stats": {
+    "total_sections": 2,
+    "content_sections": 2,
+    "total_words": 838,
+    "has_abstract": false
+  },
+  "classification_stats": {
+    "total": 2,
+    "by_source": {
+      "heuristic": 0,
+      "llm": 2,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

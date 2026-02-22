@@ -1,0 +1,123 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides political context and theoretical background, referencing the situation of the"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides political context and theoretical background, referencing the situation of the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews news framing theory, citing foundational works and describing how the theory is"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews news framing theory, citing foundational works and describing how the theory is"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the Turkish media landscape, referencing historical developments and the"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the Turkish media landscape, referencing historical developments and the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section explains the collocation analysis technique and how it is applied in this study, with"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section explains the collocation analysis technique and how it is applied in this study, with"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the analytical procedures, software, and methods (topic modeling, collocation"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the analytical procedures, software, and methods (topic modeling, collocation"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the topic modeling analysis, including topic distributions over"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the topic modeling analysis, including topic distributions over"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the results of the collocation analysis, describing the most common collocates"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the results of the collocation analysis, describing the most common collocates"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "classifications": [
+    {
+      "sec_index": 0,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section provides a general overview, frames the research problem, and outlines the motivation,,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section provides a general overview, frames the research problem, and outlines the motivation,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section explicitly states it describes how the sample was collected and the indicators used, i.e"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the search strategy, journal selection, and time range for data collection, all of which a"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the indicators and data collection process for measuring article influence, which is metho"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about publication trends, proportions, and citation patterns over time, which are r"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the use of topic modeling and reports the main topics and citation patterns, which are res"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports comparative findings about research interests and topic proportions between Mainland China a"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes and interprets the results of topic correlation and publication patterns, which are prima"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

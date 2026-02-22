@@ -1,0 +1,207 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section is early in the paper, likely providing theoretical background and literature review on the "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings about country/region publication and citation patterns, referencing figures"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports empirical findings about institutional contributions, referencing tables and data"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports results of keyword co-occurrence analysis and research hotspots"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports topic modeling results, including clusters and keywords"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section discusses prior research attention and investment by countries, referencing previous studies"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section interprets the significance of research focus and its implications for national well-being"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section continues theoretical/literature discussion on distinctions between physical and mental well"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section reviews literature on COVID-19's impact on children's well-being, referencing prior research"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section interprets the implications of public health emergencies for children's psychological health"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Section interprets and discusses future research directions and implications for children's well-bei"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "Section references prior research and demographic trends as context for discussion"
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

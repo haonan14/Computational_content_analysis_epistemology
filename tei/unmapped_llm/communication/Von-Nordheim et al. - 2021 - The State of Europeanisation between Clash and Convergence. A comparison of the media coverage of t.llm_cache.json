@@ -1,0 +1,175 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "The abstract frames the research problem, introduces the topic of Europeanisation of national public"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "The abstract briefly summarizes the main findings of the study, e.g., variation in Europeanisation, "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section directly reports the study's findings about the degree of Europeanisation in different "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the theoretical background and prior definitions of Europeanisation, citing "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section elaborates on theoretical definitions and dimensions of Europeanisation, not reporting "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses prior empirical studies and their contradictory findings, focusing on what "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section discusses the comparative approach, referencing prior literature and methodological "
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "It briefly mentions the present study's comparative perspective, hinting at the authors' approach."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section discusses methodological challenges and criteria (representativeness, comparability) "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section focuses on methodological issues of standardisation and instrument design for the "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the data sources and collection process for the study."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the operationalisation, sampling, and selection criteria for the study's data."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section answers RQ1 by reporting the findings about intersectional issues in election coverage."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section answers RQ2 by reporting findings on the degree of Europeanisation in the horizontal "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section directly addresses a research question (RQ4) and reports findings about the connections,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The text describes observed patterns in the data (e.g., Hungarian press reflecting government views,"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

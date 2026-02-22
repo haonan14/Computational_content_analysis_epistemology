@@ -1,0 +1,106 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section reviews existing practices and typologies of mixed methods in digital ethnography, with"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some discussion of methodological approaches and their implications for research design, as"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the empirical case, research design, and ethical considerations specific to this study, i"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Touches on ethical implications and justifies methodological choices, which involves some interpret"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports findings about the socio-demographic composition of participants based on the study's analy"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly references the use of computational analysis and data sources, but the focus is on reportin"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Presents findings from network analysis regarding the social structure and homophily patterns in th"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Mentions the use of network analysis and methodological choices, but the main focus is on the resu"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports the results of topic modeling and the identification of discussion topics in the community,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly describes the use of topic modeling as a method, but the emphasis is on the findings."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about rules of interaction and conflicts in the community, based on qualitative a"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretive commentary on the meaning and implications of the observed conflicts and int"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 6,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "The section is titled 'Summary and concluding remarks' and provides a wrap-up of the article, summar"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "The section also interprets the meaning of the findings and discusses broader implications for the '"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

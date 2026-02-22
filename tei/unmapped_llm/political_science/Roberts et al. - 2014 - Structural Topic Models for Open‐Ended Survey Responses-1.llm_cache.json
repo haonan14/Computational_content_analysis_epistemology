@@ -1,0 +1,287 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, highlights the contribution of the method, and previews an"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the background and prior debates in survey methodology, referencing prior wor"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section outlines the paper's contributions and situates the work, which is characteristic of an"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides theoretical background on statistical topic models, referencing prior work and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Describes the innovation of the STM model in relation to prior models, situating it in the context o"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Begins to describe the unique features of the STM and how it is used, but is still mostly theoretica"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the framework and quantities of interest that can be estimated using the proposed method, "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Provides example findings and describes effects observed in the data, which is characteristic of res"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Also describes the level of analysis and how the quantities are computed, which is methodological."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes how document-topic proportions are used and computed, focusing on methodological aspects."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Mentions example uses and how results can be interpreted, but the focus is on method."
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes how topic-word proportions are computed and evaluated, focusing on methodological details."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Mentions evaluation protocols and possible findings, but the main focus is on method."
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the validation process for the model, including simulations and tests, which is methodolog"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes validation tests, simulations, and software tools, all of which are methodological."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Focuses on illustrating the application of the method to actual data, including estimation and inter"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes how to estimate relationships and interpret parameters, which is also methodological."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports findings from the application of the topic model to survey responses about views"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of what the topics mean in the context of the treatment groups."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents and interprets specific example responses and their topic assignments, which,\u00a0"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section begins by describing the design and findings of Rand, Greene, and Nowak (2012), focusing"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reporting of what was found in the context of the current paper's application."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports how topics differ across experimental conditions, referencing the output of the"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the meaning of the topics in relation to the experimental design."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports the relationship between topic references and game contributions, referencing"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the implications of these findings for understanding gender and"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section describes the application of the STM to a new dataset (ANES), including sample size and"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reporting of findings from the ANES application, including reference to figures."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings about the relationship between education and topic assignment in the"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the implications for human coding and STM accuracy."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

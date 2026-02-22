@@ -1,0 +1,319 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, provides context for constructed response items, cites key"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, introduces the context of constructed response items, and,\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the models used in the paper, including the proposed model, which is a core"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the Latent Dirichlet Allocation (LDA) model, focusing on its structure and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section continues the technical description of LDA, focusing on the mechanics of the model and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the supervised LDA (SLDA) model, focusing on its structure and how it extends"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the finite-mixture supervised LDA (MixSLDA), focusing on the model's"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the data-generating process for the MixSLDA model, which is a methodological"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the estimation procedure for MixSLDA, including the use of Gibbs sampling and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the empirical illustration of the MixSLDA model, describing the data and"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the test instrument used in the empirical illustration, including its design"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the sample used in the empirical illustration, including sample size and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the data pre-processing steps taken before analysis, which is a core part of"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the estimation procedures, priors, and model fitting steps used by the paper,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the exploratory approach for model selection, including how the number of model"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the findings from the MixSLDA model, including tables and descriptions of the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports regression coefficient estimates and patterns found in the data, focusing on"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents tables and figures summarizing empirical findings and model outputs, which"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the simulation study design and the experimental setup, focusing on how the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the simulation study design and data generation process, including parameter"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the estimation procedures and prior distributions used in the simulation study,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section provides technical details about the prior distributions and parameter settings for the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section continues the technical description of the simulation procedure, including convergence"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section summarizes the results of the simulation study, reporting bias, MSE, and other outcome"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.6,
+          "reason": "This section interprets the findings, discusses implications, and connects results to broader"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.4,
+          "reason": "The section also provides a summary and closing remarks, characteristic of a conclusion."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "The section contains mathematical notation and appears to be a technical or supplementary note, not,"
+        },
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "The section contains mathematical notation and appears to be a technical or supplementary note, not,"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

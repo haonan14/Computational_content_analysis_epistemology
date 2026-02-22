@@ -1,0 +1,28 @@
+{
+  "classifications": [
+    {
+      "sec_index": 0,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, introduces the context of international climate change COPs"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section is titled 'Theoretical motivation' and discusses prior work, context, and hypotheses, as"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

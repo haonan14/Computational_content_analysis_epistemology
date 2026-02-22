@@ -1,0 +1,81 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews theoretical background and prior work on framing, citing foundational and more\u00a0"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews theoretical background and prior work on framing, citing foundational and more\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data collection, sampling, and dataset characteristics for the study, all actions by the\u00a0"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the qualitative coding process and methodological choices made by the authors for frame\u00a0"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the outputs of the LDA topic model, summarizes findings, and discusses the need for human\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Contains technical notes and clarifications about methods and measures, typical of an appendix or\u00a0"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Disclosure statements are administrative and do not fit the main research section categories."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

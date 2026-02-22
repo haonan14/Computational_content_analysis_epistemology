@@ -1,0 +1,225 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses prior research and theoretical arguments about atypicality, audience receptiv"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews findings from linguistics and cognition studies, citing prior work and building"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section states a hypothesis (H2) and continues to discuss theoretical arguments and prior rese"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section introduces a hypothesis (H3) and discusses theoretical mechanisms and prior research "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the empirical setting (Etsy), providing context for the data and research design used in"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details data collection, sample construction, and empirical strategies, all of which are methodolo"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes model construction, variable introduction, and references to methodological choices (e.g"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Contains footnotes and clarifications, which are supplementary to the main text."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Presents a figure and accompanying narrative, likely as supplementary material or illustrative exa"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Contains a personal narrative or example, likely as supplementary illustrative material."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Contains a personal narrative or example, likely as supplementary illustrative material."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Contains a personal narrative or example, likely as supplementary illustrative material."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section contains supplementary material, including sample statistics and measurement details, which,"
+        },
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section contains supplementary material, including sample statistics and measurement details, which,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section presents a table of forum posts as supplementary qualitative data, typical of an appendix."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section continues the presentation of forum post excerpts, serving as supplementary qualitative data"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section continues the appendix content, providing more qualitative forum post excerpts."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section continues the appendix, presenting further qualitative data from forum posts."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section includes additional qualitative and quantitative data, typical of an appendix."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

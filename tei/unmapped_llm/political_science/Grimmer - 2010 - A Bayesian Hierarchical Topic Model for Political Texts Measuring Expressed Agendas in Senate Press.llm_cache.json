@@ -1,0 +1,471 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section frames the concept of 'expressed agenda' and situates the model in the context of how U"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the rationale for using press releases as data, referencing prior work and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section continues to review the importance of press releases, citing prior research and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the phenomenon of press releases being used in newspapers, referencing"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports an empirical analysis of how often press releases are covered in newspapers,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "The section also describes the approach to measuring coverage rates, indicating some methodological"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the preprocessing steps applied to the press releases, which is a clear"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the statistical model used for analysis, detailing its structure and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the senator-level parameters in the model, which is part of the methods/model"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the document-level parameters and how topics and words are modeled, which"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section discusses the priors used in the model, which is a methodological detail."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section explains how covariates are included in the prior, which is a modeling/methods"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the posterior distribution and graphical model, which are methodological"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section discusses model specification choices, the role of covariates, and how they affect the "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the inference procedure for the model, including computational considerations and the use/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the estimation procedure, including algorithmic choices, number of topics, and hyperpriors. "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes an alternative methodological approach (clustering each senator's releases separately) and"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the optimization process and selection of the best run, which are methodological details."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how stems were identified using mutual information, a methodological detail."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the process for labeling and validating topics, which is a methodological step in the study"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the manual process for labeling clusters, including document selection and reading, which"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of external events and Senate debates as a method for validating topics, which is"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of legislative facts to validate the model's estimated agendas, a methodological"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes a validation approach using committee leadership as a test, which is a methodological step"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Presents some findings about committee leaders' attention allocation, which are results of the model"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes a validation approach using geographic clustering, which is a methodological step"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Reports that the model retrieves expected geographic clustering, which is a result"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports empirical findings about the relationship between senators' attention to state-"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the results, connecting them to theoretical expectations about earm"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes statistical results and visualizations (HPD intervals, plots) showing the rel"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "The section interprets the utility and implications of the expressed agenda model for answering t"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reference to findings and what the model allows the author to show, but the focus is"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports findings about the similarity of expressed agendas among senators from the s"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is interpretation of the results in light of Schiller's theory, connecting empirical findin"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 33,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "This section summarizes the paper's contributions, wraps up the findings, and suggests future wor"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of the results and their implications for future research."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section is a technical appendix detailing the estimation approach (mean-field approximation) "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This is a technical appendix section describing the minimization of KL divergence in the variatio"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides derivations and references for the variational inference approach, which is "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 38,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section continues the technical appendix, focusing on the parametric forms of the approximati"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 39,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section details the iterative algorithm for estimation, which is a technical/methodological a"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 40,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section describes practical implementation details for the estimation algorithm, fitting the "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 41,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section extends the model to include covariates, which is a technical/methodological addition"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

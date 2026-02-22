@@ -1,0 +1,72 @@
+{
+  "classifications": [
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section defines the operationalization of policy objectives, specifying how key variables (e.g."
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section defines the operationalization of policy objectives, specifying how key variables (e.g."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the specific financial support mechanisms (monetary incentives) as part of the policy, i.e"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the specific financial support mechanisms (monetary incentives) as part of the policy, i.e"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Outlines the demonstration and management strategies for NEV policies, detailing what is implemented"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Outlines the demonstration and management strategies for NEV policies, detailing what is implemented"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the environmental protection plans as part of the policy mechanisms under study, i.e. what"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the environmental protection plans as part of the policy mechanisms under study, i.e. what"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports the output of NLP topic modeling (topic words and weights), coherence scores, as"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "There is some interpretive commentary by the qualitative researcher, but the dominant function is to"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the authors' approach to classifying election-related news coverage, including their own '"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "References theoretical classifications and situates their approach in prior literature."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Discusses prior scholarship on election-related themes, with citations and historical context."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Mentions the use of topic modeling and contextual representations, which relates to the authors' own"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the specific topic modeling approach (BERTTopic) used by the authors on their data."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the dimensionality reduction step in the authors' topic modeling pipeline, including choice"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the clustering algorithm (DBSCAN) used in the authors' topic modeling process."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the process of converting clusters to topics using TF-IDF, as implemented by the authors."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the topic selection process and criteria used in the authors' methodology."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the hyperparameter selection for the BERTTopic process, including parameter values and their"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section title and context indicate a focus on the processing steps in the authors' methodology."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Discusses parameter settings (minimum topic size) and references a table of hyperparameters for the"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes how the authors convert topics to themes in their analysis."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Reflects on limitations and alternative approaches, suggesting future research directions."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Explains how the authors use themes to measure differences between parties and candidates in news"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Hints at the outcomes of applying the technique, though the main focus is on the method."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the procedure for estimating uncertainty in cosine similarity measures, including bootstrp"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Briefly interprets the meaning and limitations of the difference measures, noting what they do and *"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the application of the method to a specific corpus (South Africa 2014 election news)."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Provides contextualization and justification for the case selection, discussing why the South Africa"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section header 'Step' and position in the paper suggest it is part of a stepwise methods description"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes handcoding and supervised learning procedures used by the authors on their data."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process of reducing and combining topics into themes using specific computational and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the calculation of cosine similarity between parties/candidates and themes, a core method"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the estimation of uncertainty using bootstrapping, a methodological procedure."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the research steps and validation approach, focusing on the method's benchmarking and con"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation and contextualization of the method's appropriateness and validation."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "States a prediction (hypothesis) based on prior knowledge and theory about coverage of corruption."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "States a prediction (hypothesis) about economic coverage, grounded in prior reasoning and theory."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "States a prediction (hypothesis) about public services coverage, based on prior knowledge/theory."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "States a prediction (hypothesis) about opposition parties' coverage, based on prior reasoning/theory"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the data corpus, time frame, and filtering of topics for analysis\u2014core methodological info"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Mentions that not all detected topics are analyzed, referencing findings about which topics are kept"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about predictions, coverage rates, and specific candidate outcomes, referencing the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings regarding health theme coverage, referencing predictions and summarizing results"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the coding procedure, coder instructions, and labeling process for the story subset"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Provides example coded stories, serving as supplementary material to the main text"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Displays sample headlines and coding categories, functioning as supplementary illustrative material"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Gives technical details about the newspaper corpus and data collection, typical of an appendix"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 38,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Presents additional themes not covered in the main results, characteristic of an appendix section"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

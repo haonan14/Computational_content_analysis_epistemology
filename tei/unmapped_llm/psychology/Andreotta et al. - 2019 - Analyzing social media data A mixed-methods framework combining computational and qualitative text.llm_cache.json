@@ -1,0 +1,300 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the opportunities and challenges for qualitative researchers using social\u00a0\u00a0-\u00a0"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the opportunities and challenges for qualitative researchers using social\u00a0\u00a0-\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the authors' own mixed-methods framework, describing its structure and how\u00a0\u00a0"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the first phase of the authors' framework, focusing on how researchers can harvest and\u00a0\u00a0"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the second phase of the authors' framework, focusing on data compression and sampling\u00a0\u00a0"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the third phase of the authors' framework, focusing on extracting relevant data for\u00a0\u00a0"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the fourth phase of the authors' framework, focusing on performing qualitative analysis\u00a0\u00a0"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section contextualizes the authors' framework within previous literature, citing prior studies\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the choice of social media platform (Twitter) and the rationale for its selection, as well"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "References to established literature and prior computational techniques for Twitter data."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Discusses the broader context of climate change and the value of public commentary, referencing\u00a0"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly mentions the new dataset and qualitative techniques to be used, but this is secondary."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Outlines the step-by-step approach the authors used in their empirical application, describing\u00a0\u00a0"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data collection process and tools used to compile the Twitter corpus for analysis."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of topic modeling and specific computational techniques to organize the corpus."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' process of dividing the corpus into batches for computational feasibility, a "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' process of dividing the corpus into batches for computational feasibility, a "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains preprocessing steps (removal of features, stop-words, etc.) and how topical representations"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process for assessing the quality of topic models, including both automated and manual"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how the authors grouped similar topics across batches using a topical alignment algorithm, "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes operationalization and selection of relevant topics for further qualitative analysis, a me"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the selection of the most favorable topical representation for subsequent analysis, a method"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process of extracting a manageable subset of data for qualitative analysis, a methodol"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the qualitative thematic analysis performed on the sampled tweets, including coding and th"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Outlines the process of searching for and reviewing themes, including inter-rater agreement, which "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the findings of the thematic analysis, specifically describing Theme 1 (climate change act"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Provides additional details and examples related to the themes identified in the results, including"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

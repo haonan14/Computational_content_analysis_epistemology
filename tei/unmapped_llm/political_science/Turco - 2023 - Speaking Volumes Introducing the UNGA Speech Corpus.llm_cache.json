@@ -1,0 +1,106 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "This section describes the construction, scope, and properties of the UNGA Speech Corpus, focusing a"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "There is some reporting of corpus characteristics and external validity, which are findings about th"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section details the use of latent Dirichlet allocation (LDA) to analyze the corpus, focusing on "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "It also reports the discovered topics and provides examples, which are findings from the analysis."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "The section explains the use of word embeddings, the rationale for training them on the corpus, and "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "There is some reference to prior work and citations about word embeddings and their use in political"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.9,
+          "reason": "This section describes the methodological approach of combining STM topics with word embeddings to e"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.1,
+          "reason": "There is a brief mention of findings (valid word embeddings, range of topics), but the focus is on "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section discusses how topic proportions and word embeddings are used to determine countries' pre"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "It references other studies and literature to contextualize the approach and findings."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports on the application of topic scores to climate governance, including model fit a"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is interpretation of the results and discussion of their implications for IR scholarship and f"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,1024 @@
+{
+  "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/psychology/Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc.tei.xml",
+  "metadata": {
+    "title": "The credibility assessment of Twitter/X users based organization objectives by heterogeneous resources in big data life cycle",
+    "authors": [
+      "Sogand Dehghan",
+      "Rojiar Pir Mohammadiani",
+      "Shahriar Mohammadi"
+    ],
+    "journal": "Computers in Human Behavior",
+    "year": "2024",
+    "doi": "10.1016/j.chb.2024.108428",
+    "keywords": []
+  },
+  "abstract": "Social network data, such as Twitter/X, is of Big Social Data type. Big social data describes people's social behaviors and interactions. They have high business value for decision-making in organizations. However, because of the anonymous nature of social network users, their credibility is ambiguous. Credibility expresses the accuracy and value of big social data. Despite extensive research on the credibility of big social data, most methods have not paid sufficient attention to the important dimensions of their assessment, including user expertise based on topic, selecting social network features, and labeling them. Furthermore, these methods cannot manage the time, high volume, and speed of big social data. To address these issues, this paper presents a novel model for assessing the credibility of Twitter/X users by integrating Twitter/X with Google Scholar. The model automatically defines users' credibility labels using Google Scholar. Machine learning feature selection methods also select features that affect the credibility of Twitter/X users based on the topic. This study uses Google Scholar and the BerTopic algorithm for effective topic modeling on Twitter/X. The model considers unrelated data management, dynamic user credibility, and organizing activities based on the Big Data lifecycle. Finally, using Linear Regression, Support Vector Regression, K-Nearest Neighbor, Random Forest, Classification and Regression Trees algorithms, the model predicts the credibility of Twitter/X users and proves that it performed better than similar models through Classification and Regression Trees. In addition, the model is generalizable for all organizational purposes due to the integration of heterogeneous resources and feature selection methods.",
+  "sections": [
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Introduction",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Data from high volume, speed, and various social interactions based on technology Platforms are called Big Social Data (BSD) (Olshannikova et al., 2017). Social Network (SN) data are a type of BSD. Due to the anonymity of SN users, BSD serves as a source of users' opinions, experiences, and preferences (Peng et al., 2018). Therefore, BSD is crucial for decision-making in organizations, and the number of users on SN reflects their business values (Abu-Salih et al., 2019a, 2019b;Dehghan et al., 2023). Organizations utilize BSD to generate reports and predict goals like marketing and recruitment (Olshannikova et al., 2017;Villeda et al., 2019). For example, in many previous studies, an organization provided valuable insights into the audiences' needs and desires by analyzing BSD in SN. This information allows the organization to increase customer loyalty (Peng et al., 2018;Pir Mohammadiani et al., 2017). While the credibility of BSD offers numerous advantages for organizations, analyzing non-credible BSD can lead to serious issues (Alrubaian et al., 2018;Abu-Salih et al., 2019a, 2019b;Afify et al., 2019). The credibility of BSD is often ambiguous due to the anonymous nature of SN users. Therefore, some users spread misinformation and rumors (Alrubaian et al., 2018). If an organization analyzes BSD from non-credible users, it will obtain unreliable information that can lead to incorrect decision-making. In the above example, inaccurate information could result leading to the loss of loyal customers (Peng et al., 2018). Accordingly, the credibility of BSD is another significant factor in the decision-making process of organizations, reflecting the accuracy and value of BSD (Alrubaian et al., 2018;Abu-Salih et al., 2019a, 2019b).",
+        "The credibility of BSD can be evaluated at three levels: users, content, and events (Alrubaian et al., 2018). There is a positive correlation between the user level and other levels of credibility, implying that credible users typically provide credible content (Pir Mohammadiani & Mohammadi, 2017;Abbasimehr et al., 2020;Alrubaian et al., 2018;Morris et al., 2012). Therefore, the best option for evaluating the credibility of the BSD is to examine the credibility of users as information sources (Abbasimehr et al., 2020;Dehghan et al., 2023;Pir Mohammadiani et al., 2023). Consequently, the organization needs a model to evaluate the credibility of the SN users based on its objectives.",
+        "Extensive research has been conducted on evaluating the credibility of BSD. These studies have developed models for evaluating the credibility of the BSD aimed at marketing, political analysis and natural events (Devi and Karthika, 2019;Evans et al., 2021;Khan and Michalas, 2021). However, BSD is also valuable for other organizational objectives. These models often overlook the dynamic nature of SN users, resulting in they do not provide organizations with up-to-date and high-quality BSD (Abu-Salih et al., 2019a, 2019b;Alkhamees et al., 2021;Diaz-Garcia et al., 2022). Therefore, BSD credibility evaluation models should be designed according to the Big Data (BD) lifecycle. The BD lifecycle offers a structured approach to manage dynamic data and heterogeneous sources (Erl et al., 2016). Therefore, this approach ensures continuous monitoring of user activities, provides organizations with up-to-date and credible BSD, and enhances organizational agility, and enables the integration of SN with other resources such as Google Scholar (GS) (Erl et al., 2016). This integration of heterogeneous resources facilitates the automatic creation of BSD credibility labels, unlike existing models where BSD credibility is manually labeled by human reviewers, requiring significant time and cost (Bhuiyan et al., 2021;Subramani et al., 2023).",
+        "In the digital world, credibility refers to a set of SN features that determine how trustworthy, reliable, and authoritative BSD is in the SN (Alrubaian et al., 2018). These features should be selected based on SN users' expertise, organizational objectives, and the structure of SN (Arora et al., 2019;Cano et al., 2014;Embar et al., 2015;Pasi et al., 2020;Thaher et al., 2021;Dehghan et al., 2023;Abid-Althaqafi et al., 2024). However, most existing models selected SN features using an approach based on reviewing previous studies. By using Machine Learning (ML) feature selection methods and training credibility assessment models of BSD based on automated labels, SN features can be selected according to the aforementioned criteria. Furthermore, SN users can produce credible content on their specialized and favorite topics (Abu-Salih et al., 2019a, 2019b;Dehghan et al., 2023;Khokhar et al., 2023). In other words, the credibility of the BSD depends on users' expertise (Abu-Salih et al., 2019a, 2019b;Assery et al., 2021;Dehghan et al., 2023;Khokhar et al., 2023). The use of heterogeneous resources and appropriate topic modeling algorithms enables accurate prediction of users' credibility based on their specialization. In contrast, most articles related to the credibility of BSD assessment have not focused on determining the topic of user activity or have used inappropriate methods (Abu-Salih et al., 2019a, 2019b). Finally, many methods of predicting the credibility of BSD are binary classifiers. These methods categorize BSD (users, content, events) as either credible or non-credible. Since binary classification methods provide limited information about the BSD, predicting the credibility of users with continuous values can provide useful information about each user.",
+        "This study highlights that organizations urgently need an assessment model for the credibility of SN users that can identify SN features based on various organizational objectives and the structure of the network. Additionally, this new model should be able to easily identify users' topics of activity based on the content they produce and assess the alignment of SN users with the organization. The model should be designed with a structured approach to ensure access to high-quality and up-to-date data, thereby enhancing the speed of decision-making. Therefore, this study aims to develop an adaptive and generalizable model to evaluate the credibility of SN users.",
+        "Based on this, a proposed model called UCBD (Users' Credibility Based on Big Data Life Cycle) was presented. UCBD has predicted the credibility of Twitter/X users based on organizational objectives, especially the acquisition of human capital, since human capital is a vital process for an organization, and organizations compete with each other to obtain suitable human resources (Mahmoud et al., 2019). Achieving human capital in organizations increases profits and reduces costs (Mahmoud et al., 2019). Furthermore, organizations today need to hire ML specialists owing to the increase in data volume and technological advancements. ML engineers can transform large datasets into operational insights and intelligent decision-making (Jordan & Mitchell, 2015). Therefore, this study has considered the recruitment of human resources in the field of ML.",
+        "Additionally, UCBD addresses the research gap in previous studies by two heterogeneous sources, Twitter/X and GS, and applies the advantages of the BD lifecycle. Twitter/X is among the most popular SN, with two billion and 640 million users, including 328,271 million active monthly users (Alrubaian et al., 2018). One of the uses of Twitter/X in organizations is to acquire human capital (Villeda et al., 2019). Approximately 60% of job applicants use Twitter/X, and experienced users prefer Twitter/X to LinkedIn (Villeda et al., 2019). In addition, GS is a search engine that shares researchers' CVs (articles and scientific indexes). The proposed model uses GS for topic modeling and automatically labels the user credibility. Topic modeling of UCBD was performed using the BerTopic algorithm. UCBD selects the best Twitter/X features to evaluate the credibility of users for organizational objectives using Recursive Feature Elimination (RFE) and filtering methods. The proposed model was designed based on the lifecycle of BD and time parameters (Erl et al., 2016). This cycle addresses different needs, such as managing multiple unrelated datasets and time-sensitive information, including nine steps describing business case assessment, data identification, data collection and filtering, data mining, data validation and cleansing, data collection, data analysis, data visualization, and the use of analysis results (Erl et al., 2016). Finally, UCBD uses algorithms (Linear Regression (LR), Support Vector Regression (SVR), K Nearest Neighbor (KNN), Random Forest (RF), and Classification and Regression Trees (CART)) to predict the credibility of users on Twitter/X. Unlike similar models, this model predicts credibility using continuous values to distinguish between users.",
+        "The proposed model ranks the influential features of Twitter/X users based on predefined organizational objectives. These influential features are compared with features of existing models. In addition, the proposed model examines the personalities of credible users using the big five personality trait theory. The big five theory refers to the five-factor model of personality including: extraversion, agreeableness, conscientiousness, emotional stability, and openness to experience (, which is widely used in psychology to describe human personality traits (Maharani & Effendy, 2022In other words, the big five theory helps better understand the personality traits of credible users on SN, and ultimately, this understanding helps organizations make more intelligent decisions.",
+        "Last, UCBD provides a suitable platform for evaluating the credibility of users in achieving human capital. The scientific contributions of this study are as follows:",
+        "i. Combining heterogeneous resources to determine the credibility of users' dynamic labels, find Twitter/X expert users, and develop a model based on the organizations' objectives. ii. Analyzing high and fast volumes of data, organizing activities, and managing heterogeneous resources and time (adding the time parameter owing to the dynamic nature of the credibility of users) is possible using the BD lifecycle. iii. Owing to the integration of heterogeneous resources and feature selection methods, UCBD can evaluate the credibility of Twitter/ X users based on the various objectives of the organization. iv. UCBD has ranked the most impactful features in the field of user credibility evaluation for recruitment. v. Providing a model for predicting user credibility based on continuous values with accuracy equivalent to that of binary classification models.",
+        "The remainder of this paper is organized as follows: The next section examines the related work methods. Section 3 introduces the proposed UCBD model. Section 4 presents the model evaluation. Section 5 includes the interpretation of results, impacts and application, limitations, and future work. Section 6 presents the conclusions of this study."
+      ],
+      "footnotes": [],
+      "text": "Data from high volume, speed, and various social interactions based on technology Platforms are called Big Social Data (BSD) (Olshannikova et al., 2017). Social Network (SN) data are a type of BSD. Due to the anonymity of SN users, BSD serves as a source of users' opinions, experiences, and preferences (Peng et al., 2018). Therefore, BSD is crucial for decision-making in organizations, and the number of users on SN reflects their business values (Abu-Salih et al., 2019a, 2019b;Dehghan et al., 2023). Organizations utilize BSD to generate reports and predict goals like marketing and recruitment (Olshannikova et al., 2017;Villeda et al., 2019). For example, in many previous studies, an organization provided valuable insights into the audiences' needs and desires by analyzing BSD in SN. This information allows the organization to increase customer loyalty (Peng et al., 2018;Pir Mohammadiani et al., 2017). While the credibility of BSD offers numerous advantages for organizations, analyzing non-credible BSD can lead to serious issues (Alrubaian et al., 2018;Abu-Salih et al., 2019a, 2019b;Afify et al., 2019). The credibility of BSD is often ambiguous due to the anonymous nature of SN users. Therefore, some users spread misinformation and rumors (Alrubaian et al., 2018). If an organization analyzes BSD from non-credible users, it will obtain unreliable information that can lead to incorrect decision-making. In the above example, inaccurate information could result leading to the loss of loyal customers (Peng et al., 2018). Accordingly, the credibility of BSD is another significant factor in the decision-making process of organizations, reflecting the accuracy and value of BSD (Alrubaian et al., 2018;Abu-Salih et al., 2019a, 2019b).\n\nThe credibility of BSD can be evaluated at three levels: users, content, and events (Alrubaian et al., 2018). There is a positive correlation between the user level and other levels of credibility, implying that credible users typically provide credible content (Pir Mohammadiani & Mohammadi, 2017;Abbasimehr et al., 2020;Alrubaian et al., 2018;Morris et al., 2012). Therefore, the best option for evaluating the credibility of the BSD is to examine the credibility of users as information sources (Abbasimehr et al., 2020;Dehghan et al., 2023;Pir Mohammadiani et al., 2023). Consequently, the organization needs a model to evaluate the credibility of the SN users based on its objectives.\n\nExtensive research has been conducted on evaluating the credibility of BSD. These studies have developed models for evaluating the credibility of the BSD aimed at marketing, political analysis and natural events (Devi and Karthika, 2019;Evans et al., 2021;Khan and Michalas, 2021). However, BSD is also valuable for other organizational objectives. These models often overlook the dynamic nature of SN users, resulting in they do not provide organizations with up-to-date and high-quality BSD (Abu-Salih et al., 2019a, 2019b;Alkhamees et al., 2021;Diaz-Garcia et al., 2022). Therefore, BSD credibility evaluation models should be designed according to the Big Data (BD) lifecycle. The BD lifecycle offers a structured approach to manage dynamic data and heterogeneous sources (Erl et al., 2016). Therefore, this approach ensures continuous monitoring of user activities, provides organizations with up-to-date and credible BSD, and enhances organizational agility, and enables the integration of SN with other resources such as Google Scholar (GS) (Erl et al., 2016). This integration of heterogeneous resources facilitates the automatic creation of BSD credibility labels, unlike existing models where BSD credibility is manually labeled by human reviewers, requiring significant time and cost (Bhuiyan et al., 2021;Subramani et al., 2023).\n\nIn the digital world, credibility refers to a set of SN features that determine how trustworthy, reliable, and authoritative BSD is in the SN (Alrubaian et al., 2018). These features should be selected based on SN users' expertise, organizational objectives, and the structure of SN (Arora et al., 2019;Cano et al., 2014;Embar et al., 2015;Pasi et al., 2020;Thaher et al., 2021;Dehghan et al., 2023;Abid-Althaqafi et al., 2024). However, most existing models selected SN features using an approach based on reviewing previous studies. By using Machine Learning (ML) feature selection methods and training credibility assessment models of BSD based on automated labels, SN features can be selected according to the aforementioned criteria. Furthermore, SN users can produce credible content on their specialized and favorite topics (Abu-Salih et al., 2019a, 2019b;Dehghan et al., 2023;Khokhar et al., 2023). In other words, the credibility of the BSD depends on users' expertise (Abu-Salih et al., 2019a, 2019b;Assery et al., 2021;Dehghan et al., 2023;Khokhar et al., 2023). The use of heterogeneous resources and appropriate topic modeling algorithms enables accurate prediction of users' credibility based on their specialization. In contrast, most articles related to the credibility of BSD assessment have not focused on determining the topic of user activity or have used inappropriate methods (Abu-Salih et al., 2019a, 2019b). Finally, many methods of predicting the credibility of BSD are binary classifiers. These methods categorize BSD (users, content, events) as either credible or non-credible. Since binary classification methods provide limited information about the BSD, predicting the credibility of users with continuous values can provide useful information about each user.\n\nThis study highlights that organizations urgently need an assessment model for the credibility of SN users that can identify SN features based on various organizational objectives and the structure of the network. Additionally, this new model should be able to easily identify users' topics of activity based on the content they produce and assess the alignment of SN users with the organization. The model should be designed with a structured approach to ensure access to high-quality and up-to-date data, thereby enhancing the speed of decision-making. Therefore, this study aims to develop an adaptive and generalizable model to evaluate the credibility of SN users.\n\nBased on this, a proposed model called UCBD (Users' Credibility Based on Big Data Life Cycle) was presented. UCBD has predicted the credibility of Twitter/X users based on organizational objectives, especially the acquisition of human capital, since human capital is a vital process for an organization, and organizations compete with each other to obtain suitable human resources (Mahmoud et al., 2019). Achieving human capital in organizations increases profits and reduces costs (Mahmoud et al., 2019). Furthermore, organizations today need to hire ML specialists owing to the increase in data volume and technological advancements. ML engineers can transform large datasets into operational insights and intelligent decision-making (Jordan & Mitchell, 2015). Therefore, this study has considered the recruitment of human resources in the field of ML.\n\nAdditionally, UCBD addresses the research gap in previous studies by two heterogeneous sources, Twitter/X and GS, and applies the advantages of the BD lifecycle. Twitter/X is among the most popular SN, with two billion and 640 million users, including 328,271 million active monthly users (Alrubaian et al., 2018). One of the uses of Twitter/X in organizations is to acquire human capital (Villeda et al., 2019). Approximately 60% of job applicants use Twitter/X, and experienced users prefer Twitter/X to LinkedIn (Villeda et al., 2019). In addition, GS is a search engine that shares researchers' CVs (articles and scientific indexes). The proposed model uses GS for topic modeling and automatically labels the user credibility. Topic modeling of UCBD was performed using the BerTopic algorithm. UCBD selects the best Twitter/X features to evaluate the credibility of users for organizational objectives using Recursive Feature Elimination (RFE) and filtering methods. The proposed model was designed based on the lifecycle of BD and time parameters (Erl et al., 2016). This cycle addresses different needs, such as managing multiple unrelated datasets and time-sensitive information, including nine steps describing business case assessment, data identification, data collection and filtering, data mining, data validation and cleansing, data collection, data analysis, data visualization, and the use of analysis results (Erl et al., 2016). Finally, UCBD uses algorithms (Linear Regression (LR), Support Vector Regression (SVR), K Nearest Neighbor (KNN), Random Forest (RF), and Classification and Regression Trees (CART)) to predict the credibility of users on Twitter/X. Unlike similar models, this model predicts credibility using continuous values to distinguish between users.\n\nThe proposed model ranks the influential features of Twitter/X users based on predefined organizational objectives. These influential features are compared with features of existing models. In addition, the proposed model examines the personalities of credible users using the big five personality trait theory. The big five theory refers to the five-factor model of personality including: extraversion, agreeableness, conscientiousness, emotional stability, and openness to experience (, which is widely used in psychology to describe human personality traits (Maharani & Effendy, 2022In other words, the big five theory helps better understand the personality traits of credible users on SN, and ultimately, this understanding helps organizations make more intelligent decisions.\n\nLast, UCBD provides a suitable platform for evaluating the credibility of users in achieving human capital. The scientific contributions of this study are as follows:\n\ni. Combining heterogeneous resources to determine the credibility of users' dynamic labels, find Twitter/X expert users, and develop a model based on the organizations' objectives. ii. Analyzing high and fast volumes of data, organizing activities, and managing heterogeneous resources and time (adding the time parameter owing to the dynamic nature of the credibility of users) is possible using the BD lifecycle. iii. Owing to the integration of heterogeneous resources and feature selection methods, UCBD can evaluate the credibility of Twitter/ X users based on the various objectives of the organization. iv. UCBD has ranked the most impactful features in the field of user credibility evaluation for recruitment. v. Providing a model for predicting user credibility based on continuous values with accuracy equivalent to that of binary classification models.\n\nThe remainder of this paper is organized as follows: The next section examines the related work methods. Section 3 introduces the proposed UCBD model. Section 4 presents the model evaluation. Section 5 includes the interpretation of results, impacts and application, limitations, and future work. Section 6 presents the conclusions of this study.",
+      "text_with_footnotes": "Data from high volume, speed, and various social interactions based on technology Platforms are called Big Social Data (BSD) (Olshannikova et al., 2017). Social Network (SN) data are a type of BSD. Due to the anonymity of SN users, BSD serves as a source of users' opinions, experiences, and preferences (Peng et al., 2018). Therefore, BSD is crucial for decision-making in organizations, and the number of users on SN reflects their business values (Abu-Salih et al., 2019a, 2019b;Dehghan et al., 2023). Organizations utilize BSD to generate reports and predict goals like marketing and recruitment (Olshannikova et al., 2017;Villeda et al., 2019). For example, in many previous studies, an organization provided valuable insights into the audiences' needs and desires by analyzing BSD in SN. This information allows the organization to increase customer loyalty (Peng et al., 2018;Pir Mohammadiani et al., 2017). While the credibility of BSD offers numerous advantages for organizations, analyzing non-credible BSD can lead to serious issues (Alrubaian et al., 2018;Abu-Salih et al., 2019a, 2019b;Afify et al., 2019). The credibility of BSD is often ambiguous due to the anonymous nature of SN users. Therefore, some users spread misinformation and rumors (Alrubaian et al., 2018). If an organization analyzes BSD from non-credible users, it will obtain unreliable information that can lead to incorrect decision-making. In the above example, inaccurate information could result leading to the loss of loyal customers (Peng et al., 2018). Accordingly, the credibility of BSD is another significant factor in the decision-making process of organizations, reflecting the accuracy and value of BSD (Alrubaian et al., 2018;Abu-Salih et al., 2019a, 2019b).\n\nThe credibility of BSD can be evaluated at three levels: users, content, and events (Alrubaian et al., 2018). There is a positive correlation between the user level and other levels of credibility, implying that credible users typically provide credible content (Pir Mohammadiani & Mohammadi, 2017;Abbasimehr et al., 2020;Alrubaian et al., 2018;Morris et al., 2012). Therefore, the best option for evaluating the credibility of the BSD is to examine the credibility of users as information sources (Abbasimehr et al., 2020;Dehghan et al., 2023;Pir Mohammadiani et al., 2023). Consequently, the organization needs a model to evaluate the credibility of the SN users based on its objectives.\n\nExtensive research has been conducted on evaluating the credibility of BSD. These studies have developed models for evaluating the credibility of the BSD aimed at marketing, political analysis and natural events (Devi and Karthika, 2019;Evans et al., 2021;Khan and Michalas, 2021). However, BSD is also valuable for other organizational objectives. These models often overlook the dynamic nature of SN users, resulting in they do not provide organizations with up-to-date and high-quality BSD (Abu-Salih et al., 2019a, 2019b;Alkhamees et al., 2021;Diaz-Garcia et al., 2022). Therefore, BSD credibility evaluation models should be designed according to the Big Data (BD) lifecycle. The BD lifecycle offers a structured approach to manage dynamic data and heterogeneous sources (Erl et al., 2016). Therefore, this approach ensures continuous monitoring of user activities, provides organizations with up-to-date and credible BSD, and enhances organizational agility, and enables the integration of SN with other resources such as Google Scholar (GS) (Erl et al., 2016). This integration of heterogeneous resources facilitates the automatic creation of BSD credibility labels, unlike existing models where BSD credibility is manually labeled by human reviewers, requiring significant time and cost (Bhuiyan et al., 2021;Subramani et al., 2023).\n\nIn the digital world, credibility refers to a set of SN features that determine how trustworthy, reliable, and authoritative BSD is in the SN (Alrubaian et al., 2018). These features should be selected based on SN users' expertise, organizational objectives, and the structure of SN (Arora et al., 2019;Cano et al., 2014;Embar et al., 2015;Pasi et al., 2020;Thaher et al., 2021;Dehghan et al., 2023;Abid-Althaqafi et al., 2024). However, most existing models selected SN features using an approach based on reviewing previous studies. By using Machine Learning (ML) feature selection methods and training credibility assessment models of BSD based on automated labels, SN features can be selected according to the aforementioned criteria. Furthermore, SN users can produce credible content on their specialized and favorite topics (Abu-Salih et al., 2019a, 2019b;Dehghan et al., 2023;Khokhar et al., 2023). In other words, the credibility of the BSD depends on users' expertise (Abu-Salih et al., 2019a, 2019b;Assery et al., 2021;Dehghan et al., 2023;Khokhar et al., 2023). The use of heterogeneous resources and appropriate topic modeling algorithms enables accurate prediction of users' credibility based on their specialization. In contrast, most articles related to the credibility of BSD assessment have not focused on determining the topic of user activity or have used inappropriate methods (Abu-Salih et al., 2019a, 2019b). Finally, many methods of predicting the credibility of BSD are binary classifiers. These methods categorize BSD (users, content, events) as either credible or non-credible. Since binary classification methods provide limited information about the BSD, predicting the credibility of users with continuous values can provide useful information about each user.\n\nThis study highlights that organizations urgently need an assessment model for the credibility of SN users that can identify SN features based on various organizational objectives and the structure of the network. Additionally, this new model should be able to easily identify users' topics of activity based on the content they produce and assess the alignment of SN users with the organization. The model should be designed with a structured approach to ensure access to high-quality and up-to-date data, thereby enhancing the speed of decision-making. Therefore, this study aims to develop an adaptive and generalizable model to evaluate the credibility of SN users.\n\nBased on this, a proposed model called UCBD (Users' Credibility Based on Big Data Life Cycle) was presented. UCBD has predicted the credibility of Twitter/X users based on organizational objectives, especially the acquisition of human capital, since human capital is a vital process for an organization, and organizations compete with each other to obtain suitable human resources (Mahmoud et al., 2019). Achieving human capital in organizations increases profits and reduces costs (Mahmoud et al., 2019). Furthermore, organizations today need to hire ML specialists owing to the increase in data volume and technological advancements. ML engineers can transform large datasets into operational insights and intelligent decision-making (Jordan & Mitchell, 2015). Therefore, this study has considered the recruitment of human resources in the field of ML.\n\nAdditionally, UCBD addresses the research gap in previous studies by two heterogeneous sources, Twitter/X and GS, and applies the advantages of the BD lifecycle. Twitter/X is among the most popular SN, with two billion and 640 million users, including 328,271 million active monthly users (Alrubaian et al., 2018). One of the uses of Twitter/X in organizations is to acquire human capital (Villeda et al., 2019). Approximately 60% of job applicants use Twitter/X, and experienced users prefer Twitter/X to LinkedIn (Villeda et al., 2019). In addition, GS is a search engine that shares researchers' CVs (articles and scientific indexes). The proposed model uses GS for topic modeling and automatically labels the user credibility. Topic modeling of UCBD was performed using the BerTopic algorithm. UCBD selects the best Twitter/X features to evaluate the credibility of users for organizational objectives using Recursive Feature Elimination (RFE) and filtering methods. The proposed model was designed based on the lifecycle of BD and time parameters (Erl et al., 2016). This cycle addresses different needs, such as managing multiple unrelated datasets and time-sensitive information, including nine steps describing business case assessment, data identification, data collection and filtering, data mining, data validation and cleansing, data collection, data analysis, data visualization, and the use of analysis results (Erl et al., 2016). Finally, UCBD uses algorithms (Linear Regression (LR), Support Vector Regression (SVR), K Nearest Neighbor (KNN), Random Forest (RF), and Classification and Regression Trees (CART)) to predict the credibility of users on Twitter/X. Unlike similar models, this model predicts credibility using continuous values to distinguish between users.\n\nThe proposed model ranks the influential features of Twitter/X users based on predefined organizational objectives. These influential features are compared with features of existing models. In addition, the proposed model examines the personalities of credible users using the big five personality trait theory. The big five theory refers to the five-factor model of personality including: extraversion, agreeableness, conscientiousness, emotional stability, and openness to experience (, which is widely used in psychology to describe human personality traits (Maharani & Effendy, 2022In other words, the big five theory helps better understand the personality traits of credible users on SN, and ultimately, this understanding helps organizations make more intelligent decisions.\n\nLast, UCBD provides a suitable platform for evaluating the credibility of users in achieving human capital. The scientific contributions of this study are as follows:\n\ni. Combining heterogeneous resources to determine the credibility of users' dynamic labels, find Twitter/X expert users, and develop a model based on the organizations' objectives. ii. Analyzing high and fast volumes of data, organizing activities, and managing heterogeneous resources and time (adding the time parameter owing to the dynamic nature of the credibility of users) is possible using the BD lifecycle. iii. Owing to the integration of heterogeneous resources and feature selection methods, UCBD can evaluate the credibility of Twitter/ X users based on the various objectives of the organization. iv. UCBD has ranked the most impactful features in the field of user credibility evaluation for recruitment. v. Providing a model for predicting user credibility based on continuous values with accuracy equivalent to that of binary classification models.\n\nThe remainder of this paper is organized as follows: The next section examines the related work methods. Section 3 introduces the proposed UCBD model. Section 4 presents the model evaluation. Section 5 includes the interpretation of results, impacts and application, limitations, and future work. Section 6 presents the conclusions of this study.",
+      "preview_head": "Data from high volume, speed, and various social interactions based on technology Platforms are called Big Social Data (BSD) (Olshannikova et al., 2017). Social Network (SN) data are a type of BSD. Due to the anonymity of SN users, BSD serves as a source of users' opinions, experiences, and preferences (Peng et al., 2018).",
+      "preview_tail": "Section 4 presents the model evaluation. Section 5 includes the interpretation of results, impacts and application, limitations, and future work. Section 6 presents the conclusions of this study.",
+      "word_count": 1616,
+      "paragraph_count": 11,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Background",
+      "header_norm": "background",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The main goal of this paper is to evaluate the credibility of SN users based on organizational objectives. Therefore, this paper reviews the articles evaluating the credibility of BSD in SN (years 2012-2023), focusing on three levels i.e. users, events, and content. The articles evaluating the credibility of BSD used various methods to achieve their goals. Despite extensive research on evaluating BSD credibility, several significant research gaps remain. Firstly, many previous studies have not focused on assessing BSD credibility in alignment with various organizational objectives (Dehghan et al., 2023). This gap may result in credibility evaluation models that do not fully address the practical implications for organizations. Combining SN with the organization's relevant resources can help develop models for assessing the credibility of users based on various organizational objectives.",
+        "Secondly, most existing studies overlook the dynamic and transient nature of SN user interactions (Abu-Salih et al., 2019a, 2019b;Alkhamees et al., 2021;Diaz-Garcia et al., 2022;Dehghan et al., 2023). Therefore, evaluating the credibility of SN users requires continuous monitoring. In addition, due to the high volume and speed of BSD, it is impossible to analyze, process, and store this data on SN using traditional technologies and techniques (Erl et al., 2016;Abu-Salih et al., 2019a, 2019b;Alkhamees et al., 2021;Diaz-Garcia et al., 2022;Dehghan et al., 2023). Therefore, the attributes of BSD highlights the necessity of incorporating the BD lifecycle and the time parameter to manage the evolving nature of BSD effectively (Abu-Salih et al., 2019a, 2019b;Aguilera et al., 2023;Dehghan et al., 2023). The BD lifecycle offers a structured approach to manage dynamic data and heterogeneous sources, from collecting BSD to visualizing results. Therefore, the actions of SN users are regularly tracked and updated by this cycle. (Erl et al., 2016).",
+        "Another critical gap is the lack of attention to the contextual and domain-specific factors, that influence the credibility of users (Gupta et al., 2018;Arora et al., 2019;Cano et al., 2014;Embar et al., 2015;Pasi et al., 2020;Thaher et al., 2021). The credibility of SN users is defined by a set of features that are selected based on the organization's objectives (Pasi et al., 2019;Pasi et al., 2020;Dehghan et al., 2023). Therefore, the definition of a credible user can significantly vary across different domains, such as marketing, human resources, and politics (Pasi et al., 2020;Dehghan et al., 2023). Most existing studies have overlooked these differences and have selected SN features using an approach based on reviewing previous studies (Imran and Ahmad, 2023). Also, considering the aforementioned gap, the credibility of the BSD depends on user expertise (Abu-Salih et al., 2019a, 2019b;O'Brien et al., 2019;Setiawan et al., 2020;Dehghan et al., 2023;Khokhar et al., 2023) and owing to the limitations of an organization's field of activity, organizations need to identify the topic of SN users' activity before using and evaluating the credibility of BSD. Therefore, determining the topic of an activity is an important challenge in assessing the credibility of BSD, and its importance has been increased because of its organizational objectives (Khokhar et al., 2023). However, most articles related to BSD credibility assessment have not focused on determining the topic of user activity or have used inappropriate methods (Abu-Salih et al., 2019a, 2019b). These methods typically lack the ability to understand word meaning based on context and are not be suitable for all textual structures (short or long texts). Additionally, some of them require significant time and cost to determine the topic. Therefore, there is an urgent need for models that can identify SN features based on the specific objectives of organizations, using feature selection methods in ML. Also, for evaluating the credibility of SN users, the proposed models should employ topic modeling algorithms that are suitable for all textual structures and do not require human supervision for content topic determination, such as the BerTopic algorithm (Mottaghinia et al., 2021;Grootendorst, 2022). Therefore, it is possible to train a topic modeling algorithm by combining GS with SN, and use this model to identify users who are experts in the organization's desired topics. This heterogeneous mix of sources also help identify SN features based on the organization's objectives.",
+        "Additionally, the manual labeling of BSD credibility in many studies has led to inconsistencies and errors due to human intervention. This approach is not only time-consuming but also prone to subjective biases and also inadequate for emerging fields (Boididou et al., 2018;Bhuiyan et al., 2021;Subramani et al., 2023). In other words, there is a need for automated and objective methods that can accurately label and evaluate BSD credibility without the drawbacks of manual processes. Therefore, combining academic databases such as GS, which use objective metrics for user evaluation, with SN may potentially result in precise and automatic user credibility labeling.",
+        "Lastly, many methods for predicting the credibility of BSD are simply binary classifiers. These methods categorize BSD as either credible or non-credible in evaluating the credibility of users (Moradi and Chehreghani, 2023). Generally, despite achieving high accuracy, binary classification methods provide limited information about the BSD. Multi-classification methods have somewhat improved these approaches; however, they still overlook subtle differences between BSD within the same class. Therefore, predicting the credibility of users with continuous values can provide useful information about each user.",
+        "Table 1 examines these articles in the five mentioned dimensions. In general, a model for assessing the credibility of BSD based on organizational objectives has not yet been developed. In addition, insufficient attention has been paid to the five dimensions of evaluating the credibility of BSD: determination of the topic of user activity, SN feature selection, credibility labeling, importance to the BD lifecycle, and the time parameter. Therefore, the main goal of this study is to provide a new solution for evaluating the credibility of Twitter/X users based on organizational objectives, especially the acquisition of human capital. This study aims to fill the research gaps in the evaluation of BSD credibility in the five dimensions mentioned above. This study uses the combination of Twitter/X with GS to achieve its goals, and successfully manages heterogeneous resources with the help of the BD lifecycle. The following section introduces the proposed model."
+      ],
+      "footnotes": [],
+      "text": "The main goal of this paper is to evaluate the credibility of SN users based on organizational objectives. Therefore, this paper reviews the articles evaluating the credibility of BSD in SN (years 2012-2023), focusing on three levels i.e. users, events, and content. The articles evaluating the credibility of BSD used various methods to achieve their goals. Despite extensive research on evaluating BSD credibility, several significant research gaps remain. Firstly, many previous studies have not focused on assessing BSD credibility in alignment with various organizational objectives (Dehghan et al., 2023). This gap may result in credibility evaluation models that do not fully address the practical implications for organizations. Combining SN with the organization's relevant resources can help develop models for assessing the credibility of users based on various organizational objectives.\n\nSecondly, most existing studies overlook the dynamic and transient nature of SN user interactions (Abu-Salih et al., 2019a, 2019b;Alkhamees et al., 2021;Diaz-Garcia et al., 2022;Dehghan et al., 2023). Therefore, evaluating the credibility of SN users requires continuous monitoring. In addition, due to the high volume and speed of BSD, it is impossible to analyze, process, and store this data on SN using traditional technologies and techniques (Erl et al., 2016;Abu-Salih et al., 2019a, 2019b;Alkhamees et al., 2021;Diaz-Garcia et al., 2022;Dehghan et al., 2023). Therefore, the attributes of BSD highlights the necessity of incorporating the BD lifecycle and the time parameter to manage the evolving nature of BSD effectively (Abu-Salih et al., 2019a, 2019b;Aguilera et al., 2023;Dehghan et al., 2023). The BD lifecycle offers a structured approach to manage dynamic data and heterogeneous sources, from collecting BSD to visualizing results. Therefore, the actions of SN users are regularly tracked and updated by this cycle. (Erl et al., 2016).\n\nAnother critical gap is the lack of attention to the contextual and domain-specific factors, that influence the credibility of users (Gupta et al., 2018;Arora et al., 2019;Cano et al., 2014;Embar et al., 2015;Pasi et al., 2020;Thaher et al., 2021). The credibility of SN users is defined by a set of features that are selected based on the organization's objectives (Pasi et al., 2019;Pasi et al., 2020;Dehghan et al., 2023). Therefore, the definition of a credible user can significantly vary across different domains, such as marketing, human resources, and politics (Pasi et al., 2020;Dehghan et al., 2023). Most existing studies have overlooked these differences and have selected SN features using an approach based on reviewing previous studies (Imran and Ahmad, 2023). Also, considering the aforementioned gap, the credibility of the BSD depends on user expertise (Abu-Salih et al., 2019a, 2019b;O'Brien et al., 2019;Setiawan et al., 2020;Dehghan et al., 2023;Khokhar et al., 2023) and owing to the limitations of an organization's field of activity, organizations need to identify the topic of SN users' activity before using and evaluating the credibility of BSD. Therefore, determining the topic of an activity is an important challenge in assessing the credibility of BSD, and its importance has been increased because of its organizational objectives (Khokhar et al., 2023). However, most articles related to BSD credibility assessment have not focused on determining the topic of user activity or have used inappropriate methods (Abu-Salih et al., 2019a, 2019b). These methods typically lack the ability to understand word meaning based on context and are not be suitable for all textual structures (short or long texts). Additionally, some of them require significant time and cost to determine the topic. Therefore, there is an urgent need for models that can identify SN features based on the specific objectives of organizations, using feature selection methods in ML. Also, for evaluating the credibility of SN users, the proposed models should employ topic modeling algorithms that are suitable for all textual structures and do not require human supervision for content topic determination, such as the BerTopic algorithm (Mottaghinia et al., 2021;Grootendorst, 2022). Therefore, it is possible to train a topic modeling algorithm by combining GS with SN, and use this model to identify users who are experts in the organization's desired topics. This heterogeneous mix of sources also help identify SN features based on the organization's objectives.\n\nAdditionally, the manual labeling of BSD credibility in many studies has led to inconsistencies and errors due to human intervention. This approach is not only time-consuming but also prone to subjective biases and also inadequate for emerging fields (Boididou et al., 2018;Bhuiyan et al., 2021;Subramani et al., 2023). In other words, there is a need for automated and objective methods that can accurately label and evaluate BSD credibility without the drawbacks of manual processes. Therefore, combining academic databases such as GS, which use objective metrics for user evaluation, with SN may potentially result in precise and automatic user credibility labeling.\n\nLastly, many methods for predicting the credibility of BSD are simply binary classifiers. These methods categorize BSD as either credible or non-credible in evaluating the credibility of users (Moradi and Chehreghani, 2023). Generally, despite achieving high accuracy, binary classification methods provide limited information about the BSD. Multi-classification methods have somewhat improved these approaches; however, they still overlook subtle differences between BSD within the same class. Therefore, predicting the credibility of users with continuous values can provide useful information about each user.\n\nTable 1 examines these articles in the five mentioned dimensions. In general, a model for assessing the credibility of BSD based on organizational objectives has not yet been developed. In addition, insufficient attention has been paid to the five dimensions of evaluating the credibility of BSD: determination of the topic of user activity, SN feature selection, credibility labeling, importance to the BD lifecycle, and the time parameter. Therefore, the main goal of this study is to provide a new solution for evaluating the credibility of Twitter/X users based on organizational objectives, especially the acquisition of human capital. This study aims to fill the research gaps in the evaluation of BSD credibility in the five dimensions mentioned above. This study uses the combination of Twitter/X with GS to achieve its goals, and successfully manages heterogeneous resources with the help of the BD lifecycle. The following section introduces the proposed model.",
+      "text_with_footnotes": "The main goal of this paper is to evaluate the credibility of SN users based on organizational objectives. Therefore, this paper reviews the articles evaluating the credibility of BSD in SN (years 2012-2023), focusing on three levels i.e. users, events, and content. The articles evaluating the credibility of BSD used various methods to achieve their goals. Despite extensive research on evaluating BSD credibility, several significant research gaps remain. Firstly, many previous studies have not focused on assessing BSD credibility in alignment with various organizational objectives (Dehghan et al., 2023). This gap may result in credibility evaluation models that do not fully address the practical implications for organizations. Combining SN with the organization's relevant resources can help develop models for assessing the credibility of users based on various organizational objectives.\n\nSecondly, most existing studies overlook the dynamic and transient nature of SN user interactions (Abu-Salih et al., 2019a, 2019b;Alkhamees et al., 2021;Diaz-Garcia et al., 2022;Dehghan et al., 2023). Therefore, evaluating the credibility of SN users requires continuous monitoring. In addition, due to the high volume and speed of BSD, it is impossible to analyze, process, and store this data on SN using traditional technologies and techniques (Erl et al., 2016;Abu-Salih et al., 2019a, 2019b;Alkhamees et al., 2021;Diaz-Garcia et al., 2022;Dehghan et al., 2023). Therefore, the attributes of BSD highlights the necessity of incorporating the BD lifecycle and the time parameter to manage the evolving nature of BSD effectively (Abu-Salih et al., 2019a, 2019b;Aguilera et al., 2023;Dehghan et al., 2023). The BD lifecycle offers a structured approach to manage dynamic data and heterogeneous sources, from collecting BSD to visualizing results. Therefore, the actions of SN users are regularly tracked and updated by this cycle. (Erl et al., 2016).\n\nAnother critical gap is the lack of attention to the contextual and domain-specific factors, that influence the credibility of users (Gupta et al., 2018;Arora et al., 2019;Cano et al., 2014;Embar et al., 2015;Pasi et al., 2020;Thaher et al., 2021). The credibility of SN users is defined by a set of features that are selected based on the organization's objectives (Pasi et al., 2019;Pasi et al., 2020;Dehghan et al., 2023). Therefore, the definition of a credible user can significantly vary across different domains, such as marketing, human resources, and politics (Pasi et al., 2020;Dehghan et al., 2023). Most existing studies have overlooked these differences and have selected SN features using an approach based on reviewing previous studies (Imran and Ahmad, 2023). Also, considering the aforementioned gap, the credibility of the BSD depends on user expertise (Abu-Salih et al., 2019a, 2019b;O'Brien et al., 2019;Setiawan et al., 2020;Dehghan et al., 2023;Khokhar et al., 2023) and owing to the limitations of an organization's field of activity, organizations need to identify the topic of SN users' activity before using and evaluating the credibility of BSD. Therefore, determining the topic of an activity is an important challenge in assessing the credibility of BSD, and its importance has been increased because of its organizational objectives (Khokhar et al., 2023). However, most articles related to BSD credibility assessment have not focused on determining the topic of user activity or have used inappropriate methods (Abu-Salih et al., 2019a, 2019b). These methods typically lack the ability to understand word meaning based on context and are not be suitable for all textual structures (short or long texts). Additionally, some of them require significant time and cost to determine the topic. Therefore, there is an urgent need for models that can identify SN features based on the specific objectives of organizations, using feature selection methods in ML. Also, for evaluating the credibility of SN users, the proposed models should employ topic modeling algorithms that are suitable for all textual structures and do not require human supervision for content topic determination, such as the BerTopic algorithm (Mottaghinia et al., 2021;Grootendorst, 2022). Therefore, it is possible to train a topic modeling algorithm by combining GS with SN, and use this model to identify users who are experts in the organization's desired topics. This heterogeneous mix of sources also help identify SN features based on the organization's objectives.\n\nAdditionally, the manual labeling of BSD credibility in many studies has led to inconsistencies and errors due to human intervention. This approach is not only time-consuming but also prone to subjective biases and also inadequate for emerging fields (Boididou et al., 2018;Bhuiyan et al., 2021;Subramani et al., 2023). In other words, there is a need for automated and objective methods that can accurately label and evaluate BSD credibility without the drawbacks of manual processes. Therefore, combining academic databases such as GS, which use objective metrics for user evaluation, with SN may potentially result in precise and automatic user credibility labeling.\n\nLastly, many methods for predicting the credibility of BSD are simply binary classifiers. These methods categorize BSD as either credible or non-credible in evaluating the credibility of users (Moradi and Chehreghani, 2023). Generally, despite achieving high accuracy, binary classification methods provide limited information about the BSD. Multi-classification methods have somewhat improved these approaches; however, they still overlook subtle differences between BSD within the same class. Therefore, predicting the credibility of users with continuous values can provide useful information about each user.\n\nTable 1 examines these articles in the five mentioned dimensions. In general, a model for assessing the credibility of BSD based on organizational objectives has not yet been developed. In addition, insufficient attention has been paid to the five dimensions of evaluating the credibility of BSD: determination of the topic of user activity, SN feature selection, credibility labeling, importance to the BD lifecycle, and the time parameter. Therefore, the main goal of this study is to provide a new solution for evaluating the credibility of Twitter/X users based on organizational objectives, especially the acquisition of human capital. This study aims to fill the research gaps in the evaluation of BSD credibility in the five dimensions mentioned above. This study uses the combination of Twitter/X with GS to achieve its goals, and successfully manages heterogeneous resources with the help of the BD lifecycle. The following section introduces the proposed model.",
+      "preview_head": "The main goal of this paper is to evaluate the credibility of SN users based on organizational objectives. Therefore, this paper reviews the articles evaluating the credibility of BSD in SN (years 2012-2023), focusing on three levels i.e. users, events, and content. The articles evaluating the credibility of BSD used various methods to achieve their goals.",
+      "preview_tail": "Therefore, the main goal of this study is to provide a new solution for evaluating the credibility of Twitter/X users based on organizational objectives, especially the acquisition of human capital. This study aims to fill the research gaps in the evaluation of BSD credibility in the five dimensions mentioned above. This study uses the combination of Twitter/X with GS to achieve its goals, and successfully manages heterogeneous resources with the help of the BD lifecycle. The following section introduces the proposed model.",
+      "word_count": 1009,
+      "paragraph_count": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*background\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*background\\s*$",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Proposed UCBD model",
+      "header_norm": "proposed ucbd model",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The UCBD methodology is developed based on identifying specific needs from reviewing articles related to the field of BSD credibility assessment. These specific requirements are described as follows:",
+        "-Alignment with organizational objectives: the need for models that align BSD with the organization's objectives and strategies. -Applicability to various organizations: The model should be useable in organizations with different objectives and generate topic-based outputs.",
+        "-Adaptability to change: the need for models that can dynamically adapt to changes in user behavior and the SN environment. These models should be designed based on the BD life cycle to manage the high volume and dynamic nature of BSD effectively.",
+        "-Platform independence: The model should not depend on a specific platform and should be applicable across different SN.",
+        "The UCBD model, considering specific needs, focuses on two components: heterogeneous resources and the BD lifecycle in its development process. The purpose of these two components is to determine the topic of users' activities, select Twitter/X's most influential features basing on the purpose of evaluation, automatically determine the"
+      ],
+      "footnotes": [],
+      "text": "The UCBD methodology is developed based on identifying specific needs from reviewing articles related to the field of BSD credibility assessment. These specific requirements are described as follows:\n\n-Alignment with organizational objectives: the need for models that align BSD with the organization's objectives and strategies. -Applicability to various organizations: The model should be useable in organizations with different objectives and generate topic-based outputs.\n\n-Adaptability to change: the need for models that can dynamically adapt to changes in user behavior and the SN environment. These models should be designed based on the BD life cycle to manage the high volume and dynamic nature of BSD effectively.\n\n-Platform independence: The model should not depend on a specific platform and should be applicable across different SN.\n\nThe UCBD model, considering specific needs, focuses on two components: heterogeneous resources and the BD lifecycle in its development process. The purpose of these two components is to determine the topic of users' activities, select Twitter/X's most influential features basing on the purpose of evaluation, automatically determine the",
+      "text_with_footnotes": "The UCBD methodology is developed based on identifying specific needs from reviewing articles related to the field of BSD credibility assessment. These specific requirements are described as follows:\n\n-Alignment with organizational objectives: the need for models that align BSD with the organization's objectives and strategies. -Applicability to various organizations: The model should be useable in organizations with different objectives and generate topic-based outputs.\n\n-Adaptability to change: the need for models that can dynamically adapt to changes in user behavior and the SN environment. These models should be designed based on the BD life cycle to manage the high volume and dynamic nature of BSD effectively.\n\n-Platform independence: The model should not depend on a specific platform and should be applicable across different SN.\n\nThe UCBD model, considering specific needs, focuses on two components: heterogeneous resources and the BD lifecycle in its development process. The purpose of these two components is to determine the topic of users' activities, select Twitter/X's most influential features basing on the purpose of evaluation, automatically determine the",
+      "preview_head": "The UCBD methodology is developed based on identifying specific needs from reviewing articles related to the field of BSD credibility assessment. These specific requirements are described as follows:",
+      "preview_tail": "The UCBD model, considering specific needs, focuses on two components: heterogeneous resources and the BD lifecycle in its development process. The purpose of these two components is to determine the topic of users' activities, select Twitter/X's most influential features basing on the purpose of evaluation, automatically determine the",
+      "word_count": 171,
+      "paragraph_count": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the development and components of the UCBD model, focusing on the methodology"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Table 1",
+      "header_norm": "table 1",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Articles related to the credibility of BSD assessment. UCBD begins by determining the purpose of assessing the credibility of users since organizations use SN based on their objectives and their definition of credibility of users (Pasi et al., 2020;Abbasimehr et al., 2020). In other words, organizational objectives must be clearly defined before evaluating the credibility of its users, as these objectives are influential during the data identification and analysis stages (Erl et al., 2016;Pasi et al., 2020). Therefore, the definition of organizational objectives is one of the main stages of the BD life cycle (Erl et al., 2016).",
+        "The choice of internal or external resources for an organization depends on the business's scope and the nature of the problems (Erl et al., 2016). This study aims to evaluate the credibility of users for recruitment. Therefore, two external heterogeneous sources, GS and Twitter/X, are used in the second step. Nowadays, the younger generation explores jobs on Twitter/X. Professionals and the employed are also interested in working on this network (Villeda et al., 2019). Additionally, expert Twitter/X users are active in GS by publishing articles, and their credibility can be calculated by reviewing their CVs in GS (Hamzehei et al., 2019). GS trains topic modeling and determines user credibility labels. For this reason, 300 users with common user accounts on GS and Twitter/X who have articles or projects in ML have been selected. The following section explains the detailed data analysis process in the UCBD. Table 2 guides the symbols used in this study."
+      ],
+      "footnotes": [],
+      "text": "Articles related to the credibility of BSD assessment. UCBD begins by determining the purpose of assessing the credibility of users since organizations use SN based on their objectives and their definition of credibility of users (Pasi et al., 2020;Abbasimehr et al., 2020). In other words, organizational objectives must be clearly defined before evaluating the credibility of its users, as these objectives are influential during the data identification and analysis stages (Erl et al., 2016;Pasi et al., 2020). Therefore, the definition of organizational objectives is one of the main stages of the BD life cycle (Erl et al., 2016).\n\nThe choice of internal or external resources for an organization depends on the business's scope and the nature of the problems (Erl et al., 2016). This study aims to evaluate the credibility of users for recruitment. Therefore, two external heterogeneous sources, GS and Twitter/X, are used in the second step. Nowadays, the younger generation explores jobs on Twitter/X. Professionals and the employed are also interested in working on this network (Villeda et al., 2019). Additionally, expert Twitter/X users are active in GS by publishing articles, and their credibility can be calculated by reviewing their CVs in GS (Hamzehei et al., 2019). GS trains topic modeling and determines user credibility labels. For this reason, 300 users with common user accounts on GS and Twitter/X who have articles or projects in ML have been selected. The following section explains the detailed data analysis process in the UCBD. Table 2 guides the symbols used in this study.",
+      "text_with_footnotes": "Articles related to the credibility of BSD assessment. UCBD begins by determining the purpose of assessing the credibility of users since organizations use SN based on their objectives and their definition of credibility of users (Pasi et al., 2020;Abbasimehr et al., 2020). In other words, organizational objectives must be clearly defined before evaluating the credibility of its users, as these objectives are influential during the data identification and analysis stages (Erl et al., 2016;Pasi et al., 2020). Therefore, the definition of organizational objectives is one of the main stages of the BD life cycle (Erl et al., 2016).\n\nThe choice of internal or external resources for an organization depends on the business's scope and the nature of the problems (Erl et al., 2016). This study aims to evaluate the credibility of users for recruitment. Therefore, two external heterogeneous sources, GS and Twitter/X, are used in the second step. Nowadays, the younger generation explores jobs on Twitter/X. Professionals and the employed are also interested in working on this network (Villeda et al., 2019). Additionally, expert Twitter/X users are active in GS by publishing articles, and their credibility can be calculated by reviewing their CVs in GS (Hamzehei et al., 2019). GS trains topic modeling and determines user credibility labels. For this reason, 300 users with common user accounts on GS and Twitter/X who have articles or projects in ML have been selected. The following section explains the detailed data analysis process in the UCBD. Table 2 guides the symbols used in this study.",
+      "preview_head": "Articles related to the credibility of BSD assessment. UCBD begins by determining the purpose of assessing the credibility of users since organizations use SN based on their objectives and their definition of credibility of users (Pasi et al., 2020;Abbasimehr et al., 2020). In other words, organizational objectives must be clearly defined before evaluating the credibility of its users, as these objectives are influential during the data identification and analysis stages (Erl et al., 2016;Pasi et al., 2020).",
+      "preview_tail": "GS trains topic modeling and determines user credibility labels. For this reason, 300 users with common user accounts on GS and Twitter/X who have articles or projects in ML have been selected. The following section explains the detailed data analysis process in the UCBD. Table 2 guides the symbols used in this study.",
+      "word_count": 252,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section references prior articles and literature to frame the credibility assessment context"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "It also describes the initial steps of the UCBD process, including user selection and topic modeling"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.92,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Heterogeneous data analysis",
+      "header_norm": "heterogeneous data analysis",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Step seven is one of the most critical steps in this model. This step analyzes the merged Twitter/X and GS data in two layers outputting the creditability label of users and their credit prediction. Fig. 2 shows the complete description of this step."
+      ],
+      "footnotes": [],
+      "text": "Step seven is one of the most critical steps in this model. This step analyzes the merged Twitter/X and GS data in two layers outputting the creditability label of users and their credit prediction. Fig. 2 shows the complete description of this step.",
+      "text_with_footnotes": "Step seven is one of the most critical steps in this model. This step analyzes the merged Twitter/X and GS data in two layers outputting the creditability label of users and their credit prediction. Fig. 2 shows the complete description of this step.",
+      "preview_head": "Step seven is one of the most critical steps in this model. This step analyzes the merged Twitter/X and GS data in two layers outputting the creditability label of users and their credit prediction. Fig. 2 shows the complete description of this step.",
+      "preview_tail": "Step seven is one of the most critical steps in this model. This step analyzes the merged Twitter/X and GS data in two layers outputting the creditability label of users and their credit prediction. Fig. 2 shows the complete description of this step.",
+      "word_count": 43,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes a specific step in the model's process, focusing on data analysis and output generation"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Topic modeling of the GS layer",
+      "header_norm": "topic modeling of the gs layer",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This step trains the topic model with the BerTopic algorithm using articles related to ML in the GS. BerTopic replaced the word-of-bag with embedding text. Therefore, this algorithm clusters the abstracts of similar articles based on the order of words and their meanings (Grootendorst, 2022). Subsequently, it extracts the most essential keywords from each cluster using the class-based TF-IDF in Equation ( 1). The output of this model comprises three topics: Z ∈ {z 0 , z 1 , z 2 }, related to ML (clusters), which displays the keywords of these topics in Fig. 3. Afterward, this topic model predicts Twitter/X content topics."
+      ],
+      "footnotes": [],
+      "text": "This step trains the topic model with the BerTopic algorithm using articles related to ML in the GS. BerTopic replaced the word-of-bag with embedding text. Therefore, this algorithm clusters the abstracts of similar articles based on the order of words and their meanings (Grootendorst, 2022). Subsequently, it extracts the most essential keywords from each cluster using the class-based TF-IDF in Equation ( 1). The output of this model comprises three topics: Z ∈ {z 0 , z 1 , z 2 }, related to ML (clusters), which displays the keywords of these topics in Fig. 3. Afterward, this topic model predicts Twitter/X content topics.",
+      "text_with_footnotes": "This step trains the topic model with the BerTopic algorithm using articles related to ML in the GS. BerTopic replaced the word-of-bag with embedding text. Therefore, this algorithm clusters the abstracts of similar articles based on the order of words and their meanings (Grootendorst, 2022). Subsequently, it extracts the most essential keywords from each cluster using the class-based TF-IDF in Equation ( 1). The output of this model comprises three topics: Z ∈ {z 0 , z 1 , z 2 }, related to ML (clusters), which displays the keywords of these topics in Fig. 3. Afterward, this topic model predicts Twitter/X content topics.",
+      "preview_head": "This step trains the topic model with the BerTopic algorithm using articles related to ML in the GS. BerTopic replaced the word-of-bag with embedding text. Therefore, this algorithm clusters the abstracts of similar articles based on the order of words and their meanings (Grootendorst, 2022).",
+      "preview_tail": "Subsequently, it extracts the most essential keywords from each cluster using the class-based TF-IDF in Equation ( 1). The output of this model comprises three topics: Z ∈ {z 0 , z 1 , z 2 }, related to ML (clusters), which displays the keywords of these topics in Fig. 3. Afterward, this topic model predicts Twitter/X content topics.",
+      "word_count": 104,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*topic\\s+model"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*topic\\s+model",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Topic-based and generic features GS layer",
+      "header_norm": "topic based and generic features gs layer",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The features of the number of citations for users' articles and the H U were extracted to calculate users' credibility labels. H U is the best indicator for the scientific evaluation of researchers. This indicator shows the impact of users on the advancement of science and does not belong to a specific topic. Therefore, the H U is a generic feature. The number of references to an article with a particular topic (NC iz ) is also called the number of citations. The number of citations for an article is a topicbased feature."
+      ],
+      "footnotes": [],
+      "text": "The features of the number of citations for users' articles and the H U were extracted to calculate users' credibility labels. H U is the best indicator for the scientific evaluation of researchers. This indicator shows the impact of users on the advancement of science and does not belong to a specific topic. Therefore, the H U is a generic feature. The number of references to an article with a particular topic (NC iz ) is also called the number of citations. The number of citations for an article is a topicbased feature.",
+      "text_with_footnotes": "The features of the number of citations for users' articles and the H U were extracted to calculate users' credibility labels. H U is the best indicator for the scientific evaluation of researchers. This indicator shows the impact of users on the advancement of science and does not belong to a specific topic. Therefore, the H U is a generic feature. The number of references to an article with a particular topic (NC iz ) is also called the number of citations. The number of citations for an article is a topicbased feature.",
+      "preview_head": "The features of the number of citations for users' articles and the H U were extracted to calculate users' credibility labels. H U is the best indicator for the scientific evaluation of researchers. This indicator shows the impact of users on the advancement of science and does not belong to a specific topic.",
+      "preview_tail": "Therefore, the H U is a generic feature. The number of references to an article with a particular topic (NC iz ) is also called the number of citations. The number of citations for an article is a topicbased feature.",
+      "word_count": 93,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains feature extraction and calculation for credibility labels, detailing the process and data"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "The user credibility labels in the GS layer",
+      "header_norm": "the user credibility labels in the gs layer",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "An organization requires specific skills to acquire human capital. For example, an organization does not need all three ML-related topics equally. Therefore, the proposed model evaluates credibility of Twitter/ X users by prioritizing topics P = [α, β, δ]. AC ʹ GS,U calculated as follows:",
+        "-The range of citations in articles related to a topic indicates its popularity (RC ]). Therefore, each topic in this study has its range of citations (RC z i ), as displayed below. Hence, according to Equation (2), NC iz is normalized in the range [0-100].",
+        "-The number of citations for new articles is remarkable. Therefore, according to Equation (4), articles are prioritized (R k ) based on generation year (NC k i,z ). The highest priority is in 2019, and the lowest priority is in 2015. : 1, 2016 : 2, 2017 : 3, 2018 : 4, 2019 : 5} (3)"
+      ],
+      "footnotes": [],
+      "text": "An organization requires specific skills to acquire human capital. For example, an organization does not need all three ML-related topics equally. Therefore, the proposed model evaluates credibility of Twitter/ X users by prioritizing topics P = [α, β, δ]. AC ʹ GS,U calculated as follows:\n\n-The range of citations in articles related to a topic indicates its popularity (RC ]). Therefore, each topic in this study has its range of citations (RC z i ), as displayed below. Hence, according to Equation (2), NC iz is normalized in the range [0-100].\n\n-The number of citations for new articles is remarkable. Therefore, according to Equation (4), articles are prioritized (R k ) based on generation year (NC k i,z ). The highest priority is in 2019, and the lowest priority is in 2015. : 1, 2016 : 2, 2017 : 3, 2018 : 4, 2019 : 5} (3)",
+      "text_with_footnotes": "An organization requires specific skills to acquire human capital. For example, an organization does not need all three ML-related topics equally. Therefore, the proposed model evaluates credibility of Twitter/ X users by prioritizing topics P = [α, β, δ]. AC ʹ GS,U calculated as follows:\n\n-The range of citations in articles related to a topic indicates its popularity (RC ]). Therefore, each topic in this study has its range of citations (RC z i ), as displayed below. Hence, according to Equation (2), NC iz is normalized in the range [0-100].\n\n-The number of citations for new articles is remarkable. Therefore, according to Equation (4), articles are prioritized (R k ) based on generation year (NC k i,z ). The highest priority is in 2019, and the lowest priority is in 2015. : 1, 2016 : 2, 2017 : 3, 2018 : 4, 2019 : 5} (3)",
+      "preview_head": "An organization requires specific skills to acquire human capital. For example, an organization does not need all three ML-related topics equally. Therefore, the proposed model evaluates credibility of Twitter/ X users by prioritizing topics P = [α, β, δ]. AC ʹ GS,U calculated as follows:",
+      "preview_tail": "-The number of citations for new articles is remarkable. Therefore, according to Equation (4), articles are prioritized (R k ) based on generation year (NC k i,z ). The highest priority is in 2019, and the lowest priority is in 2015. : 1, 2016 : 2, 2017 : 3, 2018 : 4, 2019 : 5} (3)",
+      "word_count": 147,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how the model evaluates user credibility, including prioritization and calculation steps"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "R = {2015",
+      "header_norm": "r 2015",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "-Then, based on NA U,z , AC GS,U,z was calculated using Equation ( 5), and AC ʹ GS,U was calculated using Equation (6).",
+        "3.1.4. Determining the topic of the content in the Twitter/X layer Topics of users' activities and their levels of expertise are determined using the GS topic model. The BerTopic algorithm calculates the percentage similarity between three topics for each input content (profile, replies, and tweets). However, a tweet can only contain one topic because of its short length (Son et al., 2020). Therefore, the BerTopic selected only one topic with the highest similarity for each input content. The percentage similarity between topics and content indicates the level of user expertise. If the tweet has no similarity to the topics, it displays the number -1 as an output. Examples of these tweets are listed in Table 3."
+      ],
+      "footnotes": [],
+      "text": "-Then, based on NA U,z , AC GS,U,z was calculated using Equation ( 5), and AC ʹ GS,U was calculated using Equation (6).\n\n3.1.4. Determining the topic of the content in the Twitter/X layer Topics of users' activities and their levels of expertise are determined using the GS topic model. The BerTopic algorithm calculates the percentage similarity between three topics for each input content (profile, replies, and tweets). However, a tweet can only contain one topic because of its short length (Son et al., 2020). Therefore, the BerTopic selected only one topic with the highest similarity for each input content. The percentage similarity between topics and content indicates the level of user expertise. If the tweet has no similarity to the topics, it displays the number -1 as an output. Examples of these tweets are listed in Table 3.",
+      "text_with_footnotes": "-Then, based on NA U,z , AC GS,U,z was calculated using Equation ( 5), and AC ʹ GS,U was calculated using Equation (6).\n\n3.1.4. Determining the topic of the content in the Twitter/X layer Topics of users' activities and their levels of expertise are determined using the GS topic model. The BerTopic algorithm calculates the percentage similarity between three topics for each input content (profile, replies, and tweets). However, a tweet can only contain one topic because of its short length (Son et al., 2020). Therefore, the BerTopic selected only one topic with the highest similarity for each input content. The percentage similarity between topics and content indicates the level of user expertise. If the tweet has no similarity to the topics, it displays the number -1 as an output. Examples of these tweets are listed in Table 3.",
+      "preview_head": "-Then, based on NA U,z , AC GS,U,z was calculated using Equation ( 5), and AC ʹ GS,U was calculated using Equation (6).",
+      "preview_tail": "The percentage similarity between topics and content indicates the level of user expertise. If the tweet has no similarity to the topics, it displays the number -1 as an output. Examples of these tweets are listed in Table 3.",
+      "word_count": 139,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Continues the technical description of credibility calculation and similarity measures"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "The credibility of users in topic-based and generic features in the Twitter/X layer",
+      "header_norm": "the credibility of users in topic based and generic features in the twitter x layer",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The credibility of SN users can be evaluated by examining their SN features. SN features are not equally important (Bin Baharudin & Bin Md Said, 2018;Verma et al., 2022); some have no impact on the credibility field, and spam users can easily fake others, but it is almost impossible to fake many of them (Pasi et al., 2020).",
+        "According to the tables in Appendix A, Twitter/X features were divided into three groups: profiles, tweets, and replies. Typically, the features of the replies are less common (Yao et al., 2022). In general, 41 features were used in this study. Some of these features are generic; for example, the number of followers, whereas others are topic-based (F i,zj",
+        ") , or the number of tweets on each topic. According to Equation ( 7), the user score in F i,zj is based on dynamic P.",
+        "Time is another essential factor in evaluating features, which means that the credibility of users is maintained or increased over time (Abu-Salih, Wongthongtham, et al., 2019b). Therefore, according to Equation ( 8), new features are more valuable than old ones (Abu-Salih,"
+      ],
+      "footnotes": [],
+      "text": "The credibility of SN users can be evaluated by examining their SN features. SN features are not equally important (Bin Baharudin & Bin Md Said, 2018;Verma et al., 2022); some have no impact on the credibility field, and spam users can easily fake others, but it is almost impossible to fake many of them (Pasi et al., 2020).\n\nAccording to the tables in Appendix A, Twitter/X features were divided into three groups: profiles, tweets, and replies. Typically, the features of the replies are less common (Yao et al., 2022). In general, 41 features were used in this study. Some of these features are generic; for example, the number of followers, whereas others are topic-based (F i,zj\n\n) , or the number of tweets on each topic. According to Equation ( 7), the user score in F i,zj is based on dynamic P.\n\nTime is another essential factor in evaluating features, which means that the credibility of users is maintained or increased over time (Abu-Salih, Wongthongtham, et al., 2019b). Therefore, according to Equation ( 8), new features are more valuable than old ones (Abu-Salih,",
+      "text_with_footnotes": "The credibility of SN users can be evaluated by examining their SN features. SN features are not equally important (Bin Baharudin & Bin Md Said, 2018;Verma et al., 2022); some have no impact on the credibility field, and spam users can easily fake others, but it is almost impossible to fake many of them (Pasi et al., 2020).\n\nAccording to the tables in Appendix A, Twitter/X features were divided into three groups: profiles, tweets, and replies. Typically, the features of the replies are less common (Yao et al., 2022). In general, 41 features were used in this study. Some of these features are generic; for example, the number of followers, whereas others are topic-based (F i,zj\n\n) , or the number of tweets on each topic. According to Equation ( 7), the user score in F i,zj is based on dynamic P.\n\nTime is another essential factor in evaluating features, which means that the credibility of users is maintained or increased over time (Abu-Salih, Wongthongtham, et al., 2019b). Therefore, according to Equation ( 8), new features are more valuable than old ones (Abu-Salih,",
+      "preview_head": "The credibility of SN users can be evaluated by examining their SN features. SN features are not equally important (Bin Baharudin & Bin Md Said, 2018;Verma et al., 2022); some have no impact on the credibility field, and spam users can easily fake others, but it is almost impossible to fake many of them (Pasi et al., 2020).",
+      "preview_tail": "Time is another essential factor in evaluating features, which means that the credibility of users is maintained or increased over time (Abu-Salih, Wongthongtham, et al., 2019b). Therefore, according to Equation ( 8), new features are more valuable than old ones (Abu-Salih,",
+      "word_count": 183,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the evaluation of user credibility using features and time-based analysis"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Table 2",
+      "header_norm": "table 2",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Guides the symbols of this study. S. Dehghan et al. Computers in Human Behavior 162 (2025) 108428",
+        "Wongthongtham , et al., 2019b).",
+        "The purpose of this section is to determine effective features of Twitter/X in the field of evaluating the credibility of users for recruitment. Therefore, filter and RFE feature selection methods were used. The features of Twitter/X have different numerical ranges. For example, the maximum length of a tweet is 144 characters; however, a user can have more than 1000 followers. In this case, feature selection methods mistakenly select features with higher values as influential (Arora et al., 2019). Hence, according to Equation (9), the numerical range of the features (Fi) was normalized between [0-1].",
+        "3.1.6. Predicting the final credibility of Twitter/X users After extracting Twitter/X features, making them dynamic based on the time parameter, and prioritizing topics, the final credibility of users was predicted using algorithms (LR, KNN, SVR, CART, RF). According to Fig. 2, Twitter/X features are independent variables and AC ʹ GS,U is the dependent variable in these algorithms. Algorithms are used together with feature selection methods. Hence, the most effective features were used in this study to evaluate the credibility of the users."
+      ],
+      "footnotes": [],
+      "text": "Guides the symbols of this study. S. Dehghan et al. Computers in Human Behavior 162 (2025) 108428\n\nWongthongtham , et al., 2019b).\n\nThe purpose of this section is to determine effective features of Twitter/X in the field of evaluating the credibility of users for recruitment. Therefore, filter and RFE feature selection methods were used. The features of Twitter/X have different numerical ranges. For example, the maximum length of a tweet is 144 characters; however, a user can have more than 1000 followers. In this case, feature selection methods mistakenly select features with higher values as influential (Arora et al., 2019). Hence, according to Equation (9), the numerical range of the features (Fi) was normalized between [0-1].\n\n3.1.6. Predicting the final credibility of Twitter/X users After extracting Twitter/X features, making them dynamic based on the time parameter, and prioritizing topics, the final credibility of users was predicted using algorithms (LR, KNN, SVR, CART, RF). According to Fig. 2, Twitter/X features are independent variables and AC ʹ GS,U is the dependent variable in these algorithms. Algorithms are used together with feature selection methods. Hence, the most effective features were used in this study to evaluate the credibility of the users.",
+      "text_with_footnotes": "Guides the symbols of this study. S. Dehghan et al. Computers in Human Behavior 162 (2025) 108428\n\nWongthongtham , et al., 2019b).\n\nThe purpose of this section is to determine effective features of Twitter/X in the field of evaluating the credibility of users for recruitment. Therefore, filter and RFE feature selection methods were used. The features of Twitter/X have different numerical ranges. For example, the maximum length of a tweet is 144 characters; however, a user can have more than 1000 followers. In this case, feature selection methods mistakenly select features with higher values as influential (Arora et al., 2019). Hence, according to Equation (9), the numerical range of the features (Fi) was normalized between [0-1].\n\n3.1.6. Predicting the final credibility of Twitter/X users After extracting Twitter/X features, making them dynamic based on the time parameter, and prioritizing topics, the final credibility of users was predicted using algorithms (LR, KNN, SVR, CART, RF). According to Fig. 2, Twitter/X features are independent variables and AC ʹ GS,U is the dependent variable in these algorithms. Algorithms are used together with feature selection methods. Hence, the most effective features were used in this study to evaluate the credibility of the users.",
+      "preview_head": "Guides the symbols of this study. S. Dehghan et al. Computers in Human Behavior 162 (2025) 108428",
+      "preview_tail": "Predicting the final credibility of Twitter/X users After extracting Twitter/X features, making them dynamic based on the time parameter, and prioritizing topics, the final credibility of users was predicted using algorithms (LR, KNN, SVR, CART, RF). According to Fig. 2, Twitter/X features are independent variables and AC ʹ GS,U is the dependent variable in these algorithms. Algorithms are used together with feature selection methods. Hence, the most effective features were used in this study to evaluate the credibility of the users.",
+      "word_count": 198,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Presents a table of study symbols and describes the process for predicting final credibility"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Evaluation",
+      "header_norm": "evaluation",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The experiments in this paper contain three main evaluation tasks:",
+        "(1) Selecting the best algorithm for predicting users' credibility with continuous target values. (2) Comparing the model with other models to predict the credibility of users with continuous target values. (3) Comparing the model with other models to predict the credibility of users with multi-classification.",
+        "These experiments compared training data versus data testing, with a composition of 70:30, and three-fold cross-validation for result verification. The priority coefficient of equal topics (δ = β = α) is considered in the evaluation phase."
+      ],
+      "footnotes": [],
+      "text": "The experiments in this paper contain three main evaluation tasks:\n\n(1) Selecting the best algorithm for predicting users' credibility with continuous target values. (2) Comparing the model with other models to predict the credibility of users with continuous target values. (3) Comparing the model with other models to predict the credibility of users with multi-classification.\n\nThese experiments compared training data versus data testing, with a composition of 70:30, and three-fold cross-validation for result verification. The priority coefficient of equal topics (δ = β = α) is considered in the evaluation phase.",
+      "text_with_footnotes": "The experiments in this paper contain three main evaluation tasks:\n\n(1) Selecting the best algorithm for predicting users' credibility with continuous target values. (2) Comparing the model with other models to predict the credibility of users with continuous target values. (3) Comparing the model with other models to predict the credibility of users with multi-classification.\n\nThese experiments compared training data versus data testing, with a composition of 70:30, and three-fold cross-validation for result verification. The priority coefficient of equal topics (δ = β = α) is considered in the evaluation phase.",
+      "preview_head": "The experiments in this paper contain three main evaluation tasks:",
+      "preview_tail": "These experiments compared training data versus data testing, with a composition of 70:30, and three-fold cross-validation for result verification. The priority coefficient of equal topics (δ = β = α) is considered in the evaluation phase.",
+      "word_count": 91,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the experimental evaluation tasks, data splits, and validation approach"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Datasets",
+      "header_norm": "datasets",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Two datasets from GS and Twitter/X have been compiled for this article. These datasets are for five years . To prepare this dataset, a list of well-known conferences and journals in ML was compiled. Articles with the highest number of citations from these journals and conferences were selected. Then, a human supervisor checked the authors' accounts of these articles on GS and Twitter/X. Finally, 350 users were identified with both GS and Twitter/X accounts. GS dataset includes users' H U and articles' information, such as their generation date, number of citations, titles and abstracts. The study shows that H U , the number of citations and the generation year of articles indicate the credibility of users, which should also be determined on Twitter/X. Following the metadata GS, 300 user subscribers are selected with Twitter/X. These users have been interacting with others every year by tweeting and responding. Finally, after extracting the features of the two datasets and merging them, the number of users with the K-MEANS SMOTE method increased to 1052."
+      ],
+      "footnotes": [],
+      "text": "Two datasets from GS and Twitter/X have been compiled for this article. These datasets are for five years . To prepare this dataset, a list of well-known conferences and journals in ML was compiled. Articles with the highest number of citations from these journals and conferences were selected. Then, a human supervisor checked the authors' accounts of these articles on GS and Twitter/X. Finally, 350 users were identified with both GS and Twitter/X accounts. GS dataset includes users' H U and articles' information, such as their generation date, number of citations, titles and abstracts. The study shows that H U , the number of citations and the generation year of articles indicate the credibility of users, which should also be determined on Twitter/X. Following the metadata GS, 300 user subscribers are selected with Twitter/X. These users have been interacting with others every year by tweeting and responding. Finally, after extracting the features of the two datasets and merging them, the number of users with the K-MEANS SMOTE method increased to 1052.",
+      "text_with_footnotes": "Two datasets from GS and Twitter/X have been compiled for this article. These datasets are for five years . To prepare this dataset, a list of well-known conferences and journals in ML was compiled. Articles with the highest number of citations from these journals and conferences were selected. Then, a human supervisor checked the authors' accounts of these articles on GS and Twitter/X. Finally, 350 users were identified with both GS and Twitter/X accounts. GS dataset includes users' H U and articles' information, such as their generation date, number of citations, titles and abstracts. The study shows that H U , the number of citations and the generation year of articles indicate the credibility of users, which should also be determined on Twitter/X. Following the metadata GS, 300 user subscribers are selected with Twitter/X. These users have been interacting with others every year by tweeting and responding. Finally, after extracting the features of the two datasets and merging them, the number of users with the K-MEANS SMOTE method increased to 1052.",
+      "preview_head": "Two datasets from GS and Twitter/X have been compiled for this article. These datasets are for five years . To prepare this dataset, a list of well-known conferences and journals in ML was compiled. Articles with the highest number of citations from these journals and conferences were selected. Then, a human supervisor checked the authors' accounts of these articles on GS and Twitter/X.",
+      "preview_tail": "Following the metadata GS, 300 user subscribers are selected with Twitter/X. These users have been interacting with others every year by tweeting and responding. Finally, after extracting the features of the two datasets and merging them, the number of users with the K-MEANS SMOTE method increased to 1052.",
+      "word_count": 171,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the datasets used, including collection, selection, and feature extraction"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Selection of the best algorithm for UCBD",
+      "header_norm": "selection of the best algorithm for ucbd",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "First, the UCBD selects the best algorithm from among the most common algorithms for predicting the credibility of users on Twitter/X (LR, KNN, SVR, CART, RF). These algorithms use the filter and RFE methods to select and weigh the features of Twitter/X. These weights reflect the impact of features. According to Equations ( 10)-( 13), each model is evaluated on four main metrics, including R-squared scores (R 2 ), Mean Absolute Error (MAE), Mean Squared Errors (MSE), and Root Mean Square Error (RMSE). R 2 determines the proportion of variance in the dependent variable explained by the independent variable. Its value ranges from 0 to 1, with higher values indicating a better fit of the model to dataset, and other metrics show its error rate. These metrics are in the range [0-1]. A good model has the highest value in R 2 and the lowest in other metrics."
+      ],
+      "footnotes": [],
+      "text": "First, the UCBD selects the best algorithm from among the most common algorithms for predicting the credibility of users on Twitter/X (LR, KNN, SVR, CART, RF). These algorithms use the filter and RFE methods to select and weigh the features of Twitter/X. These weights reflect the impact of features. According to Equations ( 10)-( 13), each model is evaluated on four main metrics, including R-squared scores (R 2 ), Mean Absolute Error (MAE), Mean Squared Errors (MSE), and Root Mean Square Error (RMSE). R 2 determines the proportion of variance in the dependent variable explained by the independent variable. Its value ranges from 0 to 1, with higher values indicating a better fit of the model to dataset, and other metrics show its error rate. These metrics are in the range [0-1]. A good model has the highest value in R 2 and the lowest in other metrics.",
+      "text_with_footnotes": "First, the UCBD selects the best algorithm from among the most common algorithms for predicting the credibility of users on Twitter/X (LR, KNN, SVR, CART, RF). These algorithms use the filter and RFE methods to select and weigh the features of Twitter/X. These weights reflect the impact of features. According to Equations ( 10)-( 13), each model is evaluated on four main metrics, including R-squared scores (R 2 ), Mean Absolute Error (MAE), Mean Squared Errors (MSE), and Root Mean Square Error (RMSE). R 2 determines the proportion of variance in the dependent variable explained by the independent variable. Its value ranges from 0 to 1, with higher values indicating a better fit of the model to dataset, and other metrics show its error rate. These metrics are in the range [0-1]. A good model has the highest value in R 2 and the lowest in other metrics.",
+      "preview_head": "First, the UCBD selects the best algorithm from among the most common algorithms for predicting the credibility of users on Twitter/X (LR, KNN, SVR, CART, RF). These algorithms use the filter and RFE methods to select and weigh the features of Twitter/X. These weights reflect the impact of features.",
+      "preview_tail": "Its value ranges from 0 to 1, with higher values indicating a better fit of the model to dataset, and other metrics show its error rate. These metrics are in the range [0-1]. A good model has the highest value in R 2 and the lowest in other metrics.",
+      "word_count": 148,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the selection of algorithms and feature weighting for the UCBD model"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Table 3",
+      "header_norm": "table 3",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "A sample of tweets and their topics.",
+        "Fig. 4 shows the evaluation metrics and the number of selected features for each of the algorithms. Each algorithm improves its performance by selecting the correct set of Twitter/X features. According to Fig. 4, CART with R2, 82%, and RF with R2, 80%, are the best algorithms of the UCBD model. They have selected many features compared to LR and SVR. However, selecting many Twitter/X features does not improve the performance of algorithms. Because KNN (27 features) has less accuracy than LR (7 features) and SVR (8 features). Therefore, selecting the right features and algorithm is the foundation of the credibility of users evaluation model.",
+        "Fig. 5 and the tables in Appendix B illustrate the influence of UCBD features in hiring ML experts. The influence of these features in UCBD is compared with previous models. The usage count of features in previous models is calculated and normalized within the range [0-1]. This normalized value depicts the impact of features in the previous models. Features M 17 , M 6 , P 14 , P 10 , and M 10 have the highest impact in the UCBD model, whereas P 1 has no impact. In contrast, the most influential features in previous models are P 1 , M 4 , M 2 , M 9 , and M 13 , with M 17 being the least impactful feature. Therefore, review-based methods are not appropriate for selecting features regarding the credibility of users assessment. In addition, impactful features should be chosen based on the credibility definition within the organization."
+      ],
+      "footnotes": [],
+      "text": "A sample of tweets and their topics.\n\nFig. 4 shows the evaluation metrics and the number of selected features for each of the algorithms. Each algorithm improves its performance by selecting the correct set of Twitter/X features. According to Fig. 4, CART with R2, 82%, and RF with R2, 80%, are the best algorithms of the UCBD model. They have selected many features compared to LR and SVR. However, selecting many Twitter/X features does not improve the performance of algorithms. Because KNN (27 features) has less accuracy than LR (7 features) and SVR (8 features). Therefore, selecting the right features and algorithm is the foundation of the credibility of users evaluation model.\n\nFig. 5 and the tables in Appendix B illustrate the influence of UCBD features in hiring ML experts. The influence of these features in UCBD is compared with previous models. The usage count of features in previous models is calculated and normalized within the range [0-1]. This normalized value depicts the impact of features in the previous models. Features M 17 , M 6 , P 14 , P 10 , and M 10 have the highest impact in the UCBD model, whereas P 1 has no impact. In contrast, the most influential features in previous models are P 1 , M 4 , M 2 , M 9 , and M 13 , with M 17 being the least impactful feature. Therefore, review-based methods are not appropriate for selecting features regarding the credibility of users assessment. In addition, impactful features should be chosen based on the credibility definition within the organization.",
+      "text_with_footnotes": "A sample of tweets and their topics.\n\nFig. 4 shows the evaluation metrics and the number of selected features for each of the algorithms. Each algorithm improves its performance by selecting the correct set of Twitter/X features. According to Fig. 4, CART with R2, 82%, and RF with R2, 80%, are the best algorithms of the UCBD model. They have selected many features compared to LR and SVR. However, selecting many Twitter/X features does not improve the performance of algorithms. Because KNN (27 features) has less accuracy than LR (7 features) and SVR (8 features). Therefore, selecting the right features and algorithm is the foundation of the credibility of users evaluation model.\n\nFig. 5 and the tables in Appendix B illustrate the influence of UCBD features in hiring ML experts. The influence of these features in UCBD is compared with previous models. The usage count of features in previous models is calculated and normalized within the range [0-1]. This normalized value depicts the impact of features in the previous models. Features M 17 , M 6 , P 14 , P 10 , and M 10 have the highest impact in the UCBD model, whereas P 1 has no impact. In contrast, the most influential features in previous models are P 1 , M 4 , M 2 , M 9 , and M 13 , with M 17 being the least impactful feature. Therefore, review-based methods are not appropriate for selecting features regarding the credibility of users assessment. In addition, impactful features should be chosen based on the credibility definition within the organization.",
+      "preview_head": "A sample of tweets and their topics.",
+      "preview_tail": "In contrast, the most influential features in previous models are P 1 , M 4 , M 2 , M 9 , and M 13 , with M 17 being the least impactful feature. Therefore, review-based methods are not appropriate for selecting features regarding the credibility of users assessment. In addition, impactful features should be chosen based on the credibility definition within the organization.",
+      "word_count": 264,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Presents a table of tweets and topics, and discusses feature impact in the model"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Proposed UCBD model prediction results and comparisons",
+      "header_norm": "proposed ucbd model prediction results and comparisons",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The result of UCBD + CART has been compared with the previous five methods on the dataset of the current article: Wimbledon Championships model (WCM) (Embar et al., 2015), Iterative Trust Propagation Protocol for Twitter (ITPTwitter) (Zhao et al., 2016), Credibility Ranking of Users in Big Social Data incorporating Semantic Analysis and Temporal Factor (CredSaT) (Abu-Salih, Wongthongtham, et al., 2019b), Lasso (Arora et al., 2019) and Reputation-based (RB) (Alrubaian et al., 2017). Table 4 is a summary of them and UCBD + CART methods. All five methods approximate the credibility of users with continuous target value. However, the ultimate goal of CredSaT, ITPTwitter and RB is to predict the credibility class of the user. Therefore, CredSaT and RB have classified continuous target values by determining the threshold values. ITPTwitter predicts the credibility of users into two classes into two classes, credible and non-credible, using an SVM algorithm and graph-based algorithm."
+      ],
+      "footnotes": [],
+      "text": "The result of UCBD + CART has been compared with the previous five methods on the dataset of the current article: Wimbledon Championships model (WCM) (Embar et al., 2015), Iterative Trust Propagation Protocol for Twitter (ITPTwitter) (Zhao et al., 2016), Credibility Ranking of Users in Big Social Data incorporating Semantic Analysis and Temporal Factor (CredSaT) (Abu-Salih, Wongthongtham, et al., 2019b), Lasso (Arora et al., 2019) and Reputation-based (RB) (Alrubaian et al., 2017). Table 4 is a summary of them and UCBD + CART methods. All five methods approximate the credibility of users with continuous target value. However, the ultimate goal of CredSaT, ITPTwitter and RB is to predict the credibility class of the user. Therefore, CredSaT and RB have classified continuous target values by determining the threshold values. ITPTwitter predicts the credibility of users into two classes into two classes, credible and non-credible, using an SVM algorithm and graph-based algorithm.",
+      "text_with_footnotes": "The result of UCBD + CART has been compared with the previous five methods on the dataset of the current article: Wimbledon Championships model (WCM) (Embar et al., 2015), Iterative Trust Propagation Protocol for Twitter (ITPTwitter) (Zhao et al., 2016), Credibility Ranking of Users in Big Social Data incorporating Semantic Analysis and Temporal Factor (CredSaT) (Abu-Salih, Wongthongtham, et al., 2019b), Lasso (Arora et al., 2019) and Reputation-based (RB) (Alrubaian et al., 2017). Table 4 is a summary of them and UCBD + CART methods. All five methods approximate the credibility of users with continuous target value. However, the ultimate goal of CredSaT, ITPTwitter and RB is to predict the credibility class of the user. Therefore, CredSaT and RB have classified continuous target values by determining the threshold values. ITPTwitter predicts the credibility of users into two classes into two classes, credible and non-credible, using an SVM algorithm and graph-based algorithm.",
+      "preview_head": "The result of UCBD + CART has been compared with the previous five methods on the dataset of the current article: Wimbledon Championships model (WCM) (Embar et al., 2015), Iterative Trust Propagation Protocol for Twitter (ITPTwitter) (Zhao et al., 2016), Credibility Ranking of Users in Big Social Data incorporating Semantic Analysis and Temporal Factor (CredSaT) (Abu-Salih, Wongthongtham, et al., 2019b), Lasso (Arora et al., 2019) and Reputation-based (RB) (Alrubaian et al., 2017). Table 4 is a summary of them and UCBD + CART methods. All five methods approximate the credibility of users with continuous target value.",
+      "preview_tail": "However, the ultimate goal of CredSaT, ITPTwitter and RB is to predict the credibility class of the user. Therefore, CredSaT and RB have classified continuous target values by determining the threshold values. ITPTwitter predicts the credibility of users into two classes into two classes, credible and non-credible, using an SVM algorithm and graph-based algorithm.",
+      "word_count": 150,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the comparative results of the proposed UCBD + CART model against previous bas­"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the comparative results of the proposed UCBD + CART model against previous bas­"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Prediction of continuous target values",
+      "header_norm": "prediction of continuous target values",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "One of the goals of UCBD is to predict the continuous target values for each user. These values indicate the credibility of users. As a result, WCM, CredSaT, RB, Lasso, and UCBD + CART models should be evaluated using R 2 , MSE, MAE, and RMSE indicators before classifying users.",
+        "The evaluation results of the models are presented in Table 5. Based on R 2 , UCBD + CART selects the correct features to evaluate the credibility of users. In addition, according to the MSE, RMSE, and MAE metrics, the proposed model reduced the error rate. Thus, UCBD + CART outperformed the other models in all the metrics.",
+        "In the next part of the evaluation, the models were compared using the output of the categorical target values."
+      ],
+      "footnotes": [],
+      "text": "One of the goals of UCBD is to predict the continuous target values for each user. These values indicate the credibility of users. As a result, WCM, CredSaT, RB, Lasso, and UCBD + CART models should be evaluated using R 2 , MSE, MAE, and RMSE indicators before classifying users.\n\nThe evaluation results of the models are presented in Table 5. Based on R 2 , UCBD + CART selects the correct features to evaluate the credibility of users. In addition, according to the MSE, RMSE, and MAE metrics, the proposed model reduced the error rate. Thus, UCBD + CART outperformed the other models in all the metrics.\n\nIn the next part of the evaluation, the models were compared using the output of the categorical target values.",
+      "text_with_footnotes": "One of the goals of UCBD is to predict the continuous target values for each user. These values indicate the credibility of users. As a result, WCM, CredSaT, RB, Lasso, and UCBD + CART models should be evaluated using R 2 , MSE, MAE, and RMSE indicators before classifying users.\n\nThe evaluation results of the models are presented in Table 5. Based on R 2 , UCBD + CART selects the correct features to evaluate the credibility of users. In addition, according to the MSE, RMSE, and MAE metrics, the proposed model reduced the error rate. Thus, UCBD + CART outperformed the other models in all the metrics.\n\nIn the next part of the evaluation, the models were compared using the output of the categorical target values.",
+      "preview_head": "One of the goals of UCBD is to predict the continuous target values for each user. These values indicate the credibility of users. As a result, WCM, CredSaT, RB, Lasso, and UCBD + CART models should be evaluated using R 2 , MSE, MAE, and RMSE indicators before classifying users.",
+      "preview_tail": "In the next part of the evaluation, the models were compared using the output of the categorical target values.",
+      "word_count": 127,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes the evaluation of models using statistical indicators (R2, MSE, MAE, RMSE) to"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Prediction of categorical target values",
+      "header_norm": "prediction of categorical target values",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The performance of the models when classifying the credibility of users is also examined. The final step in the assessment is to use a scale as a measurement system to convert continuous target values into categorical target values. Thus, according to Equation ( 15), this article customized the scale systems of Abu Saleh et al. ( 2019b), which uses a 5level trustworthiness scale. Table 6 shows the five levels of trustworthiness determined by this method."
+      ],
+      "footnotes": [],
+      "text": "The performance of the models when classifying the credibility of users is also examined. The final step in the assessment is to use a scale as a measurement system to convert continuous target values into categorical target values. Thus, according to Equation ( 15), this article customized the scale systems of Abu Saleh et al. ( 2019b), which uses a 5level trustworthiness scale. Table 6 shows the five levels of trustworthiness determined by this method.",
+      "text_with_footnotes": "The performance of the models when classifying the credibility of users is also examined. The final step in the assessment is to use a scale as a measurement system to convert continuous target values into categorical target values. Thus, according to Equation ( 15), this article customized the scale systems of Abu Saleh et al. ( 2019b), which uses a 5level trustworthiness scale. Table 6 shows the five levels of trustworthiness determined by this method.",
+      "preview_head": "The performance of the models when classifying the credibility of users is also examined. The final step in the assessment is to use a scale as a measurement system to convert continuous target values into categorical target values. Thus, according to Equation ( 15), this article customized the scale systems of Abu Saleh et al. ( 2019b), which uses a 5level trustworthiness scale. Table 6 shows the five levels of trustworthiness determined by this method.",
+      "preview_tail": "The performance of the models when classifying the credibility of users is also examined. The final step in the assessment is to use a scale as a measurement system to convert continuous target values into categorical target values. Thus, according to Equation ( 15), this article customized the scale systems of Abu Saleh et al. ( 2019b), which uses a 5level trustworthiness scale. Table 6 shows the five levels of trustworthiness determined by this method.",
+      "word_count": 75,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the performance of models in classifying user credibility, focusing on the outc"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "AC ʹ",
+      "header_norm": "ac",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "T,U =",
+        ")) / ( max",
+        "Evaluation Metrics: The performance of finding the credibility of users for each method is measured based on the obtained Precision, Fig. 4. The evaluation of algorithms with and the number of selected features.",
+        "Recall, and F-score according to Equations ( 16)-( 18). The F-score is used to provide the trade-off between Precision and Recall. These evaluation metrics are between (-1, +1). They are calculated for each level, and the average is computed for each metric. Table 7 shows the performance of each model. It indicates that UCBD + CART outperforms other models in all metrics.",
+        "Fig. 5. The effect of features on the UCBD and the previous models."
+      ],
+      "footnotes": [],
+      "text": "T,U =\n\n)) / ( max\n\nEvaluation Metrics: The performance of finding the credibility of users for each method is measured based on the obtained Precision, Fig. 4. The evaluation of algorithms with and the number of selected features.\n\nRecall, and F-score according to Equations ( 16)-( 18). The F-score is used to provide the trade-off between Precision and Recall. These evaluation metrics are between (-1, +1). They are calculated for each level, and the average is computed for each metric. Table 7 shows the performance of each model. It indicates that UCBD + CART outperforms other models in all metrics.\n\nFig. 5. The effect of features on the UCBD and the previous models.",
+      "text_with_footnotes": "T,U =\n\n)) / ( max\n\nEvaluation Metrics: The performance of finding the credibility of users for each method is measured based on the obtained Precision, Fig. 4. The evaluation of algorithms with and the number of selected features.\n\nRecall, and F-score according to Equations ( 16)-( 18). The F-score is used to provide the trade-off between Precision and Recall. These evaluation metrics are between (-1, +1). They are calculated for each level, and the average is computed for each metric. Table 7 shows the performance of each model. It indicates that UCBD + CART outperforms other models in all metrics.\n\nFig. 5. The effect of features on the UCBD and the previous models.",
+      "preview_head": "T,U =",
+      "preview_tail": "Fig. 5. The effect of features on the UCBD and the previous models.",
+      "word_count": 114,
+      "paragraph_count": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section appears to present a formula or calculation (AC'), likely as part of the results repor"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Table 4",
+      "header_norm": "table 4",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The summary of WCM, ITPTwitter, CredSaT, Lasso, RB, and UCBD + CART methods."
+      ],
+      "footnotes": [],
+      "text": "The summary of WCM, ITPTwitter, CredSaT, Lasso, RB, and UCBD + CART methods.",
+      "text_with_footnotes": "The summary of WCM, ITPTwitter, CredSaT, Lasso, RB, and UCBD + CART methods.",
+      "preview_head": "The summary of WCM, ITPTwitter, CredSaT, Lasso, RB, and UCBD + CART methods.",
+      "preview_tail": "The summary of WCM, ITPTwitter, CredSaT, Lasso, RB, and UCBD + CART methods.",
+      "word_count": 13,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section summarizes the methods compared in the results, likely as a results table."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Table 5",
+      "header_norm": "table 5",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Comparison of UCBD + CART with other models when predicting continuous target values.",
+        "Table 7 shows the performance of each model. It indicates that UCBD + CART outperforms other models in all metrics using multiclassifications.",
+        "According to the organization's objectives of evaluating the credibility of users, reference source (GS), Twitter/X, and feature selection methods, the UCBD model focuses on prioritizing and selecting Twitter/ X features and labeling users credibility. While other models use a fixed set of features to evaluate the credibility of users, these features are not necessarily required, as shown in Fig. 5. Therefore, the UCBD model, as detailed in Tables 6 and 7, predicts the credibility of users with high accuracy for both continuous and categorical target values."
+      ],
+      "footnotes": [],
+      "text": "Comparison of UCBD + CART with other models when predicting continuous target values.\n\nTable 7 shows the performance of each model. It indicates that UCBD + CART outperforms other models in all metrics using multiclassifications.\n\nAccording to the organization's objectives of evaluating the credibility of users, reference source (GS), Twitter/X, and feature selection methods, the UCBD model focuses on prioritizing and selecting Twitter/ X features and labeling users credibility. While other models use a fixed set of features to evaluate the credibility of users, these features are not necessarily required, as shown in Fig. 5. Therefore, the UCBD model, as detailed in Tables 6 and 7, predicts the credibility of users with high accuracy for both continuous and categorical target values.",
+      "text_with_footnotes": "Comparison of UCBD + CART with other models when predicting continuous target values.\n\nTable 7 shows the performance of each model. It indicates that UCBD + CART outperforms other models in all metrics using multiclassifications.\n\nAccording to the organization's objectives of evaluating the credibility of users, reference source (GS), Twitter/X, and feature selection methods, the UCBD model focuses on prioritizing and selecting Twitter/ X features and labeling users credibility. While other models use a fixed set of features to evaluate the credibility of users, these features are not necessarily required, as shown in Fig. 5. Therefore, the UCBD model, as detailed in Tables 6 and 7, predicts the credibility of users with high accuracy for both continuous and categorical target values.",
+      "preview_head": "Comparison of UCBD + CART with other models when predicting continuous target values.",
+      "preview_tail": "According to the organization's objectives of evaluating the credibility of users, reference source (GS), Twitter/X, and feature selection methods, the UCBD model focuses on prioritizing and selecting Twitter/ X features and labeling users credibility. While other models use a fixed set of features to evaluate the credibility of users, these features are not necessarily required, as shown in Fig. 5. Therefore, the UCBD model, as detailed in Tables 6 and 7, predicts the credibility of users with high accuracy for both continuous and categorical target values.",
+      "word_count": 121,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents a table comparing model performance, which is a results reporting function."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "Discussion",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The evaluation of the credibility of SN users based on diverse organizational objectives brings numerous benefits to organizations (Abu-Salih et al., 2019a, 2019b). By adopting a strategic approach to assessing the credibility of users, organizations can effectively and efficiently harness the power of SN to achieve their diverse objectives. Despite numerous articles addressing the evaluation of the credibility of on SN, none have been developed based on diverse organizational objectives, and therefore each has its limitations. In contrast, the main goals of UCBD is to provide a credibility assessment model for SN users based on diverse organizational objectives. In the following, the results of the UCBD model are presented and compared with previous models to clearly highlight the advantages of UCB:",
+        "Predicting the Credibility of BSD: UCBD has accurately predicted the credibility of users with continuous target values at an accuracy of 0.82 through CART. It has also classified the credibility of users into five classes by determining threshold values at an accuracy of 0.90. Predicting the credibility of users with continuous target values clarifies and distinguishes differences between users more clearly. Therefore, predicting the credibility of users with continuous target values is more practical for organizational objectives. However, most previous models have focused on the binary classification of BSD, dividing them into credible and non-credible. The previous models do not provide extensive information about BSD. Among these, only a few models have addressed credibility prediction through multi-classification or continuous values. Several of these methods have been evaluated, with UCBD + CART demonstrating better performance across all metrics.",
+        "Feature Selection Based on Organizational Objectives: SN features should be selected based on a specific context and domain. Therefore, the UCBD ranked 41 features of Twitter/X based on their impact on ML specialists. This is while most of the credibility of BSD evaluation papers have selected SN features based on a review of previous literature without considering importance of context. This study examines the personality traits of credible ML users based on importance UCBD features (Fig. 5), the correlation between Twitter/X features and the credibility of user (Appendix A) and the Big Five theory. As user credibility increases, their interest in a wide range of topics decreases (M 17 , r = -0.28). Additionally, these users tend to post more unique tweets (M 6 , r = 0.54) and have older accounts (P 14 , r = 0.179). This"
+      ],
+      "footnotes": [],
+      "text": "The evaluation of the credibility of SN users based on diverse organizational objectives brings numerous benefits to organizations (Abu-Salih et al., 2019a, 2019b). By adopting a strategic approach to assessing the credibility of users, organizations can effectively and efficiently harness the power of SN to achieve their diverse objectives. Despite numerous articles addressing the evaluation of the credibility of on SN, none have been developed based on diverse organizational objectives, and therefore each has its limitations. In contrast, the main goals of UCBD is to provide a credibility assessment model for SN users based on diverse organizational objectives. In the following, the results of the UCBD model are presented and compared with previous models to clearly highlight the advantages of UCB:\n\nPredicting the Credibility of BSD: UCBD has accurately predicted the credibility of users with continuous target values at an accuracy of 0.82 through CART. It has also classified the credibility of users into five classes by determining threshold values at an accuracy of 0.90. Predicting the credibility of users with continuous target values clarifies and distinguishes differences between users more clearly. Therefore, predicting the credibility of users with continuous target values is more practical for organizational objectives. However, most previous models have focused on the binary classification of BSD, dividing them into credible and non-credible. The previous models do not provide extensive information about BSD. Among these, only a few models have addressed credibility prediction through multi-classification or continuous values. Several of these methods have been evaluated, with UCBD + CART demonstrating better performance across all metrics.\n\nFeature Selection Based on Organizational Objectives: SN features should be selected based on a specific context and domain. Therefore, the UCBD ranked 41 features of Twitter/X based on their impact on ML specialists. This is while most of the credibility of BSD evaluation papers have selected SN features based on a review of previous literature without considering importance of context. This study examines the personality traits of credible ML users based on importance UCBD features (Fig. 5), the correlation between Twitter/X features and the credibility of user (Appendix A) and the Big Five theory. As user credibility increases, their interest in a wide range of topics decreases (M 17 , r = -0.28). Additionally, these users tend to post more unique tweets (M 6 , r = 0.54) and have older accounts (P 14 , r = 0.179). This",
+      "text_with_footnotes": "The evaluation of the credibility of SN users based on diverse organizational objectives brings numerous benefits to organizations (Abu-Salih et al., 2019a, 2019b). By adopting a strategic approach to assessing the credibility of users, organizations can effectively and efficiently harness the power of SN to achieve their diverse objectives. Despite numerous articles addressing the evaluation of the credibility of on SN, none have been developed based on diverse organizational objectives, and therefore each has its limitations. In contrast, the main goals of UCBD is to provide a credibility assessment model for SN users based on diverse organizational objectives. In the following, the results of the UCBD model are presented and compared with previous models to clearly highlight the advantages of UCB:\n\nPredicting the Credibility of BSD: UCBD has accurately predicted the credibility of users with continuous target values at an accuracy of 0.82 through CART. It has also classified the credibility of users into five classes by determining threshold values at an accuracy of 0.90. Predicting the credibility of users with continuous target values clarifies and distinguishes differences between users more clearly. Therefore, predicting the credibility of users with continuous target values is more practical for organizational objectives. However, most previous models have focused on the binary classification of BSD, dividing them into credible and non-credible. The previous models do not provide extensive information about BSD. Among these, only a few models have addressed credibility prediction through multi-classification or continuous values. Several of these methods have been evaluated, with UCBD + CART demonstrating better performance across all metrics.\n\nFeature Selection Based on Organizational Objectives: SN features should be selected based on a specific context and domain. Therefore, the UCBD ranked 41 features of Twitter/X based on their impact on ML specialists. This is while most of the credibility of BSD evaluation papers have selected SN features based on a review of previous literature without considering importance of context. This study examines the personality traits of credible ML users based on importance UCBD features (Fig. 5), the correlation between Twitter/X features and the credibility of user (Appendix A) and the Big Five theory. As user credibility increases, their interest in a wide range of topics decreases (M 17 , r = -0.28). Additionally, these users tend to post more unique tweets (M 6 , r = 0.54) and have older accounts (P 14 , r = 0.179). This",
+      "preview_head": "The evaluation of the credibility of SN users based on diverse organizational objectives brings numerous benefits to organizations (Abu-Salih et al., 2019a, 2019b). By adopting a strategic approach to assessing the credibility of users, organizations can effectively and efficiently harness the power of SN to achieve their diverse objectives. Despite numerous articles addressing the evaluation of the credibility of on SN, none have been developed based on diverse organizational objectives, and therefore each has its limitations.",
+      "preview_tail": "As user credibility increases, their interest in a wide range of topics decreases (M 17 , r = -0.28). Additionally, these users tend to post more unique tweets (M 6 , r = 0.54) and have older accounts (P 14 , r = 0.179). This",
+      "word_count": 397,
+      "paragraph_count": 3,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*discussion\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*discussion\\s*$",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Table 6",
+      "header_norm": "table 6",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Five levels of trustworthiness. suggests they exhibit high levels of conscientiousness (Goldberg, 1993;Maharani & Effendy, 2022). Conscientious individuals are typically well-organized and act with precision (Goldberg, 1993). The positive correlation between M 6 and user credibility indicates that these users score high on the Openness to Experience dimension (Maharani & Effendy, 2022). Furthermore, the positive correlation between P 14 and the sentiments expressed in users' biographies (P 10 , r = 0.12) reflects their emotional stability (Goldberg, 1993). Therefore, credible ML users generally have good mental health. As a result, they spend less time on Twitter/X and prefer retweeting to tweeting (M 11 , r = 0.2) (Maharani & Effendy, 2022). They also do not tweet regularly (M 16 , r = -0.3) (Maharani & Effendy, 2022). Their low engagement with SN and the negative correlation of M 17 with the credibility of users indicate a lower score in the Extraversion dimension (Kosinski et al., 2013;Maharani & Effendy, 2022). This contrasts with previous studies that identified credible users as having a high number of followers (P 1 ), hashtags (M 15 ), and tweets (M 4 ), which reflect higher levels of Extraversion (Kosinski et al., 2013;Maharani & Effendy, 2022). This discrepancy arises from the dependence of users' personalities on the nature of their activities.",
+        "The Labeling of BSD's Credibility: Based on the evaluation results, UCBD has successfully created automatic credibility labels for users. This labeling saves time and costs while increasing accuracy. Also, UCBD can easily label the credibility of users on emerging topics without supervision. Previous models, except for Arora et al. (2019), have engaged in manual labeling of BSD at high costs and time expenditures. These models are constrained to these labels alone and cannot assess the credibility of BSD across other topics. Arora et al. (2019) utilized an existing site user credibility labeling; the methodology for creating labels, accuracy, and performance remain unclear on the site. Moreover, this site only specifies the credibility of users in the marketing domain and cannot be labeled across other subjects.",
+        "Determining User Activity Topics: UCBD has identified active users in the ML domain using the BerTopic algorithm and articles available in GS. This algorithm is suitable for any text structure (both short and long texts) and is readily available to everyone through its namesake Python library. In contrast, some have attempted to identify users' activity topics by examining hashtags. However, since most tweets lack hashtags, this approach is limited. Others have used inappropriate algorithms like LDA without considering the structure of SN, or they have utilized methods such as the Alchemy API, which are not easily accessible.",
+        "Continuous Monitoring of BSD: UCBD, by using the BD lifecycle and time parameters, continuously monitors user activities, which has led to improved data quality, better memory management, and increased organizational agility. Additionally, Abu-Salih, Wongthongtham, et al. (2019b) have also achieved continuous monitoring of user activities by combining BD lifecycle management with time parameters.",
+        "Therefore, UCBD is a unique model that has not been seen in the BSD credibility assessment. In addition to its primary objective, this proposed model effectively addresses existing research gaps in the field of BSD's credibility assessment. In the following, the impacts and applications of this proposed model will be examined."
+      ],
+      "footnotes": [],
+      "text": "Five levels of trustworthiness. suggests they exhibit high levels of conscientiousness (Goldberg, 1993;Maharani & Effendy, 2022). Conscientious individuals are typically well-organized and act with precision (Goldberg, 1993). The positive correlation between M 6 and user credibility indicates that these users score high on the Openness to Experience dimension (Maharani & Effendy, 2022). Furthermore, the positive correlation between P 14 and the sentiments expressed in users' biographies (P 10 , r = 0.12) reflects their emotional stability (Goldberg, 1993). Therefore, credible ML users generally have good mental health. As a result, they spend less time on Twitter/X and prefer retweeting to tweeting (M 11 , r = 0.2) (Maharani & Effendy, 2022). They also do not tweet regularly (M 16 , r = -0.3) (Maharani & Effendy, 2022). Their low engagement with SN and the negative correlation of M 17 with the credibility of users indicate a lower score in the Extraversion dimension (Kosinski et al., 2013;Maharani & Effendy, 2022). This contrasts with previous studies that identified credible users as having a high number of followers (P 1 ), hashtags (M 15 ), and tweets (M 4 ), which reflect higher levels of Extraversion (Kosinski et al., 2013;Maharani & Effendy, 2022). This discrepancy arises from the dependence of users' personalities on the nature of their activities.\n\nThe Labeling of BSD's Credibility: Based on the evaluation results, UCBD has successfully created automatic credibility labels for users. This labeling saves time and costs while increasing accuracy. Also, UCBD can easily label the credibility of users on emerging topics without supervision. Previous models, except for Arora et al. (2019), have engaged in manual labeling of BSD at high costs and time expenditures. These models are constrained to these labels alone and cannot assess the credibility of BSD across other topics. Arora et al. (2019) utilized an existing site user credibility labeling; the methodology for creating labels, accuracy, and performance remain unclear on the site. Moreover, this site only specifies the credibility of users in the marketing domain and cannot be labeled across other subjects.\n\nDetermining User Activity Topics: UCBD has identified active users in the ML domain using the BerTopic algorithm and articles available in GS. This algorithm is suitable for any text structure (both short and long texts) and is readily available to everyone through its namesake Python library. In contrast, some have attempted to identify users' activity topics by examining hashtags. However, since most tweets lack hashtags, this approach is limited. Others have used inappropriate algorithms like LDA without considering the structure of SN, or they have utilized methods such as the Alchemy API, which are not easily accessible.\n\nContinuous Monitoring of BSD: UCBD, by using the BD lifecycle and time parameters, continuously monitors user activities, which has led to improved data quality, better memory management, and increased organizational agility. Additionally, Abu-Salih, Wongthongtham, et al. (2019b) have also achieved continuous monitoring of user activities by combining BD lifecycle management with time parameters.\n\nTherefore, UCBD is a unique model that has not been seen in the BSD credibility assessment. In addition to its primary objective, this proposed model effectively addresses existing research gaps in the field of BSD's credibility assessment. In the following, the impacts and applications of this proposed model will be examined.",
+      "text_with_footnotes": "Five levels of trustworthiness. suggests they exhibit high levels of conscientiousness (Goldberg, 1993;Maharani & Effendy, 2022). Conscientious individuals are typically well-organized and act with precision (Goldberg, 1993). The positive correlation between M 6 and user credibility indicates that these users score high on the Openness to Experience dimension (Maharani & Effendy, 2022). Furthermore, the positive correlation between P 14 and the sentiments expressed in users' biographies (P 10 , r = 0.12) reflects their emotional stability (Goldberg, 1993). Therefore, credible ML users generally have good mental health. As a result, they spend less time on Twitter/X and prefer retweeting to tweeting (M 11 , r = 0.2) (Maharani & Effendy, 2022). They also do not tweet regularly (M 16 , r = -0.3) (Maharani & Effendy, 2022). Their low engagement with SN and the negative correlation of M 17 with the credibility of users indicate a lower score in the Extraversion dimension (Kosinski et al., 2013;Maharani & Effendy, 2022). This contrasts with previous studies that identified credible users as having a high number of followers (P 1 ), hashtags (M 15 ), and tweets (M 4 ), which reflect higher levels of Extraversion (Kosinski et al., 2013;Maharani & Effendy, 2022). This discrepancy arises from the dependence of users' personalities on the nature of their activities.\n\nThe Labeling of BSD's Credibility: Based on the evaluation results, UCBD has successfully created automatic credibility labels for users. This labeling saves time and costs while increasing accuracy. Also, UCBD can easily label the credibility of users on emerging topics without supervision. Previous models, except for Arora et al. (2019), have engaged in manual labeling of BSD at high costs and time expenditures. These models are constrained to these labels alone and cannot assess the credibility of BSD across other topics. Arora et al. (2019) utilized an existing site user credibility labeling; the methodology for creating labels, accuracy, and performance remain unclear on the site. Moreover, this site only specifies the credibility of users in the marketing domain and cannot be labeled across other subjects.\n\nDetermining User Activity Topics: UCBD has identified active users in the ML domain using the BerTopic algorithm and articles available in GS. This algorithm is suitable for any text structure (both short and long texts) and is readily available to everyone through its namesake Python library. In contrast, some have attempted to identify users' activity topics by examining hashtags. However, since most tweets lack hashtags, this approach is limited. Others have used inappropriate algorithms like LDA without considering the structure of SN, or they have utilized methods such as the Alchemy API, which are not easily accessible.\n\nContinuous Monitoring of BSD: UCBD, by using the BD lifecycle and time parameters, continuously monitors user activities, which has led to improved data quality, better memory management, and increased organizational agility. Additionally, Abu-Salih, Wongthongtham, et al. (2019b) have also achieved continuous monitoring of user activities by combining BD lifecycle management with time parameters.\n\nTherefore, UCBD is a unique model that has not been seen in the BSD credibility assessment. In addition to its primary objective, this proposed model effectively addresses existing research gaps in the field of BSD's credibility assessment. In the following, the impacts and applications of this proposed model will be examined.",
+      "preview_head": "Five levels of trustworthiness. suggests they exhibit high levels of conscientiousness (Goldberg, 1993;Maharani & Effendy, 2022). Conscientious individuals are typically well-organized and act with precision (Goldberg, 1993). The positive correlation between M 6 and user credibility indicates that these users score high on the Openness to Experience dimension (Maharani & Effendy, 2022).",
+      "preview_tail": "Therefore, UCBD is a unique model that has not been seen in the BSD credibility assessment. In addition to its primary objective, this proposed model effectively addresses existing research gaps in the field of BSD's credibility assessment. In the following, the impacts and applications of this proposed model will be examined.",
+      "word_count": 541,
+      "paragraph_count": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents a table and interprets the correlation between features and credibility, whic"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 24,
+      "depth": 0,
+      "header_raw": "Impacts and applications",
+      "header_norm": "impacts and applications",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "UCBD is not tied to any specific platforms. This model can utilize Scopus, Web of Science, or any similar site or source instead of GS. Even internal organizational resources with specific features can replace GS. Other SN can also be substituted with Twitter/X. This model can guide user activities in alignment with organizational objectives and strategies, leading to increased organizational efficiency and productivity. Additionally, flexibility in changing sources, automatic labeling, and feature selection based on specific domains and contexts have enabled UCBD to be applicable across organizations with diverse objectives. This model is designed based on the BD life cycle, allowing it to be updated and compatible with changes in user behavior and SN algorithms. Furthermore, leveraging this cycle, it manages BSD and stores only quality BSD. So, the use of BD in UCBD results in storage space optimization. Therefore, UCBD is an adaptable model. Here are some motivations highlighting the importance of developing UCBD based on organizational objectives:",
+        "-Alignment with Organizational Strategic Objectives: Evaluating the credibility of users allows organizations to ensure that the information shared by these individuals align with the organization's strategic objectives. This alignment helps improve the coherence of the organization's strategies (Pasi et al., 2020). -Maintaining and Enhancing Organizational Reputation: By monitoring the credibility of users, organizations can prevent the dissemination of incorrect or incomplete information that could damage the organization's reputation and public image (Peng et al., 2018). This evaluation helps to maintain and strengthen public trust in the organization. -Supporting Informed Decision-Making: Organizations improve their decision-making and policy-making processes by accessing content from credible users (Abu-Salih et al., 2019a, 2019b). -Identifying and Utilizing Valuable Resources: Evaluating the credibility of users helps organizations identify valuable and influential resources and leverage credible users' capabilities to achieve organizational objectives (Abu-Salih et al., 2019a, 2019b;Pasi et al., 2020).",
+        "Ultimately, UCBD support the organization's success and progress (Abu-Salih, Bremie, et al., 2019a)."
+      ],
+      "footnotes": [],
+      "text": "UCBD is not tied to any specific platforms. This model can utilize Scopus, Web of Science, or any similar site or source instead of GS. Even internal organizational resources with specific features can replace GS. Other SN can also be substituted with Twitter/X. This model can guide user activities in alignment with organizational objectives and strategies, leading to increased organizational efficiency and productivity. Additionally, flexibility in changing sources, automatic labeling, and feature selection based on specific domains and contexts have enabled UCBD to be applicable across organizations with diverse objectives. This model is designed based on the BD life cycle, allowing it to be updated and compatible with changes in user behavior and SN algorithms. Furthermore, leveraging this cycle, it manages BSD and stores only quality BSD. So, the use of BD in UCBD results in storage space optimization. Therefore, UCBD is an adaptable model. Here are some motivations highlighting the importance of developing UCBD based on organizational objectives:\n\n-Alignment with Organizational Strategic Objectives: Evaluating the credibility of users allows organizations to ensure that the information shared by these individuals align with the organization's strategic objectives. This alignment helps improve the coherence of the organization's strategies (Pasi et al., 2020). -Maintaining and Enhancing Organizational Reputation: By monitoring the credibility of users, organizations can prevent the dissemination of incorrect or incomplete information that could damage the organization's reputation and public image (Peng et al., 2018). This evaluation helps to maintain and strengthen public trust in the organization. -Supporting Informed Decision-Making: Organizations improve their decision-making and policy-making processes by accessing content from credible users (Abu-Salih et al., 2019a, 2019b). -Identifying and Utilizing Valuable Resources: Evaluating the credibility of users helps organizations identify valuable and influential resources and leverage credible users' capabilities to achieve organizational objectives (Abu-Salih et al., 2019a, 2019b;Pasi et al., 2020).\n\nUltimately, UCBD support the organization's success and progress (Abu-Salih, Bremie, et al., 2019a).",
+      "text_with_footnotes": "UCBD is not tied to any specific platforms. This model can utilize Scopus, Web of Science, or any similar site or source instead of GS. Even internal organizational resources with specific features can replace GS. Other SN can also be substituted with Twitter/X. This model can guide user activities in alignment with organizational objectives and strategies, leading to increased organizational efficiency and productivity. Additionally, flexibility in changing sources, automatic labeling, and feature selection based on specific domains and contexts have enabled UCBD to be applicable across organizations with diverse objectives. This model is designed based on the BD life cycle, allowing it to be updated and compatible with changes in user behavior and SN algorithms. Furthermore, leveraging this cycle, it manages BSD and stores only quality BSD. So, the use of BD in UCBD results in storage space optimization. Therefore, UCBD is an adaptable model. Here are some motivations highlighting the importance of developing UCBD based on organizational objectives:\n\n-Alignment with Organizational Strategic Objectives: Evaluating the credibility of users allows organizations to ensure that the information shared by these individuals align with the organization's strategic objectives. This alignment helps improve the coherence of the organization's strategies (Pasi et al., 2020). -Maintaining and Enhancing Organizational Reputation: By monitoring the credibility of users, organizations can prevent the dissemination of incorrect or incomplete information that could damage the organization's reputation and public image (Peng et al., 2018). This evaluation helps to maintain and strengthen public trust in the organization. -Supporting Informed Decision-Making: Organizations improve their decision-making and policy-making processes by accessing content from credible users (Abu-Salih et al., 2019a, 2019b). -Identifying and Utilizing Valuable Resources: Evaluating the credibility of users helps organizations identify valuable and influential resources and leverage credible users' capabilities to achieve organizational objectives (Abu-Salih et al., 2019a, 2019b;Pasi et al., 2020).\n\nUltimately, UCBD support the organization's success and progress (Abu-Salih, Bremie, et al., 2019a).",
+      "preview_head": "UCBD is not tied to any specific platforms. This model can utilize Scopus, Web of Science, or any similar site or source instead of GS. Even internal organizational resources with specific features can replace GS. Other SN can also be substituted with Twitter/X.",
+      "preview_tail": "Ultimately, UCBD support the organization's success and progress (Abu-Salih, Bremie, et al., 2019a).",
+      "word_count": 314,
+      "paragraph_count": 3,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the broader impacts and applications of the UCBD model, which is a discussi"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 25,
+      "depth": 0,
+      "header_raw": "Limitations",
+      "header_norm": "limitations",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Every study has its limitations. This study also has some shortcomings, as follows:",
+        "Bias: UCBD uses researchers' H U , the number of citations their articles receive, and the publication years of those articles to label the user credibility. This method has somewhat succeeded in reducing biases. However, these features are not entirely reliable because the number of citations can be influenced by various factors such as publication strategies, type of article (a review article or research paper), the reputation of researchers, and collaborators (Tahamtan et al., 2016). Also, not all relevant articles by a researcher may be published in GS, making the exact number of citations inaccurate (Tahamtan et al., 2016). Additionally, the number of citations is a quantitative measure, not qualitative. Hence, given these limitations, some users may be unfairly categorized as credible or non-credible.",
+        "Topic Modeling: The proposed UCBD model evaluated the credibility of users on ML-related topics. These topics were similar to each other. Unfortunately, UCBD ignores the similarity between topics. Users do not always openly express their skills on Twitter/X. Therefore, checking the similarity of topics and determining implicit topics of interest to users can improve the performance of this model in the future.",
+        "Overlooking the Relationships and Interactions between Users: The UCBD model does not consider the relationships and interactions among users. Therefore, in context such as marketing, where users are heavily engaged with social networks and strong connections exist between them, the model may unfairly classify some users as credible or non-credible.",
+        "Given the limitations mentioned, suggestions for future work are provided in the following section."
+      ],
+      "footnotes": [],
+      "text": "Every study has its limitations. This study also has some shortcomings, as follows:\n\nBias: UCBD uses researchers' H U , the number of citations their articles receive, and the publication years of those articles to label the user credibility. This method has somewhat succeeded in reducing biases. However, these features are not entirely reliable because the number of citations can be influenced by various factors such as publication strategies, type of article (a review article or research paper), the reputation of researchers, and collaborators (Tahamtan et al., 2016). Also, not all relevant articles by a researcher may be published in GS, making the exact number of citations inaccurate (Tahamtan et al., 2016). Additionally, the number of citations is a quantitative measure, not qualitative. Hence, given these limitations, some users may be unfairly categorized as credible or non-credible.\n\nTopic Modeling: The proposed UCBD model evaluated the credibility of users on ML-related topics. These topics were similar to each other. Unfortunately, UCBD ignores the similarity between topics. Users do not always openly express their skills on Twitter/X. Therefore, checking the similarity of topics and determining implicit topics of interest to users can improve the performance of this model in the future.\n\nOverlooking the Relationships and Interactions between Users: The UCBD model does not consider the relationships and interactions among users. Therefore, in context such as marketing, where users are heavily engaged with social networks and strong connections exist between them, the model may unfairly classify some users as credible or non-credible.\n\nGiven the limitations mentioned, suggestions for future work are provided in the following section.",
+      "text_with_footnotes": "Every study has its limitations. This study also has some shortcomings, as follows:\n\nBias: UCBD uses researchers' H U , the number of citations their articles receive, and the publication years of those articles to label the user credibility. This method has somewhat succeeded in reducing biases. However, these features are not entirely reliable because the number of citations can be influenced by various factors such as publication strategies, type of article (a review article or research paper), the reputation of researchers, and collaborators (Tahamtan et al., 2016). Also, not all relevant articles by a researcher may be published in GS, making the exact number of citations inaccurate (Tahamtan et al., 2016). Additionally, the number of citations is a quantitative measure, not qualitative. Hence, given these limitations, some users may be unfairly categorized as credible or non-credible.\n\nTopic Modeling: The proposed UCBD model evaluated the credibility of users on ML-related topics. These topics were similar to each other. Unfortunately, UCBD ignores the similarity between topics. Users do not always openly express their skills on Twitter/X. Therefore, checking the similarity of topics and determining implicit topics of interest to users can improve the performance of this model in the future.\n\nOverlooking the Relationships and Interactions between Users: The UCBD model does not consider the relationships and interactions among users. Therefore, in context such as marketing, where users are heavily engaged with social networks and strong connections exist between them, the model may unfairly classify some users as credible or non-credible.\n\nGiven the limitations mentioned, suggestions for future work are provided in the following section.",
+      "preview_head": "Every study has its limitations. This study also has some shortcomings, as follows:",
+      "preview_tail": "Given the limitations mentioned, suggestions for future work are provided in the following section.",
+      "word_count": 263,
+      "paragraph_count": 5,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*limitations?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*limitations?\\s*$",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 26,
+      "depth": 0,
+      "header_raw": "Future work",
+      "header_norm": "future work",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This section, considering the limitations of the proposed model and the findings of this study, offers suggestions for future work:",
+        "Combine Additional Factors with GS: In addition to the features available in GS, the credibility of authors can be evaluated by using other factors such as awards and recognitions of researchers, sentiment analysis of critics' comments, and assessing the quality of titles and abstracts of articles. Furthermore, leveraging clustering and graphbased algorithms can identify unusual citations and determine scientific leaders. These methods can help prevent bias in user credibility labeling.",
+        "Integrate Graph-Based Algorithms: Due to the strong relationships among users in certain domains, it is recommended that the credibility of users evaluation models be combined with graph-based algorithms.",
+        "Implement Across Multiple SN: To enhance the performance of these models in organizations, it is advisable to implement them simultaneously across multiple social networks.",
+        "Combine BERT with Recommendation Systems: Moreover, to assess the credibility of users on topics where they are not visibly active but are interested, combining BERT with recommendation systems is recommended.",
+        "In conclusion, addressing the limitations identified in this study and implementing the suggested improvements can significantly enhance the effectiveness and applicability of the proposed model. By doing so, researchers can achieve more accurate and comprehensive credibility assessments, which will contribute to the advancement of the field and provide valuable insights for organizations and practitioners."
+      ],
+      "footnotes": [],
+      "text": "This section, considering the limitations of the proposed model and the findings of this study, offers suggestions for future work:\n\nCombine Additional Factors with GS: In addition to the features available in GS, the credibility of authors can be evaluated by using other factors such as awards and recognitions of researchers, sentiment analysis of critics' comments, and assessing the quality of titles and abstracts of articles. Furthermore, leveraging clustering and graphbased algorithms can identify unusual citations and determine scientific leaders. These methods can help prevent bias in user credibility labeling.\n\nIntegrate Graph-Based Algorithms: Due to the strong relationships among users in certain domains, it is recommended that the credibility of users evaluation models be combined with graph-based algorithms.\n\nImplement Across Multiple SN: To enhance the performance of these models in organizations, it is advisable to implement them simultaneously across multiple social networks.\n\nCombine BERT with Recommendation Systems: Moreover, to assess the credibility of users on topics where they are not visibly active but are interested, combining BERT with recommendation systems is recommended.\n\nIn conclusion, addressing the limitations identified in this study and implementing the suggested improvements can significantly enhance the effectiveness and applicability of the proposed model. By doing so, researchers can achieve more accurate and comprehensive credibility assessments, which will contribute to the advancement of the field and provide valuable insights for organizations and practitioners.",
+      "text_with_footnotes": "This section, considering the limitations of the proposed model and the findings of this study, offers suggestions for future work:\n\nCombine Additional Factors with GS: In addition to the features available in GS, the credibility of authors can be evaluated by using other factors such as awards and recognitions of researchers, sentiment analysis of critics' comments, and assessing the quality of titles and abstracts of articles. Furthermore, leveraging clustering and graphbased algorithms can identify unusual citations and determine scientific leaders. These methods can help prevent bias in user credibility labeling.\n\nIntegrate Graph-Based Algorithms: Due to the strong relationships among users in certain domains, it is recommended that the credibility of users evaluation models be combined with graph-based algorithms.\n\nImplement Across Multiple SN: To enhance the performance of these models in organizations, it is advisable to implement them simultaneously across multiple social networks.\n\nCombine BERT with Recommendation Systems: Moreover, to assess the credibility of users on topics where they are not visibly active but are interested, combining BERT with recommendation systems is recommended.\n\nIn conclusion, addressing the limitations identified in this study and implementing the suggested improvements can significantly enhance the effectiveness and applicability of the proposed model. By doing so, researchers can achieve more accurate and comprehensive credibility assessments, which will contribute to the advancement of the field and provide valuable insights for organizations and practitioners.",
+      "preview_head": "This section, considering the limitations of the proposed model and the findings of this study, offers suggestions for future work:",
+      "preview_tail": "In conclusion, addressing the limitations identified in this study and implementing the suggested improvements can significantly enhance the effectiveness and applicability of the proposed model. By doing so, researchers can achieve more accurate and comprehensive credibility assessments, which will contribute to the advancement of the field and provide valuable insights for organizations and practitioners.",
+      "word_count": 226,
+      "paragraph_count": 6,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*future\\s+(research|work|di"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*future\\s+(research|work|di",
+      "major_label": "CONCLUSION"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 27,
+      "depth": 0,
+      "header_raw": "Conclusion",
+      "header_norm": "conclusion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This study presents a model called UCBD to evaluate the credibility of Twitter/X users. UCBD is developed based on the combination of two heterogeneous sources, Twitter/X and GS, according to the BD lifecycle. The scientific contributions of this study are as follows:",
+        "-UCBD automatically calculates the user credibility labels using features and GS articles. This method reduces errors and inconsistencies and enables the evaluation of user credibility based on organizational objectives and emerging topics. -Due to the use of GS articles and the BerTopic algorithm, UCBD can identify expert users in the organization's relevant fields. -UCBD, by using ML feature selection methods and leveraging the benefits of combining heterogeneous sources, can select and prioritize Twitter/X features for evaluating the credibility of users based on organizational objectives.",
+        "-This study analyzes the personalities of credible Twitter/X users in the organization's area of interest using ranked Twitter/X features and the big five theory. -UCBD, by utilizing the BD lifecycle, enables rapid analysis of high volumes of data, organization of activities, management of heterogeneous resources, and continuous monitoring of user activity. -UCBD not only predicts the credibility of users through multiclassification but also provides predictions of continuous target value. The accuracy of this model is even better than that of binary classification. -The structure of UCBD is designed to be platform-independent. GS and Twitter/X can be replaced with other scientific databases and SN easily.",
+        "Therefore, UCBD does not require predefined labels and easily adapts to various organizational objectives. UCBD is a flexible, adaptable, and generalizable model for evaluating the credibility of users based on organizational objectives, which has not been seen in the field of BSD evaluation. UCBD was implemented using five algorithms (LR, SVR, KNN, RF, and CART). UCBD + CART performed better than the other algorithms. The conducted experiments to evaluate this approach validate the applicability and effectiveness of determining credible users based on the organization's objectives in two modes: continuous values and multi-classification."
+      ],
+      "footnotes": [],
+      "text": "This study presents a model called UCBD to evaluate the credibility of Twitter/X users. UCBD is developed based on the combination of two heterogeneous sources, Twitter/X and GS, according to the BD lifecycle. The scientific contributions of this study are as follows:\n\n-UCBD automatically calculates the user credibility labels using features and GS articles. This method reduces errors and inconsistencies and enables the evaluation of user credibility based on organizational objectives and emerging topics. -Due to the use of GS articles and the BerTopic algorithm, UCBD can identify expert users in the organization's relevant fields. -UCBD, by using ML feature selection methods and leveraging the benefits of combining heterogeneous sources, can select and prioritize Twitter/X features for evaluating the credibility of users based on organizational objectives.\n\n-This study analyzes the personalities of credible Twitter/X users in the organization's area of interest using ranked Twitter/X features and the big five theory. -UCBD, by utilizing the BD lifecycle, enables rapid analysis of high volumes of data, organization of activities, management of heterogeneous resources, and continuous monitoring of user activity. -UCBD not only predicts the credibility of users through multiclassification but also provides predictions of continuous target value. The accuracy of this model is even better than that of binary classification. -The structure of UCBD is designed to be platform-independent. GS and Twitter/X can be replaced with other scientific databases and SN easily.\n\nTherefore, UCBD does not require predefined labels and easily adapts to various organizational objectives. UCBD is a flexible, adaptable, and generalizable model for evaluating the credibility of users based on organizational objectives, which has not been seen in the field of BSD evaluation. UCBD was implemented using five algorithms (LR, SVR, KNN, RF, and CART). UCBD + CART performed better than the other algorithms. The conducted experiments to evaluate this approach validate the applicability and effectiveness of determining credible users based on the organization's objectives in two modes: continuous values and multi-classification.",
+      "text_with_footnotes": "This study presents a model called UCBD to evaluate the credibility of Twitter/X users. UCBD is developed based on the combination of two heterogeneous sources, Twitter/X and GS, according to the BD lifecycle. The scientific contributions of this study are as follows:\n\n-UCBD automatically calculates the user credibility labels using features and GS articles. This method reduces errors and inconsistencies and enables the evaluation of user credibility based on organizational objectives and emerging topics. -Due to the use of GS articles and the BerTopic algorithm, UCBD can identify expert users in the organization's relevant fields. -UCBD, by using ML feature selection methods and leveraging the benefits of combining heterogeneous sources, can select and prioritize Twitter/X features for evaluating the credibility of users based on organizational objectives.\n\n-This study analyzes the personalities of credible Twitter/X users in the organization's area of interest using ranked Twitter/X features and the big five theory. -UCBD, by utilizing the BD lifecycle, enables rapid analysis of high volumes of data, organization of activities, management of heterogeneous resources, and continuous monitoring of user activity. -UCBD not only predicts the credibility of users through multiclassification but also provides predictions of continuous target value. The accuracy of this model is even better than that of binary classification. -The structure of UCBD is designed to be platform-independent. GS and Twitter/X can be replaced with other scientific databases and SN easily.\n\nTherefore, UCBD does not require predefined labels and easily adapts to various organizational objectives. UCBD is a flexible, adaptable, and generalizable model for evaluating the credibility of users based on organizational objectives, which has not been seen in the field of BSD evaluation. UCBD was implemented using five algorithms (LR, SVR, KNN, RF, and CART). UCBD + CART performed better than the other algorithms. The conducted experiments to evaluate this approach validate the applicability and effectiveness of determining credible users based on the organization's objectives in two modes: continuous values and multi-classification.",
+      "preview_head": "This study presents a model called UCBD to evaluate the credibility of Twitter/X users. UCBD is developed based on the combination of two heterogeneous sources, Twitter/X and GS, according to the BD lifecycle. The scientific contributions of this study are as follows:",
+      "preview_tail": "UCBD is a flexible, adaptable, and generalizable model for evaluating the credibility of users based on organizational objectives, which has not been seen in the field of BSD evaluation. UCBD was implemented using five algorithms (LR, SVR, KNN, RF, and CART). UCBD + CART performed better than the other algorithms. The conducted experiments to evaluate this approach validate the applicability and effectiveness of determining credible users based on the organization's objectives in two modes: continuous values and multi-classification.",
+      "word_count": 322,
+      "paragraph_count": 4,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*conclusion(s)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*conclusion(s)?\\s*$",
+      "major_label": "CONCLUSION"
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 28,
+      "depth": 0,
+      "header_raw": "CRediT authorship contribution statement",
+      "header_norm": "credit authorship contribution statement",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Dehghan et al. - 2025 - The credibility assessment of TwitterX users based organization objectives by heterogeneous resourc",
+      "sec_index": 29,
+      "depth": 0,
+      "header_raw": "Declaration of competing interest",
+      "header_norm": "declaration of competing interest",
+      "container_raw": "CRediT authorship contribution statement",
+      "container_norm": "credit authorship contribution statement",
+      "is_container": false,
+      "paragraphs": [
+        "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+      ],
+      "footnotes": [],
+      "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "text_with_footnotes": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "preview_head": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "preview_tail": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "word_count": 26,
+      "paragraph_count": 1,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard declaration of competing interest, not part of the main research content."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    }
+  ],
+  "stats": {
+    "total_sections": 29,
+    "content_sections": 28,
+    "total_words": 7318,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 29,
+    "by_source": {
+      "heuristic": 7,
+      "llm": 21,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section presents a mathematical equation and references a pipeline process, which are typical '"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section presents a mathematical equation and references a pipeline process, which are typical '"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section presents a mathematical equation and references a pipeline process, which are typical '"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section explicitly states it will present the results of sentiment analysis, describes findings,"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

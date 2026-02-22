@@ -1,0 +1,69 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, provides context about Taiwan and COVID-19, and outlines a"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens with the research context, introduces the problem, and provides a roadmap for the"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work and theoretical background on hashtag activism, citing multiple past"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides geopolitical and historical context, referencing prior events and literature, "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section continues to provide background and context, focusing on the history and politics of "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses existing theories, prior research, and situates the current study in relation"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

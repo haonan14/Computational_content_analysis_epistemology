@@ -1,0 +1,38 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section discusses theoretical concepts (frames, turning points) and heavily cites prior work (e."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "The end of the section begins to describe how the authors operationalize 'turning points' in their ("
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "The section describes the data source (Swedish Newspaper Corpus), its properties, and how it is used"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "There is some contextualization of the corpus and topic modeling in relation to prior work, but the "
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.8,
+          "reason": "The section frames the research context (rise of cryptocurrencies, Bitcoin usage), mentions prior/ob"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "The section includes several citations and references to prior work, indicating some literature back"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the construction of the user network, definition of edges, and operationalization of user "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the analysis and findings from the constructed community networks, including differentiation"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports application of the HITS algorithm, presents figures, and analyzes user behavior\u2014emphasizing "
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly references the methodological approach (HITS algorithm, network construction) as context for"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the qualitative context analysis performed by the authors, including data, c."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section introduces the findings from the topic modelling analysis, indicating it is focused on '"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section introduces the findings from the topic modelling analysis, indicating it is focused on '"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of the topic modelling (Table 1, topic coverage, etc.), focusing on"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings about the four tendencies in the use of 'mainstream' and discusses the "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive commentary about the implications for 'mainstream' as a boundary object, "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the findings, focusing on the normative positions and purposes of 'mainstrea"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reporting of patterns and shifts in the use of 'mainstream' (e.g., far-right media ini"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

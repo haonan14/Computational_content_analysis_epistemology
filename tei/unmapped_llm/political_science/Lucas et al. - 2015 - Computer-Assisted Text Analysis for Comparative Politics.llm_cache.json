@@ -1,0 +1,180 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes technical steps and considerations (dealing with text encodings) that the *an"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section details practical steps for handling text encodings, a preprocessing step in text data,,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section explains how to construct a document-term matrix, a core methodological step in text as,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section discusses language-specific preprocessing tools and steps, which are methodological det"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section describes translation as a preprocessing step, including tools and procedures for handl"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the transition from preprocessing to quantitative text analysis methods, out"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section provides a conceptual overview of supervised and unsupervised text analysis methods, wit"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section discusses practical and methodological issues in modeling multilingual text, focusing on"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the STM (Structural Topic Model), its methodological features, and how it is"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section introduces empirical applications of the STM, describing how the methods are applied to"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the data sources, coding, and setup for the Jihadi Fatwas application, focusing on how th"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Begins to report findings and patterns observed in the Jihadist texts, though the emphasis is still"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the data collection and setup for the Snowden case study, focusing on how the corpus was "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Includes some reporting of the corpus composition and initial findings, but the main focus is on th"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes and compares two methodological approaches to machine translation for text analysis, focu"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "This section interprets and discusses the implications of systematic translation differences for the"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "It also touches on methodological considerations for handling translation errors in comparative text"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

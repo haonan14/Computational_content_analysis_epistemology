@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, introduces the context (tech giants' inaction, African gov."
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, introduces the context (tech giants' inaction, African gov."
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

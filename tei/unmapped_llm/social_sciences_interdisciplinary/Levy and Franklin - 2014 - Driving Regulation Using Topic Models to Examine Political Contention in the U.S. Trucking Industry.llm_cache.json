@@ -1,0 +1,79 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on public participation in rulemaking, referencing legal frameworks"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews the legal and scholarly context for public participation in rulemaking, with a '"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section provides context and background for the electronic monitoring debate, referencing prior/"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section provides context and background for the electronic monitoring debate, referencing prior/"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the substantive findings from the topic modeling, describing the content and i"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about differences between stakeholder groups, based on the topic model"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "This section describes the procedures used to validate the topic model results, including splitting "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "The section also briefly reports the outcome of the validation procedures, but the main focus is on "
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

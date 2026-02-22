@@ -1,0 +1,72 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides an overview of prior research on big data analytics in public policy, citing a"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews the history and current state of research in the field, referencing publication"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports the results of a clustering analysis of publications into themes, describing the"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of what the themes mean for the field and the focus of research."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section presents and describes Figure 5, which visualizes the themes and term associations in t"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "The section includes some interpretation of the findings, such as the limited application of big dat"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.6,
+          "reason": "The section reports findings from a survey of universities and a content analysis of syllabi, focusi"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.4,
+          "reason": "There is interpretation of the findings, discussing the implications for pedagogy and identifying ga"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

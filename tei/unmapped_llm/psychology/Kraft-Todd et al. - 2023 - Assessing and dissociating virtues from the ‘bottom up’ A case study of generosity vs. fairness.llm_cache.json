@@ -1,0 +1,130 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work and theoretical background on generosity and fairness, citing other,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work and theoretical background on generosity and fairness, citing other,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "The section proposes a new method for dissociating virtues, describing the authors' approach and its"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "The section briefly references prior work (e.g., Tamir & Thornton, 2018) to motivate the method, but"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section presents exploratory analysis and data on participants' descriptions and language use,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some description of the approach to analyzing language, but the main focus is on reporting"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section describes the design and rationale for Study 2, including the features being measured,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reporting of what is being explored and the data being used, but the main focus is on"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section presents Table 1, which details the feature rating items and stimuli text used in Study"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section follows a results section and is likely to continue reporting findings, as indicated by"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section describes the design and rationale for Study 3, including the construction of vignettes"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reporting of what is being explored and the data being used, but the main focus is on"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section presents the motivational inference items and describes the multivariate regression"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reporting of the dependent measures and the analysis to be conducted, but the main"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

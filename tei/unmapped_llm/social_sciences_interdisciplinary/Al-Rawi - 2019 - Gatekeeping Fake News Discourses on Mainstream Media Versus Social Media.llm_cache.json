@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem (fake news credibility and virality on SNS vs MSM), cites a "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "While there are citations, the main function is to introduce the topic and frame the problem, not to"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

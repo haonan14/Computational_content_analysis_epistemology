@@ -1,0 +1,807 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the challenges users face in making security decisions, referencing prior and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews concepts of informal and incidental learning, citing prior literature and theory"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Focuses on prior studies and literature about how people learn about security, with dense citations"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' data collection process for interpersonal stories, including survey design, a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process of collecting a dataset of news articles, including selection criteria and dat"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the collection and curation of web pages for the study, including definitions and review"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes characteristics of the collected documents and the context of the datasets, focusing on d"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the temporal context and event-driven nature of the collected documents, relevant to the d"
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analytical approach (topic modeling) used to analyze the documents, including model "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the main findings from the topic modeling analysis, including the identification and promi"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the content and relevance of a specific topic (Phishing and Spam) identified in the resu"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents quantitative results (percentages, figure description) about the prevalence of topics in "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes the content and patterns found in the 'Data Breaches' topic as identified in,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes the content and patterns found in the 'Data Breaches' topic as identified in,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings about the 'Viruses and Malware' topic, reporting what was found"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the content and patterns found in the 'Hackers and Being Hacked' topic, based"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings about the 'Passwords and Encryption' topic, describing what was f"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the content and patterns found in the 'National Cybersecurity' topic, based on"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings about the 'Credit Card and Identity Theft' topic, describing what"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the content and patterns found in the 'Privacy and Online Safety' topic, based"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings about the 'Criminal Hacking' topic, describing what was found in t"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the content and patterns found in the 'Mobile Privacy and Security' topic, base"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about how topics are distributed across documents and sources, describ"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about the focus of topics within documents, describing patterns found "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about topic co-occurrence within documents, describing patterns found"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header refers to a specific theme ('Hackers and Being Hacked') likely representing a results"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Privacy and Online Safety') suggests reporting of findings on this theme, typical '"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Viruses and Malware') indicates a results subsection focused on this topic."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 33,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Criminal Hacking') suggests reporting of findings related to this theme."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Phishing and Spam') indicates a results subsection focused on this topic."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 38,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Credit Card and Identity Theft') suggests reporting of findings related to this sub"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 39,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Hackers and Being Hacked') again, likely a results subsection reporting findings on"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 40,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Privacy and Online Safety') again, likely a results subsection reporting findings o"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 41,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Viruses and Malware') again, likely a results subsection reporting findings on th"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 42,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Criminal Hacking') again, likely a results subsection reporting findings on this"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 43,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Passwords and Encryption Mobile Privacy and Security') suggests reporting of find"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 44,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header ('Phishing and Spam') again, likely a results subsection reporting findings on thi"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 46,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about topic co-occurrence in news articles, referencing specific data,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports findings about topic co-occurrence in news articles, referencing specific data ("
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about topic co-occurrence in news articles, referencing specific data,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 47,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section compares patterns in topic co-occurrence across sources, reporting specific findings (e"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 48,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header and context indicate this is a results subsection reporting findings about the 'Hacke"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 49,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header and context indicate this is a results subsection reporting findings about 'Privacy a"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 50,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header and context indicate this is a results subsection reporting findings about 'Viruses a"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 51,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header and context indicate this is a results subsection reporting findings about 'Criminal "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 54,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header and context indicate this is a results subsection reporting findings about 'Phishing "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 56,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about topic co-occurrence in education web pages, referencing Figure 7"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 57,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets and synthesizes the results, discussing similarities and differences in "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reference to findings, but the main function is interpretation and synthesis."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 58,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header and context indicate this is a results subsection reporting findings about 'Viruses a"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 60,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header and context indicate this is a results subsection reporting findings about 'Criminal "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 61,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header and context indicate this is a results subsection reporting findings about 'National "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 63,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section header ('Hackers and Being Hacked') and its position within the paper (after methods, ~"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section header ('Hackers and Being Hacked') and its position within the paper (after methods, ~"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 64,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "'News' is a topical results section, likely reporting findings about news sources in the dataset. It"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 65,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "'Stories' is a results subsection, likely reporting findings about the stories in the dataset. It is"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 66,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "'Card and Identity Theft' is a topical results section, likely reporting findings about this theme"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 67,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "'Privacy and Online Safety' is a results subsection, likely reporting findings about this theme in"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 69,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section ('Phishing and Spam') is a results subsection, reporting findings about this topic, as"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 71,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section ('Communication between experts versus everyday computer users') interprets the meaning"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 72,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "'Common attacks are important but mundane' is a discussion section, interpreting the significance"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 73,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "'Informal and incidental learning about security' is a discussion section, interpreting the results"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 76,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "'STORY460:' is a direct report of a qualitative finding (an example story from the data), which is"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 77,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "'STORY377:' is a direct report of a qualitative finding (an example story from the data), which is"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 78,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "'STORY344:' is a direct report of a qualitative finding (an example story from the data), which is"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 80,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section presents a news excerpt labeled 'NEWS236', which is likely part of a data appendix or a"
+        },
+        {
+          "label": "OTHER",
+          "weight": 0.0,
+          "reason": "No evidence of other functional content."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 81,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section is another news excerpt ('NEWS217'), consistent with an appendix or supplementary data."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 82,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This is a labeled news excerpt ('NEWS395'), indicating it is part of an appendix or data supplement."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 83,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section is a Q&A about wireless network safety, likely included as supplementary material or an"
+        },
+        {
+          "label": "OTHER",
+          "weight": 0.0,
+          "reason": "No evidence of other functional content."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

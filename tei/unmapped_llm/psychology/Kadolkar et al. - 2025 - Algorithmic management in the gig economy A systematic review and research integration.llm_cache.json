@@ -1,0 +1,711 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This section provides funding information, which does not fit into the main research content or meta"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, provides background, and outlines the paper's aims and key"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the conceptual and historical background of gig work and algorithmic management"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section appears to summarize key characteristics, contributions, and limitations of prior artic"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings and limitations of a prior article, focusing on what others did"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings and limitations of a prior article, focusing on what others did"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings and limitations of a prior article, focusing on what others did"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings and limitations of a prior article, focusing on what others did"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings and limitations of a prior article, focusing on what others did"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings and limitations of a prior article, focusing on what others did"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings and limitations of a prior article, focusing on what others did"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings and limitations of a prior article, focusing on what others did"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings and focus of Rahman et al. (2024), a prior study, which is a 's"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the work of Subramony et al. (in press), focusing on their bibliometric and ("
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes Sutherland and Jarrahi (2018), a prior systematic review, and its focus, whi"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes Wu and Huang (2024), a prior narrative review, and summarizes its findings an"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the literature search and winnowing process conducted by the authors, which i"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides a definition of algorithmic management from prior literature (cited, with page"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section lists dimensions of algorithmic management and references prior work (Parent-Rocheleau"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides a definition and example from van Zoonen et al. (2023), indicating it is draw"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides a definition of algorithmic management from prior literature (with citation), "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section lists dimensions of algorithmic management and references prior work, indicating it is "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the STM (topic modeling) approach used by the authors, which is a methodologi"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the data preparation steps taken by the authors before analysis, which is met"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the process the authors used to determine the number of topics in their STM ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the STM analysis, including the number of topics and their IPO-"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the categorization of topics as 'inputs' in the IPO model, based on the STM re"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section details the findings about 'Pricing strategies' (Topic 2) as an input, based on the STM"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 33,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings about 'Asymmetries' (Topic 3) as an input, based on the STM results"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the identification of 'process' topics from the STM analysis, describing thei"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings about 'Working conditions' (Topic 5) as a process, based on the STM"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about 'Absence of social relations and communities' (Topic 6) as a p"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings about 'Autonomy' (Topic 7) as a process, based on the STM results."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 38,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the identification of 'output' topics from the STM analysis, describing thei"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 39,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings about 'Well-being' (Topic 8) as an output, based on the STM results"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 40,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about 'Performance' (Topic 9) as an output, based on the STM results"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 41,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets findings about resistance tactics in the gig economy, referencing both the '"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 42,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses boundary conditions and contextual factors affecting the relationship between"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 43,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets and discusses social/ethical factors as found in the literature, focusing on"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 44,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses institutional factors and regulatory frameworks, interpreting their role in"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 45,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This is the main discussion section, integrating findings, interpreting their meaning, and relating"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 46,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets and synthesizes conceptualizations of algorithmic management, reflecting on"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 47,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the mediating mechanisms found in the literature, theorizing about their"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 48,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets how algorithmic monitoring affects affect-related mechanisms, drawing on"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 49,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the effects of asymmetries on cognition-related mechanisms, referencing"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 50,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the effects of direct algorithmic control on job preservation mechanisms,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 51,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the effects of indirect algorithmic control on motivation, referencing"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 52,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the effects of pricing strategies on motivation, referencing expectancy"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 53,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the results of the NLP analysis, discusses gaps in the literature (moderator"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.0,
+          "reason": "No new findings are reported; focus is on interpretation and implications."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 54,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "The section interprets findings about gig worker agency and feedback loops, emphasizing implications"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.0,
+          "reason": "No new empirical results are reported; focus is on interpretation and future research needs."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 55,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the prevalence of resistance in the literature and calls for research on new"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.0,
+          "reason": "No new results are reported; the section is interpretive and forward-looking."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 56,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "The section discusses the need for more nuanced research on adaptation and resistance, interpreting"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.0,
+          "reason": "No new findings are reported; focus is on interpretation and research directions."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 57,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings from a sentiment analysis of abstracts and summarizes empirical patterns in the"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretive commentary on the implications and theoretical gaps in the literature."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 58,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Focuses on the practical implications of the research findings, interpreting their significance for"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.0,
+          "reason": "No new empirical results are reported."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 59,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses the limitations of the study, which is a classic function of the discussion"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.0,
+          "reason": "No new findings are reported."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 60,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "This is the final wrap-up section, summarizing the study, its contributions, and closing remarks."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

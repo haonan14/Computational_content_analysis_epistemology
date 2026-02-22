@@ -1,0 +1,50 @@
+{
+  "classifications": [
+    {
+      "sec_index": 0,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses the limitations and caveats of the study, which is characteristic of the DISC"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "The section explicitly addresses limitations and caveats, which is a hallmark of the DISCUSSION or '"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "The section describes the dataset, data collection process, and technical limitations encountered, e"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "The mention of BERTopic's inoperability and its implications for the results introduces a minor disc"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the modeling procedures, including manual cluster designation and topic modelin"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

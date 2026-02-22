@@ -1,0 +1,28 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the data sources (Mobygames.com, Metacritic), sample selection, and inclusion"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of comparing LDA model outputs to database genre assignments, with "
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, discusses the rise of extremist organizations online, and,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, discusses the rise of extremist organizations online, and,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work and theoretical background on VEOs' use of the internet, with heavy"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses prior research and theory on VEOs' recruitment strategies, citing multiple"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior literature on command and control in VEOs, with citations and discussion"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses prior research and theory on knowledge transfer in VEOs, with citations and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explicitly focuses on prior research on jihadist VEOs, summarizing the literature and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This is a methodological note clarifying a data coding decision made by the authors."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Discusses limitations of prior literature and approaches, referencing earlier work and the state of"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Begins to interpret the implications of prior limitations, setting up the rationale for the study's"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the high-level approach and workflow of the current study, focusing on what the authors"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the experimental setup and methodological choices (n-gram analysis) used by the authors."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Briefly reports which n-gram approach worked best and some findings about their performance."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes the use of LDA and LIWC, including preprocessing and feature extraction steps taken by the"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Reports comparative findings about the performance of LDA and LIWC in identifying themes."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "The section header 'Margeret' is unclear and there is no content provided; unable to classify."
+        }
+      ],
+      "confidence": 0.5
+    }
+  ]
+}

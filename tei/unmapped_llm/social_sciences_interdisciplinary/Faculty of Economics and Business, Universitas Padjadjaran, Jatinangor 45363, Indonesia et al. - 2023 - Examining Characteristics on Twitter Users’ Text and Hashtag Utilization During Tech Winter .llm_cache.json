@@ -1,0 +1,191 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background and context on 'Tech Winter Layoffs,' referencing prior work and a "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background and context on 'Tech Winter Layoffs,' referencing prior work and a "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and context about Twitter's use in the context of layoffs, with "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and context about Twitter's use in the context of layoffs, with "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains the LDA model, its theoretical background, and how it works, referencing prior"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains the LDA model, its theoretical background, and how it works, referencing prior"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The majority of the section explains the K-means algorithm and its general use, which is theoretical"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "The last sentence briefly mentions that the study uses Twitter data and refers to the study's stages"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the dataset used in this study, its features, and how it was collected and described, whic"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the dataset used in this study, its features, and how it was collected and described, whic"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data preprocessing steps performed by the authors on their dataset, which is a methodo"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data preprocessing steps performed by the authors on their dataset, which is a methodo"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section primarily discusses the general use of hashtags and text tweets, referencing prior work "
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some mention of the study's approach to modeling, but the focus is on background and prior "
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the daily statistics of tweets and hashtag usage from the study's dataset, referencing figu"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the daily statistics of tweets and hashtag usage from the study's dataset, referencing figu"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the term frequency analysis of hashtags in the collected dataset, which is a direct finding"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the term frequency analysis of hashtags in the collected dataset, which is a direct finding"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the results of K-means clustering on hashtags, including metrics and findings from the ana"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the results of K-means clustering on hashtags, including metrics and findings from the ana"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Lists the words and topics identified in the analysis, which are direct outputs of the study's metho"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Lists the words and topics identified in the analysis, which are direct outputs of the study's metho"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

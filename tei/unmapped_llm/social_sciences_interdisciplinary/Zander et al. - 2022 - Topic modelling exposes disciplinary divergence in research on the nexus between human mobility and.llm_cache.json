@@ -1,0 +1,38 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem (human mobility), its importance, and introduces the paper\u0019"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem (human mobility), its policy relevance, and motivates the (l"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports findings from the topic modelling, describing themes, clusters, and patterns in "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of the meaning of the clusters and their evolution over time, but the p"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

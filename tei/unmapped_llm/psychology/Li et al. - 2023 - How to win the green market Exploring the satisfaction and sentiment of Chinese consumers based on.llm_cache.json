@@ -1,0 +1,242 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines the concept of green products, drawing on prior literature and providing cited,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section defines and discusses the concept of green products, referencing prior literature and summar"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews factors influencing green consumption, citing prior studies and summarizing what is"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section discusses consumer satisfaction with green products, referencing prior research and summariz"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section lists the research questions, which is a core part of the introduction and framing of the pa"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the research framework and models constructed by the authors, as well as the data"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the data cleaning and preprocessing steps performed by the authors, which is a metho"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the sentiment analysis technique and tools used by the authors, which is a method"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section explains the time series model and statistical approach used by the authors, which is a meth"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section header 'Empirical analysis' signals the start of reporting findings from the study, which is"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings from word frequency analysis of online reviews, describing what was found i"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings from word cloud analysis, describing patterns found in the data, which is r"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings from sentiment analysis of online reviews, including statistics and figures"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the sentiment analysis of green product reviews, including the "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the sentiment analysis of green product reviews, including the "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes the results of LDA topic extraction on positive and negative reviews, summar "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of time series analysis of consumer sentiment trends, including the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This table provides an example of the green product attribute lexicon, which is a methodological too"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section lists the attribute names and related terms used in the analysis, which are part of the"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This table presents the results of the trend test for each attribute of green products, reporting ho"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the findings, discusses their implications, and connects them to prior lite"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

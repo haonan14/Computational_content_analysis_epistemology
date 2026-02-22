@@ -1,0 +1,123 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the theoretical construct of 'communities of practice,' citing foundational and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the theoretical construct of 'communities of practice,' citing foundational and"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on mobile games, their adoption, and player behaviors, referencing"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on mobile games, their adoption, and player behaviors, referencing"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the proliferation of competitive communities of practice, referencing prior"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the proliferation of competitive communities of practice, referencing prior"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the research context, specifying the subreddit studied and the nature of the"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the research context, specifying the subreddit studied and the nature of the"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the data preprocessing and analysis procedures, including software, tokenizing,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the data preprocessing and analysis procedures, including software, tokenizing,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the results of the topic modeling, describing the content and themes of each"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the results of the topic modeling, describing the content and themes of each"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports observed patterns in the community's discourse and how it evolved over time, "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive commentary about the meaning of the observed shifts in conversation, but "
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

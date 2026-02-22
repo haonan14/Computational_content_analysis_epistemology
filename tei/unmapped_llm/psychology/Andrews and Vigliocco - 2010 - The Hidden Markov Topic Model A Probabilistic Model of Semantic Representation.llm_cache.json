@@ -1,0 +1,86 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the standard Topics model (LDA) as developed by others, with heavy citation ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the new Hidden Markov Topics Model (HMTM) developed by the authors, focusing"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the learning and inference procedures for the HMTM, including parameter estimat"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section demonstrates the model on a toy problem, reporting how the model performs and what is f"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some description of the experimental setup and procedure for the demonstration, but the"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section presents topics learned from real text data using the HMTM, reporting empirical findin"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is some description of the corpus and how the model was trained, but the main focus is on t"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides notes and clarifications on technical details, parameter choices, and corpus "
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

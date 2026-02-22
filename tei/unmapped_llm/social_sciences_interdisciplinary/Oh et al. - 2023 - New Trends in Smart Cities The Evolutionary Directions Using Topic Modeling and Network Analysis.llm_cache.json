@@ -1,0 +1,233 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section consists of a cited definition from Yigitcanlar (2016), describing prior conceptualizations,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section presents a definition from BIS (2013), summarizing prior work and conceptualizations by an ("
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides a cited definition from Barrionuevo et al. (2012), describing prior literature's v"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section gives a cited definition from Guan (2012)/ICLEI, summarizing prior conceptualizations, not t"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section presents a cited definition from Lazaroiu and Roscia (2012), describing prior literature's "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides a cited definition from Zhao (2011), summarizing prior conceptualizations, not the "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section gives a cited definition from Chen (2010), describing prior literature's view, not the autho"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section presents a cited definition from Paskaleva (2009), summarizing prior conceptualizations, not"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides a cited definition from Giffinger et al. (2007), describing prior literature's vie"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section presents a cited definition from Bowerman et al. (2000), summarizing prior conceptualizatio"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section reviews methodological approaches (topic modeling, text mining) with citations, describing p"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Section briefly touches on the application of these methods to smart city research, hinting at the "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the specific analysis tools and techniques used in this study (text mining, TF-IDF"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the word frequency analysis, including the number of papers and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.0,
+          "reason": "While there is a brief mention of preprocessing, the focus is on reporting results, not describing a"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section continues to report the results of the word frequency analysis, listing the most common"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.0,
+          "reason": "No new methodological details are introduced; the focus is on reporting findings."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports the results of the TF-IDF analysis, highlighting which words were found to be im"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.1,
+          "reason": "There is a brief mention of why TF-IDF was used and its purpose, but the main focus is on reporting"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of the connection centrality analysis, including specific values fo"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports the results of the n-gram analysis, listing key word pairs and their relevance t"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.1,
+          "reason": "There is a brief explanation of what n-gram analysis is, but the main focus is on reporting the resu"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

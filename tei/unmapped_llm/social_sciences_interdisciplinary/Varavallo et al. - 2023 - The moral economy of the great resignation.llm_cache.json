@@ -1,0 +1,33 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem (the Great Resignation), introduces the phenomenon, and all"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the results, discusses implications for policy, and connects findings to the"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reporting of findings about topics discussed in the antiwork subreddit, but the main f"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

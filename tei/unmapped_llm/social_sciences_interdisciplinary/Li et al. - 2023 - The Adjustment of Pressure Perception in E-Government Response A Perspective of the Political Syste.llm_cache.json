@@ -1,0 +1,184 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section introduces the theoretical framework (political system theory), reviews relevant theory"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "It frames the research problem and motivates the study"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.1,
+          "reason": "It introduces research questions, which is often part of theory/lit review"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.1,
+          "reason": "It hints at operationalization for later analysis"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Describes findings about the evolution of topic clusters, references Figure 3, and discusses how the"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Interprets the meaning of the evolution and its implications for the political system"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports findings about content pressure, referencing Figure 4 and effects of topic clusters"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Briefly interprets the implications of these findings for the political system"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Continues reporting findings about content pressure and message-response matching"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Interprets the findings, connects to policy priorities, and introduces a hypothesis"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports evidence and findings about volume pressure and its effects"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Interprets the meaning of the findings for the political system"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Continues reporting findings about volume pressure and online response characteristics"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Interprets the implications for the political system"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports findings about sentiment and its impact on message-response matching"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Interprets the significance of sentiment in the political system"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about the impact of response lag on message matching"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Interprets the findings in the context of government steering and responsiveness"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Continues reporting findings about lag and its effects"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Interprets the implications for the political system"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Interprets the real-world logic of digital government response and the absorption of information"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Still references findings about lag and response"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

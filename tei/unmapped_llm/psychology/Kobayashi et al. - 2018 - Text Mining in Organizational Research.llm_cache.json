@@ -1,0 +1,98 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, describes the audience, outlines the paper's aims, and sets"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior uses of text mining (TM), provides examples from the literature, and is"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Describes the vector space model, its theoretical underpinnings, and references to prior work and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Includes some explanation of how document-term matrices are constructed, which is methodological."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the steps and procedures in text mining operations, focusing on how analyses are conducted"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Focuses on the postprocessing step in text mining, including validation and operationalization, whic"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Touches on interpretation and implications of the results, such as improving theory and frameworks."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Presents an applied example of text mining in job analysis, describing the process and steps taken b"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data collection, preprocessing, and classification procedures used in the job informat"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

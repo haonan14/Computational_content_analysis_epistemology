@@ -1,0 +1,339 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section explicitly outlines the paper's main contributions, framing the research problem, the '"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section explicitly outlines the paper's main contributions, framing the research problem, the '"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section defines the fake news detection problem and introduces the notation and setup for the *"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the Latent Dirichlet Allocation (LDA) model, referencing prior work (Blei et "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains the Variational Autoencoder (VAE) model, referencing prior work (Kingma and W"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the Long Short-Term Memory (LSTM) model, referencing prior work (Hochreiter "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains the word2vec model, referencing prior work (Mikolov et al.) and describing th"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses dimensionality reduction methods, referencing prior work (Cunningham and Gh"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the implementation of the VAE component in the authors' model, including archi"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how LDA is used as a component in the authors' model, focusing on their spe"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the classifier component of the authors' model, including the types of class"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the datasets used in the study, which is a standard part of the methods se"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the ISOT dataset, including its composition and preprocessing, which is typ"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the COVID dataset used in the study, including its collection, preprocessing,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the Twitter dataset, its characteristics, and preprocessing steps, which are a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section outlines the evaluation criteria and procedures for assessing the model, which is a met"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the qualitative evaluation and feature analysis methods (PCA, t-SNE) used to interpret mod"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the metrics (accuracy, F1, FPR, FNR) used to evaluate classification outcomes, which is a m"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes experimental settings, including data representation, embedding generation, and model trai"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports the outcomes of the ablation study, comparing classification accuracy and other metrics acro"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Includes some interpretation of why certain models perform better or worse, especially regarding the"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Presents comparative results of the proposed method against state-of-the-art baselines, focusing on "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Provides some interpretation of the comparative performance, especially regarding dataset characteri"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Introduces the approach for analyzing and visualizing model interpretability, which is a methodologi"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about topic distributions in real and fake news posts, including interpretability o"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretation of the results, such as the distinctiveness and discriminative power of topi"
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports the computation and visualization of discriminatory topics and word distributions, focusing "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretation of the subtle differences in word distributions and their implications for f"
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports the qualitative evaluation of feature separability using dimensionality reduction techniques"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretation of the results regarding feature separability and model performance."
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "The section summarizes the main contributions of the paper, restates the proposed method, and offers"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "The section also discusses implications, interpretability, and suggests future research directions,\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

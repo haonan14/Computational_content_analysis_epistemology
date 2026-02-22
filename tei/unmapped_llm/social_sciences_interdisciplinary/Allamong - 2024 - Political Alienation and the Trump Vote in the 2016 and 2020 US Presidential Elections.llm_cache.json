@@ -1,0 +1,31 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and theoretical arguments about political alienation, populism, "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section defines political alienation, reviews classic and recent literature, and identifies a 'p"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the context of Trump's candidacy, prior political events, and theoretical ex"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "The section interprets the findings, discusses their implications, and addresses lingering questio"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

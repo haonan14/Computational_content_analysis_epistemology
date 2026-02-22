@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section situates the study in the Dutch political context, providing background on the party/ep"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "The section also introduces the empirical setting for hypothesis testing, which is a methodological/"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

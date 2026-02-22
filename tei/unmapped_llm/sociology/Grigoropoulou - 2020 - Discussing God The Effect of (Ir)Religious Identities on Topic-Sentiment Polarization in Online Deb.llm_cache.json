@@ -1,0 +1,159 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews Social Identity Theory, its origins, key concepts, and applications, with heavy"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews Social Identity Theory, its origins, key concepts, and applications, with heavy"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research on online religion, citing other scholars and situating the work"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "This section frames the research questions, describes the study's aims, and introduces hypotheses."
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "It briefly references gaps in prior research and situates the study in the literature."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains topic-sentiment analysis as a method, referencing prior work and literature, i"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports findings of the topic-sentiment analysis, referencing hypotheses and presenting"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the results and their implications for the hypotheses."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "This section reports statistical findings from correspondence analysis, including test statistics, t"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "There is minor interpretation of the meaning of the results."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports the results of the topic-sentiment analysis for Christian and atheist commentat"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the findings and their implications for the hypotheses."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a page footer or journal reference, not a substantive section."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports the results of correspondence analysis, including the production of a map and d"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is interpretation of why certain groups attribute negative connotations, moving toward discus"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "This section wraps up the paper, summarizes findings, and discusses implications and future researc"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is interpretation of the findings and their broader meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

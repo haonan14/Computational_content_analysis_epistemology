@@ -1,0 +1,1139 @@
+{
+  "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/psychology/Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys.tei.xml",
+  "metadata": {
+    "title": "Exploring the determinants of health‐promoting behaviors among miners: A text mining and meta‐analysis",
+    "authors": [
+      "Lulu Wang",
+      "Yu Guo",
+      "Xuechen Yin",
+      "Yuhao Wang",
+      "Ruipeng Tong"
+    ],
+    "journal": "Applied Psychology: Health and Well-Being",
+    "year": "2023",
+    "doi": "10.1111/aphw.12465",
+    "keywords": []
+  },
+  "abstract": "The health-promoting behaviors of miners are of great significance to their physical and mental well-being.\n\nWith a focus on enhancing their overall health, this study aimed to explore the determinants and influencing mechanisms of health-promoting behaviors in miners. Initially, the latent Dirichlet allocation (LDA) model was utilized to extract topical keywords from literature over the last 23 years and to categorize the determinants based on integrating the health promotion model and the health belief model. Subsequently, a meta-analysis was performed based on 51 related empirical research to explore the mechanisms between determinants and health-promoting behaviors. The results indicated that (1) the factors influencing miners' health-promoting behaviors can be divided into four dimensions: physical environment, psychosocial environment, individual characteristics, and health beliefs. (2) Noise was negatively related to health-promoting behaviors, while protective equipment, health culture, interpersonal relationships, health literacy, health attitudes, and income were positively related to health-promoting behaviors.\n\n(3) Protective equipment and health literacy were positively related to perceived threat, whereas",
+  "sections": [
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "INTRODUCTION",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "With advancements in the economy and society, occupational health as a crucial component of overall human wellness has garnered increasing attention (Karanikas et al., 2022;Liem et al., 2021). The mining industry plays a role in the national economy by serving as a critical energy source that fuels high-standard societal development. However, it also presents various occupational health hazards to miners, such as pneumoconiosis, hearing loss due to noise, skin diseases, and other occupational illnesses. This situation makes the miners one of the most influential groups affected by occupational hazards and workplace accidents (Liu & Liu, 2020). For instance, at the end of 2018, China reported a total of 975,000 cases of occupational diseases, out of which 873,000 cases were pneumoconiosis accounting for nearly 90% of the reported occupational disease cases, with the majority of these cases being from the mining industry and showing a rising trend among the youth (Lancet, 2019). In 2022, about 12,000 workers in the UK died from lung diseases caused by previous work exposure, and miners formed a considerable proportion of this group (Health and Safety Executive, 2022). The elevation of living standards has resulted in a heightened demand for occupational health services among miners, highlighting the pressing need to bridge the disparity between their occupational health necessities and the insufficient provision of such services.",
+        "Individuals are primarily responsible for their health in work and daily life. Healthpromoting behaviors refer to any actions taken by an individual, regardless of their actual or perceived health status, to maintain or improve physical and mental well-being and prevent illness (Pender et al., 2015). This behavior is crucial in ensuring one's overall health and has become a central focus of occupational health governance. Initially, the study of healthpromoting behaviors was focused on socially vulnerable populations, including the elderly (Harooni et al., 2014), children (Yoo et al., 2010), and individuals with disabilities (Chiou et al., 2016). As research progressed, the scope of the investigation expanded to encompass healthcare professionals (Chiang et al., 2021), educators (Bae & Yoon, 2021), and other occupational groups. Due to the significant occupational health hazards faced by miners, their health-promoting behaviors have gained increasing attention from the academic community. This behavior encompasses safety practices (Yu et al., 2022), the use of protective equipment (Liu et al., 2019), quitting smoking (Liu et al., 2015), and so on. The driving force behind miners' health-promoting behaviors is informed by the mechanisms of their development and evolution. Previous research has mainly analyzed the influence and relationships of miners' health-related behaviors through traditional behavioral theories, such as the theory of planned behavior (Wang et al., 2019), the stimulus-organism-response theory (Meng et al., 2019), and the job demands-resources theory (Zhang et al., 2022). From an occupational health perspective, it is necessary to examine miners' health-promoting behaviors within the health field's theoretical framework to understand the factors that shape their behavior.",
+        "The health promotion model (HPM) is founded on the principles of expectancy-value theory and social cognitive theory and encompasses a holistic approach to human healthcare (Pender et al., 2015). It endeavors to explain the interplay between interpersonal relationships and the physical environment in the pursuit of health. According to the model, healthpromoting behavior is shaped by four aspects: (1) individual characteristics and experiences, (2) cognitions and affect specific to the behavior, (3) an individual's commitment to a course of action, and (4) competing demands and preferences in the present moment. Within the realm of occupational health promotion, the model has been gradually implemented among various worker groups, including construction workers (Lusk et al., 1994), firefighters (Hong et al., 2013), and office workers (Delshad et al., 2019), starting in the 1990s. Studies utilizing the HPM have been conducted to assess the determinants and the effectiveness of intervention programs that promote health protection (Ronis et al., 2006) and risk reduction behaviors (Hwang & Kim, 2020) among construction workers. Additionally, research has been conducted to investigate the impact of HPM-based intervention programs on the promotion of stretching exercise behavior among office workers (Delshad et al., 2019). Despite previous studies providing evidence of the effectiveness of HPM in promoting health among worker groups, there has yet to be a systematic examination of its application among miners.",
+        "The Health Belief Model (HBM) is a widely utilized theoretical framework in the field of health-related behavior. The HBM was initially established by social psychologists in the US Public Health Service during the 1950s. It is not only employed to explain alterations and persistence of health-related behaviors, but it also serves as a guiding principle for healthrelated behavior interventions (Jones et al., 2014;Kroke & Ruthig, 2021). The model comprises three integral components: modifying factors, health beliefs, and individual behaviors. These components play a critical role in determining an individual's behavior in taking action to prevent, monitor, or control health conditions. The HBM identifies the factors influencing individual behavior but does not limit the relationships between these constructs. This situation results in versatility in applying the HBM, leading to variability in its utilization. It has been widely utilized in epidemiological research to examine preventive health behaviors and sick-role behaviors of the public or patients (Janz & Becker, 1984). In recent years, the model has gained prominence in the field of occupational health-related behavior research, particularly in the study of safety behaviors (Yuen et al., 2020), self-protective behaviors (Lu et al., 2018), and smoking cessation behaviors (Guncan et al., 2021) among workers in various industries such as coal mining, construction, and maritime. For instance, research by Liu et al. (2019) demonstrated that the HBM could predict self-protective behavior among miners, where internal and external cues to action were powerful predictors. Similarly, Guncan et al. (2021) revealed that perceived susceptibility was a significant influencing factor in the smoking cessation behaviors of miners. As mentioned above, the behavioral outcomes of the HPM are health-promoting behaviors, and the influencing factors in its theoretical model are diverse and spotlighted. However, each pair of relationships in HPM has an underlying assumption, which may not be conducive to open-ended relationship exploration. In contrast, the HBM is more flexible in its theoretical framework and has a basic overview of the categories of influences on individual behaviors. Thereby, this study aimed to investigate the influence of various factors and relationships on the health-promoting behaviors of miners by integrating the HBM framework and the HPM theoretical components. This idea attempted to synthesize the ideas inherent in both models to comprehensively comprehend the intricate forces that impact miners' health-promoting behaviors. It was rooted in the variability of the HBM and the significance of the HPM in determining health-promoting behaviors.",
+        "The investigation of the factors influencing miners' behaviors has been a focus of previous studies. These studies have primarily utilized qualitative research methods such as rooted theory, literature review, and expert interviews to gather information from interview transcripts, literature, and experts' experiences (Malakoutikhah et al., 2021;Yang et al., 2022). While these methods provide a rich and flexible source of information, they are also susceptible to a lack of objectivity and weak explanations. To address these limitations, a limited number of studies have utilized text mining techniques to identify risk factors for miners' safety and production behavior (Fa et al., 2021;Li, You, et al., 2022). The latent Dirichlet allocation (LDA) method is characterized by its modularity and extensibility, which enables the incorporation of more complicated models to enhance the accuracy of text mining. It is widely used in studies such as identifying the unsafe behavior of construction workers and its influencing factors (Li, He, & Li, 2022). Text mining techniques have improved the objectivity of the factor identification process but are often seen as a \"black box\", making it difficult to interpret the results and understand the impact of the factors on behavior. Some researchers have also employed meta-analysis to aggregate the findings of multiple studies and provide a larger sample size to analyze the determinants (Tong et al., 2019). Conducting a meta-analysis to screen and integrate empirical studies on a given topic enables the identification of relationships between variables of interest. It facilitates drawing more holistic and inductive outcomes, which can better illustrate the relevance of influences to behavior. Current research suggests that the factors influencing miners' health-promoting behaviors can be categorized into three levels (Oakman et al., 2022;Shaikh et al., 2022): physical environment, psychosocial, and individual factors. Studies often focus on one level at a time, such as examining the impact of noise in the work environment on safety behaviors at the physical environmental level (Li, Wang, et al., 2022), analyzing the role of the policy context (Ismail et al., 2021) and interpersonal relationships (Han et al., 2022) on health-promoting behaviors at the psychosocial level, and exploring the influence of socio-demographic factors (Wang et al., 2022) and psychological status (Tong et al., 2019) at the individual level. In general, the research on the factors influencing health-promoting behaviors of miners, both domestically and internationally, has made significant advancements. Nevertheless, this area remains in scope for further comprehensive investigation and refinement.",
+        "This research aimed to investigate the crucial factors and mechanisms influencing healthpromoting behaviors among miners using an integrated approach that combines text mining and meta-analysis techniques. Firstly, the LDA model was utilized to analyze topical keywords from literature over the last 23 years and to categorize the determinants by integrating the HBM framework and the HPM theoretical components. Subsequently, a meta-analysis was performed to explore the mechanisms of influence on health-promoting behaviors, thereby providing a theoretical foundation and literature reference for the study of interventions for miners' health-promoting behaviors."
+      ],
+      "footnotes": [],
+      "text": "With advancements in the economy and society, occupational health as a crucial component of overall human wellness has garnered increasing attention (Karanikas et al., 2022;Liem et al., 2021). The mining industry plays a role in the national economy by serving as a critical energy source that fuels high-standard societal development. However, it also presents various occupational health hazards to miners, such as pneumoconiosis, hearing loss due to noise, skin diseases, and other occupational illnesses. This situation makes the miners one of the most influential groups affected by occupational hazards and workplace accidents (Liu & Liu, 2020). For instance, at the end of 2018, China reported a total of 975,000 cases of occupational diseases, out of which 873,000 cases were pneumoconiosis accounting for nearly 90% of the reported occupational disease cases, with the majority of these cases being from the mining industry and showing a rising trend among the youth (Lancet, 2019). In 2022, about 12,000 workers in the UK died from lung diseases caused by previous work exposure, and miners formed a considerable proportion of this group (Health and Safety Executive, 2022). The elevation of living standards has resulted in a heightened demand for occupational health services among miners, highlighting the pressing need to bridge the disparity between their occupational health necessities and the insufficient provision of such services.\n\nIndividuals are primarily responsible for their health in work and daily life. Healthpromoting behaviors refer to any actions taken by an individual, regardless of their actual or perceived health status, to maintain or improve physical and mental well-being and prevent illness (Pender et al., 2015). This behavior is crucial in ensuring one's overall health and has become a central focus of occupational health governance. Initially, the study of healthpromoting behaviors was focused on socially vulnerable populations, including the elderly (Harooni et al., 2014), children (Yoo et al., 2010), and individuals with disabilities (Chiou et al., 2016). As research progressed, the scope of the investigation expanded to encompass healthcare professionals (Chiang et al., 2021), educators (Bae & Yoon, 2021), and other occupational groups. Due to the significant occupational health hazards faced by miners, their health-promoting behaviors have gained increasing attention from the academic community. This behavior encompasses safety practices (Yu et al., 2022), the use of protective equipment (Liu et al., 2019), quitting smoking (Liu et al., 2015), and so on. The driving force behind miners' health-promoting behaviors is informed by the mechanisms of their development and evolution. Previous research has mainly analyzed the influence and relationships of miners' health-related behaviors through traditional behavioral theories, such as the theory of planned behavior (Wang et al., 2019), the stimulus-organism-response theory (Meng et al., 2019), and the job demands-resources theory (Zhang et al., 2022). From an occupational health perspective, it is necessary to examine miners' health-promoting behaviors within the health field's theoretical framework to understand the factors that shape their behavior.\n\nThe health promotion model (HPM) is founded on the principles of expectancy-value theory and social cognitive theory and encompasses a holistic approach to human healthcare (Pender et al., 2015). It endeavors to explain the interplay between interpersonal relationships and the physical environment in the pursuit of health. According to the model, healthpromoting behavior is shaped by four aspects: (1) individual characteristics and experiences, (2) cognitions and affect specific to the behavior, (3) an individual's commitment to a course of action, and (4) competing demands and preferences in the present moment. Within the realm of occupational health promotion, the model has been gradually implemented among various worker groups, including construction workers (Lusk et al., 1994), firefighters (Hong et al., 2013), and office workers (Delshad et al., 2019), starting in the 1990s. Studies utilizing the HPM have been conducted to assess the determinants and the effectiveness of intervention programs that promote health protection (Ronis et al., 2006) and risk reduction behaviors (Hwang & Kim, 2020) among construction workers. Additionally, research has been conducted to investigate the impact of HPM-based intervention programs on the promotion of stretching exercise behavior among office workers (Delshad et al., 2019). Despite previous studies providing evidence of the effectiveness of HPM in promoting health among worker groups, there has yet to be a systematic examination of its application among miners.\n\nThe Health Belief Model (HBM) is a widely utilized theoretical framework in the field of health-related behavior. The HBM was initially established by social psychologists in the US Public Health Service during the 1950s. It is not only employed to explain alterations and persistence of health-related behaviors, but it also serves as a guiding principle for healthrelated behavior interventions (Jones et al., 2014;Kroke & Ruthig, 2021). The model comprises three integral components: modifying factors, health beliefs, and individual behaviors. These components play a critical role in determining an individual's behavior in taking action to prevent, monitor, or control health conditions. The HBM identifies the factors influencing individual behavior but does not limit the relationships between these constructs. This situation results in versatility in applying the HBM, leading to variability in its utilization. It has been widely utilized in epidemiological research to examine preventive health behaviors and sick-role behaviors of the public or patients (Janz & Becker, 1984). In recent years, the model has gained prominence in the field of occupational health-related behavior research, particularly in the study of safety behaviors (Yuen et al., 2020), self-protective behaviors (Lu et al., 2018), and smoking cessation behaviors (Guncan et al., 2021) among workers in various industries such as coal mining, construction, and maritime. For instance, research by Liu et al. (2019) demonstrated that the HBM could predict self-protective behavior among miners, where internal and external cues to action were powerful predictors. Similarly, Guncan et al. (2021) revealed that perceived susceptibility was a significant influencing factor in the smoking cessation behaviors of miners. As mentioned above, the behavioral outcomes of the HPM are health-promoting behaviors, and the influencing factors in its theoretical model are diverse and spotlighted. However, each pair of relationships in HPM has an underlying assumption, which may not be conducive to open-ended relationship exploration. In contrast, the HBM is more flexible in its theoretical framework and has a basic overview of the categories of influences on individual behaviors. Thereby, this study aimed to investigate the influence of various factors and relationships on the health-promoting behaviors of miners by integrating the HBM framework and the HPM theoretical components. This idea attempted to synthesize the ideas inherent in both models to comprehensively comprehend the intricate forces that impact miners' health-promoting behaviors. It was rooted in the variability of the HBM and the significance of the HPM in determining health-promoting behaviors.\n\nThe investigation of the factors influencing miners' behaviors has been a focus of previous studies. These studies have primarily utilized qualitative research methods such as rooted theory, literature review, and expert interviews to gather information from interview transcripts, literature, and experts' experiences (Malakoutikhah et al., 2021;Yang et al., 2022). While these methods provide a rich and flexible source of information, they are also susceptible to a lack of objectivity and weak explanations. To address these limitations, a limited number of studies have utilized text mining techniques to identify risk factors for miners' safety and production behavior (Fa et al., 2021;Li, You, et al., 2022). The latent Dirichlet allocation (LDA) method is characterized by its modularity and extensibility, which enables the incorporation of more complicated models to enhance the accuracy of text mining. It is widely used in studies such as identifying the unsafe behavior of construction workers and its influencing factors (Li, He, & Li, 2022). Text mining techniques have improved the objectivity of the factor identification process but are often seen as a \"black box\", making it difficult to interpret the results and understand the impact of the factors on behavior. Some researchers have also employed meta-analysis to aggregate the findings of multiple studies and provide a larger sample size to analyze the determinants (Tong et al., 2019). Conducting a meta-analysis to screen and integrate empirical studies on a given topic enables the identification of relationships between variables of interest. It facilitates drawing more holistic and inductive outcomes, which can better illustrate the relevance of influences to behavior. Current research suggests that the factors influencing miners' health-promoting behaviors can be categorized into three levels (Oakman et al., 2022;Shaikh et al., 2022): physical environment, psychosocial, and individual factors. Studies often focus on one level at a time, such as examining the impact of noise in the work environment on safety behaviors at the physical environmental level (Li, Wang, et al., 2022), analyzing the role of the policy context (Ismail et al., 2021) and interpersonal relationships (Han et al., 2022) on health-promoting behaviors at the psychosocial level, and exploring the influence of socio-demographic factors (Wang et al., 2022) and psychological status (Tong et al., 2019) at the individual level. In general, the research on the factors influencing health-promoting behaviors of miners, both domestically and internationally, has made significant advancements. Nevertheless, this area remains in scope for further comprehensive investigation and refinement.\n\nThis research aimed to investigate the crucial factors and mechanisms influencing healthpromoting behaviors among miners using an integrated approach that combines text mining and meta-analysis techniques. Firstly, the LDA model was utilized to analyze topical keywords from literature over the last 23 years and to categorize the determinants by integrating the HBM framework and the HPM theoretical components. Subsequently, a meta-analysis was performed to explore the mechanisms of influence on health-promoting behaviors, thereby providing a theoretical foundation and literature reference for the study of interventions for miners' health-promoting behaviors.",
+      "text_with_footnotes": "With advancements in the economy and society, occupational health as a crucial component of overall human wellness has garnered increasing attention (Karanikas et al., 2022;Liem et al., 2021). The mining industry plays a role in the national economy by serving as a critical energy source that fuels high-standard societal development. However, it also presents various occupational health hazards to miners, such as pneumoconiosis, hearing loss due to noise, skin diseases, and other occupational illnesses. This situation makes the miners one of the most influential groups affected by occupational hazards and workplace accidents (Liu & Liu, 2020). For instance, at the end of 2018, China reported a total of 975,000 cases of occupational diseases, out of which 873,000 cases were pneumoconiosis accounting for nearly 90% of the reported occupational disease cases, with the majority of these cases being from the mining industry and showing a rising trend among the youth (Lancet, 2019). In 2022, about 12,000 workers in the UK died from lung diseases caused by previous work exposure, and miners formed a considerable proportion of this group (Health and Safety Executive, 2022). The elevation of living standards has resulted in a heightened demand for occupational health services among miners, highlighting the pressing need to bridge the disparity between their occupational health necessities and the insufficient provision of such services.\n\nIndividuals are primarily responsible for their health in work and daily life. Healthpromoting behaviors refer to any actions taken by an individual, regardless of their actual or perceived health status, to maintain or improve physical and mental well-being and prevent illness (Pender et al., 2015). This behavior is crucial in ensuring one's overall health and has become a central focus of occupational health governance. Initially, the study of healthpromoting behaviors was focused on socially vulnerable populations, including the elderly (Harooni et al., 2014), children (Yoo et al., 2010), and individuals with disabilities (Chiou et al., 2016). As research progressed, the scope of the investigation expanded to encompass healthcare professionals (Chiang et al., 2021), educators (Bae & Yoon, 2021), and other occupational groups. Due to the significant occupational health hazards faced by miners, their health-promoting behaviors have gained increasing attention from the academic community. This behavior encompasses safety practices (Yu et al., 2022), the use of protective equipment (Liu et al., 2019), quitting smoking (Liu et al., 2015), and so on. The driving force behind miners' health-promoting behaviors is informed by the mechanisms of their development and evolution. Previous research has mainly analyzed the influence and relationships of miners' health-related behaviors through traditional behavioral theories, such as the theory of planned behavior (Wang et al., 2019), the stimulus-organism-response theory (Meng et al., 2019), and the job demands-resources theory (Zhang et al., 2022). From an occupational health perspective, it is necessary to examine miners' health-promoting behaviors within the health field's theoretical framework to understand the factors that shape their behavior.\n\nThe health promotion model (HPM) is founded on the principles of expectancy-value theory and social cognitive theory and encompasses a holistic approach to human healthcare (Pender et al., 2015). It endeavors to explain the interplay between interpersonal relationships and the physical environment in the pursuit of health. According to the model, healthpromoting behavior is shaped by four aspects: (1) individual characteristics and experiences, (2) cognitions and affect specific to the behavior, (3) an individual's commitment to a course of action, and (4) competing demands and preferences in the present moment. Within the realm of occupational health promotion, the model has been gradually implemented among various worker groups, including construction workers (Lusk et al., 1994), firefighters (Hong et al., 2013), and office workers (Delshad et al., 2019), starting in the 1990s. Studies utilizing the HPM have been conducted to assess the determinants and the effectiveness of intervention programs that promote health protection (Ronis et al., 2006) and risk reduction behaviors (Hwang & Kim, 2020) among construction workers. Additionally, research has been conducted to investigate the impact of HPM-based intervention programs on the promotion of stretching exercise behavior among office workers (Delshad et al., 2019). Despite previous studies providing evidence of the effectiveness of HPM in promoting health among worker groups, there has yet to be a systematic examination of its application among miners.\n\nThe Health Belief Model (HBM) is a widely utilized theoretical framework in the field of health-related behavior. The HBM was initially established by social psychologists in the US Public Health Service during the 1950s. It is not only employed to explain alterations and persistence of health-related behaviors, but it also serves as a guiding principle for healthrelated behavior interventions (Jones et al., 2014;Kroke & Ruthig, 2021). The model comprises three integral components: modifying factors, health beliefs, and individual behaviors. These components play a critical role in determining an individual's behavior in taking action to prevent, monitor, or control health conditions. The HBM identifies the factors influencing individual behavior but does not limit the relationships between these constructs. This situation results in versatility in applying the HBM, leading to variability in its utilization. It has been widely utilized in epidemiological research to examine preventive health behaviors and sick-role behaviors of the public or patients (Janz & Becker, 1984). In recent years, the model has gained prominence in the field of occupational health-related behavior research, particularly in the study of safety behaviors (Yuen et al., 2020), self-protective behaviors (Lu et al., 2018), and smoking cessation behaviors (Guncan et al., 2021) among workers in various industries such as coal mining, construction, and maritime. For instance, research by Liu et al. (2019) demonstrated that the HBM could predict self-protective behavior among miners, where internal and external cues to action were powerful predictors. Similarly, Guncan et al. (2021) revealed that perceived susceptibility was a significant influencing factor in the smoking cessation behaviors of miners. As mentioned above, the behavioral outcomes of the HPM are health-promoting behaviors, and the influencing factors in its theoretical model are diverse and spotlighted. However, each pair of relationships in HPM has an underlying assumption, which may not be conducive to open-ended relationship exploration. In contrast, the HBM is more flexible in its theoretical framework and has a basic overview of the categories of influences on individual behaviors. Thereby, this study aimed to investigate the influence of various factors and relationships on the health-promoting behaviors of miners by integrating the HBM framework and the HPM theoretical components. This idea attempted to synthesize the ideas inherent in both models to comprehensively comprehend the intricate forces that impact miners' health-promoting behaviors. It was rooted in the variability of the HBM and the significance of the HPM in determining health-promoting behaviors.\n\nThe investigation of the factors influencing miners' behaviors has been a focus of previous studies. These studies have primarily utilized qualitative research methods such as rooted theory, literature review, and expert interviews to gather information from interview transcripts, literature, and experts' experiences (Malakoutikhah et al., 2021;Yang et al., 2022). While these methods provide a rich and flexible source of information, they are also susceptible to a lack of objectivity and weak explanations. To address these limitations, a limited number of studies have utilized text mining techniques to identify risk factors for miners' safety and production behavior (Fa et al., 2021;Li, You, et al., 2022). The latent Dirichlet allocation (LDA) method is characterized by its modularity and extensibility, which enables the incorporation of more complicated models to enhance the accuracy of text mining. It is widely used in studies such as identifying the unsafe behavior of construction workers and its influencing factors (Li, He, & Li, 2022). Text mining techniques have improved the objectivity of the factor identification process but are often seen as a \"black box\", making it difficult to interpret the results and understand the impact of the factors on behavior. Some researchers have also employed meta-analysis to aggregate the findings of multiple studies and provide a larger sample size to analyze the determinants (Tong et al., 2019). Conducting a meta-analysis to screen and integrate empirical studies on a given topic enables the identification of relationships between variables of interest. It facilitates drawing more holistic and inductive outcomes, which can better illustrate the relevance of influences to behavior. Current research suggests that the factors influencing miners' health-promoting behaviors can be categorized into three levels (Oakman et al., 2022;Shaikh et al., 2022): physical environment, psychosocial, and individual factors. Studies often focus on one level at a time, such as examining the impact of noise in the work environment on safety behaviors at the physical environmental level (Li, Wang, et al., 2022), analyzing the role of the policy context (Ismail et al., 2021) and interpersonal relationships (Han et al., 2022) on health-promoting behaviors at the psychosocial level, and exploring the influence of socio-demographic factors (Wang et al., 2022) and psychological status (Tong et al., 2019) at the individual level. In general, the research on the factors influencing health-promoting behaviors of miners, both domestically and internationally, has made significant advancements. Nevertheless, this area remains in scope for further comprehensive investigation and refinement.\n\nThis research aimed to investigate the crucial factors and mechanisms influencing healthpromoting behaviors among miners using an integrated approach that combines text mining and meta-analysis techniques. Firstly, the LDA model was utilized to analyze topical keywords from literature over the last 23 years and to categorize the determinants by integrating the HBM framework and the HPM theoretical components. Subsequently, a meta-analysis was performed to explore the mechanisms of influence on health-promoting behaviors, thereby providing a theoretical foundation and literature reference for the study of interventions for miners' health-promoting behaviors.",
+      "preview_head": "With advancements in the economy and society, occupational health as a crucial component of overall human wellness has garnered increasing attention (Karanikas et al., 2022;Liem et al., 2021). The mining industry plays a role in the national economy by serving as a critical energy source that fuels high-standard societal development. However, it also presents various occupational health hazards to miners, such as pneumoconiosis, hearing loss due to noise, skin diseases, and other occupational illnesses.",
+      "preview_tail": "This research aimed to investigate the crucial factors and mechanisms influencing healthpromoting behaviors among miners using an integrated approach that combines text mining and meta-analysis techniques. Firstly, the LDA model was utilized to analyze topical keywords from literature over the last 23 years and to categorize the determinants by integrating the HBM framework and the HPM theoretical components. Subsequently, a meta-analysis was performed to explore the mechanisms of influence on health-promoting behaviors, thereby providing a theoretical foundation and literature reference for the study of interventions for miners' health-promoting behaviors.",
+      "word_count": 1585,
+      "paragraph_count": 6,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "METHOD",
+      "header_norm": "method",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "In this study, the LDA model was applied to extract the determinants of health-promoting behaviors from the literature studies in the past 23 years (2000 to 2023) based on the HPM and HBM. Subsequently, the impact mechanism of the determinants was examined based on the meta-analysis. The subsequent subsections describe the LDA model and the meta-analysis framework utilized in this research endeavor."
+      ],
+      "footnotes": [],
+      "text": "In this study, the LDA model was applied to extract the determinants of health-promoting behaviors from the literature studies in the past 23 years (2000 to 2023) based on the HPM and HBM. Subsequently, the impact mechanism of the determinants was examined based on the meta-analysis. The subsequent subsections describe the LDA model and the meta-analysis framework utilized in this research endeavor.",
+      "text_with_footnotes": "In this study, the LDA model was applied to extract the determinants of health-promoting behaviors from the literature studies in the past 23 years (2000 to 2023) based on the HPM and HBM. Subsequently, the impact mechanism of the determinants was examined based on the meta-analysis. The subsequent subsections describe the LDA model and the meta-analysis framework utilized in this research endeavor.",
+      "preview_head": "In this study, the LDA model was applied to extract the determinants of health-promoting behaviors from the literature studies in the past 23 years (2000 to 2023) based on the HPM and HBM. Subsequently, the impact mechanism of the determinants was examined based on the meta-analysis. The subsequent subsections describe the LDA model and the meta-analysis framework utilized in this research endeavor.",
+      "preview_tail": "In this study, the LDA model was applied to extract the determinants of health-promoting behaviors from the literature studies in the past 23 years (2000 to 2023) based on the HPM and HBM. Subsequently, the impact mechanism of the determinants was examined based on the meta-analysis. The subsequent subsections describe the LDA model and the meta-analysis framework utilized in this research endeavor.",
+      "word_count": 62,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "LDA modeling",
+      "header_norm": "lda modeling",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The LDA model, proposed in 2003, has gained extensive utilization within text mining (Blei et al., 2003). It assumed a document consists of multiple topics, each represented by a probability distribution. By inferring the probability distribution of words, it revealed the underlying semantic structure in the text. Identifying the factors that influence health-promoting behaviors using the LDA model was carried out in two stages. The first stage involved the construction and preprocessing of the data set. The second stage involved identifying the topics and analyzing the factors impacting health-promoting behaviors. A visual representation of the specific process can be seen in Figure 1."
+      ],
+      "footnotes": [],
+      "text": "The LDA model, proposed in 2003, has gained extensive utilization within text mining (Blei et al., 2003). It assumed a document consists of multiple topics, each represented by a probability distribution. By inferring the probability distribution of words, it revealed the underlying semantic structure in the text. Identifying the factors that influence health-promoting behaviors using the LDA model was carried out in two stages. The first stage involved the construction and preprocessing of the data set. The second stage involved identifying the topics and analyzing the factors impacting health-promoting behaviors. A visual representation of the specific process can be seen in Figure 1.",
+      "text_with_footnotes": "The LDA model, proposed in 2003, has gained extensive utilization within text mining (Blei et al., 2003). It assumed a document consists of multiple topics, each represented by a probability distribution. By inferring the probability distribution of words, it revealed the underlying semantic structure in the text. Identifying the factors that influence health-promoting behaviors using the LDA model was carried out in two stages. The first stage involved the construction and preprocessing of the data set. The second stage involved identifying the topics and analyzing the factors impacting health-promoting behaviors. A visual representation of the specific process can be seen in Figure 1.",
+      "preview_head": "The LDA model, proposed in 2003, has gained extensive utilization within text mining (Blei et al., 2003). It assumed a document consists of multiple topics, each represented by a probability distribution. By inferring the probability distribution of words, it revealed the underlying semantic structure in the text.",
+      "preview_tail": "Identifying the factors that influence health-promoting behaviors using the LDA model was carried out in two stages. The first stage involved the construction and preprocessing of the data set. The second stage involved identifying the topics and analyzing the factors impacting health-promoting behaviors. A visual representation of the specific process can be seen in Figure 1.",
+      "word_count": 103,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the application of LDA modeling in this study, including steps taken by the authors."
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "Provides background on LDA and cites foundational work (Blei et al., 2003)."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Dataset construction and preprocessing",
+      "header_norm": "dataset construction and preprocessing",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Initially, the databases relevant to the research objectives in the field of health promotion were identified, and search formulas were created to retrieve relevant literature. The critical information extracted from the articles, including the title and abstract, was utilized to develop a statistical database of papers. Subsequently, preprocessing of the dataset was conducted to form the corpus, which involved word separation and denoising. The following steps were taken: (1) A custom splitting dictionary was loaded in Anaconda 2.3.1, using Python 3.9.0 (64-bit) and the Jieba library to segment the obtained dataset. Any special characters, numbers, punctuation, symbols, and extra spaces were removed. (2) The dataset underwent denoising, which involved converting all uppercase words to lowercase, spell-checking corrections, removing prefix and suffix words, de-duplication, and removing discontinued words such as common adjectives, auxiliary words, and high-frequency intrusive technical nouns (Pahwa et al., 2018)."
+      ],
+      "footnotes": [],
+      "text": "Initially, the databases relevant to the research objectives in the field of health promotion were identified, and search formulas were created to retrieve relevant literature. The critical information extracted from the articles, including the title and abstract, was utilized to develop a statistical database of papers. Subsequently, preprocessing of the dataset was conducted to form the corpus, which involved word separation and denoising. The following steps were taken: (1) A custom splitting dictionary was loaded in Anaconda 2.3.1, using Python 3.9.0 (64-bit) and the Jieba library to segment the obtained dataset. Any special characters, numbers, punctuation, symbols, and extra spaces were removed. (2) The dataset underwent denoising, which involved converting all uppercase words to lowercase, spell-checking corrections, removing prefix and suffix words, de-duplication, and removing discontinued words such as common adjectives, auxiliary words, and high-frequency intrusive technical nouns (Pahwa et al., 2018).",
+      "text_with_footnotes": "Initially, the databases relevant to the research objectives in the field of health promotion were identified, and search formulas were created to retrieve relevant literature. The critical information extracted from the articles, including the title and abstract, was utilized to develop a statistical database of papers. Subsequently, preprocessing of the dataset was conducted to form the corpus, which involved word separation and denoising. The following steps were taken: (1) A custom splitting dictionary was loaded in Anaconda 2.3.1, using Python 3.9.0 (64-bit) and the Jieba library to segment the obtained dataset. Any special characters, numbers, punctuation, symbols, and extra spaces were removed. (2) The dataset underwent denoising, which involved converting all uppercase words to lowercase, spell-checking corrections, removing prefix and suffix words, de-duplication, and removing discontinued words such as common adjectives, auxiliary words, and high-frequency intrusive technical nouns (Pahwa et al., 2018).",
+      "preview_head": "Initially, the databases relevant to the research objectives in the field of health promotion were identified, and search formulas were created to retrieve relevant literature. The critical information extracted from the articles, including the title and abstract, was utilized to develop a statistical database of papers. Subsequently, preprocessing of the dataset was conducted to form the corpus, which involved word separation and denoising.",
+      "preview_tail": "The critical information extracted from the articles, including the title and abstract, was utilized to develop a statistical database of papers. Subsequently, preprocessing of the dataset was conducted to form the corpus, which involved word separation and denoising. The following steps were taken: (1) A custom splitting dictionary was loaded in Anaconda 2.3.1, using Python 3.9.0 (64-bit) and the Jieba library to segment the obtained dataset. Any special characters, numbers, punctuation, symbols, and extra spaces were removed. (2) The dataset underwent denoising, which involved converting all uppercase words to lowercase, spell-checking corrections, removing prefix and suffix words, de-duplication, and removing discontinued words such as common adjectives, auxiliary words, and high-frequency intrusive technical nouns (Pahwa et al., 2018).",
+      "word_count": 142,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process of dataset construction and preprocessing as performed by the authors."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Topic identification and determinant analyzing",
+      "header_norm": "topic identification and determinant analyzing",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The process of extracting and analyzing topics through the LDA was carried out on the nouns within the corpus. This was achieved by utilizing the gensim and pandas libraries. To determine the optimal number of topics, the perplexity metric was employed. The principle behind perplexity involves assigning a high probability to a language model for the test set, where a low perplexity indicates that the probability model can accurately predict new text. The relationship between the number of topics and perplexity was monitored, and when the curve of the relationship showed little change with an increasing number of topics, the inflection point was taken as the optimal number of topics (Blei et al., 2003). To further analyze the results, the pyLDAvis and wordcloud libraries were imported to generate word cloud maps of the F I G U R E 1 Latent Dirichlet allocation (LDA) modeling process. [Color figure can be viewed at wileyonlinelibrary.com] influential factors. These maps were used to identify the factors that influenced miners' healthpromoting behaviors."
+      ],
+      "footnotes": [],
+      "text": "The process of extracting and analyzing topics through the LDA was carried out on the nouns within the corpus. This was achieved by utilizing the gensim and pandas libraries. To determine the optimal number of topics, the perplexity metric was employed. The principle behind perplexity involves assigning a high probability to a language model for the test set, where a low perplexity indicates that the probability model can accurately predict new text. The relationship between the number of topics and perplexity was monitored, and when the curve of the relationship showed little change with an increasing number of topics, the inflection point was taken as the optimal number of topics (Blei et al., 2003). To further analyze the results, the pyLDAvis and wordcloud libraries were imported to generate word cloud maps of the F I G U R E 1 Latent Dirichlet allocation (LDA) modeling process. [Color figure can be viewed at wileyonlinelibrary.com] influential factors. These maps were used to identify the factors that influenced miners' healthpromoting behaviors.",
+      "text_with_footnotes": "The process of extracting and analyzing topics through the LDA was carried out on the nouns within the corpus. This was achieved by utilizing the gensim and pandas libraries. To determine the optimal number of topics, the perplexity metric was employed. The principle behind perplexity involves assigning a high probability to a language model for the test set, where a low perplexity indicates that the probability model can accurately predict new text. The relationship between the number of topics and perplexity was monitored, and when the curve of the relationship showed little change with an increasing number of topics, the inflection point was taken as the optimal number of topics (Blei et al., 2003). To further analyze the results, the pyLDAvis and wordcloud libraries were imported to generate word cloud maps of the F I G U R E 1 Latent Dirichlet allocation (LDA) modeling process. [Color figure can be viewed at wileyonlinelibrary.com] influential factors. These maps were used to identify the factors that influenced miners' healthpromoting behaviors.",
+      "preview_head": "The process of extracting and analyzing topics through the LDA was carried out on the nouns within the corpus. This was achieved by utilizing the gensim and pandas libraries. To determine the optimal number of topics, the perplexity metric was employed. The principle behind perplexity involves assigning a high probability to a language model for the test set, where a low perplexity indicates that the probability model can accurately predict new text.",
+      "preview_tail": "The relationship between the number of topics and perplexity was monitored, and when the curve of the relationship showed little change with an increasing number of topics, the inflection point was taken as the optimal number of topics (Blei et al., 2003). To further analyze the results, the pyLDAvis and wordcloud libraries were imported to generate word cloud maps of the F I G U R E 1 Latent Dirichlet allocation (LDA) modeling process. [Color figure can be viewed at wileyonlinelibrary.com] influential factors. These maps were used to identify the factors that influenced miners' healthpromoting behaviors.",
+      "word_count": 168,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the process of topic identification and determinant analysis using LDA, including technical/"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process of extracting and analyzing topics, including use of specific libraries and a"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Meta-analysis technique",
+      "header_norm": "meta analysis technique",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Meta-analysis was a method for exploring individual research results, examining the sources of differences between the results, and synthesizing results with sufficient similarity. To conduct the meta-analysis recommended by Hunter et al. (Hunter & Schmidt, 2004), there were three steps to follow: (1) data collection, (2) document coding, and (3) data analysis, which involves effect size standardization and overall effect size calculation."
+      ],
+      "footnotes": [],
+      "text": "Meta-analysis was a method for exploring individual research results, examining the sources of differences between the results, and synthesizing results with sufficient similarity. To conduct the meta-analysis recommended by Hunter et al. (Hunter & Schmidt, 2004), there were three steps to follow: (1) data collection, (2) document coding, and (3) data analysis, which involves effect size standardization and overall effect size calculation.",
+      "text_with_footnotes": "Meta-analysis was a method for exploring individual research results, examining the sources of differences between the results, and synthesizing results with sufficient similarity. To conduct the meta-analysis recommended by Hunter et al. (Hunter & Schmidt, 2004), there were three steps to follow: (1) data collection, (2) document coding, and (3) data analysis, which involves effect size standardization and overall effect size calculation.",
+      "preview_head": "Meta-analysis was a method for exploring individual research results, examining the sources of differences between the results, and synthesizing results with sufficient similarity. To conduct the meta-analysis recommended by Hunter et al. (Hunter & Schmidt, 2004), there were three steps to follow: (1) data collection, (2) document coding, and (3) data analysis, which involves effect size standardization and overall effect size calculation.",
+      "preview_tail": "Meta-analysis was a method for exploring individual research results, examining the sources of differences between the results, and synthesizing results with sufficient similarity. To conduct the meta-analysis recommended by Hunter et al. (Hunter & Schmidt, 2004), there were three steps to follow: (1) data collection, (2) document coding, and (3) data analysis, which involves effect size standardization and overall effect size calculation.",
+      "word_count": 62,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the meta-analysis technique as applied in this study, including steps taken by the authors"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "Provides some background and citation to Hunter & Schmidt (2004) on meta-analysis."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Data collection",
+      "header_norm": "data collection",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This meta-analysis involved gathering empirical literature on the study topic as exhaustively as feasible to minimize publication bias. After establishing the inclusion and exclusion criteria, the study screened the literature obtained during the topic identification process using the LDA model. The literature included in the analysis had to meet four main criteria. First, it had to examine the relationship between one or more variables influencing health-promoting behaviors in the coal mining industry. Second, it had to be empirical and contain codable data, such as correlation coefficients (R-values), path coefficients (β-values), t-test statistics (t-values), and F-test statistics (F-values). Third, the studies had to have independent samples, with preference given to studies with larger sample sizes or more detailed content in the case of overlapping or cross-sample studies. Fourth, the quality of literature was assessed using the Loney criterion, which is more widely used in cross-sectional studies (Loney et al., 1998). There were eight entries within this criterion, with a score out of 8. Scores of 0 to 3, 4 to 6, and 7 to 8 were classified as low, medium, and high-quality literature. Only medium-and high-quality literature were included."
+      ],
+      "footnotes": [],
+      "text": "This meta-analysis involved gathering empirical literature on the study topic as exhaustively as feasible to minimize publication bias. After establishing the inclusion and exclusion criteria, the study screened the literature obtained during the topic identification process using the LDA model. The literature included in the analysis had to meet four main criteria. First, it had to examine the relationship between one or more variables influencing health-promoting behaviors in the coal mining industry. Second, it had to be empirical and contain codable data, such as correlation coefficients (R-values), path coefficients (β-values), t-test statistics (t-values), and F-test statistics (F-values). Third, the studies had to have independent samples, with preference given to studies with larger sample sizes or more detailed content in the case of overlapping or cross-sample studies. Fourth, the quality of literature was assessed using the Loney criterion, which is more widely used in cross-sectional studies (Loney et al., 1998). There were eight entries within this criterion, with a score out of 8. Scores of 0 to 3, 4 to 6, and 7 to 8 were classified as low, medium, and high-quality literature. Only medium-and high-quality literature were included.",
+      "text_with_footnotes": "This meta-analysis involved gathering empirical literature on the study topic as exhaustively as feasible to minimize publication bias. After establishing the inclusion and exclusion criteria, the study screened the literature obtained during the topic identification process using the LDA model. The literature included in the analysis had to meet four main criteria. First, it had to examine the relationship between one or more variables influencing health-promoting behaviors in the coal mining industry. Second, it had to be empirical and contain codable data, such as correlation coefficients (R-values), path coefficients (β-values), t-test statistics (t-values), and F-test statistics (F-values). Third, the studies had to have independent samples, with preference given to studies with larger sample sizes or more detailed content in the case of overlapping or cross-sample studies. Fourth, the quality of literature was assessed using the Loney criterion, which is more widely used in cross-sectional studies (Loney et al., 1998). There were eight entries within this criterion, with a score out of 8. Scores of 0 to 3, 4 to 6, and 7 to 8 were classified as low, medium, and high-quality literature. Only medium-and high-quality literature were included.",
+      "preview_head": "This meta-analysis involved gathering empirical literature on the study topic as exhaustively as feasible to minimize publication bias. After establishing the inclusion and exclusion criteria, the study screened the literature obtained during the topic identification process using the LDA model. The literature included in the analysis had to meet four main criteria.",
+      "preview_tail": "There were eight entries within this criterion, with a score out of 8. Scores of 0 to 3, 4 to 6, and 7 to 8 were classified as low, medium, and high-quality literature. Only medium-and high-quality literature were included.",
+      "word_count": 188,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*data\\s+(collection|sources"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*data\\s+(collection|sources",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Document coding",
+      "header_norm": "document coding",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "In this study, the coded data were initially categorized based on their type. This research examined both the study characteristics and effect values. The study characteristics included the authors, title, publication year, journal, variables being studied, and sample size. The effect values were focused on statistics related to R-values, such as β-values, t-values, and F-values. The statistical analysis also included the reliability coefficients for both independent and dependent variables. Finally, a secondary coding process was implemented on the selected literature to rectify any inconsistencies in coding. Any identified errors were traced back to the source to ensure accuracy and finalize the results."
+      ],
+      "footnotes": [],
+      "text": "In this study, the coded data were initially categorized based on their type. This research examined both the study characteristics and effect values. The study characteristics included the authors, title, publication year, journal, variables being studied, and sample size. The effect values were focused on statistics related to R-values, such as β-values, t-values, and F-values. The statistical analysis also included the reliability coefficients for both independent and dependent variables. Finally, a secondary coding process was implemented on the selected literature to rectify any inconsistencies in coding. Any identified errors were traced back to the source to ensure accuracy and finalize the results.",
+      "text_with_footnotes": "In this study, the coded data were initially categorized based on their type. This research examined both the study characteristics and effect values. The study characteristics included the authors, title, publication year, journal, variables being studied, and sample size. The effect values were focused on statistics related to R-values, such as β-values, t-values, and F-values. The statistical analysis also included the reliability coefficients for both independent and dependent variables. Finally, a secondary coding process was implemented on the selected literature to rectify any inconsistencies in coding. Any identified errors were traced back to the source to ensure accuracy and finalize the results.",
+      "preview_head": "In this study, the coded data were initially categorized based on their type. This research examined both the study characteristics and effect values. The study characteristics included the authors, title, publication year, journal, variables being studied, and sample size.",
+      "preview_tail": "The statistical analysis also included the reliability coefficients for both independent and dependent variables. Finally, a secondary coding process was implemented on the selected literature to rectify any inconsistencies in coding. Any identified errors were traced back to the source to ensure accuracy and finalize the results.",
+      "word_count": 102,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the document coding process and data categorization as performed by the authors."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Analysis procedure",
+      "header_norm": "analysis procedure",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The procedure consisted of three main stages, beginning with a descriptive analysis of each pairwise relationship concerning health-promoting behaviors. The conceptual framework and relevant literature informed this analysis to establish the significance of each construct. The stability and consistency of the model measurements were then evaluated by examining the reliability of each construct. Finally, the researchers utilized the meta-analysis paradigm to determine the effect values, 95% confidence intervals (CI), and 80% coefficient of variation (CV). A 95% CI that did not contain 0 indicated that the effect values were statistically significant. In comparison, the absence of 0 in the 80% CV signified low variability among the independent samples from various studies (Hunter & Schmidt, 2004)."
+      ],
+      "footnotes": [],
+      "text": "The procedure consisted of three main stages, beginning with a descriptive analysis of each pairwise relationship concerning health-promoting behaviors. The conceptual framework and relevant literature informed this analysis to establish the significance of each construct. The stability and consistency of the model measurements were then evaluated by examining the reliability of each construct. Finally, the researchers utilized the meta-analysis paradigm to determine the effect values, 95% confidence intervals (CI), and 80% coefficient of variation (CV). A 95% CI that did not contain 0 indicated that the effect values were statistically significant. In comparison, the absence of 0 in the 80% CV signified low variability among the independent samples from various studies (Hunter & Schmidt, 2004).",
+      "text_with_footnotes": "The procedure consisted of three main stages, beginning with a descriptive analysis of each pairwise relationship concerning health-promoting behaviors. The conceptual framework and relevant literature informed this analysis to establish the significance of each construct. The stability and consistency of the model measurements were then evaluated by examining the reliability of each construct. Finally, the researchers utilized the meta-analysis paradigm to determine the effect values, 95% confidence intervals (CI), and 80% coefficient of variation (CV). A 95% CI that did not contain 0 indicated that the effect values were statistically significant. In comparison, the absence of 0 in the 80% CV signified low variability among the independent samples from various studies (Hunter & Schmidt, 2004).",
+      "preview_head": "The procedure consisted of three main stages, beginning with a descriptive analysis of each pairwise relationship concerning health-promoting behaviors. The conceptual framework and relevant literature informed this analysis to establish the significance of each construct. The stability and consistency of the model measurements were then evaluated by examining the reliability of each construct.",
+      "preview_tail": "Finally, the researchers utilized the meta-analysis paradigm to determine the effect values, 95% confidence intervals (CI), and 80% coefficient of variation (CV). A 95% CI that did not contain 0 indicated that the effect values were statistically significant. In comparison, the absence of 0 in the 80% CV signified low variability among the independent samples from various studies (Hunter & Schmidt, 2004).",
+      "word_count": 115,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Outlines the analysis procedure, including descriptive analysis and meta-analysis steps performed by"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analysis procedure, including descriptive and meta-analytic steps performed by the aut"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "RESULTS",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "_container_demoted": true,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*results?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*results?\\s*$",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Results of the LDA topic analysis",
+      "header_norm": "results of the lda topic analysis",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Topic identification",
+      "header_norm": "topic identification",
+      "container_raw": "Results of the LDA topic analysis",
+      "container_norm": "results of the lda topic analysis",
+      "is_container": false,
+      "paragraphs": [
+        "In January 2023, a systematic literature search was conducted across seven databases: Google Scholar, Web of Science, PubMed Central, Scopus, Engineering Village, Cumulative Index to Nursing and Allied Health Literature, and APA PsycNet. Through this research and expert input, a search formula was established as follows: TI = ((\"coal worker\" or mine* or mining or \"blue collar worker\") and (health* or safe* or protect*) and behavio*) or AB = ((\"coal worker\" or mine* or mining or \"blue collar worker\") and (health* or safe* or protect*) and behavio*) and PY = (2000-2023). The initial search resulted in 8197 documents, from which relevant information including titles and abstracts were extracted to complete the data collection. After extracting relevant information from these documents, the data were preprocessed to form a corpus containing 4165 nouns. A topic modeling analysis was then conducted on these nouns, with the number of topics set at 11, which resulted in a stabilized decline in model perplexity. The top 50 keywords were selected under each topic and analyzed visually to determine the thematic content of the determinants. Part of the word clouds were presented in Figure 2, and the top 10 keywords with the strongest ability to reflect determinants in the distribution of each topic were displayed in Table 1."
+      ],
+      "footnotes": [],
+      "text": "In January 2023, a systematic literature search was conducted across seven databases: Google Scholar, Web of Science, PubMed Central, Scopus, Engineering Village, Cumulative Index to Nursing and Allied Health Literature, and APA PsycNet. Through this research and expert input, a search formula was established as follows: TI = ((\"coal worker\" or mine* or mining or \"blue collar worker\") and (health* or safe* or protect*) and behavio*) or AB = ((\"coal worker\" or mine* or mining or \"blue collar worker\") and (health* or safe* or protect*) and behavio*) and PY = (2000-2023). The initial search resulted in 8197 documents, from which relevant information including titles and abstracts were extracted to complete the data collection. After extracting relevant information from these documents, the data were preprocessed to form a corpus containing 4165 nouns. A topic modeling analysis was then conducted on these nouns, with the number of topics set at 11, which resulted in a stabilized decline in model perplexity. The top 50 keywords were selected under each topic and analyzed visually to determine the thematic content of the determinants. Part of the word clouds were presented in Figure 2, and the top 10 keywords with the strongest ability to reflect determinants in the distribution of each topic were displayed in Table 1.",
+      "text_with_footnotes": "In January 2023, a systematic literature search was conducted across seven databases: Google Scholar, Web of Science, PubMed Central, Scopus, Engineering Village, Cumulative Index to Nursing and Allied Health Literature, and APA PsycNet. Through this research and expert input, a search formula was established as follows: TI = ((\"coal worker\" or mine* or mining or \"blue collar worker\") and (health* or safe* or protect*) and behavio*) or AB = ((\"coal worker\" or mine* or mining or \"blue collar worker\") and (health* or safe* or protect*) and behavio*) and PY = (2000-2023). The initial search resulted in 8197 documents, from which relevant information including titles and abstracts were extracted to complete the data collection. After extracting relevant information from these documents, the data were preprocessed to form a corpus containing 4165 nouns. A topic modeling analysis was then conducted on these nouns, with the number of topics set at 11, which resulted in a stabilized decline in model perplexity. The top 50 keywords were selected under each topic and analyzed visually to determine the thematic content of the determinants. Part of the word clouds were presented in Figure 2, and the top 10 keywords with the strongest ability to reflect determinants in the distribution of each topic were displayed in Table 1.",
+      "preview_head": "In January 2023, a systematic literature search was conducted across seven databases: Google Scholar, Web of Science, PubMed Central, Scopus, Engineering Village, Cumulative Index to Nursing and Allied Health Literature, and APA PsycNet. Through this research and expert input, a search formula was established as follows: TI = ((\"coal worker\" or mine* or mining or \"blue collar worker\") and (health* or safe* or protect*) and behavio*) or AB = ((\"coal worker\" or mine* or mining or \"blue collar worker\") and (health* or safe* or protect*) and behavio*) and PY = (2000-2023). The initial search resulted in 8197 documents, from which relevant information including titles and abstracts were extracted to complete the data collection. After extracting relevant information from these documents, the data were preprocessed to form a corpus containing 4165 nouns.",
+      "preview_tail": "A topic modeling analysis was then conducted on these nouns, with the number of topics set at 11, which resulted in a stabilized decline in model perplexity. The top 50 keywords were selected under each topic and analyzed visually to determine the thematic content of the determinants. Part of the word clouds were presented in Figure 2, and the top 10 keywords with the strongest ability to reflect determinants in the distribution of each topic were displayed in Table 1.",
+      "word_count": 211,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the systematic literature search and topic modeling analysis as performed by the authors."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Determinant analyzing",
+      "header_norm": "determinant analyzing",
+      "container_raw": "Results of the LDA topic analysis",
+      "container_norm": "results of the lda topic analysis",
+      "is_container": false,
+      "paragraphs": [
+        "Two experts scrutinized and labeled each clustered determinant. If the categories of the determinants did not agree, they were referred to a third expert for determinant extraction until a consensus was negotiated. The present study categorized the 11 previously mentioned topics into four levels guided by the HPM and HBM. The four levels encompass the physical environment, psychosocial environment, individual characteristics, and health beliefs. The 11 topics were consolidated into 11 crucial determinants, as highlighted in Table 2. The conceptual model was visually represented in Figure 3 and was founded on prior theoretical frameworks.",
+        "The reliability of the determinants was assessed by calculating Cohen's Kappa coefficient to determine whether these factors were trustworthy (Cohen, 1960;Landis & Koch, 1977). Two experts (hereinafter referred to as expert A and expert B) independent of our study were asked to extract determinants in the 300 randomly sampled literature titles and abstracts based on the HPM and HBM. They were given prior knowledge about the categories of determinants. Expert A did not know how expert B labeled each piece of literature and vice versa. The degree of"
+      ],
+      "footnotes": [],
+      "text": "Two experts scrutinized and labeled each clustered determinant. If the categories of the determinants did not agree, they were referred to a third expert for determinant extraction until a consensus was negotiated. The present study categorized the 11 previously mentioned topics into four levels guided by the HPM and HBM. The four levels encompass the physical environment, psychosocial environment, individual characteristics, and health beliefs. The 11 topics were consolidated into 11 crucial determinants, as highlighted in Table 2. The conceptual model was visually represented in Figure 3 and was founded on prior theoretical frameworks.\n\nThe reliability of the determinants was assessed by calculating Cohen's Kappa coefficient to determine whether these factors were trustworthy (Cohen, 1960;Landis & Koch, 1977). Two experts (hereinafter referred to as expert A and expert B) independent of our study were asked to extract determinants in the 300 randomly sampled literature titles and abstracts based on the HPM and HBM. They were given prior knowledge about the categories of determinants. Expert A did not know how expert B labeled each piece of literature and vice versa. The degree of",
+      "text_with_footnotes": "Two experts scrutinized and labeled each clustered determinant. If the categories of the determinants did not agree, they were referred to a third expert for determinant extraction until a consensus was negotiated. The present study categorized the 11 previously mentioned topics into four levels guided by the HPM and HBM. The four levels encompass the physical environment, psychosocial environment, individual characteristics, and health beliefs. The 11 topics were consolidated into 11 crucial determinants, as highlighted in Table 2. The conceptual model was visually represented in Figure 3 and was founded on prior theoretical frameworks.\n\nThe reliability of the determinants was assessed by calculating Cohen's Kappa coefficient to determine whether these factors were trustworthy (Cohen, 1960;Landis & Koch, 1977). Two experts (hereinafter referred to as expert A and expert B) independent of our study were asked to extract determinants in the 300 randomly sampled literature titles and abstracts based on the HPM and HBM. They were given prior knowledge about the categories of determinants. Expert A did not know how expert B labeled each piece of literature and vice versa. The degree of",
+      "preview_head": "Two experts scrutinized and labeled each clustered determinant. If the categories of the determinants did not agree, they were referred to a third expert for determinant extraction until a consensus was negotiated. The present study categorized the 11 previously mentioned topics into four levels guided by the HPM and HBM. The four levels encompass the physical environment, psychosocial environment, individual characteristics, and health beliefs.",
+      "preview_tail": "They were given prior knowledge about the categories of determinants. Expert A did not know how expert B labeled each piece of literature and vice versa. The degree of",
+      "word_count": 182,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process of determinant analysis and expert labeling as performed by the authors."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Topics Keywords",
+      "header_norm": "topics keywords",
+      "container_raw": "Results of the LDA topic analysis",
+      "container_norm": "results of the lda topic analysis",
+      "is_container": false,
+      "paragraphs": [
+        "Support, treatment, strength, social, leadership, network, management, norms, relationship, performance Perception, risk, severity, susceptibility, control, process, mental, part, psychological, conditions Benefit, status, personal, efficiency, evaluate, belief, information, behavioral, level, supplements",
+        "Efficiency, belief, self, physical, factors, engage, conditions, rigorous, development, mental Training, culture, information, policy, methods, influence, change, organization, management, support Smoking, conditions, lifestyle, dietary, knowledge, capability, strength, level, potential, fruit Attitude, disease, engagement, performance, attention, level, potential, benefit, interventions, mechanism Physical, status, body, elderly, dietary, supplements, intake, illness, nutrition, activity Protection, risk, equipment, injury, time, methods, overload, care, shift, control Noise, environmental, hearing, equipment, risk, elements, concentrations, conditions, mechanical, natural Characteristics, income, samples, economy, year, level, family, work, demographic, status",
+        "The determinants of health-promoting behaviors."
+      ],
+      "footnotes": [],
+      "text": "Support, treatment, strength, social, leadership, network, management, norms, relationship, performance Perception, risk, severity, susceptibility, control, process, mental, part, psychological, conditions Benefit, status, personal, efficiency, evaluate, belief, information, behavioral, level, supplements\n\nEfficiency, belief, self, physical, factors, engage, conditions, rigorous, development, mental Training, culture, information, policy, methods, influence, change, organization, management, support Smoking, conditions, lifestyle, dietary, knowledge, capability, strength, level, potential, fruit Attitude, disease, engagement, performance, attention, level, potential, benefit, interventions, mechanism Physical, status, body, elderly, dietary, supplements, intake, illness, nutrition, activity Protection, risk, equipment, injury, time, methods, overload, care, shift, control Noise, environmental, hearing, equipment, risk, elements, concentrations, conditions, mechanical, natural Characteristics, income, samples, economy, year, level, family, work, demographic, status\n\nThe determinants of health-promoting behaviors.",
+      "text_with_footnotes": "Support, treatment, strength, social, leadership, network, management, norms, relationship, performance Perception, risk, severity, susceptibility, control, process, mental, part, psychological, conditions Benefit, status, personal, efficiency, evaluate, belief, information, behavioral, level, supplements\n\nEfficiency, belief, self, physical, factors, engage, conditions, rigorous, development, mental Training, culture, information, policy, methods, influence, change, organization, management, support Smoking, conditions, lifestyle, dietary, knowledge, capability, strength, level, potential, fruit Attitude, disease, engagement, performance, attention, level, potential, benefit, interventions, mechanism Physical, status, body, elderly, dietary, supplements, intake, illness, nutrition, activity Protection, risk, equipment, injury, time, methods, overload, care, shift, control Noise, environmental, hearing, equipment, risk, elements, concentrations, conditions, mechanical, natural Characteristics, income, samples, economy, year, level, family, work, demographic, status\n\nThe determinants of health-promoting behaviors.",
+      "preview_head": "Support, treatment, strength, social, leadership, network, management, norms, relationship, performance Perception, risk, severity, susceptibility, control, process, mental, part, psychological, conditions Benefit, status, personal, efficiency, evaluate, belief, information, behavioral, level, supplements",
+      "preview_tail": "The determinants of health-promoting behaviors.",
+      "word_count": 115,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the keywords and determinants identified from the analysis, reporting findings."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Topics Factors Definition",
+      "header_norm": "topics factors definition",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Interpersonal relationships",
+      "header_norm": "interpersonal relationships",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "The psychological relationship or psychological distance that people form in the process of interpersonal interaction (Berscheid, 1994)"
+      ],
+      "footnotes": [],
+      "text": "The psychological relationship or psychological distance that people form in the process of interpersonal interaction (Berscheid, 1994)",
+      "text_with_footnotes": "The psychological relationship or psychological distance that people form in the process of interpersonal interaction (Berscheid, 1994)",
+      "preview_head": "The psychological relationship or psychological distance that people form in the process of interpersonal interaction (Berscheid, 1994)",
+      "preview_tail": "The psychological relationship or psychological distance that people form in the process of interpersonal interaction (Berscheid, 1994)",
+      "word_count": 17,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Provides a theoretical definition of interpersonal relationships, citing prior literature (Berscheid"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Provides a theoretical definition of interpersonal relationships, citing prior literature (Berscheid"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Perceived threat",
+      "header_norm": "perceived threat",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "Belief about the chances of experiencing a condition and how serious the condition and its sequelae are (Janz & Becker, 1984)"
+      ],
+      "footnotes": [],
+      "text": "Belief about the chances of experiencing a condition and how serious the condition and its sequelae are (Janz & Becker, 1984)",
+      "text_with_footnotes": "Belief about the chances of experiencing a condition and how serious the condition and its sequelae are (Janz & Becker, 1984)",
+      "preview_head": "Belief about the chances of experiencing a condition and how serious the condition and its sequelae are (Janz & Becker, 1984)",
+      "preview_tail": "Belief about the chances of experiencing a condition and how serious the condition and its sequelae are (Janz & Becker, 1984)",
+      "word_count": 21,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Provides a theoretical definition of perceived threat, citing prior literature (Janz & Becker, 1984"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Perceived benefits",
+      "header_norm": "perceived benefits",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "Belief in efficacy of the advised action to reduce risk or seriousness of impact (Janz & Becker, 1984)"
+      ],
+      "footnotes": [],
+      "text": "Belief in efficacy of the advised action to reduce risk or seriousness of impact (Janz & Becker, 1984)",
+      "text_with_footnotes": "Belief in efficacy of the advised action to reduce risk or seriousness of impact (Janz & Becker, 1984)",
+      "preview_head": "Belief in efficacy of the advised action to reduce risk or seriousness of impact (Janz & Becker, 1984)",
+      "preview_tail": "Belief in efficacy of the advised action to reduce risk or seriousness of impact (Janz & Becker, 1984)",
+      "word_count": 18,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Provides a theoretical definition of perceived benefits, citing prior literature (Janz & Becker, 198"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "Self-efficiency",
+      "header_norm": "self efficiency",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "Confidence in one's ability to take health-promoting behavior (Janz & Becker, 1984) Health culture A working environment in which employee health and safety are valued, supported, and promoted through worksite health and well-being programs, policies, benefits, and environmental supports (Safeer & Allen, 2019)"
+      ],
+      "footnotes": [],
+      "text": "Confidence in one's ability to take health-promoting behavior (Janz & Becker, 1984) Health culture A working environment in which employee health and safety are valued, supported, and promoted through worksite health and well-being programs, policies, benefits, and environmental supports (Safeer & Allen, 2019)",
+      "text_with_footnotes": "Confidence in one's ability to take health-promoting behavior (Janz & Becker, 1984) Health culture A working environment in which employee health and safety are valued, supported, and promoted through worksite health and well-being programs, policies, benefits, and environmental supports (Safeer & Allen, 2019)",
+      "preview_head": "Confidence in one's ability to take health-promoting behavior (Janz & Becker, 1984) Health culture A working environment in which employee health and safety are valued, supported, and promoted through worksite health and well-being programs, policies, benefits, and environmental supports (Safeer & Allen, 2019)",
+      "preview_tail": "Confidence in one's ability to take health-promoting behavior (Janz & Becker, 1984) Health culture A working environment in which employee health and safety are valued, supported, and promoted through worksite health and well-being programs, policies, benefits, and environmental supports (Safeer & Allen, 2019)",
+      "word_count": 43,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides definitions of constructs (self-efficacy, health culture) with citations to prior, "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides definitions of constructs (self-efficacy, health culture) with citations to prior, "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Health literacy",
+      "header_norm": "health literacy",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "The degree to which individuals have the ability to find, understand, and use information and services to inform health-promoting behaviors for themselves and others (Berkman et al., 2010)"
+      ],
+      "footnotes": [],
+      "text": "The degree to which individuals have the ability to find, understand, and use information and services to inform health-promoting behaviors for themselves and others (Berkman et al., 2010)",
+      "text_with_footnotes": "The degree to which individuals have the ability to find, understand, and use information and services to inform health-promoting behaviors for themselves and others (Berkman et al., 2010)",
+      "preview_head": "The degree to which individuals have the ability to find, understand, and use information and services to inform health-promoting behaviors for themselves and others (Berkman et al., 2010)",
+      "preview_tail": "The degree to which individuals have the ability to find, understand, and use information and services to inform health-promoting behaviors for themselves and others (Berkman et al., 2010)",
+      "word_count": 28,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section defines 'health literacy' and cites prior literature (Berkman et al., 2010), indicating a  "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Health attitude",
+      "header_norm": "health attitude",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "Individuals' affective reactions to health-promoting behaviors (Lawton et al., 2009)"
+      ],
+      "footnotes": [],
+      "text": "Individuals' affective reactions to health-promoting behaviors (Lawton et al., 2009)",
+      "text_with_footnotes": "Individuals' affective reactions to health-promoting behaviors (Lawton et al., 2009)",
+      "preview_head": "Individuals' affective reactions to health-promoting behaviors (Lawton et al., 2009)",
+      "preview_tail": "Individuals' affective reactions to health-promoting behaviors (Lawton et al., 2009)",
+      "word_count": 10,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section defines 'health attitude' and cites prior literature (Lawton et al., 2009), indicating a  "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "Health status",
+      "header_norm": "health status",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "Psychological or physical state of the individual (Kunar et al., 2008) Protective equipment Devices to protect individuals from health risks (Akbar-Khanzadeh et al., 1995)"
+      ],
+      "footnotes": [],
+      "text": "Psychological or physical state of the individual (Kunar et al., 2008) Protective equipment Devices to protect individuals from health risks (Akbar-Khanzadeh et al., 1995)",
+      "text_with_footnotes": "Psychological or physical state of the individual (Kunar et al., 2008) Protective equipment Devices to protect individuals from health risks (Akbar-Khanzadeh et al., 1995)",
+      "preview_head": "Psychological or physical state of the individual (Kunar et al., 2008) Protective equipment Devices to protect individuals from health risks (Akbar-Khanzadeh et al., 1995)",
+      "preview_tail": "Psychological or physical state of the individual (Kunar et al., 2008) Protective equipment Devices to protect individuals from health risks (Akbar-Khanzadeh et al., 1995)",
+      "word_count": 24,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section defines 'health status' and 'protective equipment' with citations to prior literature,  "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Noise",
+      "header_norm": "noise",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "Sound that affects individual work or rest (Black, 1986)"
+      ],
+      "footnotes": [],
+      "text": "Sound that affects individual work or rest (Black, 1986)",
+      "text_with_footnotes": "Sound that affects individual work or rest (Black, 1986)",
+      "preview_head": "Sound that affects individual work or rest (Black, 1986)",
+      "preview_tail": "Sound that affects individual work or rest (Black, 1986)",
+      "word_count": 9,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section defines 'noise' and cites prior literature (Black, 1986), indicating a theoretical  "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 24,
+      "depth": 0,
+      "header_raw": "Income",
+      "header_norm": "income",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "The sum of wages received by individuals in a certain period (Adelman & Robinson, 1989) agreement among experts on the determinants was relatively high, with Cohen's Kappa coefficient greater than 0.7. It indicated that the determinants obtained from keywords were reliable to some extent."
+      ],
+      "footnotes": [],
+      "text": "The sum of wages received by individuals in a certain period (Adelman & Robinson, 1989) agreement among experts on the determinants was relatively high, with Cohen's Kappa coefficient greater than 0.7. It indicated that the determinants obtained from keywords were reliable to some extent.",
+      "text_with_footnotes": "The sum of wages received by individuals in a certain period (Adelman & Robinson, 1989) agreement among experts on the determinants was relatively high, with Cohen's Kappa coefficient greater than 0.7. It indicated that the determinants obtained from keywords were reliable to some extent.",
+      "preview_head": "The sum of wages received by individuals in a certain period (Adelman & Robinson, 1989) agreement among experts on the determinants was relatively high, with Cohen's Kappa coefficient greater than 0.7. It indicated that the determinants obtained from keywords were reliable to some extent.",
+      "preview_tail": "The sum of wages received by individuals in a certain period (Adelman & Robinson, 1989) agreement among experts on the determinants was relatively high, with Cohen's Kappa coefficient greater than 0.7. It indicated that the determinants obtained from keywords were reliable to some extent.",
+      "word_count": 44,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section defines 'income' with citation (Adelman & Robinson, 1989), which is a theoretical/literature"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions agreement among experts and Cohen's Kappa coefficient, reporting a result about reliability"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 25,
+      "depth": 0,
+      "header_raw": "Results of the meta-analysis",
+      "header_norm": "results of the meta analysis",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "Meta-analysis ultimately integrated 51 journal papers, comprising a total of 51 independent samples with a combined sample size of 27,451 individuals. Dissertations, conference papers,"
+      ],
+      "footnotes": [],
+      "text": "Meta-analysis ultimately integrated 51 journal papers, comprising a total of 51 independent samples with a combined sample size of 27,451 individuals. Dissertations, conference papers,",
+      "text_with_footnotes": "Meta-analysis ultimately integrated 51 journal papers, comprising a total of 51 independent samples with a combined sample size of 27,451 individuals. Dissertations, conference papers,",
+      "preview_head": "Meta-analysis ultimately integrated 51 journal papers, comprising a total of 51 independent samples with a combined sample size of 27,451 individuals. Dissertations, conference papers,",
+      "preview_tail": "Meta-analysis ultimately integrated 51 journal papers, comprising a total of 51 independent samples with a combined sample size of 27,451 individuals. Dissertations, conference papers,",
+      "word_count": 24,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the meta-analysis process, number of papers, and sample size, which are methodological  "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Begins to report the outcome of the meta-analysis (number of studies, sample size), which is a  "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.9,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 26,
+      "depth": 0,
+      "header_raw": "Descriptive statistics",
+      "header_norm": "descriptive statistics",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "Table 3 presented a depiction of the correlation between the determinants and healthpromoting behaviors. On average, each pathway had a sample size of over 250 participants.",
+        "Interpersonal relationships and health-promoting behaviors were thoroughly studied, with nine significant and two nonsignificant correlation coefficients. Other well-studied pathways included perceived threat and health-promoting behaviors (nine studies), health literacy and health-promoting behaviors (eight studies), self-efficacy and health-promoting behaviors (eight studies), and health literacy and perceived threat (eight studies), with significance rates of over 80%. However, there were fewer studies examining the relationship between health beliefs and health-promoting behaviors and even fewer studies exploring the relationship between modifying factors and health beliefs. This indicated that the majority of current research on healthpromoting behaviors focuses on the link between health beliefs and behaviors while neglecting the connection between modifying factors and health beliefs."
+      ],
+      "footnotes": [],
+      "text": "Table 3 presented a depiction of the correlation between the determinants and healthpromoting behaviors. On average, each pathway had a sample size of over 250 participants.\n\nInterpersonal relationships and health-promoting behaviors were thoroughly studied, with nine significant and two nonsignificant correlation coefficients. Other well-studied pathways included perceived threat and health-promoting behaviors (nine studies), health literacy and health-promoting behaviors (eight studies), self-efficacy and health-promoting behaviors (eight studies), and health literacy and perceived threat (eight studies), with significance rates of over 80%. However, there were fewer studies examining the relationship between health beliefs and health-promoting behaviors and even fewer studies exploring the relationship between modifying factors and health beliefs. This indicated that the majority of current research on healthpromoting behaviors focuses on the link between health beliefs and behaviors while neglecting the connection between modifying factors and health beliefs.",
+      "text_with_footnotes": "Table 3 presented a depiction of the correlation between the determinants and healthpromoting behaviors. On average, each pathway had a sample size of over 250 participants.\n\nInterpersonal relationships and health-promoting behaviors were thoroughly studied, with nine significant and two nonsignificant correlation coefficients. Other well-studied pathways included perceived threat and health-promoting behaviors (nine studies), health literacy and health-promoting behaviors (eight studies), self-efficacy and health-promoting behaviors (eight studies), and health literacy and perceived threat (eight studies), with significance rates of over 80%. However, there were fewer studies examining the relationship between health beliefs and health-promoting behaviors and even fewer studies exploring the relationship between modifying factors and health beliefs. This indicated that the majority of current research on healthpromoting behaviors focuses on the link between health beliefs and behaviors while neglecting the connection between modifying factors and health beliefs.",
+      "preview_head": "Table 3 presented a depiction of the correlation between the determinants and healthpromoting behaviors. On average, each pathway had a sample size of over 250 participants.",
+      "preview_tail": "Other well-studied pathways included perceived threat and health-promoting behaviors (nine studies), health literacy and health-promoting behaviors (eight studies), self-efficacy and health-promoting behaviors (eight studies), and health literacy and perceived threat (eight studies), with significance rates of over 80%. However, there were fewer studies examining the relationship between health beliefs and health-promoting behaviors and even fewer studies exploring the relationship between modifying factors and health beliefs. This indicated that the majority of current research on healthpromoting behaviors focuses on the link between health beliefs and behaviors while neglecting the connection between modifying factors and health beliefs.",
+      "word_count": 137,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*descriptive\\s+(results?|st"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*descriptive\\s+(results?|st",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 27,
+      "depth": 0,
+      "header_raw": "Reliability statistics",
+      "header_norm": "reliability statistics",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "Reliability, which refers to the consistency and stability of measurement results in a model, was evaluated by calculating Cronbach's alpha. Table 4 summarized the reliability of each variable as determined through the collection of Cronbach's alpha values from relevant literature. Nunnally (1975) proposed that a Cronbach's alpha value exceeding 0.7 indicates a high level of reliability. The results in Table 4 demonstrated that all constructs exhibit reliability above the acceptable threshold, indicating good reliability and making them suitable for studies of healthpromoting behaviors."
+      ],
+      "footnotes": [],
+      "text": "Reliability, which refers to the consistency and stability of measurement results in a model, was evaluated by calculating Cronbach's alpha. Table 4 summarized the reliability of each variable as determined through the collection of Cronbach's alpha values from relevant literature. Nunnally (1975) proposed that a Cronbach's alpha value exceeding 0.7 indicates a high level of reliability. The results in Table 4 demonstrated that all constructs exhibit reliability above the acceptable threshold, indicating good reliability and making them suitable for studies of healthpromoting behaviors.",
+      "text_with_footnotes": "Reliability, which refers to the consistency and stability of measurement results in a model, was evaluated by calculating Cronbach's alpha. Table 4 summarized the reliability of each variable as determined through the collection of Cronbach's alpha values from relevant literature. Nunnally (1975) proposed that a Cronbach's alpha value exceeding 0.7 indicates a high level of reliability. The results in Table 4 demonstrated that all constructs exhibit reliability above the acceptable threshold, indicating good reliability and making them suitable for studies of healthpromoting behaviors.",
+      "preview_head": "Reliability, which refers to the consistency and stability of measurement results in a model, was evaluated by calculating Cronbach's alpha. Table 4 summarized the reliability of each variable as determined through the collection of Cronbach's alpha values from relevant literature. Nunnally (1975) proposed that a Cronbach's alpha value exceeding 0.7 indicates a high level of reliability.",
+      "preview_tail": "Table 4 summarized the reliability of each variable as determined through the collection of Cronbach's alpha values from relevant literature. Nunnally (1975) proposed that a Cronbach's alpha value exceeding 0.7 indicates a high level of reliability. The results in Table 4 demonstrated that all constructs exhibit reliability above the acceptable threshold, indicating good reliability and making them suitable for studies of healthpromoting behaviors.",
+      "word_count": 83,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports reliability statistics (Cronbach's alpha values, Table 4), which are findings from the  "
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes how reliability was evaluated (Cronbach's alpha, collection from literature), which is  "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.9,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 28,
+      "depth": 0,
+      "header_raw": "Correlation analysis",
+      "header_norm": "correlation analysis",
+      "container_raw": "Topics Factors Definition",
+      "container_norm": "topics factors definition",
+      "is_container": false,
+      "paragraphs": [
+        "This study adopted a random effects model to account for the varying effect sizes among the hypotheses. In the data analysis phase, following the guidelines of Hunter et al. (Hunter & Schmidt, 2004), the outcome data were presented in terms of uncorrected effect size (r), corrected effect size (r c ), standard deviation, 95% CI, and 80% CV of r c . According to Cohen (Cohen, 2013), effect sizes close to 0.1 represented common effects, effect sizes close to 0.3 indicated moderate effects, and effect sizes close to 0.5 indicated relatively high effects. The results in Table 5 indicated that most variables had moderate to high effect sizes, suggesting that factors such as health culture and health attitude significantly impacted health-promoting behaviors.",
+        "Overall, the results of this study revealed significant positive correlations for NO-HPB, HC-HPB, IR-HPB, HL-HPB, HA-HPB, PT-HPB, PB-HPB, SE-HPB, and IN-HPB. On the other hand, a significant negative correlation was found for NO-HPB and PPE-PT. The relationships of HS-HPB and HC-PT were revealed to be nonsignificant, while the impact of other variables was not tested. These findings were presented in Figure 5, providing an empirical examination of the relationships under investigation. Construct Average reliability Maximum Minimum Variance Number of studies NO 0.784 0.785 0.742 0.0017 3 PPE 0.799 0.880 0.751 0.0018 5 HC 0.769 0.892 0.680 0.0053 10 IR 0.955 0.940 0.649 0.0088 15 HL 0.785 0.920 0.698 0.0058 7 HA 0.783 0.914 0.657 0.0064 7 PT 0.830 0.912 0.650 0.0058 13 PB 0.841 0.948 0.750 0.0051 13 SE 0.950 0.916 0.708 0.0042 11 HPB 0.820 0.910 0.668 0.0056 35 HS 0.812 0.754 0.890 0.0021 6 Abbreviations: HA, health attitude; HC, health culture; HL, health literacy; HPB, health-promoting behaviors; HS, health status; IN, income; IR, interpersonal relationships; NO, noise; PB, perceived benefits; PPE, protective equipment; PT, perceived threat; SE, self-efficiency. T A B L E 5 Correlation analysis. Pairwise relationship r r c S.D. 95% CI 80% CV NO-HPB À0.144 À0.173 0.040 À0.214 À0.133 À0.220 À0.127 PPE-HPB 0.295 0.388 0.113 0.260 0.514 0.243 0.532 HC-HPB 0.564 0.739 0.170 0.517 0.955 0.349 0.869 IR-HPB 0.189 0.235 0.283 0.085 0.550 0.127 0.597 HL-HPB 0.295 0.397 0.280 0.203 0.588 0.238 0.655 HA-HPB 0.391 0.489 0.157 0.150 0.823 0.296 0.749 PT-HPB 0.139 0.167 0.091 0.108 0.226 0.043 0.189 PB-HPB 0.297 0.358 0.173 0.245 0.470 0.137 0.580 SE-HPB 0.280 0.345 0.146 0.244 0.445 0.158 0.532 IN-HPB 0.397 0.539 0.190 0.324 0.751 0.296 0.782 HS-HPB 0.155 0.059 0.220 À0.117 0.233 À0.222 0.341 PPE-PT 0.312 0.400 0.280 0.127 0.619 0.087 0.786 HC-PT 0.266 0.385 0.133 À0.105 0.868 À0.169 0.940 HL-PT 0.384 0.465 0.110 0.225 0.745 0.316 0.846 IR-PB 0.261 0.277 0.294 0.269 0.614 0.227 0.781 Abbreviations: CI, confidence intervals; CV, coefficient of variation; HA, health attitude; HC, health culture; HL, health literacy; HPB, health-promoting behaviors; HS, health status; IN, income; IR, interpersonal relationships; NO, noise; PB, perceived benefits; PPE, protective equipment; PT, perceived threat; SE, self-efficiency."
+      ],
+      "footnotes": [],
+      "text": "This study adopted a random effects model to account for the varying effect sizes among the hypotheses. In the data analysis phase, following the guidelines of Hunter et al. (Hunter & Schmidt, 2004), the outcome data were presented in terms of uncorrected effect size (r), corrected effect size (r c ), standard deviation, 95% CI, and 80% CV of r c . According to Cohen (Cohen, 2013), effect sizes close to 0.1 represented common effects, effect sizes close to 0.3 indicated moderate effects, and effect sizes close to 0.5 indicated relatively high effects. The results in Table 5 indicated that most variables had moderate to high effect sizes, suggesting that factors such as health culture and health attitude significantly impacted health-promoting behaviors.\n\nOverall, the results of this study revealed significant positive correlations for NO-HPB, HC-HPB, IR-HPB, HL-HPB, HA-HPB, PT-HPB, PB-HPB, SE-HPB, and IN-HPB. On the other hand, a significant negative correlation was found for NO-HPB and PPE-PT. The relationships of HS-HPB and HC-PT were revealed to be nonsignificant, while the impact of other variables was not tested. These findings were presented in Figure 5, providing an empirical examination of the relationships under investigation. Construct Average reliability Maximum Minimum Variance Number of studies NO 0.784 0.785 0.742 0.0017 3 PPE 0.799 0.880 0.751 0.0018 5 HC 0.769 0.892 0.680 0.0053 10 IR 0.955 0.940 0.649 0.0088 15 HL 0.785 0.920 0.698 0.0058 7 HA 0.783 0.914 0.657 0.0064 7 PT 0.830 0.912 0.650 0.0058 13 PB 0.841 0.948 0.750 0.0051 13 SE 0.950 0.916 0.708 0.0042 11 HPB 0.820 0.910 0.668 0.0056 35 HS 0.812 0.754 0.890 0.0021 6 Abbreviations: HA, health attitude; HC, health culture; HL, health literacy; HPB, health-promoting behaviors; HS, health status; IN, income; IR, interpersonal relationships; NO, noise; PB, perceived benefits; PPE, protective equipment; PT, perceived threat; SE, self-efficiency. T A B L E 5 Correlation analysis. Pairwise relationship r r c S.D. 95% CI 80% CV NO-HPB À0.144 À0.173 0.040 À0.214 À0.133 À0.220 À0.127 PPE-HPB 0.295 0.388 0.113 0.260 0.514 0.243 0.532 HC-HPB 0.564 0.739 0.170 0.517 0.955 0.349 0.869 IR-HPB 0.189 0.235 0.283 0.085 0.550 0.127 0.597 HL-HPB 0.295 0.397 0.280 0.203 0.588 0.238 0.655 HA-HPB 0.391 0.489 0.157 0.150 0.823 0.296 0.749 PT-HPB 0.139 0.167 0.091 0.108 0.226 0.043 0.189 PB-HPB 0.297 0.358 0.173 0.245 0.470 0.137 0.580 SE-HPB 0.280 0.345 0.146 0.244 0.445 0.158 0.532 IN-HPB 0.397 0.539 0.190 0.324 0.751 0.296 0.782 HS-HPB 0.155 0.059 0.220 À0.117 0.233 À0.222 0.341 PPE-PT 0.312 0.400 0.280 0.127 0.619 0.087 0.786 HC-PT 0.266 0.385 0.133 À0.105 0.868 À0.169 0.940 HL-PT 0.384 0.465 0.110 0.225 0.745 0.316 0.846 IR-PB 0.261 0.277 0.294 0.269 0.614 0.227 0.781 Abbreviations: CI, confidence intervals; CV, coefficient of variation; HA, health attitude; HC, health culture; HL, health literacy; HPB, health-promoting behaviors; HS, health status; IN, income; IR, interpersonal relationships; NO, noise; PB, perceived benefits; PPE, protective equipment; PT, perceived threat; SE, self-efficiency.",
+      "text_with_footnotes": "This study adopted a random effects model to account for the varying effect sizes among the hypotheses. In the data analysis phase, following the guidelines of Hunter et al. (Hunter & Schmidt, 2004), the outcome data were presented in terms of uncorrected effect size (r), corrected effect size (r c ), standard deviation, 95% CI, and 80% CV of r c . According to Cohen (Cohen, 2013), effect sizes close to 0.1 represented common effects, effect sizes close to 0.3 indicated moderate effects, and effect sizes close to 0.5 indicated relatively high effects. The results in Table 5 indicated that most variables had moderate to high effect sizes, suggesting that factors such as health culture and health attitude significantly impacted health-promoting behaviors.\n\nOverall, the results of this study revealed significant positive correlations for NO-HPB, HC-HPB, IR-HPB, HL-HPB, HA-HPB, PT-HPB, PB-HPB, SE-HPB, and IN-HPB. On the other hand, a significant negative correlation was found for NO-HPB and PPE-PT. The relationships of HS-HPB and HC-PT were revealed to be nonsignificant, while the impact of other variables was not tested. These findings were presented in Figure 5, providing an empirical examination of the relationships under investigation. Construct Average reliability Maximum Minimum Variance Number of studies NO 0.784 0.785 0.742 0.0017 3 PPE 0.799 0.880 0.751 0.0018 5 HC 0.769 0.892 0.680 0.0053 10 IR 0.955 0.940 0.649 0.0088 15 HL 0.785 0.920 0.698 0.0058 7 HA 0.783 0.914 0.657 0.0064 7 PT 0.830 0.912 0.650 0.0058 13 PB 0.841 0.948 0.750 0.0051 13 SE 0.950 0.916 0.708 0.0042 11 HPB 0.820 0.910 0.668 0.0056 35 HS 0.812 0.754 0.890 0.0021 6 Abbreviations: HA, health attitude; HC, health culture; HL, health literacy; HPB, health-promoting behaviors; HS, health status; IN, income; IR, interpersonal relationships; NO, noise; PB, perceived benefits; PPE, protective equipment; PT, perceived threat; SE, self-efficiency. T A B L E 5 Correlation analysis. Pairwise relationship r r c S.D. 95% CI 80% CV NO-HPB À0.144 À0.173 0.040 À0.214 À0.133 À0.220 À0.127 PPE-HPB 0.295 0.388 0.113 0.260 0.514 0.243 0.532 HC-HPB 0.564 0.739 0.170 0.517 0.955 0.349 0.869 IR-HPB 0.189 0.235 0.283 0.085 0.550 0.127 0.597 HL-HPB 0.295 0.397 0.280 0.203 0.588 0.238 0.655 HA-HPB 0.391 0.489 0.157 0.150 0.823 0.296 0.749 PT-HPB 0.139 0.167 0.091 0.108 0.226 0.043 0.189 PB-HPB 0.297 0.358 0.173 0.245 0.470 0.137 0.580 SE-HPB 0.280 0.345 0.146 0.244 0.445 0.158 0.532 IN-HPB 0.397 0.539 0.190 0.324 0.751 0.296 0.782 HS-HPB 0.155 0.059 0.220 À0.117 0.233 À0.222 0.341 PPE-PT 0.312 0.400 0.280 0.127 0.619 0.087 0.786 HC-PT 0.266 0.385 0.133 À0.105 0.868 À0.169 0.940 HL-PT 0.384 0.465 0.110 0.225 0.745 0.316 0.846 IR-PB 0.261 0.277 0.294 0.269 0.614 0.227 0.781 Abbreviations: CI, confidence intervals; CV, coefficient of variation; HA, health attitude; HC, health culture; HL, health literacy; HPB, health-promoting behaviors; HS, health status; IN, income; IR, interpersonal relationships; NO, noise; PB, perceived benefits; PPE, protective equipment; PT, perceived threat; SE, self-efficiency.",
+      "preview_head": "This study adopted a random effects model to account for the varying effect sizes among the hypotheses. In the data analysis phase, following the guidelines of Hunter et al. (Hunter & Schmidt, 2004), the outcome data were presented in terms of uncorrected effect size (r), corrected effect size (r c ), standard deviation, 95% CI, and 80% CV of r c . According to Cohen (Cohen, 2013), effect sizes close to 0.1 represented common effects, effect sizes close to 0.3 indicated moderate effects, and effect sizes close to 0.5 indicated relatively high effects.",
+      "preview_tail": "Construct Average reliability Maximum Minimum Variance Number of studies NO 0.784 0.785 0.742 0.0017 3 PPE 0.799 0.880 0.751 0.0018 5 HC 0.769 0.892 0.680 0.0053 10 IR 0.955 0.940 0.649 0.0088 15 HL 0.785 0.920 0.698 0.0058 7 HA 0.783 0.914 0.657 0.0064 7 PT 0.830 0.912 0.650 0.0058 13 PB 0.841 0.948 0.750 0.0051 13 SE 0.950 0.916 0.708 0.0042 11 HPB 0.820 0.910 0.668 0.0056 35 HS 0.812 0.754 0.890 0.0021 6 Abbreviations: HA, health attitude; HC, health culture; HL, health literacy; HPB, health-promoting behaviors; HS, health status; IN, income; IR, interpersonal relationships; NO, noise; PB, perceived benefits; PPE, protective equipment; PT, perceived threat; SE, self-efficiency. T A B L E 5 Correlation analysis. Pairwise relationship r r c S.D. 95% CI 80% CV NO-HPB À0.144 À0.173 0.040 À0.214 À0.133 À0.220 À0.127 PPE-HPB 0.295 0.388 0.113 0.260 0.514 0.243 0.532 HC-HPB 0.564 0.739 0.170 0.517 0.955 0.349 0.869 IR-HPB 0.189 0.235 0.283 0.085 0.550 0.127 0.597 HL-HPB 0.295 0.397 0.280 0.203 0.588 0.238 0.655 HA-HPB 0.391 0.489 0.157 0.150 0.823 0.296 0.749 PT-HPB 0.139 0.167 0.091 0.108 0.226 0.043 0.189 PB-HPB 0.297 0.358 0.173 0.245 0.470 0.137 0.580 SE-HPB 0.280 0.345 0.146 0.244 0.445 0.158 0.532 IN-HPB 0.397 0.539 0.190 0.324 0.751 0.296 0.782 HS-HPB 0.155 0.059 0.220 À0.117 0.233 À0.222 0.341 PPE-PT 0.312 0.400 0.280 0.127 0.619 0.087 0.786 HC-PT 0.266 0.385 0.133 À0.105 0.868 À0.169 0.940 HL-PT 0.384 0.465 0.110 0.225 0.745 0.316 0.846 IR-PB 0.261 0.277 0.294 0.269 0.614 0.227 0.781 Abbreviations: CI, confidence intervals; CV, coefficient of variation; HA, health attitude; HC, health culture; HL, health literacy; HPB, health-promoting behaviors; HS, health status; IN, income; IR, interpersonal relationships; NO, noise; PB, perceived benefits; PPE, protective equipment; PT, perceived threat; SE, self-efficiency.",
+      "word_count": 481,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports correlation analysis results, effect sizes, and summary statistics, which are findings from "
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly describes the use of a random effects model and analysis guidelines, which are  "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 29,
+      "depth": 0,
+      "header_raw": "DISCUSSION",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 30,
+      "depth": 0,
+      "header_raw": "Main findings",
+      "header_norm": "main findings",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This study introduced a methodology for exploring the determinants of health-promoting behaviors, incorporating LDA modeling and meta-analytic techniques. Initially, the LDA model was utilized for topic identification and keyword analysis. By integrating the HPM and HBM, the extracted topics were summarized into 11 determinants, which were classified into four major categories: physical environment, psychosocial environment, individual characteristics, and health beliefs. Secondly, a meta-analysis of 51 empirical papers was conducted to explore the relationship between the determinants and health-promoting behaviors. The results showed that the four categories of factors were significantly related to health-promoting behaviors. There were also significant relationships between specific factors such as protective equipment and perceived threat, interpersonal relationships and perceived benefits, and health literacy and perceived threat. From the HBM perspective, according to the results of meta-analysis, it had validity and applicability in the study of miners' health-promoting behaviors. From the HPM perspective, significant relationships were shown between the determinants and miners' healthpromoting behaviors. Consequently, it was imperative to consider both the variables and mechanisms in the HPM and HBM comprehensively when exploring health-promoting behaviors among miners. Among the physical environmental factors, a significant negative correlation was shown between noise and health-promoting behaviors, consistent with previous studies. For example, Li et al. (2021) concluded through simulation experiments that underground coal mine noise was negatively associated with miners' safety behavior and reduced their reaction speed and attention. Fu et al. (2023) showed that there was a positive relationship between noise and unsafe behavior. Along with the increase in mechanized production in the mining industry, noise problems in underground coal mines were becoming increasingly prominent. High noise levels were likely to cause memory loss, negative emotions, and distractions in miners, as well as prevent workers from hearing bells, mine car alarms and warning sounds before the occurrence of accidents. Therefore, noise was negatively associated with individuals' healthpromoting behaviors and can even lead to accidents in severe cases (Li, Wang, et al., 2022). Protective equipment was positively related to perceived threat and health-promoting behaviors, which is in line with previous studies. For example, Rr Dian et al. (2020) showed that protective equipment availability was positively associated with individual protective behaviors. Fadlallah et al. (2020) found that miners working near medical facilities had higher levels of risk perception compared with miners working away from medical facilities. Protective equipment for miners involved wearable labor protective equipment and underground safety facilities such as gas, dust, water, and explosion protection. This is because when this protective equipment is available, awareness and training on the use of protective equipment are often conducted at the organizational level. In this context, the environment easily influenced miners to focus on the application scenarios and effects of protective equipment, thus enhancing individual threat perception sensitivity and facilitating health-promoting behaviors.",
+        "At the psychosocial level, on the one hand, a significant positive correlation was revealed between health culture and health-promoting behaviors, which is consistent with previous studies. Similarly, Jia et al. (2017) found that a more robust health culture leads to improved self-related health and mental health. This is because health culture is considered as social norms, which can be reflected in the thinking, and activity of society or organization toward workers' health (Jia et al., 2018). Health culture was centered on coordinating employees' struggles with the environment and diseases. Additionally, it encompassed both the spiritual and tangible outcomes of preventing work-related illnesses, offering a comprehensive approach to health management as a source of conceptual guidance and practical action plan (Aldana et al., 2012). On the other hand, there was a positive correlation between interpersonal relationships and health-promoting behaviors, which is also in agreement with previous studies (Ryu et al., 2020). This is because positive interpersonal relationships can contribute to a pleasant psychological state and are more conducive to intentional behavior. Furthermore, in times of work difficulties or psychological distress, positive interpersonal relationships can provide emotional support and technical assistance, enabling individuals to engage in health-promoting behaviors more effectively.",
+        "At the level of individual characteristics, health literacy, health attitude, and income were significantly and positively related to health-promoting behaviors. There was a significant positive correlation between health literacy and perceived threat. These results have been confirmed in previous studies. First, improving health literacy in populations provided the foundation on which workers can play an active role in improving their health. As previously demonstrated by Reisi et al. (2014), limited health literacy is negatively associated with healthy lifestyle behaviors. It can be attributed to the fact that high health literacy often comes from a higher level of education. Higher education facilitates individuals to learn more about the adverse effects of hazards in the workplace, thus increasing their perceived threat and implementing healthpromoting behaviors. Secondly, for health attitude, Guerin and Toland (2020) revealed a significant positive association between adolescent personal attitude and occupational safety and health behavior intentions based on the theory of planned behavior. Tong et al. (2019) demonstrated that miners' safety attitude is negatively associated with unsafe behaviors. Health attitude implied workers' subjective evaluation and behavioral tendencies at the health level, which facilitate workers to fully mobilize initiative to implement health-promoting behaviors.",
+        "Furthermore, there was a significant positive correlation between miners' income and healthpromoting behaviors. This is because lower income tends to mean miners face heavier financial and life burdens. Based on Maslow's hierarchy of needs theory, human beings go through a self-development process from physiological needs to safety pursuits. When individuals face economic problems, they often focus on efficiency and progress, thus neglecting the maintenance and improvement of their health status (Allen et al., 2017).",
+        "At the level of health beliefs, the findings indicated that perceived threat, perceived benefits, and self-efficacy were positively related to health-promoting behaviors. In terms of perceived threat, previous research on the impact of perceived threat on individual behavior has been controversial, with some studies finding a positive correlation and others finding the opposite. For instance, Nahrgang et al. (2011) viewed perceived threat in the workplace as job hindrance demands, which entail physical and psychological effort, thus leaving limited personal resources for taking health-related behaviors. On the contrary, the present study confirmed the former type of view. This is because a high level of perceived threat tends to reflect a worker's more robust health risk recognition, which can lead to more focused responses to health risks and thus contribute to health-promoting behaviors. In terms of perceived benefits, similar to previous studies, perceived benefits are a crucial influencing factor in health-promoting behaviors, with a higher impact than perceived threat and self-efficacy on health-promoting behaviors (Buglar et al., 2010;Carpenter, 2010). This is because, to a certain extent, human behavior is built based on interest-driven. The inclination toward preventing harm is necessary for maintaining stability and progress in human society and serves as the fundamental principle of human safety and production. When miners have a higher evaluation of the utility value of their behavior, the greater the degree and intensity of their pursuit efforts tend to be, resulting in a heightened impetus toward health-promoting behaviors. In terms of self-efficacy, the results were similar to previous studies. For example, Bhandari and Kim (2016) claimed that self-efficacy was a significant influencing factor of migrant workers' health-promoting behaviors. This is because self-efficacy represents miners' subjective judgments about their ability to implement health-promoting behaviors and achieve desired outcomes in a given scenario. Moreover, the correlations of health status and health-promoting behaviors, health culture, and perceived threat were not significant, and the other relationships were not tested due to the lack of empirical studies. This mainly revealed the need for more current research between the modified factor and individual psychology. As the research sample size increases, the relationships between the variables are probably more significant."
+      ],
+      "footnotes": [],
+      "text": "This study introduced a methodology for exploring the determinants of health-promoting behaviors, incorporating LDA modeling and meta-analytic techniques. Initially, the LDA model was utilized for topic identification and keyword analysis. By integrating the HPM and HBM, the extracted topics were summarized into 11 determinants, which were classified into four major categories: physical environment, psychosocial environment, individual characteristics, and health beliefs. Secondly, a meta-analysis of 51 empirical papers was conducted to explore the relationship between the determinants and health-promoting behaviors. The results showed that the four categories of factors were significantly related to health-promoting behaviors. There were also significant relationships between specific factors such as protective equipment and perceived threat, interpersonal relationships and perceived benefits, and health literacy and perceived threat. From the HBM perspective, according to the results of meta-analysis, it had validity and applicability in the study of miners' health-promoting behaviors. From the HPM perspective, significant relationships were shown between the determinants and miners' healthpromoting behaviors. Consequently, it was imperative to consider both the variables and mechanisms in the HPM and HBM comprehensively when exploring health-promoting behaviors among miners. Among the physical environmental factors, a significant negative correlation was shown between noise and health-promoting behaviors, consistent with previous studies. For example, Li et al. (2021) concluded through simulation experiments that underground coal mine noise was negatively associated with miners' safety behavior and reduced their reaction speed and attention. Fu et al. (2023) showed that there was a positive relationship between noise and unsafe behavior. Along with the increase in mechanized production in the mining industry, noise problems in underground coal mines were becoming increasingly prominent. High noise levels were likely to cause memory loss, negative emotions, and distractions in miners, as well as prevent workers from hearing bells, mine car alarms and warning sounds before the occurrence of accidents. Therefore, noise was negatively associated with individuals' healthpromoting behaviors and can even lead to accidents in severe cases (Li, Wang, et al., 2022). Protective equipment was positively related to perceived threat and health-promoting behaviors, which is in line with previous studies. For example, Rr Dian et al. (2020) showed that protective equipment availability was positively associated with individual protective behaviors. Fadlallah et al. (2020) found that miners working near medical facilities had higher levels of risk perception compared with miners working away from medical facilities. Protective equipment for miners involved wearable labor protective equipment and underground safety facilities such as gas, dust, water, and explosion protection. This is because when this protective equipment is available, awareness and training on the use of protective equipment are often conducted at the organizational level. In this context, the environment easily influenced miners to focus on the application scenarios and effects of protective equipment, thus enhancing individual threat perception sensitivity and facilitating health-promoting behaviors.\n\nAt the psychosocial level, on the one hand, a significant positive correlation was revealed between health culture and health-promoting behaviors, which is consistent with previous studies. Similarly, Jia et al. (2017) found that a more robust health culture leads to improved self-related health and mental health. This is because health culture is considered as social norms, which can be reflected in the thinking, and activity of society or organization toward workers' health (Jia et al., 2018). Health culture was centered on coordinating employees' struggles with the environment and diseases. Additionally, it encompassed both the spiritual and tangible outcomes of preventing work-related illnesses, offering a comprehensive approach to health management as a source of conceptual guidance and practical action plan (Aldana et al., 2012). On the other hand, there was a positive correlation between interpersonal relationships and health-promoting behaviors, which is also in agreement with previous studies (Ryu et al., 2020). This is because positive interpersonal relationships can contribute to a pleasant psychological state and are more conducive to intentional behavior. Furthermore, in times of work difficulties or psychological distress, positive interpersonal relationships can provide emotional support and technical assistance, enabling individuals to engage in health-promoting behaviors more effectively.\n\nAt the level of individual characteristics, health literacy, health attitude, and income were significantly and positively related to health-promoting behaviors. There was a significant positive correlation between health literacy and perceived threat. These results have been confirmed in previous studies. First, improving health literacy in populations provided the foundation on which workers can play an active role in improving their health. As previously demonstrated by Reisi et al. (2014), limited health literacy is negatively associated with healthy lifestyle behaviors. It can be attributed to the fact that high health literacy often comes from a higher level of education. Higher education facilitates individuals to learn more about the adverse effects of hazards in the workplace, thus increasing their perceived threat and implementing healthpromoting behaviors. Secondly, for health attitude, Guerin and Toland (2020) revealed a significant positive association between adolescent personal attitude and occupational safety and health behavior intentions based on the theory of planned behavior. Tong et al. (2019) demonstrated that miners' safety attitude is negatively associated with unsafe behaviors. Health attitude implied workers' subjective evaluation and behavioral tendencies at the health level, which facilitate workers to fully mobilize initiative to implement health-promoting behaviors.\n\nFurthermore, there was a significant positive correlation between miners' income and healthpromoting behaviors. This is because lower income tends to mean miners face heavier financial and life burdens. Based on Maslow's hierarchy of needs theory, human beings go through a self-development process from physiological needs to safety pursuits. When individuals face economic problems, they often focus on efficiency and progress, thus neglecting the maintenance and improvement of their health status (Allen et al., 2017).\n\nAt the level of health beliefs, the findings indicated that perceived threat, perceived benefits, and self-efficacy were positively related to health-promoting behaviors. In terms of perceived threat, previous research on the impact of perceived threat on individual behavior has been controversial, with some studies finding a positive correlation and others finding the opposite. For instance, Nahrgang et al. (2011) viewed perceived threat in the workplace as job hindrance demands, which entail physical and psychological effort, thus leaving limited personal resources for taking health-related behaviors. On the contrary, the present study confirmed the former type of view. This is because a high level of perceived threat tends to reflect a worker's more robust health risk recognition, which can lead to more focused responses to health risks and thus contribute to health-promoting behaviors. In terms of perceived benefits, similar to previous studies, perceived benefits are a crucial influencing factor in health-promoting behaviors, with a higher impact than perceived threat and self-efficacy on health-promoting behaviors (Buglar et al., 2010;Carpenter, 2010). This is because, to a certain extent, human behavior is built based on interest-driven. The inclination toward preventing harm is necessary for maintaining stability and progress in human society and serves as the fundamental principle of human safety and production. When miners have a higher evaluation of the utility value of their behavior, the greater the degree and intensity of their pursuit efforts tend to be, resulting in a heightened impetus toward health-promoting behaviors. In terms of self-efficacy, the results were similar to previous studies. For example, Bhandari and Kim (2016) claimed that self-efficacy was a significant influencing factor of migrant workers' health-promoting behaviors. This is because self-efficacy represents miners' subjective judgments about their ability to implement health-promoting behaviors and achieve desired outcomes in a given scenario. Moreover, the correlations of health status and health-promoting behaviors, health culture, and perceived threat were not significant, and the other relationships were not tested due to the lack of empirical studies. This mainly revealed the need for more current research between the modified factor and individual psychology. As the research sample size increases, the relationships between the variables are probably more significant.",
+      "text_with_footnotes": "This study introduced a methodology for exploring the determinants of health-promoting behaviors, incorporating LDA modeling and meta-analytic techniques. Initially, the LDA model was utilized for topic identification and keyword analysis. By integrating the HPM and HBM, the extracted topics were summarized into 11 determinants, which were classified into four major categories: physical environment, psychosocial environment, individual characteristics, and health beliefs. Secondly, a meta-analysis of 51 empirical papers was conducted to explore the relationship between the determinants and health-promoting behaviors. The results showed that the four categories of factors were significantly related to health-promoting behaviors. There were also significant relationships between specific factors such as protective equipment and perceived threat, interpersonal relationships and perceived benefits, and health literacy and perceived threat. From the HBM perspective, according to the results of meta-analysis, it had validity and applicability in the study of miners' health-promoting behaviors. From the HPM perspective, significant relationships were shown between the determinants and miners' healthpromoting behaviors. Consequently, it was imperative to consider both the variables and mechanisms in the HPM and HBM comprehensively when exploring health-promoting behaviors among miners. Among the physical environmental factors, a significant negative correlation was shown between noise and health-promoting behaviors, consistent with previous studies. For example, Li et al. (2021) concluded through simulation experiments that underground coal mine noise was negatively associated with miners' safety behavior and reduced their reaction speed and attention. Fu et al. (2023) showed that there was a positive relationship between noise and unsafe behavior. Along with the increase in mechanized production in the mining industry, noise problems in underground coal mines were becoming increasingly prominent. High noise levels were likely to cause memory loss, negative emotions, and distractions in miners, as well as prevent workers from hearing bells, mine car alarms and warning sounds before the occurrence of accidents. Therefore, noise was negatively associated with individuals' healthpromoting behaviors and can even lead to accidents in severe cases (Li, Wang, et al., 2022). Protective equipment was positively related to perceived threat and health-promoting behaviors, which is in line with previous studies. For example, Rr Dian et al. (2020) showed that protective equipment availability was positively associated with individual protective behaviors. Fadlallah et al. (2020) found that miners working near medical facilities had higher levels of risk perception compared with miners working away from medical facilities. Protective equipment for miners involved wearable labor protective equipment and underground safety facilities such as gas, dust, water, and explosion protection. This is because when this protective equipment is available, awareness and training on the use of protective equipment are often conducted at the organizational level. In this context, the environment easily influenced miners to focus on the application scenarios and effects of protective equipment, thus enhancing individual threat perception sensitivity and facilitating health-promoting behaviors.\n\nAt the psychosocial level, on the one hand, a significant positive correlation was revealed between health culture and health-promoting behaviors, which is consistent with previous studies. Similarly, Jia et al. (2017) found that a more robust health culture leads to improved self-related health and mental health. This is because health culture is considered as social norms, which can be reflected in the thinking, and activity of society or organization toward workers' health (Jia et al., 2018). Health culture was centered on coordinating employees' struggles with the environment and diseases. Additionally, it encompassed both the spiritual and tangible outcomes of preventing work-related illnesses, offering a comprehensive approach to health management as a source of conceptual guidance and practical action plan (Aldana et al., 2012). On the other hand, there was a positive correlation between interpersonal relationships and health-promoting behaviors, which is also in agreement with previous studies (Ryu et al., 2020). This is because positive interpersonal relationships can contribute to a pleasant psychological state and are more conducive to intentional behavior. Furthermore, in times of work difficulties or psychological distress, positive interpersonal relationships can provide emotional support and technical assistance, enabling individuals to engage in health-promoting behaviors more effectively.\n\nAt the level of individual characteristics, health literacy, health attitude, and income were significantly and positively related to health-promoting behaviors. There was a significant positive correlation between health literacy and perceived threat. These results have been confirmed in previous studies. First, improving health literacy in populations provided the foundation on which workers can play an active role in improving their health. As previously demonstrated by Reisi et al. (2014), limited health literacy is negatively associated with healthy lifestyle behaviors. It can be attributed to the fact that high health literacy often comes from a higher level of education. Higher education facilitates individuals to learn more about the adverse effects of hazards in the workplace, thus increasing their perceived threat and implementing healthpromoting behaviors. Secondly, for health attitude, Guerin and Toland (2020) revealed a significant positive association between adolescent personal attitude and occupational safety and health behavior intentions based on the theory of planned behavior. Tong et al. (2019) demonstrated that miners' safety attitude is negatively associated with unsafe behaviors. Health attitude implied workers' subjective evaluation and behavioral tendencies at the health level, which facilitate workers to fully mobilize initiative to implement health-promoting behaviors.\n\nFurthermore, there was a significant positive correlation between miners' income and healthpromoting behaviors. This is because lower income tends to mean miners face heavier financial and life burdens. Based on Maslow's hierarchy of needs theory, human beings go through a self-development process from physiological needs to safety pursuits. When individuals face economic problems, they often focus on efficiency and progress, thus neglecting the maintenance and improvement of their health status (Allen et al., 2017).\n\nAt the level of health beliefs, the findings indicated that perceived threat, perceived benefits, and self-efficacy were positively related to health-promoting behaviors. In terms of perceived threat, previous research on the impact of perceived threat on individual behavior has been controversial, with some studies finding a positive correlation and others finding the opposite. For instance, Nahrgang et al. (2011) viewed perceived threat in the workplace as job hindrance demands, which entail physical and psychological effort, thus leaving limited personal resources for taking health-related behaviors. On the contrary, the present study confirmed the former type of view. This is because a high level of perceived threat tends to reflect a worker's more robust health risk recognition, which can lead to more focused responses to health risks and thus contribute to health-promoting behaviors. In terms of perceived benefits, similar to previous studies, perceived benefits are a crucial influencing factor in health-promoting behaviors, with a higher impact than perceived threat and self-efficacy on health-promoting behaviors (Buglar et al., 2010;Carpenter, 2010). This is because, to a certain extent, human behavior is built based on interest-driven. The inclination toward preventing harm is necessary for maintaining stability and progress in human society and serves as the fundamental principle of human safety and production. When miners have a higher evaluation of the utility value of their behavior, the greater the degree and intensity of their pursuit efforts tend to be, resulting in a heightened impetus toward health-promoting behaviors. In terms of self-efficacy, the results were similar to previous studies. For example, Bhandari and Kim (2016) claimed that self-efficacy was a significant influencing factor of migrant workers' health-promoting behaviors. This is because self-efficacy represents miners' subjective judgments about their ability to implement health-promoting behaviors and achieve desired outcomes in a given scenario. Moreover, the correlations of health status and health-promoting behaviors, health culture, and perceived threat were not significant, and the other relationships were not tested due to the lack of empirical studies. This mainly revealed the need for more current research between the modified factor and individual psychology. As the research sample size increases, the relationships between the variables are probably more significant.",
+      "preview_head": "This study introduced a methodology for exploring the determinants of health-promoting behaviors, incorporating LDA modeling and meta-analytic techniques. Initially, the LDA model was utilized for topic identification and keyword analysis. By integrating the HPM and HBM, the extracted topics were summarized into 11 determinants, which were classified into four major categories: physical environment, psychosocial environment, individual characteristics, and health beliefs.",
+      "preview_tail": "Moreover, the correlations of health status and health-promoting behaviors, health culture, and perceived threat were not significant, and the other relationships were not tested due to the lack of empirical studies. This mainly revealed the need for more current research between the modified factor and individual psychology. As the research sample size increases, the relationships between the variables are probably more significant.",
+      "word_count": 1281,
+      "paragraph_count": 5,
+      "_original_container_raw": "DISCUSSION",
+      "_original_container_norm": "discussion",
+      "_container_unnested": true,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*main\\s+(results?|findings?"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*main\\s+(results?|findings?",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 31,
+      "depth": 0,
+      "header_raw": "Implications",
+      "header_norm": "implications",
+      "container_raw": "DISCUSSION",
+      "container_norm": "discussion",
+      "is_container": false,
+      "paragraphs": [
+        "Theoretically, a small step was put forward for the extension and application of the HBM and HBM in the field of health-promoting behaviors among miners. By integrating the above theories, this study condensed the factors influencing health-promoting behaviors from a more comprehensive and systematic perspective, focusing on four aspects: physical environment, psychosocial environment, individual characteristics, and health beliefs. In addition, by verifying the relationships between these factors and health-promoting behaviors, this study enriched the behavioral mechanisms in the field of occupational health promotion. It may provide insights for future theoretical studies on health promotion.",
+        "Practically, this paper combined the LDA model and meta-analysis to explore the determinants and influencing mechanisms of health-promoting behaviors in miners. The methodology employed in this research provided valuable insights and served as a reference for exploring the underlying mechanisms of behavior. Besides, the findings of this study may provide practical guidelines for health-promoting interventions in coal mining enterprises. For instance, the improvement of occupational health among miners can be achieved by implementing measures that reduce noise levels in the workplace and by providing comprehensive protective equipment to the miners. Additionally, adjusting employee compensation and implementing incentive and consequence systems can also be beneficial in promoting individual well-being."
+      ],
+      "footnotes": [],
+      "text": "Theoretically, a small step was put forward for the extension and application of the HBM and HBM in the field of health-promoting behaviors among miners. By integrating the above theories, this study condensed the factors influencing health-promoting behaviors from a more comprehensive and systematic perspective, focusing on four aspects: physical environment, psychosocial environment, individual characteristics, and health beliefs. In addition, by verifying the relationships between these factors and health-promoting behaviors, this study enriched the behavioral mechanisms in the field of occupational health promotion. It may provide insights for future theoretical studies on health promotion.\n\nPractically, this paper combined the LDA model and meta-analysis to explore the determinants and influencing mechanisms of health-promoting behaviors in miners. The methodology employed in this research provided valuable insights and served as a reference for exploring the underlying mechanisms of behavior. Besides, the findings of this study may provide practical guidelines for health-promoting interventions in coal mining enterprises. For instance, the improvement of occupational health among miners can be achieved by implementing measures that reduce noise levels in the workplace and by providing comprehensive protective equipment to the miners. Additionally, adjusting employee compensation and implementing incentive and consequence systems can also be beneficial in promoting individual well-being.",
+      "text_with_footnotes": "Theoretically, a small step was put forward for the extension and application of the HBM and HBM in the field of health-promoting behaviors among miners. By integrating the above theories, this study condensed the factors influencing health-promoting behaviors from a more comprehensive and systematic perspective, focusing on four aspects: physical environment, psychosocial environment, individual characteristics, and health beliefs. In addition, by verifying the relationships between these factors and health-promoting behaviors, this study enriched the behavioral mechanisms in the field of occupational health promotion. It may provide insights for future theoretical studies on health promotion.\n\nPractically, this paper combined the LDA model and meta-analysis to explore the determinants and influencing mechanisms of health-promoting behaviors in miners. The methodology employed in this research provided valuable insights and served as a reference for exploring the underlying mechanisms of behavior. Besides, the findings of this study may provide practical guidelines for health-promoting interventions in coal mining enterprises. For instance, the improvement of occupational health among miners can be achieved by implementing measures that reduce noise levels in the workplace and by providing comprehensive protective equipment to the miners. Additionally, adjusting employee compensation and implementing incentive and consequence systems can also be beneficial in promoting individual well-being.",
+      "preview_head": "Theoretically, a small step was put forward for the extension and application of the HBM and HBM in the field of health-promoting behaviors among miners. By integrating the above theories, this study condensed the factors influencing health-promoting behaviors from a more comprehensive and systematic perspective, focusing on four aspects: physical environment, psychosocial environment, individual characteristics, and health beliefs. In addition, by verifying the relationships between these factors and health-promoting behaviors, this study enriched the behavioral mechanisms in the field of occupational health promotion.",
+      "preview_tail": "Besides, the findings of this study may provide practical guidelines for health-promoting interventions in coal mining enterprises. For instance, the improvement of occupational health among miners can be achieved by implementing measures that reduce noise levels in the workplace and by providing comprehensive protective equipment to the miners. Additionally, adjusting employee compensation and implementing incentive and consequence systems can also be beneficial in promoting individual well-being.",
+      "word_count": 202,
+      "paragraph_count": 2,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*implications?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*implications?\\s*$",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 32,
+      "depth": 0,
+      "header_raw": "Limitations and future research directions",
+      "header_norm": "limitations and future research directions",
+      "container_raw": "DISCUSSION",
+      "container_norm": "discussion",
+      "is_container": false,
+      "paragraphs": [
+        "The limitations of this study must be acknowledged. Firstly, the analysis of document titles and abstracts utilizing the LDA model was limited as it did not encompass other forms of text, such as news articles and short texts on social media. The initial corpus can be expanded to include a diverse range of text types to enhance the scope and meaning of the determinants. Secondly, by combining the HPM and HBM, only the determinants of miners' health-promoting behaviors were revealed, which need to be explored in other high-risk industries. Additionally, the metaanalysis conducted in this study included articles from all over the world, resulting in variations in sample characteristics and the depth of research in different regions. While the meta-analysis provided a comprehensive overview, it did not consider the occupational characteristics of miners in different countries. Consequently, it is imperative to conduct a more concentrated and directed investigation into the significance of relationships within specific nations or geographic locations in the future."
+      ],
+      "footnotes": [],
+      "text": "The limitations of this study must be acknowledged. Firstly, the analysis of document titles and abstracts utilizing the LDA model was limited as it did not encompass other forms of text, such as news articles and short texts on social media. The initial corpus can be expanded to include a diverse range of text types to enhance the scope and meaning of the determinants. Secondly, by combining the HPM and HBM, only the determinants of miners' health-promoting behaviors were revealed, which need to be explored in other high-risk industries. Additionally, the metaanalysis conducted in this study included articles from all over the world, resulting in variations in sample characteristics and the depth of research in different regions. While the meta-analysis provided a comprehensive overview, it did not consider the occupational characteristics of miners in different countries. Consequently, it is imperative to conduct a more concentrated and directed investigation into the significance of relationships within specific nations or geographic locations in the future.",
+      "text_with_footnotes": "The limitations of this study must be acknowledged. Firstly, the analysis of document titles and abstracts utilizing the LDA model was limited as it did not encompass other forms of text, such as news articles and short texts on social media. The initial corpus can be expanded to include a diverse range of text types to enhance the scope and meaning of the determinants. Secondly, by combining the HPM and HBM, only the determinants of miners' health-promoting behaviors were revealed, which need to be explored in other high-risk industries. Additionally, the metaanalysis conducted in this study included articles from all over the world, resulting in variations in sample characteristics and the depth of research in different regions. While the meta-analysis provided a comprehensive overview, it did not consider the occupational characteristics of miners in different countries. Consequently, it is imperative to conduct a more concentrated and directed investigation into the significance of relationships within specific nations or geographic locations in the future.",
+      "preview_head": "The limitations of this study must be acknowledged. Firstly, the analysis of document titles and abstracts utilizing the LDA model was limited as it did not encompass other forms of text, such as news articles and short texts on social media. The initial corpus can be expanded to include a diverse range of text types to enhance the scope and meaning of the determinants. Secondly, by combining the HPM and HBM, only the determinants of miners' health-promoting behaviors were revealed, which need to be explored in other high-risk industries.",
+      "preview_tail": "Additionally, the metaanalysis conducted in this study included articles from all over the world, resulting in variations in sample characteristics and the depth of research in different regions. While the meta-analysis provided a comprehensive overview, it did not consider the occupational characteristics of miners in different countries. Consequently, it is imperative to conduct a more concentrated and directed investigation into the significance of relationships within specific nations or geographic locations in the future.",
+      "word_count": 162,
+      "paragraph_count": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.5,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.5,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "merged_section:DISCUSSION+CONCLUSION",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Wang et al. - 2024 - Exploring the determinants of health‐promoting behaviors among miners A text mining and meta‐analys",
+      "sec_index": 33,
+      "depth": 0,
+      "header_raw": "CONCLUSION",
+      "header_norm": "conclusion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Combining the LDA model and meta-analysis method, this research analyzed the main factors influencing health-promoting behaviors from a quantitative perspective and put forward miners' health-promoting behavior-driven mechanisms based on the HPB and HBM. The results showed the following: (1) Determinants of miners' health-promoting behaviors were classified into four dimensions: physical environment, psychosocial environment, individual characteristics, and health beliefs. Physical environmental factors were composed of noise and protective equipment. Psychosocial factors included health culture and interpersonal relationships, while individual characteristics included health literacy, health attitude, income, and health status. Health beliefs encompassed perceived threat, perceived benefits, and self-efficacy.",
+        "(2) Noise was negatively related to health-promoting behaviors, while all other determinants were positively related. In particular, health culture and income were strongly correlated with behaviors. (3) Protective equipment and health literacy were positively related to perceived threat. Interpersonal relationships were positively related to perceived benefits. This study provided a comprehensive analysis of the crucial factors and mechanisms influencing healthpromoting behaviors, offering some theoretical and practical insights for health-promoting behavior management."
+      ],
+      "footnotes": [],
+      "text": "Combining the LDA model and meta-analysis method, this research analyzed the main factors influencing health-promoting behaviors from a quantitative perspective and put forward miners' health-promoting behavior-driven mechanisms based on the HPB and HBM. The results showed the following: (1) Determinants of miners' health-promoting behaviors were classified into four dimensions: physical environment, psychosocial environment, individual characteristics, and health beliefs. Physical environmental factors were composed of noise and protective equipment. Psychosocial factors included health culture and interpersonal relationships, while individual characteristics included health literacy, health attitude, income, and health status. Health beliefs encompassed perceived threat, perceived benefits, and self-efficacy.\n\n(2) Noise was negatively related to health-promoting behaviors, while all other determinants were positively related. In particular, health culture and income were strongly correlated with behaviors. (3) Protective equipment and health literacy were positively related to perceived threat. Interpersonal relationships were positively related to perceived benefits. This study provided a comprehensive analysis of the crucial factors and mechanisms influencing healthpromoting behaviors, offering some theoretical and practical insights for health-promoting behavior management.",
+      "text_with_footnotes": "Combining the LDA model and meta-analysis method, this research analyzed the main factors influencing health-promoting behaviors from a quantitative perspective and put forward miners' health-promoting behavior-driven mechanisms based on the HPB and HBM. The results showed the following: (1) Determinants of miners' health-promoting behaviors were classified into four dimensions: physical environment, psychosocial environment, individual characteristics, and health beliefs. Physical environmental factors were composed of noise and protective equipment. Psychosocial factors included health culture and interpersonal relationships, while individual characteristics included health literacy, health attitude, income, and health status. Health beliefs encompassed perceived threat, perceived benefits, and self-efficacy.\n\n(2) Noise was negatively related to health-promoting behaviors, while all other determinants were positively related. In particular, health culture and income were strongly correlated with behaviors. (3) Protective equipment and health literacy were positively related to perceived threat. Interpersonal relationships were positively related to perceived benefits. This study provided a comprehensive analysis of the crucial factors and mechanisms influencing healthpromoting behaviors, offering some theoretical and practical insights for health-promoting behavior management.",
+      "preview_head": "Combining the LDA model and meta-analysis method, this research analyzed the main factors influencing health-promoting behaviors from a quantitative perspective and put forward miners' health-promoting behavior-driven mechanisms based on the HPB and HBM. The results showed the following: (1) Determinants of miners' health-promoting behaviors were classified into four dimensions: physical environment, psychosocial environment, individual characteristics, and health beliefs. Physical environmental factors were composed of noise and protective equipment.",
+      "preview_tail": "(2) Noise was negatively related to health-promoting behaviors, while all other determinants were positively related. In particular, health culture and income were strongly correlated with behaviors. (3) Protective equipment and health literacy were positively related to perceived threat. Interpersonal relationships were positively related to perceived benefits. This study provided a comprehensive analysis of the crucial factors and mechanisms influencing healthpromoting behaviors, offering some theoretical and practical insights for health-promoting behavior management.",
+      "word_count": 168,
+      "paragraph_count": 2,
+      "_original_container_raw": "DISCUSSION",
+      "_original_container_norm": "discussion",
+      "_container_unnested": true,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*conclusion(s)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*conclusion(s)?\\s*$",
+      "major_label": "CONCLUSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 33,
+    "content_sections": 29,
+    "total_words": 5787,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 33,
+    "by_source": {
+      "heuristic": 9,
+      "llm": 21,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

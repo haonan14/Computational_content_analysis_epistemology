@@ -1,0 +1,164 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and theoretical perspectives on social media campaigning and its"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and theoretical perspectives on social media campaigning and its"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section discusses prior literature and theoretical perspectives on campaign topics and their use"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "The section transitions to the paper's research questions, outlining the study's analytic focus"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings on topic diversity between paid and organic content, referencing data, "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the results, such as noting tendencies and possible explanations"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports empirical findings on topic distributions by party, referencing coded clusters, "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "There is some interpretive commentary on the meaning of the topic distributions"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents specific empirical findings about the 'Housing and cost of living' topic"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents specific empirical findings about the 'Social issues' topic"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports findings on the environment topic, referencing party-specific communication and "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "There is some interpretation of the party's communication strategy"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports findings on the economy/investments topic, referencing data and patterns"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "There is some interpretive commentary on audience customization and party strategy"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "The section describes the manual coding procedure and qualitative content analysis approach used to "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "It also reports findings about negativity in government critique messages"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports findings about the content and tone of Labor's government critique messages"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is interpretation of the findings in relation to broader communication strategies and prior "
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

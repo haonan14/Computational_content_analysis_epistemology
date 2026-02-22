@@ -1,0 +1,258 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews definitions and prior research on service quality, customer satisfaction, and e"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses the concept of culture and reviews prior literature on cultural differences in"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section defines power distance, reviews prior literature, and sets up a hypothesis based on past"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "The section states an explicit hypothesis for this study, which is part of the research design."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Defines individualism/collectivism, reviews prior work, and sets up a hypothesis."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "States a specific hypothesis (H2) for this study."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Defines masculinity/femininity, reviews prior work, and sets up a hypothesis."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "States a specific hypothesis (H3) for this study."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Defines uncertainty avoidance, reviews prior work, and sets up a hypothesis."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "States a specific hypothesis for this study."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Defines long-term/short-term orientation, reviews prior work, and sets up a hypothesis."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "States a specific hypothesis for this study."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Defines indulgence/restraint, reviews prior work, and sets up a hypothesis."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "States a specific hypothesis (H6) for this study."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data source (Aliexpress), research object (cell phones), and rationale for selection."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analytic framework, variables, and modeling approach used in this study."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data collection and preprocessing steps for Study 1."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data collection, preprocessing, and labeling for Study 2."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the mathematical representation and processing of review data, specifically a"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section details the mathematical modeling of review-topic assignment, which is a methodological/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports findings from Study 1, including which countries' consumers are most concerned "
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is some mention of how the optimal number of topics was determined, which is a methodological "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "This section describes the variables, model structure, and how the analysis is set up for Study 2, w"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reporting of the structure data and reference to Table 2, which suggests some results "
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports statistical findings, including coefficients and their significance, which is c"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "The section describes the setup of Study 3, including the use of logistic regression models and the "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "The section also reports some findings, such as the impact of cultural dimensions on various service"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

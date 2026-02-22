@@ -1,0 +1,146 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section begins by referencing prior studies and the general logic of care decision support systems,,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes the framework established in this study, indicating some methodological contribution."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data preprocessing, analysis methods, and model training performed by the authors."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the baseline analysis method used in the study, focusing on the authors' procedures."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the implementation of the system, including prototype development and sensor deployment, i"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the data preprocessing and analysis steps as applied in this study."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of the system's analysis, including visualizations and findings from the data."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the selection and use of benchmark systems for comparison, which is a methodological step."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Includes some reporting of what was found using the benchmark systems."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes and interprets the output of the system, including visualizations and patterns found in th"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the evaluation approach, including experimental and comparative analysis procedures."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the procedure for the evaluation experiment, including data selection and analysis steps."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Summarizes the comparative findings, stating the superiority of the proposed system based on the res"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

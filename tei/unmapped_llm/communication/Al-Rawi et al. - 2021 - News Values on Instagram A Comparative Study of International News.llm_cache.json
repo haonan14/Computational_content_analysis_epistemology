@@ -1,0 +1,28 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section surveys prior research on news and Instagram, summarizing what other scholars have done"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides theoretical background on news values theory, citing foundational work and its"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

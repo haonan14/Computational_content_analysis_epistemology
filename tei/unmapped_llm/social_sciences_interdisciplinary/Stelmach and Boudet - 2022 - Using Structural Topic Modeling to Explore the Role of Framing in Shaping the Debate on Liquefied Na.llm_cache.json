@@ -1,0 +1,38 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior literature on framing and fossil fuel discourse, as indicated by the title"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section is positioned after the introduction and before methods, and the content is described as"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports the output of the topic model (23 topics), describes their content, and presents"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "There is some interpretive commentary about the meaning of topic prevalence across venues, but the"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

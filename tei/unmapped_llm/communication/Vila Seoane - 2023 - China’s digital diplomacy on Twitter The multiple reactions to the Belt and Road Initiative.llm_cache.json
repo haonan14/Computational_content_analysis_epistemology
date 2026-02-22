@@ -1,0 +1,106 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the conceptual background of digital and public diplomacy, referencing prior (c"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses the theoretical relationship between public and digital diplomacy, referencing"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section describes how the research question is answered through measurement and mapping, detaili"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the operationalization of RQ1, including data measurement and mapping procedures."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the analytic approach (topic modeling) used to answer RQ2, including software a"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the methodological approach (topic modeling) for analyzing English tweets."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analytic steps and tools (R, Gephi, Louvain algorithm) used to answer RQ3, focusing o"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Outlines the procedures for network analysis, including data conversion and community detection."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on tweet frequency, language distribution, and geolocation, referencing figures and"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents empirical findings (tweet counts, language breakdown, geolocation) with interpretive commen"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the empirical findings from the retweet network analysis, including network size, influent"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports on the structure and influential actors in the retweet network, with specific examples."
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section provides background on the context and prior research (e.g., the Facebook emotional c"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "Some framing and transition from the introduction, but the main function is literature/context."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the design and deployment of the surveys used in the study, including data collection and"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports findings from multiple analytic approaches, including predictors and model results."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Some description of analytic approaches and triangulation, but the main focus is on findings."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports sample sizes, demographics, and proportions of respondents who reverted, with some comparis"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly discusses sample characteristics and potential biases, but focus is on reporting results."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings on demographic and Likert response predictors, referencing specific results and th"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "References prior work and situates findings in relation to existing literature."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports findings from the exploratory factor analysis, including which adjectives predict reversion."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Describes the analytic approach (factor analysis) and variables used, but focus is on findings."
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

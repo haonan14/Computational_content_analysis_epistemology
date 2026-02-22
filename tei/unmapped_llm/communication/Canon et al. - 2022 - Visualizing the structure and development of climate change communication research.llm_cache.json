@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "The section describes the bibliometric knowledge mapping technique, its use of publication metadata,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "It references prior work and theoretical background on bibliometric mapping, citing foundational met"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

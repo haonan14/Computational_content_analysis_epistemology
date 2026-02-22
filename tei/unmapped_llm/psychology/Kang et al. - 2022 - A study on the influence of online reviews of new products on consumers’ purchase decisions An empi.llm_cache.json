@@ -1,0 +1,205 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data source (JD.com), data collection process, and the specific variables collected, i"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data source (JD.com), data collection process, and the specific variables collected, i"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the application of the LDA model to consumer reviews, including model rationale and how it"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the application of the LDA model to consumer reviews, including model rationale and how it"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data preprocessing steps and the process of identifying main consumer concern factors from"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data preprocessing steps and the process of identifying main consumer concern factors from"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Draws on theoretical models (EBM) and prior research to frame hypotheses about online reviews and co"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Connects theory to the specific hypotheses being developed for this study, which will be tested late"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Reviews prior research and theory on online review volume and its impact, with citations and hypothe"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "States specific hypotheses (H1a, H1b) that will be empirically tested in the paper."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Discusses prior literature and theory (emotional polarity, emotional infection theory) and frames hy"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "States specific hypotheses (H3a, H3b) to be tested in the empirical analysis."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Reviews prior research and theory on review variance, cognitive dissonance, and its impact, with cit"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "States specific hypotheses (H4a, H4b) that will be tested in the empirical analysis."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Discusses theoretical rationale and prior research for interaction effects between online review met"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "States specific hypotheses (H5a-H5e) to be tested in the empirical analysis."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how variables are measured, including operationalization of online review volume, emotiona"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the construction of the empirical model, including benchmark model specification and interac"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents and interprets the results of the baseline regression analysis, including coefficient value"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of the interaction effect analysis, including statistical findings and interpret"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the study's findings in terms of practical recommendations for managers, and"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the study's findings in terms of practical recommendations for managers, and"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

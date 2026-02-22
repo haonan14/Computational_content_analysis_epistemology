@@ -1,0 +1,101 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section frames the theoretical approach (deliberative systems), discusses conceptual background"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "It also frames the research questions and sets up the study's rationale, which is an introductory/fo"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes the case selection and justification, which is a methodological choice"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.4,
+          "reason": "Provides context and background about the Scottish referendum, which is relevant prior knowledge"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes in detail the empirical research design, data collection, coding, and validation steps"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "Reports findings (themes, topic proportions, correlations, participant behaviors) from the analysis"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "Includes some interpretive commentary on what participants are doing in the conversation"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.85,
+          "reason": "Reports findings about topic associations with Yes/No sides, patterns in the data"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.15,
+          "reason": "Includes some interpretation of the meaning of these patterns"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports findings about formal/informal divides, topic clusters, and language use"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Provides interpretation of the significance of these findings"
+        }
+      ],
+      "confidence": 0.96
+    }
+  ]
+}

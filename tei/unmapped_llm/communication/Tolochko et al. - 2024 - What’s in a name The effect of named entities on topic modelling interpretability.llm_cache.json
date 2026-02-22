@@ -1,0 +1,217 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, discusses the importance of preprocessing in topic models,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "No substantial review of prior work; focus is on framing the problem."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on Named Entity Recognition and its relevance to topic models, with"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.0,
+          "reason": "No description of what the authors did; focus is on background and prior work."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports descriptive statistics about the distribution of named entities in the data, as"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "Mentions prior research only in passing; main focus is on reporting this study's findings."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about the optimal number of topics (K) in the models, including method"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.0,
+          "reason": "Describes results of model selection, not the procedures themselves."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the distribution of named entities within topics, based on the models trained b"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.0,
+          "reason": "Focus is on reporting findings, not on describing procedures."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports statistical results comparing semantic coherence and exclusivity between models"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.0,
+          "reason": "Interpretation is minimal; focus is on reporting statistical differences."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of cross-model prediction tests, describing how well models general"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.0,
+          "reason": "Interpretation is limited; focus is on reporting the test outcomes."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes a new experimental procedure (filtering texts into targeted corpora) to test robustness of"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Includes some reporting of what was found with the targeted corpora, but the main focus is on the pr"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the human validation procedure to assess interpretability of topic models."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Includes some reporting of what was found in the human validation, but the main focus is on the proc"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of the expert experiment, including inter-coder reliability and interpretability"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of the crowdsourced experiment, including dependent variables and findings."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Disclosure statements are administrative and do not fit any research function category."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "'Notes on contributors' is a standard section providing author information, not part of the research"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "'Petro' appears to be a name, possibly a signature or artifact, not a research section"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

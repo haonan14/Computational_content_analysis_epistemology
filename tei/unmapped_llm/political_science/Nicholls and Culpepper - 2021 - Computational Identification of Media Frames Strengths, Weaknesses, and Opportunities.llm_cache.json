@@ -1,0 +1,191 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section lists and briefly describes prior computational methods for frame analysis, referencing"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section is a bulleted list of prior methods (k-means, EFA), with citations and no evidence of 'I"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the Structural Topic Model (STM) as used in prior work, with citation and no"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes STM, referencing Roberts et al. (2014), and discusses its properties in general terms, not"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how the authors applied EFA to their data, including rationale for their pro"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the application of EFA by the authors, including their process and choices, indicating ac"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the authors' use of STM, including fitting models, parameter selection, and pr"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' process for fitting STM models, including parameter selection and evaluatio"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the manual analysis procedure carried out by the authors, including steps and rationale."
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the authors' manual coding process, referencing their own actions and procedures."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings of the manual analysis, including the frames identified and their compatibilit"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes what was found in the manual analysis, including specific frames and their comparison."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of applying k-means clustering, including the authors' evaluation of the outco"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the findings from k-means clustering, including the authors' assessment of the clusters."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of the EFA model, including specific findings and interpretation of factors."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the output of the EFA model, including problematic factors and coverage."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the results of STM modeling, including interpretability and evaluation of topics."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the STM results for both datasets, including interpretability and model evaluation."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the results of the researchers' frame identification, including comparison and descriptio"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the frames identified by each researcher and compares their findings."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets the meaning and implications of the results, evaluating the suitability of methods for "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Discusses the implications and limitations of the methods based on the results, with interpretive "
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

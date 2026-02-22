@@ -1,0 +1,120 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of government responsiveness, discusses its theoretical background,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of government responsiveness, discusses its theoretical background,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section states a hypothesis (H1) and provides theoretical justification, referencing prior work"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive commentary on why the hypothesis might hold, but the main function is to,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section states a hypothesis (H2) and provides theoretical rationale, fitting the function of a,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section describes the context and prior research on government-citizen interaction platforms in"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is some description of the platforms used, which may relate to data sources, but the main, "
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the STM modeling approach, topic number selection, and related methodological"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details operationalization of variables, data sources, and model specifications, all of"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the estimation approach (multilevel logit model), which is a methodological"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports findings (e.g., effect of conflicting complaints), which is characteristic of a"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "The section also interprets the findings and discusses their generalizability, which is a discussion"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

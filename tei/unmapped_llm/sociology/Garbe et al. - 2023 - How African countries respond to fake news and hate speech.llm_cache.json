@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem (tech giants' inaction, African government responses), poses"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem (tech giants' inaction, African government responses), poses"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

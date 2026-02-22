@@ -1,0 +1,91 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, situates the work in relation to recent methodological and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the impact of new modeling techniques on the humanities, referencing prior"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses the conceptual differences between traditional and new statistical models, and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some discussion of practical approaches (e.g., finding samples, using learning algorithms),"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the approach to modeling poetic distinction, including the time period, variables, and"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Begins to report what the model finds about poetic distinction (e.g., which features are predictive)"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports model performance (accuracy, predictions), and interprets what the results show about the"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation and broader implications about the pace of literary change and the"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is a standard conflict of interest statement, not part of the research narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.8,
+          "reason": "The section frames the research problem (partisan stereotypes), motivates the study, and introduces,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "The section references prior work and citations (e.g., Garcia-Marques et al., 2017), briefly situ"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the analytic approach (STM, hand-coding), detailing how the authors analyzed"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings (e.g., changes in stereotypes, percentages, references to Figure 1), f"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

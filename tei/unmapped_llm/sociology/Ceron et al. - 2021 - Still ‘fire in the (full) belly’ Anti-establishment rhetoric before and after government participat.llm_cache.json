@@ -1,0 +1,99 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the academic literature on populism, discusses definitions, and provides a 'the"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the academic literature on populism, discusses definitions, and provides a 'the"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section frames research questions in the context of prior literature and theoretical debate, and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section frames research questions in the context of prior literature and theoretical debate, and"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "The section also introduces the research questions and sets up the empirical focus of the paper."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section continues to discuss distinctions in the literature (right- vs left-wing populists) and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section continues to discuss distinctions in the literature (right- vs left-wing populists) and"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "It also frames the broad research questions and outlines the comparative approach of the study."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the data sources, case selection, and analytic approach used by the authors."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from the semantic analysis, including patterns and differences observed"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from the semantic analysis, including patterns and differences observed"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "It briefly describes the analytic tool (LIWC) and its application before presenting results."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

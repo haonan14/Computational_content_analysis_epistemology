@@ -1,0 +1,38 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section provides background on the global and Japanese context of COVID-19, referencing prior (c"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "The section also frames the context and importance of the research problem, which is an introductory"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section reviews the timeline and policy context of COVID-19 in Japan, referencing prior events, "
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "The section transitions to the study's purpose and research gap, which is an introductory function."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

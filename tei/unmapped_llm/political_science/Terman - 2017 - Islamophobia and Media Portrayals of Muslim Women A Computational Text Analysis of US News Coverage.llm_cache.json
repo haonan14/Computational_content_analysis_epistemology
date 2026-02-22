@@ -1,0 +1,185 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, discusses recent findings, and situates the study's aims,,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research, citing studies and summarizing what others have found about US/"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses theoretical literature, especially on Orientalism and gendered stereotypes, c"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Given the context and placement, this section likely discusses Saudi Arabia as a case in the context"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section continues the literature review, discussing media coverage and stereotypes, referencing"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section states and explains the second hypothesis, which is typically part of the theoretical/l"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some discussion of operationalization and comparison, which hints at methodological conside"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "This section describes how the first hypothesis is modeled, including operationalization of the dep"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "There is some mention of findings and robustness checks, but the main focus is on modeling and met"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how substantive focus is measured, including coding and labeling, which is "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details data preparation and model estimation, which are core methodological activiti"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about coverage across regions, including model estimates and pattern"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "This section describes how the dependent variable for Hypothesis 2 is operationalized and how the"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some reporting of model results, but the main focus is on methods and operationalization"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about the coverage of sexual assault, including prevalence and patt"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "The section interprets the results in light of the 9/11 event, discusses the implications, and situ\u00ad"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "There is some reference to findings and how 9/11 figures into the results, but the emphasis is on in"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "Although the section references prior literature, the main function is not a literature review but r"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

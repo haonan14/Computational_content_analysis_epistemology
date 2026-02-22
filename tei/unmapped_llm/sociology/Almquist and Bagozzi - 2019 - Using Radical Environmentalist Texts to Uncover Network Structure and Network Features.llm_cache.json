@@ -1,0 +1,231 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, introduces the topic, and outlines the structure of the the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work on automated text analysis, referencing multiple studies and methods"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses the history and prior literature on building networks from text, citing key wo"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data source, sample selection, and background for the study, focusing on what the aut"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews the history and literature on social network methods, centrality, and co-occurrence network"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes how the network is defined, the construction of the group network, and the edge set\u2014detai"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Begins to report some descriptive statistics and findings about the network structure."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes the choice and use of centrality metrics and measures, focusing on methodological details"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Includes some reporting of findings about specific groups and their centrality in the network."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Explains the clustering method used (hierarchical cluster analysis) and the rationale for its use."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Reports on the identified clusters and their composition."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes the modeling approach for identifying group tactics and the process for selecting the mod"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Begins to discuss the results of the model selection and the identified topics."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Focuses on reporting the topics identified in the corpus and the findings from the STM analysis."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on the relationship between topics and group ties, including statistical associati"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on the relationship between network clusters and protest-strategy topics, includin"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Section introduces the procedures for network discovery/classification using topic models, describes"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Section outlines that subsequent subsections will describe classification results and comparisons, i"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the procedure for classifying group pairs using statistical significance from STM model, a"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Reports the outcome of the classification (20 of 67 pairs identified), indicating some results are p"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the approach for classifying group pairs by effect size, focusing on the procedure and cr"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Reports the number of pairs identified (20 of 67), indicating some results are presented."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section compares the two resulting networks, reports differences in network structure, and refers t"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

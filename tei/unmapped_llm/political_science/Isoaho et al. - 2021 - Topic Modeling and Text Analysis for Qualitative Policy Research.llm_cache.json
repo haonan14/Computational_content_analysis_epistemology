@@ -1,0 +1,103 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section introduces the concept of topic modeling, explains its theoretical underpinnings, and,\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the output of topic modeling algorithms and the steps taken in text preprocessing, which\u00a0"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Focuses on the process of validating and interpreting topic models, which are methodological steps."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Includes some interpretive commentary on best practices and the importance of validation."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses how topic modeling is situated within the broader literature of social science text-analys"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Explains the concept of embedded design with reference to prior literature and theoretical rationale"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Touches on methodological implications and how embedded design is implemented in research."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Defines and explains sequential design, referencing prior literature and theoretical concepts."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes how sequential design is operationalized in research practice."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews and summarizes prior studies applying topic modeling to policy research, with citations and "
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

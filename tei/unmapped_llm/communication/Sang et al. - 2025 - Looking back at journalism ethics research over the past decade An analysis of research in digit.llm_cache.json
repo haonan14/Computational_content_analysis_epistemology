@@ -1,0 +1,123 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens the paper by framing the research problem (reader responses to religion news, Ark\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the procedures and analytic techniques (topic modeling, cross-tabulation) the"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

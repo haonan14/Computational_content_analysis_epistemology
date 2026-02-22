@@ -1,0 +1,143 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the characteristics of the dataset used in the study, including publication,,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the process of data extraction, including the database used (Scopus), the time,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section explains the analytical techniques (network analysis, topic modeling, LDA, NLP prepro,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings regarding the annual publication and citation trends, including sp"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the most influential documents based on citation counts, listing top articles a"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the most influential authors based on h-index, citations, and number of papers"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the most productive countries in the field, based on publication output and the"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the evolution of keywords over time, showing trends and shifts in research focu"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the most influential sources (journals) based on h-index, citations, and publi"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the top contributing affiliations, based on the number of articles published an"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of bibliographic coupling analysis, describing clusters and influe"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of co-citation analysis, describing clusters and trends in the fie"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the most prominent topics extracted from the data, including specific findings,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the meaning of the prominent topics, discusses implications for platform and"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section outlines future research directions, which is a classic function of the discussion, as"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section continues the discussion of future research directions and implications, fitting the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets findings, discusses implications for practice, and addresses challenges, all"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This is an authorship contribution statement, which does not fit any of the main research section"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

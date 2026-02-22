@@ -1,0 +1,45 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.9,
+          "reason": "Describes the authors' data pre-processing steps and sentiment analysis procedures, detailing how un"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.1,
+          "reason": "Briefly references prior analyses (e.g., Li et al., 2020; Mackey et al., 2020) to justify methods, a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from the sentiment analysis, including statistical results (e.g., \u03b2, p-values) and "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Presents sample tweets as supplementary material, illustrating findings but not advancing new analys"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

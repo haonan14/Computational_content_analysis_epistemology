@@ -1,0 +1,104 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the academic literature on populism, discusses definitions, and provides a 'the"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the academic literature on populism, discusses definitions, and provides a 'the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section frames a research question and discusses expectations based on prior literature and what"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section frames a research question and discusses expectations based on prior literature and what"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "The section also introduces a key research question, which is an introductory function."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section discusses distinctions in the literature between types of populists and frames the res"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section discusses distinctions in the literature between types of populists and frames the res"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "It also continues to introduce the research questions and scope, which is an introductory function."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the case selection, data collection, and analytic approach used by the autho"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the case selection, data collection, and analytic approach used by the autho"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports the findings of the semantic analysis, including patterns and differences foun"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports the findings of the semantic analysis, including patterns and differences foun"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "The section briefly describes the analytic tool (LIWC) and its application, which is a methods func"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

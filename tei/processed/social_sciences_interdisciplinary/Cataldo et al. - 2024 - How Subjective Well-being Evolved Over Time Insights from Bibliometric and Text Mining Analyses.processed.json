@@ -1,0 +1,838 @@
+{
+  "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/social_sciences_interdisciplinary/Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses.tei.xml",
+  "metadata": {
+    "title": "How Subjective Well-being Evolved Over Time: Insights from Bibliometric and Text Mining Analyses",
+    "authors": [
+      "Rosanna Cataldo",
+      "Leonardo Alaimo",
+      "Maria Grassia",
+      "Filomena Maggino"
+    ],
+    "journal": "Applied Research in Quality of Life",
+    "year": "2024",
+    "doi": "10.1007/s11482-024-10332-x",
+    "keywords": [
+      "Subjective well-being",
+      "Bibliometric analysis",
+      "Text mining",
+      "Scopus"
+    ]
+  },
+  "abstract": "The work investigates the evolution of subjective well-being research based on bibliometric analysis and text mining techniques. It provides a comprehensive overview of the publications from 1966 to 2022 inclusive. 12,376 publications were downloaded from the Scopus database. The paper affords information regarding the evolution of the field in terms of identifying key publications and authors as well as how certain topics have evolved over time. Using topic modeling and text analysis techniques, the main research topics are identified. The analysis, which highlights a rapid growth in publications observed since 2000, demonstrates how the concept of well-being from a subjective point of view is widely studied by researchers in various fields. Moreover, if before this concept was mainly analyzed in the psychological field, nowadays there are journals that devote more space to these issues in terms of individual happiness and social issues.",
+  "sections": [
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Introduction",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The notion of subjective well-being has been at the core of the scientific debate on quality of life for many years. In the last two decades, different scholars focused on the possibility of measuring subjective well-being (hereinafter: SWB), as reflected in the exponential growth of research in this field and the interest about this issue in the academic, institutional, and public debate. Nowadays, it is one of the most accepted and recognized concepts by the scientific community (Diener, 1984;OECD, 2013;Cummins, 2013;Maggino, 2015).",
+        "SWB is a complex phenomenon to whose definition several dimensions contribute (Alaimo, 2021b, a) and it is one of the most important constructs in the field of social science (Migliorini et al., 2019). Diener et al. (2017) define it as people's overall evaluations of their lives and their emotional experiences. This definition highlights the multidimensional nature of SWB: it must be conceived as a broad and generic term that refers to all the different forms of evaluation of one's life or emotional experience. Therefore, it includes broad appraisals, such as life satisfaction, health and the specific feelings that people experience about particular events that happen during their lifetimes (Migliorini et al., 2019).",
+        "Given the importance of this concept, this paper aims at reviewing from a general perspective the whole collection of publications on this topic in the last 60 years in order to evaluate the conceptual evolution of this research field, identify the characteristics and implications of recent research trends, and predict the future of main path analysis in SWB research.",
+        "Specifically, we address these two research questions:",
+        "• RQ1: Which are the most influential studies and who are the most important authors in the domain of SWB? • RQ2: What are the major themes in the domain of SWB and how do they interact?",
+        "In order to answer these questions, conventional bibliometric methods and customized text mining techniques were performed, by analyzing annual publication outputs, publications distribution by country and institution, the authorship productivity and collaboration pattern to provide an alternate perspective on the evolution and development of SWB concept and studies. The work is structured as follows. Section \"What is Subjective Well-being?\" provides a general overview of the concept of SWB and the evolution of the term; Section \"Method\" introduces the method; in the Section \"Study Design\" a study design and the exclusion criteria are presented. Section \"Data Collection\" presents the collected data while in the Section \"Data Analysis\" main results of the analyses performed on the last 60 years on this topic are presented. Section \"Conclusive Remarks\" discusses the main finding, limitations of the study, and future research directions."
+      ],
+      "footnotes": [],
+      "text": "The notion of subjective well-being has been at the core of the scientific debate on quality of life for many years. In the last two decades, different scholars focused on the possibility of measuring subjective well-being (hereinafter: SWB), as reflected in the exponential growth of research in this field and the interest about this issue in the academic, institutional, and public debate. Nowadays, it is one of the most accepted and recognized concepts by the scientific community (Diener, 1984;OECD, 2013;Cummins, 2013;Maggino, 2015).\n\nSWB is a complex phenomenon to whose definition several dimensions contribute (Alaimo, 2021b, a) and it is one of the most important constructs in the field of social science (Migliorini et al., 2019). Diener et al. (2017) define it as people's overall evaluations of their lives and their emotional experiences. This definition highlights the multidimensional nature of SWB: it must be conceived as a broad and generic term that refers to all the different forms of evaluation of one's life or emotional experience. Therefore, it includes broad appraisals, such as life satisfaction, health and the specific feelings that people experience about particular events that happen during their lifetimes (Migliorini et al., 2019).\n\nGiven the importance of this concept, this paper aims at reviewing from a general perspective the whole collection of publications on this topic in the last 60 years in order to evaluate the conceptual evolution of this research field, identify the characteristics and implications of recent research trends, and predict the future of main path analysis in SWB research.\n\nSpecifically, we address these two research questions:\n\n• RQ1: Which are the most influential studies and who are the most important authors in the domain of SWB? • RQ2: What are the major themes in the domain of SWB and how do they interact?\n\nIn order to answer these questions, conventional bibliometric methods and customized text mining techniques were performed, by analyzing annual publication outputs, publications distribution by country and institution, the authorship productivity and collaboration pattern to provide an alternate perspective on the evolution and development of SWB concept and studies. The work is structured as follows. Section \"What is Subjective Well-being?\" provides a general overview of the concept of SWB and the evolution of the term; Section \"Method\" introduces the method; in the Section \"Study Design\" a study design and the exclusion criteria are presented. Section \"Data Collection\" presents the collected data while in the Section \"Data Analysis\" main results of the analyses performed on the last 60 years on this topic are presented. Section \"Conclusive Remarks\" discusses the main finding, limitations of the study, and future research directions.",
+      "text_with_footnotes": "The notion of subjective well-being has been at the core of the scientific debate on quality of life for many years. In the last two decades, different scholars focused on the possibility of measuring subjective well-being (hereinafter: SWB), as reflected in the exponential growth of research in this field and the interest about this issue in the academic, institutional, and public debate. Nowadays, it is one of the most accepted and recognized concepts by the scientific community (Diener, 1984;OECD, 2013;Cummins, 2013;Maggino, 2015).\n\nSWB is a complex phenomenon to whose definition several dimensions contribute (Alaimo, 2021b, a) and it is one of the most important constructs in the field of social science (Migliorini et al., 2019). Diener et al. (2017) define it as people's overall evaluations of their lives and their emotional experiences. This definition highlights the multidimensional nature of SWB: it must be conceived as a broad and generic term that refers to all the different forms of evaluation of one's life or emotional experience. Therefore, it includes broad appraisals, such as life satisfaction, health and the specific feelings that people experience about particular events that happen during their lifetimes (Migliorini et al., 2019).\n\nGiven the importance of this concept, this paper aims at reviewing from a general perspective the whole collection of publications on this topic in the last 60 years in order to evaluate the conceptual evolution of this research field, identify the characteristics and implications of recent research trends, and predict the future of main path analysis in SWB research.\n\nSpecifically, we address these two research questions:\n\n• RQ1: Which are the most influential studies and who are the most important authors in the domain of SWB? • RQ2: What are the major themes in the domain of SWB and how do they interact?\n\nIn order to answer these questions, conventional bibliometric methods and customized text mining techniques were performed, by analyzing annual publication outputs, publications distribution by country and institution, the authorship productivity and collaboration pattern to provide an alternate perspective on the evolution and development of SWB concept and studies. The work is structured as follows. Section \"What is Subjective Well-being?\" provides a general overview of the concept of SWB and the evolution of the term; Section \"Method\" introduces the method; in the Section \"Study Design\" a study design and the exclusion criteria are presented. Section \"Data Collection\" presents the collected data while in the Section \"Data Analysis\" main results of the analyses performed on the last 60 years on this topic are presented. Section \"Conclusive Remarks\" discusses the main finding, limitations of the study, and future research directions.",
+      "preview_head": "The notion of subjective well-being has been at the core of the scientific debate on quality of life for many years. In the last two decades, different scholars focused on the possibility of measuring subjective well-being (hereinafter: SWB), as reflected in the exponential growth of research in this field and the interest about this issue in the academic, institutional, and public debate. Nowadays, it is one of the most accepted and recognized concepts by the scientific community (Diener, 1984;OECD, 2013;Cummins, 2013;Maggino, 2015).",
+      "preview_tail": "In order to answer these questions, conventional bibliometric methods and customized text mining techniques were performed, by analyzing annual publication outputs, publications distribution by country and institution, the authorship productivity and collaboration pattern to provide an alternate perspective on the evolution and development of SWB concept and studies. The work is structured as follows. Section \"What is Subjective Well-being?\" provides a general overview of the concept of SWB and the evolution of the term; Section \"Method\" introduces the method; in the Section \"Study Design\" a study design and the exclusion criteria are presented. Section \"Data Collection\" presents the collected data while in the Section \"Data Analysis\" main results of the analyses performed on the last 60 years on this topic are presented. Section \"Conclusive Remarks\" discusses the main finding, limitations of the study, and future research directions.",
+      "word_count": 434,
+      "paragraph_count": 6,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "3",
+      "header_norm": "",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "How Subjective Well-being Evolved Over Time"
+      ],
+      "footnotes": [],
+      "text": "How Subjective Well-being Evolved Over Time",
+      "text_with_footnotes": "How Subjective Well-being Evolved Over Time",
+      "preview_head": "How Subjective Well-being Evolved Over Time",
+      "preview_tail": "How Subjective Well-being Evolved Over Time",
+      "word_count": 6,
+      "paragraph_count": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section introduces the main research question and frames the overall topic of how subjective well‑​‑"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section introduces the main research question and frames the overall topic of how subjective well‑​‑"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "What is Subjective Well-being?",
+      "header_norm": "what is subjective well being",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Measuring SWB has become a central issue in the literature over the years. The necessity to consider the individual perspective, completely ignored by the traditional GDP approach, in measuring countries' well-being is broadly urged and accepted (Stiglitz et al., 2009;Maggino, 2015). But, what is SWB? Answering this question is a very difficult task. There is not universally accepted definition: SWB is a difficult concept to define and, consequently, to measure, because of its complexity and multidimensionality (Maggino & Alaimo, 2021, 2022). Different conceptualizations are the combination of heterogeneous components, which assume different meanings in different contexts and cultures. There is no comprehensive and shared definition. SWB is a term made up of two words. Well-being is a complex and multidimensional phenomenon, involving dimensions such as economic and social cohesion, integration of individuals and groups, social connection, and social ties (social capital), observed at both micro-level and macro-level (Brulé & Maggino, 2017;D'Urso et al., 2022). Traditionally, well-being has often been limited to the economic welfare and the Gross Domestic Product (GDP), the fundamental measure of the production of each economic system, has been commonly used as a measure of well-being. However, GDP presents important limitations as a measure of wellbeing, because it is evident that taking into account only economic aspects does not allow a clear and complete representation of the well-being of a society or an individual (D'Urso et al., 2022). Alternative indicators have been developed to provide a more well-rounded measure of a nation's well-being, all of which are a combination of both economic and non-economic aspects and indicators such as life expectancy, literacy rates, environmental indicators, measures of inequality and so on. A conceptual framework able to overcome incompleteness should be adopted must conciliate the individual level (quality of life, to be observed and monitored at individual/micro level) and the community level (quality of society, to be observed and monitored at societal/macro level) (Maggino, 2015;Brulé & Maggino, 2017). By including these aspects, we can define a measure of well-being that goes beyond the nation's GDP value. The term subjective and its measurement is a controversial and highly issue debated in the literature (Schneider, 1975;Michalos, 1992;Cummins, 2000;Veenhoven, 2002;Fahey & Smyth, 2004;Noll, 2013). It is often defined in relation to its opposite, objective; in measurement science, this distinction refers to the source on which the characteristic of interest is measured. i.e. the unit (individuals, institutions, social groups, services, administrative areas, geographical areas, and so on). According to this, we can distinguish between (Maggino et al., 2007(Maggino et al., , 2009) ) objective indicator, based on explicit criteria, shared by external observers and subjective indicator, based on subjective evaluations and implicit criteria which can vary from one individual to another. Subjective indicators aim at measuring and quantifying individual components involving different elements (opinion, cognition, emotion, attitude, and so on) related to contingent and mutable situations, by considering the different levels (personality, values, interests, motivations, and so on) at which each individual react to a specific question (Maggino et al., 2009).",
+        "The study of SWB has a long tradition in the literature (Diener et al., 1999), starting with the first pioneristic studies made between the mid-1960s and mid-1970s (Wilson, 1967Andrews & Withey, 2012;Campbell et al., 1976). As previously written, this concept has no univocal definition (for a review, see : Diener, 1984;McGillivray and Clarke, 2006;Miao et al., 2013). Definitions differ in the dimensions identified (Diener, 2006;Maggino, 2015;Huppert et al., 2009;Cummins, 2013;Alaimo & Conigliaro, 2021).",
+        "Different papers have approached the systematic analysis of the literature on the subject of subjective well-being (for instance, among the most recent see: Dominko and Verbič, 2019a;Dominko and Verbič, 2019b;Huang et al., 2022;Tanwar and Khindri, 2024;Kaur et al., 2021;Agrawal et al., 2023;Manjarres et al., 2023). However, in most cases, these papers focus on a specific dimension of SWB, by associating the analysis of the concept with one or more of its dimensions. Such an approach could lead to a biased analysis of the papers in the literature, favouring those that focus on specific dimensions or lead from one definition rather than another. The attempt of our analysis is to address the analysis of \"subjective well-being\" considering not only some specific dimensions, but in a general broad manner, so as to avoid the partiality that would result from choosing specific dimensions or aspects of the concept. This is the reason why we decide not to include in our research terms related to one specific dimension such as \"happiness\" or \"satisfaction\". We think that this strategy is suitable for achieving a general point of view on this topic."
+      ],
+      "footnotes": [],
+      "text": "Measuring SWB has become a central issue in the literature over the years. The necessity to consider the individual perspective, completely ignored by the traditional GDP approach, in measuring countries' well-being is broadly urged and accepted (Stiglitz et al., 2009;Maggino, 2015). But, what is SWB? Answering this question is a very difficult task. There is not universally accepted definition: SWB is a difficult concept to define and, consequently, to measure, because of its complexity and multidimensionality (Maggino & Alaimo, 2021, 2022). Different conceptualizations are the combination of heterogeneous components, which assume different meanings in different contexts and cultures. There is no comprehensive and shared definition. SWB is a term made up of two words. Well-being is a complex and multidimensional phenomenon, involving dimensions such as economic and social cohesion, integration of individuals and groups, social connection, and social ties (social capital), observed at both micro-level and macro-level (Brulé & Maggino, 2017;D'Urso et al., 2022). Traditionally, well-being has often been limited to the economic welfare and the Gross Domestic Product (GDP), the fundamental measure of the production of each economic system, has been commonly used as a measure of well-being. However, GDP presents important limitations as a measure of wellbeing, because it is evident that taking into account only economic aspects does not allow a clear and complete representation of the well-being of a society or an individual (D'Urso et al., 2022). Alternative indicators have been developed to provide a more well-rounded measure of a nation's well-being, all of which are a combination of both economic and non-economic aspects and indicators such as life expectancy, literacy rates, environmental indicators, measures of inequality and so on. A conceptual framework able to overcome incompleteness should be adopted must conciliate the individual level (quality of life, to be observed and monitored at individual/micro level) and the community level (quality of society, to be observed and monitored at societal/macro level) (Maggino, 2015;Brulé & Maggino, 2017). By including these aspects, we can define a measure of well-being that goes beyond the nation's GDP value. The term subjective and its measurement is a controversial and highly issue debated in the literature (Schneider, 1975;Michalos, 1992;Cummins, 2000;Veenhoven, 2002;Fahey & Smyth, 2004;Noll, 2013). It is often defined in relation to its opposite, objective; in measurement science, this distinction refers to the source on which the characteristic of interest is measured. i.e. the unit (individuals, institutions, social groups, services, administrative areas, geographical areas, and so on). According to this, we can distinguish between (Maggino et al., 2007(Maggino et al., , 2009) ) objective indicator, based on explicit criteria, shared by external observers and subjective indicator, based on subjective evaluations and implicit criteria which can vary from one individual to another. Subjective indicators aim at measuring and quantifying individual components involving different elements (opinion, cognition, emotion, attitude, and so on) related to contingent and mutable situations, by considering the different levels (personality, values, interests, motivations, and so on) at which each individual react to a specific question (Maggino et al., 2009).\n\nThe study of SWB has a long tradition in the literature (Diener et al., 1999), starting with the first pioneristic studies made between the mid-1960s and mid-1970s (Wilson, 1967Andrews & Withey, 2012;Campbell et al., 1976). As previously written, this concept has no univocal definition (for a review, see : Diener, 1984;McGillivray and Clarke, 2006;Miao et al., 2013). Definitions differ in the dimensions identified (Diener, 2006;Maggino, 2015;Huppert et al., 2009;Cummins, 2013;Alaimo & Conigliaro, 2021).\n\nDifferent papers have approached the systematic analysis of the literature on the subject of subjective well-being (for instance, among the most recent see: Dominko and Verbič, 2019a;Dominko and Verbič, 2019b;Huang et al., 2022;Tanwar and Khindri, 2024;Kaur et al., 2021;Agrawal et al., 2023;Manjarres et al., 2023). However, in most cases, these papers focus on a specific dimension of SWB, by associating the analysis of the concept with one or more of its dimensions. Such an approach could lead to a biased analysis of the papers in the literature, favouring those that focus on specific dimensions or lead from one definition rather than another. The attempt of our analysis is to address the analysis of \"subjective well-being\" considering not only some specific dimensions, but in a general broad manner, so as to avoid the partiality that would result from choosing specific dimensions or aspects of the concept. This is the reason why we decide not to include in our research terms related to one specific dimension such as \"happiness\" or \"satisfaction\". We think that this strategy is suitable for achieving a general point of view on this topic.",
+      "text_with_footnotes": "Measuring SWB has become a central issue in the literature over the years. The necessity to consider the individual perspective, completely ignored by the traditional GDP approach, in measuring countries' well-being is broadly urged and accepted (Stiglitz et al., 2009;Maggino, 2015). But, what is SWB? Answering this question is a very difficult task. There is not universally accepted definition: SWB is a difficult concept to define and, consequently, to measure, because of its complexity and multidimensionality (Maggino & Alaimo, 2021, 2022). Different conceptualizations are the combination of heterogeneous components, which assume different meanings in different contexts and cultures. There is no comprehensive and shared definition. SWB is a term made up of two words. Well-being is a complex and multidimensional phenomenon, involving dimensions such as economic and social cohesion, integration of individuals and groups, social connection, and social ties (social capital), observed at both micro-level and macro-level (Brulé & Maggino, 2017;D'Urso et al., 2022). Traditionally, well-being has often been limited to the economic welfare and the Gross Domestic Product (GDP), the fundamental measure of the production of each economic system, has been commonly used as a measure of well-being. However, GDP presents important limitations as a measure of wellbeing, because it is evident that taking into account only economic aspects does not allow a clear and complete representation of the well-being of a society or an individual (D'Urso et al., 2022). Alternative indicators have been developed to provide a more well-rounded measure of a nation's well-being, all of which are a combination of both economic and non-economic aspects and indicators such as life expectancy, literacy rates, environmental indicators, measures of inequality and so on. A conceptual framework able to overcome incompleteness should be adopted must conciliate the individual level (quality of life, to be observed and monitored at individual/micro level) and the community level (quality of society, to be observed and monitored at societal/macro level) (Maggino, 2015;Brulé & Maggino, 2017). By including these aspects, we can define a measure of well-being that goes beyond the nation's GDP value. The term subjective and its measurement is a controversial and highly issue debated in the literature (Schneider, 1975;Michalos, 1992;Cummins, 2000;Veenhoven, 2002;Fahey & Smyth, 2004;Noll, 2013). It is often defined in relation to its opposite, objective; in measurement science, this distinction refers to the source on which the characteristic of interest is measured. i.e. the unit (individuals, institutions, social groups, services, administrative areas, geographical areas, and so on). According to this, we can distinguish between (Maggino et al., 2007(Maggino et al., , 2009) ) objective indicator, based on explicit criteria, shared by external observers and subjective indicator, based on subjective evaluations and implicit criteria which can vary from one individual to another. Subjective indicators aim at measuring and quantifying individual components involving different elements (opinion, cognition, emotion, attitude, and so on) related to contingent and mutable situations, by considering the different levels (personality, values, interests, motivations, and so on) at which each individual react to a specific question (Maggino et al., 2009).\n\nThe study of SWB has a long tradition in the literature (Diener et al., 1999), starting with the first pioneristic studies made between the mid-1960s and mid-1970s (Wilson, 1967Andrews & Withey, 2012;Campbell et al., 1976). As previously written, this concept has no univocal definition (for a review, see : Diener, 1984;McGillivray and Clarke, 2006;Miao et al., 2013). Definitions differ in the dimensions identified (Diener, 2006;Maggino, 2015;Huppert et al., 2009;Cummins, 2013;Alaimo & Conigliaro, 2021).\n\nDifferent papers have approached the systematic analysis of the literature on the subject of subjective well-being (for instance, among the most recent see: Dominko and Verbič, 2019a;Dominko and Verbič, 2019b;Huang et al., 2022;Tanwar and Khindri, 2024;Kaur et al., 2021;Agrawal et al., 2023;Manjarres et al., 2023). However, in most cases, these papers focus on a specific dimension of SWB, by associating the analysis of the concept with one or more of its dimensions. Such an approach could lead to a biased analysis of the papers in the literature, favouring those that focus on specific dimensions or lead from one definition rather than another. The attempt of our analysis is to address the analysis of \"subjective well-being\" considering not only some specific dimensions, but in a general broad manner, so as to avoid the partiality that would result from choosing specific dimensions or aspects of the concept. This is the reason why we decide not to include in our research terms related to one specific dimension such as \"happiness\" or \"satisfaction\". We think that this strategy is suitable for achieving a general point of view on this topic.",
+      "preview_head": "Measuring SWB has become a central issue in the literature over the years. The necessity to consider the individual perspective, completely ignored by the traditional GDP approach, in measuring countries' well-being is broadly urged and accepted (Stiglitz et al., 2009;Maggino, 2015). But, what is SWB?",
+      "preview_tail": "The attempt of our analysis is to address the analysis of \"subjective well-being\" considering not only some specific dimensions, but in a general broad manner, so as to avoid the partiality that would result from choosing specific dimensions or aspects of the concept. This is the reason why we decide not to include in our research terms related to one specific dimension such as \"happiness\" or \"satisfaction\". We think that this strategy is suitable for achieving a general point of view on this topic.",
+      "word_count": 758,
+      "paragraph_count": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews the literature on subjective well-being, discusses definitions, and references prior"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Method",
+      "header_norm": "method",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The methodology adopted in the this paper is implemented in different steps, as depicted in Fig. 1.",
+        "The work starts with the definition of keywords and the selection of database. Once the bibliometric data has been imported from an online database (Data Collection), we move on the analysis (Data Analysis), under which bibliometric and text mining techniques are performed on the collected data. Finally, the main findings are discussed. All these phases are explained in detail in the following sections."
+      ],
+      "footnotes": [],
+      "text": "The methodology adopted in the this paper is implemented in different steps, as depicted in Fig. 1.\n\nThe work starts with the definition of keywords and the selection of database. Once the bibliometric data has been imported from an online database (Data Collection), we move on the analysis (Data Analysis), under which bibliometric and text mining techniques are performed on the collected data. Finally, the main findings are discussed. All these phases are explained in detail in the following sections.",
+      "text_with_footnotes": "The methodology adopted in the this paper is implemented in different steps, as depicted in Fig. 1.\n\nThe work starts with the definition of keywords and the selection of database. Once the bibliometric data has been imported from an online database (Data Collection), we move on the analysis (Data Analysis), under which bibliometric and text mining techniques are performed on the collected data. Finally, the main findings are discussed. All these phases are explained in detail in the following sections.",
+      "preview_head": "The methodology adopted in the this paper is implemented in different steps, as depicted in Fig. 1.",
+      "preview_tail": "The work starts with the definition of keywords and the selection of database. Once the bibliometric data has been imported from an online database (Data Collection), we move on the analysis (Data Analysis), under which bibliometric and text mining techniques are performed on the collected data. Finally, the main findings are discussed. All these phases are explained in detail in the following sections.",
+      "word_count": 80,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Bibliometric Analysis",
+      "header_norm": "bibliometric analysis",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "We use a bibliometric analysis to investigate the status and the evolution of the scientific studies on the SWB and to quantitatively assess the productivity of scientific outputs. This approach aims at investigating the literature of a given domain from a quantitative point of view, for summarising the research reported in the scientific 1 3",
+        "How Subjective Well-being Evolved Over Time literature by measuring certain indicators (Thelwall, 2008). The bibliometric analysis helps in depicting the history and the general state-of-the-art of a specific research topic, taking into account the written production as the major formal channel of communication among scientists (Bellardo, 1980). It is a quantitative approach for the analysis of academic literature using bibliographies to provide the description, evaluation and monitoring of the published research (Garfield et al., 1964;White & McCain, 1989), taking into account the main institutions and countries, authors and influential papers. At the same time, this approach allows uncovering the main topics and the research directions that had a place into the scientific journals. Bibliometric is based on the identification of the corpus of literature within a given subject area (Ellegaard & Wallin, 2015). The methodological aim is to analyse publications, citations and sources of information. Performance analysis and bibliometric mapping, a visual representation of science, are the two basic ways used in bibliometric methods (Noyons et al., 1999;Cobo et al., 2011;Herrera-Franco et al., 2020). These aspects are commonly used to analyze the evolution, composition and intellectual structure of the research field (Hallinger & Suriyankietkaew, 2018;Cobo et al., 2011). In detail, the performance analysis in bibliometric provides a comprehensive overview of the development and distribution in the field of the topic from statistical analysis perspectives, such as the number of publications, category of publications, and number of citations (Bota-Avram, 2023;Cucari et al., 2023), while the bibliometric mapping is a methodology that produces a spatial representation of the relations among the units of interest extracted from literature (keywords, authors, countries of origin, etc.) (Hallinger & Suriyankietkaew, 2018).",
+        "For this study, the bibliometric data analysis was conducted using the Bibliometrix R-Tool (Aria & Cuccurullo, 2017), a R-package which facilitates a more complete analysis employing specific tools for both bibliometric and scientometric quantitative research."
+      ],
+      "footnotes": [],
+      "text": "We use a bibliometric analysis to investigate the status and the evolution of the scientific studies on the SWB and to quantitatively assess the productivity of scientific outputs. This approach aims at investigating the literature of a given domain from a quantitative point of view, for summarising the research reported in the scientific 1 3\n\nHow Subjective Well-being Evolved Over Time literature by measuring certain indicators (Thelwall, 2008). The bibliometric analysis helps in depicting the history and the general state-of-the-art of a specific research topic, taking into account the written production as the major formal channel of communication among scientists (Bellardo, 1980). It is a quantitative approach for the analysis of academic literature using bibliographies to provide the description, evaluation and monitoring of the published research (Garfield et al., 1964;White & McCain, 1989), taking into account the main institutions and countries, authors and influential papers. At the same time, this approach allows uncovering the main topics and the research directions that had a place into the scientific journals. Bibliometric is based on the identification of the corpus of literature within a given subject area (Ellegaard & Wallin, 2015). The methodological aim is to analyse publications, citations and sources of information. Performance analysis and bibliometric mapping, a visual representation of science, are the two basic ways used in bibliometric methods (Noyons et al., 1999;Cobo et al., 2011;Herrera-Franco et al., 2020). These aspects are commonly used to analyze the evolution, composition and intellectual structure of the research field (Hallinger & Suriyankietkaew, 2018;Cobo et al., 2011). In detail, the performance analysis in bibliometric provides a comprehensive overview of the development and distribution in the field of the topic from statistical analysis perspectives, such as the number of publications, category of publications, and number of citations (Bota-Avram, 2023;Cucari et al., 2023), while the bibliometric mapping is a methodology that produces a spatial representation of the relations among the units of interest extracted from literature (keywords, authors, countries of origin, etc.) (Hallinger & Suriyankietkaew, 2018).\n\nFor this study, the bibliometric data analysis was conducted using the Bibliometrix R-Tool (Aria & Cuccurullo, 2017), a R-package which facilitates a more complete analysis employing specific tools for both bibliometric and scientometric quantitative research.",
+      "text_with_footnotes": "We use a bibliometric analysis to investigate the status and the evolution of the scientific studies on the SWB and to quantitatively assess the productivity of scientific outputs. This approach aims at investigating the literature of a given domain from a quantitative point of view, for summarising the research reported in the scientific 1 3\n\nHow Subjective Well-being Evolved Over Time literature by measuring certain indicators (Thelwall, 2008). The bibliometric analysis helps in depicting the history and the general state-of-the-art of a specific research topic, taking into account the written production as the major formal channel of communication among scientists (Bellardo, 1980). It is a quantitative approach for the analysis of academic literature using bibliographies to provide the description, evaluation and monitoring of the published research (Garfield et al., 1964;White & McCain, 1989), taking into account the main institutions and countries, authors and influential papers. At the same time, this approach allows uncovering the main topics and the research directions that had a place into the scientific journals. Bibliometric is based on the identification of the corpus of literature within a given subject area (Ellegaard & Wallin, 2015). The methodological aim is to analyse publications, citations and sources of information. Performance analysis and bibliometric mapping, a visual representation of science, are the two basic ways used in bibliometric methods (Noyons et al., 1999;Cobo et al., 2011;Herrera-Franco et al., 2020). These aspects are commonly used to analyze the evolution, composition and intellectual structure of the research field (Hallinger & Suriyankietkaew, 2018;Cobo et al., 2011). In detail, the performance analysis in bibliometric provides a comprehensive overview of the development and distribution in the field of the topic from statistical analysis perspectives, such as the number of publications, category of publications, and number of citations (Bota-Avram, 2023;Cucari et al., 2023), while the bibliometric mapping is a methodology that produces a spatial representation of the relations among the units of interest extracted from literature (keywords, authors, countries of origin, etc.) (Hallinger & Suriyankietkaew, 2018).\n\nFor this study, the bibliometric data analysis was conducted using the Bibliometrix R-Tool (Aria & Cuccurullo, 2017), a R-package which facilitates a more complete analysis employing specific tools for both bibliometric and scientometric quantitative research.",
+      "preview_head": "We use a bibliometric analysis to investigate the status and the evolution of the scientific studies on the SWB and to quantitatively assess the productivity of scientific outputs. This approach aims at investigating the literature of a given domain from a quantitative point of view, for summarising the research reported in the scientific 1 3",
+      "preview_tail": "For this study, the bibliometric data analysis was conducted using the Bibliometrix R-Tool (Aria & Cuccurullo, 2017), a R-package which facilitates a more complete analysis employing specific tools for both bibliometric and scientometric quantitative research.",
+      "word_count": 365,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the bibliometric analysis approach, tools, and procedures used by the authors."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Text Mining",
+      "header_norm": "text mining",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Text mining is a technique for extracting information from an extensive collection of documents in text form and analyzing research themes and trends (Jung & Lee, 2020). It aims at discovering topics that occur in a collection of documents in order to explore hidden semantic structures in the body of the texts (Vanhala et al., 2020). In addition to analyzing bibliographic data, we analyzed publication abstracts using a topic modeling approach. First proposed in 1998 (Papadimitriou et al., 1998), topic modeling is a powerful technique for unsupervised analysis of large documents collections. It is a common procedure in machine learning and natural language processing. It represents a type of statistical model used to identify abstract topics in a given selection of documents. This kind of analysis is particularly common in text mining to unearth hidden semantic structures in textual data. Topics can be conceived as networks of collocation terms that, because of co-occurrence between documents, can be assumed to refer to the same semantic domain (or topic).",
+        "In this work, Latent Dirichlet Allocation (LDA) topic modeling was used to further process and analyze the data sets (Blei, 2012). LDA is one of the most popular topic modeling methods proposed by Blei (2012). He introduced LDA as a type of topic model with the goal of providing each document's themes as a probability distribution. Each document is made up of various words, and each topic also has various words belonging to it. The aim of LDA is to find topics a document belongs to, based on the words in it. LDA makes the assumption that each document's words come from a variety of subjects. All documents in the collection have the same topics, but the topic proportions vary from document to document and are chosen at random from a Dirichlet distribution. Because LDA enables numerous tpics to be displayed in varied proportions within each page, it can effectively capture heterogeneity in grouped data that display several latent patterns (Blei & Lafferty, 2006) (for a detailed description of the method, see Blei and Lafferty, 2006;Blei, 2012).",
+        "For this study, the text mining analysis was conducted using the \"tm\" (Feinerer, 2008) and \"ldatuning\" (Nikita, 2016) R-packages."
+      ],
+      "footnotes": [],
+      "text": "Text mining is a technique for extracting information from an extensive collection of documents in text form and analyzing research themes and trends (Jung & Lee, 2020). It aims at discovering topics that occur in a collection of documents in order to explore hidden semantic structures in the body of the texts (Vanhala et al., 2020). In addition to analyzing bibliographic data, we analyzed publication abstracts using a topic modeling approach. First proposed in 1998 (Papadimitriou et al., 1998), topic modeling is a powerful technique for unsupervised analysis of large documents collections. It is a common procedure in machine learning and natural language processing. It represents a type of statistical model used to identify abstract topics in a given selection of documents. This kind of analysis is particularly common in text mining to unearth hidden semantic structures in textual data. Topics can be conceived as networks of collocation terms that, because of co-occurrence between documents, can be assumed to refer to the same semantic domain (or topic).\n\nIn this work, Latent Dirichlet Allocation (LDA) topic modeling was used to further process and analyze the data sets (Blei, 2012). LDA is one of the most popular topic modeling methods proposed by Blei (2012). He introduced LDA as a type of topic model with the goal of providing each document's themes as a probability distribution. Each document is made up of various words, and each topic also has various words belonging to it. The aim of LDA is to find topics a document belongs to, based on the words in it. LDA makes the assumption that each document's words come from a variety of subjects. All documents in the collection have the same topics, but the topic proportions vary from document to document and are chosen at random from a Dirichlet distribution. Because LDA enables numerous tpics to be displayed in varied proportions within each page, it can effectively capture heterogeneity in grouped data that display several latent patterns (Blei & Lafferty, 2006) (for a detailed description of the method, see Blei and Lafferty, 2006;Blei, 2012).\n\nFor this study, the text mining analysis was conducted using the \"tm\" (Feinerer, 2008) and \"ldatuning\" (Nikita, 2016) R-packages.",
+      "text_with_footnotes": "Text mining is a technique for extracting information from an extensive collection of documents in text form and analyzing research themes and trends (Jung & Lee, 2020). It aims at discovering topics that occur in a collection of documents in order to explore hidden semantic structures in the body of the texts (Vanhala et al., 2020). In addition to analyzing bibliographic data, we analyzed publication abstracts using a topic modeling approach. First proposed in 1998 (Papadimitriou et al., 1998), topic modeling is a powerful technique for unsupervised analysis of large documents collections. It is a common procedure in machine learning and natural language processing. It represents a type of statistical model used to identify abstract topics in a given selection of documents. This kind of analysis is particularly common in text mining to unearth hidden semantic structures in textual data. Topics can be conceived as networks of collocation terms that, because of co-occurrence between documents, can be assumed to refer to the same semantic domain (or topic).\n\nIn this work, Latent Dirichlet Allocation (LDA) topic modeling was used to further process and analyze the data sets (Blei, 2012). LDA is one of the most popular topic modeling methods proposed by Blei (2012). He introduced LDA as a type of topic model with the goal of providing each document's themes as a probability distribution. Each document is made up of various words, and each topic also has various words belonging to it. The aim of LDA is to find topics a document belongs to, based on the words in it. LDA makes the assumption that each document's words come from a variety of subjects. All documents in the collection have the same topics, but the topic proportions vary from document to document and are chosen at random from a Dirichlet distribution. Because LDA enables numerous tpics to be displayed in varied proportions within each page, it can effectively capture heterogeneity in grouped data that display several latent patterns (Blei & Lafferty, 2006) (for a detailed description of the method, see Blei and Lafferty, 2006;Blei, 2012).\n\nFor this study, the text mining analysis was conducted using the \"tm\" (Feinerer, 2008) and \"ldatuning\" (Nikita, 2016) R-packages.",
+      "preview_head": "Text mining is a technique for extracting information from an extensive collection of documents in text form and analyzing research themes and trends (Jung & Lee, 2020). It aims at discovering topics that occur in a collection of documents in order to explore hidden semantic structures in the body of the texts (Vanhala et al., 2020). In addition to analyzing bibliographic data, we analyzed publication abstracts using a topic modeling approach.",
+      "preview_tail": "For this study, the text mining analysis was conducted using the \"tm\" (Feinerer, 2008) and \"ldatuning\" (Nikita, 2016) R-packages.",
+      "word_count": 363,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section explains the text mining technique and specific R packages used in the authors' analysis."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Study Design",
+      "header_norm": "study design",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Generally, in the bibliometric method, the sample is composed of scientific articles. For the collection of the data, we select the Scopus database due to its number of indexations. The use of only one database in bibliometric studies is common because it allows the manipulation of metadata in a more systematic and organized way (Piñeiro-Chousa et al., 2020). Moreover, the decision to use Scopus database was prompted by the fact that according to Chadegani et al. (2013), it is the largest database with a wide range of records.",
+        "We conduct a topical query and downloaded 14, 146 bibliographic literature from the online Scopus database using the textual terms \"subjective well-being\" or \"subjective wellbeing\" or \"subjective well being\" without time limit, for searching titles, abstracts and/or keywords.",
+        "The data were downloaded on March 1, 2023. Only articles, proceedings papers and book chapters were included, while document types such as editorials, letters, notes, short survey, and review were excluded, because these types of documents did not undergo a peer-review process (Marsh et al., 2008). Moreover, only documents written in English were included, because this is the most widely used language in the scientific publications (Cisneros et al., 2018). The detail of these exclusion criteria has been shown in Fig. 2.",
+        "This process resulted in a final sample of 12, 376 documents, which constitute the core material of this study, relating to 26, 877 authors and 3, 405 sources (Journal, Books, etc)."
+      ],
+      "footnotes": [],
+      "text": "Generally, in the bibliometric method, the sample is composed of scientific articles. For the collection of the data, we select the Scopus database due to its number of indexations. The use of only one database in bibliometric studies is common because it allows the manipulation of metadata in a more systematic and organized way (Piñeiro-Chousa et al., 2020). Moreover, the decision to use Scopus database was prompted by the fact that according to Chadegani et al. (2013), it is the largest database with a wide range of records.\n\nWe conduct a topical query and downloaded 14, 146 bibliographic literature from the online Scopus database using the textual terms \"subjective well-being\" or \"subjective wellbeing\" or \"subjective well being\" without time limit, for searching titles, abstracts and/or keywords.\n\nThe data were downloaded on March 1, 2023. Only articles, proceedings papers and book chapters were included, while document types such as editorials, letters, notes, short survey, and review were excluded, because these types of documents did not undergo a peer-review process (Marsh et al., 2008). Moreover, only documents written in English were included, because this is the most widely used language in the scientific publications (Cisneros et al., 2018). The detail of these exclusion criteria has been shown in Fig. 2.\n\nThis process resulted in a final sample of 12, 376 documents, which constitute the core material of this study, relating to 26, 877 authors and 3, 405 sources (Journal, Books, etc).",
+      "text_with_footnotes": "Generally, in the bibliometric method, the sample is composed of scientific articles. For the collection of the data, we select the Scopus database due to its number of indexations. The use of only one database in bibliometric studies is common because it allows the manipulation of metadata in a more systematic and organized way (Piñeiro-Chousa et al., 2020). Moreover, the decision to use Scopus database was prompted by the fact that according to Chadegani et al. (2013), it is the largest database with a wide range of records.\n\nWe conduct a topical query and downloaded 14, 146 bibliographic literature from the online Scopus database using the textual terms \"subjective well-being\" or \"subjective wellbeing\" or \"subjective well being\" without time limit, for searching titles, abstracts and/or keywords.\n\nThe data were downloaded on March 1, 2023. Only articles, proceedings papers and book chapters were included, while document types such as editorials, letters, notes, short survey, and review were excluded, because these types of documents did not undergo a peer-review process (Marsh et al., 2008). Moreover, only documents written in English were included, because this is the most widely used language in the scientific publications (Cisneros et al., 2018). The detail of these exclusion criteria has been shown in Fig. 2.\n\nThis process resulted in a final sample of 12, 376 documents, which constitute the core material of this study, relating to 26, 877 authors and 3, 405 sources (Journal, Books, etc).",
+      "preview_head": "Generally, in the bibliometric method, the sample is composed of scientific articles. For the collection of the data, we select the Scopus database due to its number of indexations. The use of only one database in bibliometric studies is common because it allows the manipulation of metadata in a more systematic and organized way (Piñeiro-Chousa et al., 2020).",
+      "preview_tail": "This process resulted in a final sample of 12, 376 documents, which constitute the core material of this study, relating to 26, 877 authors and 3, 405 sources (Journal, Books, etc).",
+      "word_count": 239,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*study\\s+design"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*study\\s+design",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Data Collection",
+      "header_norm": "data collection",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Table 1 reports a summary of the main information extracted from the final selected documents.",
+        "SWB studies published in the period 1966-2022 were classified in 27 subject categories determined by Scopus. These categories are closely related so that a 1 3",
+        "How Subjective Well-being Evolved Over Time single document can be assigned to more than one subject category. The existence of so many subject categories is an evidence that SWB is studied in various areas. Topic categories that overlap with the documents are listed in Table 2. A majority of the published SWB studies focused principally on three subject areas: Social Sciences ( 40.3% ), Psychology ( 36.3% ) and Medicine ( 28.4% ). Additional stud- ies were conducted in fields like economics and business. The category \"Other\" includes remaining subjective areas with fewer frequencies (i.e. Neuroscience, Mathematics, Engineering, Health Professions, Chemistry, Decision Sciences). This evidence seems to indicate that SWB is subject to continuous reflections in various fields (psychology, sociology, economics). Considering only the main categories, an analysis over time was carried out to understand how these categories have evolved over time. In Fig. 3, we can observe how the concept of SWB has evolved over time.",
+        "In the first years (1966 -1990) this topic was mainly treated from a medical point of view; subsequently (1991 -2000) it developed from a psychological point of view. Starting from 2001, the concept of SWB is mainly dealt with by articles published in the social area. Looking at the authorship pattern, the documents were written by 26, 881 researchers and the collaboration is the key amongst authors whereby 5.5% authors have published solely. Looking at the \"Co-Authors per document\" index, that considers the number of times an author appeared in the collection of data, namely 3.45, it is possible to state that each documents was written on average by 3 authors. This ratio evaluates the extent to which scholars publish single-authored or co-authored publications, a statistic which can also be seen as a proxy for the average size of the research team (Aria How Subjective Well-being Evolved Over Time et al., 2020). The Collaboration Indexfoot_0 , equal to 2.53, also substantially confirms this statement.",
+        "Figure 4 shows the year-wise distribution of documents' collection.",
+        "Comparing the quantity of publications over years, it is evident that in the first years of the analysis (1966 -2002) the number of publications is very low, emphasizing the fact that for many years the concept of SWB has little been taken into consideration by researchers. Starting from 2000, this topic begins to expand, demonstrating that this new vision of the well-being was probably starting to arouse interest from researchers. Particularly since 2012, there has been a noticeable actual exponential development in the number of scholars who study this topic from a social point of view and no longer just in the medical or strictly psychological field and, more importantly, scholar who are starting to propose new and alternative approaches for estimating this issue.",
+        "Generally, the annual percentage growth rate over the considered years is equal to 2.09% . This is an indication that researchers focus their research on this aspect."
+      ],
+      "footnotes": [],
+      "text": "Table 1 reports a summary of the main information extracted from the final selected documents.\n\nSWB studies published in the period 1966-2022 were classified in 27 subject categories determined by Scopus. These categories are closely related so that a 1 3\n\nHow Subjective Well-being Evolved Over Time single document can be assigned to more than one subject category. The existence of so many subject categories is an evidence that SWB is studied in various areas. Topic categories that overlap with the documents are listed in Table 2. A majority of the published SWB studies focused principally on three subject areas: Social Sciences ( 40.3% ), Psychology ( 36.3% ) and Medicine ( 28.4% ). Additional stud- ies were conducted in fields like economics and business. The category \"Other\" includes remaining subjective areas with fewer frequencies (i.e. Neuroscience, Mathematics, Engineering, Health Professions, Chemistry, Decision Sciences). This evidence seems to indicate that SWB is subject to continuous reflections in various fields (psychology, sociology, economics). Considering only the main categories, an analysis over time was carried out to understand how these categories have evolved over time. In Fig. 3, we can observe how the concept of SWB has evolved over time.\n\nIn the first years (1966 -1990) this topic was mainly treated from a medical point of view; subsequently (1991 -2000) it developed from a psychological point of view. Starting from 2001, the concept of SWB is mainly dealt with by articles published in the social area. Looking at the authorship pattern, the documents were written by 26, 881 researchers and the collaboration is the key amongst authors whereby 5.5% authors have published solely. Looking at the \"Co-Authors per document\" index, that considers the number of times an author appeared in the collection of data, namely 3.45, it is possible to state that each documents was written on average by 3 authors. This ratio evaluates the extent to which scholars publish single-authored or co-authored publications, a statistic which can also be seen as a proxy for the average size of the research team (Aria How Subjective Well-being Evolved Over Time et al., 2020). The Collaboration Indexfoot_0 , equal to 2.53, also substantially confirms this statement.\n\nFigure 4 shows the year-wise distribution of documents' collection.\n\nComparing the quantity of publications over years, it is evident that in the first years of the analysis (1966 -2002) the number of publications is very low, emphasizing the fact that for many years the concept of SWB has little been taken into consideration by researchers. Starting from 2000, this topic begins to expand, demonstrating that this new vision of the well-being was probably starting to arouse interest from researchers. Particularly since 2012, there has been a noticeable actual exponential development in the number of scholars who study this topic from a social point of view and no longer just in the medical or strictly psychological field and, more importantly, scholar who are starting to propose new and alternative approaches for estimating this issue.\n\nGenerally, the annual percentage growth rate over the considered years is equal to 2.09% . This is an indication that researchers focus their research on this aspect.",
+      "text_with_footnotes": "Table 1 reports a summary of the main information extracted from the final selected documents.\n\nSWB studies published in the period 1966-2022 were classified in 27 subject categories determined by Scopus. These categories are closely related so that a 1 3\n\nHow Subjective Well-being Evolved Over Time single document can be assigned to more than one subject category. The existence of so many subject categories is an evidence that SWB is studied in various areas. Topic categories that overlap with the documents are listed in Table 2. A majority of the published SWB studies focused principally on three subject areas: Social Sciences ( 40.3% ), Psychology ( 36.3% ) and Medicine ( 28.4% ). Additional stud- ies were conducted in fields like economics and business. The category \"Other\" includes remaining subjective areas with fewer frequencies (i.e. Neuroscience, Mathematics, Engineering, Health Professions, Chemistry, Decision Sciences). This evidence seems to indicate that SWB is subject to continuous reflections in various fields (psychology, sociology, economics). Considering only the main categories, an analysis over time was carried out to understand how these categories have evolved over time. In Fig. 3, we can observe how the concept of SWB has evolved over time.\n\nIn the first years (1966 -1990) this topic was mainly treated from a medical point of view; subsequently (1991 -2000) it developed from a psychological point of view. Starting from 2001, the concept of SWB is mainly dealt with by articles published in the social area. Looking at the authorship pattern, the documents were written by 26, 881 researchers and the collaboration is the key amongst authors whereby 5.5% authors have published solely. Looking at the \"Co-Authors per document\" index, that considers the number of times an author appeared in the collection of data, namely 3.45, it is possible to state that each documents was written on average by 3 authors. This ratio evaluates the extent to which scholars publish single-authored or co-authored publications, a statistic which can also be seen as a proxy for the average size of the research team (Aria How Subjective Well-being Evolved Over Time et al., 2020). The Collaboration Indexfoot_0 , equal to 2.53, also substantially confirms this statement.\n\nFigure 4 shows the year-wise distribution of documents' collection.\n\nComparing the quantity of publications over years, it is evident that in the first years of the analysis (1966 -2002) the number of publications is very low, emphasizing the fact that for many years the concept of SWB has little been taken into consideration by researchers. Starting from 2000, this topic begins to expand, demonstrating that this new vision of the well-being was probably starting to arouse interest from researchers. Particularly since 2012, there has been a noticeable actual exponential development in the number of scholars who study this topic from a social point of view and no longer just in the medical or strictly psychological field and, more importantly, scholar who are starting to propose new and alternative approaches for estimating this issue.\n\nGenerally, the annual percentage growth rate over the considered years is equal to 2.09% . This is an indication that researchers focus their research on this aspect.",
+      "preview_head": "Table 1 reports a summary of the main information extracted from the final selected documents.",
+      "preview_tail": "Generally, the annual percentage growth rate over the considered years is equal to 2.09% . This is an indication that researchers focus their research on this aspect.",
+      "word_count": 522,
+      "paragraph_count": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*data\\s+(collection|sources"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*data\\s+(collection|sources",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Data Analysis",
+      "header_norm": "data analysis",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "Bibliometric Results: Discovering Main Influential Studies and Authors in the Domain of SWB",
+      "header_norm": "bibliometric results discovering main influential studies and authors in the domain of swb",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "The obtained results in this section directly address the first research question: • RQ1: Which are the most influential studies and who are the most important authors in the domain of subjective well-being?",
+        "The Most Productive Authors",
+        "Several thousand of scholars published their research contributions on SWB. Two relevant aspects should be considered when evaluating an author's relevance within a specific field: the productivity and the impact. Figure 5 shows the most productive and influential authors, in terms of number of publications over time. This analysis provides an overview of the top 10 most productive authors.",
+        "The productivity was evaluated through the number of articles published by an author in the given period of time. Conversely, the impact was evaluated by considering the number of citations received each year. It can easily be observed that Ed Diener is a seminal author on the topic, with an unbroken series of publications from 1984 to 2022. He is one of the lead researchers in the field of SWB and for over 30 years he continued to study this aspect. His first review of SWB appearing in Psychological Bulletin (Diener, 1984), when only a few publications were published on this topic. He is noted for his research over the past thirty years (Diener et al., 1985;Diener, 1984Diener, , 2000)); on happiness, including work on temperament and personality influences on well-being, theories of wellbeing, income and well-being, cultural influences on well-being, and the measurement of well-being. For his fundamental research on the subject, Diener was nicknamed Dr. Happiness. He developed a model of subjective well-being in 1984 (Diener, 1984), which describes how people experience the quality of their lives and includes both emotional reactions and cognitive judgments. Furthermore, his article of 1985 The satisfaction with life scale published in Journal of Personality Assessment is the most cited, as can be seen in the next Section. 1 3",
+        "How Subjective Well-being Evolved Over Time"
+      ],
+      "footnotes": [],
+      "text": "The obtained results in this section directly address the first research question: • RQ1: Which are the most influential studies and who are the most important authors in the domain of subjective well-being?\n\nThe Most Productive Authors\n\nSeveral thousand of scholars published their research contributions on SWB. Two relevant aspects should be considered when evaluating an author's relevance within a specific field: the productivity and the impact. Figure 5 shows the most productive and influential authors, in terms of number of publications over time. This analysis provides an overview of the top 10 most productive authors.\n\nThe productivity was evaluated through the number of articles published by an author in the given period of time. Conversely, the impact was evaluated by considering the number of citations received each year. It can easily be observed that Ed Diener is a seminal author on the topic, with an unbroken series of publications from 1984 to 2022. He is one of the lead researchers in the field of SWB and for over 30 years he continued to study this aspect. His first review of SWB appearing in Psychological Bulletin (Diener, 1984), when only a few publications were published on this topic. He is noted for his research over the past thirty years (Diener et al., 1985;Diener, 1984Diener, , 2000)); on happiness, including work on temperament and personality influences on well-being, theories of wellbeing, income and well-being, cultural influences on well-being, and the measurement of well-being. For his fundamental research on the subject, Diener was nicknamed Dr. Happiness. He developed a model of subjective well-being in 1984 (Diener, 1984), which describes how people experience the quality of their lives and includes both emotional reactions and cognitive judgments. Furthermore, his article of 1985 The satisfaction with life scale published in Journal of Personality Assessment is the most cited, as can be seen in the next Section. 1 3\n\nHow Subjective Well-being Evolved Over Time",
+      "text_with_footnotes": "The obtained results in this section directly address the first research question: • RQ1: Which are the most influential studies and who are the most important authors in the domain of subjective well-being?\n\nThe Most Productive Authors\n\nSeveral thousand of scholars published their research contributions on SWB. Two relevant aspects should be considered when evaluating an author's relevance within a specific field: the productivity and the impact. Figure 5 shows the most productive and influential authors, in terms of number of publications over time. This analysis provides an overview of the top 10 most productive authors.\n\nThe productivity was evaluated through the number of articles published by an author in the given period of time. Conversely, the impact was evaluated by considering the number of citations received each year. It can easily be observed that Ed Diener is a seminal author on the topic, with an unbroken series of publications from 1984 to 2022. He is one of the lead researchers in the field of SWB and for over 30 years he continued to study this aspect. His first review of SWB appearing in Psychological Bulletin (Diener, 1984), when only a few publications were published on this topic. He is noted for his research over the past thirty years (Diener et al., 1985;Diener, 1984Diener, , 2000)); on happiness, including work on temperament and personality influences on well-being, theories of wellbeing, income and well-being, cultural influences on well-being, and the measurement of well-being. For his fundamental research on the subject, Diener was nicknamed Dr. Happiness. He developed a model of subjective well-being in 1984 (Diener, 1984), which describes how people experience the quality of their lives and includes both emotional reactions and cognitive judgments. Furthermore, his article of 1985 The satisfaction with life scale published in Journal of Personality Assessment is the most cited, as can be seen in the next Section. 1 3\n\nHow Subjective Well-being Evolved Over Time",
+      "preview_head": "The obtained results in this section directly address the first research question: • RQ1: Which are the most influential studies and who are the most important authors in the domain of subjective well-being?",
+      "preview_tail": "How Subjective Well-being Evolved Over Time",
+      "word_count": 319,
+      "paragraph_count": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings addressing the first research question, focusing on influential studies and"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "The Most Productive Countries",
+      "header_norm": "the most productive countries",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "The authors of SWB publications are distributed throughout the world. The geographical distribution of the 12, 376 publications covers more than 100 countries. Table 3 shows the number of documents produced by the top contributing countries and the rate of cooperation of each country's authors with other countries' authors.",
+        "The top contributing country is the USA with the highest publication of 2, 199, followed by China with 1, 913 publications. In Europe, the research production in the domain of SWB is concentrated in the United Kingdom. Apart from the United Kingdom, three other countries -Germany (in the fourth position), Spain (sixth), Netherlands(eighth) and Italy (ninth) -are featured from the European region. Although the USA and China are the countries that contribute the most in number of publications, they have a low collaboration ratio (USA MCP Ratio = 0.207; China MCP Ratio = 0.181), while the European countries present the highest rates of cooperation. In particular, Italy has the highest ratio (MCP Ratio = 0.340); this demonstrates how Italian researchers also collaborate with researchers of other nationalities."
+      ],
+      "footnotes": [],
+      "text": "The authors of SWB publications are distributed throughout the world. The geographical distribution of the 12, 376 publications covers more than 100 countries. Table 3 shows the number of documents produced by the top contributing countries and the rate of cooperation of each country's authors with other countries' authors.\n\nThe top contributing country is the USA with the highest publication of 2, 199, followed by China with 1, 913 publications. In Europe, the research production in the domain of SWB is concentrated in the United Kingdom. Apart from the United Kingdom, three other countries -Germany (in the fourth position), Spain (sixth), Netherlands(eighth) and Italy (ninth) -are featured from the European region. Although the USA and China are the countries that contribute the most in number of publications, they have a low collaboration ratio (USA MCP Ratio = 0.207; China MCP Ratio = 0.181), while the European countries present the highest rates of cooperation. In particular, Italy has the highest ratio (MCP Ratio = 0.340); this demonstrates how Italian researchers also collaborate with researchers of other nationalities.",
+      "text_with_footnotes": "The authors of SWB publications are distributed throughout the world. The geographical distribution of the 12, 376 publications covers more than 100 countries. Table 3 shows the number of documents produced by the top contributing countries and the rate of cooperation of each country's authors with other countries' authors.\n\nThe top contributing country is the USA with the highest publication of 2, 199, followed by China with 1, 913 publications. In Europe, the research production in the domain of SWB is concentrated in the United Kingdom. Apart from the United Kingdom, three other countries -Germany (in the fourth position), Spain (sixth), Netherlands(eighth) and Italy (ninth) -are featured from the European region. Although the USA and China are the countries that contribute the most in number of publications, they have a low collaboration ratio (USA MCP Ratio = 0.207; China MCP Ratio = 0.181), while the European countries present the highest rates of cooperation. In particular, Italy has the highest ratio (MCP Ratio = 0.340); this demonstrates how Italian researchers also collaborate with researchers of other nationalities.",
+      "preview_head": "The authors of SWB publications are distributed throughout the world. The geographical distribution of the 12, 376 publications covers more than 100 countries. Table 3 shows the number of documents produced by the top contributing countries and the rate of cooperation of each country's authors with other countries' authors.",
+      "preview_tail": "Apart from the United Kingdom, three other countries -Germany (in the fourth position), Spain (sixth), Netherlands(eighth) and Italy (ninth) -are featured from the European region. Although the USA and China are the countries that contribute the most in number of publications, they have a low collaboration ratio (USA MCP Ratio = 0.207; China MCP Ratio = 0.181), while the European countries present the highest rates of cooperation. In particular, Italy has the highest ratio (MCP Ratio = 0.340); this demonstrates how Italian researchers also collaborate with researchers of other nationalities.",
+      "word_count": 176,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents quantitative findings about the most productive countries in SWB research."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "The Most Cited Articles Published in SWB",
+      "header_norm": "the most cited articles published in swb",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "Table 4 shows a summary of the most cited articles, which represent the most impactful publications in the field of SWB. Diener et al. (1985) is the paper with the highest number of citations; its topic is the development and validation of a scale to measure global life satisfaction. The second most highly cited paper, entitled Subjective well-being, was also written by",
+        "Table 3 The 10 most productive countries of Subjective wellbeing publications SCP (Single Country Publications) is the intra-country collaboration index; MCP (Multiple Country Publications) is the intercountry collaboration index; MCP Ratio (Multiple Country Publications Ratio) is calculated as MCP divided by the total of published documents per country Country Article SCP MCP MCP Ratio USA 2,199 1743 456 0.207 China 1,913 1567 346 0.181 United Kingdom 1070 774 326 0.305 Germany 780 534 246 0.315 Australia 672 512 160 0.238 Spain 509 395 114 0.224 Canada 460 328 132 0.287 Netherlands 365 265 100 0.274 Italy 309 204 105 0.340 Korea 297 222 75 0.253 Table 4 Top manuscripts by number of citations TC Total Citations; TCperYear Total Citations per Year; NTC Normalized Total Citations Authors Paper Source TC TCperYear NTC Diener et al. (1985) The satisfaction with life scale Journal of Personal Assessment 16,783 430.4 19.56 Diener (1984) Subjective well-being Psychological Bulletin 6,101 152.5 20.54 Lyubomirsky et al. (2005) The Benefits of Frequent Positive Affect: Does Happiness Lead to Success? Psychological Bulletin 3,733 196.5 28.19 Diener (2000) Subjective well-being: The science of happiness and a proposal for a national index American Psychologist 3,408 142.0 22,79 Pavot and Diener (1993) Review of the Satisfaction With Life Scale Psychological Assessment 2,874 92.7 15.91 Keyes (2002) The Mental Health Continuum: From Languishing to Flourishing in Life Journal of Health and Social Behavior 2,012 91.45 12.07 Diener et al. (2010) New Well-being Measures: Short Scales to Assess Flourishing and Positive and Negative Feelings Social Indicators Research 1,953 139.5 29.49 Eamons and Mc Cullough (2003) Counting blessings versus burdens: An experimental investigation of gratitude and subjective well-being in daily life Journal of Personality and Social Psychology 1,744 83.1 10.81 Pinquart and Sörensen (2003) Differences between caregivers and noncaregivers in psychological health and physical health: A meta-analysis Psychology and Aging 1,732 82.5 10.73 DeNeve and Cooper (1998) The happy personality: A meta-analysis of 137 personality traits and subjective well-being Psychological Bulletin 1,691 65.0 19.07 1 3 How Subjective Well-being Evolved Over Time By means of the analysis of document co-citation network, the most influential researches and the intellectual base of SWB publications can be explored. Figure 6 Fig. 6 Citation network shows the document co-citation network. The nodes in Fig. 6 represent the top most cited document labeled with the first author and the year of publication. Moreover, the large-sized nodes denote the highly cited references. In other words, these articles are the most favorite ones of SWB publications. It is evident that the most influential papers are those authored by Diener (Diener, 1984;Diener et al., 1985Diener et al., , 1999)). Figure 6 shows two different clusters: the red cluster includes articles by Diener (Diener, 1984;Diener et al., 1985Diener et al., , 1999;;Diener, 2000), Lyubomirsky (Lyubomirsky et al., 2005), Watson (Watson et al., 1988), Pavot (Pavot & Diener, 1993), Andrews (Andrew & Withey, 1976) and Ryan (Ryan & Deci, 2001), authors who study wellbeing from a strictly psychological point of view; and the blue cluster includes articles by Dolan (Dolan et al., 2008), Kahneman (Kahneman & Deaton, 2010), Ferreri-carbonell (Ferrer-i Carbonell, 2004) and Easterlin (Easterlin, 1974), who with their research focus on well-being and happiness in different fields such as economics, medicine, etc."
+      ],
+      "footnotes": [],
+      "text": "Table 4 shows a summary of the most cited articles, which represent the most impactful publications in the field of SWB. Diener et al. (1985) is the paper with the highest number of citations; its topic is the development and validation of a scale to measure global life satisfaction. The second most highly cited paper, entitled Subjective well-being, was also written by\n\nTable 3 The 10 most productive countries of Subjective wellbeing publications SCP (Single Country Publications) is the intra-country collaboration index; MCP (Multiple Country Publications) is the intercountry collaboration index; MCP Ratio (Multiple Country Publications Ratio) is calculated as MCP divided by the total of published documents per country Country Article SCP MCP MCP Ratio USA 2,199 1743 456 0.207 China 1,913 1567 346 0.181 United Kingdom 1070 774 326 0.305 Germany 780 534 246 0.315 Australia 672 512 160 0.238 Spain 509 395 114 0.224 Canada 460 328 132 0.287 Netherlands 365 265 100 0.274 Italy 309 204 105 0.340 Korea 297 222 75 0.253 Table 4 Top manuscripts by number of citations TC Total Citations; TCperYear Total Citations per Year; NTC Normalized Total Citations Authors Paper Source TC TCperYear NTC Diener et al. (1985) The satisfaction with life scale Journal of Personal Assessment 16,783 430.4 19.56 Diener (1984) Subjective well-being Psychological Bulletin 6,101 152.5 20.54 Lyubomirsky et al. (2005) The Benefits of Frequent Positive Affect: Does Happiness Lead to Success? Psychological Bulletin 3,733 196.5 28.19 Diener (2000) Subjective well-being: The science of happiness and a proposal for a national index American Psychologist 3,408 142.0 22,79 Pavot and Diener (1993) Review of the Satisfaction With Life Scale Psychological Assessment 2,874 92.7 15.91 Keyes (2002) The Mental Health Continuum: From Languishing to Flourishing in Life Journal of Health and Social Behavior 2,012 91.45 12.07 Diener et al. (2010) New Well-being Measures: Short Scales to Assess Flourishing and Positive and Negative Feelings Social Indicators Research 1,953 139.5 29.49 Eamons and Mc Cullough (2003) Counting blessings versus burdens: An experimental investigation of gratitude and subjective well-being in daily life Journal of Personality and Social Psychology 1,744 83.1 10.81 Pinquart and Sörensen (2003) Differences between caregivers and noncaregivers in psychological health and physical health: A meta-analysis Psychology and Aging 1,732 82.5 10.73 DeNeve and Cooper (1998) The happy personality: A meta-analysis of 137 personality traits and subjective well-being Psychological Bulletin 1,691 65.0 19.07 1 3 How Subjective Well-being Evolved Over Time By means of the analysis of document co-citation network, the most influential researches and the intellectual base of SWB publications can be explored. Figure 6 Fig. 6 Citation network shows the document co-citation network. The nodes in Fig. 6 represent the top most cited document labeled with the first author and the year of publication. Moreover, the large-sized nodes denote the highly cited references. In other words, these articles are the most favorite ones of SWB publications. It is evident that the most influential papers are those authored by Diener (Diener, 1984;Diener et al., 1985Diener et al., , 1999)). Figure 6 shows two different clusters: the red cluster includes articles by Diener (Diener, 1984;Diener et al., 1985Diener et al., , 1999;;Diener, 2000), Lyubomirsky (Lyubomirsky et al., 2005), Watson (Watson et al., 1988), Pavot (Pavot & Diener, 1993), Andrews (Andrew & Withey, 1976) and Ryan (Ryan & Deci, 2001), authors who study wellbeing from a strictly psychological point of view; and the blue cluster includes articles by Dolan (Dolan et al., 2008), Kahneman (Kahneman & Deaton, 2010), Ferreri-carbonell (Ferrer-i Carbonell, 2004) and Easterlin (Easterlin, 1974), who with their research focus on well-being and happiness in different fields such as economics, medicine, etc.",
+      "text_with_footnotes": "Table 4 shows a summary of the most cited articles, which represent the most impactful publications in the field of SWB. Diener et al. (1985) is the paper with the highest number of citations; its topic is the development and validation of a scale to measure global life satisfaction. The second most highly cited paper, entitled Subjective well-being, was also written by\n\nTable 3 The 10 most productive countries of Subjective wellbeing publications SCP (Single Country Publications) is the intra-country collaboration index; MCP (Multiple Country Publications) is the intercountry collaboration index; MCP Ratio (Multiple Country Publications Ratio) is calculated as MCP divided by the total of published documents per country Country Article SCP MCP MCP Ratio USA 2,199 1743 456 0.207 China 1,913 1567 346 0.181 United Kingdom 1070 774 326 0.305 Germany 780 534 246 0.315 Australia 672 512 160 0.238 Spain 509 395 114 0.224 Canada 460 328 132 0.287 Netherlands 365 265 100 0.274 Italy 309 204 105 0.340 Korea 297 222 75 0.253 Table 4 Top manuscripts by number of citations TC Total Citations; TCperYear Total Citations per Year; NTC Normalized Total Citations Authors Paper Source TC TCperYear NTC Diener et al. (1985) The satisfaction with life scale Journal of Personal Assessment 16,783 430.4 19.56 Diener (1984) Subjective well-being Psychological Bulletin 6,101 152.5 20.54 Lyubomirsky et al. (2005) The Benefits of Frequent Positive Affect: Does Happiness Lead to Success? Psychological Bulletin 3,733 196.5 28.19 Diener (2000) Subjective well-being: The science of happiness and a proposal for a national index American Psychologist 3,408 142.0 22,79 Pavot and Diener (1993) Review of the Satisfaction With Life Scale Psychological Assessment 2,874 92.7 15.91 Keyes (2002) The Mental Health Continuum: From Languishing to Flourishing in Life Journal of Health and Social Behavior 2,012 91.45 12.07 Diener et al. (2010) New Well-being Measures: Short Scales to Assess Flourishing and Positive and Negative Feelings Social Indicators Research 1,953 139.5 29.49 Eamons and Mc Cullough (2003) Counting blessings versus burdens: An experimental investigation of gratitude and subjective well-being in daily life Journal of Personality and Social Psychology 1,744 83.1 10.81 Pinquart and Sörensen (2003) Differences between caregivers and noncaregivers in psychological health and physical health: A meta-analysis Psychology and Aging 1,732 82.5 10.73 DeNeve and Cooper (1998) The happy personality: A meta-analysis of 137 personality traits and subjective well-being Psychological Bulletin 1,691 65.0 19.07 1 3 How Subjective Well-being Evolved Over Time By means of the analysis of document co-citation network, the most influential researches and the intellectual base of SWB publications can be explored. Figure 6 Fig. 6 Citation network shows the document co-citation network. The nodes in Fig. 6 represent the top most cited document labeled with the first author and the year of publication. Moreover, the large-sized nodes denote the highly cited references. In other words, these articles are the most favorite ones of SWB publications. It is evident that the most influential papers are those authored by Diener (Diener, 1984;Diener et al., 1985Diener et al., , 1999)). Figure 6 shows two different clusters: the red cluster includes articles by Diener (Diener, 1984;Diener et al., 1985Diener et al., , 1999;;Diener, 2000), Lyubomirsky (Lyubomirsky et al., 2005), Watson (Watson et al., 1988), Pavot (Pavot & Diener, 1993), Andrews (Andrew & Withey, 1976) and Ryan (Ryan & Deci, 2001), authors who study wellbeing from a strictly psychological point of view; and the blue cluster includes articles by Dolan (Dolan et al., 2008), Kahneman (Kahneman & Deaton, 2010), Ferreri-carbonell (Ferrer-i Carbonell, 2004) and Easterlin (Easterlin, 1974), who with their research focus on well-being and happiness in different fields such as economics, medicine, etc.",
+      "preview_head": "Table 4 shows a summary of the most cited articles, which represent the most impactful publications in the field of SWB. Diener et al. (1985) is the paper with the highest number of citations; its topic is the development and validation of a scale to measure global life satisfaction. The second most highly cited paper, entitled Subjective well-being, was also written by",
+      "preview_tail": "In other words, these articles are the most favorite ones of SWB publications. It is evident that the most influential papers are those authored by Diener (Diener, 1984;Diener et al., 1985Diener et al., , 1999)). Figure 6 shows two different clusters: the red cluster includes articles by Diener (Diener, 1984;Diener et al., 1985Diener et al., , 1999;;Diener, 2000), Lyubomirsky (Lyubomirsky et al., 2005), Watson (Watson et al., 1988), Pavot (Pavot & Diener, 1993), Andrews (Andrew & Withey, 1976) and Ryan (Ryan & Deci, 2001), authors who study wellbeing from a strictly psychological point of view; and the blue cluster includes articles by Dolan (Dolan et al., 2008), Kahneman (Kahneman & Deaton, 2010), Ferreri-carbonell (Ferrer-i Carbonell, 2004) and Easterlin (Easterlin, 1974), who with their research focus on well-being and happiness in different fields such as economics, medicine, etc.",
+      "word_count": 600,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the most cited articles in the field, including citation counts and impact."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "The Sources",
+      "header_norm": "the sources",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "Concerning the sources (Fig. 7), a total of 3, 405 sources have published 12, 376 documents in the considered period. The journals which included the most frequently quoted articles are Social Indicators Research with 662 articles, followed by Journal of Happiness Studies with 518 articles.",
+        "The first journal to include the first documents dealing with subjective wellbeing is the Social Indicators Research represented in the figure with the green line. These first five sources all deal with issues related to theoretical and applied advances in well-being research. It is important to underline that even if Social Indicators Research had contributed the most in this research area, the contribution of 1 3 How Subjective Well-being Evolved Over Time this journal has decreased significantly in recent times, in particularly after 2014, due to a specific editorial choicefoot_2 . On the contrary, the contribution of sources like the Frontiers in Psychology and International Journal of Environmental Research and Public Health are increasing exponentially starting respectively from 2012 and 2013."
+      ],
+      "footnotes": [],
+      "text": "Concerning the sources (Fig. 7), a total of 3, 405 sources have published 12, 376 documents in the considered period. The journals which included the most frequently quoted articles are Social Indicators Research with 662 articles, followed by Journal of Happiness Studies with 518 articles.\n\nThe first journal to include the first documents dealing with subjective wellbeing is the Social Indicators Research represented in the figure with the green line. These first five sources all deal with issues related to theoretical and applied advances in well-being research. It is important to underline that even if Social Indicators Research had contributed the most in this research area, the contribution of 1 3 How Subjective Well-being Evolved Over Time this journal has decreased significantly in recent times, in particularly after 2014, due to a specific editorial choicefoot_2 . On the contrary, the contribution of sources like the Frontiers in Psychology and International Journal of Environmental Research and Public Health are increasing exponentially starting respectively from 2012 and 2013.",
+      "text_with_footnotes": "Concerning the sources (Fig. 7), a total of 3, 405 sources have published 12, 376 documents in the considered period. The journals which included the most frequently quoted articles are Social Indicators Research with 662 articles, followed by Journal of Happiness Studies with 518 articles.\n\nThe first journal to include the first documents dealing with subjective wellbeing is the Social Indicators Research represented in the figure with the green line. These first five sources all deal with issues related to theoretical and applied advances in well-being research. It is important to underline that even if Social Indicators Research had contributed the most in this research area, the contribution of 1 3 How Subjective Well-being Evolved Over Time this journal has decreased significantly in recent times, in particularly after 2014, due to a specific editorial choicefoot_2 . On the contrary, the contribution of sources like the Frontiers in Psychology and International Journal of Environmental Research and Public Health are increasing exponentially starting respectively from 2012 and 2013.",
+      "preview_head": "Concerning the sources (Fig. 7), a total of 3, 405 sources have published 12, 376 documents in the considered period. The journals which included the most frequently quoted articles are Social Indicators Research with 662 articles, followed by Journal of Happiness Studies with 518 articles.",
+      "preview_tail": "These first five sources all deal with issues related to theoretical and applied advances in well-being research. It is important to underline that even if Social Indicators Research had contributed the most in this research area, the contribution of 1 3 How Subjective Well-being Evolved Over Time this journal has decreased significantly in recent times, in particularly after 2014, due to a specific editorial choicefoot_2 . On the contrary, the contribution of sources like the Frontiers in Psychology and International Journal of Environmental Research and Public Health are increasing exponentially starting respectively from 2012 and 2013.",
+      "word_count": 166,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents data on publication sources and their frequency, reporting quantitative findings."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Text Mining Results: Discovering Main Research Themes and Trends",
+      "header_norm": "text mining results discovering main research themes and trends",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "The obtained results in this Section directly address the second research question:",
+        "• RQ2: What are the major themes in the domain of subjective well-being and how do they interact?",
+        "A text mining analysis based on a term co-occurrence algorithm was employed on the abstracts of the publications within our collection. Because an article abstract shortly indicates what the article deals with, this analysis seeks to extract knowledge about the article using information from its abstract. As a result, the conceptual structure and latent research themes of the SWB literature were identified. Text documents require pre-processing before mining techniques can be applied. Pre-processing techniques include lemmatizationfoot_3 , tokenization such as removing of numbers, punctuation marks, special characters, and stop-words removal. The stop-words includes standard dictionary stop-words and domain specific words. For the analysis textual terms \"subjective\", \"well-being\", \"well being\" and \"wellbeing\", related to keywords used to search for documents on Scopus database are included in the list of stop words. Acronyms of these terms and other terms were also included in this list, such as \"swb\", \"SWB\" and \"study\". Furthermore, for the analysis of occurences and co-occurrences only nouns were considered, thus obtaining a corpus composed of 2, 715 terms, while for topic modeling in addition to nouns also adjectives and verbs have been considered, thus obtaining a corpus composed of 4, 392 terms."
+      ],
+      "footnotes": [],
+      "text": "The obtained results in this Section directly address the second research question:\n\n• RQ2: What are the major themes in the domain of subjective well-being and how do they interact?\n\nA text mining analysis based on a term co-occurrence algorithm was employed on the abstracts of the publications within our collection. Because an article abstract shortly indicates what the article deals with, this analysis seeks to extract knowledge about the article using information from its abstract. As a result, the conceptual structure and latent research themes of the SWB literature were identified. Text documents require pre-processing before mining techniques can be applied. Pre-processing techniques include lemmatizationfoot_3 , tokenization such as removing of numbers, punctuation marks, special characters, and stop-words removal. The stop-words includes standard dictionary stop-words and domain specific words. For the analysis textual terms \"subjective\", \"well-being\", \"well being\" and \"wellbeing\", related to keywords used to search for documents on Scopus database are included in the list of stop words. Acronyms of these terms and other terms were also included in this list, such as \"swb\", \"SWB\" and \"study\". Furthermore, for the analysis of occurences and co-occurrences only nouns were considered, thus obtaining a corpus composed of 2, 715 terms, while for topic modeling in addition to nouns also adjectives and verbs have been considered, thus obtaining a corpus composed of 4, 392 terms.",
+      "text_with_footnotes": "The obtained results in this Section directly address the second research question:\n\n• RQ2: What are the major themes in the domain of subjective well-being and how do they interact?\n\nA text mining analysis based on a term co-occurrence algorithm was employed on the abstracts of the publications within our collection. Because an article abstract shortly indicates what the article deals with, this analysis seeks to extract knowledge about the article using information from its abstract. As a result, the conceptual structure and latent research themes of the SWB literature were identified. Text documents require pre-processing before mining techniques can be applied. Pre-processing techniques include lemmatizationfoot_3 , tokenization such as removing of numbers, punctuation marks, special characters, and stop-words removal. The stop-words includes standard dictionary stop-words and domain specific words. For the analysis textual terms \"subjective\", \"well-being\", \"well being\" and \"wellbeing\", related to keywords used to search for documents on Scopus database are included in the list of stop words. Acronyms of these terms and other terms were also included in this list, such as \"swb\", \"SWB\" and \"study\". Furthermore, for the analysis of occurences and co-occurrences only nouns were considered, thus obtaining a corpus composed of 2, 715 terms, while for topic modeling in addition to nouns also adjectives and verbs have been considered, thus obtaining a corpus composed of 4, 392 terms.",
+      "preview_head": "The obtained results in this Section directly address the second research question:",
+      "preview_tail": "For the analysis textual terms \"subjective\", \"well-being\", \"well being\" and \"wellbeing\", related to keywords used to search for documents on Scopus database are included in the list of stop words. Acronyms of these terms and other terms were also included in this list, such as \"swb\", \"SWB\" and \"study\". Furthermore, for the analysis of occurences and co-occurrences only nouns were considered, thus obtaining a corpus composed of 2, 715 terms, while for topic modeling in addition to nouns also adjectives and verbs have been considered, thus obtaining a corpus composed of 4, 392 terms.",
+      "word_count": 224,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section introduces and reports the main research themes and trends found via text mining."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Occurence of the Words",
+      "header_norm": "occurence of the words",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "The frequency of lemmatised words (within the abstracts) appearing in the 12, 376 documents published between 1966 and 2022 is shown in Table 5 for the 10 top terms.",
+        "The frequencies show that the focus is on the terms like \"life\", \"satisfaction\" and \"social\". They have a frequency higher than 10, 000, particularly, the term \"life\" (frequency equal to 16, 148) appears in half of the documents analysed. Looking at the other terms, classified according to their frequency, we can see how researchers focus their work on \"relationships\", analyzing SWB at an \"individual\" and \"group\" level, in the \"health\" domain, considering how to \"measure\" this concept and its \"effects\" and, finally, link this term to that of \"happiness\"."
+      ],
+      "footnotes": [],
+      "text": "The frequency of lemmatised words (within the abstracts) appearing in the 12, 376 documents published between 1966 and 2022 is shown in Table 5 for the 10 top terms.\n\nThe frequencies show that the focus is on the terms like \"life\", \"satisfaction\" and \"social\". They have a frequency higher than 10, 000, particularly, the term \"life\" (frequency equal to 16, 148) appears in half of the documents analysed. Looking at the other terms, classified according to their frequency, we can see how researchers focus their work on \"relationships\", analyzing SWB at an \"individual\" and \"group\" level, in the \"health\" domain, considering how to \"measure\" this concept and its \"effects\" and, finally, link this term to that of \"happiness\".",
+      "text_with_footnotes": "The frequency of lemmatised words (within the abstracts) appearing in the 12, 376 documents published between 1966 and 2022 is shown in Table 5 for the 10 top terms.\n\nThe frequencies show that the focus is on the terms like \"life\", \"satisfaction\" and \"social\". They have a frequency higher than 10, 000, particularly, the term \"life\" (frequency equal to 16, 148) appears in half of the documents analysed. Looking at the other terms, classified according to their frequency, we can see how researchers focus their work on \"relationships\", analyzing SWB at an \"individual\" and \"group\" level, in the \"health\" domain, considering how to \"measure\" this concept and its \"effects\" and, finally, link this term to that of \"happiness\".",
+      "preview_head": "The frequency of lemmatised words (within the abstracts) appearing in the 12, 376 documents published between 1966 and 2022 is shown in Table 5 for the 10 top terms.",
+      "preview_tail": "The frequencies show that the focus is on the terms like \"life\", \"satisfaction\" and \"social\". They have a frequency higher than 10, 000, particularly, the term \"life\" (frequency equal to 16, 148) appears in half of the documents analysed. Looking at the other terms, classified according to their frequency, we can see how researchers focus their work on \"relationships\", analyzing SWB at an \"individual\" and \"group\" level, in the \"health\" domain, considering how to \"measure\" this concept and its \"effects\" and, finally, link this term to that of \"happiness\".",
+      "word_count": 118,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the frequency of key terms in the analyzed documents, presenting quantitative data."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "A Semantic Analysis",
+      "header_norm": "a semantic analysis",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "A semantic network analysis based on the keywords used by the authors in the abstract has been conducted. We analyzed the text of abstracts for 12, 376 documents using R software to extract the frequency of keywords pairs appearing together within the same abstract in order to derive the network between simultaneously occurring keywords in the same abstract. The analysis, based on the co-occurrence of keywords, can support identifying the main research issues (Zhao et al., 2018; 1 3",
+        "How Subjective Well-being Evolved Over Time Callon et al., 1983;Khasseh et al., 2017). The counting of the joint word occurrence is possible via a matrix multiplication on the binary document-term-matrix (DTM). For this purpose, the transposed matrix (dimensions: nTypes x nDocs) is multiplied by the original matrix (nDocs x nTypes), which as a result encodes a term-term matrix (dimensions: nTypes x nTypes). The co-occurrence network of the authors' keywords in abstract documents is mapped in Fig. 8, and the co-occurrences among these word are listed in Table 6. In the map, the thicker the links between two keywords, the greater their co-occurrence. The 10 words listed in the Table 5 also have the most connection links with the other words in our documents collection. There is a strong relationship between \"life\" and \"satisfaction\", the link of which is most often of all, with a 43, 037 co-occurrence in 12, 373 documents. Other strong ties can be observed between \"health\" and \"life\" (14, 997), \"life\" and \"result\" (13, 209), \"life\" and \"quality\" (13, 022), \"effect\" and \"life\" (11, 834), \"life\" and \"relationship\" (11,183).",
+        "A semantic analysis was carried out, considering the following different classes of years: Table 7 Co-occurrence network of the words 1966-1990",
+        "• 1966-1990 • 1991-2000 • 2001-2010 • 2011-2022 In addition to the terms listed above, two other terms were also excluded in this analysis. They are \"life\" and \"satisfaction\", because they have the highest co-occurrences for all considered periods."
+      ],
+      "footnotes": [],
+      "text": "A semantic network analysis based on the keywords used by the authors in the abstract has been conducted. We analyzed the text of abstracts for 12, 376 documents using R software to extract the frequency of keywords pairs appearing together within the same abstract in order to derive the network between simultaneously occurring keywords in the same abstract. The analysis, based on the co-occurrence of keywords, can support identifying the main research issues (Zhao et al., 2018; 1 3\n\nHow Subjective Well-being Evolved Over Time Callon et al., 1983;Khasseh et al., 2017). The counting of the joint word occurrence is possible via a matrix multiplication on the binary document-term-matrix (DTM). For this purpose, the transposed matrix (dimensions: nTypes x nDocs) is multiplied by the original matrix (nDocs x nTypes), which as a result encodes a term-term matrix (dimensions: nTypes x nTypes). The co-occurrence network of the authors' keywords in abstract documents is mapped in Fig. 8, and the co-occurrences among these word are listed in Table 6. In the map, the thicker the links between two keywords, the greater their co-occurrence. The 10 words listed in the Table 5 also have the most connection links with the other words in our documents collection. There is a strong relationship between \"life\" and \"satisfaction\", the link of which is most often of all, with a 43, 037 co-occurrence in 12, 373 documents. Other strong ties can be observed between \"health\" and \"life\" (14, 997), \"life\" and \"result\" (13, 209), \"life\" and \"quality\" (13, 022), \"effect\" and \"life\" (11, 834), \"life\" and \"relationship\" (11,183).\n\nA semantic analysis was carried out, considering the following different classes of years: Table 7 Co-occurrence network of the words 1966-1990\n\n• 1966-1990 • 1991-2000 • 2001-2010 • 2011-2022 In addition to the terms listed above, two other terms were also excluded in this analysis. They are \"life\" and \"satisfaction\", because they have the highest co-occurrences for all considered periods.",
+      "text_with_footnotes": "A semantic network analysis based on the keywords used by the authors in the abstract has been conducted. We analyzed the text of abstracts for 12, 376 documents using R software to extract the frequency of keywords pairs appearing together within the same abstract in order to derive the network between simultaneously occurring keywords in the same abstract. The analysis, based on the co-occurrence of keywords, can support identifying the main research issues (Zhao et al., 2018; 1 3\n\nHow Subjective Well-being Evolved Over Time Callon et al., 1983;Khasseh et al., 2017). The counting of the joint word occurrence is possible via a matrix multiplication on the binary document-term-matrix (DTM). For this purpose, the transposed matrix (dimensions: nTypes x nDocs) is multiplied by the original matrix (nDocs x nTypes), which as a result encodes a term-term matrix (dimensions: nTypes x nTypes). The co-occurrence network of the authors' keywords in abstract documents is mapped in Fig. 8, and the co-occurrences among these word are listed in Table 6. In the map, the thicker the links between two keywords, the greater their co-occurrence. The 10 words listed in the Table 5 also have the most connection links with the other words in our documents collection. There is a strong relationship between \"life\" and \"satisfaction\", the link of which is most often of all, with a 43, 037 co-occurrence in 12, 373 documents. Other strong ties can be observed between \"health\" and \"life\" (14, 997), \"life\" and \"result\" (13, 209), \"life\" and \"quality\" (13, 022), \"effect\" and \"life\" (11, 834), \"life\" and \"relationship\" (11,183).\n\nA semantic analysis was carried out, considering the following different classes of years: Table 7 Co-occurrence network of the words 1966-1990\n\n• 1966-1990 • 1991-2000 • 2001-2010 • 2011-2022 In addition to the terms listed above, two other terms were also excluded in this analysis. They are \"life\" and \"satisfaction\", because they have the highest co-occurrences for all considered periods.",
+      "preview_head": "A semantic network analysis based on the keywords used by the authors in the abstract has been conducted. We analyzed the text of abstracts for 12, 376 documents using R software to extract the frequency of keywords pairs appearing together within the same abstract in order to derive the network between simultaneously occurring keywords in the same abstract. The analysis, based on the co-occurrence of keywords, can support identifying the main research issues (Zhao et al., 2018; 1 3",
+      "preview_tail": "• 1966-1990 • 1991-2000 • 2001-2010 • 2011-2022 In addition to the terms listed above, two other terms were also excluded in this analysis. They are \"life\" and \"satisfaction\", because they have the highest co-occurrences for all considered periods.",
+      "word_count": 321,
+      "paragraph_count": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section describes the results of a semantic network analysis, reporting findings from the data."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "1966-1990",
+      "header_norm": "1990",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "In this period, the collection consists of 203 documents, 6, 454 nouns and 84, 671 co-occurrences. Table 7 shows the co-occurrence network of the authors' keywords in abstract documents published in the period considered and the co-occurrences among these nouns.",
+        "The first thing we notice from this network is the creation of several clusters of terms. The first group is of a psychological nature, and the terms that characterize this cluster are \"measure\", \"scale\", \"construct\" \"validity\". The second one is of medical nature, and the terms that characterize this cluster are 'patient\", \"treatment\", \"effect\" \"group\". These two clusters appear to be linked by a third cluster, that focuses on the term \"health \". There is a strong relationship between \"measure\" and \"scale\", with 164 co-occurrence in 203 documents. In comparison to other co-occurrences, the terms \"measure\" and \"scale\" co-occur more frequently, which is a strong indication of how subjective well-being measurements have changed recently. Other strong relationships are between \"patient\" and \"treatment\" (138), \"group\" and \"patient\" (128), \"shift\" and \"workers\" (121) and \"health\" and \"status\" (111). These clusters of co-occurrences demonstrate that in this first period, SWB's research was mainly concentrated in the medical field, therefore, on the \"patient\", his \"health\", the \"treatments\" and the tests that were carried out on single \"group\" of \"patients\", and in the psychological field on the construction of \"scale\" to \"measure\" levels of well-being."
+      ],
+      "footnotes": [],
+      "text": "In this period, the collection consists of 203 documents, 6, 454 nouns and 84, 671 co-occurrences. Table 7 shows the co-occurrence network of the authors' keywords in abstract documents published in the period considered and the co-occurrences among these nouns.\n\nThe first thing we notice from this network is the creation of several clusters of terms. The first group is of a psychological nature, and the terms that characterize this cluster are \"measure\", \"scale\", \"construct\" \"validity\". The second one is of medical nature, and the terms that characterize this cluster are 'patient\", \"treatment\", \"effect\" \"group\". These two clusters appear to be linked by a third cluster, that focuses on the term \"health \". There is a strong relationship between \"measure\" and \"scale\", with 164 co-occurrence in 203 documents. In comparison to other co-occurrences, the terms \"measure\" and \"scale\" co-occur more frequently, which is a strong indication of how subjective well-being measurements have changed recently. Other strong relationships are between \"patient\" and \"treatment\" (138), \"group\" and \"patient\" (128), \"shift\" and \"workers\" (121) and \"health\" and \"status\" (111). These clusters of co-occurrences demonstrate that in this first period, SWB's research was mainly concentrated in the medical field, therefore, on the \"patient\", his \"health\", the \"treatments\" and the tests that were carried out on single \"group\" of \"patients\", and in the psychological field on the construction of \"scale\" to \"measure\" levels of well-being.",
+      "text_with_footnotes": "In this period, the collection consists of 203 documents, 6, 454 nouns and 84, 671 co-occurrences. Table 7 shows the co-occurrence network of the authors' keywords in abstract documents published in the period considered and the co-occurrences among these nouns.\n\nThe first thing we notice from this network is the creation of several clusters of terms. The first group is of a psychological nature, and the terms that characterize this cluster are \"measure\", \"scale\", \"construct\" \"validity\". The second one is of medical nature, and the terms that characterize this cluster are 'patient\", \"treatment\", \"effect\" \"group\". These two clusters appear to be linked by a third cluster, that focuses on the term \"health \". There is a strong relationship between \"measure\" and \"scale\", with 164 co-occurrence in 203 documents. In comparison to other co-occurrences, the terms \"measure\" and \"scale\" co-occur more frequently, which is a strong indication of how subjective well-being measurements have changed recently. Other strong relationships are between \"patient\" and \"treatment\" (138), \"group\" and \"patient\" (128), \"shift\" and \"workers\" (121) and \"health\" and \"status\" (111). These clusters of co-occurrences demonstrate that in this first period, SWB's research was mainly concentrated in the medical field, therefore, on the \"patient\", his \"health\", the \"treatments\" and the tests that were carried out on single \"group\" of \"patients\", and in the psychological field on the construction of \"scale\" to \"measure\" levels of well-being.",
+      "preview_head": "In this period, the collection consists of 203 documents, 6, 454 nouns and 84, 671 co-occurrences. Table 7 shows the co-occurrence network of the authors' keywords in abstract documents published in the period considered and the co-occurrences among these nouns.",
+      "preview_tail": "In comparison to other co-occurrences, the terms \"measure\" and \"scale\" co-occur more frequently, which is a strong indication of how subjective well-being measurements have changed recently. Other strong relationships are between \"patient\" and \"treatment\" (138), \"group\" and \"patient\" (128), \"shift\" and \"workers\" (121) and \"health\" and \"status\" (111). These clusters of co-occurrences demonstrate that in this first period, SWB's research was mainly concentrated in the medical field, therefore, on the \"patient\", his \"health\", the \"treatments\" and the tests that were carried out on single \"group\" of \"patients\", and in the psychological field on the construction of \"scale\" to \"measure\" levels of well-being.",
+      "word_count": 230,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports period-specific findings (1966-1990) from the co-occurrence network analysis."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "1991-2000",
+      "header_norm": "2000",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "In the second period the collection consist of 461 documents, 80, 176 nouns and 196, 921 co-occurrences. Table 8 shows the co-occurrence network of the authors' keywords in abstract documents published from 1991 to 2000 and the co-occurrences among these nouns.",
+        "It is evident that the focus of network remains the \"patient\", that is linked principally to \"group\" (726), \"treatment\" (518). The strong relationships appear between \"quality\" and \"patient\" (361) and \"quality\" and \"health\" (296). Also in this second period we see an almost clear creation of the psychological and medical clusters."
+      ],
+      "footnotes": [],
+      "text": "In the second period the collection consist of 461 documents, 80, 176 nouns and 196, 921 co-occurrences. Table 8 shows the co-occurrence network of the authors' keywords in abstract documents published from 1991 to 2000 and the co-occurrences among these nouns.\n\nIt is evident that the focus of network remains the \"patient\", that is linked principally to \"group\" (726), \"treatment\" (518). The strong relationships appear between \"quality\" and \"patient\" (361) and \"quality\" and \"health\" (296). Also in this second period we see an almost clear creation of the psychological and medical clusters.",
+      "text_with_footnotes": "In the second period the collection consist of 461 documents, 80, 176 nouns and 196, 921 co-occurrences. Table 8 shows the co-occurrence network of the authors' keywords in abstract documents published from 1991 to 2000 and the co-occurrences among these nouns.\n\nIt is evident that the focus of network remains the \"patient\", that is linked principally to \"group\" (726), \"treatment\" (518). The strong relationships appear between \"quality\" and \"patient\" (361) and \"quality\" and \"health\" (296). Also in this second period we see an almost clear creation of the psychological and medical clusters.",
+      "preview_head": "In the second period the collection consist of 461 documents, 80, 176 nouns and 196, 921 co-occurrences. Table 8 shows the co-occurrence network of the authors' keywords in abstract documents published from 1991 to 2000 and the co-occurrences among these nouns.",
+      "preview_tail": "It is evident that the focus of network remains the \"patient\", that is linked principally to \"group\" (726), \"treatment\" (518). The strong relationships appear between \"quality\" and \"patient\" (361) and \"quality\" and \"health\" (296). Also in this second period we see an almost clear creation of the psychological and medical clusters.",
+      "word_count": 92,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings for the 1991-2000 period, including document counts, co-occurrence"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports quantitative findings (document counts, co-occurrence statistics, network focus)"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "2001-2010",
+      "header_norm": "2010",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "In the third period the collection consist of 1, 617 documents, 98, 052 nouns and 583, 676 co-occurrences. Table 9 shows the co-occurrence network of the authors' keywords in abstract documents published from 2001 to 2010 and the co-occurrences among these nouns. In this period it seems that the medical and psychological clusters have merged together. The strong relationships are between \"patient\" and",
+        "Table 9 Co-occurrence network of the words 2001-2010",
+        "Table 10 Co-occurrence network of the words 2011-2022",
+        "\"scale\" (1,104), \"patient\" and \"treatment\" (1,094),\"health\" and \"result\" (1,002). New nouns and new links appear, such as \"happiness\" and \"income\" (857)."
+      ],
+      "footnotes": [],
+      "text": "In the third period the collection consist of 1, 617 documents, 98, 052 nouns and 583, 676 co-occurrences. Table 9 shows the co-occurrence network of the authors' keywords in abstract documents published from 2001 to 2010 and the co-occurrences among these nouns. In this period it seems that the medical and psychological clusters have merged together. The strong relationships are between \"patient\" and\n\nTable 9 Co-occurrence network of the words 2001-2010\n\nTable 10 Co-occurrence network of the words 2011-2022\n\n\"scale\" (1,104), \"patient\" and \"treatment\" (1,094),\"health\" and \"result\" (1,002). New nouns and new links appear, such as \"happiness\" and \"income\" (857).",
+      "text_with_footnotes": "In the third period the collection consist of 1, 617 documents, 98, 052 nouns and 583, 676 co-occurrences. Table 9 shows the co-occurrence network of the authors' keywords in abstract documents published from 2001 to 2010 and the co-occurrences among these nouns. In this period it seems that the medical and psychological clusters have merged together. The strong relationships are between \"patient\" and\n\nTable 9 Co-occurrence network of the words 2001-2010\n\nTable 10 Co-occurrence network of the words 2011-2022\n\n\"scale\" (1,104), \"patient\" and \"treatment\" (1,094),\"health\" and \"result\" (1,002). New nouns and new links appear, such as \"happiness\" and \"income\" (857).",
+      "preview_head": "In the third period the collection consist of 1, 617 documents, 98, 052 nouns and 583, 676 co-occurrences. Table 9 shows the co-occurrence network of the authors' keywords in abstract documents published from 2001 to 2010 and the co-occurrences among these nouns. In this period it seems that the medical and psychological clusters have merged together.",
+      "preview_tail": "\"scale\" (1,104), \"patient\" and \"treatment\" (1,094),\"health\" and \"result\" (1,002). New nouns and new links appear, such as \"happiness\" and \"income\" (857).",
+      "word_count": 100,
+      "paragraph_count": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings for the 2001-2010 period, including document counts, co-occurrence"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports quantitative findings (document counts, co-occurrence statistics, new links)"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "2011-2022",
+      "header_norm": "2022",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "In the last period the collection consist of 10, 095 documents, 672, 675 nouns and 2, 365, 085 co-occurrences. The Table 10 shows the co-occurrence network of the authors' keywords in abstract documents published from 2011 to 2022 and the co-occurrences among these nouns. As can be seen, the word \"patient\" disappears in this period, and the word \"health\" appears, as if to indicate that attention is on the physical well-being of individuals but not strictly in the medical sphere, therefore with experiments and treatments. Here we are talking about the effects that health brings on subjective well-being. And for the first time the \"student\" -\"school\" link appears, a cluster separated from the rest of the keywords, but with a very strong link. This co-occurrence is linked to the words \"child\", \"parent\" and \"family\". As we will see later, this cluster of words will be the first topic that will be formed with LDA algorithm, precisely to underline that perhaps SWB arises from adolescence and does not only concern adults. Finally, the frequency of cooccurrences for the years 2011-2022 seem to be the most equally spread among all tables of various classes of years."
+      ],
+      "footnotes": [],
+      "text": "In the last period the collection consist of 10, 095 documents, 672, 675 nouns and 2, 365, 085 co-occurrences. The Table 10 shows the co-occurrence network of the authors' keywords in abstract documents published from 2011 to 2022 and the co-occurrences among these nouns. As can be seen, the word \"patient\" disappears in this period, and the word \"health\" appears, as if to indicate that attention is on the physical well-being of individuals but not strictly in the medical sphere, therefore with experiments and treatments. Here we are talking about the effects that health brings on subjective well-being. And for the first time the \"student\" -\"school\" link appears, a cluster separated from the rest of the keywords, but with a very strong link. This co-occurrence is linked to the words \"child\", \"parent\" and \"family\". As we will see later, this cluster of words will be the first topic that will be formed with LDA algorithm, precisely to underline that perhaps SWB arises from adolescence and does not only concern adults. Finally, the frequency of cooccurrences for the years 2011-2022 seem to be the most equally spread among all tables of various classes of years.",
+      "text_with_footnotes": "In the last period the collection consist of 10, 095 documents, 672, 675 nouns and 2, 365, 085 co-occurrences. The Table 10 shows the co-occurrence network of the authors' keywords in abstract documents published from 2011 to 2022 and the co-occurrences among these nouns. As can be seen, the word \"patient\" disappears in this period, and the word \"health\" appears, as if to indicate that attention is on the physical well-being of individuals but not strictly in the medical sphere, therefore with experiments and treatments. Here we are talking about the effects that health brings on subjective well-being. And for the first time the \"student\" -\"school\" link appears, a cluster separated from the rest of the keywords, but with a very strong link. This co-occurrence is linked to the words \"child\", \"parent\" and \"family\". As we will see later, this cluster of words will be the first topic that will be formed with LDA algorithm, precisely to underline that perhaps SWB arises from adolescence and does not only concern adults. Finally, the frequency of cooccurrences for the years 2011-2022 seem to be the most equally spread among all tables of various classes of years.",
+      "preview_head": "In the last period the collection consist of 10, 095 documents, 672, 675 nouns and 2, 365, 085 co-occurrences. The Table 10 shows the co-occurrence network of the authors' keywords in abstract documents published from 2011 to 2022 and the co-occurrences among these nouns. As can be seen, the word \"patient\" disappears in this period, and the word \"health\" appears, as if to indicate that attention is on the physical well-being of individuals but not strictly in the medical sphere, therefore with experiments and treatments.",
+      "preview_tail": "This co-occurrence is linked to the words \"child\", \"parent\" and \"family\". As we will see later, this cluster of words will be the first topic that will be formed with LDA algorithm, precisely to underline that perhaps SWB arises from adolescence and does not only concern adults. Finally, the frequency of cooccurrences for the years 2011-2022 seem to be the most equally spread among all tables of various classes of years.",
+      "word_count": 194,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings for the 2011-2022 period, including document counts, co-occurrence"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports quantitative findings (document counts, co-occurrence statistics, network focus)"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Topic Modeling",
+      "header_norm": "topic modeling",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "Finally, we analysed the content of the documents' abstracts, to discover what kinds of topics might occur within our bibliographic collection. Statistics of terms that frequently appear in a collection of abstracts can provide a primary picture of a research field. Here, we conducted the text analysis by utilising a topic modelling technique using the LDA model. LDA is a particularly popular method for fitting a topic model. It treats each document as a mixture of topics, and each topic as a mixture of words. However, the LDA topic model does not give automatically the optimal number of topics, but the exact number of topics must be determined by the model user in other ways (Gan & Qi, 2021;Zhang et al., 2014). There are several automated methods to identify the number of topics (k) contained in a set of documents. Specifically, the ldatuning package (Nikita, 2016) provides access to four different methods to discover the number of topics: ( 1 2004) method. We calculate all these specific metrics; \"the optimal rangefoot_4 is situated between the number of topics at the intersection of the Arun2010 plot and CaoJuan2009 plot for minimization, and the number of topics at the intersection of Griffiths2004 plot and Deveaud2014 plot for maximization\" (Masrury et al., 2019) foot_5 . According to the plot in Fig. 9 and following the criterion described above, the optimal number of topic groups are between about 4 and 12 topics."
+      ],
+      "footnotes": [],
+      "text": "Finally, we analysed the content of the documents' abstracts, to discover what kinds of topics might occur within our bibliographic collection. Statistics of terms that frequently appear in a collection of abstracts can provide a primary picture of a research field. Here, we conducted the text analysis by utilising a topic modelling technique using the LDA model. LDA is a particularly popular method for fitting a topic model. It treats each document as a mixture of topics, and each topic as a mixture of words. However, the LDA topic model does not give automatically the optimal number of topics, but the exact number of topics must be determined by the model user in other ways (Gan & Qi, 2021;Zhang et al., 2014). There are several automated methods to identify the number of topics (k) contained in a set of documents. Specifically, the ldatuning package (Nikita, 2016) provides access to four different methods to discover the number of topics: ( 1 2004) method. We calculate all these specific metrics; \"the optimal rangefoot_4 is situated between the number of topics at the intersection of the Arun2010 plot and CaoJuan2009 plot for minimization, and the number of topics at the intersection of Griffiths2004 plot and Deveaud2014 plot for maximization\" (Masrury et al., 2019) foot_5 . According to the plot in Fig. 9 and following the criterion described above, the optimal number of topic groups are between about 4 and 12 topics.",
+      "text_with_footnotes": "Finally, we analysed the content of the documents' abstracts, to discover what kinds of topics might occur within our bibliographic collection. Statistics of terms that frequently appear in a collection of abstracts can provide a primary picture of a research field. Here, we conducted the text analysis by utilising a topic modelling technique using the LDA model. LDA is a particularly popular method for fitting a topic model. It treats each document as a mixture of topics, and each topic as a mixture of words. However, the LDA topic model does not give automatically the optimal number of topics, but the exact number of topics must be determined by the model user in other ways (Gan & Qi, 2021;Zhang et al., 2014). There are several automated methods to identify the number of topics (k) contained in a set of documents. Specifically, the ldatuning package (Nikita, 2016) provides access to four different methods to discover the number of topics: ( 1 2004) method. We calculate all these specific metrics; \"the optimal rangefoot_4 is situated between the number of topics at the intersection of the Arun2010 plot and CaoJuan2009 plot for minimization, and the number of topics at the intersection of Griffiths2004 plot and Deveaud2014 plot for maximization\" (Masrury et al., 2019) foot_5 . According to the plot in Fig. 9 and following the criterion described above, the optimal number of topic groups are between about 4 and 12 topics.",
+      "preview_head": "Finally, we analysed the content of the documents' abstracts, to discover what kinds of topics might occur within our bibliographic collection. Statistics of terms that frequently appear in a collection of abstracts can provide a primary picture of a research field. Here, we conducted the text analysis by utilising a topic modelling technique using the LDA model.",
+      "preview_tail": "Specifically, the ldatuning package (Nikita, 2016) provides access to four different methods to discover the number of topics: ( 1 2004) method. We calculate all these specific metrics; \"the optimal rangefoot_4 is situated between the number of topics at the intersection of the Arun2010 plot and CaoJuan2009 plot for minimization, and the number of topics at the intersection of Griffiths2004 plot and Deveaud2014 plot for maximization\" (Masrury et al., 2019) foot_5 . According to the plot in Fig. 9 and following the criterion described above, the optimal number of topic groups are between about 4 and 12 topics.",
+      "word_count": 238,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*topic\\s+model"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*topic\\s+model",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "3",
+      "header_norm": "",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "How Subjective Well-being Evolved Over Time Some general considerations apply regarding the number of topics. As the aim is to identify the main topics, a very high number of topics could lead to an overlapping thereof in the individual documents, which in turn would make it difficult to classify them unambiguously. A model with a large number of topics will have few papers for each topic, which will increase the coherence of the individual topics but significantly reduce the diversity within the topics. Conversely, if a small number of topics is chosen, the definition of the topics would be too general and classification of the documents would be too rough (Alboni et al., 2023;Blei et al., 2003). For these reasons, we decided to proceed with the LDA solution for 6 topics.",
+        "Six meaningful topics have been extracted and labelled based on the top words of each one. Figure 10 shows the topics and their related words. The number on the x-axis shows the Beta values which indicate how often the word appears on a topic; the higher th Bigger Beta values, the higher the appearance frequency of a particular word in a single topic group. 1 3",
+        "How Subjective Well-being Evolved Over Time negative affect, relationship and personality. This topic can be name as \"the psychological SWB\". • The last topic contains top words such as research, work, use, social, people and approach. The words are related to scientific researches on the object of study. This topic can be name as \"the research on SWB\"."
+      ],
+      "footnotes": [],
+      "text": "How Subjective Well-being Evolved Over Time Some general considerations apply regarding the number of topics. As the aim is to identify the main topics, a very high number of topics could lead to an overlapping thereof in the individual documents, which in turn would make it difficult to classify them unambiguously. A model with a large number of topics will have few papers for each topic, which will increase the coherence of the individual topics but significantly reduce the diversity within the topics. Conversely, if a small number of topics is chosen, the definition of the topics would be too general and classification of the documents would be too rough (Alboni et al., 2023;Blei et al., 2003). For these reasons, we decided to proceed with the LDA solution for 6 topics.\n\nSix meaningful topics have been extracted and labelled based on the top words of each one. Figure 10 shows the topics and their related words. The number on the x-axis shows the Beta values which indicate how often the word appears on a topic; the higher th Bigger Beta values, the higher the appearance frequency of a particular word in a single topic group. 1 3\n\nHow Subjective Well-being Evolved Over Time negative affect, relationship and personality. This topic can be name as \"the psychological SWB\". • The last topic contains top words such as research, work, use, social, people and approach. The words are related to scientific researches on the object of study. This topic can be name as \"the research on SWB\".",
+      "text_with_footnotes": "How Subjective Well-being Evolved Over Time Some general considerations apply regarding the number of topics. As the aim is to identify the main topics, a very high number of topics could lead to an overlapping thereof in the individual documents, which in turn would make it difficult to classify them unambiguously. A model with a large number of topics will have few papers for each topic, which will increase the coherence of the individual topics but significantly reduce the diversity within the topics. Conversely, if a small number of topics is chosen, the definition of the topics would be too general and classification of the documents would be too rough (Alboni et al., 2023;Blei et al., 2003). For these reasons, we decided to proceed with the LDA solution for 6 topics.\n\nSix meaningful topics have been extracted and labelled based on the top words of each one. Figure 10 shows the topics and their related words. The number on the x-axis shows the Beta values which indicate how often the word appears on a topic; the higher th Bigger Beta values, the higher the appearance frequency of a particular word in a single topic group. 1 3\n\nHow Subjective Well-being Evolved Over Time negative affect, relationship and personality. This topic can be name as \"the psychological SWB\". • The last topic contains top words such as research, work, use, social, people and approach. The words are related to scientific researches on the object of study. This topic can be name as \"the research on SWB\".",
+      "preview_head": "How Subjective Well-being Evolved Over Time Some general considerations apply regarding the number of topics. As the aim is to identify the main topics, a very high number of topics could lead to an overlapping thereof in the individual documents, which in turn would make it difficult to classify them unambiguously. A model with a large number of topics will have few papers for each topic, which will increase the coherence of the individual topics but significantly reduce the diversity within the topics.",
+      "preview_tail": "This topic can be name as \"the psychological SWB\". • The last topic contains top words such as research, work, use, social, people and approach. The words are related to scientific researches on the object of study. This topic can be name as \"the research on SWB\".",
+      "word_count": 255,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section describes the main topics identified by the analysis, reporting the top words and their"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive commentary about the meaning and naming of topics (e.g., 'This topic can'"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.92,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Cataldo et al. - 2024 - How Subjective Well-being Evolved Over Time Insights from Bibliometric and Text Mining Analyses",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Conclusive Remarks",
+      "header_norm": "conclusive remarks",
+      "container_raw": "Data Analysis",
+      "container_norm": "data analysis",
+      "is_container": false,
+      "paragraphs": [
+        "This study combines the bibliometric techniques, text mining and topic modeling to analyze the development trend of SWB research from statistical analysis and text mining. It yielded several interesting findings. First, a rapid growth in publications was observed since 2000. This is a demonstration of how the concept of well-being from a subjective point of view is studied extensively by researchers in various fields. Second, looking at the sources, if before this concept was mainly analyzed in the psychological field, nowadays there are journals that devote more space to these issues in terms of individual happiness and social issues. The analysis, employed on the abstracts of the publications' collection, highlights the emphasis of researchers on discussing SWB in terms of life and satisfaction, both at an individual and group level. Another crucial factor emphasised by the investigation is the shift in focus across the years. Initially, the primary aim was to comprehend the process of quantifying this phenomenon using measurement scales and medical interventions to gain insights into the psychological aspects. Subsequently, the focus shifted towards investigating well-being, encompassing not only physical health but also aspects such as interpersonal relationships, happiness, and overall quality of life. This research is bound to have its limitations too. First, we considered only the Scopus database in this study. Extracting valuable data from other well-known scientific databases, such as Web of Sciences, could provide more information in future bibliometric analyses. Moreover, our collection was composed only by documents published in the English language. Further investigation into non-English documents in this domain is recommended to harmonize the research findings. According to the insights provided by the bibliometric and text mining analyses conducted, this research fills in the blanks of existing literature by employing a technique that examines disciplines and applies them as tags to information science journals. This work will be helpful to researchers, documentation and information professionals, students, and others interested in the field."
+      ],
+      "footnotes": [],
+      "text": "This study combines the bibliometric techniques, text mining and topic modeling to analyze the development trend of SWB research from statistical analysis and text mining. It yielded several interesting findings. First, a rapid growth in publications was observed since 2000. This is a demonstration of how the concept of well-being from a subjective point of view is studied extensively by researchers in various fields. Second, looking at the sources, if before this concept was mainly analyzed in the psychological field, nowadays there are journals that devote more space to these issues in terms of individual happiness and social issues. The analysis, employed on the abstracts of the publications' collection, highlights the emphasis of researchers on discussing SWB in terms of life and satisfaction, both at an individual and group level. Another crucial factor emphasised by the investigation is the shift in focus across the years. Initially, the primary aim was to comprehend the process of quantifying this phenomenon using measurement scales and medical interventions to gain insights into the psychological aspects. Subsequently, the focus shifted towards investigating well-being, encompassing not only physical health but also aspects such as interpersonal relationships, happiness, and overall quality of life. This research is bound to have its limitations too. First, we considered only the Scopus database in this study. Extracting valuable data from other well-known scientific databases, such as Web of Sciences, could provide more information in future bibliometric analyses. Moreover, our collection was composed only by documents published in the English language. Further investigation into non-English documents in this domain is recommended to harmonize the research findings. According to the insights provided by the bibliometric and text mining analyses conducted, this research fills in the blanks of existing literature by employing a technique that examines disciplines and applies them as tags to information science journals. This work will be helpful to researchers, documentation and information professionals, students, and others interested in the field.",
+      "text_with_footnotes": "This study combines the bibliometric techniques, text mining and topic modeling to analyze the development trend of SWB research from statistical analysis and text mining. It yielded several interesting findings. First, a rapid growth in publications was observed since 2000. This is a demonstration of how the concept of well-being from a subjective point of view is studied extensively by researchers in various fields. Second, looking at the sources, if before this concept was mainly analyzed in the psychological field, nowadays there are journals that devote more space to these issues in terms of individual happiness and social issues. The analysis, employed on the abstracts of the publications' collection, highlights the emphasis of researchers on discussing SWB in terms of life and satisfaction, both at an individual and group level. Another crucial factor emphasised by the investigation is the shift in focus across the years. Initially, the primary aim was to comprehend the process of quantifying this phenomenon using measurement scales and medical interventions to gain insights into the psychological aspects. Subsequently, the focus shifted towards investigating well-being, encompassing not only physical health but also aspects such as interpersonal relationships, happiness, and overall quality of life. This research is bound to have its limitations too. First, we considered only the Scopus database in this study. Extracting valuable data from other well-known scientific databases, such as Web of Sciences, could provide more information in future bibliometric analyses. Moreover, our collection was composed only by documents published in the English language. Further investigation into non-English documents in this domain is recommended to harmonize the research findings. According to the insights provided by the bibliometric and text mining analyses conducted, this research fills in the blanks of existing literature by employing a technique that examines disciplines and applies them as tags to information science journals. This work will be helpful to researchers, documentation and information professionals, students, and others interested in the field.",
+      "preview_head": "This study combines the bibliometric techniques, text mining and topic modeling to analyze the development trend of SWB research from statistical analysis and text mining. It yielded several interesting findings. First, a rapid growth in publications was observed since 2000.",
+      "preview_tail": "Further investigation into non-English documents in this domain is recommended to harmonize the research findings. According to the insights provided by the bibliometric and text mining analyses conducted, this research fills in the blanks of existing literature by employing a technique that examines disciplines and applies them as tags to information science journals. This work will be helpful to researchers, documentation and information professionals, students, and others interested in the field.",
+      "word_count": 320,
+      "paragraph_count": 1,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "This section summarizes the study, its main findings, and offers closing remarks and future research"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive commentary on the implications and limitations of the findings"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "CONCLUSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 23,
+    "content_sections": 22,
+    "total_words": 6120,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 23,
+    "by_source": {
+      "heuristic": 5,
+      "llm": 17,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

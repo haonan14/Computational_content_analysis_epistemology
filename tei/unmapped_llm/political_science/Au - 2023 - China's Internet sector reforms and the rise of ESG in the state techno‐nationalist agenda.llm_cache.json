@@ -1,0 +1,38 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports findings from LDA models, describes prevalence of keywords, and references figures."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Some interpretation of what the results mean for social wellbeing and digital ecology is likely, but"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports findings from Topic 2 of the LDA analysis, including keyword proportions and policy/"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section interprets the meaning of the results for corporate governance and environmental sustainabil"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

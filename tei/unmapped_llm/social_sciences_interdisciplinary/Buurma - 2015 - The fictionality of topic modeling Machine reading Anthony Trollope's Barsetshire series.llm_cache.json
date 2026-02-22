@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens with a framing of the research problem, introduces the literary context (Trollope,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section opens with a framing of the research problem, introduces the literary context (Trollope,"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior reports, surveys, and literature about Ukraine's political context, citing"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior reports, surveys, and literature about Ukraine's political context, citing"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

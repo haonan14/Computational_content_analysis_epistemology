@@ -1,0 +1,144 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews field theory and prior comparative approaches, citing multiple scholars and situates"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section discusses prior findings and theoretical concepts (black counter-discourse) with citations."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Section also summarizes key findings from the current and prior studies, but emphasis is on theory/l"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the hand-coding procedure, coding frames, and sub-codes used by the authors."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data sources, corpus construction, and preprocessing steps for analysis."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the analytic approach, including keyword analysis and dictionary construction."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the use of structural topic modeling and its rationale."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Begins to report some findings and topic similarities/differences."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes the quantitative ROC analysis and comparison procedure."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Reports results of the ROC analysis and comparison between methods."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Presents qualitative findings from deep-dive comparisons of STM and hand-coding."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretive commentary on the meaning of the findings."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Contains supplementary notes, clarifications, and additional information."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Biographical information about the contributors, not part of the research content."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

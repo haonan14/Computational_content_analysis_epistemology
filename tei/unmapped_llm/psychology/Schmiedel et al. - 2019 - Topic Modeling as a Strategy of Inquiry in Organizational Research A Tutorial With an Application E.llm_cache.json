@@ -1,0 +1,69 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section provides a step-by-step tutorial and application example, describing the process of how"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section details the process of defining the research question, data collection, and analysis in "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section discusses key decisions in the data preparation phase, which is a methodological aspect"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "The section interprets the meaning and implications of the findings, focusing on the advantages of "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses the limitations of the method, which is interpretive and reflective in nature"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "The section interprets and discusses broader application fields and implications for organizational "
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

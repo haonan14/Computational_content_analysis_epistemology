@@ -1,0 +1,350 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on Telegram, its features, and moderation policies, referencing a 3"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on Telegram, its features, and moderation policies, referencing a 3"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses theoretical concepts (public sphere, mediasphere) and cites prior work to set"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses theoretical concepts (public sphere, mediasphere) and cites prior work to set"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "This section frames the research context, introduces the main research questions, and motivates the"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "There is some reference to prior work and context, but the main function is to set up the study's pu"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the network analysis approach, referencing how the authors conducted their analysis and th"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the network analysis approach, referencing how the authors conducted their analysis and th"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the construction of network graphs, including tools, types of graphs, and procedures used by"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the construction of network graphs, including tools, types of graphs, and procedures used by"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of the disparity filter for edge pruning in network analysis, focusing on methodolo"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of the disparity filter for edge pruning in network analysis, focusing on methodolo"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data preparation steps, including cleaning, merging, and outlier removal, all of which are"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data preparation steps, including cleaning, merging, and outlier removal, all of which are"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the temporal slicing of data for analysis, including rationale and procedures, which are me"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the temporal slicing of data for analysis, including rationale and procedures, which are me"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Introduces the results for RQ1, describing what was found regarding communities in the Telegramspher"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Introduces the results for RQ1, describing what was found regarding communities in the Telegramspher"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from the user-overlap network, including statistics, network structure, and communi"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from the user-overlap network, including statistics, network structure, and communi"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents results from the URL-overlap network, including network statistics and patterns found in th"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents results from the URL-overlap network, including network statistics and patterns found in th"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings from the topic-similarity network, including network statistics and community str"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings from the topic-similarity network, including network statistics and community str"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section introduces the second research question and sets up the reporting of findings regarding the "
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section introduces the second research question and sets up the reporting of findings regarding the "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes observed patterns in chat/channel activity over time, referencing figures and reporting on"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on user activity over time, referencing data and specific events, with no interpret"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports empirical findings on URL sharing activity over time, referencing time periods and observed"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports on the evolution of topics discussed in Telegram chats/channels, referencing data and patter"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports results regarding the temporal development of user-overlap and content-overlap networks, wit"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "Reports quantitative findings on network evolution (nodes, density, transitivity, etc.) and interpre"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "Briefly interprets findings in light of prior research and raises new questions, but the main focus"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section provides clarifying notes and methodological details, typical of appendix or footnote mater"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Disclosure statement about conflicts of interest; not part of the main academic content."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Funding acknowledgment; not part of the main academic content."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Biographical information about the contributors; not part of the main academic content."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

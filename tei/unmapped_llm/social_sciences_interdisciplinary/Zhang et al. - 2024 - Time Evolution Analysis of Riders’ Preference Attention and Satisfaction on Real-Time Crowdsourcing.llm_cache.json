@@ -1,0 +1,199 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior work, citing multiple studies (Coleman et al., 2017; Samad et al., 2023; etc.)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section discusses prior research on rider satisfaction, determinants, and cites several studies (Y.\u00a0"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Describes LDA topic modeling, its background, and prior improvements, with citations (Blei et al., 2"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Mentions how this study improves previous LDA models and uses keyword weights, indicating some met"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data preprocessing steps performed by the authors on the rider comment data."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains hierarchical clustering analysis performed by the authors, including software and procedu"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the calculation approach for analyzing topic evolution, referencing a method but focusi"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from the analysis of riders' preference evolution, referencing tables and figures"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports trend analysis results, referencing Table 6 and describing changes in rider preferences ov"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes the rating scale and how satisfaction is measured and analyzed (transversal/longitudinal"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Begins to discuss the analysis of evolutionary trends, indicating some reporting of findings."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports statistical results (means, standard deviations, trends) for satisfaction with platform ma"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports analysis combining attention and satisfaction fluctuations, with interpretation of observed"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets the meaning and implications of the findings, highlighting theoretical contributions an"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "This section interprets the practical implications of the research findings, specifically the impact"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.2,
+          "reason": "It also provides actionable recommendations for government and platforms, which is a common feature"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This section is a standard ethical statement required for research involving human participants, not"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "This section is a standard informed consent statement, not part of the main scientific argument or"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

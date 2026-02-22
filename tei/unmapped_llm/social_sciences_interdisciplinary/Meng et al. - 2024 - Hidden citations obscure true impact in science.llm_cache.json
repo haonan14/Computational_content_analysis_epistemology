@@ -1,0 +1,443 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The 'Significance Statement' frames the research problem, introduces the concept of hidden citations"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section header is a key concept ('AdS/CFT'), and the content likely provides background/theoretical/"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Describes findings about foundational papers and hidden citations, referencing patterns and data."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of the patterns and implications for credit distortion."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about citation alternatives and patterns of credit redirection."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Interprets the meaning of these patterns and their implications for the field."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Focuses on interpretation, limitations, and explanations for observed citation patterns."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "References some findings about citation frequency and topic coverage."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of LDA models and how topics/catchphrases are mapped to papers; details the paper"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes data sources, citation networks, and topic modeling approach used by the authors."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of a full-text corpus from Nature and how it is used in the analysis."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes preprocessing steps for citation contexts, a methodological detail."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes LDA training process and topic modeling details, which are methodological."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the document corpus and parameters for computer science topic modeling."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the document corpus and parameters for biology topic modeling."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section discusses methodological considerations and possible improvements (e.g., hierarchical L"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section discusses methodological improvements and modeling choices (e.g., LDA, hierarchical LDA)"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the procedure for determining hidden citations, including data collection and manual steps"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how topics were categorized and classified, which is a methodological step"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Presents the taxonomy and categorization scheme used in the analysis, which is part of the methods"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Continues the taxonomy/categorization table, which is part of the methodological description"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Continues the taxonomy/categorization table, which is part of the methodological description"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Continues the taxonomy/categorization table, which is part of the methodological description"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Continues the taxonomy/categorization table, which is part of the methodological description"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about topic multidisciplinarity and category assignment, using phrases like 'We"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about topic multidisciplinarity and category assignment, using phrases like 'We"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the sentiment analysis procedure applied to citation/mention sentences"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Briefly reports the outcome that hidden and explicit citations have similar sentiment ratios"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings about the complexity and acknowledgment of certain topics, with evidence and exa"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings about the complexity and acknowledgment of certain topics, with evidence and exa"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the Bayesian estimation procedure for p(cite|mention), including formulas and rationale"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the procedure for estimating temporal change of p(cite|mention) using Bayesian methods and"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Mentions presentation of results in Fig. S5, but the main focus is on the estimation method."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Explains the calculation of the change in p(cite|mention) over time, including mathematical details."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions the filtering of topics and the resulting sample sizes, which is a minor reporting of data."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes a repeated analysis including indirect citations, indicating a methodological extension."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Reports findings about changes in citation-based ranks and refers to Figure S9, showing empirical/ob"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 33,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on socialdemographic inequalities, gender ratios, and institutional saliency among"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes the use of LDA to calculate conditional probabilities between foundational papers and catc"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Mentions Table S5 and Nobel-prize foundational papers, indicating some reporting of findings."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents specific data about MAG ids, titles, and findings about catchphrase-paper relationships."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings about the origins of catchphrases and justifies the methodology based on results."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents a table of topics, catchphrases, founding papers, and representativeness\u2014purely reporting"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

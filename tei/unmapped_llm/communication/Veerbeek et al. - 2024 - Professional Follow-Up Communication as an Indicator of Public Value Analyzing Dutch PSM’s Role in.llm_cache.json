@@ -1,0 +1,132 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the purpose of the study, and outlines the aims"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the theoretical background of public value, referencing Moore (1995) and other,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the legitimacy crisis of PSM, reviews prior research, and sets up the need to"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section discusses the role of the press as an indicator, referencing prior literature and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "The section begins to transition to the paper's approach, hinting at later methodological"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the computational approach (topic modeling, LDA), data processing, and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports findings from comparing newspaper mentions and viewers, including"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of what the results mean for the value of news/actualities"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "This section introduces and describes two types of analyses conducted by the authors"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "It also begins to report on the analyses and their aims, blending methods and initial"
+        }
+      ],
+      "confidence": 0.91
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings from the topic modeling and analysis of newspaper mentions"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports findings from the qualitative timeline analysis, describing patterns and"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "It also interprets the meaning of these findings in the context of public debate and"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "classifications": [
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the validation metrics (coherence, perplexity) used to select model parameters and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the validation metrics (coherence, perplexity) used to select model parameters and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings from frequency analyses of actors mentioned in the press, with specific n-s"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports observed lexical patterns and keyword findings from the analysis, describing what wa"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section lists dominant keywords and their weights, directly reporting the output of the topic model."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section continues to report dominant keywords and latent topics, presenting the empirical findings."
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

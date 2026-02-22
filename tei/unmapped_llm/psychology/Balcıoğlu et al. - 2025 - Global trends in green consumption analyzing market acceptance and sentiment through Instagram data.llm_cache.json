@@ -1,0 +1,693 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines and discusses the concept of sustainability and the green phenomenon, citing a "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines and discusses the concept of sustainability and the green phenomenon, citing a "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of green consumption, its importance, and cites prior literature. "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes prior research on green consumption values, referencing multiple studies and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses market acceptance of green consumption, referencing prior research and defin"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes findings from prior research on mall-intercept consumers in Vietnam, with "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reports results from prior studies about students and green consumption, not the auth"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section is a narrative review of the literature and future research directions, as indicated "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses findings from prior research on consumer behavior in markets, with citation"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes findings from prior research on low-income households in Malaysia, with ci"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses prior research findings on consumers in Vietnam, referencing specific studi"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes prior research findings on green product consumers, with citations and no "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reports results from prior research on Portuguese consumers, not the authors' own da"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the findings of Zhuo et al. (2016), describing what others found regarding a"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section summarizes the results of Zhuo et al. (2016), focusing on prior research findings and is"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the sample and findings from Suki (2016), focusing on prior research and not"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "It reports on the sample and findings from Suki (2016), which is prior work, not the current study."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses findings from prior research (Biswas and Roy, 2015) about determinants of"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "It summarizes results from previous studies (Biswas and Roy, 2015), not the current paper."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reports findings from Tobler et al. (2011) about consumers in Taiwan, focusing on prior"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "It summarizes results from Tobler et al. (2011), which is prior literature."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes findings from prior research about Swiss consumers, not the current study."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reports findings from prior research on Swiss consumers, focusing on what others found."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes findings from prior research about stakeholders in retail organizations."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses findings from Gilg, Barr & Ford (2005) about households in Devon, which is"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section synthesizes comparative insights from recent studies, summarizing prior research and"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses biases and limitations in data sources as reported in prior literature, with"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section summarizes the research designs used in prior studies, focusing on what others did."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section compares methodological approaches and findings from prior research, not the current"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews how prior studies differ in methodology, with dense citations and focus on what OTHO"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses demographic focus in prior studies, referencing other scholars' findings and approaches."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes how previous research found contextual/cultural influences, with citations and focus on O"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews findings from prior work about product category differences, with citations and no new data."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Interprets the significance and implications of the study's approach, connecting to broader research"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Mentions leveraging social media analytics and methodological bridging, but focus is on implications"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Lists advantages of methods as established in prior literature, not describing this study's actions."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Describes shortcomings of traditional methods, referencing general knowledge and prior work."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Briefly transitions to describing this study's Instagram data mining, but main focus is on prior art"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 38,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Interprets and highlights the significance and implications of the current research."
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "References research gaps and prior literature to frame the study's importance."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 39,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Frames a research question in the context of gaps in prior research, referencing what is missing in "
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "Partially serves to introduce a key research question for the current study."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 41,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the research framework and methodological approach of THIS study."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 43,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Frames a research question based on gaps in prior studies, referencing what others have focused on."
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "Introduces a key research question for the current study."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 44,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Frames a research question in the context of prior research and gaps."
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "Introduces a research question relevant to the current study."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 45,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the primary data source (Instagram) used for the study, which is a core methodological (i."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 47,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the sentiment analysis approach, including NLP tools and time series analysis, which are all"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 50,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Specifies the data collection period and volume, which are methodological details about the study's"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 51,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Lists the data fields collected for analysis, which is a methodological description."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 52,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how the collected data is stored and organized, which is a methodological detail."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 56,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the methodology for word frequency analysis."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions a table that encapsulates findings, suggesting some results are presented."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 57,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Explains the creation of word clouds as a methodological step."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "References the visual summary of findings, indicating some results are included."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 58,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings of sentiment analysis, including proportions of positive, negative, and neutral"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 59,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents consumer satisfaction rates based on sentiment analysis, which are study findings."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 61,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analytical approach and tools used for sentiment analysis of Instagram reviews."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 62,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the evaluation and analysis of green products, including satisfaction rates and implications"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 63,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the application of LDA topic modeling and presents findings about consumer satisfaction a"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 65,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the study's findings, connects them to broader implications, and discusses L"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 66,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the meaning of positive sentiment topics, explaining their implications for"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 67,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets negative sentiment findings, discusses barriers, and connects to theory, f"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 68,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses the practical and theoretical implications of the findings for managers and "
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

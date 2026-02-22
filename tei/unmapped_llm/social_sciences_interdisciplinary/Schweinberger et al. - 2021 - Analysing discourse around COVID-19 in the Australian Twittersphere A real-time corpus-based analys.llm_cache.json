@@ -1,0 +1,50 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.95,
+          "reason": "This section reviews prior research on social media discourse around COVID-19, discusses the state/g"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.05,
+          "reason": "The section briefly transitions to the present study's aims at the end, but the dominant function is"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.8,
+          "reason": "This section provides a forward-looking summary, discusses future research directions, and wraps up"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive content about the study's limitations and ongoing work, but the main focu"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides methodological notes, clarifications, and additional details that supplement t"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

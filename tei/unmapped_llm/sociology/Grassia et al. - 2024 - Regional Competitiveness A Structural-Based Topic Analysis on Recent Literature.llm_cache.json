@@ -1,0 +1,89 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section provides a conceptual and technical overview of the Structural Topic Model (STM), its,\u00a0"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "The section also briefly touches on how STM is used in practice and introduces some methodological/\u00a0"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports the findings from the STM analysis, including diagnostics, optimal number of\u00a0"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive commentary on the meaning and implications of the identified topics and\u00a0"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.85,
+          "reason": "This section presents the empirical findings regarding the influence of covariates (metadata) on\u00a0"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.15,
+          "reason": "There is some interpretation of the patterns found, but the main focus is on reporting the results."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports the empirical evaluation of connections between topics and pillars, describing\u00a0"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is interpretive content about the meaning of the observed connections and their implications."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "This section provides a final summary, closing remarks, and reflections on the research."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive content and implications discussed as part of the conclusion."
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

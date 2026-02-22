@@ -1,0 +1,223 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, discusses the popularity and challenges of topic modeling,,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes prior strategies and studies for monolingual corpus selection, with citations and examples"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews prior work and strategies for running topic models per case/language, referencing what other"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes a third set of studies and their techniques for data consolidation, with references to the"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explains a class of models using lexical resources, with citations and technical background from the"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes another class of models and their use of training documents, referencing prior work and"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Discusses methodological decisions and systematic testing of model evaluation metrics, focusing on"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Describes prior approaches and examples for selecting training documents, with citations and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Touches on the types of training documents considered in this study, but mainly reviews prior work"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Reviews alignment techniques and prior work for constructing training documents, with citations"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Mentions methodological considerations relevant to the current study, but focus is on prior work"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' process for preparing training documents, including translation, sampling,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the pre-processing steps applied to the data, including lemmatization and part-of-speech"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the evaluation metrics and procedures used to compare model outputs, focusing on what the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the metrics (coherence metrics, specifically NPMI) used to evaluate topic sem"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the consistency metrics (MTA) used to evaluate multilingual topic models, which"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the procedures for comparing models and selecting the final model, which is a"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports findings from applying the selected model to the corpus, including figures and "
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is some description of the evaluation procedure, but the main focus is on reporting the outcom"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "A 'Notes' section at the end of a paper typically contains supplementary or clarifying information, "
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

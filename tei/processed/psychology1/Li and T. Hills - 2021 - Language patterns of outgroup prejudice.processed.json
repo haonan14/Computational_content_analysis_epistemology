@@ -1,0 +1,861 @@
+{
+  "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/psychology/Li and T. Hills - 2021 - Language patterns of outgroup prejudice.tei.xml",
+  "metadata": {
+    "title": "Language Patterns of Outgroup Prejudice",
+    "authors": [
+      "Ying Li",
+      "Thomas Hills"
+    ],
+    "journal": "",
+    "year": "",
+    "doi": "",
+    "keywords": [
+      "outgroup prejudice",
+      "natural language processing",
+      "social distance"
+    ]
+  },
+  "abstract": "Please refer to published version for the most recent bibliographic citation information. If a published version is known of, the repository item page linked to above, will contain details on accessing it.",
+  "sections": [
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Language Patterns of Outgroup Prejudice",
+      "header_norm": "language patterns of outgroup prejudice",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Language plays a central role in prejudice. In his classic book The Nature of Prejudice, Gordon Allport (1954) noted that ethnic labels often attract more negative attributes than they should. Subsequent studies have shown that language not only reflects explicit and implicit prejudice but also influences how recipients perceive and judge outgroup members (see Collins & Clément, 2012, for a review). Today, despite the increase in antiprejudice norms and corresponding decreases of explicit expression of prejudice, prejudice in language still persists in more subtle forms (Augoustinos & Every, 2007;Maass et al., 1989). In the present article, we analyze patterns and biases in language underlying a prejudiced description of the 60 most common ethnic and religious minority groups in the United States. In particular, we address a number of questions related to how minority groups were represented on a leading U.S. Newspaper (The New York Times) at various degrees of perceived social distance and in relation to a variety of outgroup-related topics. Before we introduce these questions, we first introduce the theories that motivates them."
+      ],
+      "footnotes": [],
+      "text": "Language plays a central role in prejudice. In his classic book The Nature of Prejudice, Gordon Allport (1954) noted that ethnic labels often attract more negative attributes than they should. Subsequent studies have shown that language not only reflects explicit and implicit prejudice but also influences how recipients perceive and judge outgroup members (see Collins & Clément, 2012, for a review). Today, despite the increase in antiprejudice norms and corresponding decreases of explicit expression of prejudice, prejudice in language still persists in more subtle forms (Augoustinos & Every, 2007;Maass et al., 1989). In the present article, we analyze patterns and biases in language underlying a prejudiced description of the 60 most common ethnic and religious minority groups in the United States. In particular, we address a number of questions related to how minority groups were represented on a leading U.S. Newspaper (The New York Times) at various degrees of perceived social distance and in relation to a variety of outgroup-related topics. Before we introduce these questions, we first introduce the theories that motivates them.",
+      "text_with_footnotes": "Language plays a central role in prejudice. In his classic book The Nature of Prejudice, Gordon Allport (1954) noted that ethnic labels often attract more negative attributes than they should. Subsequent studies have shown that language not only reflects explicit and implicit prejudice but also influences how recipients perceive and judge outgroup members (see Collins & Clément, 2012, for a review). Today, despite the increase in antiprejudice norms and corresponding decreases of explicit expression of prejudice, prejudice in language still persists in more subtle forms (Augoustinos & Every, 2007;Maass et al., 1989). In the present article, we analyze patterns and biases in language underlying a prejudiced description of the 60 most common ethnic and religious minority groups in the United States. In particular, we address a number of questions related to how minority groups were represented on a leading U.S. Newspaper (The New York Times) at various degrees of perceived social distance and in relation to a variety of outgroup-related topics. Before we introduce these questions, we first introduce the theories that motivates them.",
+      "preview_head": "Language plays a central role in prejudice. In his classic book The Nature of Prejudice, Gordon Allport (1954) noted that ethnic labels often attract more negative attributes than they should. Subsequent studies have shown that language not only reflects explicit and implicit prejudice but also influences how recipients perceive and judge outgroup members (see Collins & Clément, 2012, for a review).",
+      "preview_tail": "In particular, we address a number of questions related to how minority groups were represented on a leading U.S. Newspaper (The New York Times) at various degrees of perceived social distance and in relation to a variety of outgroup-related topics. Before we introduce these questions, we first introduce the theories that motivates them.",
+      "word_count": 174,
+      "paragraph_count": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the topic, and outlines the questions addressed"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Cognitive Accounts of Prejudice",
+      "header_norm": "cognitive accounts of prejudice",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Outgroup negativity is difficult to eradicate because it is deeply rooted in the basic human propensity for social categorical thinking (Allport, 1954;Brewer, 1979;Tajfel, 1982).",
+        "Immigrants, as natural outgroups, are often perceived as untrustworthy outsiders (Alexander et al., 1999;Cuddy et al., 2007;Cuddy et al., 2009;Peabody, 1985;Poppe, 2001) despite bringing innovation, skilled labor, investment, and cultural diversity to their host countries (Borjas, 1990;Carens, 2013;Skeldon, 1997). Outgroup negativity is partly maintained by ultimate attribution error, which is the propensity to explain others' negative behaviors as resulting from dispositional properties of their categorically defined outgroup, but their positive behaviors as the result of idiosyncratic situational factors (Pettigrew, 1979).",
+        "Remarkably, outgroup status and sentiment is flexible. Laboratory analogs of group formation-often called \"minimal group paradigms\"-have demonstrated that the minimum condition for intergroup bias is categorization into a group, but the criteria for that categorization can be as arbitrary as a preference for Kandinsky over Klee (Tajfel et al., 1971). Furthermore, situational factors can influence group boundaries. In Sherif et al.'s (1961) Robbers' Cave experiment, boys at a camp were assigned to groups at random. Increasing levels of prejudice and hostility toward outgroup members were observed over a period of weeks. When the groups worked collectively toward a common goal, however, the boundaries between groups rapidly broke down.",
+        "One solution known to mitigate prejudice is direct interaction with outgroups (intergroup contact theory; Allport, 1954). A meta-analysis of more than 500 studies found that increased intergroup contact that included prosocial qualities such as equal status and cooperation reduced prejudice in 94% of independent samples (Pettigrew & Tropp, 2006; also see a more recent meta-analysis: Paluck et al., 2019). Correspondingly, lack of intergroup contact fuels dispositional inference and prejudice (Jones & Nisbett, 1987). For example, intergroup contact plays a substantial role in explaining the rural-urban divide in perceptions about immigrants, whereby rural populations with little contact to immigrants tend to have more negative attitudes toward immigration than do urban populations who interact with immigrants regularly (Fennelly & Federico, 2008).",
+        "One psychological impact of quality intergroup contact could be reduced social distance, a concept popularized by sociologist Emory Bogardus that refers to the degree with which, psychologically speaking, a person wants to accept or remain separate from members of different social groups (Bogardus, 1927). The Bogardus scale has nearness, intimacy, and familiarity at one end, and farness, difference, and unfamiliarity at the other. Six subsequent replications of Bogardus's original 1927 study show that over the past 80 years, Americans have perceived decreasing levels of social distance towards all minority groups (e.g., Bogardus, 1958;Parrillo & Donoghue, 2005).",
+        "Intergroup contact theory and perceived social distance both imply a relationship between encountering outgroup members and positive perception. Prior studies evaluating these effects have not looked directly at natural language and instead focused on explicit and direct assessments of people's attitudes and opinions alongside self-reported or experimentally manipulated measures of social distance. In the present work, we ask whether we can use a large corpus of natural language to predict social distance and explore the theoretical relationship between social distance and positive perception."
+      ],
+      "footnotes": [],
+      "text": "Outgroup negativity is difficult to eradicate because it is deeply rooted in the basic human propensity for social categorical thinking (Allport, 1954;Brewer, 1979;Tajfel, 1982).\n\nImmigrants, as natural outgroups, are often perceived as untrustworthy outsiders (Alexander et al., 1999;Cuddy et al., 2007;Cuddy et al., 2009;Peabody, 1985;Poppe, 2001) despite bringing innovation, skilled labor, investment, and cultural diversity to their host countries (Borjas, 1990;Carens, 2013;Skeldon, 1997). Outgroup negativity is partly maintained by ultimate attribution error, which is the propensity to explain others' negative behaviors as resulting from dispositional properties of their categorically defined outgroup, but their positive behaviors as the result of idiosyncratic situational factors (Pettigrew, 1979).\n\nRemarkably, outgroup status and sentiment is flexible. Laboratory analogs of group formation-often called \"minimal group paradigms\"-have demonstrated that the minimum condition for intergroup bias is categorization into a group, but the criteria for that categorization can be as arbitrary as a preference for Kandinsky over Klee (Tajfel et al., 1971). Furthermore, situational factors can influence group boundaries. In Sherif et al.'s (1961) Robbers' Cave experiment, boys at a camp were assigned to groups at random. Increasing levels of prejudice and hostility toward outgroup members were observed over a period of weeks. When the groups worked collectively toward a common goal, however, the boundaries between groups rapidly broke down.\n\nOne solution known to mitigate prejudice is direct interaction with outgroups (intergroup contact theory; Allport, 1954). A meta-analysis of more than 500 studies found that increased intergroup contact that included prosocial qualities such as equal status and cooperation reduced prejudice in 94% of independent samples (Pettigrew & Tropp, 2006; also see a more recent meta-analysis: Paluck et al., 2019). Correspondingly, lack of intergroup contact fuels dispositional inference and prejudice (Jones & Nisbett, 1987). For example, intergroup contact plays a substantial role in explaining the rural-urban divide in perceptions about immigrants, whereby rural populations with little contact to immigrants tend to have more negative attitudes toward immigration than do urban populations who interact with immigrants regularly (Fennelly & Federico, 2008).\n\nOne psychological impact of quality intergroup contact could be reduced social distance, a concept popularized by sociologist Emory Bogardus that refers to the degree with which, psychologically speaking, a person wants to accept or remain separate from members of different social groups (Bogardus, 1927). The Bogardus scale has nearness, intimacy, and familiarity at one end, and farness, difference, and unfamiliarity at the other. Six subsequent replications of Bogardus's original 1927 study show that over the past 80 years, Americans have perceived decreasing levels of social distance towards all minority groups (e.g., Bogardus, 1958;Parrillo & Donoghue, 2005).\n\nIntergroup contact theory and perceived social distance both imply a relationship between encountering outgroup members and positive perception. Prior studies evaluating these effects have not looked directly at natural language and instead focused on explicit and direct assessments of people's attitudes and opinions alongside self-reported or experimentally manipulated measures of social distance. In the present work, we ask whether we can use a large corpus of natural language to predict social distance and explore the theoretical relationship between social distance and positive perception.",
+      "text_with_footnotes": "Outgroup negativity is difficult to eradicate because it is deeply rooted in the basic human propensity for social categorical thinking (Allport, 1954;Brewer, 1979;Tajfel, 1982).\n\nImmigrants, as natural outgroups, are often perceived as untrustworthy outsiders (Alexander et al., 1999;Cuddy et al., 2007;Cuddy et al., 2009;Peabody, 1985;Poppe, 2001) despite bringing innovation, skilled labor, investment, and cultural diversity to their host countries (Borjas, 1990;Carens, 2013;Skeldon, 1997). Outgroup negativity is partly maintained by ultimate attribution error, which is the propensity to explain others' negative behaviors as resulting from dispositional properties of their categorically defined outgroup, but their positive behaviors as the result of idiosyncratic situational factors (Pettigrew, 1979).\n\nRemarkably, outgroup status and sentiment is flexible. Laboratory analogs of group formation-often called \"minimal group paradigms\"-have demonstrated that the minimum condition for intergroup bias is categorization into a group, but the criteria for that categorization can be as arbitrary as a preference for Kandinsky over Klee (Tajfel et al., 1971). Furthermore, situational factors can influence group boundaries. In Sherif et al.'s (1961) Robbers' Cave experiment, boys at a camp were assigned to groups at random. Increasing levels of prejudice and hostility toward outgroup members were observed over a period of weeks. When the groups worked collectively toward a common goal, however, the boundaries between groups rapidly broke down.\n\nOne solution known to mitigate prejudice is direct interaction with outgroups (intergroup contact theory; Allport, 1954). A meta-analysis of more than 500 studies found that increased intergroup contact that included prosocial qualities such as equal status and cooperation reduced prejudice in 94% of independent samples (Pettigrew & Tropp, 2006; also see a more recent meta-analysis: Paluck et al., 2019). Correspondingly, lack of intergroup contact fuels dispositional inference and prejudice (Jones & Nisbett, 1987). For example, intergroup contact plays a substantial role in explaining the rural-urban divide in perceptions about immigrants, whereby rural populations with little contact to immigrants tend to have more negative attitudes toward immigration than do urban populations who interact with immigrants regularly (Fennelly & Federico, 2008).\n\nOne psychological impact of quality intergroup contact could be reduced social distance, a concept popularized by sociologist Emory Bogardus that refers to the degree with which, psychologically speaking, a person wants to accept or remain separate from members of different social groups (Bogardus, 1927). The Bogardus scale has nearness, intimacy, and familiarity at one end, and farness, difference, and unfamiliarity at the other. Six subsequent replications of Bogardus's original 1927 study show that over the past 80 years, Americans have perceived decreasing levels of social distance towards all minority groups (e.g., Bogardus, 1958;Parrillo & Donoghue, 2005).\n\nIntergroup contact theory and perceived social distance both imply a relationship between encountering outgroup members and positive perception. Prior studies evaluating these effects have not looked directly at natural language and instead focused on explicit and direct assessments of people's attitudes and opinions alongside self-reported or experimentally manipulated measures of social distance. In the present work, we ask whether we can use a large corpus of natural language to predict social distance and explore the theoretical relationship between social distance and positive perception.",
+      "preview_head": "Outgroup negativity is difficult to eradicate because it is deeply rooted in the basic human propensity for social categorical thinking (Allport, 1954;Brewer, 1979;Tajfel, 1982).",
+      "preview_tail": "Intergroup contact theory and perceived social distance both imply a relationship between encountering outgroup members and positive perception. Prior studies evaluating these effects have not looked directly at natural language and instead focused on explicit and direct assessments of people's attitudes and opinions alongside self-reported or experimentally manipulated measures of social distance. In the present work, we ask whether we can use a large corpus of natural language to predict social distance and explore the theoretical relationship between social distance and positive perception.",
+      "word_count": 510,
+      "paragraph_count": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews prior theoretical accounts and cites foundational work on prejudice and intergroup contact"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Linguistic Bias Underlying Prejudice",
+      "header_norm": "linguistic bias underlying prejudice",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Construal level theory offers a theoretical foundation to extract perceived social distance towards outgroup members from text: The more psychologically distant an object is from the egocentric self (in terms of time, space, social relations, or hypotheticality), the more abstract the mental representation of that object (Trope & Libermann, 2010). It follows from this perspective that people who lack direct experience with an outgroup will have a more abstract construal of its members. Both laboratory and natural experiments support this prediction. For example, in their analysis of around 700,000 Twitter feeds, Snefjella and Kuperman (2015) found that, in general, language became more abstract (referring to less concrete, tangible, and imageable information) as people moved from describing family to friends to neighbors to coworkers to foreigners. It has also been shown that people use more concrete language when writing from a first-person than from a third-person perspective (Pronin & Ross, 2006), indicating that concrete language is more likely to reflect social proximity. A recent study on dehumanization of immigrants found that in a task judging punishment for illegal activity, people who would give immigrants a longer jail sentence also describe immigrants in more impersonal pronouns (e.g., \"it,\" \"who\"; Markowitz & Slovic, 2020).",
+        "Another line of research with direct focus on implicit verbal expression of prejudice shows that abstract language may also be the result of prejudice. Although they may not be aware of it, prejudice can influence the words people choose to use. For example, people tend to use more abstract language when describing stereotype-consistent behaviors than when describing stereotype-inconsistent behaviors (linguistic expectancy bias; Wigboldus et al., 2000). This is because abstract expression, as defined by the linguistic category model (Semin & Fiedler, 1988), implies the observed behavior is expected or typical. For example, according to the linguistic category model, the adjective aggressive is more abstract than the verb shout at because it concerns dispositions rather than referring to a specific object, situation, or behavior. Therefore, \"John is aggressive\" is more abstract than \"John shouted at me,\" and implies that aggression is expected and typical of John's disposition. This line of research is logically consistent with what construal level theory suggests: People are more likely to use abstract language when describing socially distant outgroups and the stereotypes associated with them.",
+        "In summary, literature from both cognitive science (construal level theory) and social psychology suggest that patterns of language use may be a reliable indicator of outgroup prejudice. Therefore, these theories offer a framework for evaluating how prejudice towards minority groups is communicated in language produced in a natural environment. This also allows us to identify linguistic predictors that quantify perceived social distance. This is important because it can extend insights on outgroup prejudice to a larger number of minority groups, provide greater ecological validity by moving beyond evidence from survey responses from American college students (the sample on which all previous replications of Bogardus work on social distance has been conducted on), and demonstrate how degree of prejudice can be revealed and quantified given the current cultural proscription of explicit expressions of outgroup prejudice which may impact explicit measures of prejudice in the laboratory."
+      ],
+      "footnotes": [],
+      "text": "Construal level theory offers a theoretical foundation to extract perceived social distance towards outgroup members from text: The more psychologically distant an object is from the egocentric self (in terms of time, space, social relations, or hypotheticality), the more abstract the mental representation of that object (Trope & Libermann, 2010). It follows from this perspective that people who lack direct experience with an outgroup will have a more abstract construal of its members. Both laboratory and natural experiments support this prediction. For example, in their analysis of around 700,000 Twitter feeds, Snefjella and Kuperman (2015) found that, in general, language became more abstract (referring to less concrete, tangible, and imageable information) as people moved from describing family to friends to neighbors to coworkers to foreigners. It has also been shown that people use more concrete language when writing from a first-person than from a third-person perspective (Pronin & Ross, 2006), indicating that concrete language is more likely to reflect social proximity. A recent study on dehumanization of immigrants found that in a task judging punishment for illegal activity, people who would give immigrants a longer jail sentence also describe immigrants in more impersonal pronouns (e.g., \"it,\" \"who\"; Markowitz & Slovic, 2020).\n\nAnother line of research with direct focus on implicit verbal expression of prejudice shows that abstract language may also be the result of prejudice. Although they may not be aware of it, prejudice can influence the words people choose to use. For example, people tend to use more abstract language when describing stereotype-consistent behaviors than when describing stereotype-inconsistent behaviors (linguistic expectancy bias; Wigboldus et al., 2000). This is because abstract expression, as defined by the linguistic category model (Semin & Fiedler, 1988), implies the observed behavior is expected or typical. For example, according to the linguistic category model, the adjective aggressive is more abstract than the verb shout at because it concerns dispositions rather than referring to a specific object, situation, or behavior. Therefore, \"John is aggressive\" is more abstract than \"John shouted at me,\" and implies that aggression is expected and typical of John's disposition. This line of research is logically consistent with what construal level theory suggests: People are more likely to use abstract language when describing socially distant outgroups and the stereotypes associated with them.\n\nIn summary, literature from both cognitive science (construal level theory) and social psychology suggest that patterns of language use may be a reliable indicator of outgroup prejudice. Therefore, these theories offer a framework for evaluating how prejudice towards minority groups is communicated in language produced in a natural environment. This also allows us to identify linguistic predictors that quantify perceived social distance. This is important because it can extend insights on outgroup prejudice to a larger number of minority groups, provide greater ecological validity by moving beyond evidence from survey responses from American college students (the sample on which all previous replications of Bogardus work on social distance has been conducted on), and demonstrate how degree of prejudice can be revealed and quantified given the current cultural proscription of explicit expressions of outgroup prejudice which may impact explicit measures of prejudice in the laboratory.",
+      "text_with_footnotes": "Construal level theory offers a theoretical foundation to extract perceived social distance towards outgroup members from text: The more psychologically distant an object is from the egocentric self (in terms of time, space, social relations, or hypotheticality), the more abstract the mental representation of that object (Trope & Libermann, 2010). It follows from this perspective that people who lack direct experience with an outgroup will have a more abstract construal of its members. Both laboratory and natural experiments support this prediction. For example, in their analysis of around 700,000 Twitter feeds, Snefjella and Kuperman (2015) found that, in general, language became more abstract (referring to less concrete, tangible, and imageable information) as people moved from describing family to friends to neighbors to coworkers to foreigners. It has also been shown that people use more concrete language when writing from a first-person than from a third-person perspective (Pronin & Ross, 2006), indicating that concrete language is more likely to reflect social proximity. A recent study on dehumanization of immigrants found that in a task judging punishment for illegal activity, people who would give immigrants a longer jail sentence also describe immigrants in more impersonal pronouns (e.g., \"it,\" \"who\"; Markowitz & Slovic, 2020).\n\nAnother line of research with direct focus on implicit verbal expression of prejudice shows that abstract language may also be the result of prejudice. Although they may not be aware of it, prejudice can influence the words people choose to use. For example, people tend to use more abstract language when describing stereotype-consistent behaviors than when describing stereotype-inconsistent behaviors (linguistic expectancy bias; Wigboldus et al., 2000). This is because abstract expression, as defined by the linguistic category model (Semin & Fiedler, 1988), implies the observed behavior is expected or typical. For example, according to the linguistic category model, the adjective aggressive is more abstract than the verb shout at because it concerns dispositions rather than referring to a specific object, situation, or behavior. Therefore, \"John is aggressive\" is more abstract than \"John shouted at me,\" and implies that aggression is expected and typical of John's disposition. This line of research is logically consistent with what construal level theory suggests: People are more likely to use abstract language when describing socially distant outgroups and the stereotypes associated with them.\n\nIn summary, literature from both cognitive science (construal level theory) and social psychology suggest that patterns of language use may be a reliable indicator of outgroup prejudice. Therefore, these theories offer a framework for evaluating how prejudice towards minority groups is communicated in language produced in a natural environment. This also allows us to identify linguistic predictors that quantify perceived social distance. This is important because it can extend insights on outgroup prejudice to a larger number of minority groups, provide greater ecological validity by moving beyond evidence from survey responses from American college students (the sample on which all previous replications of Bogardus work on social distance has been conducted on), and demonstrate how degree of prejudice can be revealed and quantified given the current cultural proscription of explicit expressions of outgroup prejudice which may impact explicit measures of prejudice in the laboratory.",
+      "preview_head": "Construal level theory offers a theoretical foundation to extract perceived social distance towards outgroup members from text: The more psychologically distant an object is from the egocentric self (in terms of time, space, social relations, or hypotheticality), the more abstract the mental representation of that object (Trope & Libermann, 2010). It follows from this perspective that people who lack direct experience with an outgroup will have a more abstract construal of its members. Both laboratory and natural experiments support this prediction.",
+      "preview_tail": "Therefore, these theories offer a framework for evaluating how prejudice towards minority groups is communicated in language produced in a natural environment. This also allows us to identify linguistic predictors that quantify perceived social distance. This is important because it can extend insights on outgroup prejudice to a larger number of minority groups, provide greater ecological validity by moving beyond evidence from survey responses from American college students (the sample on which all previous replications of Bogardus work on social distance has been conducted on), and demonstrate how degree of prejudice can be revealed and quantified given the current cultural proscription of explicit expressions of outgroup prejudice which may impact explicit measures of prejudice in the laboratory.",
+      "word_count": 523,
+      "paragraph_count": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses construal level theory and other theoretical frameworks, with citations and conceptual exp"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Content of Prejudice in Natural Language",
+      "header_norm": "content of prejudice in natural language",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Two outgroups might be similar in terms of the degree of prejudice they receive, but they may differ drastically on the content of prejudice people associate with them. The academic interest in using language to identify the content of ethnic and racial prejudice and stereotypes dates back at least as far as Katz and Braly's (1933) classic work that asked participants to rate national and ethnic groups on a trait checklist. Perhaps responding to rising norms against prejudice, 55 years later Greenwald et al. (1988) developed the implicit association task, a commonly used measure for implicit prejudice that examines the strength of mental association between social groups (e.g., \"male\") and valenced attributes (e.g., \"logical\"). Both approaches to prejudice have been productive and inspired thousands of follow-up studies.foot_0 However, most of these studies were held in laboratory settings; little is known about how people express prejudice and stereotypes towards outgroups in natural environments.",
+        "The recent rise in digitalized text has made it possible to quantitatively study large amounts of language produced outside the laboratory. Research from computer science has shown word associations embedded in written texts mirror those learned by humans (Bolukbasi et al., 2016). Some associations are morally neutral (e.g., an association between flower and pleasantness or insect and unpleasantness); others that concern gender and race often reflect stereotypes and prejudice. These machine-learned human-like biases are correlated not only with implicit measures of prejudice such as the Implicit Association Test (Bhatia, 2017;Caliskan et al., 2017), but also with historical socio-economic indicators such as employment rate (Garg et al., 2018). Thus, there are strong indicators that large-scale text analysis can be used to reveal both general and detailed perceptions of outgroups, which is our focus here."
+      ],
+      "footnotes": [],
+      "text": "Two outgroups might be similar in terms of the degree of prejudice they receive, but they may differ drastically on the content of prejudice people associate with them. The academic interest in using language to identify the content of ethnic and racial prejudice and stereotypes dates back at least as far as Katz and Braly's (1933) classic work that asked participants to rate national and ethnic groups on a trait checklist. Perhaps responding to rising norms against prejudice, 55 years later Greenwald et al. (1988) developed the implicit association task, a commonly used measure for implicit prejudice that examines the strength of mental association between social groups (e.g., \"male\") and valenced attributes (e.g., \"logical\"). Both approaches to prejudice have been productive and inspired thousands of follow-up studies.foot_0 However, most of these studies were held in laboratory settings; little is known about how people express prejudice and stereotypes towards outgroups in natural environments.\n\nThe recent rise in digitalized text has made it possible to quantitatively study large amounts of language produced outside the laboratory. Research from computer science has shown word associations embedded in written texts mirror those learned by humans (Bolukbasi et al., 2016). Some associations are morally neutral (e.g., an association between flower and pleasantness or insect and unpleasantness); others that concern gender and race often reflect stereotypes and prejudice. These machine-learned human-like biases are correlated not only with implicit measures of prejudice such as the Implicit Association Test (Bhatia, 2017;Caliskan et al., 2017), but also with historical socio-economic indicators such as employment rate (Garg et al., 2018). Thus, there are strong indicators that large-scale text analysis can be used to reveal both general and detailed perceptions of outgroups, which is our focus here.",
+      "text_with_footnotes": "Two outgroups might be similar in terms of the degree of prejudice they receive, but they may differ drastically on the content of prejudice people associate with them. The academic interest in using language to identify the content of ethnic and racial prejudice and stereotypes dates back at least as far as Katz and Braly's (1933) classic work that asked participants to rate national and ethnic groups on a trait checklist. Perhaps responding to rising norms against prejudice, 55 years later Greenwald et al. (1988) developed the implicit association task, a commonly used measure for implicit prejudice that examines the strength of mental association between social groups (e.g., \"male\") and valenced attributes (e.g., \"logical\"). Both approaches to prejudice have been productive and inspired thousands of follow-up studies.foot_0 However, most of these studies were held in laboratory settings; little is known about how people express prejudice and stereotypes towards outgroups in natural environments.\n\nThe recent rise in digitalized text has made it possible to quantitatively study large amounts of language produced outside the laboratory. Research from computer science has shown word associations embedded in written texts mirror those learned by humans (Bolukbasi et al., 2016). Some associations are morally neutral (e.g., an association between flower and pleasantness or insect and unpleasantness); others that concern gender and race often reflect stereotypes and prejudice. These machine-learned human-like biases are correlated not only with implicit measures of prejudice such as the Implicit Association Test (Bhatia, 2017;Caliskan et al., 2017), but also with historical socio-economic indicators such as employment rate (Garg et al., 2018). Thus, there are strong indicators that large-scale text analysis can be used to reveal both general and detailed perceptions of outgroups, which is our focus here.",
+      "preview_head": "Two outgroups might be similar in terms of the degree of prejudice they receive, but they may differ drastically on the content of prejudice people associate with them. The academic interest in using language to identify the content of ethnic and racial prejudice and stereotypes dates back at least as far as Katz and Braly's (1933) classic work that asked participants to rate national and ethnic groups on a trait checklist. Perhaps responding to rising norms against prejudice, 55 years later Greenwald et al. (1988) developed the implicit association task, a commonly used measure for implicit prejudice that examines the strength of mental association between social groups (e.g., \"male\") and valenced attributes (e.g., \"logical\"). Both approaches to prejudice have been productive and inspired thousands of follow-up studies.foot_0 However, most of these studies were held in laboratory settings; little is known about how people express prejudice and stereotypes towards outgroups in natural environments.",
+      "preview_tail": "Some associations are morally neutral (e.g., an association between flower and pleasantness or insect and unpleasantness); others that concern gender and race often reflect stereotypes and prejudice. These machine-learned human-like biases are correlated not only with implicit measures of prejudice such as the Implicit Association Test (Bhatia, 2017;Caliskan et al., 2017), but also with historical socio-economic indicators such as employment rate (Garg et al., 2018). Thus, there are strong indicators that large-scale text analysis can be used to reveal both general and detailed perceptions of outgroups, which is our focus here.",
+      "word_count": 285,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Reviews prior work on the content of prejudice in language, with historical and theoretical context"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "The Current Study",
+      "header_norm": "the current study",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Despite an abundance of studies documenting the difference in perceptions towards ingroups and outgroups, no studies, to the best of our knowledge, have taken a theoretically motivated approach to detecting specific language patterns around outgroup prejudice in a corpus of natural language. This allows us to ask whether language abstraction reflects intergroup contact and, further, to what extent this predicts outgroup sentiment.",
+        "Moreover, we evaluate these questions across 60 U.S. ethnic and religious minority groups, making this the largest study of its kind.",
+        "To achieve this, we analyzed language surrounding 60 U.S. ethnic and religious minority groups using a corpus containing nearly all news articles published in the New York Times over a 20-year period, from 1987 to 2007 (Sandhaus, 2008). We constructed a corpus for each minority group by collating articles that mentioned the corresponding ethnic or religious label (e.g., Mexican, Christian). With this data set, we investigated five related questions, with the first two questions concerning the degree to which properties of natural language reflect theoretical positions regarding outgroup prejudice, and the last three questions concerning a more detailed examination of the lexical content of outgroup language.",
+        "First, extending Snefjella and Kuperman (2015)'s work that found language becomes more abstract when referencing people of greater social distance (e.g., from family members to foreigners), we examined whether concrete language can reliably predict human ratings of perceived social distance towards U.S. minority groups. The human ratings of social distance were obtained from Parrillo and Donoghue's (2005) survey using the Bogardus scale. Second, is social distance (inferred from language concreteness) related to sentiment? Given that the use of abstract language is related to descriptions of both socially distant outgroups (according to the construal level theory) and stereotype-consistent behavior (linguistic expectancy bias), we hypothesized that minority groups represented in abstract language are more likely to be described negatively and that this negative association between language concreteness and sentiment is a unique feature of language describing minority groups.",
+        "Concreteness and sentiment in language make it possible to compare minority groups on two primary dimensions proposed by theory. The cost for the present scope of application--60 minority groups over 1.8 million articles--is the lack of granularity into the specific content of language about minority groups. To address this, our three further questions focused on the specific topics that emerged in articles about each minority group: Third, what are the topics associated with language with explicit reference to immigration? Fourth, how are these topics distributed across the different minority groups? Fifth, how are immigrantrelated topics associated with sentiment? To answer these latter three questions, we applied Latent Dirichlet Allocation (LDA; Blei et al., 2003) to extract immigrant-related topics from all news articles that contained the word \"immigrant\" or its inflections. LDA is an unsupervised machine learning algorithm that uses Bayesian inference to cluster language based on underlying patterns (or topics) that best explain corpus structure. We then analyzed the associations between each topic and the 60 U.S. minority groups, as well as the underlying sentiment of each topic. This approach allowed us to tease apart the underlying social contexts that may explain positive or negative sentiment."
+      ],
+      "footnotes": [],
+      "text": "Despite an abundance of studies documenting the difference in perceptions towards ingroups and outgroups, no studies, to the best of our knowledge, have taken a theoretically motivated approach to detecting specific language patterns around outgroup prejudice in a corpus of natural language. This allows us to ask whether language abstraction reflects intergroup contact and, further, to what extent this predicts outgroup sentiment.\n\nMoreover, we evaluate these questions across 60 U.S. ethnic and religious minority groups, making this the largest study of its kind.\n\nTo achieve this, we analyzed language surrounding 60 U.S. ethnic and religious minority groups using a corpus containing nearly all news articles published in the New York Times over a 20-year period, from 1987 to 2007 (Sandhaus, 2008). We constructed a corpus for each minority group by collating articles that mentioned the corresponding ethnic or religious label (e.g., Mexican, Christian). With this data set, we investigated five related questions, with the first two questions concerning the degree to which properties of natural language reflect theoretical positions regarding outgroup prejudice, and the last three questions concerning a more detailed examination of the lexical content of outgroup language.\n\nFirst, extending Snefjella and Kuperman (2015)'s work that found language becomes more abstract when referencing people of greater social distance (e.g., from family members to foreigners), we examined whether concrete language can reliably predict human ratings of perceived social distance towards U.S. minority groups. The human ratings of social distance were obtained from Parrillo and Donoghue's (2005) survey using the Bogardus scale. Second, is social distance (inferred from language concreteness) related to sentiment? Given that the use of abstract language is related to descriptions of both socially distant outgroups (according to the construal level theory) and stereotype-consistent behavior (linguistic expectancy bias), we hypothesized that minority groups represented in abstract language are more likely to be described negatively and that this negative association between language concreteness and sentiment is a unique feature of language describing minority groups.\n\nConcreteness and sentiment in language make it possible to compare minority groups on two primary dimensions proposed by theory. The cost for the present scope of application--60 minority groups over 1.8 million articles--is the lack of granularity into the specific content of language about minority groups. To address this, our three further questions focused on the specific topics that emerged in articles about each minority group: Third, what are the topics associated with language with explicit reference to immigration? Fourth, how are these topics distributed across the different minority groups? Fifth, how are immigrantrelated topics associated with sentiment? To answer these latter three questions, we applied Latent Dirichlet Allocation (LDA; Blei et al., 2003) to extract immigrant-related topics from all news articles that contained the word \"immigrant\" or its inflections. LDA is an unsupervised machine learning algorithm that uses Bayesian inference to cluster language based on underlying patterns (or topics) that best explain corpus structure. We then analyzed the associations between each topic and the 60 U.S. minority groups, as well as the underlying sentiment of each topic. This approach allowed us to tease apart the underlying social contexts that may explain positive or negative sentiment.",
+      "text_with_footnotes": "Despite an abundance of studies documenting the difference in perceptions towards ingroups and outgroups, no studies, to the best of our knowledge, have taken a theoretically motivated approach to detecting specific language patterns around outgroup prejudice in a corpus of natural language. This allows us to ask whether language abstraction reflects intergroup contact and, further, to what extent this predicts outgroup sentiment.\n\nMoreover, we evaluate these questions across 60 U.S. ethnic and religious minority groups, making this the largest study of its kind.\n\nTo achieve this, we analyzed language surrounding 60 U.S. ethnic and religious minority groups using a corpus containing nearly all news articles published in the New York Times over a 20-year period, from 1987 to 2007 (Sandhaus, 2008). We constructed a corpus for each minority group by collating articles that mentioned the corresponding ethnic or religious label (e.g., Mexican, Christian). With this data set, we investigated five related questions, with the first two questions concerning the degree to which properties of natural language reflect theoretical positions regarding outgroup prejudice, and the last three questions concerning a more detailed examination of the lexical content of outgroup language.\n\nFirst, extending Snefjella and Kuperman (2015)'s work that found language becomes more abstract when referencing people of greater social distance (e.g., from family members to foreigners), we examined whether concrete language can reliably predict human ratings of perceived social distance towards U.S. minority groups. The human ratings of social distance were obtained from Parrillo and Donoghue's (2005) survey using the Bogardus scale. Second, is social distance (inferred from language concreteness) related to sentiment? Given that the use of abstract language is related to descriptions of both socially distant outgroups (according to the construal level theory) and stereotype-consistent behavior (linguistic expectancy bias), we hypothesized that minority groups represented in abstract language are more likely to be described negatively and that this negative association between language concreteness and sentiment is a unique feature of language describing minority groups.\n\nConcreteness and sentiment in language make it possible to compare minority groups on two primary dimensions proposed by theory. The cost for the present scope of application--60 minority groups over 1.8 million articles--is the lack of granularity into the specific content of language about minority groups. To address this, our three further questions focused on the specific topics that emerged in articles about each minority group: Third, what are the topics associated with language with explicit reference to immigration? Fourth, how are these topics distributed across the different minority groups? Fifth, how are immigrantrelated topics associated with sentiment? To answer these latter three questions, we applied Latent Dirichlet Allocation (LDA; Blei et al., 2003) to extract immigrant-related topics from all news articles that contained the word \"immigrant\" or its inflections. LDA is an unsupervised machine learning algorithm that uses Bayesian inference to cluster language based on underlying patterns (or topics) that best explain corpus structure. We then analyzed the associations between each topic and the 60 U.S. minority groups, as well as the underlying sentiment of each topic. This approach allowed us to tease apart the underlying social contexts that may explain positive or negative sentiment.",
+      "preview_head": "Despite an abundance of studies documenting the difference in perceptions towards ingroups and outgroups, no studies, to the best of our knowledge, have taken a theoretically motivated approach to detecting specific language patterns around outgroup prejudice in a corpus of natural language. This allows us to ask whether language abstraction reflects intergroup contact and, further, to what extent this predicts outgroup sentiment.",
+      "preview_tail": "LDA is an unsupervised machine learning algorithm that uses Bayesian inference to cluster language based on underlying patterns (or topics) that best explain corpus structure. We then analyzed the associations between each topic and the 60 U.S. minority groups, as well as the underlying sentiment of each topic. This approach allowed us to tease apart the underlying social contexts that may explain positive or negative sentiment.",
+      "word_count": 521,
+      "paragraph_count": 5,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "Describes the motivation, research gap, and aims of the current study"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Briefly introduces the methodological approach (LDA, corpus analysis) as part of the study overview"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Materials and Methods",
+      "header_norm": "materials and methods",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Subcorpora of the New York Times Annotated Corpus",
+      "header_norm": "subcorpora of the new york times annotated corpus",
+      "container_raw": "Materials and Methods",
+      "container_norm": "materials and methods",
+      "is_container": false,
+      "paragraphs": [
+        "The New York Times Annotated Corpus (Sandhaus, 2008) contains nearly all articles (over 1.8 million) published by the New York Times between January 1981 and June 2007. It can be accessed with a license through Linguistic Data Consortium (https://catalog.ldc.upenn.edu/LDC2008T19). We created two types of subcorpora in this study (Figure 1). For each minority group, we constructed a minority group corpus by collating all articles that contained the corresponding group labels (e.g., Mexican or Muslim).",
+        "Next, from each minority group corpus, we created an immigrant group corpus by selecting articles that contained at least one occurrence of the word \"immigrant\" or its inflections.foot_2 Therefore, for each minority group, its immigrant corpus is a subset of its minority group corpus. The proportion of articles in a minority group corpus that were included in the immigrant corpus ranged from 4% (Australian) to 57% (Guyanese). Articles in minority group corpora may contain information that is not directly related to outgroup identity yet still impacts how the outgroup is represented. For example, news reports on the Tokyo Olympics may not bear any relevance to Japanese diasporas in the United States, but may still have a positive influence on how Japanese people in general are perceived. In contrast, articles in the immigrant corpora, which explicitly reference immigration, are more likely to focus on the identity of the outgroup. We explored language valence and concreteness in both minority group corpora and immigrant corpora. When extracting topics related to outgroups using LDA, we used only the immigrant corpora, since the articles there contained less information that is irrelevant to outgroup identity (e.g., Tokyo",
+        "Olympics).",
+        "Of the 60 minority groups examined in this study, 50 were defined by country or region of origin; we selected the largest 50 groups (each more than 0.8% of the total population) reported in the American Community Survey (U.S. Department of Homeland Security, 2017). The remaining 13 minority groups consisted of eight social categories (e.g., African American, Muslim, Jew) used by Bogardus (1927) and Parrillo and Donoghue (2005) and a further two religious groups (Christian and Buddhist)."
+      ],
+      "footnotes": [],
+      "text": "The New York Times Annotated Corpus (Sandhaus, 2008) contains nearly all articles (over 1.8 million) published by the New York Times between January 1981 and June 2007. It can be accessed with a license through Linguistic Data Consortium (https://catalog.ldc.upenn.edu/LDC2008T19). We created two types of subcorpora in this study (Figure 1). For each minority group, we constructed a minority group corpus by collating all articles that contained the corresponding group labels (e.g., Mexican or Muslim).\n\nNext, from each minority group corpus, we created an immigrant group corpus by selecting articles that contained at least one occurrence of the word \"immigrant\" or its inflections.foot_2 Therefore, for each minority group, its immigrant corpus is a subset of its minority group corpus. The proportion of articles in a minority group corpus that were included in the immigrant corpus ranged from 4% (Australian) to 57% (Guyanese). Articles in minority group corpora may contain information that is not directly related to outgroup identity yet still impacts how the outgroup is represented. For example, news reports on the Tokyo Olympics may not bear any relevance to Japanese diasporas in the United States, but may still have a positive influence on how Japanese people in general are perceived. In contrast, articles in the immigrant corpora, which explicitly reference immigration, are more likely to focus on the identity of the outgroup. We explored language valence and concreteness in both minority group corpora and immigrant corpora. When extracting topics related to outgroups using LDA, we used only the immigrant corpora, since the articles there contained less information that is irrelevant to outgroup identity (e.g., Tokyo\n\nOlympics).\n\nOf the 60 minority groups examined in this study, 50 were defined by country or region of origin; we selected the largest 50 groups (each more than 0.8% of the total population) reported in the American Community Survey (U.S. Department of Homeland Security, 2017). The remaining 13 minority groups consisted of eight social categories (e.g., African American, Muslim, Jew) used by Bogardus (1927) and Parrillo and Donoghue (2005) and a further two religious groups (Christian and Buddhist).",
+      "text_with_footnotes": "The New York Times Annotated Corpus (Sandhaus, 2008) contains nearly all articles (over 1.8 million) published by the New York Times between January 1981 and June 2007. It can be accessed with a license through Linguistic Data Consortium (https://catalog.ldc.upenn.edu/LDC2008T19). We created two types of subcorpora in this study (Figure 1). For each minority group, we constructed a minority group corpus by collating all articles that contained the corresponding group labels (e.g., Mexican or Muslim).\n\nNext, from each minority group corpus, we created an immigrant group corpus by selecting articles that contained at least one occurrence of the word \"immigrant\" or its inflections.foot_2 Therefore, for each minority group, its immigrant corpus is a subset of its minority group corpus. The proportion of articles in a minority group corpus that were included in the immigrant corpus ranged from 4% (Australian) to 57% (Guyanese). Articles in minority group corpora may contain information that is not directly related to outgroup identity yet still impacts how the outgroup is represented. For example, news reports on the Tokyo Olympics may not bear any relevance to Japanese diasporas in the United States, but may still have a positive influence on how Japanese people in general are perceived. In contrast, articles in the immigrant corpora, which explicitly reference immigration, are more likely to focus on the identity of the outgroup. We explored language valence and concreteness in both minority group corpora and immigrant corpora. When extracting topics related to outgroups using LDA, we used only the immigrant corpora, since the articles there contained less information that is irrelevant to outgroup identity (e.g., Tokyo\n\nOlympics).\n\nOf the 60 minority groups examined in this study, 50 were defined by country or region of origin; we selected the largest 50 groups (each more than 0.8% of the total population) reported in the American Community Survey (U.S. Department of Homeland Security, 2017). The remaining 13 minority groups consisted of eight social categories (e.g., African American, Muslim, Jew) used by Bogardus (1927) and Parrillo and Donoghue (2005) and a further two religious groups (Christian and Buddhist).",
+      "preview_head": "The New York Times Annotated Corpus (Sandhaus, 2008) contains nearly all articles (over 1.8 million) published by the New York Times between January 1981 and June 2007. It can be accessed with a license through Linguistic Data Consortium (https://catalog.ldc.upenn.edu/LDC2008T19). We created two types of subcorpora in this study (Figure 1).",
+      "preview_tail": "Of the 60 minority groups examined in this study, 50 were defined by country or region of origin; we selected the largest 50 groups (each more than 0.8% of the total population) reported in the American Community Survey (U.S. Department of Homeland Security, 2017). The remaining 13 minority groups consisted of eight social categories (e.g., African American, Muslim, Jew) used by Bogardus (1927) and Parrillo and Donoghue (2005) and a further two religious groups (Christian and Buddhist).",
+      "word_count": 343,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data source (NYT corpus), selection criteria, and construction of subcorpora"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Language Valence and Concreteness",
+      "header_norm": "language valence and concreteness",
+      "container_raw": "Materials and Methods",
+      "container_norm": "materials and methods",
+      "is_container": false,
+      "paragraphs": [
+        "In order to examine features of language used to describe minority groups, we computed the language valence and concreteness for each group. Valence is an affective dimension underlying the meanings of words: Higher valenced words evoke pleasant emotions and lower valenced words evoke unpleasant emotions. Concreteness evaluates the degree to which the concept denoted by a word refers to a perceptible entity. Words like dog and computer are more vividly imagined than words like truth and feeling, and people easily report this difference. In this study, we retrieved valence and concreteness norms from Hollis et al. (2017), whose data set contains valence and concreteness ratings for 78,286 English words. The ratings are based on a well validated computational approach to extrapolating valence and concreteness information from human-rated scores of valence (Bradley & Lang, 1999;Warriner et al., 2013) and concreteness (Brysbaert et al., 2014).",
+        "We computed the language valance and concreteness for each group by averaging valence and concreteness of all words in its corresponding corpus (we did this for minority group corpus and immigrant corpus separately). Previous studies have shown that aggregating valence and concreteness over a large corpus reveals meaningful macro-level patterns that would otherwise be difficult to detect, such as the evolution of American English towards greater learnability (Hills & Adelman, 2015;Snefjella et al., 2019) and changes in national well-being over history (Hills et al., 2019)."
+      ],
+      "footnotes": [],
+      "text": "In order to examine features of language used to describe minority groups, we computed the language valence and concreteness for each group. Valence is an affective dimension underlying the meanings of words: Higher valenced words evoke pleasant emotions and lower valenced words evoke unpleasant emotions. Concreteness evaluates the degree to which the concept denoted by a word refers to a perceptible entity. Words like dog and computer are more vividly imagined than words like truth and feeling, and people easily report this difference. In this study, we retrieved valence and concreteness norms from Hollis et al. (2017), whose data set contains valence and concreteness ratings for 78,286 English words. The ratings are based on a well validated computational approach to extrapolating valence and concreteness information from human-rated scores of valence (Bradley & Lang, 1999;Warriner et al., 2013) and concreteness (Brysbaert et al., 2014).\n\nWe computed the language valance and concreteness for each group by averaging valence and concreteness of all words in its corresponding corpus (we did this for minority group corpus and immigrant corpus separately). Previous studies have shown that aggregating valence and concreteness over a large corpus reveals meaningful macro-level patterns that would otherwise be difficult to detect, such as the evolution of American English towards greater learnability (Hills & Adelman, 2015;Snefjella et al., 2019) and changes in national well-being over history (Hills et al., 2019).",
+      "text_with_footnotes": "In order to examine features of language used to describe minority groups, we computed the language valence and concreteness for each group. Valence is an affective dimension underlying the meanings of words: Higher valenced words evoke pleasant emotions and lower valenced words evoke unpleasant emotions. Concreteness evaluates the degree to which the concept denoted by a word refers to a perceptible entity. Words like dog and computer are more vividly imagined than words like truth and feeling, and people easily report this difference. In this study, we retrieved valence and concreteness norms from Hollis et al. (2017), whose data set contains valence and concreteness ratings for 78,286 English words. The ratings are based on a well validated computational approach to extrapolating valence and concreteness information from human-rated scores of valence (Bradley & Lang, 1999;Warriner et al., 2013) and concreteness (Brysbaert et al., 2014).\n\nWe computed the language valance and concreteness for each group by averaging valence and concreteness of all words in its corresponding corpus (we did this for minority group corpus and immigrant corpus separately). Previous studies have shown that aggregating valence and concreteness over a large corpus reveals meaningful macro-level patterns that would otherwise be difficult to detect, such as the evolution of American English towards greater learnability (Hills & Adelman, 2015;Snefjella et al., 2019) and changes in national well-being over history (Hills et al., 2019).",
+      "preview_head": "In order to examine features of language used to describe minority groups, we computed the language valence and concreteness for each group. Valence is an affective dimension underlying the meanings of words: Higher valenced words evoke pleasant emotions and lower valenced words evoke unpleasant emotions. Concreteness evaluates the degree to which the concept denoted by a word refers to a perceptible entity.",
+      "preview_tail": "We computed the language valance and concreteness for each group by averaging valence and concreteness of all words in its corresponding corpus (we did this for minority group corpus and immigrant corpus separately). Previous studies have shown that aggregating valence and concreteness over a large corpus reveals meaningful macro-level patterns that would otherwise be difficult to detect, such as the evolution of American English towards greater learnability (Hills & Adelman, 2015;Snefjella et al., 2019) and changes in national well-being over history (Hills et al., 2019).",
+      "word_count": 228,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how language valence and concreteness were computed for each group"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Human-Rated Perceived Social Distance",
+      "header_norm": "human rated perceived social distance",
+      "container_raw": "Materials and Methods",
+      "container_norm": "materials and methods",
+      "is_container": false,
+      "paragraphs": [
+        "To examine whether linguistic features of language describing outgroups reflects perceived social distance, we obtained human-rated perceived social distance from Parrillo and Donoghue (2005). They used the Bogardus social distance scale (Bogardus, 1927), in which participants were asked to evaluate their willingness to take members of the social group in question into their social circles at various degrees of intimacy. Social circles range from close relatives and personal friends to foreign visitors. One typical question was \"Would you be willing to have a member of this group as your colleague at work?\""
+      ],
+      "footnotes": [],
+      "text": "To examine whether linguistic features of language describing outgroups reflects perceived social distance, we obtained human-rated perceived social distance from Parrillo and Donoghue (2005). They used the Bogardus social distance scale (Bogardus, 1927), in which participants were asked to evaluate their willingness to take members of the social group in question into their social circles at various degrees of intimacy. Social circles range from close relatives and personal friends to foreign visitors. One typical question was \"Would you be willing to have a member of this group as your colleague at work?\"",
+      "text_with_footnotes": "To examine whether linguistic features of language describing outgroups reflects perceived social distance, we obtained human-rated perceived social distance from Parrillo and Donoghue (2005). They used the Bogardus social distance scale (Bogardus, 1927), in which participants were asked to evaluate their willingness to take members of the social group in question into their social circles at various degrees of intimacy. Social circles range from close relatives and personal friends to foreign visitors. One typical question was \"Would you be willing to have a member of this group as your colleague at work?\"",
+      "preview_head": "To examine whether linguistic features of language describing outgroups reflects perceived social distance, we obtained human-rated perceived social distance from Parrillo and Donoghue (2005). They used the Bogardus social distance scale (Bogardus, 1927), in which participants were asked to evaluate their willingness to take members of the social group in question into their social circles at various degrees of intimacy. Social circles range from close relatives and personal friends to foreign visitors.",
+      "preview_tail": "They used the Bogardus social distance scale (Bogardus, 1927), in which participants were asked to evaluate their willingness to take members of the social group in question into their social circles at various degrees of intimacy. Social circles range from close relatives and personal friends to foreign visitors. One typical question was \"Would you be willing to have a member of this group as your colleague at work?\"",
+      "word_count": 92,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how human-rated social distance data were obtained and used in the analysis"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "Topic Modelling",
+      "header_norm": "topic modelling",
+      "container_raw": "Materials and Methods",
+      "container_norm": "materials and methods",
+      "is_container": false,
+      "paragraphs": [
+        "In the second part of this study, we used LDA to uncover the content of outgroup prejudice. LDA assumes that a set of latent patterns (or topics) explains and generates the structure of textual documents. It computes the distribution of topics over documents, with topics represented as distributions of words. We trained LDA on the immigrant corpora such that each news article was assigned a distribution of topics, and each topic consisted of a distribution of words. 3 For instance, \"dangerous illegal workers\" may be translated to \"10 2 2,\" indicating that the last two words were generated by topic 2 and the first by topic 10. The same word may be assigned to different topics, allowing generic words (e.g., make, take) to appear in multiple topics.",
+        "We set the topic number to 15 to ensure that the model was sufficiently simple (to avoid overfitting) while providing adequate topic resolution (e.g., to avoid assigning different content to the same topic). No consensus has yet been reached on a nonarbitrary solution for determining the optimal topic number. In our analysis, the number of topics was chosen to maximize interpretability.",
+        "We examined the 10 most relevant words for each topic. We defined the relevance of term w to topic k (Sievert & Shirley, 2014) as:",
+        "where 𝑃(𝑤|𝑘) is the probability that term w is assigned to topic k and 𝑃(𝑤) is the marginal probability of term w in the corpus. The first component of the equation, 𝑃(𝑤|𝑘), prioritizes terms with high frequency in a topic. However, it does not consider how unique term w is to topic k, which can be captured by",
+        ", a quantity that Taddy (2012) called lift. We set λ to 0.5 to take both components into consideration; λ determines the weight given to the probability of term w under topic k relative to its lift."
+      ],
+      "footnotes": [],
+      "text": "In the second part of this study, we used LDA to uncover the content of outgroup prejudice. LDA assumes that a set of latent patterns (or topics) explains and generates the structure of textual documents. It computes the distribution of topics over documents, with topics represented as distributions of words. We trained LDA on the immigrant corpora such that each news article was assigned a distribution of topics, and each topic consisted of a distribution of words. 3 For instance, \"dangerous illegal workers\" may be translated to \"10 2 2,\" indicating that the last two words were generated by topic 2 and the first by topic 10. The same word may be assigned to different topics, allowing generic words (e.g., make, take) to appear in multiple topics.\n\nWe set the topic number to 15 to ensure that the model was sufficiently simple (to avoid overfitting) while providing adequate topic resolution (e.g., to avoid assigning different content to the same topic). No consensus has yet been reached on a nonarbitrary solution for determining the optimal topic number. In our analysis, the number of topics was chosen to maximize interpretability.\n\nWe examined the 10 most relevant words for each topic. We defined the relevance of term w to topic k (Sievert & Shirley, 2014) as:\n\nwhere 𝑃(𝑤|𝑘) is the probability that term w is assigned to topic k and 𝑃(𝑤) is the marginal probability of term w in the corpus. The first component of the equation, 𝑃(𝑤|𝑘), prioritizes terms with high frequency in a topic. However, it does not consider how unique term w is to topic k, which can be captured by\n\n, a quantity that Taddy (2012) called lift. We set λ to 0.5 to take both components into consideration; λ determines the weight given to the probability of term w under topic k relative to its lift.",
+      "text_with_footnotes": "In the second part of this study, we used LDA to uncover the content of outgroup prejudice. LDA assumes that a set of latent patterns (or topics) explains and generates the structure of textual documents. It computes the distribution of topics over documents, with topics represented as distributions of words. We trained LDA on the immigrant corpora such that each news article was assigned a distribution of topics, and each topic consisted of a distribution of words. 3 For instance, \"dangerous illegal workers\" may be translated to \"10 2 2,\" indicating that the last two words were generated by topic 2 and the first by topic 10. The same word may be assigned to different topics, allowing generic words (e.g., make, take) to appear in multiple topics.\n\nWe set the topic number to 15 to ensure that the model was sufficiently simple (to avoid overfitting) while providing adequate topic resolution (e.g., to avoid assigning different content to the same topic). No consensus has yet been reached on a nonarbitrary solution for determining the optimal topic number. In our analysis, the number of topics was chosen to maximize interpretability.\n\nWe examined the 10 most relevant words for each topic. We defined the relevance of term w to topic k (Sievert & Shirley, 2014) as:\n\nwhere 𝑃(𝑤|𝑘) is the probability that term w is assigned to topic k and 𝑃(𝑤) is the marginal probability of term w in the corpus. The first component of the equation, 𝑃(𝑤|𝑘), prioritizes terms with high frequency in a topic. However, it does not consider how unique term w is to topic k, which can be captured by\n\n, a quantity that Taddy (2012) called lift. We set λ to 0.5 to take both components into consideration; λ determines the weight given to the probability of term w under topic k relative to its lift.",
+      "preview_head": "In the second part of this study, we used LDA to uncover the content of outgroup prejudice. LDA assumes that a set of latent patterns (or topics) explains and generates the structure of textual documents. It computes the distribution of topics over documents, with topics represented as distributions of words.",
+      "preview_tail": ", a quantity that Taddy (2012) called lift. We set λ to 0.5 to take both components into consideration; λ determines the weight given to the probability of term w under topic k relative to its lift.",
+      "word_count": 308,
+      "paragraph_count": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*topic\\s+model"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*topic\\s+model",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Topic Specificity",
+      "header_norm": "topic specificity",
+      "container_raw": "Materials and Methods",
+      "container_norm": "materials and methods",
+      "is_container": false,
+      "paragraphs": [
+        "We used Equation 2 to compute the specificity of topic k to the immigrant corpus compared with the corpus as a whole:",
+        "where",
+        "is the normalized relevance of word wi to topic k, and",
+        "is the ratio of the frequency of word w in the immigrant corpus to its frequency in the New York Times corpus. Specificity can range from 0 to near infinity. A specificity of 1 means that, on average, the words characterizing the topic have the same frequency in both the immigrant corpus and the New York Times corpus. Higher topic specificity suggests that they are more likely to occur in the immigrant corpus than elsewhere."
+      ],
+      "footnotes": [],
+      "text": "We used Equation 2 to compute the specificity of topic k to the immigrant corpus compared with the corpus as a whole:\n\nwhere\n\nis the normalized relevance of word wi to topic k, and\n\nis the ratio of the frequency of word w in the immigrant corpus to its frequency in the New York Times corpus. Specificity can range from 0 to near infinity. A specificity of 1 means that, on average, the words characterizing the topic have the same frequency in both the immigrant corpus and the New York Times corpus. Higher topic specificity suggests that they are more likely to occur in the immigrant corpus than elsewhere.",
+      "text_with_footnotes": "We used Equation 2 to compute the specificity of topic k to the immigrant corpus compared with the corpus as a whole:\n\nwhere\n\nis the normalized relevance of word wi to topic k, and\n\nis the ratio of the frequency of word w in the immigrant corpus to its frequency in the New York Times corpus. Specificity can range from 0 to near infinity. A specificity of 1 means that, on average, the words characterizing the topic have the same frequency in both the immigrant corpus and the New York Times corpus. Higher topic specificity suggests that they are more likely to occur in the immigrant corpus than elsewhere.",
+      "preview_head": "We used Equation 2 to compute the specificity of topic k to the immigrant corpus compared with the corpus as a whole:",
+      "preview_tail": "Specificity can range from 0 to near infinity. A specificity of 1 means that, on average, the words characterizing the topic have the same frequency in both the immigrant corpus and the New York Times corpus. Higher topic specificity suggests that they are more likely to occur in the immigrant corpus than elsewhere.",
+      "word_count": 109,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the computation of topic specificity using a formula and its interpretation"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Topic Valence and Concreteness",
+      "header_norm": "topic valence and concreteness",
+      "container_raw": "Materials and Methods",
+      "container_norm": "materials and methods",
+      "is_container": false,
+      "paragraphs": [
+        "Topic valence and concreteness were computed by averaging the valence and concreteness ratings of the individual words assigned to each topic by LDA."
+      ],
+      "footnotes": [],
+      "text": "Topic valence and concreteness were computed by averaging the valence and concreteness ratings of the individual words assigned to each topic by LDA.",
+      "text_with_footnotes": "Topic valence and concreteness were computed by averaging the valence and concreteness ratings of the individual words assigned to each topic by LDA.",
+      "preview_head": "Topic valence and concreteness were computed by averaging the valence and concreteness ratings of the individual words assigned to each topic by LDA.",
+      "preview_tail": "Topic valence and concreteness were computed by averaging the valence and concreteness ratings of the individual words assigned to each topic by LDA.",
+      "word_count": 23,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes how topic valence and concreteness were calculated from LDA topic assignments"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Associations Between Immigrant-Related Topics and Minority Groups",
+      "header_norm": "associations between immigrant related topics and minority groups",
+      "container_raw": "Materials and Methods",
+      "container_norm": "materials and methods",
+      "is_container": false,
+      "paragraphs": [
+        "To determine the strength of association between immigrant topics and each minority group (e.g., whether the topic \"illegal workers\" is associated more closely with Mexicans or Japanese people), we computed the document-normalized probability distribution of words in immigrant corpora over the 15 topics, with the association between an immigrant group and topic t being",
+        "where d is a document from an immigrant group corpus D, t is one of the 15 topics, and 𝑃 𝑑𝑡 is the proportion of words in document d assigned to topic t."
+      ],
+      "footnotes": [],
+      "text": "To determine the strength of association between immigrant topics and each minority group (e.g., whether the topic \"illegal workers\" is associated more closely with Mexicans or Japanese people), we computed the document-normalized probability distribution of words in immigrant corpora over the 15 topics, with the association between an immigrant group and topic t being\n\nwhere d is a document from an immigrant group corpus D, t is one of the 15 topics, and 𝑃 𝑑𝑡 is the proportion of words in document d assigned to topic t.",
+      "text_with_footnotes": "To determine the strength of association between immigrant topics and each minority group (e.g., whether the topic \"illegal workers\" is associated more closely with Mexicans or Japanese people), we computed the document-normalized probability distribution of words in immigrant corpora over the 15 topics, with the association between an immigrant group and topic t being\n\nwhere d is a document from an immigrant group corpus D, t is one of the 15 topics, and 𝑃 𝑑𝑡 is the proportion of words in document d assigned to topic t.",
+      "preview_head": "To determine the strength of association between immigrant topics and each minority group (e.g., whether the topic \"illegal workers\" is associated more closely with Mexicans or Japanese people), we computed the document-normalized probability distribution of words in immigrant corpora over the 15 topics, with the association between an immigrant group and topic t being",
+      "preview_tail": "where d is a document from an immigrant group corpus D, t is one of the 15 topics, and 𝑃 𝑑𝑡 is the proportion of words in document d assigned to topic t.",
+      "word_count": 87,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the procedure for associating topics with minority groups using probability distributions"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "_container_demoted": true,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*results?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*results?\\s*$",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Linguistic Footprints of Prejudice",
+      "header_norm": "linguistic footprints of prejudice",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Relationship Between Linguistic Features and Social Distance",
+      "header_norm": "relationship between linguistic features and social distance",
+      "container_raw": "Linguistic Footprints of Prejudice",
+      "container_norm": "linguistic footprints of prejudice",
+      "is_container": false,
+      "paragraphs": [
+        "First, we examined whether human-rated perceived social distance of the 30 social and religious groups in Parrillo and Donoghue's 2005 study was reflected in the linguistic features underlying language referring to minority groups. Comparing the valence and concreteness of the language in both minority group corpora and immigrant corpora, we found that both valence and concreteness were strongly correlated with Parrillo and Donoghue's survey of social distance (Table 1). Although the construal level theory holds that concreteness is a more direct factor underlying perceived social distance, we found that valence was more strongly correlated with human-rated social distance. This is not entirely surprising because instead of capturing actual interpersonal contact with minority groups, Parillo and Donaghue's survey used hypothetical questions to capture willingness to contact, and thereby reflected a mixture of perceived social distance, affective feelings towards minority groups, and possibly moral considerations.",
+        "The key distinction between our minority group corpora and the associated immigrant corpora is whether the group was mentioned in the context of immigration. Using explicit ethnic or religious labels in a text about a minority group clearly signals that the text is about an outgroup; referring to immigration further amplifies that signal. Correspondingly, we found that the correlation between linguistic features and human-rated social distance was stronger in immigrant corpora than in minority group corpora (Table 1)."
+      ],
+      "footnotes": [],
+      "text": "First, we examined whether human-rated perceived social distance of the 30 social and religious groups in Parrillo and Donoghue's 2005 study was reflected in the linguistic features underlying language referring to minority groups. Comparing the valence and concreteness of the language in both minority group corpora and immigrant corpora, we found that both valence and concreteness were strongly correlated with Parrillo and Donoghue's survey of social distance (Table 1). Although the construal level theory holds that concreteness is a more direct factor underlying perceived social distance, we found that valence was more strongly correlated with human-rated social distance. This is not entirely surprising because instead of capturing actual interpersonal contact with minority groups, Parillo and Donaghue's survey used hypothetical questions to capture willingness to contact, and thereby reflected a mixture of perceived social distance, affective feelings towards minority groups, and possibly moral considerations.\n\nThe key distinction between our minority group corpora and the associated immigrant corpora is whether the group was mentioned in the context of immigration. Using explicit ethnic or religious labels in a text about a minority group clearly signals that the text is about an outgroup; referring to immigration further amplifies that signal. Correspondingly, we found that the correlation between linguistic features and human-rated social distance was stronger in immigrant corpora than in minority group corpora (Table 1).",
+      "text_with_footnotes": "First, we examined whether human-rated perceived social distance of the 30 social and religious groups in Parrillo and Donoghue's 2005 study was reflected in the linguistic features underlying language referring to minority groups. Comparing the valence and concreteness of the language in both minority group corpora and immigrant corpora, we found that both valence and concreteness were strongly correlated with Parrillo and Donoghue's survey of social distance (Table 1). Although the construal level theory holds that concreteness is a more direct factor underlying perceived social distance, we found that valence was more strongly correlated with human-rated social distance. This is not entirely surprising because instead of capturing actual interpersonal contact with minority groups, Parillo and Donaghue's survey used hypothetical questions to capture willingness to contact, and thereby reflected a mixture of perceived social distance, affective feelings towards minority groups, and possibly moral considerations.\n\nThe key distinction between our minority group corpora and the associated immigrant corpora is whether the group was mentioned in the context of immigration. Using explicit ethnic or religious labels in a text about a minority group clearly signals that the text is about an outgroup; referring to immigration further amplifies that signal. Correspondingly, we found that the correlation between linguistic features and human-rated social distance was stronger in immigrant corpora than in minority group corpora (Table 1).",
+      "preview_head": "First, we examined whether human-rated perceived social distance of the 30 social and religious groups in Parrillo and Donoghue's 2005 study was reflected in the linguistic features underlying language referring to minority groups. Comparing the valence and concreteness of the language in both minority group corpora and immigrant corpora, we found that both valence and concreteness were strongly correlated with Parrillo and Donoghue's survey of social distance (Table 1). Although the construal level theory holds that concreteness is a more direct factor underlying perceived social distance, we found that valence was more strongly correlated with human-rated social distance.",
+      "preview_tail": "The key distinction between our minority group corpora and the associated immigrant corpora is whether the group was mentioned in the context of immigration. Using explicit ethnic or religious labels in a text about a minority group clearly signals that the text is about an outgroup; referring to immigration further amplifies that signal. Correspondingly, we found that the correlation between linguistic features and human-rated social distance was stronger in immigrant corpora than in minority group corpora (Table 1).",
+      "word_count": 221,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on the relationship between linguistic features and social distance, including data"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Relationship Between Valence and Concreteness",
+      "header_norm": "relationship between valence and concreteness",
+      "container_raw": "Linguistic Footprints of Prejudice",
+      "container_norm": "linguistic footprints of prejudice",
+      "is_container": false,
+      "paragraphs": [
+        "We extracted language valence and concreteness for each minority group corpus. The group described in the most positive terms was Italian; the group described in the least positive terms was Iraqi. The Italian group also had a high concreteness rating, while that of the Iraqi group was low. Indeed, across groups, the language associated with more positively viewed groups was reliably more concrete, r (59) = 0.77, p < 0.001, 95% CI = 0.64-0.86 (Figure 2). This strong correlation also held when we used the immigrant corpora to compute language valence and concreteness for each group, r (59) = 0.65, p < 0.001, 95% CI = 0.48-0.78 (Appendix Figure S1)."
+      ],
+      "footnotes": [],
+      "text": "We extracted language valence and concreteness for each minority group corpus. The group described in the most positive terms was Italian; the group described in the least positive terms was Iraqi. The Italian group also had a high concreteness rating, while that of the Iraqi group was low. Indeed, across groups, the language associated with more positively viewed groups was reliably more concrete, r (59) = 0.77, p < 0.001, 95% CI = 0.64-0.86 (Figure 2). This strong correlation also held when we used the immigrant corpora to compute language valence and concreteness for each group, r (59) = 0.65, p < 0.001, 95% CI = 0.48-0.78 (Appendix Figure S1).",
+      "text_with_footnotes": "We extracted language valence and concreteness for each minority group corpus. The group described in the most positive terms was Italian; the group described in the least positive terms was Iraqi. The Italian group also had a high concreteness rating, while that of the Iraqi group was low. Indeed, across groups, the language associated with more positively viewed groups was reliably more concrete, r (59) = 0.77, p < 0.001, 95% CI = 0.64-0.86 (Figure 2). This strong correlation also held when we used the immigrant corpora to compute language valence and concreteness for each group, r (59) = 0.65, p < 0.001, 95% CI = 0.48-0.78 (Appendix Figure S1).",
+      "preview_head": "We extracted language valence and concreteness for each minority group corpus. The group described in the most positive terms was Italian; the group described in the least positive terms was Iraqi. The Italian group also had a high concreteness rating, while that of the Iraqi group was low.",
+      "preview_tail": "The Italian group also had a high concreteness rating, while that of the Iraqi group was low. Indeed, across groups, the language associated with more positively viewed groups was reliably more concrete, r (59) = 0.77, p < 0.001, 95% CI = 0.64-0.86 (Figure 2). This strong correlation also held when we used the immigrant corpora to compute language valence and concreteness for each group, r (59) = 0.65, p < 0.001, 95% CI = 0.48-0.78 (Appendix Figure S1).",
+      "word_count": 110,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically the relationship between valence and ("
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically the relationship between valence and ("
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Figure 2",
+      "header_norm": "figure 2",
+      "container_raw": "Linguistic Footprints of Prejudice",
+      "container_norm": "linguistic footprints of prejudice",
+      "is_container": false,
+      "paragraphs": [
+        "Relationship Between Valence and Concreteness of Language in the Minority Group Corpora Note. Dot size represents number of articles in the corpus. Color denotes immigrant status, operationalized as a log-transformed ratio between size of an immigrant corpus and size of its corresponding minority group corpus.",
+        "We can rule out an alternative explanation for these findings-that the strong linear correlation between valence and concreteness is a linguistic property of the English language.",
+        "At the individual word level, relation between valence and concreteness is likely to be nonlinear. For instance, there is only a weak positive correlation between valence and concreteness across the 13,384 English words in the Warriner et al. (2013) data set, Pearson's r (13,383) = 0.10, p < 0.001, 95% CI = 0.08-0.11. In contrast, both linguistic and neuroscience studies find that abstract words are more emotionally loaded while concrete words are more likely to be emotionally neutral (Kousta et al., 2011;Vigliocco et al., 2014).",
+        "Most importantly, when we computed valence and concreteness for each article instead of aggregating across all articles in each minority group corpus, the correlation between valence and concreteness of these articles was only 0.16 (r [1,260,046] = 0.16, p < 0.001, 95% CI = 0.16-0.17). Similarly, correlation between valence and concreteness was very low in a large random selection of articles not referencing any of the 60 minority groups: r [200,000] = 0.14, p < 0.001, 95% CI = 0.13-0.16. Therefore, the substantial correlations we found across minority groups are unlikely to be an artefact of linguistic properties of the English language.",
+        "We also explored two further alternative explanations. The first was media exposure, operationalized in terms of the number of articles mentioning the respective target group. If social contact reduces intergroup prejudice, frequency of exposure to outgroup information may achieve a similar effect. The second was that a disproportionate emphasis on immigrant status may be associated with more negative attitudes. We operationalized immigrant status as the ratio between the number of articles mentioning a minority group in immigrant contexts (size of immigrant corpus) and the number of articles mentioning that minority group (size of minority corpus).",
+        "We controlled for both of the above factors in two regression models that predicted valence using concreteness. We did this separately for minority group corpora and immigrant corpora (Table 2). In the first regression model, we included year as a fixed effect (Table 2, \"Year fixed-effect\") in order to control for potential biases generated by shocks common to all minority groups in a given year (e.g., the 9/11 terrorist attack in 2001). For both corpora, the strong positive relationship between valence and concreteness was robust to the introduction of year as a fixed effect, as well as to the inclusion of media exposure and immigrant status.",
+        "Introducing group fixed effects in the second regression model allowed us to explore the relationship between valence and concreteness for each minority group over the 20 years (Table 2, \"Group-specific trends\"). The results from both corpora suggest that the positive relationship between valence and concreteness is weaker at the intragroup level. This may be because the limited time span covered by the corpus was too short to encompass large changes in public perceptions towards minority groups. The large difference between marginal R 2 (variance explained by fixed effects) and conditional R 2 (variance explained by fixed effects and random effects) suggests that the majority of the variance was not explained by intragroup differences. Lastly, the coefficient of year (𝛽 = 0.03, 95%, 𝐶𝐼 = 0.03 -0.04)",
+        "indicates that the sentiment towards minority groups became more positive over time."
+      ],
+      "footnotes": [],
+      "text": "Relationship Between Valence and Concreteness of Language in the Minority Group Corpora Note. Dot size represents number of articles in the corpus. Color denotes immigrant status, operationalized as a log-transformed ratio between size of an immigrant corpus and size of its corresponding minority group corpus.\n\nWe can rule out an alternative explanation for these findings-that the strong linear correlation between valence and concreteness is a linguistic property of the English language.\n\nAt the individual word level, relation between valence and concreteness is likely to be nonlinear. For instance, there is only a weak positive correlation between valence and concreteness across the 13,384 English words in the Warriner et al. (2013) data set, Pearson's r (13,383) = 0.10, p < 0.001, 95% CI = 0.08-0.11. In contrast, both linguistic and neuroscience studies find that abstract words are more emotionally loaded while concrete words are more likely to be emotionally neutral (Kousta et al., 2011;Vigliocco et al., 2014).\n\nMost importantly, when we computed valence and concreteness for each article instead of aggregating across all articles in each minority group corpus, the correlation between valence and concreteness of these articles was only 0.16 (r [1,260,046] = 0.16, p < 0.001, 95% CI = 0.16-0.17). Similarly, correlation between valence and concreteness was very low in a large random selection of articles not referencing any of the 60 minority groups: r [200,000] = 0.14, p < 0.001, 95% CI = 0.13-0.16. Therefore, the substantial correlations we found across minority groups are unlikely to be an artefact of linguistic properties of the English language.\n\nWe also explored two further alternative explanations. The first was media exposure, operationalized in terms of the number of articles mentioning the respective target group. If social contact reduces intergroup prejudice, frequency of exposure to outgroup information may achieve a similar effect. The second was that a disproportionate emphasis on immigrant status may be associated with more negative attitudes. We operationalized immigrant status as the ratio between the number of articles mentioning a minority group in immigrant contexts (size of immigrant corpus) and the number of articles mentioning that minority group (size of minority corpus).\n\nWe controlled for both of the above factors in two regression models that predicted valence using concreteness. We did this separately for minority group corpora and immigrant corpora (Table 2). In the first regression model, we included year as a fixed effect (Table 2, \"Year fixed-effect\") in order to control for potential biases generated by shocks common to all minority groups in a given year (e.g., the 9/11 terrorist attack in 2001). For both corpora, the strong positive relationship between valence and concreteness was robust to the introduction of year as a fixed effect, as well as to the inclusion of media exposure and immigrant status.\n\nIntroducing group fixed effects in the second regression model allowed us to explore the relationship between valence and concreteness for each minority group over the 20 years (Table 2, \"Group-specific trends\"). The results from both corpora suggest that the positive relationship between valence and concreteness is weaker at the intragroup level. This may be because the limited time span covered by the corpus was too short to encompass large changes in public perceptions towards minority groups. The large difference between marginal R 2 (variance explained by fixed effects) and conditional R 2 (variance explained by fixed effects and random effects) suggests that the majority of the variance was not explained by intragroup differences. Lastly, the coefficient of year (𝛽 = 0.03, 95%, 𝐶𝐼 = 0.03 -0.04)\n\nindicates that the sentiment towards minority groups became more positive over time.",
+      "text_with_footnotes": "Relationship Between Valence and Concreteness of Language in the Minority Group Corpora Note. Dot size represents number of articles in the corpus. Color denotes immigrant status, operationalized as a log-transformed ratio between size of an immigrant corpus and size of its corresponding minority group corpus.\n\nWe can rule out an alternative explanation for these findings-that the strong linear correlation between valence and concreteness is a linguistic property of the English language.\n\nAt the individual word level, relation between valence and concreteness is likely to be nonlinear. For instance, there is only a weak positive correlation between valence and concreteness across the 13,384 English words in the Warriner et al. (2013) data set, Pearson's r (13,383) = 0.10, p < 0.001, 95% CI = 0.08-0.11. In contrast, both linguistic and neuroscience studies find that abstract words are more emotionally loaded while concrete words are more likely to be emotionally neutral (Kousta et al., 2011;Vigliocco et al., 2014).\n\nMost importantly, when we computed valence and concreteness for each article instead of aggregating across all articles in each minority group corpus, the correlation between valence and concreteness of these articles was only 0.16 (r [1,260,046] = 0.16, p < 0.001, 95% CI = 0.16-0.17). Similarly, correlation between valence and concreteness was very low in a large random selection of articles not referencing any of the 60 minority groups: r [200,000] = 0.14, p < 0.001, 95% CI = 0.13-0.16. Therefore, the substantial correlations we found across minority groups are unlikely to be an artefact of linguistic properties of the English language.\n\nWe also explored two further alternative explanations. The first was media exposure, operationalized in terms of the number of articles mentioning the respective target group. If social contact reduces intergroup prejudice, frequency of exposure to outgroup information may achieve a similar effect. The second was that a disproportionate emphasis on immigrant status may be associated with more negative attitudes. We operationalized immigrant status as the ratio between the number of articles mentioning a minority group in immigrant contexts (size of immigrant corpus) and the number of articles mentioning that minority group (size of minority corpus).\n\nWe controlled for both of the above factors in two regression models that predicted valence using concreteness. We did this separately for minority group corpora and immigrant corpora (Table 2). In the first regression model, we included year as a fixed effect (Table 2, \"Year fixed-effect\") in order to control for potential biases generated by shocks common to all minority groups in a given year (e.g., the 9/11 terrorist attack in 2001). For both corpora, the strong positive relationship between valence and concreteness was robust to the introduction of year as a fixed effect, as well as to the inclusion of media exposure and immigrant status.\n\nIntroducing group fixed effects in the second regression model allowed us to explore the relationship between valence and concreteness for each minority group over the 20 years (Table 2, \"Group-specific trends\"). The results from both corpora suggest that the positive relationship between valence and concreteness is weaker at the intragroup level. This may be because the limited time span covered by the corpus was too short to encompass large changes in public perceptions towards minority groups. The large difference between marginal R 2 (variance explained by fixed effects) and conditional R 2 (variance explained by fixed effects and random effects) suggests that the majority of the variance was not explained by intragroup differences. Lastly, the coefficient of year (𝛽 = 0.03, 95%, 𝐶𝐼 = 0.03 -0.04)\n\nindicates that the sentiment towards minority groups became more positive over time.",
+      "preview_head": "Relationship Between Valence and Concreteness of Language in the Minority Group Corpora Note. Dot size represents number of articles in the corpus. Color denotes immigrant status, operationalized as a log-transformed ratio between size of an immigrant corpus and size of its corresponding minority group corpus.",
+      "preview_tail": "indicates that the sentiment towards minority groups became more positive over time.",
+      "word_count": 597,
+      "paragraph_count": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents Figure 2, which visualizes the relationship between valence and concreteness,,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "Table 2",
+      "header_norm": "table 2",
+      "container_raw": "Linguistic Footprints of Prejudice",
+      "container_norm": "linguistic footprints of prejudice",
+      "is_container": false,
+      "paragraphs": [
+        "Language Concreteness Predicts Valence Note. The dependent variable is valence per minority group per year. Variables are normalized so that they are all centered at 0 with standard deviation equaling 1. The 95% confidence intervals are included inside the parentheses. *p < 0.05, ** p < 0.01, *** p < 0.001."
+      ],
+      "footnotes": [],
+      "text": "Language Concreteness Predicts Valence Note. The dependent variable is valence per minority group per year. Variables are normalized so that they are all centered at 0 with standard deviation equaling 1. The 95% confidence intervals are included inside the parentheses. *p < 0.05, ** p < 0.01, *** p < 0.001.",
+      "text_with_footnotes": "Language Concreteness Predicts Valence Note. The dependent variable is valence per minority group per year. Variables are normalized so that they are all centered at 0 with standard deviation equaling 1. The 95% confidence intervals are included inside the parentheses. *p < 0.05, ** p < 0.01, *** p < 0.001.",
+      "preview_head": "Language Concreteness Predicts Valence Note. The dependent variable is valence per minority group per year. Variables are normalized so that they are all centered at 0 with standard deviation equaling 1.",
+      "preview_tail": "The dependent variable is valence per minority group per year. Variables are normalized so that they are all centered at 0 with standard deviation equaling 1. The 95% confidence intervals are included inside the parentheses. *p < 0.05, ** p < 0.01, *** p < 0.001.",
+      "word_count": 51,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents Table 2, which reports statistical results about language concreteness and val"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Immigrant-Related Topics",
+      "header_norm": "immigrant related topics",
+      "container_raw": "Linguistic Footprints of Prejudice",
+      "container_norm": "linguistic footprints of prejudice",
+      "is_container": false,
+      "paragraphs": [
+        "Next, we investigated the content of outgroup prejudice by applying LDA to extract topics from language referencing minority groups in the context of immigration, which highlights their outgroup identity. Table 3 shows the 10 most relevant words in each topic (see Equation 1for a definition of relevancy of words to a topic). Keywords for a particular topic were strongly associated with each other and were clearly distinguishable from keywords of other topics. We labelled the topics by summarizing their top 20 keywords. The results indicate a wide array of topics. Crime, terrorism, and geopolitical conflict were among the most negative topics and museums, music and movies, and restaurants were among the most positive. These topics reflect many of the issues commonly associated with immigration (Alexander et al., 1999;Borjas, 1990;Carens, 2013;Cuddy et al., 2007;Peabody, 1985;Poppe, 2001;Skeldon, 1997). Note. We combined inflections (e.g., German, Germany) to avoid unnecessary duplications. An interactive visualization of topic-word association with varying degrees of lambda can be accessed at https://liyingpsych.github.io/LanguageOfPrejudice/.The visualization was generated by R package LDAvis (Sievert & Shirley, 2014). Lambda was set to 0.3 when displaying keywords for topic 13 (Restaurants) because this topic was mixed with generic linguistic patterns underlying all articles (e.g., say, like, one, day, get, come). Reducing lambda further penalizes the weight of high frequency words that tend to appear across all articles.",
+        "Next, we analyzed three linguistic features of the topics: valence, concreteness, and topic specificity (Figure 3). Topic valence and concreteness were computed by the average of all words assigned to the given topic. We found no significant correlation between topic valence and concreteness, r(13) = 0.36, p = 0.17. Some topics that are per se more concrete (e.g., crime and terrorism) are not highly positive; similarly, positive topics are not necessarily to be more concrete (e.g., books). Thus, the strong correlation between language valence and concreteness across minority groups shown in Figure 2 was not the result of language distributed across topics. More specifically, if a group was associated with a concrete negative topic such as crime, it also tended to be associated with other topics featured by abstract language. Negative discussion of minority groups and abstract language tended to go hand-in-hand."
+      ],
+      "footnotes": [],
+      "text": "Next, we investigated the content of outgroup prejudice by applying LDA to extract topics from language referencing minority groups in the context of immigration, which highlights their outgroup identity. Table 3 shows the 10 most relevant words in each topic (see Equation 1for a definition of relevancy of words to a topic). Keywords for a particular topic were strongly associated with each other and were clearly distinguishable from keywords of other topics. We labelled the topics by summarizing their top 20 keywords. The results indicate a wide array of topics. Crime, terrorism, and geopolitical conflict were among the most negative topics and museums, music and movies, and restaurants were among the most positive. These topics reflect many of the issues commonly associated with immigration (Alexander et al., 1999;Borjas, 1990;Carens, 2013;Cuddy et al., 2007;Peabody, 1985;Poppe, 2001;Skeldon, 1997). Note. We combined inflections (e.g., German, Germany) to avoid unnecessary duplications. An interactive visualization of topic-word association with varying degrees of lambda can be accessed at https://liyingpsych.github.io/LanguageOfPrejudice/.The visualization was generated by R package LDAvis (Sievert & Shirley, 2014). Lambda was set to 0.3 when displaying keywords for topic 13 (Restaurants) because this topic was mixed with generic linguistic patterns underlying all articles (e.g., say, like, one, day, get, come). Reducing lambda further penalizes the weight of high frequency words that tend to appear across all articles.\n\nNext, we analyzed three linguistic features of the topics: valence, concreteness, and topic specificity (Figure 3). Topic valence and concreteness were computed by the average of all words assigned to the given topic. We found no significant correlation between topic valence and concreteness, r(13) = 0.36, p = 0.17. Some topics that are per se more concrete (e.g., crime and terrorism) are not highly positive; similarly, positive topics are not necessarily to be more concrete (e.g., books). Thus, the strong correlation between language valence and concreteness across minority groups shown in Figure 2 was not the result of language distributed across topics. More specifically, if a group was associated with a concrete negative topic such as crime, it also tended to be associated with other topics featured by abstract language. Negative discussion of minority groups and abstract language tended to go hand-in-hand.",
+      "text_with_footnotes": "Next, we investigated the content of outgroup prejudice by applying LDA to extract topics from language referencing minority groups in the context of immigration, which highlights their outgroup identity. Table 3 shows the 10 most relevant words in each topic (see Equation 1for a definition of relevancy of words to a topic). Keywords for a particular topic were strongly associated with each other and were clearly distinguishable from keywords of other topics. We labelled the topics by summarizing their top 20 keywords. The results indicate a wide array of topics. Crime, terrorism, and geopolitical conflict were among the most negative topics and museums, music and movies, and restaurants were among the most positive. These topics reflect many of the issues commonly associated with immigration (Alexander et al., 1999;Borjas, 1990;Carens, 2013;Cuddy et al., 2007;Peabody, 1985;Poppe, 2001;Skeldon, 1997). Note. We combined inflections (e.g., German, Germany) to avoid unnecessary duplications. An interactive visualization of topic-word association with varying degrees of lambda can be accessed at https://liyingpsych.github.io/LanguageOfPrejudice/.The visualization was generated by R package LDAvis (Sievert & Shirley, 2014). Lambda was set to 0.3 when displaying keywords for topic 13 (Restaurants) because this topic was mixed with generic linguistic patterns underlying all articles (e.g., say, like, one, day, get, come). Reducing lambda further penalizes the weight of high frequency words that tend to appear across all articles.\n\nNext, we analyzed three linguistic features of the topics: valence, concreteness, and topic specificity (Figure 3). Topic valence and concreteness were computed by the average of all words assigned to the given topic. We found no significant correlation between topic valence and concreteness, r(13) = 0.36, p = 0.17. Some topics that are per se more concrete (e.g., crime and terrorism) are not highly positive; similarly, positive topics are not necessarily to be more concrete (e.g., books). Thus, the strong correlation between language valence and concreteness across minority groups shown in Figure 2 was not the result of language distributed across topics. More specifically, if a group was associated with a concrete negative topic such as crime, it also tended to be associated with other topics featured by abstract language. Negative discussion of minority groups and abstract language tended to go hand-in-hand.",
+      "preview_head": "Next, we investigated the content of outgroup prejudice by applying LDA to extract topics from language referencing minority groups in the context of immigration, which highlights their outgroup identity. Table 3 shows the 10 most relevant words in each topic (see Equation 1for a definition of relevancy of words to a topic). Keywords for a particular topic were strongly associated with each other and were clearly distinguishable from keywords of other topics.",
+      "preview_tail": "Thus, the strong correlation between language valence and concreteness across minority groups shown in Figure 2 was not the result of language distributed across topics. More specifically, if a group was associated with a concrete negative topic such as crime, it also tended to be associated with other topics featured by abstract language. Negative discussion of minority groups and abstract language tended to go hand-in-hand.",
+      "word_count": 364,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes the application of LDA to extract topics and reports findings about the conte"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Figure 3",
+      "header_norm": "figure 3",
+      "container_raw": "Linguistic Footprints of Prejudice",
+      "container_norm": "linguistic footprints of prejudice",
+      "is_container": false,
+      "paragraphs": [
+        "Valence and Concreteness of the 15 Immigrant Topics Identified Using LDA Note. Dot size corresponds to number of words assigned to each topic. Color represents topic specificity, with higher values indicating that the topic was more likely to occur in the immigrant corpus than elsewhere in the New York Times corpus. 2). It is clear from Figure 3 that some topics are highly specific to immigration, such as refugees and illegal workers, while others like museums and music and movies are less specific. We found that topic specificity was negatively correlated with valence, r(13) = -0.60, p < 0.05, 95% CI = -0.85 --0.13, and concreteness, Pearsons' r(13) = -0.59, p < 0.05, 95% CI = -085 --0.11. In other words, language was more abstract and negative when it was more specific to immigrant-related topics."
+      ],
+      "footnotes": [],
+      "text": "Valence and Concreteness of the 15 Immigrant Topics Identified Using LDA Note. Dot size corresponds to number of words assigned to each topic. Color represents topic specificity, with higher values indicating that the topic was more likely to occur in the immigrant corpus than elsewhere in the New York Times corpus. 2). It is clear from Figure 3 that some topics are highly specific to immigration, such as refugees and illegal workers, while others like museums and music and movies are less specific. We found that topic specificity was negatively correlated with valence, r(13) = -0.60, p < 0.05, 95% CI = -0.85 --0.13, and concreteness, Pearsons' r(13) = -0.59, p < 0.05, 95% CI = -085 --0.11. In other words, language was more abstract and negative when it was more specific to immigrant-related topics.",
+      "text_with_footnotes": "Valence and Concreteness of the 15 Immigrant Topics Identified Using LDA Note. Dot size corresponds to number of words assigned to each topic. Color represents topic specificity, with higher values indicating that the topic was more likely to occur in the immigrant corpus than elsewhere in the New York Times corpus. 2). It is clear from Figure 3 that some topics are highly specific to immigration, such as refugees and illegal workers, while others like museums and music and movies are less specific. We found that topic specificity was negatively correlated with valence, r(13) = -0.60, p < 0.05, 95% CI = -0.85 --0.13, and concreteness, Pearsons' r(13) = -0.59, p < 0.05, 95% CI = -085 --0.11. In other words, language was more abstract and negative when it was more specific to immigrant-related topics.",
+      "preview_head": "Valence and Concreteness of the 15 Immigrant Topics Identified Using LDA Note. Dot size corresponds to number of words assigned to each topic. Color represents topic specificity, with higher values indicating that the topic was more likely to occur in the immigrant corpus than elsewhere in the New York Times corpus. 2).",
+      "preview_tail": "It is clear from Figure 3 that some topics are highly specific to immigration, such as refugees and illegal workers, while others like museums and music and movies are less specific. We found that topic specificity was negatively correlated with valence, r(13) = -0.60, p < 0.05, 95% CI = -0.85 --0.13, and concreteness, Pearsons' r(13) = -0.59, p < 0.05, 95% CI = -085 --0.11. In other words, language was more abstract and negative when it was more specific to immigrant-related topics.",
+      "word_count": 135,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents Figure 3, which visualizes results about valence and concreteness of topics i"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "Figure 4 (for online version)",
+      "header_norm": "figure 4 for online version",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Distributions of Topics Over Groups Ranked by Valence",
+      "header_norm": "distributions of topics over groups ranked by valence",
+      "container_raw": "Figure 4 (for online version)",
+      "container_norm": "figure 4 for online version",
+      "is_container": false,
+      "paragraphs": [
+        "Note. The topics identified in Table 3 are plotted on the x-axes. The y-axes show the normalized weighting of each topic on each minority group. Topics are arranged by valence, with the lowest (red) on the left and the highest (green) on the right. Minority groups are also ranked by overall valence, with the most negative in the top left corner and the most positive in the bottom right. To understand the association between each minority group and immigrant-related topics, we computed the document-normalized probability distribution of words in immigrant corpora over the 15 topics (see Equation 3). Figure 4 presents associations between the 15 immigrant-related topics and each minority group. Unsurprisingly, groups described in negative language (and also perceived as more socially distant) were associated primarily with negative topics. The negative topics varied across minority groups. For example, the Iraqi, Palestinian, Lebanese, and Syrian groups were represented mostly in terrorism and geopolitical conflict; the Cuban, Nicaraguan, Vietnamese, and Venezuelan groups were closely associated with refugees; and the Mexican group was mentioned primarily in illegal workers. In contrast, groups described in positive language (also perceived as socially proximal) were closely associated with positive, less immigrant-specific topics (e.g., restaurants, museums, music and movies) and were rarely represented in negative topics.",
+        "Two minority groups, Native Americans and African Americans, cannot be classified as immigrants in the United States. It is therefore unsurprising that their associated immigrantrelated topics ranked low on topic specificity (e.g., books, museums)."
+      ],
+      "footnotes": [],
+      "text": "Note. The topics identified in Table 3 are plotted on the x-axes. The y-axes show the normalized weighting of each topic on each minority group. Topics are arranged by valence, with the lowest (red) on the left and the highest (green) on the right. Minority groups are also ranked by overall valence, with the most negative in the top left corner and the most positive in the bottom right. To understand the association between each minority group and immigrant-related topics, we computed the document-normalized probability distribution of words in immigrant corpora over the 15 topics (see Equation 3). Figure 4 presents associations between the 15 immigrant-related topics and each minority group. Unsurprisingly, groups described in negative language (and also perceived as more socially distant) were associated primarily with negative topics. The negative topics varied across minority groups. For example, the Iraqi, Palestinian, Lebanese, and Syrian groups were represented mostly in terrorism and geopolitical conflict; the Cuban, Nicaraguan, Vietnamese, and Venezuelan groups were closely associated with refugees; and the Mexican group was mentioned primarily in illegal workers. In contrast, groups described in positive language (also perceived as socially proximal) were closely associated with positive, less immigrant-specific topics (e.g., restaurants, museums, music and movies) and were rarely represented in negative topics.\n\nTwo minority groups, Native Americans and African Americans, cannot be classified as immigrants in the United States. It is therefore unsurprising that their associated immigrantrelated topics ranked low on topic specificity (e.g., books, museums).",
+      "text_with_footnotes": "Note. The topics identified in Table 3 are plotted on the x-axes. The y-axes show the normalized weighting of each topic on each minority group. Topics are arranged by valence, with the lowest (red) on the left and the highest (green) on the right. Minority groups are also ranked by overall valence, with the most negative in the top left corner and the most positive in the bottom right. To understand the association between each minority group and immigrant-related topics, we computed the document-normalized probability distribution of words in immigrant corpora over the 15 topics (see Equation 3). Figure 4 presents associations between the 15 immigrant-related topics and each minority group. Unsurprisingly, groups described in negative language (and also perceived as more socially distant) were associated primarily with negative topics. The negative topics varied across minority groups. For example, the Iraqi, Palestinian, Lebanese, and Syrian groups were represented mostly in terrorism and geopolitical conflict; the Cuban, Nicaraguan, Vietnamese, and Venezuelan groups were closely associated with refugees; and the Mexican group was mentioned primarily in illegal workers. In contrast, groups described in positive language (also perceived as socially proximal) were closely associated with positive, less immigrant-specific topics (e.g., restaurants, museums, music and movies) and were rarely represented in negative topics.\n\nTwo minority groups, Native Americans and African Americans, cannot be classified as immigrants in the United States. It is therefore unsurprising that their associated immigrantrelated topics ranked low on topic specificity (e.g., books, museums).",
+      "preview_head": "Note. The topics identified in Table 3 are plotted on the x-axes. The y-axes show the normalized weighting of each topic on each minority group.",
+      "preview_tail": "Two minority groups, Native Americans and African Americans, cannot be classified as immigrants in the United States. It is therefore unsurprising that their associated immigrantrelated topics ranked low on topic specificity (e.g., books, museums).",
+      "word_count": 243,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes the distribution of topics over groups, reporting findings about how topics "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 24,
+      "depth": 0,
+      "header_raw": "Figure 5",
+      "header_norm": "figure 5",
+      "container_raw": "Figure 4 (for online version)",
+      "container_norm": "figure 4 for online version",
+      "is_container": false,
+      "paragraphs": [
+        "Using Association With Immigrant-Related Topics to Predict the Valence of Minority Groups Note. Regression coefficients are from an averaged linear regression model. Error bars represent the 95% confidence interval.",
+        "To assess which immigrant topics had the largest impact on sentiments toward minority groups, we regressed the valence of each minority group (inferred from the minority group corpora) on its association with 15 immigrant-related topics. As the model contained 15 independent variables and just 60 data points, we used elastic net regularization, a combination of lasso regression and ridge regression. These techniques perform simple linear least squares regression but penalize the coefficients of the inputs based on their size. The penalty forces some regression coefficients to zero. We cross-validated our findings by dividing our data set into 10 equal groups, training our model on a random sample of seven groups, and predicting immigrant sentiment in the remaining three. This cross-validation exercise was repeated 1,000 times to calculate the average adjusted R 2 for the out-of-sample predictions and average regression coefficients. A total of 78% of the variance in sentiment toward minority groups can be explained by topic profiles of individual groups. Overall, the negative topics had a stronger impact on sentiment than the positive topics did (Figure 5).",
+        "Three negative topics-crime, terrorism, and legal-significantly predicted negative sentiment toward immigrants. Restaurants was the topic most strongly predictive of positive sentiment. Politics, geopolitical conflict, refugees, illegal workers, and religion did not significantly predict sentiment toward immigrants."
+      ],
+      "footnotes": [],
+      "text": "Using Association With Immigrant-Related Topics to Predict the Valence of Minority Groups Note. Regression coefficients are from an averaged linear regression model. Error bars represent the 95% confidence interval.\n\nTo assess which immigrant topics had the largest impact on sentiments toward minority groups, we regressed the valence of each minority group (inferred from the minority group corpora) on its association with 15 immigrant-related topics. As the model contained 15 independent variables and just 60 data points, we used elastic net regularization, a combination of lasso regression and ridge regression. These techniques perform simple linear least squares regression but penalize the coefficients of the inputs based on their size. The penalty forces some regression coefficients to zero. We cross-validated our findings by dividing our data set into 10 equal groups, training our model on a random sample of seven groups, and predicting immigrant sentiment in the remaining three. This cross-validation exercise was repeated 1,000 times to calculate the average adjusted R 2 for the out-of-sample predictions and average regression coefficients. A total of 78% of the variance in sentiment toward minority groups can be explained by topic profiles of individual groups. Overall, the negative topics had a stronger impact on sentiment than the positive topics did (Figure 5).\n\nThree negative topics-crime, terrorism, and legal-significantly predicted negative sentiment toward immigrants. Restaurants was the topic most strongly predictive of positive sentiment. Politics, geopolitical conflict, refugees, illegal workers, and religion did not significantly predict sentiment toward immigrants.",
+      "text_with_footnotes": "Using Association With Immigrant-Related Topics to Predict the Valence of Minority Groups Note. Regression coefficients are from an averaged linear regression model. Error bars represent the 95% confidence interval.\n\nTo assess which immigrant topics had the largest impact on sentiments toward minority groups, we regressed the valence of each minority group (inferred from the minority group corpora) on its association with 15 immigrant-related topics. As the model contained 15 independent variables and just 60 data points, we used elastic net regularization, a combination of lasso regression and ridge regression. These techniques perform simple linear least squares regression but penalize the coefficients of the inputs based on their size. The penalty forces some regression coefficients to zero. We cross-validated our findings by dividing our data set into 10 equal groups, training our model on a random sample of seven groups, and predicting immigrant sentiment in the remaining three. This cross-validation exercise was repeated 1,000 times to calculate the average adjusted R 2 for the out-of-sample predictions and average regression coefficients. A total of 78% of the variance in sentiment toward minority groups can be explained by topic profiles of individual groups. Overall, the negative topics had a stronger impact on sentiment than the positive topics did (Figure 5).\n\nThree negative topics-crime, terrorism, and legal-significantly predicted negative sentiment toward immigrants. Restaurants was the topic most strongly predictive of positive sentiment. Politics, geopolitical conflict, refugees, illegal workers, and religion did not significantly predict sentiment toward immigrants.",
+      "preview_head": "Using Association With Immigrant-Related Topics to Predict the Valence of Minority Groups Note. Regression coefficients are from an averaged linear regression model. Error bars represent the 95% confidence interval.",
+      "preview_tail": "Three negative topics-crime, terrorism, and legal-significantly predicted negative sentiment toward immigrants. Restaurants was the topic most strongly predictive of positive sentiment. Politics, geopolitical conflict, refugees, illegal workers, and religion did not significantly predict sentiment toward immigrants.",
+      "word_count": 243,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents Figure 5 and reports regression results predicting valence from topic associa"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Li and T. Hills - 2021 - Language patterns of outgroup prejudice",
+      "sec_index": 25,
+      "depth": 0,
+      "header_raw": "Discussion",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Our study makes a number of contributions to research on prejudice and stereotypes.",
+        "First, we found that perceived social distance towards outgroups is reflected in language:",
+        "Socially distant groups are more likely to be described in abstract and negative language.",
+        "Second, there is a clear linguistic bias underlying media representations of minority groups; some groups are represented in much more negatively valenced contexts than others are.",
+        "Third, we found a strong positive correlation between valence and concreteness that is unique to language concerning minority groups, suggesting a potential cognitive bias when communicating narratives of outgroup members. Lastly, we uncovered the content of outgroup prejudice and showed how those topics explain why some groups were represented move positively than others. To our knowledge, these findings have not been previously demonstrated, but they nonetheless demonstrate the power of taking a theoretical approach to large language corpora surrounding topics of outgroup prejudice.",
+        "Our approach reveals rich diversity within outgroups. Although they are all minority groups, they differ substantially in terms of sentiment, perceived social distance, and the content of prejudice. Classic theories on outgroup negativity have often focused on an ingroup-versus-outgroup dichotomy, thus overlooking differences among outgroups-a cognitive bias that these prejudice theories have themselves identified as one of the symptoms of outgroup bias. In contrast, more recent work from Fiske et al. (2002) highlights how stereotypes can be different for each outgroup, proposing that outgroups are perceived along two basic dimensions: warmth and competence (the stereotype content model). We complement Fiske et al.'s (2002) work by offering a quantitative measure of social distance and the topic model approach to identify further distinctions in the qualitative content of prejudice.",
+        "The fact that our findings on social distance are largely consistent with the survey results of Parrillo and Donoghue (2005) suggests that our corpus approach captures meaningful patterns despite its possible limitations. As the second largest news distributor in the United States, with its headquarters in a metropolitan city, the New York Times is well positioned to offer wide coverage of issues and is likely to reflect the language that many people encounter concerning ethnic and religious minorities. Nevertheless, it is unlikely to represent the full diversity of public opinion. We further acknowledge that the topics identified may vary across media targeting different audiences and may vary across time (note that the NYT corpus ranges between 1987 and 2007 ); this is an important question for future work. However, given the established theory on which we frame our approach, the relationship we found between social distance and sentiment represents a hypothesis about language that may exist in other contexts, such as everyday conversations or communication on social media. Unlike articles in the New York Times, face-to-face conversations and comments on social media are not bound by style and editorial rules to use formal and politically correct language. It is therefore likely that socially distant outgroups are associated with even more negative language in these channels.",
+        "Overall, we believe that the strengths of the corpora approach outweigh its limitations.",
+        "These strengths include (a) ecological validity, achieved by studying perceptions of immigrants outside the laboratory, thus avoiding problems such as socially desirable response bias, (b) tracking perceived social distance and sentiment in a data set referencing a large variety of minority groups, and (c) providing a theoretically-informed and methodologically sound social scientific approach that can be used to further the study of outgroup prejudice."
+      ],
+      "footnotes": [],
+      "text": "Our study makes a number of contributions to research on prejudice and stereotypes.\n\nFirst, we found that perceived social distance towards outgroups is reflected in language:\n\nSocially distant groups are more likely to be described in abstract and negative language.\n\nSecond, there is a clear linguistic bias underlying media representations of minority groups; some groups are represented in much more negatively valenced contexts than others are.\n\nThird, we found a strong positive correlation between valence and concreteness that is unique to language concerning minority groups, suggesting a potential cognitive bias when communicating narratives of outgroup members. Lastly, we uncovered the content of outgroup prejudice and showed how those topics explain why some groups were represented move positively than others. To our knowledge, these findings have not been previously demonstrated, but they nonetheless demonstrate the power of taking a theoretical approach to large language corpora surrounding topics of outgroup prejudice.\n\nOur approach reveals rich diversity within outgroups. Although they are all minority groups, they differ substantially in terms of sentiment, perceived social distance, and the content of prejudice. Classic theories on outgroup negativity have often focused on an ingroup-versus-outgroup dichotomy, thus overlooking differences among outgroups-a cognitive bias that these prejudice theories have themselves identified as one of the symptoms of outgroup bias. In contrast, more recent work from Fiske et al. (2002) highlights how stereotypes can be different for each outgroup, proposing that outgroups are perceived along two basic dimensions: warmth and competence (the stereotype content model). We complement Fiske et al.'s (2002) work by offering a quantitative measure of social distance and the topic model approach to identify further distinctions in the qualitative content of prejudice.\n\nThe fact that our findings on social distance are largely consistent with the survey results of Parrillo and Donoghue (2005) suggests that our corpus approach captures meaningful patterns despite its possible limitations. As the second largest news distributor in the United States, with its headquarters in a metropolitan city, the New York Times is well positioned to offer wide coverage of issues and is likely to reflect the language that many people encounter concerning ethnic and religious minorities. Nevertheless, it is unlikely to represent the full diversity of public opinion. We further acknowledge that the topics identified may vary across media targeting different audiences and may vary across time (note that the NYT corpus ranges between 1987 and 2007 ); this is an important question for future work. However, given the established theory on which we frame our approach, the relationship we found between social distance and sentiment represents a hypothesis about language that may exist in other contexts, such as everyday conversations or communication on social media. Unlike articles in the New York Times, face-to-face conversations and comments on social media are not bound by style and editorial rules to use formal and politically correct language. It is therefore likely that socially distant outgroups are associated with even more negative language in these channels.\n\nOverall, we believe that the strengths of the corpora approach outweigh its limitations.\n\nThese strengths include (a) ecological validity, achieved by studying perceptions of immigrants outside the laboratory, thus avoiding problems such as socially desirable response bias, (b) tracking perceived social distance and sentiment in a data set referencing a large variety of minority groups, and (c) providing a theoretically-informed and methodologically sound social scientific approach that can be used to further the study of outgroup prejudice.",
+      "text_with_footnotes": "Our study makes a number of contributions to research on prejudice and stereotypes.\n\nFirst, we found that perceived social distance towards outgroups is reflected in language:\n\nSocially distant groups are more likely to be described in abstract and negative language.\n\nSecond, there is a clear linguistic bias underlying media representations of minority groups; some groups are represented in much more negatively valenced contexts than others are.\n\nThird, we found a strong positive correlation between valence and concreteness that is unique to language concerning minority groups, suggesting a potential cognitive bias when communicating narratives of outgroup members. Lastly, we uncovered the content of outgroup prejudice and showed how those topics explain why some groups were represented move positively than others. To our knowledge, these findings have not been previously demonstrated, but they nonetheless demonstrate the power of taking a theoretical approach to large language corpora surrounding topics of outgroup prejudice.\n\nOur approach reveals rich diversity within outgroups. Although they are all minority groups, they differ substantially in terms of sentiment, perceived social distance, and the content of prejudice. Classic theories on outgroup negativity have often focused on an ingroup-versus-outgroup dichotomy, thus overlooking differences among outgroups-a cognitive bias that these prejudice theories have themselves identified as one of the symptoms of outgroup bias. In contrast, more recent work from Fiske et al. (2002) highlights how stereotypes can be different for each outgroup, proposing that outgroups are perceived along two basic dimensions: warmth and competence (the stereotype content model). We complement Fiske et al.'s (2002) work by offering a quantitative measure of social distance and the topic model approach to identify further distinctions in the qualitative content of prejudice.\n\nThe fact that our findings on social distance are largely consistent with the survey results of Parrillo and Donoghue (2005) suggests that our corpus approach captures meaningful patterns despite its possible limitations. As the second largest news distributor in the United States, with its headquarters in a metropolitan city, the New York Times is well positioned to offer wide coverage of issues and is likely to reflect the language that many people encounter concerning ethnic and religious minorities. Nevertheless, it is unlikely to represent the full diversity of public opinion. We further acknowledge that the topics identified may vary across media targeting different audiences and may vary across time (note that the NYT corpus ranges between 1987 and 2007 ); this is an important question for future work. However, given the established theory on which we frame our approach, the relationship we found between social distance and sentiment represents a hypothesis about language that may exist in other contexts, such as everyday conversations or communication on social media. Unlike articles in the New York Times, face-to-face conversations and comments on social media are not bound by style and editorial rules to use formal and politically correct language. It is therefore likely that socially distant outgroups are associated with even more negative language in these channels.\n\nOverall, we believe that the strengths of the corpora approach outweigh its limitations.\n\nThese strengths include (a) ecological validity, achieved by studying perceptions of immigrants outside the laboratory, thus avoiding problems such as socially desirable response bias, (b) tracking perceived social distance and sentiment in a data set referencing a large variety of minority groups, and (c) providing a theoretically-informed and methodologically sound social scientific approach that can be used to further the study of outgroup prejudice.",
+      "preview_head": "Our study makes a number of contributions to research on prejudice and stereotypes.",
+      "preview_tail": "These strengths include (a) ecological validity, achieved by studying perceptions of immigrants outside the laboratory, thus avoiding problems such as socially desirable response bias, (b) tracking perceived social distance and sentiment in a data set referencing a large variety of minority groups, and (c) providing a theoretically-informed and methodologically sound social scientific approach that can be used to further the study of outgroup prejudice.",
+      "word_count": 568,
+      "paragraph_count": 9,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*discussion\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*discussion\\s*$",
+      "major_label": "DISCUSSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 25,
+    "content_sections": 21,
+    "total_words": 5735,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 25,
+    "by_source": {
+      "heuristic": 3,
+      "llm": 19,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

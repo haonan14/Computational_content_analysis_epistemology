@@ -1,0 +1,332 @@
+{
+  "classifications": [
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the selection and application of the TopSBM topic modeling algorithm to the dataset, as a "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the selection and application of the TopSBM topic modeling algorithm to the dataset, as a "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the data transformation and standardization steps applied to the topic portfolios, which is"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the use of hierarchical clustering and calculation of supplementary statistics, which are a"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the computational tools and environment used to implement the analyses, which is a meth"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports the outcome of hierarchical clustering and how it aligns with the FORD classification, in"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Briefly interprets discrepancies between top-down and bottom-up classifications, suggesting a pro"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents the results of the PCA, including how topics and disciplines are structured, and refers t"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Lists and ranks topics and terms by their scores, which is a direct presentation of findings."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports the variance explained by the first principal component and describes the empirical patter"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Interprets the meaning of the axis as a distinction between nature and culture, connecting to theo"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports the variance explained by the second axis and describes the empirical separation between l"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Interprets the axis in terms of educational and organizational divisions, and references Habermas"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports the variance explained by the third axis and describes the empirical opposition between ma"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Interprets the axes as epistemological distinctions and discusses their role in the coordinate sy"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the procedure for projecting researchers' topic portfolios onto the knowledge space, whi"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions the outcome of the projection and its reflection of disciplinary formation, which is a re"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Describes the empirical pattern observed in the projection of researchers, including the circular "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Interprets the arrangement in relation to theoretical concepts (e.g., Piaget's epistemological ci"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes the patterns and distributions observed in the projection of researchers on a"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section describes the patterns and distributions observed in the projection of researchers on a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section discusses the observed relationships between topic orientations and social space, and is"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings about publication types, gender, and team science, referencing data an"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports empirical findings about researcher affiliations and their relation to topic or"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings about the epistemological profiles of researchers at hospitals and a"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports on the relationship between funding and topic orientation, referencing figures"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the main results, discusses methodological choices, and reflects on the m"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the procedure for automated gender detection, including manual validation and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 33,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the robustness checks performed on the clustering procedure, including the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section provides technical details on the PCA analysis, including eigenvalue examination and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the empirical findings for Axis 5 (Applied-Fundamental), describing the topi"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings on the epistemological positions of principal investigators and no"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

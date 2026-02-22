@@ -1,0 +1,122 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section frames the empirical analysis with theoretical insights from Dewan and Myatt (2007) and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section continues to elaborate on the theoretical framework, referencing Dewan and Myatt (2007)"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses the motivation for using Twitter data, referencing prior research and the lack"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some discussion of the data source (Twitter) and its relevance to the study's empirical"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Connects the theoretical framework to the empirical setting and discusses hypotheses derived from"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Mentions the empirical approach and provides a roadmap to the analyses, indicating some methods"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the approach to testing the hypothesis, including how to uncover when leaders exert"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses alternative theories and references prior literature (Aldrich and Rohde, etc.), focusing"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the measurement and testing approach for leadership influence, including statistical"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from the IRF analysis, including effect sizes and differences between parties;"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports additional findings (Table SI 5) about leader influence, with interpretation focused on the"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

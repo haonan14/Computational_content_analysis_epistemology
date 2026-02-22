@@ -1,0 +1,84 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section discusses theoretical considerations and draws on prior work (e.g., Freeman 1978) to frame a"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Section introduces a methodological approach (row sum of similarity matrix) and discusses how to use"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section defines the paper's key measure (textual spanning), provides its formula, and describes the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section presents simulated examples, describes patterns in simulated data, and reports on the output"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Section also describes how the simulations were constructed and the methodological choices made."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section presents an empirical example, reporting findings and patterns from real data."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Section also describes the empirical approach and how the topic-model solution is conceptualized and"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports on the measurement and visualization of document positions in the empirical data,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Section briefly discusses the computational approach and rationale for using cosine similarity."
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

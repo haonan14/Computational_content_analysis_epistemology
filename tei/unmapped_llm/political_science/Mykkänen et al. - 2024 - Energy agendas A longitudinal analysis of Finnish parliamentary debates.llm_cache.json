@@ -1,0 +1,67 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and theoretical perspectives on parliamentary agenda formation,,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and theoretical perspectives on parliamentary agenda formation,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on the context of energy politics in Finland, referencing the mix,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "This section reports findings from the topic model, describing observed patterns in parliamentary ag"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "There is some interpretive summary of the sequence of topics and their relation to elections, but th"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.85,
+          "reason": "This section reports the results of a more detailed topic model, describing differences (or lack the"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.15,
+          "reason": "There is some interpretive commentary on the implications and limitations of the modelling approach,"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "The section reviews prior research on cooperation in commons governance, citing multiple sources and"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "The section briefly mentions how observed discussion topics relate to cooperation, hinting at some ("
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

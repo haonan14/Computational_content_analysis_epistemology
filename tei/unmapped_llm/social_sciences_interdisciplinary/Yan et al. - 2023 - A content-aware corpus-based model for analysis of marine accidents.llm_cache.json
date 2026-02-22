@@ -1,0 +1,437 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section states the research objective and provides a roadmap for the paper, outlining the main,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines key concepts and provides theoretical background necessary for understanding,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the research framework, data collection, and model development steps specific"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the data sources, data collection, and construction of the marine accident cor"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes challenges in applying pretrained NLP models to the data and introduces the use of expert"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "References prior work and the need for domain-specific knowledge, indicating some theoretical backg"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the qualifications of an expert involved in the study, which is part of the methods (exper"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the qualifications of another expert involved in the study, which is part of the methods ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the qualifications of another expert involved in the study, which is part of the methods ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the qualifications of another expert involved in the study, which is part of the methods ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the qualifications of another expert and the process of expert group identification, which"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the structure and development of the CAM-MA model, including its functional modules and s"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of NER techniques and the BIOES model for extracting accident causes and hazards,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the label set and the choice of the BERT-CRF model architecture used in this paper, which,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the label set and the choice of the BERT-CRF model architecture used in this paper, which,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the input layer setup for the model, including tokenization and special tokens, which is a "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the embedding layer of the model, detailing how input text is processed for the model used"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the transformer layer of the BERT model, focusing on the technical implementation used in t"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the CRF layer and the process of fine-tuning the annotation model, which is part of the au"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the coupling analysis method, including how correlations and coupling degrees are computed,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the importance analysis method, specifically term frequency analysis, as applied by the au"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of an improved LDA topic model for classifying accident scenarios, which is a metho"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the scenario analysis procedure, including construction of scenario sets and analysis of c"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section header and context indicate this section will describe model training and performance evalu"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the hardware, training parameters, and procedures for the extraction model, which are met"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the evaluation and training of the classification model, including perplexity calculation,"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents a table with results of a contrastive analysis, reporting findings (numbers, topic,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the extracted accident causes and their distribution, as well as findings from a 'ca"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the number and classification of extracted hazards, which is a direct finding/result"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section describes the calculation and reporting of coupling degrees, and presents findings from the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 38,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports the analysis and findings regarding the importance of accident causes and hazards, "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section includes some interpretation of the results, such as implications for accident prevention."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 39,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports scenario analysis results, including model outputs and findings from the scenario a"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section includes interpretation of the scenario analysis, such as the importance of pilot attention "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 40,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Section interprets the results and provides implications and suggestions for accident prevention, w"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Section references specific findings from the analyses as the basis for the suggestions."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 42,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section discusses the innovation and implications of the model, interpreting its advantages and con"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 43,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Section consists of a list of maintenance suggestions for ship devices, not fitting standard academ"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 46,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Section is a CRediT authorship contribution statement, which is a formal declaration of author role"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

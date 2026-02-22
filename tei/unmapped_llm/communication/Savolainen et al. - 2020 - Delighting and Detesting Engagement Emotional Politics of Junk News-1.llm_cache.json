@@ -1,0 +1,108 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section discusses conceptual frameworks (platform architecture, emotions, publics) and situates"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "There is some framing of the research focus and approach, but the main function is theoretical."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Defines 'junk news' with reference to prior literature and criteria from other scholars; heavy use"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the analytic approach (blending quantitative and qualitative methods, use of digital data,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions findings about the nature of comments and their relevance for qualitative analysis."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports empirical findings about engagement metrics, distributions, and co-occurrence patterns in"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about the nature and content of 'detesting engagement' and the emotions expressed"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of what these emotional expressions mean in the context of political"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about 'delighting engagement,' including examples and patterns of positive"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretation of the implications of these positive sentiments in the disinformation"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets the meaning and implications of mediated emotions, connecting findings to broader"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "The section reviews foundational literature on scientific diffusion, citing numerous prior scholars,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "The section closes by stating the main hypothesis and research aims, which is a minor framing/road-m"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings about the structure of the diffusion network and the role of scholarly"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of what the findings mean for the diffusion process, but the focus is"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports the results of topic modeling and the correlation between topics and communiti"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the meaning of these topic-community relationships, but the main f"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section describes findings about the Ego-Network Community, including empirical patterns and v"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the community's conceptualization, but the main function is report"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports on the Lin community's research topics, most cited publications, and central c"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the meaning of tie strength and social capital, but the focus is o"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports on the Complex Networks Community, its focus, and how it interprets Granovette"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the community's conceptual focus, but the main function is reporti"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "The section interprets the results about community structure, research cultures, and the meaning o"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "There is some continued reporting of findings about the emergence and growth of communities, but t"
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

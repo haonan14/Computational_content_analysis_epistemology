@@ -1,0 +1,132 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "Section introduces Overboard and situates it in relation to 4chan, focusing on cultural and group-\u00ad\u2010"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "There is some introductory framing of the section's purpose, but the main function is literature/the"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings from the analysis of political topics and discussions on Overboard, with e"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings from qualitative reading of threads, describing group style and boundary-wo"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents findings about group boundaries and bonds, using evidence from the data and discuss"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports on the speech norms found in the data, contrasting them with expectations from prior"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Section interprets the meaning of the ironic group style and its contribution to the far-right shift"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Some reporting of findings is present, but the emphasis is on interpretation and implications."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "Section interprets findings in relation to global chan culture and situates Overboard's shift in a b"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "References to prior work and international context are used to support the discussion."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "Section interprets Overboard's findings in the context of broader Finnish political trends and main"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "References to the mainstreaming of far-right themes in Finland and prior research."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Section is a standard declaration of conflicting interests, not part of the research narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

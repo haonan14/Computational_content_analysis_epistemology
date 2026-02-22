@@ -1,0 +1,760 @@
+{
+  "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/social_sciences_interdisciplinary/Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness.tei.xml",
+  "metadata": {
+    "title": "“Letter to my future self” as a device for assessing health education effectiveness",
+    "authors": [
+      "Dee Warmath",
+      "Yilang Peng",
+      "Andrew Winterstein"
+    ],
+    "journal": "Patient Education and Counseling",
+    "year": "2024",
+    "doi": "10.1016/j.pec.2024.108217",
+    "keywords": []
+  },
+  "abstract": "To examine whether a \"letter to my future self\" analyzed using structural topic modeling (STM) represents a useful technique in revealing how participants integrate educational content into planned future behaviors.\n\n: 453 club-sports athletes in a concussion-education randomized control study wrote two-paragraph letters describing what they hoped to remember after viewing one of three randomly assigned educational interventions. Results: A six-topic solution revealed three topics related to the content of the education and three topics related to the participant behavioral takeaways. The content-related topics reflected the educational content viewed. The behavioral takeaway topics indicated that the Consequence-based education was more likely to generate the Concussion Seriousness[CS:23%] topic while Traditional(24%) and Consequence-based(20%) interventions were more likely to generate the Responsibility for Brain Health[BH] topic. Traditional(21%) and Revised-symptom (17%) interventions were more likely to generate the Awareness and Action topics. Conclusion: Unstructured user-generated data in the form of a \"letter to my future self\" analyzed using structural topic modeling provides a novel evaluation of the present and likely future impact of educational interventions. Practice implications: Patient educators can enhance the effectiveness of education through the application of these methods to the evaluation of and innovation in programs.",
+  "sections": [
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Introduction",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Education is a primary intervention to encourage behavioral change for improved health [1][2][3]. Yet studies suggest that education is insufficient for this purpose [3][4][5]. One conclusion might be that education is not an effective approach. An alternative interpretation is that innovation in educational interventions might be required to improve outcomes [6]. Identification of innovations, however, may be hampered by the ways in which health education is evaluated [7].",
+        "The typical approaches to health education evaluation (i.e., quantitative, qualitative, and mixed methods) each have their own strengths and limitations. Quantitative approaches rely on objective measures that provide a closed-ended test of the extent to which explicit knowledge of the subject and/or self-reported behavioral intentions have improved [3,8,9]. While relatively easy to administer and analyze, the quantitative approach tends to provide a limited number of pre-determined potential measures and could miss unexpected themes or patterns in participants' responses. The quantitative approach also tells us little about how the information was absorbed or incorporated into the participant's thinking.",
+        "A qualitative approach reveals the participant's perspective including how they react to the educational material and why [10]. In comparison to quantitative measures, open-ended questions provide a closer look at message recipients' thinking and have the potential to capture nuances in participants' message interpretation [11]. Qualitative data can support discovery but tends to be case-based and not generalizable [9,12]. The qualitative approach requires significant time and energy, offers limited support for comparison, and raises credibility/validity concerns [13].",
+        "Thus, there is somewhat of a tradeoff between insight and effort with quantitative and qualitative evaluation approaches. Mixed-methods evaluations [14] employ both quantitative and qualitative methods but do little to offset the limitations of either method. With advances in methods to analyze unstructured data, there is an opportunity to move beyond the current approaches to a more participant-centered method without many typical tradeoffs. Employing a narrative psychological approach (letter to their future self) analyzed using a semiautomated analytical approach (structural topic modeling [STM]), this paper assesses a novel method for evaluating the impact of health education. Existing research suggests that writing a letter to their future self produces greater present and future-self continuity which, in turn, is associated with future behavior and outcomes [15][16][17]. If the simple act of writing a letter to your future self can produce behavior change (i.e., the objective of health education), what might it tell us about the participant's absorption of the education provided and translation of that information into attitudes, beliefs and/or behavioral intentions? The method we propose here relies on a single request of the participant (i.e., write a letter to your future self) that is mined for meaning relevant to the determination of knowledge transfer (i.e., were the content objectives of the education realized) and likely effect on future behavior (i.e., in what ways did the education change participant beliefs/future intentions). This method offers the benefits of loosely guided open-ended questions without the requirement of extensive human coding [18].",
+        "Topic modeling is a group of unsupervised approaches that identify interpretable topics (i.e., a collection of words that represent a semantically coherent and interpretable theme) in a collection of text documents [19,20]. These documents can be news articles, social media posts, scientific abstracts, or, here, participants' letters to their future selves [21]. One advantage of STM over other common topic modeling methods is that STM simultaneously discovers topics and statistically tests the associations between metadata (e.g., intervention) and topic distributions [20]. This feature is particularly relevant to our purpose as STM allows us to incorporate educational interventions when generating topic models and to investigate the effects of the interventions on participants' letters [20].",
+        "Using data gathered during a large-scale longitudinal experiment testing three educational interventions related to sports related concussion (SRC), we address the following research question:",
+        "Can letters to my future self analyzed using structural topic modeling be a useful device for the evaluation of educational interventions? First, we identified the topics in the full set of letters. Then, we assessed whether the intended messages of each intervention were received by the participants. Given the design of these interventions, we expected the Revised Symptom education intervention participants to emphasize the Concussion Symptom Recognition topic, the Traditional Concussion education intervention participants to emphasize the General Concussion Knowledge topic, and the Consequence-based education intervention participants to emphasize the Decision to Tell/Not Tell topic.",
+        "The focus of the educational intervention used in this study is sportrelated concussion (SRC), an identified public health concern that relies on the athlete to disclose symptoms to ensure proper support and recovery [22]. It is estimated that 50% or more of all SRC go unreported with health outcome implications [22][23][24]. While concussion education has been mandated at many levels of sport across the United States [6], several studies suggest that concussion education has little downstream effect on the athlete's reporting intentions [8,[25][26][27]. This study contributes to the health education literature by demonstrating the value of applying natural language processing techniques (specifically, STM) in the analysis of open-ended responses to the evaluation of educational interventions."
+      ],
+      "footnotes": [],
+      "text": "Education is a primary intervention to encourage behavioral change for improved health [1][2][3]. Yet studies suggest that education is insufficient for this purpose [3][4][5]. One conclusion might be that education is not an effective approach. An alternative interpretation is that innovation in educational interventions might be required to improve outcomes [6]. Identification of innovations, however, may be hampered by the ways in which health education is evaluated [7].\n\nThe typical approaches to health education evaluation (i.e., quantitative, qualitative, and mixed methods) each have their own strengths and limitations. Quantitative approaches rely on objective measures that provide a closed-ended test of the extent to which explicit knowledge of the subject and/or self-reported behavioral intentions have improved [3,8,9]. While relatively easy to administer and analyze, the quantitative approach tends to provide a limited number of pre-determined potential measures and could miss unexpected themes or patterns in participants' responses. The quantitative approach also tells us little about how the information was absorbed or incorporated into the participant's thinking.\n\nA qualitative approach reveals the participant's perspective including how they react to the educational material and why [10]. In comparison to quantitative measures, open-ended questions provide a closer look at message recipients' thinking and have the potential to capture nuances in participants' message interpretation [11]. Qualitative data can support discovery but tends to be case-based and not generalizable [9,12]. The qualitative approach requires significant time and energy, offers limited support for comparison, and raises credibility/validity concerns [13].\n\nThus, there is somewhat of a tradeoff between insight and effort with quantitative and qualitative evaluation approaches. Mixed-methods evaluations [14] employ both quantitative and qualitative methods but do little to offset the limitations of either method. With advances in methods to analyze unstructured data, there is an opportunity to move beyond the current approaches to a more participant-centered method without many typical tradeoffs. Employing a narrative psychological approach (letter to their future self) analyzed using a semiautomated analytical approach (structural topic modeling [STM]), this paper assesses a novel method for evaluating the impact of health education. Existing research suggests that writing a letter to their future self produces greater present and future-self continuity which, in turn, is associated with future behavior and outcomes [15][16][17]. If the simple act of writing a letter to your future self can produce behavior change (i.e., the objective of health education), what might it tell us about the participant's absorption of the education provided and translation of that information into attitudes, beliefs and/or behavioral intentions? The method we propose here relies on a single request of the participant (i.e., write a letter to your future self) that is mined for meaning relevant to the determination of knowledge transfer (i.e., were the content objectives of the education realized) and likely effect on future behavior (i.e., in what ways did the education change participant beliefs/future intentions). This method offers the benefits of loosely guided open-ended questions without the requirement of extensive human coding [18].\n\nTopic modeling is a group of unsupervised approaches that identify interpretable topics (i.e., a collection of words that represent a semantically coherent and interpretable theme) in a collection of text documents [19,20]. These documents can be news articles, social media posts, scientific abstracts, or, here, participants' letters to their future selves [21]. One advantage of STM over other common topic modeling methods is that STM simultaneously discovers topics and statistically tests the associations between metadata (e.g., intervention) and topic distributions [20]. This feature is particularly relevant to our purpose as STM allows us to incorporate educational interventions when generating topic models and to investigate the effects of the interventions on participants' letters [20].\n\nUsing data gathered during a large-scale longitudinal experiment testing three educational interventions related to sports related concussion (SRC), we address the following research question:\n\nCan letters to my future self analyzed using structural topic modeling be a useful device for the evaluation of educational interventions? First, we identified the topics in the full set of letters. Then, we assessed whether the intended messages of each intervention were received by the participants. Given the design of these interventions, we expected the Revised Symptom education intervention participants to emphasize the Concussion Symptom Recognition topic, the Traditional Concussion education intervention participants to emphasize the General Concussion Knowledge topic, and the Consequence-based education intervention participants to emphasize the Decision to Tell/Not Tell topic.\n\nThe focus of the educational intervention used in this study is sportrelated concussion (SRC), an identified public health concern that relies on the athlete to disclose symptoms to ensure proper support and recovery [22]. It is estimated that 50% or more of all SRC go unreported with health outcome implications [22][23][24]. While concussion education has been mandated at many levels of sport across the United States [6], several studies suggest that concussion education has little downstream effect on the athlete's reporting intentions [8,[25][26][27]. This study contributes to the health education literature by demonstrating the value of applying natural language processing techniques (specifically, STM) in the analysis of open-ended responses to the evaluation of educational interventions.",
+      "text_with_footnotes": "Education is a primary intervention to encourage behavioral change for improved health [1][2][3]. Yet studies suggest that education is insufficient for this purpose [3][4][5]. One conclusion might be that education is not an effective approach. An alternative interpretation is that innovation in educational interventions might be required to improve outcomes [6]. Identification of innovations, however, may be hampered by the ways in which health education is evaluated [7].\n\nThe typical approaches to health education evaluation (i.e., quantitative, qualitative, and mixed methods) each have their own strengths and limitations. Quantitative approaches rely on objective measures that provide a closed-ended test of the extent to which explicit knowledge of the subject and/or self-reported behavioral intentions have improved [3,8,9]. While relatively easy to administer and analyze, the quantitative approach tends to provide a limited number of pre-determined potential measures and could miss unexpected themes or patterns in participants' responses. The quantitative approach also tells us little about how the information was absorbed or incorporated into the participant's thinking.\n\nA qualitative approach reveals the participant's perspective including how they react to the educational material and why [10]. In comparison to quantitative measures, open-ended questions provide a closer look at message recipients' thinking and have the potential to capture nuances in participants' message interpretation [11]. Qualitative data can support discovery but tends to be case-based and not generalizable [9,12]. The qualitative approach requires significant time and energy, offers limited support for comparison, and raises credibility/validity concerns [13].\n\nThus, there is somewhat of a tradeoff between insight and effort with quantitative and qualitative evaluation approaches. Mixed-methods evaluations [14] employ both quantitative and qualitative methods but do little to offset the limitations of either method. With advances in methods to analyze unstructured data, there is an opportunity to move beyond the current approaches to a more participant-centered method without many typical tradeoffs. Employing a narrative psychological approach (letter to their future self) analyzed using a semiautomated analytical approach (structural topic modeling [STM]), this paper assesses a novel method for evaluating the impact of health education. Existing research suggests that writing a letter to their future self produces greater present and future-self continuity which, in turn, is associated with future behavior and outcomes [15][16][17]. If the simple act of writing a letter to your future self can produce behavior change (i.e., the objective of health education), what might it tell us about the participant's absorption of the education provided and translation of that information into attitudes, beliefs and/or behavioral intentions? The method we propose here relies on a single request of the participant (i.e., write a letter to your future self) that is mined for meaning relevant to the determination of knowledge transfer (i.e., were the content objectives of the education realized) and likely effect on future behavior (i.e., in what ways did the education change participant beliefs/future intentions). This method offers the benefits of loosely guided open-ended questions without the requirement of extensive human coding [18].\n\nTopic modeling is a group of unsupervised approaches that identify interpretable topics (i.e., a collection of words that represent a semantically coherent and interpretable theme) in a collection of text documents [19,20]. These documents can be news articles, social media posts, scientific abstracts, or, here, participants' letters to their future selves [21]. One advantage of STM over other common topic modeling methods is that STM simultaneously discovers topics and statistically tests the associations between metadata (e.g., intervention) and topic distributions [20]. This feature is particularly relevant to our purpose as STM allows us to incorporate educational interventions when generating topic models and to investigate the effects of the interventions on participants' letters [20].\n\nUsing data gathered during a large-scale longitudinal experiment testing three educational interventions related to sports related concussion (SRC), we address the following research question:\n\nCan letters to my future self analyzed using structural topic modeling be a useful device for the evaluation of educational interventions? First, we identified the topics in the full set of letters. Then, we assessed whether the intended messages of each intervention were received by the participants. Given the design of these interventions, we expected the Revised Symptom education intervention participants to emphasize the Concussion Symptom Recognition topic, the Traditional Concussion education intervention participants to emphasize the General Concussion Knowledge topic, and the Consequence-based education intervention participants to emphasize the Decision to Tell/Not Tell topic.\n\nThe focus of the educational intervention used in this study is sportrelated concussion (SRC), an identified public health concern that relies on the athlete to disclose symptoms to ensure proper support and recovery [22]. It is estimated that 50% or more of all SRC go unreported with health outcome implications [22][23][24]. While concussion education has been mandated at many levels of sport across the United States [6], several studies suggest that concussion education has little downstream effect on the athlete's reporting intentions [8,[25][26][27]. This study contributes to the health education literature by demonstrating the value of applying natural language processing techniques (specifically, STM) in the analysis of open-ended responses to the evaluation of educational interventions.",
+      "preview_head": "Education is a primary intervention to encourage behavioral change for improved health [1][2][3]. Yet studies suggest that education is insufficient for this purpose [3][4][5]. One conclusion might be that education is not an effective approach.",
+      "preview_tail": "It is estimated that 50% or more of all SRC go unreported with health outcome implications [22][23][24]. While concussion education has been mandated at many levels of sport across the United States [6], several studies suggest that concussion education has little downstream effect on the athlete's reporting intentions [8,[25][26][27]. This study contributes to the health education literature by demonstrating the value of applying natural language processing techniques (specifically, STM) in the analysis of open-ended responses to the evaluation of educational interventions.",
+      "word_count": 836,
+      "paragraph_count": 8,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Methods",
+      "header_norm": "methods",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Data",
+      "header_norm": "data",
+      "container_raw": "Methods",
+      "container_norm": "methods",
+      "is_container": false,
+      "paragraphs": [
+        "The data for this study came from a lab experiment with club sports athletes at the University of Wisconsin-Madison that was approved by the University of Wisconsin-Madison IRB. Athletes included in the study were participating in one or more of 36 different sports ranging from ice hockey to table tennis. The focus of this study is the \"letter to your future self\" question not considered in the analysis of the original experiment. Approval for this study was received from the University of Georgia Human Research Protection Program. A total of 459 athletes participated in the lab session from which the data for this study came. Two letters were dropped for having fewer than ten words and four letters were blank resulting in 453 usable letters. On average, participants' letters had 125.6 words (SD = 45.6)."
+      ],
+      "footnotes": [],
+      "text": "The data for this study came from a lab experiment with club sports athletes at the University of Wisconsin-Madison that was approved by the University of Wisconsin-Madison IRB. Athletes included in the study were participating in one or more of 36 different sports ranging from ice hockey to table tennis. The focus of this study is the \"letter to your future self\" question not considered in the analysis of the original experiment. Approval for this study was received from the University of Georgia Human Research Protection Program. A total of 459 athletes participated in the lab session from which the data for this study came. Two letters were dropped for having fewer than ten words and four letters were blank resulting in 453 usable letters. On average, participants' letters had 125.6 words (SD = 45.6).",
+      "text_with_footnotes": "The data for this study came from a lab experiment with club sports athletes at the University of Wisconsin-Madison that was approved by the University of Wisconsin-Madison IRB. Athletes included in the study were participating in one or more of 36 different sports ranging from ice hockey to table tennis. The focus of this study is the \"letter to your future self\" question not considered in the analysis of the original experiment. Approval for this study was received from the University of Georgia Human Research Protection Program. A total of 459 athletes participated in the lab session from which the data for this study came. Two letters were dropped for having fewer than ten words and four letters were blank resulting in 453 usable letters. On average, participants' letters had 125.6 words (SD = 45.6).",
+      "preview_head": "The data for this study came from a lab experiment with club sports athletes at the University of Wisconsin-Madison that was approved by the University of Wisconsin-Madison IRB. Athletes included in the study were participating in one or more of 36 different sports ranging from ice hockey to table tennis. The focus of this study is the \"letter to your future self\" question not considered in the analysis of the original experiment.",
+      "preview_tail": "A total of 459 athletes participated in the lab session from which the data for this study came. Two letters were dropped for having fewer than ten words and four letters were blank resulting in 453 usable letters. On average, participants' letters had 125.6 words (SD = 45.6).",
+      "word_count": 135,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*data\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*data\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "The educational interventions",
+      "header_norm": "the educational interventions",
+      "container_raw": "Methods",
+      "container_norm": "methods",
+      "is_container": false,
+      "paragraphs": [
+        "Athletes were randomly assigned to one of three educational interventions [28]:",
+        "• Traditional Concussion education based on the NCAA fact sheetfoot_0 (n = 177) emphasizing general concussion knowledge as well as concussion signs and symptoms • A Revised Symptom-focused education built through a series of design-thinking sessions with active young adults (n = 156) emphasizing a concussion symptoms checklist • A Consequence-based intervention (n = 120) emphasizing the decision to report and the likely outcomes of reporting or not reporting",
+        "The desired outcomes of all interventions were to build athlete awareness of concussions and the actions to take if one is suspected, to encourage athletes to take concussion symptoms seriously, and to help them recognize the importance of brain health."
+      ],
+      "footnotes": [],
+      "text": "Athletes were randomly assigned to one of three educational interventions [28]:\n\n• Traditional Concussion education based on the NCAA fact sheetfoot_0 (n = 177) emphasizing general concussion knowledge as well as concussion signs and symptoms • A Revised Symptom-focused education built through a series of design-thinking sessions with active young adults (n = 156) emphasizing a concussion symptoms checklist • A Consequence-based intervention (n = 120) emphasizing the decision to report and the likely outcomes of reporting or not reporting\n\nThe desired outcomes of all interventions were to build athlete awareness of concussions and the actions to take if one is suspected, to encourage athletes to take concussion symptoms seriously, and to help them recognize the importance of brain health.",
+      "text_with_footnotes": "Athletes were randomly assigned to one of three educational interventions [28]:\n\n• Traditional Concussion education based on the NCAA fact sheetfoot_0 (n = 177) emphasizing general concussion knowledge as well as concussion signs and symptoms • A Revised Symptom-focused education built through a series of design-thinking sessions with active young adults (n = 156) emphasizing a concussion symptoms checklist • A Consequence-based intervention (n = 120) emphasizing the decision to report and the likely outcomes of reporting or not reporting\n\nThe desired outcomes of all interventions were to build athlete awareness of concussions and the actions to take if one is suspected, to encourage athletes to take concussion symptoms seriously, and to help them recognize the importance of brain health.",
+      "preview_head": "Athletes were randomly assigned to one of three educational interventions [28]:",
+      "preview_tail": "The desired outcomes of all interventions were to build athlete awareness of concussions and the actions to take if one is suspected, to encourage athletes to take concussion symptoms seriously, and to help them recognize the importance of brain health.",
+      "word_count": 120,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the educational interventions that were implemented in the study, detailing what the study"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the specific educational interventions used in the study, which is a core part of 'M"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Measures",
+      "header_norm": "measures",
+      "container_raw": "Methods",
+      "container_norm": "methods",
+      "is_container": false,
+      "paragraphs": [
+        "This study focused on one open-ended question completed immediately after exposure to the concussion education intervention. The athletes were asked to write a two-paragraph letter to their future self using the following prompt: \"Thinking about the content of this video, write a 2paragraph note to yourself to be read at a future time describing what you hope you remember from the messages the video contained.\" No minimum character or word count was required for this question."
+      ],
+      "footnotes": [],
+      "text": "This study focused on one open-ended question completed immediately after exposure to the concussion education intervention. The athletes were asked to write a two-paragraph letter to their future self using the following prompt: \"Thinking about the content of this video, write a 2paragraph note to yourself to be read at a future time describing what you hope you remember from the messages the video contained.\" No minimum character or word count was required for this question.",
+      "text_with_footnotes": "This study focused on one open-ended question completed immediately after exposure to the concussion education intervention. The athletes were asked to write a two-paragraph letter to their future self using the following prompt: \"Thinking about the content of this video, write a 2paragraph note to yourself to be read at a future time describing what you hope you remember from the messages the video contained.\" No minimum character or word count was required for this question.",
+      "preview_head": "This study focused on one open-ended question completed immediately after exposure to the concussion education intervention. The athletes were asked to write a two-paragraph letter to their future self using the following prompt: \"Thinking about the content of this video, write a 2paragraph note to yourself to be read at a future time describing what you hope you remember from the messages the video contained.\" No minimum character or word count was required for this question.",
+      "preview_tail": "This study focused on one open-ended question completed immediately after exposure to the concussion education intervention. The athletes were asked to write a two-paragraph letter to their future self using the following prompt: \"Thinking about the content of this video, write a 2paragraph note to yourself to be read at a future time describing what you hope you remember from the messages the video contained.\" No minimum character or word count was required for this question.",
+      "word_count": 76,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*measures?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*measures?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Data analysis procedures",
+      "header_norm": "data analysis procedures",
+      "container_raw": "Methods",
+      "container_norm": "methods",
+      "is_container": false,
+      "paragraphs": [
+        "To identify the topics embedded in the 453 letters, we ran STM with the stm R Package [29]. The preprocessing procedures were as follows. We converted all the text to lowercase. We removed punctuations, numbers, and stop words, which are common words (e.g., the) that do not help distinguish different topics. 2 We also removed two customized stop words (concussion, concussions). We applied stemming to the letters converting words related to the same basic concept to their base or root form (e.g., balancing, balanced → balanc) [30]. Once the data was prepared, we ran STM with the experimental condition used as metadata. Since we expected the prevalence of themes in participants' letters would differ across interventions, experimental condition was treated as a topic prevalence covariate, meaning that it could affect the percentages of different topics in the data [29].",
+        "One challenge in topic modeling is identifying the right number of topics as there is no set rule for determining the correct number [29]. Although there are certain statistics such as semantic coherence that may guide the selection of topic models, they should not replace human judgment [20]. Therefore, we adopted a procedure that relied on human interpretation [18]. First, we ran the model allowing the number of topics to vary from three to twelve and examined semantic coherence, exclusivity, and held-out likelihoods. Next, the candidate solutions were studied independently to assign meaningful labels to each topic by examining both the words that were most associated with each topic and the most representative letters in each topic. Then we met as a group to compare our observations/labels and to select the optimal solution.",
+        "In topic modeling, increasing the number of topics typically results in more specific and concrete topics, which could provide additional insights. However, accepting an excessive number may lead to many similar topics without meaningful differentiation [31]. In this study, we defined \"optimal\" as a solution that produced significant insights while minimizing the number of topics used. With this logic, adding a topic would require substantive contribution to our understanding of the letters. Once a topic solution was selected, we examined the prevalence of each topic within an experimental condition to examine whether the letter content was sensitive to the education received in appropriate ways."
+      ],
+      "footnotes": [],
+      "text": "To identify the topics embedded in the 453 letters, we ran STM with the stm R Package [29]. The preprocessing procedures were as follows. We converted all the text to lowercase. We removed punctuations, numbers, and stop words, which are common words (e.g., the) that do not help distinguish different topics. 2 We also removed two customized stop words (concussion, concussions). We applied stemming to the letters converting words related to the same basic concept to their base or root form (e.g., balancing, balanced → balanc) [30]. Once the data was prepared, we ran STM with the experimental condition used as metadata. Since we expected the prevalence of themes in participants' letters would differ across interventions, experimental condition was treated as a topic prevalence covariate, meaning that it could affect the percentages of different topics in the data [29].\n\nOne challenge in topic modeling is identifying the right number of topics as there is no set rule for determining the correct number [29]. Although there are certain statistics such as semantic coherence that may guide the selection of topic models, they should not replace human judgment [20]. Therefore, we adopted a procedure that relied on human interpretation [18]. First, we ran the model allowing the number of topics to vary from three to twelve and examined semantic coherence, exclusivity, and held-out likelihoods. Next, the candidate solutions were studied independently to assign meaningful labels to each topic by examining both the words that were most associated with each topic and the most representative letters in each topic. Then we met as a group to compare our observations/labels and to select the optimal solution.\n\nIn topic modeling, increasing the number of topics typically results in more specific and concrete topics, which could provide additional insights. However, accepting an excessive number may lead to many similar topics without meaningful differentiation [31]. In this study, we defined \"optimal\" as a solution that produced significant insights while minimizing the number of topics used. With this logic, adding a topic would require substantive contribution to our understanding of the letters. Once a topic solution was selected, we examined the prevalence of each topic within an experimental condition to examine whether the letter content was sensitive to the education received in appropriate ways.",
+      "text_with_footnotes": "To identify the topics embedded in the 453 letters, we ran STM with the stm R Package [29]. The preprocessing procedures were as follows. We converted all the text to lowercase. We removed punctuations, numbers, and stop words, which are common words (e.g., the) that do not help distinguish different topics. 2 We also removed two customized stop words (concussion, concussions). We applied stemming to the letters converting words related to the same basic concept to their base or root form (e.g., balancing, balanced → balanc) [30]. Once the data was prepared, we ran STM with the experimental condition used as metadata. Since we expected the prevalence of themes in participants' letters would differ across interventions, experimental condition was treated as a topic prevalence covariate, meaning that it could affect the percentages of different topics in the data [29].\n\nOne challenge in topic modeling is identifying the right number of topics as there is no set rule for determining the correct number [29]. Although there are certain statistics such as semantic coherence that may guide the selection of topic models, they should not replace human judgment [20]. Therefore, we adopted a procedure that relied on human interpretation [18]. First, we ran the model allowing the number of topics to vary from three to twelve and examined semantic coherence, exclusivity, and held-out likelihoods. Next, the candidate solutions were studied independently to assign meaningful labels to each topic by examining both the words that were most associated with each topic and the most representative letters in each topic. Then we met as a group to compare our observations/labels and to select the optimal solution.\n\nIn topic modeling, increasing the number of topics typically results in more specific and concrete topics, which could provide additional insights. However, accepting an excessive number may lead to many similar topics without meaningful differentiation [31]. In this study, we defined \"optimal\" as a solution that produced significant insights while minimizing the number of topics used. With this logic, adding a topic would require substantive contribution to our understanding of the letters. Once a topic solution was selected, we examined the prevalence of each topic within an experimental condition to examine whether the letter content was sensitive to the education received in appropriate ways.",
+      "preview_head": "To identify the topics embedded in the 453 letters, we ran STM with the stm R Package [29]. The preprocessing procedures were as follows. We converted all the text to lowercase.",
+      "preview_tail": "However, accepting an excessive number may lead to many similar topics without meaningful differentiation [31]. In this study, we defined \"optimal\" as a solution that produced significant insights while minimizing the number of topics used. With this logic, adding a topic would require substantive contribution to our understanding of the letters. Once a topic solution was selected, we examined the prevalence of each topic within an experimental condition to examine whether the letter content was sensitive to the education received in appropriate ways.",
+      "word_count": 376,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data analysis procedures, including software, preprocessing, and analytic approach, a"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Sample characteristics",
+      "header_norm": "sample characteristics",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Most participants (90.4%) were undergraduate students while 8.4% were graduate students and 1.1% held staff or other positions. The sample was 61.9% female and 38.1% male. Just under one-quarter of the sample (23.3%) indicated they had experienced a concussion themselves and just under one-fifth (19.6%) indicated they knew someone who had experienced a concussion. In terms of random assignment to the three interventions, 38.3% of the sample was exposed to the Traditional Concussion education, 35.3% to the Revised Symptom education, and 26.4% to the Consequence-based education."
+      ],
+      "footnotes": [],
+      "text": "Most participants (90.4%) were undergraduate students while 8.4% were graduate students and 1.1% held staff or other positions. The sample was 61.9% female and 38.1% male. Just under one-quarter of the sample (23.3%) indicated they had experienced a concussion themselves and just under one-fifth (19.6%) indicated they knew someone who had experienced a concussion. In terms of random assignment to the three interventions, 38.3% of the sample was exposed to the Traditional Concussion education, 35.3% to the Revised Symptom education, and 26.4% to the Consequence-based education.",
+      "text_with_footnotes": "Most participants (90.4%) were undergraduate students while 8.4% were graduate students and 1.1% held staff or other positions. The sample was 61.9% female and 38.1% male. Just under one-quarter of the sample (23.3%) indicated they had experienced a concussion themselves and just under one-fifth (19.6%) indicated they knew someone who had experienced a concussion. In terms of random assignment to the three interventions, 38.3% of the sample was exposed to the Traditional Concussion education, 35.3% to the Revised Symptom education, and 26.4% to the Consequence-based education.",
+      "preview_head": "Most participants (90.4%) were undergraduate students while 8.4% were graduate students and 1.1% held staff or other positions. The sample was 61.9% female and 38.1% male. Just under one-quarter of the sample (23.3%) indicated they had experienced a concussion themselves and just under one-fifth (19.6%) indicated they knew someone who had experienced a concussion.",
+      "preview_tail": "The sample was 61.9% female and 38.1% male. Just under one-quarter of the sample (23.3%) indicated they had experienced a concussion themselves and just under one-fifth (19.6%) indicated they knew someone who had experienced a concussion. In terms of random assignment to the three interventions, 38.3% of the sample was exposed to the Traditional Concussion education, 35.3% to the Revised Symptom education, and 26.4% to the Consequence-based education.",
+      "word_count": 86,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Reports sample demographics and characteristics, which is standard in the methods section to descri"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Selecting the optimal topic solution",
+      "header_norm": "selecting the optimal topic solution",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Similar in spirit to cluster analysis, STM produces a set of possible topic solutions. The researcher must decide which topic solution provides the \"optimal\" solution (i.e., the solution that maximizes the insights gained while minimizing the number of topics required). Our task in selecting the optimal topic solution was to determine which of these possible solutions best satisfies this definition of optimal. Table 1 contains the topics included in the four-to seven-topic solutions generated by our analysis. Examination of semantic coherence, exclusivity, and held-out likelihoods suggested that all solutions were reasonable candidates. All solutions contained three topics related to the three educational interventions (i.e., General Concussion Knowledge, Concussion Symptom, and Decision to Tell/Not Tell). The differences between the solutions were found in the topics related to outcomes. These topics included Concussion Seriousness in the four-topic solution; Taking Stock and Encouragement to Do the Right Thing in the five-topic solution; Awareness and Action, Concussion Seriousness, and the Importance of Brain Health in the six-topic solution; and Awareness, Actions, Concussion Seriousness, and Paying Attention in the seven-topic solution.",
+        "Through our analysis of these solutions, we found that the six-topic solution had advantages over the four-and five-topic solutions. Objectives of the educational interventions included getting athletes to be aware of possible concussions, to know what actions to take if they had symptoms, to believe that concussions are serious, and to take responsibility for the health of their brain. These objectives fit very nicely with the topics representing the general takeaways from their experience in the six-topic solution. The difference between the six and seventopic solutions was the separation of Awareness and Action in the seventopic solution. From our review of the additional topic, we concluded that this difference did not add incremental insight. For this reason, we selected the six-topic solution."
+      ],
+      "footnotes": [],
+      "text": "Similar in spirit to cluster analysis, STM produces a set of possible topic solutions. The researcher must decide which topic solution provides the \"optimal\" solution (i.e., the solution that maximizes the insights gained while minimizing the number of topics required). Our task in selecting the optimal topic solution was to determine which of these possible solutions best satisfies this definition of optimal. Table 1 contains the topics included in the four-to seven-topic solutions generated by our analysis. Examination of semantic coherence, exclusivity, and held-out likelihoods suggested that all solutions were reasonable candidates. All solutions contained three topics related to the three educational interventions (i.e., General Concussion Knowledge, Concussion Symptom, and Decision to Tell/Not Tell). The differences between the solutions were found in the topics related to outcomes. These topics included Concussion Seriousness in the four-topic solution; Taking Stock and Encouragement to Do the Right Thing in the five-topic solution; Awareness and Action, Concussion Seriousness, and the Importance of Brain Health in the six-topic solution; and Awareness, Actions, Concussion Seriousness, and Paying Attention in the seven-topic solution.\n\nThrough our analysis of these solutions, we found that the six-topic solution had advantages over the four-and five-topic solutions. Objectives of the educational interventions included getting athletes to be aware of possible concussions, to know what actions to take if they had symptoms, to believe that concussions are serious, and to take responsibility for the health of their brain. These objectives fit very nicely with the topics representing the general takeaways from their experience in the six-topic solution. The difference between the six and seventopic solutions was the separation of Awareness and Action in the seventopic solution. From our review of the additional topic, we concluded that this difference did not add incremental insight. For this reason, we selected the six-topic solution.",
+      "text_with_footnotes": "Similar in spirit to cluster analysis, STM produces a set of possible topic solutions. The researcher must decide which topic solution provides the \"optimal\" solution (i.e., the solution that maximizes the insights gained while minimizing the number of topics required). Our task in selecting the optimal topic solution was to determine which of these possible solutions best satisfies this definition of optimal. Table 1 contains the topics included in the four-to seven-topic solutions generated by our analysis. Examination of semantic coherence, exclusivity, and held-out likelihoods suggested that all solutions were reasonable candidates. All solutions contained three topics related to the three educational interventions (i.e., General Concussion Knowledge, Concussion Symptom, and Decision to Tell/Not Tell). The differences between the solutions were found in the topics related to outcomes. These topics included Concussion Seriousness in the four-topic solution; Taking Stock and Encouragement to Do the Right Thing in the five-topic solution; Awareness and Action, Concussion Seriousness, and the Importance of Brain Health in the six-topic solution; and Awareness, Actions, Concussion Seriousness, and Paying Attention in the seven-topic solution.\n\nThrough our analysis of these solutions, we found that the six-topic solution had advantages over the four-and five-topic solutions. Objectives of the educational interventions included getting athletes to be aware of possible concussions, to know what actions to take if they had symptoms, to believe that concussions are serious, and to take responsibility for the health of their brain. These objectives fit very nicely with the topics representing the general takeaways from their experience in the six-topic solution. The difference between the six and seventopic solutions was the separation of Awareness and Action in the seventopic solution. From our review of the additional topic, we concluded that this difference did not add incremental insight. For this reason, we selected the six-topic solution.",
+      "preview_head": "Similar in spirit to cluster analysis, STM produces a set of possible topic solutions. The researcher must decide which topic solution provides the \"optimal\" solution (i.e., the solution that maximizes the insights gained while minimizing the number of topics required). Our task in selecting the optimal topic solution was to determine which of these possible solutions best satisfies this definition of optimal. Table 1 contains the topics included in the four-to seven-topic solutions generated by our analysis.",
+      "preview_tail": "The difference between the six and seventopic solutions was the separation of Awareness and Action in the seventopic solution. From our review of the additional topic, we concluded that this difference did not add incremental insight. For this reason, we selected the six-topic solution.",
+      "word_count": 298,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the process for selecting the optimal topic solution in the analysis, which is a methodolog"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "The six-topic solution",
+      "header_norm": "the six topic solution",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Examining the representative letters for each topic in this solution provided an understanding of the ways in which participants processed the education received. Table 2 contains representative letters from each topic. No editing (e.g., to correct grammatical mistakes, word choices, or typographical errors) has been done to the letters.",
+        "The three topics related to the educational content allowed us to see how participants described what they learned."
+      ],
+      "footnotes": [],
+      "text": "Examining the representative letters for each topic in this solution provided an understanding of the ways in which participants processed the education received. Table 2 contains representative letters from each topic. No editing (e.g., to correct grammatical mistakes, word choices, or typographical errors) has been done to the letters.\n\nThe three topics related to the educational content allowed us to see how participants described what they learned.",
+      "text_with_footnotes": "Examining the representative letters for each topic in this solution provided an understanding of the ways in which participants processed the education received. Table 2 contains representative letters from each topic. No editing (e.g., to correct grammatical mistakes, word choices, or typographical errors) has been done to the letters.\n\nThe three topics related to the educational content allowed us to see how participants described what they learned.",
+      "preview_head": "Examining the representative letters for each topic in this solution provided an understanding of the ways in which participants processed the education received. Table 2 contains representative letters from each topic. No editing (e.g., to correct grammatical mistakes, word choices, or typographical errors) has been done to the letters.",
+      "preview_tail": "The three topics related to the educational content allowed us to see how participants described what they learned.",
+      "word_count": 67,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings from the six-topic solution, including representative letters and what was learn"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Concussion symptom recognition",
+      "header_norm": "concussion symptom recognition",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Remember how a concussion feels. In this topic, we observed that most participants shared a list of symptoms associated with a concussion. Most participants restated the symptom list included in the education while a few personalized the list or made comparisons between symptoms. Several participants emphasized the need to recognize and respond to the symptoms experienced."
+      ],
+      "footnotes": [],
+      "text": "Remember how a concussion feels. In this topic, we observed that most participants shared a list of symptoms associated with a concussion. Most participants restated the symptom list included in the education while a few personalized the list or made comparisons between symptoms. Several participants emphasized the need to recognize and respond to the symptoms experienced.",
+      "text_with_footnotes": "Remember how a concussion feels. In this topic, we observed that most participants shared a list of symptoms associated with a concussion. Most participants restated the symptom list included in the education while a few personalized the list or made comparisons between symptoms. Several participants emphasized the need to recognize and respond to the symptoms experienced.",
+      "preview_head": "Remember how a concussion feels. In this topic, we observed that most participants shared a list of symptoms associated with a concussion. Most participants restated the symptom list included in the education while a few personalized the list or made comparisons between symptoms. Several participants emphasized the need to recognize and respond to the symptoms experienced.",
+      "preview_tail": "Remember how a concussion feels. In this topic, we observed that most participants shared a list of symptoms associated with a concussion. Most participants restated the symptom list included in the education while a few personalized the list or made comparisons between symptoms. Several participants emphasized the need to recognize and respond to the symptoms experienced.",
+      "word_count": 56,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the content and patterns found in participant letters regarding concussion symptom recognit"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "General concussion knowledge",
+      "header_norm": "general concussion knowledge",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Know what a concussion is. In this topic, participants were likely to describe what concussions are, what causes them, how to detect them, how to prevent them, and what to do about them. The focus of these letters tended to be sharing general information about concussions. There were references to specific symptoms and some actions that might be taken if a concussion were suspected."
+      ],
+      "footnotes": [],
+      "text": "Know what a concussion is. In this topic, participants were likely to describe what concussions are, what causes them, how to detect them, how to prevent them, and what to do about them. The focus of these letters tended to be sharing general information about concussions. There were references to specific symptoms and some actions that might be taken if a concussion were suspected.",
+      "text_with_footnotes": "Know what a concussion is. In this topic, participants were likely to describe what concussions are, what causes them, how to detect them, how to prevent them, and what to do about them. The focus of these letters tended to be sharing general information about concussions. There were references to specific symptoms and some actions that might be taken if a concussion were suspected.",
+      "preview_head": "Know what a concussion is. In this topic, participants were likely to describe what concussions are, what causes them, how to detect them, how to prevent them, and what to do about them. The focus of these letters tended to be sharing general information about concussions.",
+      "preview_tail": "In this topic, participants were likely to describe what concussions are, what causes them, how to detect them, how to prevent them, and what to do about them. The focus of these letters tended to be sharing general information about concussions. There were references to specific symptoms and some actions that might be taken if a concussion were suspected.",
+      "word_count": 64,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the findings from participant letters about general concussion knowledge, reporting what "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "The decision to tell/not tell",
+      "header_norm": "the decision to tell not tell",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "The consequences of telling or not telling. In this topic, participants described the likely course of events if they tell versus not tell someone about their concussion-like symptoms, the potential consequences of not telling, and the importance and benefits of telling. Some participants included information about why someone might choose not to tell. The focus in these letters was the decision of whether to report.",
+        "In addition to the educational content-focused topics, there were three topics related to outcomes. These topics provided insight into the educational implications for attitudes and behaviors related to concussion reporting."
+      ],
+      "footnotes": [],
+      "text": "The consequences of telling or not telling. In this topic, participants described the likely course of events if they tell versus not tell someone about their concussion-like symptoms, the potential consequences of not telling, and the importance and benefits of telling. Some participants included information about why someone might choose not to tell. The focus in these letters was the decision of whether to report.\n\nIn addition to the educational content-focused topics, there were three topics related to outcomes. These topics provided insight into the educational implications for attitudes and behaviors related to concussion reporting.",
+      "text_with_footnotes": "The consequences of telling or not telling. In this topic, participants described the likely course of events if they tell versus not tell someone about their concussion-like symptoms, the potential consequences of not telling, and the importance and benefits of telling. Some participants included information about why someone might choose not to tell. The focus in these letters was the decision of whether to report.\n\nIn addition to the educational content-focused topics, there were three topics related to outcomes. These topics provided insight into the educational implications for attitudes and behaviors related to concussion reporting.",
+      "preview_head": "The consequences of telling or not telling. In this topic, participants described the likely course of events if they tell versus not tell someone about their concussion-like symptoms, the potential consequences of not telling, and the importance and benefits of telling. Some participants included information about why someone might choose not to tell.",
+      "preview_tail": "In addition to the educational content-focused topics, there were three topics related to outcomes. These topics provided insight into the educational implications for attitudes and behaviors related to concussion reporting.",
+      "word_count": 95,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from participant letters about the decision to tell or not tell, focusing on what "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Awareness and action",
+      "header_norm": "awareness and action",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Keep an eye out and act when needed. In this topic, the participants communicated the need to \"take stock\" or watch for symptoms and the need to act primarily in the form of seeking help even if the symptoms Alternatively, some individuals may choose to not report their symptoms, either due to fear of adverse perception by others, or because they are afraid they will miss an upcoming competition. However, there are a multitude of consequences that accompany the failure to report a possible concussion. Emotionally, you may experience depression, anxiety, and selfdoubt which could impact your personal relationships and work life. Physically, you'll likely perform poorly in your sport and will be at a higher risk for future injury, both concussion and non-concussion related. Finally, you would be putting yourself at a higher risk of developing dementia or other mental health problems later in life. If all of these physical, emotional, and mental effects are not enough to deter someone from not reporting their concussion, the possibility of death due to a second impact should be enough to scare them into reporting their symptoms.",
+        "Most commonly, it is not the first concussion that does the most damage, but the second. By reporting the first concussion, you at able to see a physician, receive proper treatment, have rest time, and return to your activity. This lets many symptoms relieve themselves and your life to return to normal. Telling someone about a concussion can lead to proper treatment, returning to activity sooner, returning to regular life sooner, and let the brain get the rest it needs. Not telling someone can lead in higher levels of depression and anxiety, performance will be more poor in sports and work, greater risk for other injuries, take more time to recover, affect relationships, great risk for second impact which can lead to death, and great risks for mental health problems later. Not telling someone can lead to many more problems. Telling some will have no consequences if you do not end up having a concussion but will be extremely beneficial if you do. When you believe that you may have gotten a concussion, you can choose to either tell seem mild. Some participants included the need to evaluate whether the way they play their sport puts them at higher risk for a concussion."
+      ],
+      "footnotes": [],
+      "text": "Keep an eye out and act when needed. In this topic, the participants communicated the need to \"take stock\" or watch for symptoms and the need to act primarily in the form of seeking help even if the symptoms Alternatively, some individuals may choose to not report their symptoms, either due to fear of adverse perception by others, or because they are afraid they will miss an upcoming competition. However, there are a multitude of consequences that accompany the failure to report a possible concussion. Emotionally, you may experience depression, anxiety, and selfdoubt which could impact your personal relationships and work life. Physically, you'll likely perform poorly in your sport and will be at a higher risk for future injury, both concussion and non-concussion related. Finally, you would be putting yourself at a higher risk of developing dementia or other mental health problems later in life. If all of these physical, emotional, and mental effects are not enough to deter someone from not reporting their concussion, the possibility of death due to a second impact should be enough to scare them into reporting their symptoms.\n\nMost commonly, it is not the first concussion that does the most damage, but the second. By reporting the first concussion, you at able to see a physician, receive proper treatment, have rest time, and return to your activity. This lets many symptoms relieve themselves and your life to return to normal. Telling someone about a concussion can lead to proper treatment, returning to activity sooner, returning to regular life sooner, and let the brain get the rest it needs. Not telling someone can lead in higher levels of depression and anxiety, performance will be more poor in sports and work, greater risk for other injuries, take more time to recover, affect relationships, great risk for second impact which can lead to death, and great risks for mental health problems later. Not telling someone can lead to many more problems. Telling some will have no consequences if you do not end up having a concussion but will be extremely beneficial if you do. When you believe that you may have gotten a concussion, you can choose to either tell seem mild. Some participants included the need to evaluate whether the way they play their sport puts them at higher risk for a concussion.",
+      "text_with_footnotes": "Keep an eye out and act when needed. In this topic, the participants communicated the need to \"take stock\" or watch for symptoms and the need to act primarily in the form of seeking help even if the symptoms Alternatively, some individuals may choose to not report their symptoms, either due to fear of adverse perception by others, or because they are afraid they will miss an upcoming competition. However, there are a multitude of consequences that accompany the failure to report a possible concussion. Emotionally, you may experience depression, anxiety, and selfdoubt which could impact your personal relationships and work life. Physically, you'll likely perform poorly in your sport and will be at a higher risk for future injury, both concussion and non-concussion related. Finally, you would be putting yourself at a higher risk of developing dementia or other mental health problems later in life. If all of these physical, emotional, and mental effects are not enough to deter someone from not reporting their concussion, the possibility of death due to a second impact should be enough to scare them into reporting their symptoms.\n\nMost commonly, it is not the first concussion that does the most damage, but the second. By reporting the first concussion, you at able to see a physician, receive proper treatment, have rest time, and return to your activity. This lets many symptoms relieve themselves and your life to return to normal. Telling someone about a concussion can lead to proper treatment, returning to activity sooner, returning to regular life sooner, and let the brain get the rest it needs. Not telling someone can lead in higher levels of depression and anxiety, performance will be more poor in sports and work, greater risk for other injuries, take more time to recover, affect relationships, great risk for second impact which can lead to death, and great risks for mental health problems later. Not telling someone can lead to many more problems. Telling some will have no consequences if you do not end up having a concussion but will be extremely beneficial if you do. When you believe that you may have gotten a concussion, you can choose to either tell seem mild. Some participants included the need to evaluate whether the way they play their sport puts them at higher risk for a concussion.",
+      "preview_head": "Keep an eye out and act when needed. In this topic, the participants communicated the need to \"take stock\" or watch for symptoms and the need to act primarily in the form of seeking help even if the symptoms Alternatively, some individuals may choose to not report their symptoms, either due to fear of adverse perception by others, or because they are afraid they will miss an upcoming competition. However, there are a multitude of consequences that accompany the failure to report a possible concussion. Emotionally, you may experience depression, anxiety, and selfdoubt which could impact your personal relationships and work life.",
+      "preview_tail": "Not telling someone can lead to many more problems. Telling some will have no consequences if you do not end up having a concussion but will be extremely beneficial if you do. When you believe that you may have gotten a concussion, you can choose to either tell seem mild. Some participants included the need to evaluate whether the way they play their sport puts them at higher risk for a concussion.",
+      "word_count": 388,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from participant letters about awareness and action, focusing on what was found in"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Concussion seriousness",
+      "header_norm": "concussion seriousness",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Personalizing concussion seriousness. In this topic, the participants took away that concussions are more serious than some other injuries they might experience. They concluded that concussions should be taken seriously by the athlete, the team, and the organization as there are broader implications for school and life. Letters also noted that symptoms should not be taken lightly and ignoring a concussion had the possibility of affecting more than the athlete."
+      ],
+      "footnotes": [],
+      "text": "Personalizing concussion seriousness. In this topic, the participants took away that concussions are more serious than some other injuries they might experience. They concluded that concussions should be taken seriously by the athlete, the team, and the organization as there are broader implications for school and life. Letters also noted that symptoms should not be taken lightly and ignoring a concussion had the possibility of affecting more than the athlete.",
+      "text_with_footnotes": "Personalizing concussion seriousness. In this topic, the participants took away that concussions are more serious than some other injuries they might experience. They concluded that concussions should be taken seriously by the athlete, the team, and the organization as there are broader implications for school and life. Letters also noted that symptoms should not be taken lightly and ignoring a concussion had the possibility of affecting more than the athlete.",
+      "preview_head": "Personalizing concussion seriousness. In this topic, the participants took away that concussions are more serious than some other injuries they might experience. They concluded that concussions should be taken seriously by the athlete, the team, and the organization as there are broader implications for school and life.",
+      "preview_tail": "In this topic, the participants took away that concussions are more serious than some other injuries they might experience. They concluded that concussions should be taken seriously by the athlete, the team, and the organization as there are broader implications for school and life. Letters also noted that symptoms should not be taken lightly and ignoring a concussion had the possibility of affecting more than the athlete.",
+      "word_count": 70,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from participant letters about concussion seriousness, focusing on what was found "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Importance of brain health",
+      "header_norm": "importance of brain health",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Take personal responsibility for your brain health through the choices you make. In this topic, the participants told their future selves not to be irresponsible. One message was that there was no harm in telling someone but potential harm in hiding or ignoring the symptoms. They also communicated that long-term brain health is more important than a sport they will play for four years in college. They wanted their future self to take appropriate preventive action (e.g., wearing their bike helmet) and to notice symptoms in others who might need to report."
+      ],
+      "footnotes": [],
+      "text": "Take personal responsibility for your brain health through the choices you make. In this topic, the participants told their future selves not to be irresponsible. One message was that there was no harm in telling someone but potential harm in hiding or ignoring the symptoms. They also communicated that long-term brain health is more important than a sport they will play for four years in college. They wanted their future self to take appropriate preventive action (e.g., wearing their bike helmet) and to notice symptoms in others who might need to report.",
+      "text_with_footnotes": "Take personal responsibility for your brain health through the choices you make. In this topic, the participants told their future selves not to be irresponsible. One message was that there was no harm in telling someone but potential harm in hiding or ignoring the symptoms. They also communicated that long-term brain health is more important than a sport they will play for four years in college. They wanted their future self to take appropriate preventive action (e.g., wearing their bike helmet) and to notice symptoms in others who might need to report.",
+      "preview_head": "Take personal responsibility for your brain health through the choices you make. In this topic, the participants told their future selves not to be irresponsible. One message was that there was no harm in telling someone but potential harm in hiding or ignoring the symptoms. They also communicated that long-term brain health is more important than a sport they will play for four years in college.",
+      "preview_tail": "In this topic, the participants told their future selves not to be irresponsible. One message was that there was no harm in telling someone but potential harm in hiding or ignoring the symptoms. They also communicated that long-term brain health is more important than a sport they will play for four years in college. They wanted their future self to take appropriate preventive action (e.g., wearing their bike helmet) and to notice symptoms in others who might need to report.",
+      "word_count": 92,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from participant letters about the importance of brain health, focusing on what wa"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Comparison of the topics",
+      "header_norm": "comparison of the topics",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "We examined the 20 most frequently occurring word stems in each topic to explore what was unique to each of them. Table 3 contains these words for each topic. This analysis largely confirmed our observations from the representative letters. Concussion Symptom Recognition letters were more likely to include references to specific symptoms (e.g., vision, balanc, concentr) while General Concussion Knowledge letters were more likely to include references to the likely causes and ways to prevent concussions (e.g., blow, caus, prevent). The Decision to Tell/Not Tell letters included references to the risks of not telling and the treatment In the future, I hope that I start to take notice of the symptoms of concussions in other people around me. To be truthful, I never really think about or suspect that someone else has a concussion if they are tired, or have a headache. I assume that it is a lack of sleep, or maybe a minor injury that might be causing their symptoms. However, I need to start keeping concussions at the forefront of my mind so that if I see a symptom, I can possibly bring up a concussion as a possibility. Specifically to me, I would like to make sure that I wear my helmet correctly. I usually wear a helmet when biking around campus on a daily basis, but to be honest, I know that I do not wear it as tightly or properly as I should. I should get a helmet that better fits my head, or try to wear my hair in a way that actually allows the helmet to fit my head properly in order to prevent a concussion in case of a fall or accident. I need to remember just because that I am not in a contact sport that it is very possible to get a concussion. If I fall and either hit my head or have whiplash that causes my brain to jar. Also if this does happen that I need to be aware that some of the symptoms might not be immediate that some will occur over time.",
+        "That to be very cautious while in my sport and understand what the symptoms are. If I do experience symptoms of a concussion that I shouldn't be nervous to report them because I rather be out for a shorter period of time then let it get worse and cause permanent damage to my brain and possible take me out of my sport for a longer period of time or even forever. That I need to report the possible concussion symptoms right as I notice them because if caught sooner the better chance I have to get back to the sport and regular activities I enjoy doing. Concussions are very dangerous and can change your life. They can be especially dangerous when gone unreported because getting hit while currently concussed can cause major damage and even death. Boxing is not a sport to be messing around with concussions because the chance of getting hit in the head next time you step in the ring is 100%. You are not Floyd Mayweather."
+      ],
+      "footnotes": [],
+      "text": "We examined the 20 most frequently occurring word stems in each topic to explore what was unique to each of them. Table 3 contains these words for each topic. This analysis largely confirmed our observations from the representative letters. Concussion Symptom Recognition letters were more likely to include references to specific symptoms (e.g., vision, balanc, concentr) while General Concussion Knowledge letters were more likely to include references to the likely causes and ways to prevent concussions (e.g., blow, caus, prevent). The Decision to Tell/Not Tell letters included references to the risks of not telling and the treatment In the future, I hope that I start to take notice of the symptoms of concussions in other people around me. To be truthful, I never really think about or suspect that someone else has a concussion if they are tired, or have a headache. I assume that it is a lack of sleep, or maybe a minor injury that might be causing their symptoms. However, I need to start keeping concussions at the forefront of my mind so that if I see a symptom, I can possibly bring up a concussion as a possibility. Specifically to me, I would like to make sure that I wear my helmet correctly. I usually wear a helmet when biking around campus on a daily basis, but to be honest, I know that I do not wear it as tightly or properly as I should. I should get a helmet that better fits my head, or try to wear my hair in a way that actually allows the helmet to fit my head properly in order to prevent a concussion in case of a fall or accident. I need to remember just because that I am not in a contact sport that it is very possible to get a concussion. If I fall and either hit my head or have whiplash that causes my brain to jar. Also if this does happen that I need to be aware that some of the symptoms might not be immediate that some will occur over time.\n\nThat to be very cautious while in my sport and understand what the symptoms are. If I do experience symptoms of a concussion that I shouldn't be nervous to report them because I rather be out for a shorter period of time then let it get worse and cause permanent damage to my brain and possible take me out of my sport for a longer period of time or even forever. That I need to report the possible concussion symptoms right as I notice them because if caught sooner the better chance I have to get back to the sport and regular activities I enjoy doing. Concussions are very dangerous and can change your life. They can be especially dangerous when gone unreported because getting hit while currently concussed can cause major damage and even death. Boxing is not a sport to be messing around with concussions because the chance of getting hit in the head next time you step in the ring is 100%. You are not Floyd Mayweather.",
+      "text_with_footnotes": "We examined the 20 most frequently occurring word stems in each topic to explore what was unique to each of them. Table 3 contains these words for each topic. This analysis largely confirmed our observations from the representative letters. Concussion Symptom Recognition letters were more likely to include references to specific symptoms (e.g., vision, balanc, concentr) while General Concussion Knowledge letters were more likely to include references to the likely causes and ways to prevent concussions (e.g., blow, caus, prevent). The Decision to Tell/Not Tell letters included references to the risks of not telling and the treatment In the future, I hope that I start to take notice of the symptoms of concussions in other people around me. To be truthful, I never really think about or suspect that someone else has a concussion if they are tired, or have a headache. I assume that it is a lack of sleep, or maybe a minor injury that might be causing their symptoms. However, I need to start keeping concussions at the forefront of my mind so that if I see a symptom, I can possibly bring up a concussion as a possibility. Specifically to me, I would like to make sure that I wear my helmet correctly. I usually wear a helmet when biking around campus on a daily basis, but to be honest, I know that I do not wear it as tightly or properly as I should. I should get a helmet that better fits my head, or try to wear my hair in a way that actually allows the helmet to fit my head properly in order to prevent a concussion in case of a fall or accident. I need to remember just because that I am not in a contact sport that it is very possible to get a concussion. If I fall and either hit my head or have whiplash that causes my brain to jar. Also if this does happen that I need to be aware that some of the symptoms might not be immediate that some will occur over time.\n\nThat to be very cautious while in my sport and understand what the symptoms are. If I do experience symptoms of a concussion that I shouldn't be nervous to report them because I rather be out for a shorter period of time then let it get worse and cause permanent damage to my brain and possible take me out of my sport for a longer period of time or even forever. That I need to report the possible concussion symptoms right as I notice them because if caught sooner the better chance I have to get back to the sport and regular activities I enjoy doing. Concussions are very dangerous and can change your life. They can be especially dangerous when gone unreported because getting hit while currently concussed can cause major damage and even death. Boxing is not a sport to be messing around with concussions because the chance of getting hit in the head next time you step in the ring is 100%. You are not Floyd Mayweather.",
+      "preview_head": "We examined the 20 most frequently occurring word stems in each topic to explore what was unique to each of them. Table 3 contains these words for each topic. This analysis largely confirmed our observations from the representative letters.",
+      "preview_tail": "They can be especially dangerous when gone unreported because getting hit while currently concussed can cause major damage and even death. Boxing is not a sport to be messing around with concussions because the chance of getting hit in the head next time you step in the ring is 100%. You are not Floyd Mayweather.",
+      "word_count": 517,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes the comparison of topics and the unique word stems found in each, reporting the results o"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Variation by educational intervention",
+      "header_norm": "variation by educational intervention",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Examining the topic prevalence by educational intervention, we saw that the intended content was received. Fig. 1 presents these results. Prevalence of the Concussion Symptom Recognition topic was higher for Revised Symptom education (47% of the letters) compared to Traditional Concussion (8%) or Consequence-based (1%) education. There was a significant difference between Revised Symptom education and Traditional Concussion education (t = 15.573, p < .001). There was also a significant difference between Consequence-based letters and Traditional Concussion education letters (t = -2.977, p = .003).",
+        "Prevalence of the General Concussion Knowledge topic was higher for Traditional Concussion education (39%) than for Revised Symptom (8%) or Consequence-based education (3%). There was a significant difference between Traditional Concussion and Revised Symptom education (t = -11.31, p < .001) and between Traditional Concussion and Consequence-based education (t = -13.23, p < .001).",
+        "Prevalence of the Decision to Tell/Not Tell was higher for Consequence-based education (45%) than for Revised Symptom (5%) or Traditional Concussion (3%) education. There was no significant difference between Traditional Concussion and Revised Symptom education (t = 1.219, p = .223). There was a significant difference between Traditional Concussion and Consequence-based education (t = 16.479, p < .001).",
+        "The next question we addressed was the prevalence of outcome topics by intervention. As shown in Fig. 2, Traditional Concussion (21%) and Revised Symptom (17%) interventions were more likely to produce language related to Awareness and Action than Consequence-based education (8%). There was no significant difference between Traditional Concussion and Revised Symptom education (t = -1.484, p = .138). There was a significant difference between Traditional Concussion and Consequence-based education (t = -4.805, p < .001).",
+        "Consequence-based education had a higher prevalence of the Concussion Seriousness topic (23%) than Traditional Concussion (13%) or Revised Symptom (12%) education. There was no significant difference between Traditional Concussion and Revised Symptom education (t = 0.370, p = .771). There was a significant difference between Traditional Concussion and Consequence-based education (t = 3.654, p < .001).",
+        "Twenty percent of the Consequence-based education letters included the Importance of Brain Health. This topic appeared in 16% of the Traditional Concussion education letters and 11% of the Revised Symptom education letters. There was no significant difference between Traditional Concussion and Consequence-based education (t = 1.548, p = .122) or between Traditional Concussion and Revised Symptom education (t = 1.950, p = .052). Fig. 1. Topic prevalence for educational content topics by educational intervention Note: Topic prevalence is the proportion of letters that are associated with a particular topic. In topic modeling, each letter is assigned a probability distribution across multiple topics. The prevalence of a given topic is weighted prevalence across the corpus."
+      ],
+      "footnotes": [],
+      "text": "Examining the topic prevalence by educational intervention, we saw that the intended content was received. Fig. 1 presents these results. Prevalence of the Concussion Symptom Recognition topic was higher for Revised Symptom education (47% of the letters) compared to Traditional Concussion (8%) or Consequence-based (1%) education. There was a significant difference between Revised Symptom education and Traditional Concussion education (t = 15.573, p < .001). There was also a significant difference between Consequence-based letters and Traditional Concussion education letters (t = -2.977, p = .003).\n\nPrevalence of the General Concussion Knowledge topic was higher for Traditional Concussion education (39%) than for Revised Symptom (8%) or Consequence-based education (3%). There was a significant difference between Traditional Concussion and Revised Symptom education (t = -11.31, p < .001) and between Traditional Concussion and Consequence-based education (t = -13.23, p < .001).\n\nPrevalence of the Decision to Tell/Not Tell was higher for Consequence-based education (45%) than for Revised Symptom (5%) or Traditional Concussion (3%) education. There was no significant difference between Traditional Concussion and Revised Symptom education (t = 1.219, p = .223). There was a significant difference between Traditional Concussion and Consequence-based education (t = 16.479, p < .001).\n\nThe next question we addressed was the prevalence of outcome topics by intervention. As shown in Fig. 2, Traditional Concussion (21%) and Revised Symptom (17%) interventions were more likely to produce language related to Awareness and Action than Consequence-based education (8%). There was no significant difference between Traditional Concussion and Revised Symptom education (t = -1.484, p = .138). There was a significant difference between Traditional Concussion and Consequence-based education (t = -4.805, p < .001).\n\nConsequence-based education had a higher prevalence of the Concussion Seriousness topic (23%) than Traditional Concussion (13%) or Revised Symptom (12%) education. There was no significant difference between Traditional Concussion and Revised Symptom education (t = 0.370, p = .771). There was a significant difference between Traditional Concussion and Consequence-based education (t = 3.654, p < .001).\n\nTwenty percent of the Consequence-based education letters included the Importance of Brain Health. This topic appeared in 16% of the Traditional Concussion education letters and 11% of the Revised Symptom education letters. There was no significant difference between Traditional Concussion and Consequence-based education (t = 1.548, p = .122) or between Traditional Concussion and Revised Symptom education (t = 1.950, p = .052). Fig. 1. Topic prevalence for educational content topics by educational intervention Note: Topic prevalence is the proportion of letters that are associated with a particular topic. In topic modeling, each letter is assigned a probability distribution across multiple topics. The prevalence of a given topic is weighted prevalence across the corpus.",
+      "text_with_footnotes": "Examining the topic prevalence by educational intervention, we saw that the intended content was received. Fig. 1 presents these results. Prevalence of the Concussion Symptom Recognition topic was higher for Revised Symptom education (47% of the letters) compared to Traditional Concussion (8%) or Consequence-based (1%) education. There was a significant difference between Revised Symptom education and Traditional Concussion education (t = 15.573, p < .001). There was also a significant difference between Consequence-based letters and Traditional Concussion education letters (t = -2.977, p = .003).\n\nPrevalence of the General Concussion Knowledge topic was higher for Traditional Concussion education (39%) than for Revised Symptom (8%) or Consequence-based education (3%). There was a significant difference between Traditional Concussion and Revised Symptom education (t = -11.31, p < .001) and between Traditional Concussion and Consequence-based education (t = -13.23, p < .001).\n\nPrevalence of the Decision to Tell/Not Tell was higher for Consequence-based education (45%) than for Revised Symptom (5%) or Traditional Concussion (3%) education. There was no significant difference between Traditional Concussion and Revised Symptom education (t = 1.219, p = .223). There was a significant difference between Traditional Concussion and Consequence-based education (t = 16.479, p < .001).\n\nThe next question we addressed was the prevalence of outcome topics by intervention. As shown in Fig. 2, Traditional Concussion (21%) and Revised Symptom (17%) interventions were more likely to produce language related to Awareness and Action than Consequence-based education (8%). There was no significant difference between Traditional Concussion and Revised Symptom education (t = -1.484, p = .138). There was a significant difference between Traditional Concussion and Consequence-based education (t = -4.805, p < .001).\n\nConsequence-based education had a higher prevalence of the Concussion Seriousness topic (23%) than Traditional Concussion (13%) or Revised Symptom (12%) education. There was no significant difference between Traditional Concussion and Revised Symptom education (t = 0.370, p = .771). There was a significant difference between Traditional Concussion and Consequence-based education (t = 3.654, p < .001).\n\nTwenty percent of the Consequence-based education letters included the Importance of Brain Health. This topic appeared in 16% of the Traditional Concussion education letters and 11% of the Revised Symptom education letters. There was no significant difference between Traditional Concussion and Consequence-based education (t = 1.548, p = .122) or between Traditional Concussion and Revised Symptom education (t = 1.950, p = .052). Fig. 1. Topic prevalence for educational content topics by educational intervention Note: Topic prevalence is the proportion of letters that are associated with a particular topic. In topic modeling, each letter is assigned a probability distribution across multiple topics. The prevalence of a given topic is weighted prevalence across the corpus.",
+      "preview_head": "Examining the topic prevalence by educational intervention, we saw that the intended content was received. Fig. 1 presents these results. Prevalence of the Concussion Symptom Recognition topic was higher for Revised Symptom education (47% of the letters) compared to Traditional Concussion (8%) or Consequence-based (1%) education. There was a significant difference between Revised Symptom education and Traditional Concussion education (t = 15.573, p < .001).",
+      "preview_tail": "Topic prevalence for educational content topics by educational intervention Note: Topic prevalence is the proportion of letters that are associated with a particular topic. In topic modeling, each letter is assigned a probability distribution across multiple topics. The prevalence of a given topic is weighted prevalence across the corpus.",
+      "word_count": 443,
+      "paragraph_count": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings of the study, specifically the prevalence of topics by educational"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "Discussion and conclusion",
+      "header_norm": "discussion and conclusion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "_container_demoted": true,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.6,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.4,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "merged_section:DISCUSSION+CONCLUSION",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Discussion",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "In this paper, we examined whether a letter to their future self analyzed using STM provides an effective means for evaluating healthcare education. Our hypothesis was that this method would provide depth of insights normally derived from qualitative evaluations with the ease and analytical approach of quantitative evaluations; thereby overcoming the limitations and tradeoffs of selecting one approach or using mixed methods. Using 453 letters written by collegiate club sport athletes during an experiment testing three educational interventions, we found that a single open-ended request (i.e., write a letter to your future self based on what you heard and saw) analyzed using STM was able to generate meaningful evaluative information and to associate the prevalence of these topics with the interventions.",
+        "The letter exercise provides an opportunity to \"hear\" the participant firsthand. In the six-topic solution, the participant narratives described the educational content as Concussion Symptom Recognition, General Concussion Knowledge, and Decision to Tell/Not Tell. In the three outcome-focused topics (i.e., Awareness and Action, Concussion Seriousness, and Importance of Brain Health), the participants described how they felt they should apply the material in their own future decisions. The representative letters from each topic provide rich insights into the specific content that was most likely to stick with the participant as well as the language participants used to express their hopes for future behavior.",
+        "Prevalence data allowed us to examine the extent to which the intended message of each educational intervention was likely internalized by the participants. Topic prevalence for the educational content suggests that the intended messages were received, although the percentages indicate room for improvement. Topic prevalence for the outcomes suggest that Traditional Concussion and Revised Symptom education were the most effective in generating Awareness and Action while Consequence-based education was the most effective in generating a recognition of Concussion Seriousness. The three interventions generated similar recognition for the Importance of Brain Health. With those insights, health educators could examine representative letters to explore reasons that might inform the evolution of educational content.",
+        "Thus, we were successful in extracting useful insights from the letter to my future self exercise as an evaluative method. The letters, analyzed with STM, provided an opportunity to move past assessing the knowledge transfer to an understanding of the integration into the participant's thought process. Implementation of the single request to write a letter to your future self is straightforward. The application of STM is becoming more straightforward although there is likely a learning curve. For future researchers and practitioners interested in adopting our approach, we outline four concrete steps as follows: 1) invite participants to write a one to two-paragraph letter to themselves describing what they hope to remember; 2) employ STM to generate multiple Fig. 2. Topic prevalence for educational outcome topics by educational intervention Note: Topic prevalence is the proportion of letters that are associated with a particular topic. In topic modeling, each letter is assigned a probability distribution across multiple topics. The prevalence of a given topic is weighted prevalence across the corpus. candidate topic solutions using the stm R Package [29] foot_2 ; 3) compare the multiple topic models using available indicators and expert judgment to interpret and choose the best solution(s); and 4) evaluate the intervention effectiveness using topic prevalence.",
+        "Writing a letter to your future self may offer benefits that go beyond educational evaluation. Existing research on the effect of such letters on present and future self-continuity [15][16][17] suggests that such letters encourage the integration of educational content into decision processes merely by inviting participants to reflect and elaborate on the materials. Such reflection and elaboration can influence future behavior by providing a greater sense of the connection to their future self. While the ability to imagine a future is a key element of being human [32], the study of future-oriented and solution-focused therapies is emerging [33]. Future-self continuity has been suggested to encourage adaptive health behavior by creating a temporal shift for participants with heightened awareness of the future well-being implications of current actions [34]. Previous literature demonstrates this effect in a variety of areas including safer sexual behaviors [35], substance use [36], binge-drinking [37], smoking [38], and diet/exercise [39].",
+        "Past research suggests that education may be insufficient to produce improvements in health [3][4][5]. However, our findings suggest that this apparent insufficiency of education might stem from a lack of focus on patient-centered innovation in educational programming [7]. We believe that it is the role of evaluative methods for health education to inspire effective innovation. Patient-centric (rather than program-centric) evaluation methods such as letter to your future self are important in producing insights that inspire such innovation. With advances in natural language processing, there is an opportunity to listen more intently and openly to what the participants take away from the education without sacrificing the need for quantitative measures and comparisons. Our study demonstrates that a simple request (i.e., a letter to your future self) can generate meaningful insights into educational interventions and their effectiveness. The addition of this approach to our evaluation toolkit provides a missing tool to evaluate the effectiveness of educational programming.",
+        "Our research had limitations. Our study examined this method only in the context of concussion education. Future studies should consider whether this method is generalizable to other health-related topics. This study examined club sport athletes who have not been studied as extensively as other groups of athletes. Future studies should examine the effectiveness of this method with National Collegiate Athletic Association Division I athletes, secondary school, and other more competitive groups. Our participants were fairly homogeneous and largely non-Hispanic whites. Future research should explore this method among a more diverse population to examine generalizability to other demographic groups and geographic settings. Lastly, while the STM technique is getting easier, the initial learning curve may limit widespread application of this method in applied settings."
+      ],
+      "footnotes": [],
+      "text": "In this paper, we examined whether a letter to their future self analyzed using STM provides an effective means for evaluating healthcare education. Our hypothesis was that this method would provide depth of insights normally derived from qualitative evaluations with the ease and analytical approach of quantitative evaluations; thereby overcoming the limitations and tradeoffs of selecting one approach or using mixed methods. Using 453 letters written by collegiate club sport athletes during an experiment testing three educational interventions, we found that a single open-ended request (i.e., write a letter to your future self based on what you heard and saw) analyzed using STM was able to generate meaningful evaluative information and to associate the prevalence of these topics with the interventions.\n\nThe letter exercise provides an opportunity to \"hear\" the participant firsthand. In the six-topic solution, the participant narratives described the educational content as Concussion Symptom Recognition, General Concussion Knowledge, and Decision to Tell/Not Tell. In the three outcome-focused topics (i.e., Awareness and Action, Concussion Seriousness, and Importance of Brain Health), the participants described how they felt they should apply the material in their own future decisions. The representative letters from each topic provide rich insights into the specific content that was most likely to stick with the participant as well as the language participants used to express their hopes for future behavior.\n\nPrevalence data allowed us to examine the extent to which the intended message of each educational intervention was likely internalized by the participants. Topic prevalence for the educational content suggests that the intended messages were received, although the percentages indicate room for improvement. Topic prevalence for the outcomes suggest that Traditional Concussion and Revised Symptom education were the most effective in generating Awareness and Action while Consequence-based education was the most effective in generating a recognition of Concussion Seriousness. The three interventions generated similar recognition for the Importance of Brain Health. With those insights, health educators could examine representative letters to explore reasons that might inform the evolution of educational content.\n\nThus, we were successful in extracting useful insights from the letter to my future self exercise as an evaluative method. The letters, analyzed with STM, provided an opportunity to move past assessing the knowledge transfer to an understanding of the integration into the participant's thought process. Implementation of the single request to write a letter to your future self is straightforward. The application of STM is becoming more straightforward although there is likely a learning curve. For future researchers and practitioners interested in adopting our approach, we outline four concrete steps as follows: 1) invite participants to write a one to two-paragraph letter to themselves describing what they hope to remember; 2) employ STM to generate multiple Fig. 2. Topic prevalence for educational outcome topics by educational intervention Note: Topic prevalence is the proportion of letters that are associated with a particular topic. In topic modeling, each letter is assigned a probability distribution across multiple topics. The prevalence of a given topic is weighted prevalence across the corpus. candidate topic solutions using the stm R Package [29] foot_2 ; 3) compare the multiple topic models using available indicators and expert judgment to interpret and choose the best solution(s); and 4) evaluate the intervention effectiveness using topic prevalence.\n\nWriting a letter to your future self may offer benefits that go beyond educational evaluation. Existing research on the effect of such letters on present and future self-continuity [15][16][17] suggests that such letters encourage the integration of educational content into decision processes merely by inviting participants to reflect and elaborate on the materials. Such reflection and elaboration can influence future behavior by providing a greater sense of the connection to their future self. While the ability to imagine a future is a key element of being human [32], the study of future-oriented and solution-focused therapies is emerging [33]. Future-self continuity has been suggested to encourage adaptive health behavior by creating a temporal shift for participants with heightened awareness of the future well-being implications of current actions [34]. Previous literature demonstrates this effect in a variety of areas including safer sexual behaviors [35], substance use [36], binge-drinking [37], smoking [38], and diet/exercise [39].\n\nPast research suggests that education may be insufficient to produce improvements in health [3][4][5]. However, our findings suggest that this apparent insufficiency of education might stem from a lack of focus on patient-centered innovation in educational programming [7]. We believe that it is the role of evaluative methods for health education to inspire effective innovation. Patient-centric (rather than program-centric) evaluation methods such as letter to your future self are important in producing insights that inspire such innovation. With advances in natural language processing, there is an opportunity to listen more intently and openly to what the participants take away from the education without sacrificing the need for quantitative measures and comparisons. Our study demonstrates that a simple request (i.e., a letter to your future self) can generate meaningful insights into educational interventions and their effectiveness. The addition of this approach to our evaluation toolkit provides a missing tool to evaluate the effectiveness of educational programming.\n\nOur research had limitations. Our study examined this method only in the context of concussion education. Future studies should consider whether this method is generalizable to other health-related topics. This study examined club sport athletes who have not been studied as extensively as other groups of athletes. Future studies should examine the effectiveness of this method with National Collegiate Athletic Association Division I athletes, secondary school, and other more competitive groups. Our participants were fairly homogeneous and largely non-Hispanic whites. Future research should explore this method among a more diverse population to examine generalizability to other demographic groups and geographic settings. Lastly, while the STM technique is getting easier, the initial learning curve may limit widespread application of this method in applied settings.",
+      "text_with_footnotes": "In this paper, we examined whether a letter to their future self analyzed using STM provides an effective means for evaluating healthcare education. Our hypothesis was that this method would provide depth of insights normally derived from qualitative evaluations with the ease and analytical approach of quantitative evaluations; thereby overcoming the limitations and tradeoffs of selecting one approach or using mixed methods. Using 453 letters written by collegiate club sport athletes during an experiment testing three educational interventions, we found that a single open-ended request (i.e., write a letter to your future self based on what you heard and saw) analyzed using STM was able to generate meaningful evaluative information and to associate the prevalence of these topics with the interventions.\n\nThe letter exercise provides an opportunity to \"hear\" the participant firsthand. In the six-topic solution, the participant narratives described the educational content as Concussion Symptom Recognition, General Concussion Knowledge, and Decision to Tell/Not Tell. In the three outcome-focused topics (i.e., Awareness and Action, Concussion Seriousness, and Importance of Brain Health), the participants described how they felt they should apply the material in their own future decisions. The representative letters from each topic provide rich insights into the specific content that was most likely to stick with the participant as well as the language participants used to express their hopes for future behavior.\n\nPrevalence data allowed us to examine the extent to which the intended message of each educational intervention was likely internalized by the participants. Topic prevalence for the educational content suggests that the intended messages were received, although the percentages indicate room for improvement. Topic prevalence for the outcomes suggest that Traditional Concussion and Revised Symptom education were the most effective in generating Awareness and Action while Consequence-based education was the most effective in generating a recognition of Concussion Seriousness. The three interventions generated similar recognition for the Importance of Brain Health. With those insights, health educators could examine representative letters to explore reasons that might inform the evolution of educational content.\n\nThus, we were successful in extracting useful insights from the letter to my future self exercise as an evaluative method. The letters, analyzed with STM, provided an opportunity to move past assessing the knowledge transfer to an understanding of the integration into the participant's thought process. Implementation of the single request to write a letter to your future self is straightforward. The application of STM is becoming more straightforward although there is likely a learning curve. For future researchers and practitioners interested in adopting our approach, we outline four concrete steps as follows: 1) invite participants to write a one to two-paragraph letter to themselves describing what they hope to remember; 2) employ STM to generate multiple Fig. 2. Topic prevalence for educational outcome topics by educational intervention Note: Topic prevalence is the proportion of letters that are associated with a particular topic. In topic modeling, each letter is assigned a probability distribution across multiple topics. The prevalence of a given topic is weighted prevalence across the corpus. candidate topic solutions using the stm R Package [29] foot_2 ; 3) compare the multiple topic models using available indicators and expert judgment to interpret and choose the best solution(s); and 4) evaluate the intervention effectiveness using topic prevalence.\n\nWriting a letter to your future self may offer benefits that go beyond educational evaluation. Existing research on the effect of such letters on present and future self-continuity [15][16][17] suggests that such letters encourage the integration of educational content into decision processes merely by inviting participants to reflect and elaborate on the materials. Such reflection and elaboration can influence future behavior by providing a greater sense of the connection to their future self. While the ability to imagine a future is a key element of being human [32], the study of future-oriented and solution-focused therapies is emerging [33]. Future-self continuity has been suggested to encourage adaptive health behavior by creating a temporal shift for participants with heightened awareness of the future well-being implications of current actions [34]. Previous literature demonstrates this effect in a variety of areas including safer sexual behaviors [35], substance use [36], binge-drinking [37], smoking [38], and diet/exercise [39].\n\nPast research suggests that education may be insufficient to produce improvements in health [3][4][5]. However, our findings suggest that this apparent insufficiency of education might stem from a lack of focus on patient-centered innovation in educational programming [7]. We believe that it is the role of evaluative methods for health education to inspire effective innovation. Patient-centric (rather than program-centric) evaluation methods such as letter to your future self are important in producing insights that inspire such innovation. With advances in natural language processing, there is an opportunity to listen more intently and openly to what the participants take away from the education without sacrificing the need for quantitative measures and comparisons. Our study demonstrates that a simple request (i.e., a letter to your future self) can generate meaningful insights into educational interventions and their effectiveness. The addition of this approach to our evaluation toolkit provides a missing tool to evaluate the effectiveness of educational programming.\n\nOur research had limitations. Our study examined this method only in the context of concussion education. Future studies should consider whether this method is generalizable to other health-related topics. This study examined club sport athletes who have not been studied as extensively as other groups of athletes. Future studies should examine the effectiveness of this method with National Collegiate Athletic Association Division I athletes, secondary school, and other more competitive groups. Our participants were fairly homogeneous and largely non-Hispanic whites. Future research should explore this method among a more diverse population to examine generalizability to other demographic groups and geographic settings. Lastly, while the STM technique is getting easier, the initial learning curve may limit widespread application of this method in applied settings.",
+      "preview_head": "In this paper, we examined whether a letter to their future self analyzed using STM provides an effective means for evaluating healthcare education. Our hypothesis was that this method would provide depth of insights normally derived from qualitative evaluations with the ease and analytical approach of quantitative evaluations; thereby overcoming the limitations and tradeoffs of selecting one approach or using mixed methods. Using 453 letters written by collegiate club sport athletes during an experiment testing three educational interventions, we found that a single open-ended request (i.e., write a letter to your future self based on what you heard and saw) analyzed using STM was able to generate meaningful evaluative information and to associate the prevalence of these topics with the interventions.",
+      "preview_tail": "Our participants were fairly homogeneous and largely non-Hispanic whites. Future research should explore this method among a more diverse population to examine generalizability to other demographic groups and geographic settings. Lastly, while the STM technique is getting easier, the initial learning curve may limit widespread application of this method in applied settings.",
+      "word_count": 971,
+      "paragraph_count": 7,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*discussion\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*discussion\\s*$",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Conclusion",
+      "header_norm": "conclusion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Unstructured user-generated data in the form of a \"letter to my future self\" analyzed using structural topic modeling provides a novel tool that leverages qualitative and quantitative insight to provide evidence of the impact of educational interventions and inspiration for innovation in healthcare education."
+      ],
+      "footnotes": [],
+      "text": "Unstructured user-generated data in the form of a \"letter to my future self\" analyzed using structural topic modeling provides a novel tool that leverages qualitative and quantitative insight to provide evidence of the impact of educational interventions and inspiration for innovation in healthcare education.",
+      "text_with_footnotes": "Unstructured user-generated data in the form of a \"letter to my future self\" analyzed using structural topic modeling provides a novel tool that leverages qualitative and quantitative insight to provide evidence of the impact of educational interventions and inspiration for innovation in healthcare education.",
+      "preview_head": "Unstructured user-generated data in the form of a \"letter to my future self\" analyzed using structural topic modeling provides a novel tool that leverages qualitative and quantitative insight to provide evidence of the impact of educational interventions and inspiration for innovation in healthcare education.",
+      "preview_tail": "Unstructured user-generated data in the form of a \"letter to my future self\" analyzed using structural topic modeling provides a novel tool that leverages qualitative and quantitative insight to provide evidence of the impact of educational interventions and inspiration for innovation in healthcare education.",
+      "word_count": 44,
+      "paragraph_count": 1,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*conclusion(s)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*conclusion(s)?\\s*$",
+      "major_label": "CONCLUSION"
+    },
+    {
+      "paper_id": "Warmath et al. - 2024 - “Letter to my future self” as a device for assessing health education effectiveness",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "Practice implications",
+      "header_norm": "practice implications",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Clinicians are often the ones tasked with designing and implementing educational programming to produce behavioral change. Given research showing that such educational programming often does not produce intended outcomes, these clinicians are left without clear direction for changes to increase effectiveness. Our study demonstrates that letters to the future self can provide the clinician with guidance based on the participant's takeaways relative to program intentions. Using this approach, patient educators can enhance the effectiveness of education through the application of these methods to the evaluation of and innovation in programs."
+      ],
+      "footnotes": [],
+      "text": "Clinicians are often the ones tasked with designing and implementing educational programming to produce behavioral change. Given research showing that such educational programming often does not produce intended outcomes, these clinicians are left without clear direction for changes to increase effectiveness. Our study demonstrates that letters to the future self can provide the clinician with guidance based on the participant's takeaways relative to program intentions. Using this approach, patient educators can enhance the effectiveness of education through the application of these methods to the evaluation of and innovation in programs.",
+      "text_with_footnotes": "Clinicians are often the ones tasked with designing and implementing educational programming to produce behavioral change. Given research showing that such educational programming often does not produce intended outcomes, these clinicians are left without clear direction for changes to increase effectiveness. Our study demonstrates that letters to the future self can provide the clinician with guidance based on the participant's takeaways relative to program intentions. Using this approach, patient educators can enhance the effectiveness of education through the application of these methods to the evaluation of and innovation in programs.",
+      "preview_head": "Clinicians are often the ones tasked with designing and implementing educational programming to produce behavioral change. Given research showing that such educational programming often does not produce intended outcomes, these clinicians are left without clear direction for changes to increase effectiveness. Our study demonstrates that letters to the future self can provide the clinician with guidance based on the participant's takeaways relative to program intentions.",
+      "preview_tail": "Given research showing that such educational programming often does not produce intended outcomes, these clinicians are left without clear direction for changes to increase effectiveness. Our study demonstrates that letters to the future self can provide the clinician with guidance based on the participant's takeaways relative to program intentions. Using this approach, patient educators can enhance the effectiveness of education through the application of these methods to the evaluation of and innovation in programs.",
+      "word_count": 90,
+      "paragraph_count": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the study's implications for clinical practice, connecting findings to real-"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "It also summarizes the practical takeaways and closes the paper with recommendations."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "DISCUSSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 22,
+    "content_sections": 19,
+    "total_words": 4824,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 22,
+    "by_source": {
+      "heuristic": 6,
+      "llm": 14,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

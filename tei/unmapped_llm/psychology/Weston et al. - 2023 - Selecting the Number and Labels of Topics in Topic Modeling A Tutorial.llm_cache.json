@@ -1,0 +1,157 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section introduces topic modeling, its relevance, and the scope of the tutorial, framing the 'c"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section introduces topic modeling, its relevance, and the scope of the tutorial, framing the 'c"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the software and packages used for the analyses, which is a methodological detail about 'h"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the software and packages used for the analyses, which is a methodological detail about 'h"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the data cleaning steps performed by the authors, including preprocessing choices and their "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the data cleaning steps performed by the authors, including preprocessing choices and their "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the procedure for narrowing down candidate models, which is a methodological process undert"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the procedure for narrowing down candidate models, which is a methodological process undert"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of specific statistical functions and criteria for model comparison, which are met"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of specific statistical functions and criteria for model comparison, which are met"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Focuses on the evaluation and comparison of candidate models, outlining steps and considerations in "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Focuses on the evaluation and comparison of candidate models, outlining steps and considerations in "
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process and tools for labeling topics, which is a methodological step in topic modelin"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process and tools for labeling topics, which is a methodological step in topic modelin"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains a method for labeling topics using key examples and specific software functions, which is a"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains a method for labeling topics using key examples and specific software functions, which is a"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the examination of correlations among topics as a method for labeling and understanding to"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the examination of correlations among topics as a method for labeling and understanding to"
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

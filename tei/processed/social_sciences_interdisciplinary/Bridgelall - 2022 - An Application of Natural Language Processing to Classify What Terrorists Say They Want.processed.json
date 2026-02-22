@@ -1,0 +1,997 @@
+{
+  "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/social_sciences_interdisciplinary/Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want.tei.xml",
+  "metadata": {
+    "title": "An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+    "authors": [
+      "Raj Bridgelall"
+    ],
+    "journal": "Social Sciences",
+    "year": "2022",
+    "doi": "10.3390/socsci11010023",
+    "keywords": [
+      "counterterrorism",
+      "machine learning",
+      "risk modeling",
+      "sustainable societies",
+      "text mining"
+    ]
+  },
+  "abstract": "Knowing what perpetrators want can inform strategies to achieve safe, secure, and sustainable societies. To help advance the body of knowledge in counterterrorism, this research applied natural language processing and machine learning techniques to a comprehensive database of terrorism events. A specially designed empirical topic modeling technique provided a machine-aided human decision process to glean six categories of perpetrator aims from the motive text narrative. Subsequently, six different machine learning models validated the aim categories based on the accuracy of their association with a different narrative field, the event summary. The ROC-AUC scores of the classification ranged from 86% to 93%. The Extreme Gradient Boosting model provided the best predictive performance. The intelligence community can use the identified aim categories to help understand the incentive structure of terrorist groups and customize strategies for dealing with them.",
+  "sections": [
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Introduction",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Knowing the aims of terrorist attacks can help the intelligence community devise different strategies to deal with the perpetrators. Hence, the main goal of this research is to identify terrorist aims and classify them into a finite set of categories. This research defines aims of terrorists as distinctly different from the root causes of terrorism. Aims are the agenda or desired outcome of an attack (e.g., provoke a US attack upon Muslims, total war upon \"non-believers\", and the creation of a global Caliphate promoted by Al-Qaeda) whereas root causes explain the birth of terrorists (e.g., the desire to establish the Islamic rule worldwide) (Burke 2021).",
+        "There has been no internationally agreed-upon definition of terrorism (Cassese 2006). Reich (1990) submitted that no single perspective can explain the complex and diverse phenomenon of terrorism. The dominant paradigm of research in counterterrorism assumes that terrorists are rational actors that attack civilians for political ends (Géron 2017). Therefore, as rational actors, terrorists must have an agenda or aim. However, systemic models that attempt to explain aims involve a difficult tradeoff between generalizability and accuracy (Hastie et al. 2016). Abrahms (2008) suggests that there is no other question than \"What terrorists really want?\" that is more fundamental for devising effective strategies in counterterrorism. Different aims may require different strategies to deal with the perpetrators. Hence, classifying attack aims instead of root causes brings another perspective to help advance the counterterrorism agenda. The recent work of Wong et al. (2021) strongly suggested that such knowledge is integral to Government's policy responses in countering the threat of terrorism and violent extremism. Consequently, the objectives of this research are to:",
+        "1.",
+        "Apply natural language processing (NLP) techniques to extract features from the stated motive narrative of terrorist attacks to identify perpetrator aim categories (PACs). 2.",
+        "Validate the effectiveness of the PAC classification by evaluating the predictive performance of 11 different machine learning (ML) models applied to a different narrative field, the event summary. The significance of evaluating multiple types of ML models is that no single model type can best represent all datasets, which is an accepted tenant in the practice of ML (Aggarwal 2015).",
+        "Aside from identifying root causes, there has been no counterterrorism research to classify the general aims of perpetrators. Hence, this research contributes an artificial intelligence (AI) framework to help us understand what terrorists want based on a \"revealed preference\" gleaned from the narratives of what terrorists say they want. The framework combined NLP and ML techniques, both of which are subfields of AI (Aggarwal 2015), to aid human cognition in deriving the PACs. Intelligence communities can use the framework to classify motive narratives and guide decisions about the types of resources and mitigation efforts needed to best address the PAC identified for an event. Examples of resources are experts in certain fields of psychology, sociology, policymaking, law-enforcement, churches, and education. Knowing the PAC can guide more cost-effective selection of the appropriate resources much earlier in the counterterrorism effort.",
+        "The remainder of this article is organized as follows: Section 2 reviews related works to characterize terrorist motives. Section 3 applies NLP to extract PACs and Section 4 validates the classification using ML techniques. Section 5 discusses the significance of the classification results and the effectiveness of the AI methods. Section 6 recaps the approach, the current findings, and points to future work to examine group activity patterns and their association with the identified PACs. Krieger and Meierrieks (2011) cautioned that the phenomenon of terrorism is too complex to be reduced only a single root cause and panacea. Maszka (2018) found that although theoretical models in terrorism studies are useful, greater accuracy requires greater complexity. Recent analysis found that academic efforts to study the effectiveness of counterterrorism strategies are lacking (Balestrini 2021). Scholars in the literature on terrorism studies tend to analyze motives from one of three perspectives: (1) root causes, (2) planned impacts on the public, and (3) aims of the perpetrators. The next three subsections summarize the literature on each analytical perspective. The fourth subsection discusses related work that applied ML to better understand various aspects of terrorism."
+      ],
+      "footnotes": [],
+      "text": "Knowing the aims of terrorist attacks can help the intelligence community devise different strategies to deal with the perpetrators. Hence, the main goal of this research is to identify terrorist aims and classify them into a finite set of categories. This research defines aims of terrorists as distinctly different from the root causes of terrorism. Aims are the agenda or desired outcome of an attack (e.g., provoke a US attack upon Muslims, total war upon \"non-believers\", and the creation of a global Caliphate promoted by Al-Qaeda) whereas root causes explain the birth of terrorists (e.g., the desire to establish the Islamic rule worldwide) (Burke 2021).\n\nThere has been no internationally agreed-upon definition of terrorism (Cassese 2006). Reich (1990) submitted that no single perspective can explain the complex and diverse phenomenon of terrorism. The dominant paradigm of research in counterterrorism assumes that terrorists are rational actors that attack civilians for political ends (Géron 2017). Therefore, as rational actors, terrorists must have an agenda or aim. However, systemic models that attempt to explain aims involve a difficult tradeoff between generalizability and accuracy (Hastie et al. 2016). Abrahms (2008) suggests that there is no other question than \"What terrorists really want?\" that is more fundamental for devising effective strategies in counterterrorism. Different aims may require different strategies to deal with the perpetrators. Hence, classifying attack aims instead of root causes brings another perspective to help advance the counterterrorism agenda. The recent work of Wong et al. (2021) strongly suggested that such knowledge is integral to Government's policy responses in countering the threat of terrorism and violent extremism. Consequently, the objectives of this research are to:\n\n1.\n\nApply natural language processing (NLP) techniques to extract features from the stated motive narrative of terrorist attacks to identify perpetrator aim categories (PACs). 2.\n\nValidate the effectiveness of the PAC classification by evaluating the predictive performance of 11 different machine learning (ML) models applied to a different narrative field, the event summary. The significance of evaluating multiple types of ML models is that no single model type can best represent all datasets, which is an accepted tenant in the practice of ML (Aggarwal 2015).\n\nAside from identifying root causes, there has been no counterterrorism research to classify the general aims of perpetrators. Hence, this research contributes an artificial intelligence (AI) framework to help us understand what terrorists want based on a \"revealed preference\" gleaned from the narratives of what terrorists say they want. The framework combined NLP and ML techniques, both of which are subfields of AI (Aggarwal 2015), to aid human cognition in deriving the PACs. Intelligence communities can use the framework to classify motive narratives and guide decisions about the types of resources and mitigation efforts needed to best address the PAC identified for an event. Examples of resources are experts in certain fields of psychology, sociology, policymaking, law-enforcement, churches, and education. Knowing the PAC can guide more cost-effective selection of the appropriate resources much earlier in the counterterrorism effort.\n\nThe remainder of this article is organized as follows: Section 2 reviews related works to characterize terrorist motives. Section 3 applies NLP to extract PACs and Section 4 validates the classification using ML techniques. Section 5 discusses the significance of the classification results and the effectiveness of the AI methods. Section 6 recaps the approach, the current findings, and points to future work to examine group activity patterns and their association with the identified PACs. Krieger and Meierrieks (2011) cautioned that the phenomenon of terrorism is too complex to be reduced only a single root cause and panacea. Maszka (2018) found that although theoretical models in terrorism studies are useful, greater accuracy requires greater complexity. Recent analysis found that academic efforts to study the effectiveness of counterterrorism strategies are lacking (Balestrini 2021). Scholars in the literature on terrorism studies tend to analyze motives from one of three perspectives: (1) root causes, (2) planned impacts on the public, and (3) aims of the perpetrators. The next three subsections summarize the literature on each analytical perspective. The fourth subsection discusses related work that applied ML to better understand various aspects of terrorism.",
+      "text_with_footnotes": "Knowing the aims of terrorist attacks can help the intelligence community devise different strategies to deal with the perpetrators. Hence, the main goal of this research is to identify terrorist aims and classify them into a finite set of categories. This research defines aims of terrorists as distinctly different from the root causes of terrorism. Aims are the agenda or desired outcome of an attack (e.g., provoke a US attack upon Muslims, total war upon \"non-believers\", and the creation of a global Caliphate promoted by Al-Qaeda) whereas root causes explain the birth of terrorists (e.g., the desire to establish the Islamic rule worldwide) (Burke 2021).\n\nThere has been no internationally agreed-upon definition of terrorism (Cassese 2006). Reich (1990) submitted that no single perspective can explain the complex and diverse phenomenon of terrorism. The dominant paradigm of research in counterterrorism assumes that terrorists are rational actors that attack civilians for political ends (Géron 2017). Therefore, as rational actors, terrorists must have an agenda or aim. However, systemic models that attempt to explain aims involve a difficult tradeoff between generalizability and accuracy (Hastie et al. 2016). Abrahms (2008) suggests that there is no other question than \"What terrorists really want?\" that is more fundamental for devising effective strategies in counterterrorism. Different aims may require different strategies to deal with the perpetrators. Hence, classifying attack aims instead of root causes brings another perspective to help advance the counterterrorism agenda. The recent work of Wong et al. (2021) strongly suggested that such knowledge is integral to Government's policy responses in countering the threat of terrorism and violent extremism. Consequently, the objectives of this research are to:\n\n1.\n\nApply natural language processing (NLP) techniques to extract features from the stated motive narrative of terrorist attacks to identify perpetrator aim categories (PACs). 2.\n\nValidate the effectiveness of the PAC classification by evaluating the predictive performance of 11 different machine learning (ML) models applied to a different narrative field, the event summary. The significance of evaluating multiple types of ML models is that no single model type can best represent all datasets, which is an accepted tenant in the practice of ML (Aggarwal 2015).\n\nAside from identifying root causes, there has been no counterterrorism research to classify the general aims of perpetrators. Hence, this research contributes an artificial intelligence (AI) framework to help us understand what terrorists want based on a \"revealed preference\" gleaned from the narratives of what terrorists say they want. The framework combined NLP and ML techniques, both of which are subfields of AI (Aggarwal 2015), to aid human cognition in deriving the PACs. Intelligence communities can use the framework to classify motive narratives and guide decisions about the types of resources and mitigation efforts needed to best address the PAC identified for an event. Examples of resources are experts in certain fields of psychology, sociology, policymaking, law-enforcement, churches, and education. Knowing the PAC can guide more cost-effective selection of the appropriate resources much earlier in the counterterrorism effort.\n\nThe remainder of this article is organized as follows: Section 2 reviews related works to characterize terrorist motives. Section 3 applies NLP to extract PACs and Section 4 validates the classification using ML techniques. Section 5 discusses the significance of the classification results and the effectiveness of the AI methods. Section 6 recaps the approach, the current findings, and points to future work to examine group activity patterns and their association with the identified PACs. Krieger and Meierrieks (2011) cautioned that the phenomenon of terrorism is too complex to be reduced only a single root cause and panacea. Maszka (2018) found that although theoretical models in terrorism studies are useful, greater accuracy requires greater complexity. Recent analysis found that academic efforts to study the effectiveness of counterterrorism strategies are lacking (Balestrini 2021). Scholars in the literature on terrorism studies tend to analyze motives from one of three perspectives: (1) root causes, (2) planned impacts on the public, and (3) aims of the perpetrators. The next three subsections summarize the literature on each analytical perspective. The fourth subsection discusses related work that applied ML to better understand various aspects of terrorism.",
+      "preview_head": "Knowing the aims of terrorist attacks can help the intelligence community devise different strategies to deal with the perpetrators. Hence, the main goal of this research is to identify terrorist aims and classify them into a finite set of categories. This research defines aims of terrorists as distinctly different from the root causes of terrorism.",
+      "preview_tail": "Scholars in the literature on terrorism studies tend to analyze motives from one of three perspectives: (1) root causes, (2) planned impacts on the public, and (3) aims of the perpetrators. The next three subsections summarize the literature on each analytical perspective. The fourth subsection discusses related work that applied ML to better understand various aspects of terrorism.",
+      "word_count": 685,
+      "paragraph_count": 7,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Literature Review",
+      "header_norm": "literature review",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Root Causes",
+      "header_norm": "root causes",
+      "container_raw": "Literature Review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "Treistman (2021) observed that research on the causes of terrorism tends to focus on macroscopic trends at the national level without considering contextual factors such as social exclusion that affect individuals. An analysis of 44 terrorist organizations listed by the European Union found that 45% of them were politically motivated, nearly the same proportion was social-revolutionary motivated, while religiously motivated groups accounted for about 10% of the total (Rothenberger and Müller 2015). An earlier study highlighted racism as a root cause (Björgo 1993). Araújo et al. (2020) found that the perception of immigrants as a threat affected social attitudes towards foreign groups. A more recent study discussed the role of shame and revenge as a root cause in terrorism (Cottee 2021). Rigterink (2021) also recently found evidence that revenge explained the increase in terrorist attacks after the assassination of a terrorist leader. Van Um (2011) characterized root causes of terrorism based on need, such as the desire for unit-reinforcement and self-enrichment. Coccia (2018) presented statistical evidence that fatalities associated with terrorism are in regions where high population growth rates may result in inequality, subsistence stress and deprivation.",
+        "Awareness of the need for self-enrichment increased with the proliferation of modern communications and social media (Höflinger 2021). On the other hand, user-generated data from social media can help analysts to profile users but the noise generated and data size proliferation can pose significant challenges (Bilal et al. 2019). Höflinger (2021) posits that modern communications technologies has blurred the boundaries between the actions of terror organizations and individuals. Monahan and Valeri (2018) posits that terrorists aim to maximize fear to achieve their strategic objectives. Terrorists seek attention and even claim responsibility for their acts (Morley and Leslie 2007). Masuku et al. (2021) found that terrorists use propaganda to expand their operations and seek sympathizers. News of terrorist attacks can threaten audiences' perceptions of societal safety (Tamborini et al. 2020). Hence, crowded urban areas are typically prime targets (Coaffee 2009). Canetti et al. (2021) found that hatemotivated attacks elicited stronger reactions from the public. One study found that among the tactics used, mass shootings and suicide bombings tend to result in the most causalities (Arce 2019)."
+      ],
+      "footnotes": [],
+      "text": "Treistman (2021) observed that research on the causes of terrorism tends to focus on macroscopic trends at the national level without considering contextual factors such as social exclusion that affect individuals. An analysis of 44 terrorist organizations listed by the European Union found that 45% of them were politically motivated, nearly the same proportion was social-revolutionary motivated, while religiously motivated groups accounted for about 10% of the total (Rothenberger and Müller 2015). An earlier study highlighted racism as a root cause (Björgo 1993). Araújo et al. (2020) found that the perception of immigrants as a threat affected social attitudes towards foreign groups. A more recent study discussed the role of shame and revenge as a root cause in terrorism (Cottee 2021). Rigterink (2021) also recently found evidence that revenge explained the increase in terrorist attacks after the assassination of a terrorist leader. Van Um (2011) characterized root causes of terrorism based on need, such as the desire for unit-reinforcement and self-enrichment. Coccia (2018) presented statistical evidence that fatalities associated with terrorism are in regions where high population growth rates may result in inequality, subsistence stress and deprivation.\n\nAwareness of the need for self-enrichment increased with the proliferation of modern communications and social media (Höflinger 2021). On the other hand, user-generated data from social media can help analysts to profile users but the noise generated and data size proliferation can pose significant challenges (Bilal et al. 2019). Höflinger (2021) posits that modern communications technologies has blurred the boundaries between the actions of terror organizations and individuals. Monahan and Valeri (2018) posits that terrorists aim to maximize fear to achieve their strategic objectives. Terrorists seek attention and even claim responsibility for their acts (Morley and Leslie 2007). Masuku et al. (2021) found that terrorists use propaganda to expand their operations and seek sympathizers. News of terrorist attacks can threaten audiences' perceptions of societal safety (Tamborini et al. 2020). Hence, crowded urban areas are typically prime targets (Coaffee 2009). Canetti et al. (2021) found that hatemotivated attacks elicited stronger reactions from the public. One study found that among the tactics used, mass shootings and suicide bombings tend to result in the most causalities (Arce 2019).",
+      "text_with_footnotes": "Treistman (2021) observed that research on the causes of terrorism tends to focus on macroscopic trends at the national level without considering contextual factors such as social exclusion that affect individuals. An analysis of 44 terrorist organizations listed by the European Union found that 45% of them were politically motivated, nearly the same proportion was social-revolutionary motivated, while religiously motivated groups accounted for about 10% of the total (Rothenberger and Müller 2015). An earlier study highlighted racism as a root cause (Björgo 1993). Araújo et al. (2020) found that the perception of immigrants as a threat affected social attitudes towards foreign groups. A more recent study discussed the role of shame and revenge as a root cause in terrorism (Cottee 2021). Rigterink (2021) also recently found evidence that revenge explained the increase in terrorist attacks after the assassination of a terrorist leader. Van Um (2011) characterized root causes of terrorism based on need, such as the desire for unit-reinforcement and self-enrichment. Coccia (2018) presented statistical evidence that fatalities associated with terrorism are in regions where high population growth rates may result in inequality, subsistence stress and deprivation.\n\nAwareness of the need for self-enrichment increased with the proliferation of modern communications and social media (Höflinger 2021). On the other hand, user-generated data from social media can help analysts to profile users but the noise generated and data size proliferation can pose significant challenges (Bilal et al. 2019). Höflinger (2021) posits that modern communications technologies has blurred the boundaries between the actions of terror organizations and individuals. Monahan and Valeri (2018) posits that terrorists aim to maximize fear to achieve their strategic objectives. Terrorists seek attention and even claim responsibility for their acts (Morley and Leslie 2007). Masuku et al. (2021) found that terrorists use propaganda to expand their operations and seek sympathizers. News of terrorist attacks can threaten audiences' perceptions of societal safety (Tamborini et al. 2020). Hence, crowded urban areas are typically prime targets (Coaffee 2009). Canetti et al. (2021) found that hatemotivated attacks elicited stronger reactions from the public. One study found that among the tactics used, mass shootings and suicide bombings tend to result in the most causalities (Arce 2019).",
+      "preview_head": "Treistman (2021) observed that research on the causes of terrorism tends to focus on macroscopic trends at the national level without considering contextual factors such as social exclusion that affect individuals. An analysis of 44 terrorist organizations listed by the European Union found that 45% of them were politically motivated, nearly the same proportion was social-revolutionary motivated, while religiously motivated groups accounted for about 10% of the total (Rothenberger and Müller 2015). An earlier study highlighted racism as a root cause (Björgo 1993).",
+      "preview_tail": "Hence, crowded urban areas are typically prime targets (Coaffee 2009). Canetti et al. (2021) found that hatemotivated attacks elicited stronger reactions from the public. One study found that among the tactics used, mass shootings and suicide bombings tend to result in the most causalities (Arce 2019).",
+      "word_count": 362,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior research on the causes of terrorism, citing multiple studies and findings from"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior research on the causes of terrorism, citing multiple studies and findings from"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Planned Impacts",
+      "header_norm": "planned impacts",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Terrorist Aims",
+      "header_norm": "terrorist aims",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "For studies in counterterrorism strategies, it is crucial to understand the decision processes of terrorists if we wish to plan countermeasures (Jaspersen and Montibeller 2020). Research found that deterrence requires knowledge about terrorist aims to inform proactive policies that can deter attacks (Enders and Su 2007). Kydd and Walter (2006) suggest that the aims of terrorists are to change minds through five strategies: attrition, intimidation, provocation, spoiling, and outbidding. Cottee and Hayward (2011) characterized terrorist motives from the perspective of three desires-the need for excitement, ultimate meaning, and glory. Kurtulus (2017) found evidence that terrorists aim to mobilize their constituency, avenge their fallen associates, and physically destroy their perceived enemies. Abrahms (2008) offered that the most common strategies to fight terrorism are to diminish the aims via strict no-concession policies or via appeasement. However, the aims of terrorist leaders and their operatives may be misaligned. In an analysis of terrorist propaganda videos, Abrahms et al. (2017) found that the operatives of terrorist leaders commit more indiscriminate violence than their leaders favor."
+      ],
+      "footnotes": [],
+      "text": "For studies in counterterrorism strategies, it is crucial to understand the decision processes of terrorists if we wish to plan countermeasures (Jaspersen and Montibeller 2020). Research found that deterrence requires knowledge about terrorist aims to inform proactive policies that can deter attacks (Enders and Su 2007). Kydd and Walter (2006) suggest that the aims of terrorists are to change minds through five strategies: attrition, intimidation, provocation, spoiling, and outbidding. Cottee and Hayward (2011) characterized terrorist motives from the perspective of three desires-the need for excitement, ultimate meaning, and glory. Kurtulus (2017) found evidence that terrorists aim to mobilize their constituency, avenge their fallen associates, and physically destroy their perceived enemies. Abrahms (2008) offered that the most common strategies to fight terrorism are to diminish the aims via strict no-concession policies or via appeasement. However, the aims of terrorist leaders and their operatives may be misaligned. In an analysis of terrorist propaganda videos, Abrahms et al. (2017) found that the operatives of terrorist leaders commit more indiscriminate violence than their leaders favor.",
+      "text_with_footnotes": "For studies in counterterrorism strategies, it is crucial to understand the decision processes of terrorists if we wish to plan countermeasures (Jaspersen and Montibeller 2020). Research found that deterrence requires knowledge about terrorist aims to inform proactive policies that can deter attacks (Enders and Su 2007). Kydd and Walter (2006) suggest that the aims of terrorists are to change minds through five strategies: attrition, intimidation, provocation, spoiling, and outbidding. Cottee and Hayward (2011) characterized terrorist motives from the perspective of three desires-the need for excitement, ultimate meaning, and glory. Kurtulus (2017) found evidence that terrorists aim to mobilize their constituency, avenge their fallen associates, and physically destroy their perceived enemies. Abrahms (2008) offered that the most common strategies to fight terrorism are to diminish the aims via strict no-concession policies or via appeasement. However, the aims of terrorist leaders and their operatives may be misaligned. In an analysis of terrorist propaganda videos, Abrahms et al. (2017) found that the operatives of terrorist leaders commit more indiscriminate violence than their leaders favor.",
+      "preview_head": "For studies in counterterrorism strategies, it is crucial to understand the decision processes of terrorists if we wish to plan countermeasures (Jaspersen and Montibeller 2020). Research found that deterrence requires knowledge about terrorist aims to inform proactive policies that can deter attacks (Enders and Su 2007). Kydd and Walter (2006) suggest that the aims of terrorists are to change minds through five strategies: attrition, intimidation, provocation, spoiling, and outbidding.",
+      "preview_tail": "Kurtulus (2017) found evidence that terrorists aim to mobilize their constituency, avenge their fallen associates, and physically destroy their perceived enemies. Abrahms (2008) offered that the most common strategies to fight terrorism are to diminish the aims via strict no-concession policies or via appeasement. However, the aims of terrorist leaders and their operatives may be misaligned. In an analysis of terrorist propaganda videos, Abrahms et al. (2017) found that the operatives of terrorist leaders commit more indiscriminate violence than their leaders favor.",
+      "word_count": 171,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section discusses prior research on terrorist aims, heavily citing other scholars and summarizing a)"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "ML Applications",
+      "header_norm": "ml applications",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "Luo and Qi (2021) used a random forest model to rank factors in terrorist attack risk and found that human-loss ranked highest. Huamaní et al. (2020) applied ML to the global terrorism database (GTD) to predict terrorist attacks worldwide. In related work, Guo et al. (2007) introduced a visualization environment to identify patterns in the GTD. Huff and Kertzer (2018) used ML to predict how the public classified incidents as terrorism based on language used in media coverage. In similar work, Das and Das (2019) used NLP to extract paraphrases from a large untagged text corpora to discover labels of crime reports. Mashechkin et al. (2019) proposed some language-independent algorithms to extract information from the Internet that contained terrorist or extremist patterns. Khalifa et al. (2019) applied association mining to the GTD to understand the nature of terrorist attacks in Egypt. Burnap and Williams (2014) found that statistical modeling and ML was effective in classifying \"hate speech\" on Twitter as measured by an F1 score of 0.95. Bassetti et al. (2018) used a Generalized Mixed Effects Regression Tree analysis to analyze economic correlates of Islamist political violence. Uddin et al. (2020) compared the performance of ML models in predicting attack success, involvement of suicide, weapon type, attack type, and region. Canhoto (2021) leveraged ML for counterterrorism by detecting and preventing money laundering, which is a key tool in terrorist operations. Hao et al. (2019) applied random forest to the GTD for spatio-temporal pattern discovery of terrorism incidents on the Indochina Peninsula. Mishra et al. (2020) applied directed graphs to the GTD for network relationship discovery of terrorist activities. Feng et al. (2020) applied Extreme Gradient Boosting to the GTD for predict casualty prediction from terrorist attacks."
+      ],
+      "footnotes": [],
+      "text": "Luo and Qi (2021) used a random forest model to rank factors in terrorist attack risk and found that human-loss ranked highest. Huamaní et al. (2020) applied ML to the global terrorism database (GTD) to predict terrorist attacks worldwide. In related work, Guo et al. (2007) introduced a visualization environment to identify patterns in the GTD. Huff and Kertzer (2018) used ML to predict how the public classified incidents as terrorism based on language used in media coverage. In similar work, Das and Das (2019) used NLP to extract paraphrases from a large untagged text corpora to discover labels of crime reports. Mashechkin et al. (2019) proposed some language-independent algorithms to extract information from the Internet that contained terrorist or extremist patterns. Khalifa et al. (2019) applied association mining to the GTD to understand the nature of terrorist attacks in Egypt. Burnap and Williams (2014) found that statistical modeling and ML was effective in classifying \"hate speech\" on Twitter as measured by an F1 score of 0.95. Bassetti et al. (2018) used a Generalized Mixed Effects Regression Tree analysis to analyze economic correlates of Islamist political violence. Uddin et al. (2020) compared the performance of ML models in predicting attack success, involvement of suicide, weapon type, attack type, and region. Canhoto (2021) leveraged ML for counterterrorism by detecting and preventing money laundering, which is a key tool in terrorist operations. Hao et al. (2019) applied random forest to the GTD for spatio-temporal pattern discovery of terrorism incidents on the Indochina Peninsula. Mishra et al. (2020) applied directed graphs to the GTD for network relationship discovery of terrorist activities. Feng et al. (2020) applied Extreme Gradient Boosting to the GTD for predict casualty prediction from terrorist attacks.",
+      "text_with_footnotes": "Luo and Qi (2021) used a random forest model to rank factors in terrorist attack risk and found that human-loss ranked highest. Huamaní et al. (2020) applied ML to the global terrorism database (GTD) to predict terrorist attacks worldwide. In related work, Guo et al. (2007) introduced a visualization environment to identify patterns in the GTD. Huff and Kertzer (2018) used ML to predict how the public classified incidents as terrorism based on language used in media coverage. In similar work, Das and Das (2019) used NLP to extract paraphrases from a large untagged text corpora to discover labels of crime reports. Mashechkin et al. (2019) proposed some language-independent algorithms to extract information from the Internet that contained terrorist or extremist patterns. Khalifa et al. (2019) applied association mining to the GTD to understand the nature of terrorist attacks in Egypt. Burnap and Williams (2014) found that statistical modeling and ML was effective in classifying \"hate speech\" on Twitter as measured by an F1 score of 0.95. Bassetti et al. (2018) used a Generalized Mixed Effects Regression Tree analysis to analyze economic correlates of Islamist political violence. Uddin et al. (2020) compared the performance of ML models in predicting attack success, involvement of suicide, weapon type, attack type, and region. Canhoto (2021) leveraged ML for counterterrorism by detecting and preventing money laundering, which is a key tool in terrorist operations. Hao et al. (2019) applied random forest to the GTD for spatio-temporal pattern discovery of terrorism incidents on the Indochina Peninsula. Mishra et al. (2020) applied directed graphs to the GTD for network relationship discovery of terrorist activities. Feng et al. (2020) applied Extreme Gradient Boosting to the GTD for predict casualty prediction from terrorist attacks.",
+      "preview_head": "Luo and Qi (2021) used a random forest model to rank factors in terrorist attack risk and found that human-loss ranked highest. Huamaní et al. (2020) applied ML to the global terrorism database (GTD) to predict terrorist attacks worldwide. In related work, Guo et al. (2007) introduced a visualization environment to identify patterns in the GTD. Huff and Kertzer (2018) used ML to predict how the public classified incidents as terrorism based on language used in media coverage.",
+      "preview_tail": "Hao et al. (2019) applied random forest to the GTD for spatio-temporal pattern discovery of terrorism incidents on the Indochina Peninsula. Mishra et al. (2020) applied directed graphs to the GTD for network relationship discovery of terrorist activities. Feng et al. (2020) applied Extreme Gradient Boosting to the GTD for predict casualty prediction from terrorist attacks.",
+      "word_count": 286,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior work applying machine learning to terrorism data, with dense citations and no"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Methodology",
+      "header_norm": "methodology",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs."
+      ],
+      "footnotes": [],
+      "text": "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs.",
+      "text_with_footnotes": "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs.",
+      "preview_head": "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs.",
+      "preview_tail": "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs.",
+      "word_count": 38,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Data",
+      "header_norm": "data",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "The 2019 release of the Global Terrorism Database (GTD) contained more than 201,183 records of terrorist events from 1970 to 2019 (START 2020). Of the 135 fields containing information about each event, 42 remained after removing fields that were missing more than 35% of the data. Eighteen of the 42 fields contained textual data, but only two were relevant to the NLP procedures. The two relevant text fields were \"summary\" which contained a brief description of the terrorist event, and \"motive\" which briefly described the motive, if known, stated in media reports. Therefore, the reported motive is akin to a \"stated preference\" of what the perpetrators say was the aim of their attack.",
+        "Figure 1 summarizes the attack frequency aggregated by five-year blocks from 1970 to 2019, and by the portion with motives known. Only 10,747 or 5.3% of the records described reported motives, based on responsibility claims by the perpetrators. The trend was that the number of records with known motives increased to a stable level after 1998. Therefore, this analysis focused on records with claimed motives for the 20 years spanning 1999 through 2019. This filter yielded 9460 records, which represented only 12% fewer records than all records containing known motives.",
+        "random forest to the GTD for spatio-temporal pattern discovery of terrorism incidents on the Indochina Peninsula. Mishra et al. (2020) applied directed graphs to the GTD for network relationship discovery of terrorist activities. Feng et al. (2020) applied Extreme Gradient Boosting to the GTD for predict casualty prediction from terrorist attacks."
+      ],
+      "footnotes": [],
+      "text": "The 2019 release of the Global Terrorism Database (GTD) contained more than 201,183 records of terrorist events from 1970 to 2019 (START 2020). Of the 135 fields containing information about each event, 42 remained after removing fields that were missing more than 35% of the data. Eighteen of the 42 fields contained textual data, but only two were relevant to the NLP procedures. The two relevant text fields were \"summary\" which contained a brief description of the terrorist event, and \"motive\" which briefly described the motive, if known, stated in media reports. Therefore, the reported motive is akin to a \"stated preference\" of what the perpetrators say was the aim of their attack.\n\nFigure 1 summarizes the attack frequency aggregated by five-year blocks from 1970 to 2019, and by the portion with motives known. Only 10,747 or 5.3% of the records described reported motives, based on responsibility claims by the perpetrators. The trend was that the number of records with known motives increased to a stable level after 1998. Therefore, this analysis focused on records with claimed motives for the 20 years spanning 1999 through 2019. This filter yielded 9460 records, which represented only 12% fewer records than all records containing known motives.\n\nrandom forest to the GTD for spatio-temporal pattern discovery of terrorism incidents on the Indochina Peninsula. Mishra et al. (2020) applied directed graphs to the GTD for network relationship discovery of terrorist activities. Feng et al. (2020) applied Extreme Gradient Boosting to the GTD for predict casualty prediction from terrorist attacks.",
+      "text_with_footnotes": "The 2019 release of the Global Terrorism Database (GTD) contained more than 201,183 records of terrorist events from 1970 to 2019 (START 2020). Of the 135 fields containing information about each event, 42 remained after removing fields that were missing more than 35% of the data. Eighteen of the 42 fields contained textual data, but only two were relevant to the NLP procedures. The two relevant text fields were \"summary\" which contained a brief description of the terrorist event, and \"motive\" which briefly described the motive, if known, stated in media reports. Therefore, the reported motive is akin to a \"stated preference\" of what the perpetrators say was the aim of their attack.\n\nFigure 1 summarizes the attack frequency aggregated by five-year blocks from 1970 to 2019, and by the portion with motives known. Only 10,747 or 5.3% of the records described reported motives, based on responsibility claims by the perpetrators. The trend was that the number of records with known motives increased to a stable level after 1998. Therefore, this analysis focused on records with claimed motives for the 20 years spanning 1999 through 2019. This filter yielded 9460 records, which represented only 12% fewer records than all records containing known motives.\n\nrandom forest to the GTD for spatio-temporal pattern discovery of terrorism incidents on the Indochina Peninsula. Mishra et al. (2020) applied directed graphs to the GTD for network relationship discovery of terrorist activities. Feng et al. (2020) applied Extreme Gradient Boosting to the GTD for predict casualty prediction from terrorist attacks.",
+      "preview_head": "The 2019 release of the Global Terrorism Database (GTD) contained more than 201,183 records of terrorist events from 1970 to 2019 (START 2020). Of the 135 fields containing information about each event, 42 remained after removing fields that were missing more than 35% of the data. Eighteen of the 42 fields contained textual data, but only two were relevant to the NLP procedures.",
+      "preview_tail": "random forest to the GTD for spatio-temporal pattern discovery of terrorism incidents on the Indochina Peninsula. Mishra et al. (2020) applied directed graphs to the GTD for network relationship discovery of terrorist activities. Feng et al. (2020) applied Extreme Gradient Boosting to the GTD for predict casualty prediction from terrorist attacks.",
+      "word_count": 254,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*data\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*data\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Methodology",
+      "header_norm": "methodology",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs."
+      ],
+      "footnotes": [],
+      "text": "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs.",
+      "text_with_footnotes": "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs.",
+      "preview_head": "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs.",
+      "preview_tail": "This section introduces the dataset used, the development of an empirical topic classification method to extract relevant features from motive narratives, and the predictive ML models used to validate the association of event summaries with the theorized PACs.",
+      "word_count": 38,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "Data",
+      "header_norm": "data",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "The 2019 release of the Global Terrorism Database (GTD) contained more than 201,183 records of terrorist events from 1970 to 2019 (START 2020). Of the 135 fields containing information about each event, 42 remained after removing fields that were missing more than 35% of the data. Eighteen of the 42 fields contained textual data, but only two were relevant to the NLP procedures. The two relevant text fields were \"summary\" which contained a brief description of the terrorist event, and \"motive\" which briefly described the motive, if known, stated in media reports. Therefore, the reported motive is akin to a \"stated preference\" of what the perpetrators say was the aim of their attack.",
+        "Figure 1 summarizes the attack frequency aggregated by five-year blocks from 1970 to 2019, and by the portion with motives known. Only 10,747 or 5.3% of the records described reported motives, based on responsibility claims by the perpetrators. The trend was that the number of records with known motives increased to a stable level after 1998. Therefore, this analysis focused on records with claimed motives for the 20 years spanning 1999 through 2019. This filter yielded 9460 records, which represented only 12% fewer records than all records containing known motives."
+      ],
+      "footnotes": [],
+      "text": "The 2019 release of the Global Terrorism Database (GTD) contained more than 201,183 records of terrorist events from 1970 to 2019 (START 2020). Of the 135 fields containing information about each event, 42 remained after removing fields that were missing more than 35% of the data. Eighteen of the 42 fields contained textual data, but only two were relevant to the NLP procedures. The two relevant text fields were \"summary\" which contained a brief description of the terrorist event, and \"motive\" which briefly described the motive, if known, stated in media reports. Therefore, the reported motive is akin to a \"stated preference\" of what the perpetrators say was the aim of their attack.\n\nFigure 1 summarizes the attack frequency aggregated by five-year blocks from 1970 to 2019, and by the portion with motives known. Only 10,747 or 5.3% of the records described reported motives, based on responsibility claims by the perpetrators. The trend was that the number of records with known motives increased to a stable level after 1998. Therefore, this analysis focused on records with claimed motives for the 20 years spanning 1999 through 2019. This filter yielded 9460 records, which represented only 12% fewer records than all records containing known motives.",
+      "text_with_footnotes": "The 2019 release of the Global Terrorism Database (GTD) contained more than 201,183 records of terrorist events from 1970 to 2019 (START 2020). Of the 135 fields containing information about each event, 42 remained after removing fields that were missing more than 35% of the data. Eighteen of the 42 fields contained textual data, but only two were relevant to the NLP procedures. The two relevant text fields were \"summary\" which contained a brief description of the terrorist event, and \"motive\" which briefly described the motive, if known, stated in media reports. Therefore, the reported motive is akin to a \"stated preference\" of what the perpetrators say was the aim of their attack.\n\nFigure 1 summarizes the attack frequency aggregated by five-year blocks from 1970 to 2019, and by the portion with motives known. Only 10,747 or 5.3% of the records described reported motives, based on responsibility claims by the perpetrators. The trend was that the number of records with known motives increased to a stable level after 1998. Therefore, this analysis focused on records with claimed motives for the 20 years spanning 1999 through 2019. This filter yielded 9460 records, which represented only 12% fewer records than all records containing known motives.",
+      "preview_head": "The 2019 release of the Global Terrorism Database (GTD) contained more than 201,183 records of terrorist events from 1970 to 2019 (START 2020). Of the 135 fields containing information about each event, 42 remained after removing fields that were missing more than 35% of the data. Eighteen of the 42 fields contained textual data, but only two were relevant to the NLP procedures.",
+      "preview_tail": "The trend was that the number of records with known motives increased to a stable level after 1998. Therefore, this analysis focused on records with claimed motives for the 20 years spanning 1999 through 2019. This filter yielded 9460 records, which represented only 12% fewer records than all records containing known motives.",
+      "word_count": 203,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*data\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*data\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Topic Classification",
+      "header_norm": "topic classification",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "NLP is a subset of the field of Artificial Intelligence (Aggarwal 2015) . Topic modeling is an NLP method that requires both art and science to identify and quantify the mix of topics within a document (Lane et al. 2019). Latent Dirichlet Allocation (LDA) is the most prominent among several techniques currently available (Padmaja et al. 2018). LDA identifies topics based on a multinomial distribution of words and assumes that each document covers a distinct topic. The available topic modeling algorithms do not accommodate user inputs about application context or topic names. After applying LDA to the mo-"
+      ],
+      "footnotes": [],
+      "text": "NLP is a subset of the field of Artificial Intelligence (Aggarwal 2015) . Topic modeling is an NLP method that requires both art and science to identify and quantify the mix of topics within a document (Lane et al. 2019). Latent Dirichlet Allocation (LDA) is the most prominent among several techniques currently available (Padmaja et al. 2018). LDA identifies topics based on a multinomial distribution of words and assumes that each document covers a distinct topic. The available topic modeling algorithms do not accommodate user inputs about application context or topic names. After applying LDA to the mo-",
+      "text_with_footnotes": "NLP is a subset of the field of Artificial Intelligence (Aggarwal 2015) . Topic modeling is an NLP method that requires both art and science to identify and quantify the mix of topics within a document (Lane et al. 2019). Latent Dirichlet Allocation (LDA) is the most prominent among several techniques currently available (Padmaja et al. 2018). LDA identifies topics based on a multinomial distribution of words and assumes that each document covers a distinct topic. The available topic modeling algorithms do not accommodate user inputs about application context or topic names. After applying LDA to the mo-",
+      "preview_head": "NLP is a subset of the field of Artificial Intelligence (Aggarwal 2015) . Topic modeling is an NLP method that requires both art and science to identify and quantify the mix of topics within a document (Lane et al. 2019). Latent Dirichlet Allocation (LDA) is the most prominent among several techniques currently available (Padmaja et al. 2018).",
+      "preview_tail": "LDA identifies topics based on a multinomial distribution of words and assumes that each document covers a distinct topic. The available topic modeling algorithms do not accommodate user inputs about application context or topic names. After applying LDA to the mo-",
+      "word_count": 98,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides background on topic modeling and NLP, referencing prior work and methods (LDA, etc"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Topic Classification",
+      "header_norm": "topic classification",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "NLP is a subset of the field of Artificial Intelligence (Aggarwal 2015). Topic modeling is an NLP method that requires both art and science to identify and quantify the mix of topics within a document (Lane et al. 2019). Latent Dirichlet Allocation (LDA) is the most prominent among several techniques currently available (Padmaja et al. 2018). LDA identifies topics based on a multinomial distribution of words and assumes that each document covers a distinct topic. The available topic modeling algorithms do not accommodate user inputs about application context or topic names. After applying LDA to the motive narrative field of the GTD, the algorithm identified topics based on a group of frequent words. Empirical analysis of the word groups by the author revealed that they tended to associate with weapon types, attack types, and perpetrator groups, each with some mix of probabilities. Hence, LDA did not help the author to identify PACs.",
+        "Given the above deficiencies, the author invented an empirical topic classification (ETC) technique that combined NLP methods with human cognition to identify word features that resulted in a more meaningful identification of PACs. Figure 2 shows the workflow, including custom and existing NLP procedures. The data processing layer extracted motive narratives from the selected year range of records. The author then initialized a list of potential PACs based on expertise, data sources listed in the GTD, keywords gleaned from the literature, as well as the keywords selected from the motive narrative.",
+        "tive narrative field of the GTD, the algorithm identified topics based on a group of frequent words. Empirical analysis of the word groups by the author revealed that they tended to associate with weapon types, attack types, and perpetrator groups, each with some mix of probabilities. Hence, LDA did not help the author to identify PACs.",
+        "Given the above deficiencies, the author invented an empirical topic classification (ETC) technique that combined NLP methods with human cognition to identify word features that resulted in a more meaningful identification of PACs. Figure 2 shows the workflow, including custom and existing NLP procedures. The data processing layer extracted motive narratives from the selected year range of records. The author then initialized a list of potential PACs based on expertise, data sources listed in the GTD, keywords gleaned from the literature, as well as the keywords selected from the motive narrative. The text mining layer then applied NLP procedures to normalize the text and extract relevant word features. The lowercase transformation prevented word redundancy and the tokenize procedure extracted individual words into a feature vector that represented each narrative of a record. The stemming procedure reduced feature dimensionality by transforming all inflected forms of a word to their lexical stem (Jones and Willett 1997). The stop words filter eliminated frequently used words such as \"the,\" \"on,\" \"at,\" \"which,\" \"and,\" \"but,\" to reduce bias noise from a lack of meaning. The outlier word filter further reduced noise by allowing the downstream word sort procedure to highlight meaningful words that appear in many of the documents. The bag-of-words model extracted the document frequency (DF) of words based on the number of documents in the corpus that contained those words.",
+        "With each iteration of the procedural flow, the BOW procedure of the ETC framework helped human cognition to assign a PAC to the unlabeled targets based on DF rank, which rapidly reduced the number of unassigned document targets with each iteration. This strategy also helped human cognition to more easily identify additional stop words and keywords associated with a PAC. The Corpus View procedure sorted the word features of the unlabeled documents by their DF and highlighted the context of a selected The text mining layer then applied NLP procedures to normalize the text and extract relevant word features. The lowercase transformation prevented word redundancy and the tokenize procedure extracted individual words into a feature vector that represented each narrative of a record. The stemming procedure reduced feature dimensionality by transforming all inflected forms of a word to their lexical stem (Jones and Willett 1997). The stop words filter eliminated frequently used words such as \"the\", \"on\", \"at\", \"which\", \"and\", \"but\", to reduce bias noise from a lack of meaning. The outlier word filter further reduced noise by allowing the downstream word sort procedure to highlight meaningful words that appear in many of the documents. The bag-of-words model extracted the document frequency (DF) of words based on the number of documents in the corpus that contained those words.",
+        "With each iteration of the procedural flow, the BOW procedure of the ETC framework helped human cognition to assign a PAC to the unlabeled targets based on DF rank, which rapidly reduced the number of unassigned document targets with each iteration. This strategy also helped human cognition to more easily identify additional stop words and keywords associated with a PAC. The Corpus View procedure sorted the word features of the unlabeled documents by their DF and highlighted the context of a selected word across all documents. This strategy helped human cognition to focus the ETC on the most frequent words, and to achieve an exponential convergence of label assignments. The iterations stopped when the most frequent remaining words appeared in less than 0.1% of the documents. The rational for the termination condition was that infrequent words added noise to the ML process, and that could lead to model over-fitting in the subsequent ML layer.",
+        "In summary, the ETC workflow was a machine-aided human decision process that leveraged the domain knowledge and experience of the author to help assign appropriate PACs to motive narratives. It would have been difficult to optimize the number of PACs without using human cognition to understand the meanings of words within the context used and to grasp similarities in the meaning among words that can characterize a motive narrative. The feedback loop between the text mining and ETC layers indicates where the cognition process injected decisions about combining or expanding the selected PACs."
+      ],
+      "footnotes": [],
+      "text": "NLP is a subset of the field of Artificial Intelligence (Aggarwal 2015). Topic modeling is an NLP method that requires both art and science to identify and quantify the mix of topics within a document (Lane et al. 2019). Latent Dirichlet Allocation (LDA) is the most prominent among several techniques currently available (Padmaja et al. 2018). LDA identifies topics based on a multinomial distribution of words and assumes that each document covers a distinct topic. The available topic modeling algorithms do not accommodate user inputs about application context or topic names. After applying LDA to the motive narrative field of the GTD, the algorithm identified topics based on a group of frequent words. Empirical analysis of the word groups by the author revealed that they tended to associate with weapon types, attack types, and perpetrator groups, each with some mix of probabilities. Hence, LDA did not help the author to identify PACs.\n\nGiven the above deficiencies, the author invented an empirical topic classification (ETC) technique that combined NLP methods with human cognition to identify word features that resulted in a more meaningful identification of PACs. Figure 2 shows the workflow, including custom and existing NLP procedures. The data processing layer extracted motive narratives from the selected year range of records. The author then initialized a list of potential PACs based on expertise, data sources listed in the GTD, keywords gleaned from the literature, as well as the keywords selected from the motive narrative.\n\ntive narrative field of the GTD, the algorithm identified topics based on a group of frequent words. Empirical analysis of the word groups by the author revealed that they tended to associate with weapon types, attack types, and perpetrator groups, each with some mix of probabilities. Hence, LDA did not help the author to identify PACs.\n\nGiven the above deficiencies, the author invented an empirical topic classification (ETC) technique that combined NLP methods with human cognition to identify word features that resulted in a more meaningful identification of PACs. Figure 2 shows the workflow, including custom and existing NLP procedures. The data processing layer extracted motive narratives from the selected year range of records. The author then initialized a list of potential PACs based on expertise, data sources listed in the GTD, keywords gleaned from the literature, as well as the keywords selected from the motive narrative. The text mining layer then applied NLP procedures to normalize the text and extract relevant word features. The lowercase transformation prevented word redundancy and the tokenize procedure extracted individual words into a feature vector that represented each narrative of a record. The stemming procedure reduced feature dimensionality by transforming all inflected forms of a word to their lexical stem (Jones and Willett 1997). The stop words filter eliminated frequently used words such as \"the,\" \"on,\" \"at,\" \"which,\" \"and,\" \"but,\" to reduce bias noise from a lack of meaning. The outlier word filter further reduced noise by allowing the downstream word sort procedure to highlight meaningful words that appear in many of the documents. The bag-of-words model extracted the document frequency (DF) of words based on the number of documents in the corpus that contained those words.\n\nWith each iteration of the procedural flow, the BOW procedure of the ETC framework helped human cognition to assign a PAC to the unlabeled targets based on DF rank, which rapidly reduced the number of unassigned document targets with each iteration. This strategy also helped human cognition to more easily identify additional stop words and keywords associated with a PAC. The Corpus View procedure sorted the word features of the unlabeled documents by their DF and highlighted the context of a selected The text mining layer then applied NLP procedures to normalize the text and extract relevant word features. The lowercase transformation prevented word redundancy and the tokenize procedure extracted individual words into a feature vector that represented each narrative of a record. The stemming procedure reduced feature dimensionality by transforming all inflected forms of a word to their lexical stem (Jones and Willett 1997). The stop words filter eliminated frequently used words such as \"the\", \"on\", \"at\", \"which\", \"and\", \"but\", to reduce bias noise from a lack of meaning. The outlier word filter further reduced noise by allowing the downstream word sort procedure to highlight meaningful words that appear in many of the documents. The bag-of-words model extracted the document frequency (DF) of words based on the number of documents in the corpus that contained those words.\n\nWith each iteration of the procedural flow, the BOW procedure of the ETC framework helped human cognition to assign a PAC to the unlabeled targets based on DF rank, which rapidly reduced the number of unassigned document targets with each iteration. This strategy also helped human cognition to more easily identify additional stop words and keywords associated with a PAC. The Corpus View procedure sorted the word features of the unlabeled documents by their DF and highlighted the context of a selected word across all documents. This strategy helped human cognition to focus the ETC on the most frequent words, and to achieve an exponential convergence of label assignments. The iterations stopped when the most frequent remaining words appeared in less than 0.1% of the documents. The rational for the termination condition was that infrequent words added noise to the ML process, and that could lead to model over-fitting in the subsequent ML layer.\n\nIn summary, the ETC workflow was a machine-aided human decision process that leveraged the domain knowledge and experience of the author to help assign appropriate PACs to motive narratives. It would have been difficult to optimize the number of PACs without using human cognition to understand the meanings of words within the context used and to grasp similarities in the meaning among words that can characterize a motive narrative. The feedback loop between the text mining and ETC layers indicates where the cognition process injected decisions about combining or expanding the selected PACs.",
+      "text_with_footnotes": "NLP is a subset of the field of Artificial Intelligence (Aggarwal 2015). Topic modeling is an NLP method that requires both art and science to identify and quantify the mix of topics within a document (Lane et al. 2019). Latent Dirichlet Allocation (LDA) is the most prominent among several techniques currently available (Padmaja et al. 2018). LDA identifies topics based on a multinomial distribution of words and assumes that each document covers a distinct topic. The available topic modeling algorithms do not accommodate user inputs about application context or topic names. After applying LDA to the motive narrative field of the GTD, the algorithm identified topics based on a group of frequent words. Empirical analysis of the word groups by the author revealed that they tended to associate with weapon types, attack types, and perpetrator groups, each with some mix of probabilities. Hence, LDA did not help the author to identify PACs.\n\nGiven the above deficiencies, the author invented an empirical topic classification (ETC) technique that combined NLP methods with human cognition to identify word features that resulted in a more meaningful identification of PACs. Figure 2 shows the workflow, including custom and existing NLP procedures. The data processing layer extracted motive narratives from the selected year range of records. The author then initialized a list of potential PACs based on expertise, data sources listed in the GTD, keywords gleaned from the literature, as well as the keywords selected from the motive narrative.\n\ntive narrative field of the GTD, the algorithm identified topics based on a group of frequent words. Empirical analysis of the word groups by the author revealed that they tended to associate with weapon types, attack types, and perpetrator groups, each with some mix of probabilities. Hence, LDA did not help the author to identify PACs.\n\nGiven the above deficiencies, the author invented an empirical topic classification (ETC) technique that combined NLP methods with human cognition to identify word features that resulted in a more meaningful identification of PACs. Figure 2 shows the workflow, including custom and existing NLP procedures. The data processing layer extracted motive narratives from the selected year range of records. The author then initialized a list of potential PACs based on expertise, data sources listed in the GTD, keywords gleaned from the literature, as well as the keywords selected from the motive narrative. The text mining layer then applied NLP procedures to normalize the text and extract relevant word features. The lowercase transformation prevented word redundancy and the tokenize procedure extracted individual words into a feature vector that represented each narrative of a record. The stemming procedure reduced feature dimensionality by transforming all inflected forms of a word to their lexical stem (Jones and Willett 1997). The stop words filter eliminated frequently used words such as \"the,\" \"on,\" \"at,\" \"which,\" \"and,\" \"but,\" to reduce bias noise from a lack of meaning. The outlier word filter further reduced noise by allowing the downstream word sort procedure to highlight meaningful words that appear in many of the documents. The bag-of-words model extracted the document frequency (DF) of words based on the number of documents in the corpus that contained those words.\n\nWith each iteration of the procedural flow, the BOW procedure of the ETC framework helped human cognition to assign a PAC to the unlabeled targets based on DF rank, which rapidly reduced the number of unassigned document targets with each iteration. This strategy also helped human cognition to more easily identify additional stop words and keywords associated with a PAC. The Corpus View procedure sorted the word features of the unlabeled documents by their DF and highlighted the context of a selected The text mining layer then applied NLP procedures to normalize the text and extract relevant word features. The lowercase transformation prevented word redundancy and the tokenize procedure extracted individual words into a feature vector that represented each narrative of a record. The stemming procedure reduced feature dimensionality by transforming all inflected forms of a word to their lexical stem (Jones and Willett 1997). The stop words filter eliminated frequently used words such as \"the\", \"on\", \"at\", \"which\", \"and\", \"but\", to reduce bias noise from a lack of meaning. The outlier word filter further reduced noise by allowing the downstream word sort procedure to highlight meaningful words that appear in many of the documents. The bag-of-words model extracted the document frequency (DF) of words based on the number of documents in the corpus that contained those words.\n\nWith each iteration of the procedural flow, the BOW procedure of the ETC framework helped human cognition to assign a PAC to the unlabeled targets based on DF rank, which rapidly reduced the number of unassigned document targets with each iteration. This strategy also helped human cognition to more easily identify additional stop words and keywords associated with a PAC. The Corpus View procedure sorted the word features of the unlabeled documents by their DF and highlighted the context of a selected word across all documents. This strategy helped human cognition to focus the ETC on the most frequent words, and to achieve an exponential convergence of label assignments. The iterations stopped when the most frequent remaining words appeared in less than 0.1% of the documents. The rational for the termination condition was that infrequent words added noise to the ML process, and that could lead to model over-fitting in the subsequent ML layer.\n\nIn summary, the ETC workflow was a machine-aided human decision process that leveraged the domain knowledge and experience of the author to help assign appropriate PACs to motive narratives. It would have been difficult to optimize the number of PACs without using human cognition to understand the meanings of words within the context used and to grasp similarities in the meaning among words that can characterize a motive narrative. The feedback loop between the text mining and ETC layers indicates where the cognition process injected decisions about combining or expanding the selected PACs.",
+      "preview_head": "NLP is a subset of the field of Artificial Intelligence (Aggarwal 2015). Topic modeling is an NLP method that requires both art and science to identify and quantify the mix of topics within a document (Lane et al. 2019). Latent Dirichlet Allocation (LDA) is the most prominent among several techniques currently available (Padmaja et al. 2018).",
+      "preview_tail": "In summary, the ETC workflow was a machine-aided human decision process that leveraged the domain knowledge and experience of the author to help assign appropriate PACs to motive narratives. It would have been difficult to optimize the number of PACs without using human cognition to understand the meanings of words within the context used and to grasp similarities in the meaning among words that can characterize a motive narrative. The feedback loop between the text mining and ETC layers indicates where the cognition process injected decisions about combining or expanding the selected PACs.",
+      "word_count": 991,
+      "paragraph_count": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section continues to review topic modeling and NLP background, referencing prior work and methods."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Section transitions to describing the ETC workflow used by the author, hinting at methodological det"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.92,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Machine Learning",
+      "header_norm": "machine learning",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "The ETC workflow discussed above helped the author to assign class labels to each record based only on the motive narrative. The ML process reused the text mining procedures to extract word features from the event summary narrative, which is a different field in the dataset. Unlike the motive field, the event summary narrative described the actions taken and the outcomes of attacks. The ML methods used features extracted from the event summary narrative to predict the PACs, which were the labels derived from the motive narrative. Therefore, good predictive performance would validate the association of the assigned PACs with the event narrative.",
+        "Figure 3 shows the workflow of the data, text mining, ML, and output layers. The bag-of-words (BOW) model simplified the representation of each narrative as an array of unordered words derived from the corpus (Aggarwal 2015). Hence, the input to the ML model is a data table where each row contains a word array (features) with an associated class label assigned by the ETC.",
+        "word across all documents. This strategy helped human cognition to focus the ETC on the most frequent words, and to achieve an exponential convergence of label assignments. The iterations stopped when the most frequent remaining words appeared in less than 0.1% of the documents. The rational for the termination condition was that infrequent words added noise to the ML process, and that could lead to model over-fitting in the subsequent ML layer.",
+        "In summary, the ETC workflow was a machine-aided human decision process that leveraged the domain knowledge and experience of the author to help assign appropriate PACs to motive narratives. It would have been difficult to optimize the number of PACs without using human cognition to understand the meanings of words within the context used and to grasp similarities in the meaning among words that can characterize a motive narrative. The feedback loop between the text mining and ETC layers indicates where the cognition process injected decisions about combining or expanding the selected PACs."
+      ],
+      "footnotes": [],
+      "text": "The ETC workflow discussed above helped the author to assign class labels to each record based only on the motive narrative. The ML process reused the text mining procedures to extract word features from the event summary narrative, which is a different field in the dataset. Unlike the motive field, the event summary narrative described the actions taken and the outcomes of attacks. The ML methods used features extracted from the event summary narrative to predict the PACs, which were the labels derived from the motive narrative. Therefore, good predictive performance would validate the association of the assigned PACs with the event narrative.\n\nFigure 3 shows the workflow of the data, text mining, ML, and output layers. The bag-of-words (BOW) model simplified the representation of each narrative as an array of unordered words derived from the corpus (Aggarwal 2015). Hence, the input to the ML model is a data table where each row contains a word array (features) with an associated class label assigned by the ETC.\n\nword across all documents. This strategy helped human cognition to focus the ETC on the most frequent words, and to achieve an exponential convergence of label assignments. The iterations stopped when the most frequent remaining words appeared in less than 0.1% of the documents. The rational for the termination condition was that infrequent words added noise to the ML process, and that could lead to model over-fitting in the subsequent ML layer.\n\nIn summary, the ETC workflow was a machine-aided human decision process that leveraged the domain knowledge and experience of the author to help assign appropriate PACs to motive narratives. It would have been difficult to optimize the number of PACs without using human cognition to understand the meanings of words within the context used and to grasp similarities in the meaning among words that can characterize a motive narrative. The feedback loop between the text mining and ETC layers indicates where the cognition process injected decisions about combining or expanding the selected PACs.",
+      "text_with_footnotes": "The ETC workflow discussed above helped the author to assign class labels to each record based only on the motive narrative. The ML process reused the text mining procedures to extract word features from the event summary narrative, which is a different field in the dataset. Unlike the motive field, the event summary narrative described the actions taken and the outcomes of attacks. The ML methods used features extracted from the event summary narrative to predict the PACs, which were the labels derived from the motive narrative. Therefore, good predictive performance would validate the association of the assigned PACs with the event narrative.\n\nFigure 3 shows the workflow of the data, text mining, ML, and output layers. The bag-of-words (BOW) model simplified the representation of each narrative as an array of unordered words derived from the corpus (Aggarwal 2015). Hence, the input to the ML model is a data table where each row contains a word array (features) with an associated class label assigned by the ETC.\n\nword across all documents. This strategy helped human cognition to focus the ETC on the most frequent words, and to achieve an exponential convergence of label assignments. The iterations stopped when the most frequent remaining words appeared in less than 0.1% of the documents. The rational for the termination condition was that infrequent words added noise to the ML process, and that could lead to model over-fitting in the subsequent ML layer.\n\nIn summary, the ETC workflow was a machine-aided human decision process that leveraged the domain knowledge and experience of the author to help assign appropriate PACs to motive narratives. It would have been difficult to optimize the number of PACs without using human cognition to understand the meanings of words within the context used and to grasp similarities in the meaning among words that can characterize a motive narrative. The feedback loop between the text mining and ETC layers indicates where the cognition process injected decisions about combining or expanding the selected PACs.",
+      "preview_head": "The ETC workflow discussed above helped the author to assign class labels to each record based only on the motive narrative. The ML process reused the text mining procedures to extract word features from the event summary narrative, which is a different field in the dataset. Unlike the motive field, the event summary narrative described the actions taken and the outcomes of attacks. The ML methods used features extracted from the event summary narrative to predict the PACs, which were the labels derived from the motive narrative.",
+      "preview_tail": "In summary, the ETC workflow was a machine-aided human decision process that leveraged the domain knowledge and experience of the author to help assign appropriate PACs to motive narratives. It would have been difficult to optimize the number of PACs without using human cognition to understand the meanings of words within the context used and to grasp similarities in the meaning among words that can characterize a motive narrative. The feedback loop between the text mining and ETC layers indicates where the cognition process injected decisions about combining or expanding the selected PACs.",
+      "word_count": 332,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Section describes the ETC workflow and ML process as applied by the author, focusing on what was don"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "Section briefly references prior work and general ML concepts, but the focus is on the author's proc"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.92,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Machine Learning",
+      "header_norm": "machine learning",
+      "container_raw": "Planned Impacts",
+      "container_norm": "planned impacts",
+      "is_container": false,
+      "paragraphs": [
+        "The ETC workflow discussed above helped the author to assign class labels to each record based only on the motive narrative. The ML process reused the text mining procedures to extract word features from the event summary narrative, which is a different field in the dataset. Unlike the motive field, the event summary narrative described the actions taken and the outcomes of attacks. The ML methods used features extracted from the event summary narrative to predict the PACs, which were the labels derived from the motive narrative. Therefore, good predictive performance would validate the association of the assigned PACs with the event narrative.",
+        "Figure 3 shows the workflow of the data, text mining, ML, and output layers. The bag-of-words (BOW) model simplified the representation of each narrative as an array of unordered words derived from the corpus (Aggarwal 2015). Hence, the input to the ML model is a data table where each row contains a word array (features) with an associated class label assigned by the ETC. The cross-validation (K-fold) procedure cyclically partitioned the narratives into ten subsets. With each iteration, the model output was a prediction error rate for one of the partitions after training on the union of the remaining partitions. The advantage of the kfold cross validation approach over the traditional single-split of the data into a training and a testing set is that all the data served as test data, which minimized bias and maximized model generalization. The performance evaluation procedure reported the average value of each test metric across all train-test cycles. This cyclical method also helped the author to balance model complexity by adjusting the hyperparameters to tradeoff overfitting and underfitting to the training data. That is, the cross-validation helps to balance model complexity for generalization on unseen data (Géron 2017).",
+        "The hyperparameter tuning procedure iteratively adjusted the various model parameters within a defined range until the selected performance metric showed no further improvement. The training procedures used the one-versus-rest (OvR) method to transform the multiclass classification problem into binary classification problem with respect to each class (Géron 2017). This strategy enabled the use of models that natively implement only binary classification. Hence, it became easier to use identical metrics to compare the performance of all models. Table 1 summarizes the fundamental theory of operation for each of the 11 ML models used to validate the classification of PACs derived by machineaided human decision. The last column of Table 1 includes references that expands on the details of the mathematical formulation and practical implementation of each ML model.",
+        "Table 1. Machine learning models applied in the procedural framework."
+      ],
+      "footnotes": [],
+      "text": "The ETC workflow discussed above helped the author to assign class labels to each record based only on the motive narrative. The ML process reused the text mining procedures to extract word features from the event summary narrative, which is a different field in the dataset. Unlike the motive field, the event summary narrative described the actions taken and the outcomes of attacks. The ML methods used features extracted from the event summary narrative to predict the PACs, which were the labels derived from the motive narrative. Therefore, good predictive performance would validate the association of the assigned PACs with the event narrative.\n\nFigure 3 shows the workflow of the data, text mining, ML, and output layers. The bag-of-words (BOW) model simplified the representation of each narrative as an array of unordered words derived from the corpus (Aggarwal 2015). Hence, the input to the ML model is a data table where each row contains a word array (features) with an associated class label assigned by the ETC. The cross-validation (K-fold) procedure cyclically partitioned the narratives into ten subsets. With each iteration, the model output was a prediction error rate for one of the partitions after training on the union of the remaining partitions. The advantage of the kfold cross validation approach over the traditional single-split of the data into a training and a testing set is that all the data served as test data, which minimized bias and maximized model generalization. The performance evaluation procedure reported the average value of each test metric across all train-test cycles. This cyclical method also helped the author to balance model complexity by adjusting the hyperparameters to tradeoff overfitting and underfitting to the training data. That is, the cross-validation helps to balance model complexity for generalization on unseen data (Géron 2017).\n\nThe hyperparameter tuning procedure iteratively adjusted the various model parameters within a defined range until the selected performance metric showed no further improvement. The training procedures used the one-versus-rest (OvR) method to transform the multiclass classification problem into binary classification problem with respect to each class (Géron 2017). This strategy enabled the use of models that natively implement only binary classification. Hence, it became easier to use identical metrics to compare the performance of all models. Table 1 summarizes the fundamental theory of operation for each of the 11 ML models used to validate the classification of PACs derived by machineaided human decision. The last column of Table 1 includes references that expands on the details of the mathematical formulation and practical implementation of each ML model.\n\nTable 1. Machine learning models applied in the procedural framework.",
+      "text_with_footnotes": "The ETC workflow discussed above helped the author to assign class labels to each record based only on the motive narrative. The ML process reused the text mining procedures to extract word features from the event summary narrative, which is a different field in the dataset. Unlike the motive field, the event summary narrative described the actions taken and the outcomes of attacks. The ML methods used features extracted from the event summary narrative to predict the PACs, which were the labels derived from the motive narrative. Therefore, good predictive performance would validate the association of the assigned PACs with the event narrative.\n\nFigure 3 shows the workflow of the data, text mining, ML, and output layers. The bag-of-words (BOW) model simplified the representation of each narrative as an array of unordered words derived from the corpus (Aggarwal 2015). Hence, the input to the ML model is a data table where each row contains a word array (features) with an associated class label assigned by the ETC. The cross-validation (K-fold) procedure cyclically partitioned the narratives into ten subsets. With each iteration, the model output was a prediction error rate for one of the partitions after training on the union of the remaining partitions. The advantage of the kfold cross validation approach over the traditional single-split of the data into a training and a testing set is that all the data served as test data, which minimized bias and maximized model generalization. The performance evaluation procedure reported the average value of each test metric across all train-test cycles. This cyclical method also helped the author to balance model complexity by adjusting the hyperparameters to tradeoff overfitting and underfitting to the training data. That is, the cross-validation helps to balance model complexity for generalization on unseen data (Géron 2017).\n\nThe hyperparameter tuning procedure iteratively adjusted the various model parameters within a defined range until the selected performance metric showed no further improvement. The training procedures used the one-versus-rest (OvR) method to transform the multiclass classification problem into binary classification problem with respect to each class (Géron 2017). This strategy enabled the use of models that natively implement only binary classification. Hence, it became easier to use identical metrics to compare the performance of all models. Table 1 summarizes the fundamental theory of operation for each of the 11 ML models used to validate the classification of PACs derived by machineaided human decision. The last column of Table 1 includes references that expands on the details of the mathematical formulation and practical implementation of each ML model.\n\nTable 1. Machine learning models applied in the procedural framework.",
+      "preview_head": "The ETC workflow discussed above helped the author to assign class labels to each record based only on the motive narrative. The ML process reused the text mining procedures to extract word features from the event summary narrative, which is a different field in the dataset. Unlike the motive field, the event summary narrative described the actions taken and the outcomes of attacks. The ML methods used features extracted from the event summary narrative to predict the PACs, which were the labels derived from the motive narrative.",
+      "preview_tail": "Table 1. Machine learning models applied in the procedural framework.",
+      "word_count": 434,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the application of machine learning models in the procedural framework, focusing o"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Model Description Reference",
+      "header_norm": "model description reference",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Logistic Regression (LR)",
+      "header_norm": "logistic regression lr",
+      "container_raw": "Model Description Reference",
+      "container_norm": "model description reference",
+      "is_container": false,
+      "paragraphs": [
+        "Fits the data to a logistic function of the linear combination of attributes to estimate the probability of a binary class. Aggarwal (2015), Géron (2017) Support Vector Machine (SVM) Finds a hyperplane in multidimensional feature space that maximally separates the classes. Aggarwal (2015), Géron",
+        "Stochastic Gradient Descent (SGD)",
+        "Fits a linear multivariate function to the data by randomly selecting data instances to calculate parameter updates that minimize a selected loss function."
+      ],
+      "footnotes": [],
+      "text": "Fits the data to a logistic function of the linear combination of attributes to estimate the probability of a binary class. Aggarwal (2015), Géron (2017) Support Vector Machine (SVM) Finds a hyperplane in multidimensional feature space that maximally separates the classes. Aggarwal (2015), Géron\n\nStochastic Gradient Descent (SGD)\n\nFits a linear multivariate function to the data by randomly selecting data instances to calculate parameter updates that minimize a selected loss function.",
+      "text_with_footnotes": "Fits the data to a logistic function of the linear combination of attributes to estimate the probability of a binary class. Aggarwal (2015), Géron (2017) Support Vector Machine (SVM) Finds a hyperplane in multidimensional feature space that maximally separates the classes. Aggarwal (2015), Géron\n\nStochastic Gradient Descent (SGD)\n\nFits a linear multivariate function to the data by randomly selecting data instances to calculate parameter updates that minimize a selected loss function.",
+      "preview_head": "Fits the data to a logistic function of the linear combination of attributes to estimate the probability of a binary class. Aggarwal (2015), Géron (2017) Support Vector Machine (SVM) Finds a hyperplane in multidimensional feature space that maximally separates the classes. Aggarwal (2015), Géron",
+      "preview_tail": "Fits a linear multivariate function to the data by randomly selecting data instances to calculate parameter updates that minimize a selected loss function.",
+      "word_count": 71,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the ML models (logistic regression, SVM, etc.) used in the study, focusing on thei"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Géron (2017)",
+      "header_norm": "g ron 2017",
+      "container_raw": "Model Description Reference",
+      "container_norm": "model description reference",
+      "is_container": false,
+      "paragraphs": [
+        "Decision Tree (DT) Grows a logic tree by recursively splitting nodes to maximize the purity of child or leaf nodes.",
+        "Géron (2017) Hastie et al. (2016) Random Forest (RF) Grows many shallow and partial decision trees by randomly selecting a subset of attributes and data subset to split nodes, and then uses majority vote to predict the class. Aggarwal (2015), Breiman (2001) AdaBoost (ADB)",
+        "Sequentially build shallow decision trees (stumps) that improve on the prediction errors of previous trees, and then uses majority vote to predict the class."
+      ],
+      "footnotes": [],
+      "text": "Decision Tree (DT) Grows a logic tree by recursively splitting nodes to maximize the purity of child or leaf nodes.\n\nGéron (2017) Hastie et al. (2016) Random Forest (RF) Grows many shallow and partial decision trees by randomly selecting a subset of attributes and data subset to split nodes, and then uses majority vote to predict the class. Aggarwal (2015), Breiman (2001) AdaBoost (ADB)\n\nSequentially build shallow decision trees (stumps) that improve on the prediction errors of previous trees, and then uses majority vote to predict the class.",
+      "text_with_footnotes": "Decision Tree (DT) Grows a logic tree by recursively splitting nodes to maximize the purity of child or leaf nodes.\n\nGéron (2017) Hastie et al. (2016) Random Forest (RF) Grows many shallow and partial decision trees by randomly selecting a subset of attributes and data subset to split nodes, and then uses majority vote to predict the class. Aggarwal (2015), Breiman (2001) AdaBoost (ADB)\n\nSequentially build shallow decision trees (stumps) that improve on the prediction errors of previous trees, and then uses majority vote to predict the class.",
+      "preview_head": "Decision Tree (DT) Grows a logic tree by recursively splitting nodes to maximize the purity of child or leaf nodes.",
+      "preview_tail": "Sequentially build shallow decision trees (stumps) that improve on the prediction errors of previous trees, and then uses majority vote to predict the class.",
+      "word_count": 88,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section continues to describe ML models (decision tree, boosting) used in the study, focusing on the"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Hastie et al. (2016)",
+      "header_norm": "hastie et al 2016",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "Multi-layer Perceptron (MLP)",
+      "header_norm": "multi layer perceptron mlp",
+      "container_raw": "Hastie et al. (2016)",
+      "container_norm": "hastie et al 2016",
+      "is_container": false,
+      "paragraphs": [
+        "A feed-forward and fully connected artificial neural network that learns a function with one or more inner layers of neurons.",
+        "Géron (2017) Veen and Leijnen (2016) Naïve Bayes (NB) Uses Bayes probability theory to predict a class given the observed set of features, and assuming that they are independent.",
+        "Aggarwal (2015), James et al. (2013) k-Nearest Neighbors (kNN) Predicts a class based on the majority vote of its k-nearest neighbors in feature space. Aggarwal (2015), James et al. (2013) Gradient Boosting (GB) Sequentially build improved models to predict the errors or residuals of previous models. Natekin and Knoll (2013), Aggarwal (2015), Extreme Gradient Boosting (XGB) A highly configurable version of gradient boosting that incorporates regularization. Chen and Guestrin (2016), Feng et al. (2020)",
+        "The performance evaluation procedure used five scoring metrics: classification accuracy (CA), precision (PR), recall (RC), F1-score, and ROC-AUC score. Each metric used some combination of the classification result based on their the true positive (TP), true-negative (TN), false-positive (FP), and false-negative (FN) rates. The CA was the proportion of correct predictions. The PR, a measure of specificity, was the proportion of positive predictions that were correct: PR = TP/(TP + FP). The RC, a measure of sensitivity, was the proportion of positive predictions recalled from the true positives: RC = TP/(TP + FN). F1 was the harmonic mean of sensitivity and specificity: F1 = TP/(TP + α) where α = (FN + FP)/2.",
+        "Each metric is useful for interpreting the performance of a classifier and they complement each other. CA is simple to compute and provides an intuitive sense for comparing the accuracy of each method. However, CA does not effectively characterize the intelligence of a classifier because it can produce a high score for data with high class imbalance if the model predicts the dominant class each time. CA also does not provide any information about the types of errors that a classifier made to help the model designer make decisions to tradeoff FP and FN errors. Therefore, the model designer uses PR, RC, and F1 scores to evaluate the impact of classifier decision boundary thresholds. Although the CA, PR, RC, and F1 scores are simple and useful, they do not provide an unbiased result under high class imbalance. Therefore, the performance evaluation was based on the ROC-AUC score, which integrated TP as a function of FP across a range of sensitivity thresholds to avoid bias from class imbalance (Fawcett 2006).",
+        "The ROC-AUC stands for \"area under the curve\" of the receiver operating characteristic (ROC), where the \"curve\" is a two-dimensional plot of the TP rate against the FP rate, both as a function of the class membership probability threshold. For brevity, the remainder of this article refers to the ROC-AUC score as simply the AUC score. The AUC provides a relative comparison of classifier performance across a range of decision thresholds. Users can better interpret CA than AUC when evaluating the confidence of a class prediction. However, the ROC can guide threshold selection to maximize CA, PR, RC, and F1 performance. The analysis also included the scores of a null classifier to serve as a baseline for comparing relative performance. The null classifier is a no-skill model that predicts the dominant class every time."
+      ],
+      "footnotes": [],
+      "text": "A feed-forward and fully connected artificial neural network that learns a function with one or more inner layers of neurons.\n\nGéron (2017) Veen and Leijnen (2016) Naïve Bayes (NB) Uses Bayes probability theory to predict a class given the observed set of features, and assuming that they are independent.\n\nAggarwal (2015), James et al. (2013) k-Nearest Neighbors (kNN) Predicts a class based on the majority vote of its k-nearest neighbors in feature space. Aggarwal (2015), James et al. (2013) Gradient Boosting (GB) Sequentially build improved models to predict the errors or residuals of previous models. Natekin and Knoll (2013), Aggarwal (2015), Extreme Gradient Boosting (XGB) A highly configurable version of gradient boosting that incorporates regularization. Chen and Guestrin (2016), Feng et al. (2020)\n\nThe performance evaluation procedure used five scoring metrics: classification accuracy (CA), precision (PR), recall (RC), F1-score, and ROC-AUC score. Each metric used some combination of the classification result based on their the true positive (TP), true-negative (TN), false-positive (FP), and false-negative (FN) rates. The CA was the proportion of correct predictions. The PR, a measure of specificity, was the proportion of positive predictions that were correct: PR = TP/(TP + FP). The RC, a measure of sensitivity, was the proportion of positive predictions recalled from the true positives: RC = TP/(TP + FN). F1 was the harmonic mean of sensitivity and specificity: F1 = TP/(TP + α) where α = (FN + FP)/2.\n\nEach metric is useful for interpreting the performance of a classifier and they complement each other. CA is simple to compute and provides an intuitive sense for comparing the accuracy of each method. However, CA does not effectively characterize the intelligence of a classifier because it can produce a high score for data with high class imbalance if the model predicts the dominant class each time. CA also does not provide any information about the types of errors that a classifier made to help the model designer make decisions to tradeoff FP and FN errors. Therefore, the model designer uses PR, RC, and F1 scores to evaluate the impact of classifier decision boundary thresholds. Although the CA, PR, RC, and F1 scores are simple and useful, they do not provide an unbiased result under high class imbalance. Therefore, the performance evaluation was based on the ROC-AUC score, which integrated TP as a function of FP across a range of sensitivity thresholds to avoid bias from class imbalance (Fawcett 2006).\n\nThe ROC-AUC stands for \"area under the curve\" of the receiver operating characteristic (ROC), where the \"curve\" is a two-dimensional plot of the TP rate against the FP rate, both as a function of the class membership probability threshold. For brevity, the remainder of this article refers to the ROC-AUC score as simply the AUC score. The AUC provides a relative comparison of classifier performance across a range of decision thresholds. Users can better interpret CA than AUC when evaluating the confidence of a class prediction. However, the ROC can guide threshold selection to maximize CA, PR, RC, and F1 performance. The analysis also included the scores of a null classifier to serve as a baseline for comparing relative performance. The null classifier is a no-skill model that predicts the dominant class every time.",
+      "text_with_footnotes": "A feed-forward and fully connected artificial neural network that learns a function with one or more inner layers of neurons.\n\nGéron (2017) Veen and Leijnen (2016) Naïve Bayes (NB) Uses Bayes probability theory to predict a class given the observed set of features, and assuming that they are independent.\n\nAggarwal (2015), James et al. (2013) k-Nearest Neighbors (kNN) Predicts a class based on the majority vote of its k-nearest neighbors in feature space. Aggarwal (2015), James et al. (2013) Gradient Boosting (GB) Sequentially build improved models to predict the errors or residuals of previous models. Natekin and Knoll (2013), Aggarwal (2015), Extreme Gradient Boosting (XGB) A highly configurable version of gradient boosting that incorporates regularization. Chen and Guestrin (2016), Feng et al. (2020)\n\nThe performance evaluation procedure used five scoring metrics: classification accuracy (CA), precision (PR), recall (RC), F1-score, and ROC-AUC score. Each metric used some combination of the classification result based on their the true positive (TP), true-negative (TN), false-positive (FP), and false-negative (FN) rates. The CA was the proportion of correct predictions. The PR, a measure of specificity, was the proportion of positive predictions that were correct: PR = TP/(TP + FP). The RC, a measure of sensitivity, was the proportion of positive predictions recalled from the true positives: RC = TP/(TP + FN). F1 was the harmonic mean of sensitivity and specificity: F1 = TP/(TP + α) where α = (FN + FP)/2.\n\nEach metric is useful for interpreting the performance of a classifier and they complement each other. CA is simple to compute and provides an intuitive sense for comparing the accuracy of each method. However, CA does not effectively characterize the intelligence of a classifier because it can produce a high score for data with high class imbalance if the model predicts the dominant class each time. CA also does not provide any information about the types of errors that a classifier made to help the model designer make decisions to tradeoff FP and FN errors. Therefore, the model designer uses PR, RC, and F1 scores to evaluate the impact of classifier decision boundary thresholds. Although the CA, PR, RC, and F1 scores are simple and useful, they do not provide an unbiased result under high class imbalance. Therefore, the performance evaluation was based on the ROC-AUC score, which integrated TP as a function of FP across a range of sensitivity thresholds to avoid bias from class imbalance (Fawcett 2006).\n\nThe ROC-AUC stands for \"area under the curve\" of the receiver operating characteristic (ROC), where the \"curve\" is a two-dimensional plot of the TP rate against the FP rate, both as a function of the class membership probability threshold. For brevity, the remainder of this article refers to the ROC-AUC score as simply the AUC score. The AUC provides a relative comparison of classifier performance across a range of decision thresholds. Users can better interpret CA than AUC when evaluating the confidence of a class prediction. However, the ROC can guide threshold selection to maximize CA, PR, RC, and F1 performance. The analysis also included the scores of a null classifier to serve as a baseline for comparing relative performance. The null classifier is a no-skill model that predicts the dominant class every time.",
+      "preview_head": "A feed-forward and fully connected artificial neural network that learns a function with one or more inner layers of neurons.",
+      "preview_tail": "However, the ROC can guide threshold selection to maximize CA, PR, RC, and F1 performance. The analysis also included the scores of a null classifier to serve as a baseline for comparing relative performance. The null classifier is a no-skill model that predicts the dominant class every time.",
+      "word_count": 539,
+      "paragraph_count": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the multi-layer perceptron model and discusses performance metrics and analysis pr"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": "Hastie et al. (2016)",
+      "container_norm": "hastie et al 2016",
+      "is_container": false,
+      "paragraphs": [
+        "The next two subsections present the results of the ETC and the ML classification to validate the accuracy of associating the summary narratives with PACs."
+      ],
+      "footnotes": [],
+      "text": "The next two subsections present the results of the ETC and the ML classification to validate the accuracy of associating the summary narratives with PACs.",
+      "text_with_footnotes": "The next two subsections present the results of the ETC and the ML classification to validate the accuracy of associating the summary narratives with PACs.",
+      "preview_head": "The next two subsections present the results of the ETC and the ML classification to validate the accuracy of associating the summary narratives with PACs.",
+      "preview_tail": "The next two subsections present the results of the ETC and the ML classification to validate the accuracy of associating the summary narratives with PACs.",
+      "word_count": 25,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*results?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*results?\\s*$",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Topic Classification",
+      "header_norm": "topic classification",
+      "container_raw": "Hastie et al. (2016)",
+      "container_norm": "hastie et al 2016",
+      "is_container": false,
+      "paragraphs": [
+        "The author terminated the ETC procedure of Figure 2 after labeling 8400 of the 9460 records where the remaining dominant words appeared in less than 0.1% of the unassigned records. Table 2 summarizes the six PACs identified and provides a definition for each. Table 2 also list the number of motive narratives or documents (D) classified into each PAC and the number of word features (F) identified for the collection of documents within each PAC. The last column of Table 2 shows a list of some notable word features and their frequency of occurrence across documents within that PAC. The Corpus View helped the author to both identify and verify the context of each keyword and to reconcile them with the assigned PAC. Figure 4 shows the regional makeup of each PAC by the number of attacks assigned that aim category. Note that this chart shows the aim categories for only those terrorist events with motives reported, not all terrorist events. Table 3 complements Figure 4 by providing details of the world region proportions that make up each PAC. F: 3498 D: 2956 retaliate (0.335), spy (0.090), NPA (0.078), revenge (0.071), punish (0.048), extort (0.045), avenge (0.035), murder (0.033), crime (0.028), cooperate (0.022), corrupt (0.020), collaborate (0.019), anarchist (0.017), retribution (0.017), traitor (0.014), respond (0.011), mistreat (0.010), reprise (0.010), critic (0.009), sympathetic (0.007), clash (0.006), anniversary (0.004), blame (0.004), react (0.004), defy (0.003)"
+      ],
+      "footnotes": [],
+      "text": "The author terminated the ETC procedure of Figure 2 after labeling 8400 of the 9460 records where the remaining dominant words appeared in less than 0.1% of the unassigned records. Table 2 summarizes the six PACs identified and provides a definition for each. Table 2 also list the number of motive narratives or documents (D) classified into each PAC and the number of word features (F) identified for the collection of documents within each PAC. The last column of Table 2 shows a list of some notable word features and their frequency of occurrence across documents within that PAC. The Corpus View helped the author to both identify and verify the context of each keyword and to reconcile them with the assigned PAC. Figure 4 shows the regional makeup of each PAC by the number of attacks assigned that aim category. Note that this chart shows the aim categories for only those terrorist events with motives reported, not all terrorist events. Table 3 complements Figure 4 by providing details of the world region proportions that make up each PAC. F: 3498 D: 2956 retaliate (0.335), spy (0.090), NPA (0.078), revenge (0.071), punish (0.048), extort (0.045), avenge (0.035), murder (0.033), crime (0.028), cooperate (0.022), corrupt (0.020), collaborate (0.019), anarchist (0.017), retribution (0.017), traitor (0.014), respond (0.011), mistreat (0.010), reprise (0.010), critic (0.009), sympathetic (0.007), clash (0.006), anniversary (0.004), blame (0.004), react (0.004), defy (0.003)",
+      "text_with_footnotes": "The author terminated the ETC procedure of Figure 2 after labeling 8400 of the 9460 records where the remaining dominant words appeared in less than 0.1% of the unassigned records. Table 2 summarizes the six PACs identified and provides a definition for each. Table 2 also list the number of motive narratives or documents (D) classified into each PAC and the number of word features (F) identified for the collection of documents within each PAC. The last column of Table 2 shows a list of some notable word features and their frequency of occurrence across documents within that PAC. The Corpus View helped the author to both identify and verify the context of each keyword and to reconcile them with the assigned PAC. Figure 4 shows the regional makeup of each PAC by the number of attacks assigned that aim category. Note that this chart shows the aim categories for only those terrorist events with motives reported, not all terrorist events. Table 3 complements Figure 4 by providing details of the world region proportions that make up each PAC. F: 3498 D: 2956 retaliate (0.335), spy (0.090), NPA (0.078), revenge (0.071), punish (0.048), extort (0.045), avenge (0.035), murder (0.033), crime (0.028), cooperate (0.022), corrupt (0.020), collaborate (0.019), anarchist (0.017), retribution (0.017), traitor (0.014), respond (0.011), mistreat (0.010), reprise (0.010), critic (0.009), sympathetic (0.007), clash (0.006), anniversary (0.004), blame (0.004), react (0.004), defy (0.003)",
+      "preview_head": "The author terminated the ETC procedure of Figure 2 after labeling 8400 of the 9460 records where the remaining dominant words appeared in less than 0.1% of the unassigned records. Table 2 summarizes the six PACs identified and provides a definition for each. Table 2 also list the number of motive narratives or documents (D) classified into each PAC and the number of word features (F) identified for the collection of documents within each PAC.",
+      "preview_tail": "Note that this chart shows the aim categories for only those terrorist events with motives reported, not all terrorist events. Table 3 complements Figure 4 by providing details of the world region proportions that make up each PAC. F: 3498 D: 2956 retaliate (0.335), spy (0.090), NPA (0.078), revenge (0.071), punish (0.048), extort (0.045), avenge (0.035), murder (0.033), crime (0.028), cooperate (0.022), corrupt (0.020), collaborate (0.019), anarchist (0.017), retribution (0.017), traitor (0.014), respond (0.011), mistreat (0.010), reprise (0.010), critic (0.009), sympathetic (0.007), clash (0.006), anniversary (0.004), blame (0.004), react (0.004), defy (0.003)",
+      "word_count": 233,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports the outcome of the ETC procedure, provides summary tables and figures, and describes"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "Intimidate",
+      "header_norm": "intimidate",
+      "container_raw": "Hastie et al. (2016)",
+      "container_norm": "hastie et al 2016",
+      "is_container": false,
+      "paragraphs": [
+        "Repel people or actions by instilling fear.",
+        "F: 866 D: 781 intimidate (0.800), threaten (0.060), fear (0.036), threat (0.027), prove (0.020), deter (0.019), raid (0.015), away (0.013), discourage (0.010)"
+      ],
+      "footnotes": [],
+      "text": "Repel people or actions by instilling fear.\n\nF: 866 D: 781 intimidate (0.800), threaten (0.060), fear (0.036), threat (0.027), prove (0.020), deter (0.019), raid (0.015), away (0.013), discourage (0.010)",
+      "text_with_footnotes": "Repel people or actions by instilling fear.\n\nF: 866 D: 781 intimidate (0.800), threaten (0.060), fear (0.036), threat (0.027), prove (0.020), deter (0.019), raid (0.015), away (0.013), discourage (0.010)",
+      "preview_head": "Repel people or actions by instilling fear.",
+      "preview_tail": "F: 866 D: 781 intimidate (0.800), threaten (0.060), fear (0.036), threat (0.027), prove (0.020), deter (0.019), raid (0.015), away (0.013), discourage (0.010)",
+      "word_count": 29,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section provides the definition and word statistics for the 'Intimidate' category, reporting finding"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Weaken",
+      "header_norm": "weaken",
+      "container_raw": "Hastie et al. (2016)",
+      "container_norm": "hastie et al 2016",
+      "is_container": false,
+      "paragraphs": [
+        "Weaken the target or create instability.",
+        "F: 617 D: 703 destabilize (0.498), weaken (0.296), disrupt (0.156), interest (0.048), destroy (0.038), offense (0.031), undermine (0.014), dampen (0.009), chaos (0.007), distract (0.007), insurgency (0.004),"
+      ],
+      "footnotes": [],
+      "text": "Weaken the target or create instability.\n\nF: 617 D: 703 destabilize (0.498), weaken (0.296), disrupt (0.156), interest (0.048), destroy (0.038), offense (0.031), undermine (0.014), dampen (0.009), chaos (0.007), distract (0.007), insurgency (0.004),",
+      "text_with_footnotes": "Weaken the target or create instability.\n\nF: 617 D: 703 destabilize (0.498), weaken (0.296), disrupt (0.156), interest (0.048), destroy (0.038), offense (0.031), undermine (0.014), dampen (0.009), chaos (0.007), distract (0.007), insurgency (0.004),",
+      "preview_head": "Weaken the target or create instability.",
+      "preview_tail": "F: 617 D: 703 destabilize (0.498), weaken (0.296), disrupt (0.156), interest (0.048), destroy (0.038), offense (0.031), undermine (0.014), dampen (0.009), chaos (0.007), distract (0.007), insurgency (0.004),",
+      "word_count": 32,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the output of a classification or coding process, reporting the frequency and,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents the output of a classification or coding process, reporting the frequency and,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 24,
+      "depth": 0,
+      "header_raw": "Force",
+      "header_norm": "force",
+      "container_raw": "Hastie et al. (2016)",
+      "container_norm": "hastie et al 2016",
+      "is_container": false,
+      "paragraphs": [
+        "Force or demand a change or divert attention.",
+        "F: 2806 D: 1638 demand (0.173), liberate (0.090), free (0.066), peace (0.040), prevent (0.038), pay (0.027), land (0.023), sharia (0.022), control (0.020), join (0.017), withdraw (0.016), halt (0.013), remove (0.013), cause (0.012), create (0.011), freedom(0.010), obtain (0.010), taken (0.010), close (0.007), kidnap (0.007), vivisection (0.007), supply (0.006), divert (0.006), preserve (0.006), finance (0.005), incite (0.005), indoctrinate (0.005), autonomy (0.005), revenue (0.004), occupy (0.004), overthrow (0.004), release (0.004), captor (0.002), stop (0.002), surrender (0.002), disavow (0.001)"
+      ],
+      "footnotes": [],
+      "text": "Force or demand a change or divert attention.\n\nF: 2806 D: 1638 demand (0.173), liberate (0.090), free (0.066), peace (0.040), prevent (0.038), pay (0.027), land (0.023), sharia (0.022), control (0.020), join (0.017), withdraw (0.016), halt (0.013), remove (0.013), cause (0.012), create (0.011), freedom(0.010), obtain (0.010), taken (0.010), close (0.007), kidnap (0.007), vivisection (0.007), supply (0.006), divert (0.006), preserve (0.006), finance (0.005), incite (0.005), indoctrinate (0.005), autonomy (0.005), revenue (0.004), occupy (0.004), overthrow (0.004), release (0.004), captor (0.002), stop (0.002), surrender (0.002), disavow (0.001)",
+      "text_with_footnotes": "Force or demand a change or divert attention.\n\nF: 2806 D: 1638 demand (0.173), liberate (0.090), free (0.066), peace (0.040), prevent (0.038), pay (0.027), land (0.023), sharia (0.022), control (0.020), join (0.017), withdraw (0.016), halt (0.013), remove (0.013), cause (0.012), create (0.011), freedom(0.010), obtain (0.010), taken (0.010), close (0.007), kidnap (0.007), vivisection (0.007), supply (0.006), divert (0.006), preserve (0.006), finance (0.005), incite (0.005), indoctrinate (0.005), autonomy (0.005), revenue (0.004), occupy (0.004), overthrow (0.004), release (0.004), captor (0.002), stop (0.002), surrender (0.002), disavow (0.001)",
+      "preview_head": "Force or demand a change or divert attention.",
+      "preview_tail": "F: 2806 D: 1638 demand (0.173), liberate (0.090), free (0.066), peace (0.040), prevent (0.038), pay (0.027), land (0.023), sharia (0.022), control (0.020), join (0.017), withdraw (0.016), halt (0.013), remove (0.013), cause (0.012), create (0.011), freedom(0.010), obtain (0.010), taken (0.010), close (0.007), kidnap (0.007), vivisection (0.007), supply (0.006), divert (0.006), preserve (0.006), finance (0.005), incite (0.005), indoctrinate (0.005), autonomy (0.005), revenue (0.004), occupy (0.004), overthrow (0.004), release (0.004), captor (0.002), stop (0.002), surrender (0.002), disavow (0.001)",
+      "word_count": 83,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of a classification or coding process, listing frequencies and key,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 25,
+      "depth": 0,
+      "header_raw": "Despise",
+      "header_norm": "despise",
+      "container_raw": "Hastie et al. (2016)",
+      "container_norm": "hastie et al 2016",
+      "is_container": false,
+      "paragraphs": [
+        "Expression of contempt for a race, gender identity, religion, or ideology.",
+        "F: 1341 D: 778 Islam (0.288), religious (0.109), anti (0.087), Muslim (0.068), Ramadan (0.064), separatist (0.063), white (0.060), Christian (0.044), pro (0.041), Shi'i (0.041), sectarian (0.033), foreign (0.030), Jew (0.028), women (0.019), nationalist (0.017), ideology (0.015), racial (0.014), music (0.010), refuge (0.009), black (0.008), incompetence (0.008), politician (0.006)",
+        "Soc. Sci. 2022, 11, x FOR PEER REVIEW 10 of 15"
+      ],
+      "footnotes": [],
+      "text": "Expression of contempt for a race, gender identity, religion, or ideology.\n\nF: 1341 D: 778 Islam (0.288), religious (0.109), anti (0.087), Muslim (0.068), Ramadan (0.064), separatist (0.063), white (0.060), Christian (0.044), pro (0.041), Shi'i (0.041), sectarian (0.033), foreign (0.030), Jew (0.028), women (0.019), nationalist (0.017), ideology (0.015), racial (0.014), music (0.010), refuge (0.009), black (0.008), incompetence (0.008), politician (0.006)\n\nSoc. Sci. 2022, 11, x FOR PEER REVIEW 10 of 15",
+      "text_with_footnotes": "Expression of contempt for a race, gender identity, religion, or ideology.\n\nF: 1341 D: 778 Islam (0.288), religious (0.109), anti (0.087), Muslim (0.068), Ramadan (0.064), separatist (0.063), white (0.060), Christian (0.044), pro (0.041), Shi'i (0.041), sectarian (0.033), foreign (0.030), Jew (0.028), women (0.019), nationalist (0.017), ideology (0.015), racial (0.014), music (0.010), refuge (0.009), black (0.008), incompetence (0.008), politician (0.006)\n\nSoc. Sci. 2022, 11, x FOR PEER REVIEW 10 of 15",
+      "preview_head": "Expression of contempt for a race, gender identity, religion, or ideology.",
+      "preview_tail": "Soc. Sci. 2022, 11, x FOR PEER REVIEW 10 of 15",
+      "word_count": 70,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results of a classification or coding process, describing the content and, "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 26,
+      "depth": 0,
+      "header_raw": "Machine Learning",
+      "header_norm": "machine learning",
+      "container_raw": "Hastie et al. (2016)",
+      "container_norm": "hastie et al 2016",
+      "is_container": false,
+      "paragraphs": [
+        "Table 4 summarizes the performance metric for each model, ordered by their average AUC score from the OvR binary classification. Table 4 also shows the hyperparameter settings as [a:b, x] where a:b represents the range of values evaluated using a combined grid-search and manual search method, and x is the tuned value of the final classifier. The"
+      ],
+      "footnotes": [],
+      "text": "Table 4 summarizes the performance metric for each model, ordered by their average AUC score from the OvR binary classification. Table 4 also shows the hyperparameter settings as [a:b, x] where a:b represents the range of values evaluated using a combined grid-search and manual search method, and x is the tuned value of the final classifier. The",
+      "text_with_footnotes": "Table 4 summarizes the performance metric for each model, ordered by their average AUC score from the OvR binary classification. Table 4 also shows the hyperparameter settings as [a:b, x] where a:b represents the range of values evaluated using a combined grid-search and manual search method, and x is the tuned value of the final classifier. The",
+      "preview_head": "Table 4 summarizes the performance metric for each model, ordered by their average AUC score from the OvR binary classification. Table 4 also shows the hyperparameter settings as [a:b, x] where a:b represents the range of values evaluated using a combined grid-search and manual search method, and x is the tuned value of the final classifier. The",
+      "preview_tail": "Table 4 summarizes the performance metric for each model, ordered by their average AUC score from the OvR binary classification. Table 4 also shows the hyperparameter settings as [a:b, x] where a:b represents the range of values evaluated using a combined grid-search and manual search method, and x is the tuned value of the final classifier. The",
+      "word_count": 57,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section summarizes model performance metrics and hyperparameter settings, which are empirical, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is some mention of the method (grid-search, manual search) for hyperparameter tuning, but the,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 27,
+      "depth": 0,
+      "header_raw": "Machine Learning",
+      "header_norm": "machine learning",
+      "container_raw": "Hastie et al. (2016)",
+      "container_norm": "hastie et al 2016",
+      "is_container": false,
+      "paragraphs": [
+        "Table 4 summarizes the performance metric for each model, ordered by their average AUC score from the OvR binary classification. Table 4 also shows the hyperparameter settings as [a:b, x] where a:b represents the range of values evaluated using a combined grid-search and manual search method, and x is the tuned value of the final classifier.",
+        "The training and tuning procedures used 10-fold cross validation and stratified sampling. Common hyperparameters for several of the models were the learning rate (L), loss function (LF), regularization (R) setting, and optimizer algorithm (OA). The hyperparameters for tree-based methods were the number of decision trees (N) and the minimum number of samples to retain in the leaves. For kNN, N was the number of nearest neighbors. The XGB algorithm provided the best performance across all metrics. Table 5 summarizes the performance metrics of the XGB algorithm for each PAC in the OvR classification. Figure 5 provides a visual validation of the differences in AUC among the classifications. The gray background highlights the area that is equivalent to the AUC. The figure shows the ROC mean (green curve) and variations (error bars) for the 10 cross-validation results of the XGB algorithm when predicting the PAC presence for \"Weaken\" and \"Despise\" which represents the best and worst AUC scores, respectively. The TP rate of the ROC curve for \"Weaken\" increases more rapidly than that of the ROC curve for \"Despise\" which has a less sharp curve. For reference, Figure 5 includes the performance of the Null model, which is the straight orange line."
+      ],
+      "footnotes": [],
+      "text": "Table 4 summarizes the performance metric for each model, ordered by their average AUC score from the OvR binary classification. Table 4 also shows the hyperparameter settings as [a:b, x] where a:b represents the range of values evaluated using a combined grid-search and manual search method, and x is the tuned value of the final classifier.\n\nThe training and tuning procedures used 10-fold cross validation and stratified sampling. Common hyperparameters for several of the models were the learning rate (L), loss function (LF), regularization (R) setting, and optimizer algorithm (OA). The hyperparameters for tree-based methods were the number of decision trees (N) and the minimum number of samples to retain in the leaves. For kNN, N was the number of nearest neighbors. The XGB algorithm provided the best performance across all metrics. Table 5 summarizes the performance metrics of the XGB algorithm for each PAC in the OvR classification. Figure 5 provides a visual validation of the differences in AUC among the classifications. The gray background highlights the area that is equivalent to the AUC. The figure shows the ROC mean (green curve) and variations (error bars) for the 10 cross-validation results of the XGB algorithm when predicting the PAC presence for \"Weaken\" and \"Despise\" which represents the best and worst AUC scores, respectively. The TP rate of the ROC curve for \"Weaken\" increases more rapidly than that of the ROC curve for \"Despise\" which has a less sharp curve. For reference, Figure 5 includes the performance of the Null model, which is the straight orange line.",
+      "text_with_footnotes": "Table 4 summarizes the performance metric for each model, ordered by their average AUC score from the OvR binary classification. Table 4 also shows the hyperparameter settings as [a:b, x] where a:b represents the range of values evaluated using a combined grid-search and manual search method, and x is the tuned value of the final classifier.\n\nThe training and tuning procedures used 10-fold cross validation and stratified sampling. Common hyperparameters for several of the models were the learning rate (L), loss function (LF), regularization (R) setting, and optimizer algorithm (OA). The hyperparameters for tree-based methods were the number of decision trees (N) and the minimum number of samples to retain in the leaves. For kNN, N was the number of nearest neighbors. The XGB algorithm provided the best performance across all metrics. Table 5 summarizes the performance metrics of the XGB algorithm for each PAC in the OvR classification. Figure 5 provides a visual validation of the differences in AUC among the classifications. The gray background highlights the area that is equivalent to the AUC. The figure shows the ROC mean (green curve) and variations (error bars) for the 10 cross-validation results of the XGB algorithm when predicting the PAC presence for \"Weaken\" and \"Despise\" which represents the best and worst AUC scores, respectively. The TP rate of the ROC curve for \"Weaken\" increases more rapidly than that of the ROC curve for \"Despise\" which has a less sharp curve. For reference, Figure 5 includes the performance of the Null model, which is the straight orange line.",
+      "preview_head": "Table 4 summarizes the performance metric for each model, ordered by their average AUC score from the OvR binary classification. Table 4 also shows the hyperparameter settings as [a:b, x] where a:b represents the range of values evaluated using a combined grid-search and manual search method, and x is the tuned value of the final classifier.",
+      "preview_tail": "The figure shows the ROC mean (green curve) and variations (error bars) for the 10 cross-validation results of the XGB algorithm when predicting the PAC presence for \"Weaken\" and \"Despise\" which represents the best and worst AUC scores, respectively. The TP rate of the ROC curve for \"Weaken\" increases more rapidly than that of the ROC curve for \"Despise\" which has a less sharp curve. For reference, Figure 5 includes the performance of the Null model, which is the straight orange line.",
+      "word_count": 257,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section continues to report model performance results, including ROC curves and cross-, "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 28,
+      "depth": 0,
+      "header_raw": "Discussion",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The AUC values ranged from 0.624 for the SVM model to 0.900 for the XGB model, with the Null model achieving only 0.499. The ROC uses the entire dataset to compute probability rates (TP and FP) between 0 and 1 as a function of decision thresholds applied to the output of each classifier. Therefore, the AUC is inherently a probabilistic score. This means that decision makers can interpret differences in AUC values on a probability scale when selecting models. The six PACs accurately classify the summary narratives of the events. That is, the RF, LR, MLP, and GB models provided similarly satisfactory performance. The null model provided the worst AUC performance as expected.",
+        "Although in a statistical sense, the six models of XGB, RF, LR, MLP, NB, and GB provided similar performance, the consistent albeit slight performance edge of XGB across all scores is worth an interpretation. As explained in the introduction, an important tenant of ML is that no single model type can best represent all datasets (Aggarwal 2015). For example, SVM does best when there is a clear separation of classes across hyperplanes, whereas k-NN does well when classes form clusters in feature space (Géron 2017). XGB incorporates a lot of randomness as it sequentially builds an ensemble of models to reduce the errors of previous models (Natekin and Knoll 2013). Therefore, XGB is more likely to find class associations in datasets that lack clear hyperplane separation or clustering because it can randomly discover them. The original reference described the algorithm as \"especially appropriate for mining less than clean data\" (Friedman 2001).",
+        "The CA performance of the XGB classification ranged from 0.860 to 0.943 for each PAC (Table 5). The table summarizes the mean, standard deviation (STD), and coefficient of variation (CV) for each score. This result indicated that even though XGB made more prediction errors for some classes than others, the performance spread as measured by CV was less than 5%, suggesting a consistent performance across all classes. The variations in CA for each target class was partially due to imbalance in the number of training examples across the dataset (Table 2). For example, the PAC of \"Retaliate\" had 2956 documents whereas \"Weaken\" had 76% fewer documents to serve as examples in the training. Another reason for the differences were inherent variations due to randomness in the cross-validation processes.",
+        "The main advantage of the ETC over the available topic modeling techniques was the accommodation of human cognition into the process to yield a meaningful set of PACs. Hence, the workflow enabled a machine-aided human decision process. Consequently, the process was naturally slower than a fully automated statistical method. Hence, the tradeoff for more meaningful topic classification was speed. For example, using the same computing resources, LDA took a few minutes whereas the ETC took an entire day. As discussed previously, LDA did not provide meaningful results whereas ETC did. In this application, the ETC proved to be effective because of the relatively small size of the dataset, and the similarities of contextual keywords across many documents.",
+        "A potential limitation of the approach is that the motives and summary narratives of the GTD may have reporting biases. However, it is unlikely that any potential bias would have been systematic and consistent across all reports. Machine learning algorithms continue to evolve in their capabilities. The framework discussed is sufficiently general to include additional model types when they become available, but it is possible that some approaches may require a modification to the framework for compatibility. General users may be more familiar with CA as an evaluation metric. Hence, the framework may require advanced users to evaluate other performance metrics such as F1 and AUC to guide more informed decision-making and interpretation.",
+        "One interpretation of Figure 4 was that among known motives, aims to \"retaliate\" were nearly four-times more revealed by terrorist responsibility claims than aims to \"weaken\" the target. This suggests that terrorists were more likely to claim credit for retaliations than to advertise aims to weaken or distract their enemies. Another interesting observation is that PACs were more generally known for attacks in the Middle East, North Africa, and South Asia than for other regions of the world.",
+        "A final observation is that the six PACs represent two general need categories. The first need is to instigate change by weakening the target, forcing a situation, or intimidating the opposition. The second need is to express feelings through despise, protest, or retaliation. These findings, with the help of the two AI methods (NLP and ML), add to the diversity of knowledge about terrorist behaviors."
+      ],
+      "footnotes": [],
+      "text": "The AUC values ranged from 0.624 for the SVM model to 0.900 for the XGB model, with the Null model achieving only 0.499. The ROC uses the entire dataset to compute probability rates (TP and FP) between 0 and 1 as a function of decision thresholds applied to the output of each classifier. Therefore, the AUC is inherently a probabilistic score. This means that decision makers can interpret differences in AUC values on a probability scale when selecting models. The six PACs accurately classify the summary narratives of the events. That is, the RF, LR, MLP, and GB models provided similarly satisfactory performance. The null model provided the worst AUC performance as expected.\n\nAlthough in a statistical sense, the six models of XGB, RF, LR, MLP, NB, and GB provided similar performance, the consistent albeit slight performance edge of XGB across all scores is worth an interpretation. As explained in the introduction, an important tenant of ML is that no single model type can best represent all datasets (Aggarwal 2015). For example, SVM does best when there is a clear separation of classes across hyperplanes, whereas k-NN does well when classes form clusters in feature space (Géron 2017). XGB incorporates a lot of randomness as it sequentially builds an ensemble of models to reduce the errors of previous models (Natekin and Knoll 2013). Therefore, XGB is more likely to find class associations in datasets that lack clear hyperplane separation or clustering because it can randomly discover them. The original reference described the algorithm as \"especially appropriate for mining less than clean data\" (Friedman 2001).\n\nThe CA performance of the XGB classification ranged from 0.860 to 0.943 for each PAC (Table 5). The table summarizes the mean, standard deviation (STD), and coefficient of variation (CV) for each score. This result indicated that even though XGB made more prediction errors for some classes than others, the performance spread as measured by CV was less than 5%, suggesting a consistent performance across all classes. The variations in CA for each target class was partially due to imbalance in the number of training examples across the dataset (Table 2). For example, the PAC of \"Retaliate\" had 2956 documents whereas \"Weaken\" had 76% fewer documents to serve as examples in the training. Another reason for the differences were inherent variations due to randomness in the cross-validation processes.\n\nThe main advantage of the ETC over the available topic modeling techniques was the accommodation of human cognition into the process to yield a meaningful set of PACs. Hence, the workflow enabled a machine-aided human decision process. Consequently, the process was naturally slower than a fully automated statistical method. Hence, the tradeoff for more meaningful topic classification was speed. For example, using the same computing resources, LDA took a few minutes whereas the ETC took an entire day. As discussed previously, LDA did not provide meaningful results whereas ETC did. In this application, the ETC proved to be effective because of the relatively small size of the dataset, and the similarities of contextual keywords across many documents.\n\nA potential limitation of the approach is that the motives and summary narratives of the GTD may have reporting biases. However, it is unlikely that any potential bias would have been systematic and consistent across all reports. Machine learning algorithms continue to evolve in their capabilities. The framework discussed is sufficiently general to include additional model types when they become available, but it is possible that some approaches may require a modification to the framework for compatibility. General users may be more familiar with CA as an evaluation metric. Hence, the framework may require advanced users to evaluate other performance metrics such as F1 and AUC to guide more informed decision-making and interpretation.\n\nOne interpretation of Figure 4 was that among known motives, aims to \"retaliate\" were nearly four-times more revealed by terrorist responsibility claims than aims to \"weaken\" the target. This suggests that terrorists were more likely to claim credit for retaliations than to advertise aims to weaken or distract their enemies. Another interesting observation is that PACs were more generally known for attacks in the Middle East, North Africa, and South Asia than for other regions of the world.\n\nA final observation is that the six PACs represent two general need categories. The first need is to instigate change by weakening the target, forcing a situation, or intimidating the opposition. The second need is to express feelings through despise, protest, or retaliation. These findings, with the help of the two AI methods (NLP and ML), add to the diversity of knowledge about terrorist behaviors.",
+      "text_with_footnotes": "The AUC values ranged from 0.624 for the SVM model to 0.900 for the XGB model, with the Null model achieving only 0.499. The ROC uses the entire dataset to compute probability rates (TP and FP) between 0 and 1 as a function of decision thresholds applied to the output of each classifier. Therefore, the AUC is inherently a probabilistic score. This means that decision makers can interpret differences in AUC values on a probability scale when selecting models. The six PACs accurately classify the summary narratives of the events. That is, the RF, LR, MLP, and GB models provided similarly satisfactory performance. The null model provided the worst AUC performance as expected.\n\nAlthough in a statistical sense, the six models of XGB, RF, LR, MLP, NB, and GB provided similar performance, the consistent albeit slight performance edge of XGB across all scores is worth an interpretation. As explained in the introduction, an important tenant of ML is that no single model type can best represent all datasets (Aggarwal 2015). For example, SVM does best when there is a clear separation of classes across hyperplanes, whereas k-NN does well when classes form clusters in feature space (Géron 2017). XGB incorporates a lot of randomness as it sequentially builds an ensemble of models to reduce the errors of previous models (Natekin and Knoll 2013). Therefore, XGB is more likely to find class associations in datasets that lack clear hyperplane separation or clustering because it can randomly discover them. The original reference described the algorithm as \"especially appropriate for mining less than clean data\" (Friedman 2001).\n\nThe CA performance of the XGB classification ranged from 0.860 to 0.943 for each PAC (Table 5). The table summarizes the mean, standard deviation (STD), and coefficient of variation (CV) for each score. This result indicated that even though XGB made more prediction errors for some classes than others, the performance spread as measured by CV was less than 5%, suggesting a consistent performance across all classes. The variations in CA for each target class was partially due to imbalance in the number of training examples across the dataset (Table 2). For example, the PAC of \"Retaliate\" had 2956 documents whereas \"Weaken\" had 76% fewer documents to serve as examples in the training. Another reason for the differences were inherent variations due to randomness in the cross-validation processes.\n\nThe main advantage of the ETC over the available topic modeling techniques was the accommodation of human cognition into the process to yield a meaningful set of PACs. Hence, the workflow enabled a machine-aided human decision process. Consequently, the process was naturally slower than a fully automated statistical method. Hence, the tradeoff for more meaningful topic classification was speed. For example, using the same computing resources, LDA took a few minutes whereas the ETC took an entire day. As discussed previously, LDA did not provide meaningful results whereas ETC did. In this application, the ETC proved to be effective because of the relatively small size of the dataset, and the similarities of contextual keywords across many documents.\n\nA potential limitation of the approach is that the motives and summary narratives of the GTD may have reporting biases. However, it is unlikely that any potential bias would have been systematic and consistent across all reports. Machine learning algorithms continue to evolve in their capabilities. The framework discussed is sufficiently general to include additional model types when they become available, but it is possible that some approaches may require a modification to the framework for compatibility. General users may be more familiar with CA as an evaluation metric. Hence, the framework may require advanced users to evaluate other performance metrics such as F1 and AUC to guide more informed decision-making and interpretation.\n\nOne interpretation of Figure 4 was that among known motives, aims to \"retaliate\" were nearly four-times more revealed by terrorist responsibility claims than aims to \"weaken\" the target. This suggests that terrorists were more likely to claim credit for retaliations than to advertise aims to weaken or distract their enemies. Another interesting observation is that PACs were more generally known for attacks in the Middle East, North Africa, and South Asia than for other regions of the world.\n\nA final observation is that the six PACs represent two general need categories. The first need is to instigate change by weakening the target, forcing a situation, or intimidating the opposition. The second need is to express feelings through despise, protest, or retaliation. These findings, with the help of the two AI methods (NLP and ML), add to the diversity of knowledge about terrorist behaviors.",
+      "preview_head": "The AUC values ranged from 0.624 for the SVM model to 0.900 for the XGB model, with the Null model achieving only 0.499. The ROC uses the entire dataset to compute probability rates (TP and FP) between 0 and 1 as a function of decision thresholds applied to the output of each classifier. Therefore, the AUC is inherently a probabilistic score.",
+      "preview_tail": "The first need is to instigate change by weakening the target, forcing a situation, or intimidating the opposition. The second need is to express feelings through despise, protest, or retaliation. These findings, with the help of the two AI methods (NLP and ML), add to the diversity of knowledge about terrorist behaviors.",
+      "word_count": 765,
+      "paragraph_count": 7,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*discussion\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*discussion\\s*$",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Bridgelall - 2022 - An Application of Natural Language Processing to Classify What Terrorists Say They Want",
+      "sec_index": 29,
+      "depth": 0,
+      "header_raw": "Conclusions",
+      "header_norm": "conclusions",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "A comprehensive review of the research on terrorism revealed a dominant assumption that terrorists attack civilians to maximize political ends. However, \"revealed preference\" by the reported motives of terrorist attacks points to a more diverse set of aims. This research applied two artificial intelligence (AI) techniques to help the author distill perpetrator aims from a comprehensive record of terrorist attacks across the world. The method helped the author to identify six aim categories, which were to despise, protest, retaliate, weaken, force, and intimidate.",
+        "The performance of the machine learning (ML) techniques validated that the six perpetrator aim categories (PACs), derived by machine-aided human decision, accurately classified the data. The method first applied natural language processing (NLP) techniques to invent an empirical topic classification workflow that extracted text features from the available motive narratives of terrorist events. The method then applied 11 distinct types of ML models to text features extracted from the summary narrative of each event, which was a different field from the motive narrative that was not involved in the model training. The six best-performing ML models predicted PACs with accuracies ranging from 86% to 94% and corresponding AUC scores ranging from 86% to 93%. The Extreme Gradient Boosting model provided the best predictive performance with AUC, classification accuracy, and F1 scores of 0.90, 0.91, and 0.90, respectively. These values provide a probabilistic confidence level of the classification results relative to the outcome from other models evaluated. The level of confidence can inform resource allocation decisions to address an aim identified from terrorist event reports.",
+        "A common strategy in counterterrorism is to diminish incentives, which must be known beforehand. Hence, the intelligence community can view the PACs as an incentive structure to help identify and customize strategies for deterrence. To further the research agenda in counterterrorism, future work will examine if patterns of terrorist activities can be associated with one of the six aim categories. Future work will also assess possible reasons for the dominance of certain PACs in different regions of the world."
+      ],
+      "footnotes": [],
+      "text": "A comprehensive review of the research on terrorism revealed a dominant assumption that terrorists attack civilians to maximize political ends. However, \"revealed preference\" by the reported motives of terrorist attacks points to a more diverse set of aims. This research applied two artificial intelligence (AI) techniques to help the author distill perpetrator aims from a comprehensive record of terrorist attacks across the world. The method helped the author to identify six aim categories, which were to despise, protest, retaliate, weaken, force, and intimidate.\n\nThe performance of the machine learning (ML) techniques validated that the six perpetrator aim categories (PACs), derived by machine-aided human decision, accurately classified the data. The method first applied natural language processing (NLP) techniques to invent an empirical topic classification workflow that extracted text features from the available motive narratives of terrorist events. The method then applied 11 distinct types of ML models to text features extracted from the summary narrative of each event, which was a different field from the motive narrative that was not involved in the model training. The six best-performing ML models predicted PACs with accuracies ranging from 86% to 94% and corresponding AUC scores ranging from 86% to 93%. The Extreme Gradient Boosting model provided the best predictive performance with AUC, classification accuracy, and F1 scores of 0.90, 0.91, and 0.90, respectively. These values provide a probabilistic confidence level of the classification results relative to the outcome from other models evaluated. The level of confidence can inform resource allocation decisions to address an aim identified from terrorist event reports.\n\nA common strategy in counterterrorism is to diminish incentives, which must be known beforehand. Hence, the intelligence community can view the PACs as an incentive structure to help identify and customize strategies for deterrence. To further the research agenda in counterterrorism, future work will examine if patterns of terrorist activities can be associated with one of the six aim categories. Future work will also assess possible reasons for the dominance of certain PACs in different regions of the world.",
+      "text_with_footnotes": "A comprehensive review of the research on terrorism revealed a dominant assumption that terrorists attack civilians to maximize political ends. However, \"revealed preference\" by the reported motives of terrorist attacks points to a more diverse set of aims. This research applied two artificial intelligence (AI) techniques to help the author distill perpetrator aims from a comprehensive record of terrorist attacks across the world. The method helped the author to identify six aim categories, which were to despise, protest, retaliate, weaken, force, and intimidate.\n\nThe performance of the machine learning (ML) techniques validated that the six perpetrator aim categories (PACs), derived by machine-aided human decision, accurately classified the data. The method first applied natural language processing (NLP) techniques to invent an empirical topic classification workflow that extracted text features from the available motive narratives of terrorist events. The method then applied 11 distinct types of ML models to text features extracted from the summary narrative of each event, which was a different field from the motive narrative that was not involved in the model training. The six best-performing ML models predicted PACs with accuracies ranging from 86% to 94% and corresponding AUC scores ranging from 86% to 93%. The Extreme Gradient Boosting model provided the best predictive performance with AUC, classification accuracy, and F1 scores of 0.90, 0.91, and 0.90, respectively. These values provide a probabilistic confidence level of the classification results relative to the outcome from other models evaluated. The level of confidence can inform resource allocation decisions to address an aim identified from terrorist event reports.\n\nA common strategy in counterterrorism is to diminish incentives, which must be known beforehand. Hence, the intelligence community can view the PACs as an incentive structure to help identify and customize strategies for deterrence. To further the research agenda in counterterrorism, future work will examine if patterns of terrorist activities can be associated with one of the six aim categories. Future work will also assess possible reasons for the dominance of certain PACs in different regions of the world.",
+      "preview_head": "A comprehensive review of the research on terrorism revealed a dominant assumption that terrorists attack civilians to maximize political ends. However, \"revealed preference\" by the reported motives of terrorist attacks points to a more diverse set of aims. This research applied two artificial intelligence (AI) techniques to help the author distill perpetrator aims from a comprehensive record of terrorist attacks across the world. The method helped the author to identify six aim categories, which were to despise, protest, retaliate, weaken, force, and intimidate.",
+      "preview_tail": "Hence, the intelligence community can view the PACs as an incentive structure to help identify and customize strategies for deterrence. To further the research agenda in counterterrorism, future work will examine if patterns of terrorist activities can be associated with one of the six aim categories. Future work will also assess possible reasons for the dominance of certain PACs in different regions of the world.",
+      "word_count": 336,
+      "paragraph_count": 3,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*conclusion(s)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*conclusion(s)?\\s*$",
+      "major_label": "CONCLUSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 29,
+    "content_sections": 25,
+    "total_words": 6477,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 29,
+    "by_source": {
+      "heuristic": 8,
+      "llm": 17,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

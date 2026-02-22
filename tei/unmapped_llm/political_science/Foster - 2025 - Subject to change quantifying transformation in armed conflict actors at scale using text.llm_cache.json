@@ -1,0 +1,33 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section outlines the structure of the note, previews the measurement strategy, results, and case"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section describes the application and extension of a modeling strategy, including operationaliz-"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "The section also discusses the production of estimates and the use of the model in practice, which"
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes data preprocessing steps, including natural language processing and TF-IDF, which,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes data preprocessing steps, including natural language processing and TF-IDF, which,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports findings on topic growth/decline over time, referencing analysis of article counts."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Mentions the analytic approach (frequency/share analysis), but focus is on reporting results."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports results of topic growth/decline, including regression analysis and interpretation of"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes the systematic, two-step approach and regression analysis, but main focus is on findings."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings on topic clustering and trend changes, referencing figures and tables."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Mentions the use of linear regression and clustering, but focus is on reporting results."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports regression coefficients and statistical significance for topic trends."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of statistical results (e.g., categorizing topics as 'cool')."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Interprets the meaning and implications of trends in the 'Developing the Young Player' topic area."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "References observed trends and frequencies, but focus is on interpretation."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Interprets and discusses the implications of research trends in 'Coaching Essentials' topic area."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions observed changes and trends, but focus is on interpretation and implications."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Focuses on interpreting the meaning and implications of findings in 'Psychological Skills' topic."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "References observed trends, but main emphasis is on interpretation."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Interprets and discusses the implications of findings in 'Motivation, Cognition, and Emotion' topic."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions findings, but focus is on interpretation and implications for future research."
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

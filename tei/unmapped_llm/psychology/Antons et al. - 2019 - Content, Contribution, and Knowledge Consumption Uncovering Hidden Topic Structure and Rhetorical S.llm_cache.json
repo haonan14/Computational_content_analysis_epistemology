@@ -1,0 +1,307 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "The section frames the research problem, introduces the core premise, and sets up the motivation for"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "There are citations and references to prior work, indicating some literature review content."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section header and content indicate a focus on the study's unit, sample, and time frame, which"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses prior research findings, journal rankings, and citation patterns, with several"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews a research stream, cites multiple prior works, and discusses established rhetor"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section describes the values and standards for research, and reports sample size and data chara"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the text-mining approach used in the study, including rationale for method selection and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of LDA for topic modeling, describes how the authors use it to extract topic attr"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the automated content analysis technique (LIWC) used to extract rhetorical attributes, w"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how the authors measure tentativeness and certainty in texts, including operationalizatio"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the operationalization of a moderating variable (knowledge inflow) and how it is measur"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports statistical findings (interaction term, coefficients, significance), describes a figure, "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "States a hypothesis (H1), which is typically grounded in prior theory/literature."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "The hypothesis is closely tied to the operationalization of variables, but the main function is th"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports a quantitative finding (increase in citations per SD increase), directly summar"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports a quantitative effect (increase in citations) and a null result (no effect found), both of"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "States a hypothesis (H4) without reporting results or methods; this is a theoretical proposition."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports a quantitative result (increase in citations) and interprets the link between variables, f"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "States a hypothesis (H5) about the relationship between variables, with no results or methods desc"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports a quantitative result (increase in citations) and interprets the link between variables, f"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "States a hypothesis (H6a) and a null result ('No effect found'), but the main function is to presen"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "States a hypothesis (H6b) with no results or methods; this is a theoretical proposition."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets the meaning and implications of the findings, connects to theory, and summarizes the st"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Discusses implications, contributions, and interpretation of findings for research on knowledge co"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Describes a figure illustrating a quantitative effect and notes on data transformation."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation and advice for authors based on the results."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 38,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Discusses implications for members and leaders, interprets findings, and provides practical advice"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

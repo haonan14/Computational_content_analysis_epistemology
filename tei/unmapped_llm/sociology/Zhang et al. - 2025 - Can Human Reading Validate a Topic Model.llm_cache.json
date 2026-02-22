@@ -1,0 +1,157 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, discusses the need for topic labeling, and provides a brief"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, discusses the need for topic labeling, and provides a brief"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the probabilistic nature of topic models, discusses prior work (e.g., Steyvers,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the probabilistic nature of topic models, discusses prior work (e.g., Steyvers,"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses conceptual issues in topic validation, referencing prior work (Roberts et al.,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses conceptual issues in topic validation, referencing prior work (Roberts et al.,"
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses a prior case study (FBS 2017) and interprets its use of topic modeling, with"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses a prior case study (FBS 2017) and interprets its use of topic modeling, with"
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' replication procedures, data preprocessing, model estimation, and robustness"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' replication procedures, data preprocessing, model estimation, and robustness"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the procedure for context checking and comparing models, focusing on the authors' process."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Mentions findings about topic overlap and labeling, but the emphasis is on the process."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports findings from robustness assessment, including segment overlap and confirmation via close"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Describes the process of selecting and comparing models, but the main focus is on findings."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets the meaning of predictive validity, discusses implications and limitations of topic model"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets the meaning of predictive validity, discusses implications and limitations of topic model"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "Interprets the broader implications of the research, cautions about topic modeling uses, and offers"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.2,
+          "reason": "Begins to summarize the main message and suggest future directions."
+        }
+      ],
+      "confidence": 0.96
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the topic of friction in customer experience,, "
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the topic of friction in customer experience,, "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior literature and definitions regarding friction, customer journey, and the"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior literature and definitions regarding friction, customer journey, and the"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior literature on negative outcomes of friction, citing many sources and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior literature on positive outcomes of friction, citing studies and summariz"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section discusses contradictory findings in the literature and introduces goal striving theory"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "The section begins to interpret and reconcile prior findings, moving toward conceptual synthesis."
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section introduces two conceptual dimensions based on prior literature and theory."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "It interprets and synthesizes how these dimensions help understand friction in customer experience."
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior literature and theory on task desirability, citing multiple sources and e"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior literature and theory on task value, discussing its implications and cit"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section introduces a new typology based on the two conceptual dimensions, synthesizing prior "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets and explains the concept of 'frustrating friction' within the new typology"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets and explains the concept of 'constructive friction' within the new typolog"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets and explains the concept of 'preference-based friction' within the new typ"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines and conceptualizes 'rewarding friction' in customer experience, provides a typ-"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines and conceptualizes 'rewarding friction' in customer experience, provides a typ-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the subjectivity and contingency in classifying friction types, referencing-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section introduces contingency factors affecting friction assessment, building on the concep-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and theory on task difficulty, citing multiple sources and di-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the theoretical background and prior research on progress monitoring, with-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses customer-related factors in friction assessment, referencing prior researc-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of goal orientation, citing prior literature and discussing its t-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 22,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines self-efficacy, cites foundational literature, and discusses its implications f-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the influence of emotional state on friction assessment, referencing prior-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses context-related factors in customer experience, referencing theoretical con-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses intra-personal factors affecting friction assessment, referencing theory a-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the impact of technological advancements on customer experience, citing pr-"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 27,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses socio-cultural factors influencing customer expectations and emotional states"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "It references general knowledge and examples, not the authors' own data or findings."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes how institutional communications affect customer effort tolerance, referencing general and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "theoretical mechanisms, not reporting new data or methods."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' approach to collecting and analyzing company announcements about frictionless"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "customer experience initiatives, indicating their own data collection and analytic process."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the analytical process for topic modeling, referencing methodological best practices and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "procedures followed by the authors."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports the findings from the topic modeling analysis, listing the key areas firms prioritize for"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "frictionless customer experience."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Continues to report and interpret the results of the topic modeling, identifying which topics"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of what the results mean for business practice and customer"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "experience."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 33,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Synthesizes the article's conceptual contributions, summarizes insights, and connects findings to"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "theoretical frameworks and research questions."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Focuses on the theoretical contributions and implications of the study, interpreting the meaning"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "and significance of the conceptual development."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 35,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Discusses managerial implications, interpreting the practical meaning of the findings for managers."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "Outlines future research directions and wraps up the conceptual contributions of the paper."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Reflects on the significance of the work and its place in the literature."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 38,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "Proposes a concrete future research agenda (developing an instrument), which is a typical function"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "of a conclusion/future research section."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 39,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "Suggests another future research direction (optimal effort levels), which is a forward-looking"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "conclusion function."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 40,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "The section interprets the implications of friction typology shifts, discusses causes (technological"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "The section offers forward-looking statements and recommendations, which are typical of concluding/\u2018"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

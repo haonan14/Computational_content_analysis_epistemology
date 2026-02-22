@@ -1,0 +1,899 @@
+{
+  "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/communication/Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an.tei.xml",
+  "metadata": {
+    "title": "Ideologies in Geospatial Futurism: A Computational and Critical Discourse Inquiry Into the ArcGIS and ESRI-Blogs",
+    "authors": [
+      "Helena Atteneder",
+      "Joan Rodriguez-Amat"
+    ],
+    "journal": "Media and Communication",
+    "year": "2024",
+    "doi": "10.17645/mac.8193",
+    "keywords": [
+      "computational methods",
+      "discourse analysis",
+      "ESRI",
+      "future tropes",
+      "GIS",
+      "geomedia",
+      "ideology",
+      "spatial analytics",
+      "public spheres",
+      "topic modelling"
+    ]
+  },
+  "abstract": "Geographic information systems (GIS) are ubiquitous building blocks of geosurveillance environments embedded in everyday social practices. This article builds on the literature on geomedia, the criticisms of GIS, and communicative spaces, to delve into the realm of GIS software and spatial analytics. The data corpus consists of ArcGIS and ESRI blogs on the Environmental Systems Research Institute (ESRI) site, which defines itself as the global market leader in GIS software, location intelligence, and mapping. This project assesses the impact of their discursive representations of the future and the societal implications of these views through an iterative process of computational and critical interpretive analyses-extending from LDA topic modelling to critical discourse analysis-to unveil the ideological underpinnings of a corporate-prescribed understanding of (GIS) future. The analysis reveals that representations of the future in the main blogs of the geospatial industry are deeply embedded in ideological principles that emphasise perceived indispensability and technosolutionism as the inherent belief that complex social, political, and economic issues can be solved primarily or exclusively through technological means. The article identifies the rhetorical and structural operations in a discourse that ultimately kidnaps any alternative futures. The geospatial industry's representations of the future serve as ideological tools that shape perceptions about societal development and democratic conditions. The critical engagement with these representations contributes to understanding the role of GIS technology in the shaping of fair futures built on democratic public spheres in the digital age.",
+  "sections": [
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Introduction",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Geographic information systems (GIS) software-driven spatial analytics are today part of \"geomedia\" (Fast et al., 2018;Jansson, 2022;McQuire, 2016). First, because GIS combines analysis, mapping, and visualisation of layers of (geographic) data into digital/networked/sensor-ed devices; and second because it involves (geolocalised) user data, which flows back to software producers. Beyond this relationship between user and data economy, discourses on GIS enter the field of geomedia, integrated into the broader societal technology discourse. In this sense, and because contemporary technology discourse legitimises capitalism (E. Fisher, 2010), and because technology discourses reinforce the ideological assumption that ICTs are the master metaphor for progress and developed societies (Lievrouw, 1998), this article adopts a discursive approach to examining technology's impact on societal structures. Indeed, the trope of media indispensability highlights how major stakeholders like IBM, Huawei, and Ericsson, foreground their economic interests in the ICT discourse (Fast, 2018) or on locational privacy (de Souza e Silva & Frith, 2010).",
+        "These discourses on technology also project into the future, enforcing and legitimising hegemonies and social orders beyond semantic conflicts, and through \"ideological loading of particular ways of using language and the relations of power which underlie them\" (Fairclough & Wodak, 1997). Discourse theory and practice identify the corporate visions/narratives around GIS in relation to the imagined futures and their ideological connotations. This article brings the theoretical building blocks into an abductive, iterative, close-meshed connection with computational methods of data collection and analysis (Lindgren, 2020).",
+        "GIS software specifically, and similar geotechnologies, have been historically criticised as vehicles that shape certain agendas and support specific interests of privately owned companies (Goodchild, 1995;Goss, 1995;Gryl & Jekel, 2012;Pickles, 1995;Roberts & Schein, 1995;Schuurman, 2000;Wilson, 2017), and as ideologically loaded corporate framings (Belina, 2010;Rosen & Alvarez León, 2022). Such questioning is now even more relevant when GIS applications have expanded their impact-once reserved to a privileged professional and corporate niche-to many people's day-to-day mediatized lives, and even more so as the entire industry of geospatial data has moved from a small customer-oriented market to a flourishing demand-driven mass market (Fischer, 2010), with its own media and communication channels and its own increasingly strategically positioned software products that support their corporate strategies. The analysis of discourses on GIS futures will allow the examination of power structures, ideologies, and the impact of dominant economic systems on shaping alternative futures, visions, and utopias (Goode & Godhe, 2017). Indeed, the \"occupation\" of the possibilities of future that these corporate imaginations shape leads to a sense of resignation and acceptance of capitalisms inherent flaws (M. Fisher, 2009), rather than opening spaces for innovative critique and development. This line of work adopts a broader framework that links a critical political economy of GIS (Alvarez León, 2024;Leszczynski, 2012), with a critical political economy of communication (Mosco, 2010). Integrating these approaches will facilitate the analysis of how ideologies serve the interests of dominant classes while shaping their societal norms and values.",
+        "Corporations such as the Environmental Systems Research Institute (ESRI), founded in 1969 by Jack and Laura Dangermond, claim to have adapted to the times by developing mass-friendly software and building blocks.",
+        "The self-attributed \"global market leader in geographic information system (GIS) software, location intelligence, and mapping\" (Esri, n.d.), complements the software toolkit with a purposeful public communication strategy to present geospatial analytics to the world. The company supports GIS professionals through training, education, and its annual User Conference, to use ArcGIS-the flagship mapping tool-and the other APIs and SDK kits that enable seamless access to GIS resources to build apps and analysis. The extensive ESRI repertoire includes conferences and industry exhibitions, offering \"story maps\" and describing all these endeavours in detailed blog posts. ESRI's blogs, central in the sector, cover a range of topics related to GIS technology and its applications, and work as an arena where experts, researchers, relevant personalities, and politicians, contribute to discuss geospatial technology and its future developments.",
+        "The future is political. Representing the future is an activity that imprints intention on a negotiation between the present and its plausible unfolding. \"Describing the future\" is thus an ideologically loaded practice and product of ongoing negotiations between power structures within the fabric of society. This article explores the case of the ESRI blog that presents itself as a space for discussion, while at the same time, prescribes particular futures stained by ESRI's own condition as a commercial corporation. The central question of this article is, therefore, related to what shapes these representations of the future in the geospatial industry take, and what ideological principles they entail. For the analysis, we have collected posts on the ESRI blog related to the future, using a combination of computational methods and discourse analysis. The contribution of this article is double: unravelling the ideologically informed content of those future representations and combining critical discourse analysis with computational textual analysis methods."
+      ],
+      "footnotes": [],
+      "text": "Geographic information systems (GIS) software-driven spatial analytics are today part of \"geomedia\" (Fast et al., 2018;Jansson, 2022;McQuire, 2016). First, because GIS combines analysis, mapping, and visualisation of layers of (geographic) data into digital/networked/sensor-ed devices; and second because it involves (geolocalised) user data, which flows back to software producers. Beyond this relationship between user and data economy, discourses on GIS enter the field of geomedia, integrated into the broader societal technology discourse. In this sense, and because contemporary technology discourse legitimises capitalism (E. Fisher, 2010), and because technology discourses reinforce the ideological assumption that ICTs are the master metaphor for progress and developed societies (Lievrouw, 1998), this article adopts a discursive approach to examining technology's impact on societal structures. Indeed, the trope of media indispensability highlights how major stakeholders like IBM, Huawei, and Ericsson, foreground their economic interests in the ICT discourse (Fast, 2018) or on locational privacy (de Souza e Silva & Frith, 2010).\n\nThese discourses on technology also project into the future, enforcing and legitimising hegemonies and social orders beyond semantic conflicts, and through \"ideological loading of particular ways of using language and the relations of power which underlie them\" (Fairclough & Wodak, 1997). Discourse theory and practice identify the corporate visions/narratives around GIS in relation to the imagined futures and their ideological connotations. This article brings the theoretical building blocks into an abductive, iterative, close-meshed connection with computational methods of data collection and analysis (Lindgren, 2020).\n\nGIS software specifically, and similar geotechnologies, have been historically criticised as vehicles that shape certain agendas and support specific interests of privately owned companies (Goodchild, 1995;Goss, 1995;Gryl & Jekel, 2012;Pickles, 1995;Roberts & Schein, 1995;Schuurman, 2000;Wilson, 2017), and as ideologically loaded corporate framings (Belina, 2010;Rosen & Alvarez León, 2022). Such questioning is now even more relevant when GIS applications have expanded their impact-once reserved to a privileged professional and corporate niche-to many people's day-to-day mediatized lives, and even more so as the entire industry of geospatial data has moved from a small customer-oriented market to a flourishing demand-driven mass market (Fischer, 2010), with its own media and communication channels and its own increasingly strategically positioned software products that support their corporate strategies. The analysis of discourses on GIS futures will allow the examination of power structures, ideologies, and the impact of dominant economic systems on shaping alternative futures, visions, and utopias (Goode & Godhe, 2017). Indeed, the \"occupation\" of the possibilities of future that these corporate imaginations shape leads to a sense of resignation and acceptance of capitalisms inherent flaws (M. Fisher, 2009), rather than opening spaces for innovative critique and development. This line of work adopts a broader framework that links a critical political economy of GIS (Alvarez León, 2024;Leszczynski, 2012), with a critical political economy of communication (Mosco, 2010). Integrating these approaches will facilitate the analysis of how ideologies serve the interests of dominant classes while shaping their societal norms and values.\n\nCorporations such as the Environmental Systems Research Institute (ESRI), founded in 1969 by Jack and Laura Dangermond, claim to have adapted to the times by developing mass-friendly software and building blocks.\n\nThe self-attributed \"global market leader in geographic information system (GIS) software, location intelligence, and mapping\" (Esri, n.d.), complements the software toolkit with a purposeful public communication strategy to present geospatial analytics to the world. The company supports GIS professionals through training, education, and its annual User Conference, to use ArcGIS-the flagship mapping tool-and the other APIs and SDK kits that enable seamless access to GIS resources to build apps and analysis. The extensive ESRI repertoire includes conferences and industry exhibitions, offering \"story maps\" and describing all these endeavours in detailed blog posts. ESRI's blogs, central in the sector, cover a range of topics related to GIS technology and its applications, and work as an arena where experts, researchers, relevant personalities, and politicians, contribute to discuss geospatial technology and its future developments.\n\nThe future is political. Representing the future is an activity that imprints intention on a negotiation between the present and its plausible unfolding. \"Describing the future\" is thus an ideologically loaded practice and product of ongoing negotiations between power structures within the fabric of society. This article explores the case of the ESRI blog that presents itself as a space for discussion, while at the same time, prescribes particular futures stained by ESRI's own condition as a commercial corporation. The central question of this article is, therefore, related to what shapes these representations of the future in the geospatial industry take, and what ideological principles they entail. For the analysis, we have collected posts on the ESRI blog related to the future, using a combination of computational methods and discourse analysis. The contribution of this article is double: unravelling the ideologically informed content of those future representations and combining critical discourse analysis with computational textual analysis methods.",
+      "text_with_footnotes": "Geographic information systems (GIS) software-driven spatial analytics are today part of \"geomedia\" (Fast et al., 2018;Jansson, 2022;McQuire, 2016). First, because GIS combines analysis, mapping, and visualisation of layers of (geographic) data into digital/networked/sensor-ed devices; and second because it involves (geolocalised) user data, which flows back to software producers. Beyond this relationship between user and data economy, discourses on GIS enter the field of geomedia, integrated into the broader societal technology discourse. In this sense, and because contemporary technology discourse legitimises capitalism (E. Fisher, 2010), and because technology discourses reinforce the ideological assumption that ICTs are the master metaphor for progress and developed societies (Lievrouw, 1998), this article adopts a discursive approach to examining technology's impact on societal structures. Indeed, the trope of media indispensability highlights how major stakeholders like IBM, Huawei, and Ericsson, foreground their economic interests in the ICT discourse (Fast, 2018) or on locational privacy (de Souza e Silva & Frith, 2010).\n\nThese discourses on technology also project into the future, enforcing and legitimising hegemonies and social orders beyond semantic conflicts, and through \"ideological loading of particular ways of using language and the relations of power which underlie them\" (Fairclough & Wodak, 1997). Discourse theory and practice identify the corporate visions/narratives around GIS in relation to the imagined futures and their ideological connotations. This article brings the theoretical building blocks into an abductive, iterative, close-meshed connection with computational methods of data collection and analysis (Lindgren, 2020).\n\nGIS software specifically, and similar geotechnologies, have been historically criticised as vehicles that shape certain agendas and support specific interests of privately owned companies (Goodchild, 1995;Goss, 1995;Gryl & Jekel, 2012;Pickles, 1995;Roberts & Schein, 1995;Schuurman, 2000;Wilson, 2017), and as ideologically loaded corporate framings (Belina, 2010;Rosen & Alvarez León, 2022). Such questioning is now even more relevant when GIS applications have expanded their impact-once reserved to a privileged professional and corporate niche-to many people's day-to-day mediatized lives, and even more so as the entire industry of geospatial data has moved from a small customer-oriented market to a flourishing demand-driven mass market (Fischer, 2010), with its own media and communication channels and its own increasingly strategically positioned software products that support their corporate strategies. The analysis of discourses on GIS futures will allow the examination of power structures, ideologies, and the impact of dominant economic systems on shaping alternative futures, visions, and utopias (Goode & Godhe, 2017). Indeed, the \"occupation\" of the possibilities of future that these corporate imaginations shape leads to a sense of resignation and acceptance of capitalisms inherent flaws (M. Fisher, 2009), rather than opening spaces for innovative critique and development. This line of work adopts a broader framework that links a critical political economy of GIS (Alvarez León, 2024;Leszczynski, 2012), with a critical political economy of communication (Mosco, 2010). Integrating these approaches will facilitate the analysis of how ideologies serve the interests of dominant classes while shaping their societal norms and values.\n\nCorporations such as the Environmental Systems Research Institute (ESRI), founded in 1969 by Jack and Laura Dangermond, claim to have adapted to the times by developing mass-friendly software and building blocks.\n\nThe self-attributed \"global market leader in geographic information system (GIS) software, location intelligence, and mapping\" (Esri, n.d.), complements the software toolkit with a purposeful public communication strategy to present geospatial analytics to the world. The company supports GIS professionals through training, education, and its annual User Conference, to use ArcGIS-the flagship mapping tool-and the other APIs and SDK kits that enable seamless access to GIS resources to build apps and analysis. The extensive ESRI repertoire includes conferences and industry exhibitions, offering \"story maps\" and describing all these endeavours in detailed blog posts. ESRI's blogs, central in the sector, cover a range of topics related to GIS technology and its applications, and work as an arena where experts, researchers, relevant personalities, and politicians, contribute to discuss geospatial technology and its future developments.\n\nThe future is political. Representing the future is an activity that imprints intention on a negotiation between the present and its plausible unfolding. \"Describing the future\" is thus an ideologically loaded practice and product of ongoing negotiations between power structures within the fabric of society. This article explores the case of the ESRI blog that presents itself as a space for discussion, while at the same time, prescribes particular futures stained by ESRI's own condition as a commercial corporation. The central question of this article is, therefore, related to what shapes these representations of the future in the geospatial industry take, and what ideological principles they entail. For the analysis, we have collected posts on the ESRI blog related to the future, using a combination of computational methods and discourse analysis. The contribution of this article is double: unravelling the ideologically informed content of those future representations and combining critical discourse analysis with computational textual analysis methods.",
+      "preview_head": "Geographic information systems (GIS) software-driven spatial analytics are today part of \"geomedia\" (Fast et al., 2018;Jansson, 2022;McQuire, 2016). First, because GIS combines analysis, mapping, and visualisation of layers of (geographic) data into digital/networked/sensor-ed devices; and second because it involves (geolocalised) user data, which flows back to software producers. Beyond this relationship between user and data economy, discourses on GIS enter the field of geomedia, integrated into the broader societal technology discourse.",
+      "preview_tail": "The central question of this article is, therefore, related to what shapes these representations of the future in the geospatial industry take, and what ideological principles they entail. For the analysis, we have collected posts on the ESRI blog related to the future, using a combination of computational methods and discourse analysis. The contribution of this article is double: unravelling the ideologically informed content of those future representations and combining critical discourse analysis with computational textual analysis methods.",
+      "word_count": 800,
+      "paragraph_count": 6,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "From Geomedia to a Political Economy of Media Geographies",
+      "header_norm": "from geomedia to a political economy of media geographies",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This article explores three overlapping conceptual areas: (a) geomedia to critically approach fundamental space-place-media-communications-entanglements, and thus to embed geospatial analytics within everyday social media and communication practices vis-a-vis data collection and monetisation strategies; (b) the transformation of the geospatial industry, especially in the field of GIS/spatial analytics; and (c) the public sphere perspective that resonates with approaches on political economy, to explain how ideologies within the case of the ESRI blog shape public political debates. Before entering the methodological section of this article, the text excurses to refresh some epistemological features of the possibilities of a dialogue between traditional sociological theoretical approaches and computational methods (Lindgren, 2020) and to refresh the features of critical discourse analysis in dialogue with computational tools.",
+        "Geomedia as a conceptual frame has evolved from data and technology-centred positions (Lapenta, 2011;Thielmann, 2007) to broadened theoretical approaches that consider societal implications. The geomedia field explores the fundamental mutual relationship between media, communication practices, space, and place (Fast et al., 2018;Jansson, 2022;McQuire, 2016), and is conceptualised from a broader socio-economic scale as media's twenty-first-century condition (McQuire, 2016), created by location-aware and related technologies. This framework helps to understand the flows of geolocative data from the user to the industry and back. In this context of practices informed by the (re)production of geolocative data, devices and the media are perceived as indispensable (Jansson, 2014,) because they shape premediated spatial experiences and embed them into the socially (re)constructed space (Lefebvre, 1993).",
+        "Geomediatization, thus, implies the reorganisation of social life, while geomedia technologies become essential across multiple spheres, prompting individuals to adapt their actions accordingly (Fast et al., 2018(Fast et al., , 2019)). This leads to an \"environmental regime…where technologies are…more entwined with other materials and human bodies,\" inhabiting a volatile environment (Jansson, 2022, pp. 47-48). This view highlights how social practices have embedded geospatial analytics (as part of geomedia) in the domain of the every day, generating patterns of behaviour of a \"perceived indispensability\" of geomedia technologies that emphasize the spheres of influence (and of benefit) of the geospatial industry.",
+        "It is therefore key to understand the major commercialisation shift within the geospatial industry, especially in the field of GIS/spatial analytics which describes the entire area of (geo)data processing among others. Indeed, GIS plays a crucial role by providing spatial data analysis and visualisation capabilities which are instrumental in the digital rendering and management of urban spaces. But in the last few years, the commercialisation shift involved turning profits from solely collecting and trading raw geodata, into profits derived from the development of advanced geoinformation products and services (Fischer, 2010), and implementing them into smartphones. App services utilise location data in predictive models and real-time geosurveillance, selling this data to brokers for enrichment with contextual information to enhance profit margins (Christl & Spiekermann, 2016;Forbrukerrådet, 2020;Kitchin, 2015). \"Ubiquitous geodata capture\" has thus become \"a necessary part of the technological developments and the corporate arrangements that underpin them (business deals, monetization strategies, platform-specific data extraction methods, algorithmic sorting, etc.\" (Wilken, 2018, p. 21), while the \"fundamental dis-locations of (geo)data\" (Rodriguez-Amat, 2021, p. 404) remain invisible. The pervasive but usually hidden use of geospatial technologies has given rise to the post-GIS era (Harvey, 2013) as the merging of geospatial technologies with ubiquitous, mobile, computing, and network technologies; \"or as Ed Parsons [geospatial technologist of Google] recently expressed, GIS is going from being a technology for applications to becoming part of ubiquitous computing with a bit of geospatial in everything\" (Harvey, 2013, p. 275, emphasis added).",
+        "To understand the implications of the ubiquity of geodata-based models, we must unfold the \"ground truth\" of GIS (Pickles, 1995). The use of GIS to advance solutions to social problems has been extensively criticised in three waves that capture the underlying assumption of an \"absolute\" Euclidean space and the positivist ontology upon which it is grounded (Goodchild, 1995;Pickles, 1995;Schuurman, 2000). This positivist ontology references a form of place-determinism, according to which a set of possible relations between objects have been defined in advance (Schuurman, 2004) and simplify the social by naturalising any human action concerning physical, material, cognitive, and social aspects (Jekel, 2008). Other critiques have called for further ethical and epistemological considerations, particularly those overshadowed by the momentum and financial investment of GIS (Lake, 1993), and others appeal to the societal consequences and ramifications of the global visual representations of GIS (Roberts & Schein, 1995). These representations empower influential entities, like nation-states and corporations, to symbolically occupy the world through imagery, thereby consolidating political and economic influence. This happens in the present, or even with projective implications-for instance perpetuating past demographic differences (Goss, 1995) and ultimately simplifying society's representation and commodifying social identity through market control. Critical GIS scholars (i.e., Elwood, 2008;Wilson, 2017) argued that the technology can embed and perpetuate existing social inequalities and power structures by reflecting and reinforcing biases inherent in the data and the algorithms used to analyse and visualise spatial information. These criticisms have led to discussions about citizen control (i.e., tracking technology; see Gryl & Jekel, 2012), shifting power relations (Atteneder, 2018), and reproducing ideology with crime mapping (Belina, 2010).",
+        "The \"geo-Web 2.0\" (Elwood, 2010), \"VGI,\" and \"neogeography\" (Haklay, 2013) have enabled more people to use GIS tools to analyse and map data in simple applications, but the promise of a \"democratised\" and \"more just\" GIS turned out to be a delusion (Haklay, 2013): Inequalities in participatory processes (Elwood, 2008) often disguise a lack of basic skills to use geographic information (GI) tools maturely (Atteneder et al., 2022;Gryl & Jekel, 2012). Instead, corporations shape neogeography to market spatial technologies with a neoliberal focus on individual consumption, rather than to enable collective action, reinforcing power dynamics and inequalities in the process (Leszczynski, 2012). This anticipates and perpetuates socio-spatial inequalities through the interplay between urban governance, data, and algorithmic securitisation, projecting them into the future through the lens of algorithmic surveillance and control (Leszczynski, 2016), or reshaping urban governance, spatial realities, and economic landscapes (Rosen & Alvarez León, 2022).",
+        "Ideologically, the \"digital growth machine\" reflects a neoliberal worldview that prioritises market-driven solutions and the commodification of urban spaces and data. Therefore, the general invitation is to adopt a critical political economy approach to discuss the \"geo-Web 2.0\" and the digital technology sector-led urban growth and dominance, as a new perspective from which to analyse and engage with the prevailing techno-economic paradigm under digital capitalism (Alvarez León, 2024).",
+        "In this study, we analyse discourses about GIS. This helps identify power configurations reproduced via language in media and communication practices. These configurations are built as ideologies that play a legitimation role for the whole technological ecosystem. For this case, we consider \"ideology\" as systems of beliefs embedded in speech as \"idealized, universalized and detached expressions of actual social relations\" (J. L. Martin, 2014, p. 18). These considerations of the ESRI/ArcGIS blogs as spaces for discussion where the discourses about GIS are enacted, circle back to questions about the (re-)configuration of the public sphere. By examining the ArcGIS and ESRI blogs of the ESRI corporation, we have a relevant object of investigation from an ideology-critical perspective on the level of media content, but also, a direct insight into aspects of media organisations, ownership structures, and the media's interdependence with politics and business (Sevignani, 2020), particularly understanding media and communication practices as cultural and social expressions of the contested structuring of social hegemony (Mosco, 2010). Therefore, shifting the focus towards the structures of the public sphere (Brantner et al., 2021) or keeping an eye on the \"critical-structural conception of ideology\" (Sevignani, 2022, p. 93) that incorporates both ideological structures of the public sphere as well as communicative content, helps to secure the specific case of ESRI's corporate blogs as an epitomic example of public debate in a privately owned outlet.",
+        "Blogs have emerged in their role of creating a public sphere as part of the web, allowing more dialogue than pre-digitally written texts and, above all, enabling much cheaper and more extensive distribution channels, and creating what, already two decades ago, was called the \"blogosphere\" (Keren, 2006). Indeed, blogs form communicative spaces that facilitate the exchange of views as well as the convergence, in this case, of GIS industry stakeholders contributing to a broader community around GIS technology. In contrast to personal blogs, corporate blogs help by engaging directly with customers, and actively participating in discussions surrounding their brand, enabling some control over the corporation's public image and narrative.",
+        "Additionally, companies can ensure adherence to company values and control the published content, thereby maintaining consistency and trustworthiness in their online presence (Rettberg, 2014). ESRI's corporate ownership of the blogging space implies some influence in shaping GIS-related stories.",
+        "Envisioning futures from hegemonic GIS corporation positions indicates more than technological determinism, as these are strategically positioned \"corporate visions\" (Rose, 2018) and as such, normative prescriptions for societal development. They are fostered by technological discourses that advocate the ideology of a transformative potential of technology for a \"better\" future. This article approaches the ESRI and ArcGIS blogs as corporate \"flows of discourses\" (Wodak & Meyer, 2016), that centre on the topic of a geospatial future and therefore as part of larger societal discourses. We ask: How are the representations of the future negotiated in the geospatial industry, using the example of the ESRI and ArcGIS blogs, and what ideological wirings do they entail? We examine flows of discourse that circulate around the topic of geospatial futurism to uncover discourse strands that comprise sub-topics and groups of sub-topics. We do so from two, differently scaled viewpoints: one from emerging topics arising through collected articles (broad scope with articles as smallest unit of analysis that were collected with the keyword(s) future(s)), and one from uncovering meaning around the keyword future/s (in-depth viewpoint from inductively emerging categories).",
+        "This question can be operationalised with three sub-questions:",
+        "1. Around what topics are the contents of the ESRI blog organised?",
+        "2. What discursive strands of understanding of geospatial future/s can be identified?",
+        "3. What shapes and implications do these strands have as ideological models?"
+      ],
+      "footnotes": [],
+      "text": "This article explores three overlapping conceptual areas: (a) geomedia to critically approach fundamental space-place-media-communications-entanglements, and thus to embed geospatial analytics within everyday social media and communication practices vis-a-vis data collection and monetisation strategies; (b) the transformation of the geospatial industry, especially in the field of GIS/spatial analytics; and (c) the public sphere perspective that resonates with approaches on political economy, to explain how ideologies within the case of the ESRI blog shape public political debates. Before entering the methodological section of this article, the text excurses to refresh some epistemological features of the possibilities of a dialogue between traditional sociological theoretical approaches and computational methods (Lindgren, 2020) and to refresh the features of critical discourse analysis in dialogue with computational tools.\n\nGeomedia as a conceptual frame has evolved from data and technology-centred positions (Lapenta, 2011;Thielmann, 2007) to broadened theoretical approaches that consider societal implications. The geomedia field explores the fundamental mutual relationship between media, communication practices, space, and place (Fast et al., 2018;Jansson, 2022;McQuire, 2016), and is conceptualised from a broader socio-economic scale as media's twenty-first-century condition (McQuire, 2016), created by location-aware and related technologies. This framework helps to understand the flows of geolocative data from the user to the industry and back. In this context of practices informed by the (re)production of geolocative data, devices and the media are perceived as indispensable (Jansson, 2014,) because they shape premediated spatial experiences and embed them into the socially (re)constructed space (Lefebvre, 1993).\n\nGeomediatization, thus, implies the reorganisation of social life, while geomedia technologies become essential across multiple spheres, prompting individuals to adapt their actions accordingly (Fast et al., 2018(Fast et al., , 2019)). This leads to an \"environmental regime…where technologies are…more entwined with other materials and human bodies,\" inhabiting a volatile environment (Jansson, 2022, pp. 47-48). This view highlights how social practices have embedded geospatial analytics (as part of geomedia) in the domain of the every day, generating patterns of behaviour of a \"perceived indispensability\" of geomedia technologies that emphasize the spheres of influence (and of benefit) of the geospatial industry.\n\nIt is therefore key to understand the major commercialisation shift within the geospatial industry, especially in the field of GIS/spatial analytics which describes the entire area of (geo)data processing among others. Indeed, GIS plays a crucial role by providing spatial data analysis and visualisation capabilities which are instrumental in the digital rendering and management of urban spaces. But in the last few years, the commercialisation shift involved turning profits from solely collecting and trading raw geodata, into profits derived from the development of advanced geoinformation products and services (Fischer, 2010), and implementing them into smartphones. App services utilise location data in predictive models and real-time geosurveillance, selling this data to brokers for enrichment with contextual information to enhance profit margins (Christl & Spiekermann, 2016;Forbrukerrådet, 2020;Kitchin, 2015). \"Ubiquitous geodata capture\" has thus become \"a necessary part of the technological developments and the corporate arrangements that underpin them (business deals, monetization strategies, platform-specific data extraction methods, algorithmic sorting, etc.\" (Wilken, 2018, p. 21), while the \"fundamental dis-locations of (geo)data\" (Rodriguez-Amat, 2021, p. 404) remain invisible. The pervasive but usually hidden use of geospatial technologies has given rise to the post-GIS era (Harvey, 2013) as the merging of geospatial technologies with ubiquitous, mobile, computing, and network technologies; \"or as Ed Parsons [geospatial technologist of Google] recently expressed, GIS is going from being a technology for applications to becoming part of ubiquitous computing with a bit of geospatial in everything\" (Harvey, 2013, p. 275, emphasis added).\n\nTo understand the implications of the ubiquity of geodata-based models, we must unfold the \"ground truth\" of GIS (Pickles, 1995). The use of GIS to advance solutions to social problems has been extensively criticised in three waves that capture the underlying assumption of an \"absolute\" Euclidean space and the positivist ontology upon which it is grounded (Goodchild, 1995;Pickles, 1995;Schuurman, 2000). This positivist ontology references a form of place-determinism, according to which a set of possible relations between objects have been defined in advance (Schuurman, 2004) and simplify the social by naturalising any human action concerning physical, material, cognitive, and social aspects (Jekel, 2008). Other critiques have called for further ethical and epistemological considerations, particularly those overshadowed by the momentum and financial investment of GIS (Lake, 1993), and others appeal to the societal consequences and ramifications of the global visual representations of GIS (Roberts & Schein, 1995). These representations empower influential entities, like nation-states and corporations, to symbolically occupy the world through imagery, thereby consolidating political and economic influence. This happens in the present, or even with projective implications-for instance perpetuating past demographic differences (Goss, 1995) and ultimately simplifying society's representation and commodifying social identity through market control. Critical GIS scholars (i.e., Elwood, 2008;Wilson, 2017) argued that the technology can embed and perpetuate existing social inequalities and power structures by reflecting and reinforcing biases inherent in the data and the algorithms used to analyse and visualise spatial information. These criticisms have led to discussions about citizen control (i.e., tracking technology; see Gryl & Jekel, 2012), shifting power relations (Atteneder, 2018), and reproducing ideology with crime mapping (Belina, 2010).\n\nThe \"geo-Web 2.0\" (Elwood, 2010), \"VGI,\" and \"neogeography\" (Haklay, 2013) have enabled more people to use GIS tools to analyse and map data in simple applications, but the promise of a \"democratised\" and \"more just\" GIS turned out to be a delusion (Haklay, 2013): Inequalities in participatory processes (Elwood, 2008) often disguise a lack of basic skills to use geographic information (GI) tools maturely (Atteneder et al., 2022;Gryl & Jekel, 2012). Instead, corporations shape neogeography to market spatial technologies with a neoliberal focus on individual consumption, rather than to enable collective action, reinforcing power dynamics and inequalities in the process (Leszczynski, 2012). This anticipates and perpetuates socio-spatial inequalities through the interplay between urban governance, data, and algorithmic securitisation, projecting them into the future through the lens of algorithmic surveillance and control (Leszczynski, 2016), or reshaping urban governance, spatial realities, and economic landscapes (Rosen & Alvarez León, 2022).\n\nIdeologically, the \"digital growth machine\" reflects a neoliberal worldview that prioritises market-driven solutions and the commodification of urban spaces and data. Therefore, the general invitation is to adopt a critical political economy approach to discuss the \"geo-Web 2.0\" and the digital technology sector-led urban growth and dominance, as a new perspective from which to analyse and engage with the prevailing techno-economic paradigm under digital capitalism (Alvarez León, 2024).\n\nIn this study, we analyse discourses about GIS. This helps identify power configurations reproduced via language in media and communication practices. These configurations are built as ideologies that play a legitimation role for the whole technological ecosystem. For this case, we consider \"ideology\" as systems of beliefs embedded in speech as \"idealized, universalized and detached expressions of actual social relations\" (J. L. Martin, 2014, p. 18). These considerations of the ESRI/ArcGIS blogs as spaces for discussion where the discourses about GIS are enacted, circle back to questions about the (re-)configuration of the public sphere. By examining the ArcGIS and ESRI blogs of the ESRI corporation, we have a relevant object of investigation from an ideology-critical perspective on the level of media content, but also, a direct insight into aspects of media organisations, ownership structures, and the media's interdependence with politics and business (Sevignani, 2020), particularly understanding media and communication practices as cultural and social expressions of the contested structuring of social hegemony (Mosco, 2010). Therefore, shifting the focus towards the structures of the public sphere (Brantner et al., 2021) or keeping an eye on the \"critical-structural conception of ideology\" (Sevignani, 2022, p. 93) that incorporates both ideological structures of the public sphere as well as communicative content, helps to secure the specific case of ESRI's corporate blogs as an epitomic example of public debate in a privately owned outlet.\n\nBlogs have emerged in their role of creating a public sphere as part of the web, allowing more dialogue than pre-digitally written texts and, above all, enabling much cheaper and more extensive distribution channels, and creating what, already two decades ago, was called the \"blogosphere\" (Keren, 2006). Indeed, blogs form communicative spaces that facilitate the exchange of views as well as the convergence, in this case, of GIS industry stakeholders contributing to a broader community around GIS technology. In contrast to personal blogs, corporate blogs help by engaging directly with customers, and actively participating in discussions surrounding their brand, enabling some control over the corporation's public image and narrative.\n\nAdditionally, companies can ensure adherence to company values and control the published content, thereby maintaining consistency and trustworthiness in their online presence (Rettberg, 2014). ESRI's corporate ownership of the blogging space implies some influence in shaping GIS-related stories.\n\nEnvisioning futures from hegemonic GIS corporation positions indicates more than technological determinism, as these are strategically positioned \"corporate visions\" (Rose, 2018) and as such, normative prescriptions for societal development. They are fostered by technological discourses that advocate the ideology of a transformative potential of technology for a \"better\" future. This article approaches the ESRI and ArcGIS blogs as corporate \"flows of discourses\" (Wodak & Meyer, 2016), that centre on the topic of a geospatial future and therefore as part of larger societal discourses. We ask: How are the representations of the future negotiated in the geospatial industry, using the example of the ESRI and ArcGIS blogs, and what ideological wirings do they entail? We examine flows of discourse that circulate around the topic of geospatial futurism to uncover discourse strands that comprise sub-topics and groups of sub-topics. We do so from two, differently scaled viewpoints: one from emerging topics arising through collected articles (broad scope with articles as smallest unit of analysis that were collected with the keyword(s) future(s)), and one from uncovering meaning around the keyword future/s (in-depth viewpoint from inductively emerging categories).\n\nThis question can be operationalised with three sub-questions:\n\n1. Around what topics are the contents of the ESRI blog organised?\n\n2. What discursive strands of understanding of geospatial future/s can be identified?\n\n3. What shapes and implications do these strands have as ideological models?",
+      "text_with_footnotes": "This article explores three overlapping conceptual areas: (a) geomedia to critically approach fundamental space-place-media-communications-entanglements, and thus to embed geospatial analytics within everyday social media and communication practices vis-a-vis data collection and monetisation strategies; (b) the transformation of the geospatial industry, especially in the field of GIS/spatial analytics; and (c) the public sphere perspective that resonates with approaches on political economy, to explain how ideologies within the case of the ESRI blog shape public political debates. Before entering the methodological section of this article, the text excurses to refresh some epistemological features of the possibilities of a dialogue between traditional sociological theoretical approaches and computational methods (Lindgren, 2020) and to refresh the features of critical discourse analysis in dialogue with computational tools.\n\nGeomedia as a conceptual frame has evolved from data and technology-centred positions (Lapenta, 2011;Thielmann, 2007) to broadened theoretical approaches that consider societal implications. The geomedia field explores the fundamental mutual relationship between media, communication practices, space, and place (Fast et al., 2018;Jansson, 2022;McQuire, 2016), and is conceptualised from a broader socio-economic scale as media's twenty-first-century condition (McQuire, 2016), created by location-aware and related technologies. This framework helps to understand the flows of geolocative data from the user to the industry and back. In this context of practices informed by the (re)production of geolocative data, devices and the media are perceived as indispensable (Jansson, 2014,) because they shape premediated spatial experiences and embed them into the socially (re)constructed space (Lefebvre, 1993).\n\nGeomediatization, thus, implies the reorganisation of social life, while geomedia technologies become essential across multiple spheres, prompting individuals to adapt their actions accordingly (Fast et al., 2018(Fast et al., , 2019)). This leads to an \"environmental regime…where technologies are…more entwined with other materials and human bodies,\" inhabiting a volatile environment (Jansson, 2022, pp. 47-48). This view highlights how social practices have embedded geospatial analytics (as part of geomedia) in the domain of the every day, generating patterns of behaviour of a \"perceived indispensability\" of geomedia technologies that emphasize the spheres of influence (and of benefit) of the geospatial industry.\n\nIt is therefore key to understand the major commercialisation shift within the geospatial industry, especially in the field of GIS/spatial analytics which describes the entire area of (geo)data processing among others. Indeed, GIS plays a crucial role by providing spatial data analysis and visualisation capabilities which are instrumental in the digital rendering and management of urban spaces. But in the last few years, the commercialisation shift involved turning profits from solely collecting and trading raw geodata, into profits derived from the development of advanced geoinformation products and services (Fischer, 2010), and implementing them into smartphones. App services utilise location data in predictive models and real-time geosurveillance, selling this data to brokers for enrichment with contextual information to enhance profit margins (Christl & Spiekermann, 2016;Forbrukerrådet, 2020;Kitchin, 2015). \"Ubiquitous geodata capture\" has thus become \"a necessary part of the technological developments and the corporate arrangements that underpin them (business deals, monetization strategies, platform-specific data extraction methods, algorithmic sorting, etc.\" (Wilken, 2018, p. 21), while the \"fundamental dis-locations of (geo)data\" (Rodriguez-Amat, 2021, p. 404) remain invisible. The pervasive but usually hidden use of geospatial technologies has given rise to the post-GIS era (Harvey, 2013) as the merging of geospatial technologies with ubiquitous, mobile, computing, and network technologies; \"or as Ed Parsons [geospatial technologist of Google] recently expressed, GIS is going from being a technology for applications to becoming part of ubiquitous computing with a bit of geospatial in everything\" (Harvey, 2013, p. 275, emphasis added).\n\nTo understand the implications of the ubiquity of geodata-based models, we must unfold the \"ground truth\" of GIS (Pickles, 1995). The use of GIS to advance solutions to social problems has been extensively criticised in three waves that capture the underlying assumption of an \"absolute\" Euclidean space and the positivist ontology upon which it is grounded (Goodchild, 1995;Pickles, 1995;Schuurman, 2000). This positivist ontology references a form of place-determinism, according to which a set of possible relations between objects have been defined in advance (Schuurman, 2004) and simplify the social by naturalising any human action concerning physical, material, cognitive, and social aspects (Jekel, 2008). Other critiques have called for further ethical and epistemological considerations, particularly those overshadowed by the momentum and financial investment of GIS (Lake, 1993), and others appeal to the societal consequences and ramifications of the global visual representations of GIS (Roberts & Schein, 1995). These representations empower influential entities, like nation-states and corporations, to symbolically occupy the world through imagery, thereby consolidating political and economic influence. This happens in the present, or even with projective implications-for instance perpetuating past demographic differences (Goss, 1995) and ultimately simplifying society's representation and commodifying social identity through market control. Critical GIS scholars (i.e., Elwood, 2008;Wilson, 2017) argued that the technology can embed and perpetuate existing social inequalities and power structures by reflecting and reinforcing biases inherent in the data and the algorithms used to analyse and visualise spatial information. These criticisms have led to discussions about citizen control (i.e., tracking technology; see Gryl & Jekel, 2012), shifting power relations (Atteneder, 2018), and reproducing ideology with crime mapping (Belina, 2010).\n\nThe \"geo-Web 2.0\" (Elwood, 2010), \"VGI,\" and \"neogeography\" (Haklay, 2013) have enabled more people to use GIS tools to analyse and map data in simple applications, but the promise of a \"democratised\" and \"more just\" GIS turned out to be a delusion (Haklay, 2013): Inequalities in participatory processes (Elwood, 2008) often disguise a lack of basic skills to use geographic information (GI) tools maturely (Atteneder et al., 2022;Gryl & Jekel, 2012). Instead, corporations shape neogeography to market spatial technologies with a neoliberal focus on individual consumption, rather than to enable collective action, reinforcing power dynamics and inequalities in the process (Leszczynski, 2012). This anticipates and perpetuates socio-spatial inequalities through the interplay between urban governance, data, and algorithmic securitisation, projecting them into the future through the lens of algorithmic surveillance and control (Leszczynski, 2016), or reshaping urban governance, spatial realities, and economic landscapes (Rosen & Alvarez León, 2022).\n\nIdeologically, the \"digital growth machine\" reflects a neoliberal worldview that prioritises market-driven solutions and the commodification of urban spaces and data. Therefore, the general invitation is to adopt a critical political economy approach to discuss the \"geo-Web 2.0\" and the digital technology sector-led urban growth and dominance, as a new perspective from which to analyse and engage with the prevailing techno-economic paradigm under digital capitalism (Alvarez León, 2024).\n\nIn this study, we analyse discourses about GIS. This helps identify power configurations reproduced via language in media and communication practices. These configurations are built as ideologies that play a legitimation role for the whole technological ecosystem. For this case, we consider \"ideology\" as systems of beliefs embedded in speech as \"idealized, universalized and detached expressions of actual social relations\" (J. L. Martin, 2014, p. 18). These considerations of the ESRI/ArcGIS blogs as spaces for discussion where the discourses about GIS are enacted, circle back to questions about the (re-)configuration of the public sphere. By examining the ArcGIS and ESRI blogs of the ESRI corporation, we have a relevant object of investigation from an ideology-critical perspective on the level of media content, but also, a direct insight into aspects of media organisations, ownership structures, and the media's interdependence with politics and business (Sevignani, 2020), particularly understanding media and communication practices as cultural and social expressions of the contested structuring of social hegemony (Mosco, 2010). Therefore, shifting the focus towards the structures of the public sphere (Brantner et al., 2021) or keeping an eye on the \"critical-structural conception of ideology\" (Sevignani, 2022, p. 93) that incorporates both ideological structures of the public sphere as well as communicative content, helps to secure the specific case of ESRI's corporate blogs as an epitomic example of public debate in a privately owned outlet.\n\nBlogs have emerged in their role of creating a public sphere as part of the web, allowing more dialogue than pre-digitally written texts and, above all, enabling much cheaper and more extensive distribution channels, and creating what, already two decades ago, was called the \"blogosphere\" (Keren, 2006). Indeed, blogs form communicative spaces that facilitate the exchange of views as well as the convergence, in this case, of GIS industry stakeholders contributing to a broader community around GIS technology. In contrast to personal blogs, corporate blogs help by engaging directly with customers, and actively participating in discussions surrounding their brand, enabling some control over the corporation's public image and narrative.\n\nAdditionally, companies can ensure adherence to company values and control the published content, thereby maintaining consistency and trustworthiness in their online presence (Rettberg, 2014). ESRI's corporate ownership of the blogging space implies some influence in shaping GIS-related stories.\n\nEnvisioning futures from hegemonic GIS corporation positions indicates more than technological determinism, as these are strategically positioned \"corporate visions\" (Rose, 2018) and as such, normative prescriptions for societal development. They are fostered by technological discourses that advocate the ideology of a transformative potential of technology for a \"better\" future. This article approaches the ESRI and ArcGIS blogs as corporate \"flows of discourses\" (Wodak & Meyer, 2016), that centre on the topic of a geospatial future and therefore as part of larger societal discourses. We ask: How are the representations of the future negotiated in the geospatial industry, using the example of the ESRI and ArcGIS blogs, and what ideological wirings do they entail? We examine flows of discourse that circulate around the topic of geospatial futurism to uncover discourse strands that comprise sub-topics and groups of sub-topics. We do so from two, differently scaled viewpoints: one from emerging topics arising through collected articles (broad scope with articles as smallest unit of analysis that were collected with the keyword(s) future(s)), and one from uncovering meaning around the keyword future/s (in-depth viewpoint from inductively emerging categories).\n\nThis question can be operationalised with three sub-questions:\n\n1. Around what topics are the contents of the ESRI blog organised?\n\n2. What discursive strands of understanding of geospatial future/s can be identified?\n\n3. What shapes and implications do these strands have as ideological models?",
+      "preview_head": "This article explores three overlapping conceptual areas: (a) geomedia to critically approach fundamental space-place-media-communications-entanglements, and thus to embed geospatial analytics within everyday social media and communication practices vis-a-vis data collection and monetisation strategies; (b) the transformation of the geospatial industry, especially in the field of GIS/spatial analytics; and (c) the public sphere perspective that resonates with approaches on political economy, to explain how ideologies within the case of the ESRI blog shape public political debates. Before entering the methodological section of this article, the text excurses to refresh some epistemological features of the possibilities of a dialogue between traditional sociological theoretical approaches and computational methods (Lindgren, 2020) and to refresh the features of critical discourse analysis in dialogue with computational tools.",
+      "preview_tail": "3. What shapes and implications do these strands have as ideological models?",
+      "word_count": 1668,
+      "paragraph_count": 15,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section frames the conceptual and theoretical background, discussing geomedia, political-econom"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses conceptual areas, prior theoretical frameworks, and research questions, situat"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Methodology",
+      "header_norm": "methodology",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Evolving online media landscapes complicate systematic material selection and analysis. Broader methodological toolkits are required to examine interconnected transmedial discourse strands and to claim contextualisation. This project advocates for \"an iterative, alternating model for switching between machine and human, and between data and theory, in a structured approach for how data (science) and (social) theory can be incorporated in empirical research\" (Lindgren, 2020, p. 144). We encompass interpretive and critical methods (Wiedemann & Lohmeier, 2019;Wodak & Meyer, 2016) with computational tools (van Atteveldt et al., 2022) and digital methods (Rogers, 2015).",
+        "Similarly to Aranda et al. (2021), the methodology has five phases: a first phase of data collection; a second phase of exploratory data analysis; a third phase of combined unsupervised machine learning for topic modelling of the blogposts, and their interpretive challenge; a fourth phase explores the multiple understandings of future; and phase five represents the \"return to theory\" where ideological patterns are identified."
+      ],
+      "footnotes": [],
+      "text": "Evolving online media landscapes complicate systematic material selection and analysis. Broader methodological toolkits are required to examine interconnected transmedial discourse strands and to claim contextualisation. This project advocates for \"an iterative, alternating model for switching between machine and human, and between data and theory, in a structured approach for how data (science) and (social) theory can be incorporated in empirical research\" (Lindgren, 2020, p. 144). We encompass interpretive and critical methods (Wiedemann & Lohmeier, 2019;Wodak & Meyer, 2016) with computational tools (van Atteveldt et al., 2022) and digital methods (Rogers, 2015).\n\nSimilarly to Aranda et al. (2021), the methodology has five phases: a first phase of data collection; a second phase of exploratory data analysis; a third phase of combined unsupervised machine learning for topic modelling of the blogposts, and their interpretive challenge; a fourth phase explores the multiple understandings of future; and phase five represents the \"return to theory\" where ideological patterns are identified.",
+      "text_with_footnotes": "Evolving online media landscapes complicate systematic material selection and analysis. Broader methodological toolkits are required to examine interconnected transmedial discourse strands and to claim contextualisation. This project advocates for \"an iterative, alternating model for switching between machine and human, and between data and theory, in a structured approach for how data (science) and (social) theory can be incorporated in empirical research\" (Lindgren, 2020, p. 144). We encompass interpretive and critical methods (Wiedemann & Lohmeier, 2019;Wodak & Meyer, 2016) with computational tools (van Atteveldt et al., 2022) and digital methods (Rogers, 2015).\n\nSimilarly to Aranda et al. (2021), the methodology has five phases: a first phase of data collection; a second phase of exploratory data analysis; a third phase of combined unsupervised machine learning for topic modelling of the blogposts, and their interpretive challenge; a fourth phase explores the multiple understandings of future; and phase five represents the \"return to theory\" where ideological patterns are identified.",
+      "preview_head": "Evolving online media landscapes complicate systematic material selection and analysis. Broader methodological toolkits are required to examine interconnected transmedial discourse strands and to claim contextualisation. This project advocates for \"an iterative, alternating model for switching between machine and human, and between data and theory, in a structured approach for how data (science) and (social) theory can be incorporated in empirical research\" (Lindgren, 2020, p. 144).",
+      "preview_tail": "Similarly to Aranda et al. (2021), the methodology has five phases: a first phase of data collection; a second phase of exploratory data analysis; a third phase of combined unsupervised machine learning for topic modelling of the blogposts, and their interpretive challenge; a fourth phase explores the multiple understandings of future; and phase five represents the \"return to theory\" where ideological patterns are identified.",
+      "word_count": 155,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Phase 1: Data Collection",
+      "header_norm": "phase 1 data collection",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "A Python script led to the ESRI search engine (https://www.esri.com/en-us/search) and captured all posts containing \"future\" and \"futures\" in two steps: first, the headlines and links; second, using the links to capture the body of text. The search on the ESRI blog engine produced 6219 links. After cleaning, a global sample of 5119 active articles was identified with 107 different tags; 10 tags labelled more than 60 articles. A tag is a label set by the blog site to classify the articles: The main ones were \"products\" and \"videos\"; \"ArcGIS blog\" and \"ESRI blog\" were next. These tags set the first criteria for a specific sample of blog posts."
+      ],
+      "footnotes": [],
+      "text": "A Python script led to the ESRI search engine (https://www.esri.com/en-us/search) and captured all posts containing \"future\" and \"futures\" in two steps: first, the headlines and links; second, using the links to capture the body of text. The search on the ESRI blog engine produced 6219 links. After cleaning, a global sample of 5119 active articles was identified with 107 different tags; 10 tags labelled more than 60 articles. A tag is a label set by the blog site to classify the articles: The main ones were \"products\" and \"videos\"; \"ArcGIS blog\" and \"ESRI blog\" were next. These tags set the first criteria for a specific sample of blog posts.",
+      "text_with_footnotes": "A Python script led to the ESRI search engine (https://www.esri.com/en-us/search) and captured all posts containing \"future\" and \"futures\" in two steps: first, the headlines and links; second, using the links to capture the body of text. The search on the ESRI blog engine produced 6219 links. After cleaning, a global sample of 5119 active articles was identified with 107 different tags; 10 tags labelled more than 60 articles. A tag is a label set by the blog site to classify the articles: The main ones were \"products\" and \"videos\"; \"ArcGIS blog\" and \"ESRI blog\" were next. These tags set the first criteria for a specific sample of blog posts.",
+      "preview_head": "A Python script led to the ESRI search engine (https://www.esri.com/en-us/search) and captured all posts containing \"future\" and \"futures\" in two steps: first, the headlines and links; second, using the links to capture the body of text. The search on the ESRI blog engine produced 6219 links. After cleaning, a global sample of 5119 active articles was identified with 107 different tags; 10 tags labelled more than 60 articles.",
+      "preview_tail": "After cleaning, a global sample of 5119 active articles was identified with 107 different tags; 10 tags labelled more than 60 articles. A tag is a label set by the blog site to classify the articles: The main ones were \"products\" and \"videos\"; \"ArcGIS blog\" and \"ESRI blog\" were next. These tags set the first criteria for a specific sample of blog posts.",
+      "word_count": 109,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data collection process, including scripts, search terms, and sample construction. All"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Phase 2: Exploratory Data Analysis",
+      "header_norm": "phase 2 exploratory data analysis",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The 577 posts identified as \"ESRI blog\" (76 items) or as \"ArcGIS blog\" (501 items) that talk about the \"future\" are the sample for the analysis of this project."
+      ],
+      "footnotes": [],
+      "text": "The 577 posts identified as \"ESRI blog\" (76 items) or as \"ArcGIS blog\" (501 items) that talk about the \"future\" are the sample for the analysis of this project.",
+      "text_with_footnotes": "The 577 posts identified as \"ESRI blog\" (76 items) or as \"ArcGIS blog\" (501 items) that talk about the \"future\" are the sample for the analysis of this project.",
+      "preview_head": "The 577 posts identified as \"ESRI blog\" (76 items) or as \"ArcGIS blog\" (501 items) that talk about the \"future\" are the sample for the analysis of this project.",
+      "preview_tail": "The 577 posts identified as \"ESRI blog\" (76 items) or as \"ArcGIS blog\" (501 items) that talk about the \"future\" are the sample for the analysis of this project.",
+      "word_count": 29,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the sample selection and filtering for analysis, which is a methodological step."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Phase 3: Topic Modelling",
+      "header_norm": "phase 3 topic modelling",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This sample was analysed using (latent Dirichlet allocation) LDA topic modelling (Blei, 2012), enriched with the hierarchical Dirichlet process (HDP; Teh et al., 2005) to establish a distribution of 20 topics. This unsupervised machine learning model classified the sampled blog posts according to their dominant topic (see Figure 1). In response to the divergent distribution of articles and topics, a further interpretive process relabelled the blogposts, enriching the computational, statistically word-vectorised, topics with their actual social and cultural semantic significance. This mixed methods approach to sorting the posts allows the identification of \"streams\" as a broad scope of meaning to/around the future (this is how we responded to RQ1)."
+      ],
+      "footnotes": [],
+      "text": "This sample was analysed using (latent Dirichlet allocation) LDA topic modelling (Blei, 2012), enriched with the hierarchical Dirichlet process (HDP; Teh et al., 2005) to establish a distribution of 20 topics. This unsupervised machine learning model classified the sampled blog posts according to their dominant topic (see Figure 1). In response to the divergent distribution of articles and topics, a further interpretive process relabelled the blogposts, enriching the computational, statistically word-vectorised, topics with their actual social and cultural semantic significance. This mixed methods approach to sorting the posts allows the identification of \"streams\" as a broad scope of meaning to/around the future (this is how we responded to RQ1).",
+      "text_with_footnotes": "This sample was analysed using (latent Dirichlet allocation) LDA topic modelling (Blei, 2012), enriched with the hierarchical Dirichlet process (HDP; Teh et al., 2005) to establish a distribution of 20 topics. This unsupervised machine learning model classified the sampled blog posts according to their dominant topic (see Figure 1). In response to the divergent distribution of articles and topics, a further interpretive process relabelled the blogposts, enriching the computational, statistically word-vectorised, topics with their actual social and cultural semantic significance. This mixed methods approach to sorting the posts allows the identification of \"streams\" as a broad scope of meaning to/around the future (this is how we responded to RQ1).",
+      "preview_head": "This sample was analysed using (latent Dirichlet allocation) LDA topic modelling (Blei, 2012), enriched with the hierarchical Dirichlet process (HDP; Teh et al., 2005) to establish a distribution of 20 topics. This unsupervised machine learning model classified the sampled blog posts according to their dominant topic (see Figure 1). In response to the divergent distribution of articles and topics, a further interpretive process relabelled the blogposts, enriching the computational, statistically word-vectorised, topics with their actual social and cultural semantic significance.",
+      "preview_tail": "This unsupervised machine learning model classified the sampled blog posts according to their dominant topic (see Figure 1). In response to the divergent distribution of articles and topics, a further interpretive process relabelled the blogposts, enriching the computational, statistically word-vectorised, topics with their actual social and cultural semantic significance. This mixed methods approach to sorting the posts allows the identification of \"streams\" as a broad scope of meaning to/around the future (this is how we responded to RQ1).",
+      "word_count": 109,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the application of topic modeling (LDA, HDP) to the data, which is a methodological detail"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Phase 4: Identifying Futures",
+      "header_norm": "phase 4 identifying futures",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "In parallel to the topic modelling process, we identified the text passages that included the word \"future\" and categorised them using MAXQDA, until theoretical saturation. This narrow focus was independent of the blog posts and aimed to identify meaning in the direct context of the search term \"future.\" The iterative process of initial coding (category identification), intermediate coding (selecting core categories until data saturation), to advanced coding (theoretical coding to develop a storyline; see Chun Tie et al., 2019), enhanced a category framework that adds to the critical discourse analysis procedures, as a critical stance leading to the formulation of critical goals (van Dijk, 2013). The categories emerging from the MAXQDA analysis combined with the LDA emerging topics and streams let us identify discourse strands and patterns that conform to what we call ideological wirings. This process drives its critical potential for \"understanding and explaining necessarily complex social phenomena that require a multidisciplinary approach\" (Wodak & Meyer, 2016, p. 2), harnessing vast data resources, and media specificity (Sell & Linke, 2019), while maintaining a reflexive stance, ensuring critical examination of language, power dynamics, and socio-political contexts. Central to this analysis is understanding the discourses of actors and the mechanisms through which power shapes social realities and legitimises discourse (this is how we responded to RQ2)."
+      ],
+      "footnotes": [],
+      "text": "In parallel to the topic modelling process, we identified the text passages that included the word \"future\" and categorised them using MAXQDA, until theoretical saturation. This narrow focus was independent of the blog posts and aimed to identify meaning in the direct context of the search term \"future.\" The iterative process of initial coding (category identification), intermediate coding (selecting core categories until data saturation), to advanced coding (theoretical coding to develop a storyline; see Chun Tie et al., 2019), enhanced a category framework that adds to the critical discourse analysis procedures, as a critical stance leading to the formulation of critical goals (van Dijk, 2013). The categories emerging from the MAXQDA analysis combined with the LDA emerging topics and streams let us identify discourse strands and patterns that conform to what we call ideological wirings. This process drives its critical potential for \"understanding and explaining necessarily complex social phenomena that require a multidisciplinary approach\" (Wodak & Meyer, 2016, p. 2), harnessing vast data resources, and media specificity (Sell & Linke, 2019), while maintaining a reflexive stance, ensuring critical examination of language, power dynamics, and socio-political contexts. Central to this analysis is understanding the discourses of actors and the mechanisms through which power shapes social realities and legitimises discourse (this is how we responded to RQ2).",
+      "text_with_footnotes": "In parallel to the topic modelling process, we identified the text passages that included the word \"future\" and categorised them using MAXQDA, until theoretical saturation. This narrow focus was independent of the blog posts and aimed to identify meaning in the direct context of the search term \"future.\" The iterative process of initial coding (category identification), intermediate coding (selecting core categories until data saturation), to advanced coding (theoretical coding to develop a storyline; see Chun Tie et al., 2019), enhanced a category framework that adds to the critical discourse analysis procedures, as a critical stance leading to the formulation of critical goals (van Dijk, 2013). The categories emerging from the MAXQDA analysis combined with the LDA emerging topics and streams let us identify discourse strands and patterns that conform to what we call ideological wirings. This process drives its critical potential for \"understanding and explaining necessarily complex social phenomena that require a multidisciplinary approach\" (Wodak & Meyer, 2016, p. 2), harnessing vast data resources, and media specificity (Sell & Linke, 2019), while maintaining a reflexive stance, ensuring critical examination of language, power dynamics, and socio-political contexts. Central to this analysis is understanding the discourses of actors and the mechanisms through which power shapes social realities and legitimises discourse (this is how we responded to RQ2).",
+      "preview_head": "In parallel to the topic modelling process, we identified the text passages that included the word \"future\" and categorised them using MAXQDA, until theoretical saturation. This narrow focus was independent of the blog posts and aimed to identify meaning in the direct context of the search term \"future.\" The iterative process of initial coding (category identification), intermediate coding (selecting core categories until data saturation), to advanced coding (theoretical coding to develop a storyline; see Chun Tie et al., 2019), enhanced a category framework that adds to the critical discourse analysis procedures, as a critical stance leading to the formulation of critical goals (van Dijk, 2013). The categories emerging from the MAXQDA analysis combined with the LDA emerging topics and streams let us identify discourse strands and patterns that conform to what we call ideological wirings.",
+      "preview_tail": "The categories emerging from the MAXQDA analysis combined with the LDA emerging topics and streams let us identify discourse strands and patterns that conform to what we call ideological wirings. This process drives its critical potential for \"understanding and explaining necessarily complex social phenomena that require a multidisciplinary approach\" (Wodak & Meyer, 2016, p. 2), harnessing vast data resources, and media specificity (Sell & Linke, 2019), while maintaining a reflexive stance, ensuring critical examination of language, power dynamics, and socio-political contexts. Central to this analysis is understanding the discourses of actors and the mechanisms through which power shapes social realities and legitimises discourse (this is how we responded to RQ2).",
+      "word_count": 215,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process of identifying and coding text passages using MAXQDA, which is a methodologic"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Phase 5: Ideological Wirings (Reconnecting to Theory)",
+      "header_norm": "phase 5 ideological wirings reconnecting to theory",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "These understandings of future and the advanced LDA streams provide insights that excite the formulation of new theoretical ideas. This operation is mostly abductive and connective and reconnects the findings via \"theoretical sensitivity\" (Glaser & Strauss, 1967, after Lindgren, 2019) back to the theoretical frame. This article describes findings in two directions: one in the conceptual direction (about the public sphere and ideology) and the other on the possibilities of methodologically combining computational methods and discourse analysis, where \"theoretical interpretation\" and a \"qualitative\" approach to data is integrated with \"quantitative analysis and data science techniques\" (Lindgren, 2019, p. 6; this is how we responded to RQ3)."
+      ],
+      "footnotes": [],
+      "text": "These understandings of future and the advanced LDA streams provide insights that excite the formulation of new theoretical ideas. This operation is mostly abductive and connective and reconnects the findings via \"theoretical sensitivity\" (Glaser & Strauss, 1967, after Lindgren, 2019) back to the theoretical frame. This article describes findings in two directions: one in the conceptual direction (about the public sphere and ideology) and the other on the possibilities of methodologically combining computational methods and discourse analysis, where \"theoretical interpretation\" and a \"qualitative\" approach to data is integrated with \"quantitative analysis and data science techniques\" (Lindgren, 2019, p. 6; this is how we responded to RQ3).",
+      "text_with_footnotes": "These understandings of future and the advanced LDA streams provide insights that excite the formulation of new theoretical ideas. This operation is mostly abductive and connective and reconnects the findings via \"theoretical sensitivity\" (Glaser & Strauss, 1967, after Lindgren, 2019) back to the theoretical frame. This article describes findings in two directions: one in the conceptual direction (about the public sphere and ideology) and the other on the possibilities of methodologically combining computational methods and discourse analysis, where \"theoretical interpretation\" and a \"qualitative\" approach to data is integrated with \"quantitative analysis and data science techniques\" (Lindgren, 2019, p. 6; this is how we responded to RQ3).",
+      "preview_head": "These understandings of future and the advanced LDA streams provide insights that excite the formulation of new theoretical ideas. This operation is mostly abductive and connective and reconnects the findings via \"theoretical sensitivity\" (Glaser & Strauss, 1967, after Lindgren, 2019) back to the theoretical frame. This article describes findings in two directions: one in the conceptual direction (about the public sphere and ideology) and the other on the possibilities of methodologically combining computational methods and discourse analysis, where \"theoretical interpretation\" and a \"qualitative\" approach to data is integrated with \"quantitative analysis and data science techniques\" (Lindgren, 2019, p. 6; this is how we responded to RQ3).",
+      "preview_tail": "These understandings of future and the advanced LDA streams provide insights that excite the formulation of new theoretical ideas. This operation is mostly abductive and connective and reconnects the findings via \"theoretical sensitivity\" (Glaser & Strauss, 1967, after Lindgren, 2019) back to the theoretical frame. This article describes findings in two directions: one in the conceptual direction (about the public sphere and ideology) and the other on the possibilities of methodologically combining computational methods and discourse analysis, where \"theoretical interpretation\" and a \"qualitative\" approach to data is integrated with \"quantitative analysis and data science techniques\" (Lindgren, 2019, p. 6; this is how we responded to RQ3).",
+      "word_count": 106,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the abductive process of connecting findings to theory, which is a methodological step."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Begins to interpret findings in light of theory, but the main focus is on the methodological reconne"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.9,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Three Layers of Results: Phases 3, 4, and 5",
+      "header_norm": "three layers of results phases 3 4 and 5",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The findings are organised along the three research questions answered in Phases 3, 4, and 5. The first section (Phase 3, RQ1) is split in two: It starts with a description of the LDA topics and continues with the interpretive labelling that refines those topics to streams. The second section (Phase 4, RQ2) explores the notions of \"future\" emerging from the discourse analysis and describes the nuances of meaning of each one of those notions. The third section (Phase 5, RQ3) opens a discussion about the ideological patterns and implications behind the representations of futures on the blog."
+      ],
+      "footnotes": [],
+      "text": "The findings are organised along the three research questions answered in Phases 3, 4, and 5. The first section (Phase 3, RQ1) is split in two: It starts with a description of the LDA topics and continues with the interpretive labelling that refines those topics to streams. The second section (Phase 4, RQ2) explores the notions of \"future\" emerging from the discourse analysis and describes the nuances of meaning of each one of those notions. The third section (Phase 5, RQ3) opens a discussion about the ideological patterns and implications behind the representations of futures on the blog.",
+      "text_with_footnotes": "The findings are organised along the three research questions answered in Phases 3, 4, and 5. The first section (Phase 3, RQ1) is split in two: It starts with a description of the LDA topics and continues with the interpretive labelling that refines those topics to streams. The second section (Phase 4, RQ2) explores the notions of \"future\" emerging from the discourse analysis and describes the nuances of meaning of each one of those notions. The third section (Phase 5, RQ3) opens a discussion about the ideological patterns and implications behind the representations of futures on the blog.",
+      "preview_head": "The findings are organised along the three research questions answered in Phases 3, 4, and 5. The first section (Phase 3, RQ1) is split in two: It starts with a description of the LDA topics and continues with the interpretive labelling that refines those topics to streams. The second section (Phase 4, RQ2) explores the notions of \"future\" emerging from the discourse analysis and describes the nuances of meaning of each one of those notions. The third section (Phase 5, RQ3) opens a discussion about the ideological patterns and implications behind the representations of futures on the blog.",
+      "preview_tail": "The findings are organised along the three research questions answered in Phases 3, 4, and 5. The first section (Phase 3, RQ1) is split in two: It starts with a description of the LDA topics and continues with the interpretive labelling that refines those topics to streams. The second section (Phase 4, RQ2) explores the notions of \"future\" emerging from the discourse analysis and describes the nuances of meaning of each one of those notions. The third section (Phase 5, RQ3) opens a discussion about the ideological patterns and implications behind the representations of futures on the blog.",
+      "word_count": 98,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Introduces the organization and reporting of findings from the previous methodological phases."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "Phase 3: Topic Modelling and Interpretive Discussion (RQ1)",
+      "header_norm": "phase 3 topic modelling and interpretive discussion rq1",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The LDA algorithm identifies pairs of words (vectors) appearing together in the corpus and clusters them (the topics). Topics are thus statistically defined through word frequency and word proximity. LDA modelling requires setting the number of topics as a condition before the model operates. We applied HDP to run the algorithm hundreds of times against multiple variations. The calculation suggested 20 topics (coherence score 0.4 and perplexity of -8.6). These two indicators set the LDA topic modelling to produce the results shown in Figure 1. This visualisation identifies the LDA topics along a double-axis system that marks the relative distance between them (Figure 1). The size of each cluster (circle) indicates its relevance: This distribution shows the relative distance between the main topics (left) opposite the five bunched clusters on the right.",
+        "The overlapping likely suggests the presence of outliers in the words, or in the blogposts that displace the centrality of the cluster differentiation. This initial computational organisation of blogposts offers an initial insight into the contents, but it still requires an interpretive approach that allows us to identify nuances.",
+        "interpretive process reshaped the 20 LDA topics to the following seven main streams:",
+        "1. Building the GI-community",
+        "2. ESRI-software and products 3. Story-smart-mapping 4. Widgets, Apps, and APIs 5. Adapting with GIS 6. Time series forecasting 7. Social justice for future communities Table 1 roughly shows how the LDA topics-number next to them-provide the basis for the newly identified streams."
+      ],
+      "footnotes": [],
+      "text": "The LDA algorithm identifies pairs of words (vectors) appearing together in the corpus and clusters them (the topics). Topics are thus statistically defined through word frequency and word proximity. LDA modelling requires setting the number of topics as a condition before the model operates. We applied HDP to run the algorithm hundreds of times against multiple variations. The calculation suggested 20 topics (coherence score 0.4 and perplexity of -8.6). These two indicators set the LDA topic modelling to produce the results shown in Figure 1. This visualisation identifies the LDA topics along a double-axis system that marks the relative distance between them (Figure 1). The size of each cluster (circle) indicates its relevance: This distribution shows the relative distance between the main topics (left) opposite the five bunched clusters on the right.\n\nThe overlapping likely suggests the presence of outliers in the words, or in the blogposts that displace the centrality of the cluster differentiation. This initial computational organisation of blogposts offers an initial insight into the contents, but it still requires an interpretive approach that allows us to identify nuances.\n\ninterpretive process reshaped the 20 LDA topics to the following seven main streams:\n\n1. Building the GI-community\n\n2. ESRI-software and products 3. Story-smart-mapping 4. Widgets, Apps, and APIs 5. Adapting with GIS 6. Time series forecasting 7. Social justice for future communities Table 1 roughly shows how the LDA topics-number next to them-provide the basis for the newly identified streams.",
+      "text_with_footnotes": "The LDA algorithm identifies pairs of words (vectors) appearing together in the corpus and clusters them (the topics). Topics are thus statistically defined through word frequency and word proximity. LDA modelling requires setting the number of topics as a condition before the model operates. We applied HDP to run the algorithm hundreds of times against multiple variations. The calculation suggested 20 topics (coherence score 0.4 and perplexity of -8.6). These two indicators set the LDA topic modelling to produce the results shown in Figure 1. This visualisation identifies the LDA topics along a double-axis system that marks the relative distance between them (Figure 1). The size of each cluster (circle) indicates its relevance: This distribution shows the relative distance between the main topics (left) opposite the five bunched clusters on the right.\n\nThe overlapping likely suggests the presence of outliers in the words, or in the blogposts that displace the centrality of the cluster differentiation. This initial computational organisation of blogposts offers an initial insight into the contents, but it still requires an interpretive approach that allows us to identify nuances.\n\ninterpretive process reshaped the 20 LDA topics to the following seven main streams:\n\n1. Building the GI-community\n\n2. ESRI-software and products 3. Story-smart-mapping 4. Widgets, Apps, and APIs 5. Adapting with GIS 6. Time series forecasting 7. Social justice for future communities Table 1 roughly shows how the LDA topics-number next to them-provide the basis for the newly identified streams.",
+      "preview_head": "The LDA algorithm identifies pairs of words (vectors) appearing together in the corpus and clusters them (the topics). Topics are thus statistically defined through word frequency and word proximity. LDA modelling requires setting the number of topics as a condition before the model operates.",
+      "preview_tail": "Adapting with GIS 6. Time series forecasting 7. Social justice for future communities Table 1 roughly shows how the LDA topics-number next to them-provide the basis for the newly identified streams.",
+      "word_count": 241,
+      "paragraph_count": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports the output of the LDA topic modeling and the interpretive labeling of topics, which are find"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretive commentary on the meaning of the topics and streams."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Phase 4: Identifying Futures",
+      "header_norm": "phase 4 identifying futures",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The word \"future(s)\" itself also offers tropes. This section the contexts in which the word \"future(s)\"",
+        "appears and within what cross-sectional themes, that traverse the streams identified in the previous section.",
+        "The analysis has identified five themes or core categories (exemplified in",
+        "Table 2): A. The future of GIS software B. GIS and future urban environments C. Predictions (of the future) with/by GIS software D. Future of available data E. Visions of future work environments F. Smaller future discourses",
+        "These six themes (five core categories and a few smaller ones) emerged from the iteration of a manual analysis.",
+        "This operation allowed us to identify that these types of future are consistent across the corpus with obvious variations. Together they shape a form of synthetic future captured by a technological drive and the promising conditions set by the availability of ring-fenced, privately owned, data."
+      ],
+      "footnotes": [],
+      "text": "The word \"future(s)\" itself also offers tropes. This section the contexts in which the word \"future(s)\"\n\nappears and within what cross-sectional themes, that traverse the streams identified in the previous section.\n\nThe analysis has identified five themes or core categories (exemplified in\n\nTable 2): A. The future of GIS software B. GIS and future urban environments C. Predictions (of the future) with/by GIS software D. Future of available data E. Visions of future work environments F. Smaller future discourses\n\nThese six themes (five core categories and a few smaller ones) emerged from the iteration of a manual analysis.\n\nThis operation allowed us to identify that these types of future are consistent across the corpus with obvious variations. Together they shape a form of synthetic future captured by a technological drive and the promising conditions set by the availability of ring-fenced, privately owned, data.",
+      "text_with_footnotes": "The word \"future(s)\" itself also offers tropes. This section the contexts in which the word \"future(s)\"\n\nappears and within what cross-sectional themes, that traverse the streams identified in the previous section.\n\nThe analysis has identified five themes or core categories (exemplified in\n\nTable 2): A. The future of GIS software B. GIS and future urban environments C. Predictions (of the future) with/by GIS software D. Future of available data E. Visions of future work environments F. Smaller future discourses\n\nThese six themes (five core categories and a few smaller ones) emerged from the iteration of a manual analysis.\n\nThis operation allowed us to identify that these types of future are consistent across the corpus with obvious variations. Together they shape a form of synthetic future captured by a technological drive and the promising conditions set by the availability of ring-fenced, privately owned, data.",
+      "preview_head": "The word \"future(s)\" itself also offers tropes. This section the contexts in which the word \"future(s)\"",
+      "preview_tail": "This operation allowed us to identify that these types of future are consistent across the corpus with obvious variations. Together they shape a form of synthetic future captured by a technological drive and the promising conditions set by the availability of ring-fenced, privately owned, data.",
+      "word_count": 143,
+      "paragraph_count": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from the analysis of the word 'future(s)' and its contexts in the corpus."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Phase 5: Discussion-Locating Ideologies Through Drawings of the Future",
+      "header_norm": "phase 5 discussion locating ideologies through drawings of the future",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The following discussion section emerges from the systematic analysis of the ESRI and ArcGIS blogs against the discursive formations that wire the ideological underpinnings. The discussion builds around three layers of analysis: (a) structural, identifying fundamental aspects of the structure of the blogs; (b) rhetorical, which identifies turns and discursive operations; and (c) the more general layer that points towards the implications of the discursive construction of the future itself. These three layers merge in a fourth point where they adopt an all-encompassing ideological shape.",
+        "Table 1. Streams emerging from the combination of LDA topic modelling and the interpretive process."
+      ],
+      "footnotes": [],
+      "text": "The following discussion section emerges from the systematic analysis of the ESRI and ArcGIS blogs against the discursive formations that wire the ideological underpinnings. The discussion builds around three layers of analysis: (a) structural, identifying fundamental aspects of the structure of the blogs; (b) rhetorical, which identifies turns and discursive operations; and (c) the more general layer that points towards the implications of the discursive construction of the future itself. These three layers merge in a fourth point where they adopt an all-encompassing ideological shape.\n\nTable 1. Streams emerging from the combination of LDA topic modelling and the interpretive process.",
+      "text_with_footnotes": "The following discussion section emerges from the systematic analysis of the ESRI and ArcGIS blogs against the discursive formations that wire the ideological underpinnings. The discussion builds around three layers of analysis: (a) structural, identifying fundamental aspects of the structure of the blogs; (b) rhetorical, which identifies turns and discursive operations; and (c) the more general layer that points towards the implications of the discursive construction of the future itself. These three layers merge in a fourth point where they adopt an all-encompassing ideological shape.\n\nTable 1. Streams emerging from the combination of LDA topic modelling and the interpretive process.",
+      "preview_head": "The following discussion section emerges from the systematic analysis of the ESRI and ArcGIS blogs against the discursive formations that wire the ideological underpinnings. The discussion builds around three layers of analysis: (a) structural, identifying fundamental aspects of the structure of the blogs; (b) rhetorical, which identifies turns and discursive operations; and (c) the more general layer that points towards the implications of the discursive construction of the future itself. These three layers merge in a fourth point where they adopt an all-encompassing ideological shape.",
+      "preview_tail": "Table 1. Streams emerging from the combination of LDA topic modelling and the interpretive process.",
+      "word_count": 100,
+      "paragraph_count": 2,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Interprets and discusses the ideological implications of the results, connecting them to broader the"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "References the systematic analysis and findings as the basis for the discussion."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Stream Description Examples",
+      "header_norm": "stream description examples",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "1 Building the GI-community Texts identify the community around spatial analytics. Words include exhibitions and conferences such as the ESRI User Conference (Decker, 2021;Newell, 2022), with high-profile figures like, i.e., Dangermond (A. Martin, 2022), president of ESRI, and the formation of a start-up community/culture building around spatial analytics.",
+        "Collective building, networking, location-intelligence. GIS as a solution to complexity \"explore how GIS can be applied to better understand our world and design solutions for our collective future\" (Newell, 2022)."
+      ],
+      "footnotes": [],
+      "text": "1 Building the GI-community Texts identify the community around spatial analytics. Words include exhibitions and conferences such as the ESRI User Conference (Decker, 2021;Newell, 2022), with high-profile figures like, i.e., Dangermond (A. Martin, 2022), president of ESRI, and the formation of a start-up community/culture building around spatial analytics.\n\nCollective building, networking, location-intelligence. GIS as a solution to complexity \"explore how GIS can be applied to better understand our world and design solutions for our collective future\" (Newell, 2022).",
+      "text_with_footnotes": "1 Building the GI-community Texts identify the community around spatial analytics. Words include exhibitions and conferences such as the ESRI User Conference (Decker, 2021;Newell, 2022), with high-profile figures like, i.e., Dangermond (A. Martin, 2022), president of ESRI, and the formation of a start-up community/culture building around spatial analytics.\n\nCollective building, networking, location-intelligence. GIS as a solution to complexity \"explore how GIS can be applied to better understand our world and design solutions for our collective future\" (Newell, 2022).",
+      "preview_head": "1 Building the GI-community Texts identify the community around spatial analytics. Words include exhibitions and conferences such as the ESRI User Conference (Decker, 2021;Newell, 2022), with high-profile figures like, i.e., Dangermond (A. Martin, 2022), president of ESRI, and the formation of a start-up community/culture building around spatial analytics.",
+      "preview_tail": "Collective building, networking, location-intelligence. GIS as a solution to complexity \"explore how GIS can be applied to better understand our world and design solutions for our collective future\" (Newell, 2022).",
+      "word_count": 78,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Provides concrete examples and descriptions of the identified streams, which are empirical findings."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "ESRI software and products",
+      "header_norm": "esri software and products",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This stream discusses new software and tool development. The posts discuss tools to address city-related issues, urban planning, or indoor navigation through specific software applications.",
+        "\"",
+        "The future of what people can do with GIS is going to be about how people can think creatively rather than about limitations in computing power or data storage\" (Iannone, 2018)."
+      ],
+      "footnotes": [],
+      "text": "This stream discusses new software and tool development. The posts discuss tools to address city-related issues, urban planning, or indoor navigation through specific software applications.\n\n\"\n\nThe future of what people can do with GIS is going to be about how people can think creatively rather than about limitations in computing power or data storage\" (Iannone, 2018).",
+      "text_with_footnotes": "This stream discusses new software and tool development. The posts discuss tools to address city-related issues, urban planning, or indoor navigation through specific software applications.\n\n\"\n\nThe future of what people can do with GIS is going to be about how people can think creatively rather than about limitations in computing power or data storage\" (Iannone, 2018).",
+      "preview_head": "This stream discusses new software and tool development. The posts discuss tools to address city-related issues, urban planning, or indoor navigation through specific software applications.",
+      "preview_tail": "The future of what people can do with GIS is going to be about how people can think creatively rather than about limitations in computing power or data storage\" (Iannone, 2018).",
+      "word_count": 57,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes findings about ESRI software and products as identified in the analysis, with supporting q"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Story-smart mapping",
+      "header_norm": "story smart mapping",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This stream loosely connects to stream 4, including storytelling maps. \"Story maps\" is an ESRI software application for non-cartographers to create thematic maps by embedding spatially located stories.",
+        "\"The canvas for GIS data to be shaped and displayed,\" Storymaps become a way of \"mapping the future of GIS\" (Szukalski & Ball, 2018)."
+      ],
+      "footnotes": [],
+      "text": "This stream loosely connects to stream 4, including storytelling maps. \"Story maps\" is an ESRI software application for non-cartographers to create thematic maps by embedding spatially located stories.\n\n\"The canvas for GIS data to be shaped and displayed,\" Storymaps become a way of \"mapping the future of GIS\" (Szukalski & Ball, 2018).",
+      "text_with_footnotes": "This stream loosely connects to stream 4, including storytelling maps. \"Story maps\" is an ESRI software application for non-cartographers to create thematic maps by embedding spatially located stories.\n\n\"The canvas for GIS data to be shaped and displayed,\" Storymaps become a way of \"mapping the future of GIS\" (Szukalski & Ball, 2018).",
+      "preview_head": "This stream loosely connects to stream 4, including storytelling maps. \"Story maps\" is an ESRI software application for non-cartographers to create thematic maps by embedding spatially located stories.",
+      "preview_tail": "\"The canvas for GIS data to be shaped and displayed,\" Storymaps become a way of \"mapping the future of GIS\" (Szukalski & Ball, 2018).",
+      "word_count": 52,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically describing the 'story-smart mapping' ("
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically describing the 'story-smart mapping' ("
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically describing the 'story-smart mapping' ("
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically describing the 'story-smart mapping' ("
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically describing the 'story-smart mapping' ("
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically describing the 'story-smart mapping' ("
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically describing the 'story-smart mapping' ("
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the analysis, specifically describing the 'story-smart mapping' ("
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Widgets, Apps, and APIs",
+      "header_norm": "widgets apps and apis",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This stream links to the previous: Posts share the idea of software development to save the future, focusing on app-based user environments, and app developer interfaces. Posts involve ArcGIS APIs for JavaScript, Python, and SDKs (software development kits).",
+        "\"ArcGIS API for Python: Visualize regional growth with building permits\" (Cappelli Breier, 2019)."
+      ],
+      "footnotes": [],
+      "text": "This stream links to the previous: Posts share the idea of software development to save the future, focusing on app-based user environments, and app developer interfaces. Posts involve ArcGIS APIs for JavaScript, Python, and SDKs (software development kits).\n\n\"ArcGIS API for Python: Visualize regional growth with building permits\" (Cappelli Breier, 2019).",
+      "text_with_footnotes": "This stream links to the previous: Posts share the idea of software development to save the future, focusing on app-based user environments, and app developer interfaces. Posts involve ArcGIS APIs for JavaScript, Python, and SDKs (software development kits).\n\n\"ArcGIS API for Python: Visualize regional growth with building permits\" (Cappelli Breier, 2019).",
+      "preview_head": "This stream links to the previous: Posts share the idea of software development to save the future, focusing on app-based user environments, and app developer interfaces. Posts involve ArcGIS APIs for JavaScript, Python, and SDKs (software development kits).",
+      "preview_tail": "\"ArcGIS API for Python: Visualize regional growth with building permits\" (Cappelli Breier, 2019).",
+      "word_count": 51,
+      "paragraph_count": 2,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": ""
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.5,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Adapting with GIS",
+      "header_norm": "adapting with gis",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Posts refer to extreme climate conditions including rising sea levels, or high heat in cities, and their impact on global food security or biodiversity, or to smart city prototyping (Brooks, 2023).",
+        "\"Geospatial tech\" (Budden, 2021), sensors for data capture and visualisation (Gadsden, 2023;Wright, 2022) as solutions for further growth and sustainability."
+      ],
+      "footnotes": [],
+      "text": "Posts refer to extreme climate conditions including rising sea levels, or high heat in cities, and their impact on global food security or biodiversity, or to smart city prototyping (Brooks, 2023).\n\n\"Geospatial tech\" (Budden, 2021), sensors for data capture and visualisation (Gadsden, 2023;Wright, 2022) as solutions for further growth and sustainability.",
+      "text_with_footnotes": "Posts refer to extreme climate conditions including rising sea levels, or high heat in cities, and their impact on global food security or biodiversity, or to smart city prototyping (Brooks, 2023).\n\n\"Geospatial tech\" (Budden, 2021), sensors for data capture and visualisation (Gadsden, 2023;Wright, 2022) as solutions for further growth and sustainability.",
+      "preview_head": "Posts refer to extreme climate conditions including rising sea levels, or high heat in cities, and their impact on global food security or biodiversity, or to smart city prototyping (Brooks, 2023).",
+      "preview_tail": "\"Geospatial tech\" (Budden, 2021), sensors for data capture and visualisation (Gadsden, 2023;Wright, 2022) as solutions for further growth and sustainability.",
+      "word_count": 51,
+      "paragraph_count": 2,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": ""
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.5,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Time series forecasting",
+      "header_norm": "time series forecasting",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This stream is narrowly focused on the description of forecasting tools.",
+        "\"Visualization, exploration, and forecasting…for daily new confirmed cases of Covid-19\" (Liu, 2020).",
+        "7 Social justice for future communities",
+        "This stream approaches community building, placing the ESRI software in the solution-building side, including protection against disease outbreaks (vaccination rates dashboards, health ranking maps, live epidemic maps (Geraghty, 2020), and mapping economic vulnerability.",
+        "Geography brings \"equity and social justice into focus\" (Bordne & Johnson, 2020) and the ArcGIS Hub gives communities a voice (C & Thompson, 2019), \"racial implications of place\" (Johnson, 2020), promotion of participatory processes to address problems threatening communities (including GIS reconnecting isolated communities; Sullivan, 2023).",
+        "Table 2. Future themes: Examples in the reference list."
+      ],
+      "footnotes": [],
+      "text": "This stream is narrowly focused on the description of forecasting tools.\n\n\"Visualization, exploration, and forecasting…for daily new confirmed cases of Covid-19\" (Liu, 2020).\n\n7 Social justice for future communities\n\nThis stream approaches community building, placing the ESRI software in the solution-building side, including protection against disease outbreaks (vaccination rates dashboards, health ranking maps, live epidemic maps (Geraghty, 2020), and mapping economic vulnerability.\n\nGeography brings \"equity and social justice into focus\" (Bordne & Johnson, 2020) and the ArcGIS Hub gives communities a voice (C & Thompson, 2019), \"racial implications of place\" (Johnson, 2020), promotion of participatory processes to address problems threatening communities (including GIS reconnecting isolated communities; Sullivan, 2023).\n\nTable 2. Future themes: Examples in the reference list.",
+      "text_with_footnotes": "This stream is narrowly focused on the description of forecasting tools.\n\n\"Visualization, exploration, and forecasting…for daily new confirmed cases of Covid-19\" (Liu, 2020).\n\n7 Social justice for future communities\n\nThis stream approaches community building, placing the ESRI software in the solution-building side, including protection against disease outbreaks (vaccination rates dashboards, health ranking maps, live epidemic maps (Geraghty, 2020), and mapping economic vulnerability.\n\nGeography brings \"equity and social justice into focus\" (Bordne & Johnson, 2020) and the ArcGIS Hub gives communities a voice (C & Thompson, 2019), \"racial implications of place\" (Johnson, 2020), promotion of participatory processes to address problems threatening communities (including GIS reconnecting isolated communities; Sullivan, 2023).\n\nTable 2. Future themes: Examples in the reference list.",
+      "preview_head": "This stream is narrowly focused on the description of forecasting tools.",
+      "preview_tail": "Table 2. Future themes: Examples in the reference list.",
+      "word_count": 117,
+      "paragraph_count": 6,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": ""
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.5,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "Theme Description Examples",
+      "header_norm": "theme description examples",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "A The future of GI software and tools",
+        "Vague future scenarios contrast with the technical specificities of the future. Scenarios charged with social relevance using \"sustainability\" or \"accessibility.'' Compatibility and systems integration as \"future-proof\" factor to \"work together for a more sustainable future\" (Andrews, 2019).",
+        "Overtly techno-deterministic connotations of this discourse appeals to exponential growth, combined with promises of accessibility.",
+        "\"We're living at a point in history where our technological and computing abilities are exploding at an exponential rate, and the field of GIS is no exception….At this juncture, ESRI is working to make GIS more accessible to more people…not just an elite group of experts\" (Iannone, 2018)."
+      ],
+      "footnotes": [],
+      "text": "A The future of GI software and tools\n\nVague future scenarios contrast with the technical specificities of the future. Scenarios charged with social relevance using \"sustainability\" or \"accessibility.'' Compatibility and systems integration as \"future-proof\" factor to \"work together for a more sustainable future\" (Andrews, 2019).\n\nOvertly techno-deterministic connotations of this discourse appeals to exponential growth, combined with promises of accessibility.\n\n\"We're living at a point in history where our technological and computing abilities are exploding at an exponential rate, and the field of GIS is no exception….At this juncture, ESRI is working to make GIS more accessible to more people…not just an elite group of experts\" (Iannone, 2018).",
+      "text_with_footnotes": "A The future of GI software and tools\n\nVague future scenarios contrast with the technical specificities of the future. Scenarios charged with social relevance using \"sustainability\" or \"accessibility.'' Compatibility and systems integration as \"future-proof\" factor to \"work together for a more sustainable future\" (Andrews, 2019).\n\nOvertly techno-deterministic connotations of this discourse appeals to exponential growth, combined with promises of accessibility.\n\n\"We're living at a point in history where our technological and computing abilities are exploding at an exponential rate, and the field of GIS is no exception….At this juncture, ESRI is working to make GIS more accessible to more people…not just an elite group of experts\" (Iannone, 2018).",
+      "preview_head": "A The future of GI software and tools",
+      "preview_tail": "\"We're living at a point in history where our technological and computing abilities are exploding at an exponential rate, and the field of GIS is no exception….At this juncture, ESRI is working to make GIS more accessible to more people…not just an elite group of experts\" (Iannone, 2018).",
+      "word_count": 108,
+      "paragraph_count": 4,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": ""
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.5,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "B GIS and future urban environments",
+      "header_norm": "b gis and future urban environments",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Urban environment problems, amplified with threatening scenarios (climate change or pandemics); future technology-enabled solutions.",
+        "Politically relevant social problems in urban areas: lack of affordable housing or inadequate infrastructure, are \"depoliticised\" by promoting technology solutions.",
+        "The future of urban living happens in highly digitalised, smart cities in which GIS analysis and digital twin technologies, for example, shape sustainable and resilient cities of the future.",
+        "\"ArcGIS Urban enables the digital transformation of city and regional planning to encourage collaboration…toward a more sustainable future\" (Szukalski, 2020).",
+        "\"The crux of it all though, is that projects like this can (and will!) make a huge impact…to sustainability and resiliency in cities…to help prepare us for what's to come\" (Fabricius, 2020).",
+        "C Predictions with/by GIS-Software Software-based predictions centralise the future: predictability and forecast are key for risk management, public safety, social responsibility, and environmental disaster management.",
+        "The objective is to extrapolate \"historic and future climate scenarios\" (Scopel, 2013), build \"high resolution gridded representations\" (Frye, 2022) of future population in \"world population imagery layers in living atlas\" (Guerra, 2022).",
+        "Spatial analytics \"to better shape an uncertain future\" (Massey, 2019)."
+      ],
+      "footnotes": [],
+      "text": "Urban environment problems, amplified with threatening scenarios (climate change or pandemics); future technology-enabled solutions.\n\nPolitically relevant social problems in urban areas: lack of affordable housing or inadequate infrastructure, are \"depoliticised\" by promoting technology solutions.\n\nThe future of urban living happens in highly digitalised, smart cities in which GIS analysis and digital twin technologies, for example, shape sustainable and resilient cities of the future.\n\n\"ArcGIS Urban enables the digital transformation of city and regional planning to encourage collaboration…toward a more sustainable future\" (Szukalski, 2020).\n\n\"The crux of it all though, is that projects like this can (and will!) make a huge impact…to sustainability and resiliency in cities…to help prepare us for what's to come\" (Fabricius, 2020).\n\nC Predictions with/by GIS-Software Software-based predictions centralise the future: predictability and forecast are key for risk management, public safety, social responsibility, and environmental disaster management.\n\nThe objective is to extrapolate \"historic and future climate scenarios\" (Scopel, 2013), build \"high resolution gridded representations\" (Frye, 2022) of future population in \"world population imagery layers in living atlas\" (Guerra, 2022).\n\nSpatial analytics \"to better shape an uncertain future\" (Massey, 2019).",
+      "text_with_footnotes": "Urban environment problems, amplified with threatening scenarios (climate change or pandemics); future technology-enabled solutions.\n\nPolitically relevant social problems in urban areas: lack of affordable housing or inadequate infrastructure, are \"depoliticised\" by promoting technology solutions.\n\nThe future of urban living happens in highly digitalised, smart cities in which GIS analysis and digital twin technologies, for example, shape sustainable and resilient cities of the future.\n\n\"ArcGIS Urban enables the digital transformation of city and regional planning to encourage collaboration…toward a more sustainable future\" (Szukalski, 2020).\n\n\"The crux of it all though, is that projects like this can (and will!) make a huge impact…to sustainability and resiliency in cities…to help prepare us for what's to come\" (Fabricius, 2020).\n\nC Predictions with/by GIS-Software Software-based predictions centralise the future: predictability and forecast are key for risk management, public safety, social responsibility, and environmental disaster management.\n\nThe objective is to extrapolate \"historic and future climate scenarios\" (Scopel, 2013), build \"high resolution gridded representations\" (Frye, 2022) of future population in \"world population imagery layers in living atlas\" (Guerra, 2022).\n\nSpatial analytics \"to better shape an uncertain future\" (Massey, 2019).",
+      "preview_head": "Urban environment problems, amplified with threatening scenarios (climate change or pandemics); future technology-enabled solutions.",
+      "preview_tail": "Spatial analytics \"to better shape an uncertain future\" (Massey, 2019).",
+      "word_count": 182,
+      "paragraph_count": 8,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": ""
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.5,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "D Future of available data",
+      "header_norm": "d future of available data",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The data discourse emerges. Data will make projections possible. The future availability of datasets will complete and enhance future analyses and predictions.",
+        "Sets are often exclusively available to premium ESRI user groups. Developing future ESRI-integrated data ecosystems with advanced exchangeability. Data would not be open access but reserved as an extractive good.",
+        "Data in the future from \"third parties\" through \"successful collaborations\" (Donihue, 2019) with corporations partnering with the ESRI data ecosystem. The vision includes \"sharing data between teammates or command entities\" (Henderson, 2021), or the \"work order management [could] provide…real-time awareness and help plan and create the future\" (Szukalski & Ball, 2018)."
+      ],
+      "footnotes": [],
+      "text": "The data discourse emerges. Data will make projections possible. The future availability of datasets will complete and enhance future analyses and predictions.\n\nSets are often exclusively available to premium ESRI user groups. Developing future ESRI-integrated data ecosystems with advanced exchangeability. Data would not be open access but reserved as an extractive good.\n\nData in the future from \"third parties\" through \"successful collaborations\" (Donihue, 2019) with corporations partnering with the ESRI data ecosystem. The vision includes \"sharing data between teammates or command entities\" (Henderson, 2021), or the \"work order management [could] provide…real-time awareness and help plan and create the future\" (Szukalski & Ball, 2018).",
+      "text_with_footnotes": "The data discourse emerges. Data will make projections possible. The future availability of datasets will complete and enhance future analyses and predictions.\n\nSets are often exclusively available to premium ESRI user groups. Developing future ESRI-integrated data ecosystems with advanced exchangeability. Data would not be open access but reserved as an extractive good.\n\nData in the future from \"third parties\" through \"successful collaborations\" (Donihue, 2019) with corporations partnering with the ESRI data ecosystem. The vision includes \"sharing data between teammates or command entities\" (Henderson, 2021), or the \"work order management [could] provide…real-time awareness and help plan and create the future\" (Szukalski & Ball, 2018).",
+      "preview_head": "The data discourse emerges. Data will make projections possible. The future availability of datasets will complete and enhance future analyses and predictions.",
+      "preview_tail": "Data in the future from \"third parties\" through \"successful collaborations\" (Donihue, 2019) with corporations partnering with the ESRI data ecosystem. The vision includes \"sharing data between teammates or command entities\" (Henderson, 2021), or the \"work order management [could] provide…real-time awareness and help plan and create the future\" (Szukalski & Ball, 2018).",
+      "word_count": 103,
+      "paragraph_count": 3,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": ""
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.5,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "F Smaller discourses of future",
+      "header_norm": "f smaller discourses of future",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Smaller themes worth further analysis: the word \"future\" as teaser for forthcoming posts, future as represented in ESRI story maps, or paleo-futures.",
+        "At a fundamental level of analysis, considering just the typology of blogs and the diversity of authorship, there are some points to consider: First, with the initial typology of blog posts as used for the first sampling, the site labels most of the blog posts with the labels \"video\"-referring to video-blog posts-and \"products.\" This shows that the highest number of posts including the search term \"future\" are commercial. The core business of the blog is thus the promotion of its own product. This is an early warning that the appearance of an open discussion blog is subordinate to commercial purposes. This prominence of the link between the word \"future\" and the posts labelled \"products\" reinforces the rhetorical feature of advertising discourses that promise a better world in the future where the product thrives, transferring some of the wealth and good of that future to the presence of that product. Second, at this same level, the analysis shows a clear pre-eminence of certain authors in the posts: Indeed, the repetition of authors is indicative either of a high level of celebrity work or of in-house authors on the blog payroll. The presence of employed writers, as would happen in any news outlet, leads to questions about transparency and payment, and even about guidelines and the presence of a style book. It is also unclear whether their authorship is free, or aligned with predefined editorial guidelines. Paid or not, the recurrence of authors talking about the future, factors as a reduction of the plurality of voices, and immediately raises questions about representativity, privilege, and marginalisation of alternative voices, with the immediate implications around whose future they are talking about.",
+        "At the rhetorical level, the analysis allows for more complexity. The analysis has detected multiple, and recurrent, discursive operations, including critical discourse analysis features such as \"nominalisation,\" as described by Fairclough (2003) and later nuanced by Billig (2008), or \"intertextuality\" as coined by Kristeva (1980), imported from Bakhtin (1968), and later incorporated by Fairclough (1992), among others, into the operations of discourse analysis. In the former case, the texts show a clear tendency to refer to software solutions in terms of reified agents that do the work: \"Our products and services support critical decision-making by business leaders, providing them an operational advantage over their competition, while allowing them to lower operational risk and increase efficiencies\" (Decker, 2019). This is an example of nominalisation that deletes agency (and with it, responsibility) for managers; a good example, at the height of the principles of \"the market dictates\" and \"the economy needs.\" On the other hand, patterns of building on the polyphony of texts are also present, paradigmatically in the post where Jane Goodall-the zoologist-is interviewed (Gadsden, 2019). Her sole presence builds a majestic constellation of voices: the chimpanzees, and with them nature and endangered species at planetary scale, local indigenous human communities, and the long shot of the value-transfer connection of her work as a past-present conservationist, with the Geospatial Cloud used by the Jane Goodall Institute that represents her future.",
+        "By activating this particular form of intertextuality, the blog inscribes its purpose within that of the conservation of the planet and greenwashes the brand and its resource-consuming technologies. This kind of intertextual operation is also visible in the ways the blog imagines a community (of users of ESRI products). The corporate structure of ESRI transfers directly onto the hierarchy of the user community: \"Our community and ESRI president Jack Dangermond\" (Decker, 2019). The article is a powerfully carved model that alternates between presenters (\"they\"), the professional (\"you\" and \"visitor\"), and the ESRI community-corporation (\"us\"). The article finishes with an invitation to \"join us.\"",
+        "Above these rhetorical strategies that appear throughout the corpus, some general assumptions seem to prevail. For instance, the emphasis of blogs in offering personalised geotechnology for individual consumption that deactivates any collective or collaborative action. Furthermore, the blogs imply that ICTs are the primary drivers of progress and development and that cities adopting these technologies will be more prosperous and innovative. This centrality of spatial technologies in the growth, progress, and development drives, (mis)leads towards the understanding that there is a continuity between the possible future and the tools to achieve it, while dismissing any collateral problems, including the limitations of data/software or contextual unpreventable factors. Even further, the blog content emphasises the indispensability of digital technologies and data for contemporary urban governance, building on the above-mentioned trope of media indispensability. Urban issues are a particularly frequent topic of discussion, often explained regarding increasing global urbanisation. The problems described are presented as inevitable but approached from a techno-solutionist perspective, as if urban governance was solely based on technological solutions as objective and technical processes. Similarly, cases such as climate change and global population inequalities, which are often caused by political and economic failure, but in the blog are de-politicised and solvable with ESRI products. Such a positivist ontology has a crucial ideological depth that de-politicises, dis-locates, and expropriates the issues from their contexts, offering a mapping tool that could make the problems vanish. This chain of thought ensures the linkage between problems and solutions, by securing and protecting a monopolistic position within a data-driven ecosystem and proprietary software.",
+        "These rhetorical and structural operations within the discourse, throughout the corpus of analysis, seem to overlap in the building of a common and generally homogeneous vision of the future, that is built on neoliberal principles of individualism and commercial drive. This builds a clientele form of community with a strong hierarchical structure, with the ESRI president at the top, and an articulation of layers defined by access to data, and to APIs, with rights to store (save) the outputs and the algorithms in a proprietary cloud system. Indeed, the blogs often extol ESRI's geotechnologies as improving urban life, demonstrating the ideological loading of the corporate frame; furthermore, the posts reinforce the legitimacy of the capitalist system by portraying technology and innovation as key drivers of economic growth and progress. All around that structure, a strong branding, a messianic and imposing narrative, that greenwashes the resource-costly infrastructure through interviews with celebrity conservationists, cancels any imagination of the future outside capitalism (M. Fisher, 2009).",
+        "The analysis shows that ESRI's corporate blogs are, in the end, the articulation of a repertoire of communicative practices that inform an ideological model. The four layers of analysis identified a clear pattern that overlaps throughout, wiring an ideological landscape driven by profit and commercial interest rather than by a public discussion of shared and collectively available futures; and here, the idea of the blogosphere as a form of public sphere is kidnapped and enslaved to precariously serve a corporate designed future."
+      ],
+      "footnotes": [],
+      "text": "Smaller themes worth further analysis: the word \"future\" as teaser for forthcoming posts, future as represented in ESRI story maps, or paleo-futures.\n\nAt a fundamental level of analysis, considering just the typology of blogs and the diversity of authorship, there are some points to consider: First, with the initial typology of blog posts as used for the first sampling, the site labels most of the blog posts with the labels \"video\"-referring to video-blog posts-and \"products.\" This shows that the highest number of posts including the search term \"future\" are commercial. The core business of the blog is thus the promotion of its own product. This is an early warning that the appearance of an open discussion blog is subordinate to commercial purposes. This prominence of the link between the word \"future\" and the posts labelled \"products\" reinforces the rhetorical feature of advertising discourses that promise a better world in the future where the product thrives, transferring some of the wealth and good of that future to the presence of that product. Second, at this same level, the analysis shows a clear pre-eminence of certain authors in the posts: Indeed, the repetition of authors is indicative either of a high level of celebrity work or of in-house authors on the blog payroll. The presence of employed writers, as would happen in any news outlet, leads to questions about transparency and payment, and even about guidelines and the presence of a style book. It is also unclear whether their authorship is free, or aligned with predefined editorial guidelines. Paid or not, the recurrence of authors talking about the future, factors as a reduction of the plurality of voices, and immediately raises questions about representativity, privilege, and marginalisation of alternative voices, with the immediate implications around whose future they are talking about.\n\nAt the rhetorical level, the analysis allows for more complexity. The analysis has detected multiple, and recurrent, discursive operations, including critical discourse analysis features such as \"nominalisation,\" as described by Fairclough (2003) and later nuanced by Billig (2008), or \"intertextuality\" as coined by Kristeva (1980), imported from Bakhtin (1968), and later incorporated by Fairclough (1992), among others, into the operations of discourse analysis. In the former case, the texts show a clear tendency to refer to software solutions in terms of reified agents that do the work: \"Our products and services support critical decision-making by business leaders, providing them an operational advantage over their competition, while allowing them to lower operational risk and increase efficiencies\" (Decker, 2019). This is an example of nominalisation that deletes agency (and with it, responsibility) for managers; a good example, at the height of the principles of \"the market dictates\" and \"the economy needs.\" On the other hand, patterns of building on the polyphony of texts are also present, paradigmatically in the post where Jane Goodall-the zoologist-is interviewed (Gadsden, 2019). Her sole presence builds a majestic constellation of voices: the chimpanzees, and with them nature and endangered species at planetary scale, local indigenous human communities, and the long shot of the value-transfer connection of her work as a past-present conservationist, with the Geospatial Cloud used by the Jane Goodall Institute that represents her future.\n\nBy activating this particular form of intertextuality, the blog inscribes its purpose within that of the conservation of the planet and greenwashes the brand and its resource-consuming technologies. This kind of intertextual operation is also visible in the ways the blog imagines a community (of users of ESRI products). The corporate structure of ESRI transfers directly onto the hierarchy of the user community: \"Our community and ESRI president Jack Dangermond\" (Decker, 2019). The article is a powerfully carved model that alternates between presenters (\"they\"), the professional (\"you\" and \"visitor\"), and the ESRI community-corporation (\"us\"). The article finishes with an invitation to \"join us.\"\n\nAbove these rhetorical strategies that appear throughout the corpus, some general assumptions seem to prevail. For instance, the emphasis of blogs in offering personalised geotechnology for individual consumption that deactivates any collective or collaborative action. Furthermore, the blogs imply that ICTs are the primary drivers of progress and development and that cities adopting these technologies will be more prosperous and innovative. This centrality of spatial technologies in the growth, progress, and development drives, (mis)leads towards the understanding that there is a continuity between the possible future and the tools to achieve it, while dismissing any collateral problems, including the limitations of data/software or contextual unpreventable factors. Even further, the blog content emphasises the indispensability of digital technologies and data for contemporary urban governance, building on the above-mentioned trope of media indispensability. Urban issues are a particularly frequent topic of discussion, often explained regarding increasing global urbanisation. The problems described are presented as inevitable but approached from a techno-solutionist perspective, as if urban governance was solely based on technological solutions as objective and technical processes. Similarly, cases such as climate change and global population inequalities, which are often caused by political and economic failure, but in the blog are de-politicised and solvable with ESRI products. Such a positivist ontology has a crucial ideological depth that de-politicises, dis-locates, and expropriates the issues from their contexts, offering a mapping tool that could make the problems vanish. This chain of thought ensures the linkage between problems and solutions, by securing and protecting a monopolistic position within a data-driven ecosystem and proprietary software.\n\nThese rhetorical and structural operations within the discourse, throughout the corpus of analysis, seem to overlap in the building of a common and generally homogeneous vision of the future, that is built on neoliberal principles of individualism and commercial drive. This builds a clientele form of community with a strong hierarchical structure, with the ESRI president at the top, and an articulation of layers defined by access to data, and to APIs, with rights to store (save) the outputs and the algorithms in a proprietary cloud system. Indeed, the blogs often extol ESRI's geotechnologies as improving urban life, demonstrating the ideological loading of the corporate frame; furthermore, the posts reinforce the legitimacy of the capitalist system by portraying technology and innovation as key drivers of economic growth and progress. All around that structure, a strong branding, a messianic and imposing narrative, that greenwashes the resource-costly infrastructure through interviews with celebrity conservationists, cancels any imagination of the future outside capitalism (M. Fisher, 2009).\n\nThe analysis shows that ESRI's corporate blogs are, in the end, the articulation of a repertoire of communicative practices that inform an ideological model. The four layers of analysis identified a clear pattern that overlaps throughout, wiring an ideological landscape driven by profit and commercial interest rather than by a public discussion of shared and collectively available futures; and here, the idea of the blogosphere as a form of public sphere is kidnapped and enslaved to precariously serve a corporate designed future.",
+      "text_with_footnotes": "Smaller themes worth further analysis: the word \"future\" as teaser for forthcoming posts, future as represented in ESRI story maps, or paleo-futures.\n\nAt a fundamental level of analysis, considering just the typology of blogs and the diversity of authorship, there are some points to consider: First, with the initial typology of blog posts as used for the first sampling, the site labels most of the blog posts with the labels \"video\"-referring to video-blog posts-and \"products.\" This shows that the highest number of posts including the search term \"future\" are commercial. The core business of the blog is thus the promotion of its own product. This is an early warning that the appearance of an open discussion blog is subordinate to commercial purposes. This prominence of the link between the word \"future\" and the posts labelled \"products\" reinforces the rhetorical feature of advertising discourses that promise a better world in the future where the product thrives, transferring some of the wealth and good of that future to the presence of that product. Second, at this same level, the analysis shows a clear pre-eminence of certain authors in the posts: Indeed, the repetition of authors is indicative either of a high level of celebrity work or of in-house authors on the blog payroll. The presence of employed writers, as would happen in any news outlet, leads to questions about transparency and payment, and even about guidelines and the presence of a style book. It is also unclear whether their authorship is free, or aligned with predefined editorial guidelines. Paid or not, the recurrence of authors talking about the future, factors as a reduction of the plurality of voices, and immediately raises questions about representativity, privilege, and marginalisation of alternative voices, with the immediate implications around whose future they are talking about.\n\nAt the rhetorical level, the analysis allows for more complexity. The analysis has detected multiple, and recurrent, discursive operations, including critical discourse analysis features such as \"nominalisation,\" as described by Fairclough (2003) and later nuanced by Billig (2008), or \"intertextuality\" as coined by Kristeva (1980), imported from Bakhtin (1968), and later incorporated by Fairclough (1992), among others, into the operations of discourse analysis. In the former case, the texts show a clear tendency to refer to software solutions in terms of reified agents that do the work: \"Our products and services support critical decision-making by business leaders, providing them an operational advantage over their competition, while allowing them to lower operational risk and increase efficiencies\" (Decker, 2019). This is an example of nominalisation that deletes agency (and with it, responsibility) for managers; a good example, at the height of the principles of \"the market dictates\" and \"the economy needs.\" On the other hand, patterns of building on the polyphony of texts are also present, paradigmatically in the post where Jane Goodall-the zoologist-is interviewed (Gadsden, 2019). Her sole presence builds a majestic constellation of voices: the chimpanzees, and with them nature and endangered species at planetary scale, local indigenous human communities, and the long shot of the value-transfer connection of her work as a past-present conservationist, with the Geospatial Cloud used by the Jane Goodall Institute that represents her future.\n\nBy activating this particular form of intertextuality, the blog inscribes its purpose within that of the conservation of the planet and greenwashes the brand and its resource-consuming technologies. This kind of intertextual operation is also visible in the ways the blog imagines a community (of users of ESRI products). The corporate structure of ESRI transfers directly onto the hierarchy of the user community: \"Our community and ESRI president Jack Dangermond\" (Decker, 2019). The article is a powerfully carved model that alternates between presenters (\"they\"), the professional (\"you\" and \"visitor\"), and the ESRI community-corporation (\"us\"). The article finishes with an invitation to \"join us.\"\n\nAbove these rhetorical strategies that appear throughout the corpus, some general assumptions seem to prevail. For instance, the emphasis of blogs in offering personalised geotechnology for individual consumption that deactivates any collective or collaborative action. Furthermore, the blogs imply that ICTs are the primary drivers of progress and development and that cities adopting these technologies will be more prosperous and innovative. This centrality of spatial technologies in the growth, progress, and development drives, (mis)leads towards the understanding that there is a continuity between the possible future and the tools to achieve it, while dismissing any collateral problems, including the limitations of data/software or contextual unpreventable factors. Even further, the blog content emphasises the indispensability of digital technologies and data for contemporary urban governance, building on the above-mentioned trope of media indispensability. Urban issues are a particularly frequent topic of discussion, often explained regarding increasing global urbanisation. The problems described are presented as inevitable but approached from a techno-solutionist perspective, as if urban governance was solely based on technological solutions as objective and technical processes. Similarly, cases such as climate change and global population inequalities, which are often caused by political and economic failure, but in the blog are de-politicised and solvable with ESRI products. Such a positivist ontology has a crucial ideological depth that de-politicises, dis-locates, and expropriates the issues from their contexts, offering a mapping tool that could make the problems vanish. This chain of thought ensures the linkage between problems and solutions, by securing and protecting a monopolistic position within a data-driven ecosystem and proprietary software.\n\nThese rhetorical and structural operations within the discourse, throughout the corpus of analysis, seem to overlap in the building of a common and generally homogeneous vision of the future, that is built on neoliberal principles of individualism and commercial drive. This builds a clientele form of community with a strong hierarchical structure, with the ESRI president at the top, and an articulation of layers defined by access to data, and to APIs, with rights to store (save) the outputs and the algorithms in a proprietary cloud system. Indeed, the blogs often extol ESRI's geotechnologies as improving urban life, demonstrating the ideological loading of the corporate frame; furthermore, the posts reinforce the legitimacy of the capitalist system by portraying technology and innovation as key drivers of economic growth and progress. All around that structure, a strong branding, a messianic and imposing narrative, that greenwashes the resource-costly infrastructure through interviews with celebrity conservationists, cancels any imagination of the future outside capitalism (M. Fisher, 2009).\n\nThe analysis shows that ESRI's corporate blogs are, in the end, the articulation of a repertoire of communicative practices that inform an ideological model. The four layers of analysis identified a clear pattern that overlaps throughout, wiring an ideological landscape driven by profit and commercial interest rather than by a public discussion of shared and collectively available futures; and here, the idea of the blogosphere as a form of public sphere is kidnapped and enslaved to precariously serve a corporate designed future.",
+      "preview_head": "Smaller themes worth further analysis: the word \"future\" as teaser for forthcoming posts, future as represented in ESRI story maps, or paleo-futures.",
+      "preview_tail": "The analysis shows that ESRI's corporate blogs are, in the end, the articulation of a repertoire of communicative practices that inform an ideological model. The four layers of analysis identified a clear pattern that overlaps throughout, wiring an ideological landscape driven by profit and commercial interest rather than by a public discussion of shared and collectively available futures; and here, the idea of the blogosphere as a form of public sphere is kidnapped and enslaved to precariously serve a corporate designed future.",
+      "word_count": 1133,
+      "paragraph_count": 7,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": ""
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.5,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    },
+    {
+      "paper_id": "Atteneder and Rodriguez-Amat - 2024 - Ideologies in Geospatial Futurism A Computational and Critical Discourse Inquiry Into the ArcGIS an",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Conclusion",
+      "header_norm": "conclusion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "This article uncovers the ideological principles of representations of the future thematically bound to GIS and spatial analytics, using the example of the ESRI blogs. The awareness that geo has entered the media ecosystems has activated multiple scholarly discussions that explore the technological shift, social practices, and the environment usually framed within the notion of geomedia. From a critical perspective, the proliferation of GIS in handheld mobile devices highlights their perceived indispensability in modern life which is anchored in a discourse that sees technology as the primary depoliticised catalyst for development and solving social problems.",
+        "Starting with computational methods to scrape 6000 future-related blog posts, to clean and structure them in topics, and further incorporating interpretive analysis, we challenged the computer-made topic arrangement to uncover layers of meaning in the corpus. The open-ended iterative approach that connects theory with a rich methodology composed of critical interpretive and computational methods is only a start.",
+        "It has however proved fruitful, to address the complexity and messiness of the material, particularly if having Lindgren's (2020) statement in mind that computational tools from data science, even if rooted in ideals of positivist exactitude, predictions, and measurements, can be sociologically effective if they are integrated into a broader interpretive framework.",
+        "The analysis of the material reveals ideological and rhetorical modes as interest-specific organisational strategies for promoting GIS-based products and extrapolating software indispensability into the future. It is a way of legitimising the artificial sustenance of the entire data life cycle, and therefore of ESRI's corporate role as a major player in future scenarios. By critically examining these blogs, we gain insight into how ideological beliefs are embedded in media discourse and urban governance practices. The ownership structures of the ESRI blogs are a highly commercialised platform for GI scientists and experts, where ESRI controls access and sets the stage for communication which, stripped of its \"magic,\" remains not much more than a dedicated form of advocating for, and imposition of, techno-solutionism.",
+        "There is still room for more critical discussion. For instance, the determination of the geographies where these futures are staged, and as much as it is demonstrated that this is not a future thought for everyone, there are reasons to believe that this is not a future for everywhere either."
+      ],
+      "footnotes": [],
+      "text": "This article uncovers the ideological principles of representations of the future thematically bound to GIS and spatial analytics, using the example of the ESRI blogs. The awareness that geo has entered the media ecosystems has activated multiple scholarly discussions that explore the technological shift, social practices, and the environment usually framed within the notion of geomedia. From a critical perspective, the proliferation of GIS in handheld mobile devices highlights their perceived indispensability in modern life which is anchored in a discourse that sees technology as the primary depoliticised catalyst for development and solving social problems.\n\nStarting with computational methods to scrape 6000 future-related blog posts, to clean and structure them in topics, and further incorporating interpretive analysis, we challenged the computer-made topic arrangement to uncover layers of meaning in the corpus. The open-ended iterative approach that connects theory with a rich methodology composed of critical interpretive and computational methods is only a start.\n\nIt has however proved fruitful, to address the complexity and messiness of the material, particularly if having Lindgren's (2020) statement in mind that computational tools from data science, even if rooted in ideals of positivist exactitude, predictions, and measurements, can be sociologically effective if they are integrated into a broader interpretive framework.\n\nThe analysis of the material reveals ideological and rhetorical modes as interest-specific organisational strategies for promoting GIS-based products and extrapolating software indispensability into the future. It is a way of legitimising the artificial sustenance of the entire data life cycle, and therefore of ESRI's corporate role as a major player in future scenarios. By critically examining these blogs, we gain insight into how ideological beliefs are embedded in media discourse and urban governance practices. The ownership structures of the ESRI blogs are a highly commercialised platform for GI scientists and experts, where ESRI controls access and sets the stage for communication which, stripped of its \"magic,\" remains not much more than a dedicated form of advocating for, and imposition of, techno-solutionism.\n\nThere is still room for more critical discussion. For instance, the determination of the geographies where these futures are staged, and as much as it is demonstrated that this is not a future thought for everyone, there are reasons to believe that this is not a future for everywhere either.",
+      "text_with_footnotes": "This article uncovers the ideological principles of representations of the future thematically bound to GIS and spatial analytics, using the example of the ESRI blogs. The awareness that geo has entered the media ecosystems has activated multiple scholarly discussions that explore the technological shift, social practices, and the environment usually framed within the notion of geomedia. From a critical perspective, the proliferation of GIS in handheld mobile devices highlights their perceived indispensability in modern life which is anchored in a discourse that sees technology as the primary depoliticised catalyst for development and solving social problems.\n\nStarting with computational methods to scrape 6000 future-related blog posts, to clean and structure them in topics, and further incorporating interpretive analysis, we challenged the computer-made topic arrangement to uncover layers of meaning in the corpus. The open-ended iterative approach that connects theory with a rich methodology composed of critical interpretive and computational methods is only a start.\n\nIt has however proved fruitful, to address the complexity and messiness of the material, particularly if having Lindgren's (2020) statement in mind that computational tools from data science, even if rooted in ideals of positivist exactitude, predictions, and measurements, can be sociologically effective if they are integrated into a broader interpretive framework.\n\nThe analysis of the material reveals ideological and rhetorical modes as interest-specific organisational strategies for promoting GIS-based products and extrapolating software indispensability into the future. It is a way of legitimising the artificial sustenance of the entire data life cycle, and therefore of ESRI's corporate role as a major player in future scenarios. By critically examining these blogs, we gain insight into how ideological beliefs are embedded in media discourse and urban governance practices. The ownership structures of the ESRI blogs are a highly commercialised platform for GI scientists and experts, where ESRI controls access and sets the stage for communication which, stripped of its \"magic,\" remains not much more than a dedicated form of advocating for, and imposition of, techno-solutionism.\n\nThere is still room for more critical discussion. For instance, the determination of the geographies where these futures are staged, and as much as it is demonstrated that this is not a future thought for everyone, there are reasons to believe that this is not a future for everywhere either.",
+      "preview_head": "This article uncovers the ideological principles of representations of the future thematically bound to GIS and spatial analytics, using the example of the ESRI blogs. The awareness that geo has entered the media ecosystems has activated multiple scholarly discussions that explore the technological shift, social practices, and the environment usually framed within the notion of geomedia. From a critical perspective, the proliferation of GIS in handheld mobile devices highlights their perceived indispensability in modern life which is anchored in a discourse that sees technology as the primary depoliticised catalyst for development and solving social problems.",
+      "preview_tail": "There is still room for more critical discussion. For instance, the determination of the geographies where these futures are staged, and as much as it is demonstrated that this is not a future thought for everyone, there are reasons to believe that this is not a future for everywhere either.",
+      "word_count": 376,
+      "paragraph_count": 5,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*conclusion(s)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*conclusion(s)?\\s*$",
+      "major_label": "CONCLUSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 23,
+    "content_sections": 23,
+    "total_words": 6081,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 23,
+    "by_source": {
+      "heuristic": 3,
+      "llm": 20,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

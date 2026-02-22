@@ -1,0 +1,1399 @@
+{
+  "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/psychology/Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn.tei.xml",
+  "metadata": {
+    "title": "How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+    "authors": [
+      "Rui Chang",
+      "Xin Wei",
+      "Xi Zhang",
+      "Hui Xiong",
+      "Hengshu Zhu"
+    ],
+    "journal": "Computers in Human Behavior",
+    "year": "2023",
+    "doi": "10.1016/j.chb.2023.108084",
+    "keywords": []
+  },
+  "abstract": "Social networking sites (SNSs) provide users with ample opportunities to share their own information and participate in social browsing to get to know others. Drawing upon signaling theory, this paper investigated how and to what extent recommendation letters' content information (breadth and depth) and external information (field and relationship) affect career mobility. Based on the open data from LinkedIn, this paper adopted the Latent Dirichlet Allocation (LDA) method to capture the breadth and depth of the recommendation letter, and used elaboration likelihood model to test our model. The results show that both content information and external information of the recommendation letter have significant positive impacts on the career mobility. In addition, the social network size shown converse moderating effects between recommendation letter content information and career mobility. This paper extends the boundaries of signaling theory by creatively using machine learning methods to measure textual signals (i.e., recommendation letter). The research results provide practical implications for personal career development and firm talent management.",
+  "sections": [
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Introduction",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The development of social networking sites (SNSs) has greatly changed the traditional way of job hunting (Huang & Fan, 2022;Johnson & Leo, 2020). On SNSs, recruiters can alert users to possible job openings, while job seekers can look for positions they are interested in (Johnson & Leo, 2020). Jobvite's survey revealed that 94% of recruiters look for potential candidates through LinkedIn, and 61% of job seekers are hired through referrals and company recruitment pages. 1 SNSs not only change the traditional job search model, but also affect career mobility. A 2018 LinkedIn report showed that 10.06% of Chinese active members had career mobility. 2 Career mobility refers to the process of employee transfer within and between organizations (Lam, Ng, & Feldman, 2012), which has an important impact on organizational outcomes (Ferreira, Fernandes, Guo, & Rammal, 2022;Seo & Somaya, 2022) and talent management (Mao, Latukha, & Selivanovskikh, 2022).",
+        "There are many factors affect career mobility. Previous research has examined how objective factors affect career mobility, including salary (Lam et al., 2012), education (Zimmerman, 2019) and skills (Mueller, Georgakakis, Greve, Peck, & Ruigrok, 2021). However, existing studies ignored the impact of personal information disclosure and third-party evaluation on career mobility in SNSs. SNSs users have multiple options to submit content and engage in social networking to connect with other (Bapna & Funk, 2021). In particular, SNSs such as LinkedIn allow users to engage in self-presentation, which can provide an objective evaluation of job seekers (Rui, 2018a). The recommendation letter section is a unique function of LinkedIn that allows members to write recommendation letters for each other. This function satisfies members' self-presentation needs very well and helps them obtain better job opportunities (Tifferet & Vilnai-Yavetz, 2018). Prior research has confirmed the significance of self-disclosure on SNSs, with a focus on warranting principles (Rui, 2018a), self-presentation strategies (Bremner & Phung, 2015), and source credibility (Chiang & Suen, 2015). Based on the signaling theory, the recommendation letter disclosed by potential job seekers on SNSs will be used as a signal to prove their ability (Pernkopf, Latzke, & Mayrhofer, 2021). However, the current research lacks clarity on how the specific content and external information of recommendation letter disclosure impact career mobility. Therefore, we propose the first research question: how the content information (breadth and depth) and external information (field and relationship) of recommendation letter disclosed in SNSs affect career mobility?",
+        "Compared with traditional labor market, online SNSs allow users to build personal or professional social networks (Li, Lin, & Wang, 2015;Yin, de Vries, Gentile, & Wang, 2019). Social networks exhibit characteristics of visibility and connectivity, making it easy for users to establish potential network relationships with 'friends of friends' (Ellison & Vitak, 2015;Mashayekhi & Head, 2022). The size of one's social network reflects their social capital and connectivity, holding a significant role within SNSs (Mashayekhi & Head, 2022). A large social network can bring a variety of resources, thereby facilitating the transmission of signals on the platform (Shen & Gong, 2019). Therefore, it is imperative to investigate whether social network size has an impact on the use of the recommendation letter function. Thus, we propose the second research question: how does social networks size affect the relationship between the recommendation letter and career mobility?",
+        "Based on signaling theory, this paper adopted Latent Dirichlet Allocation (LDA) methods to capture the breadth and depth of recommendation letter, and used elaboration likelihood model (ELM) to explore the impact of recommendation letter's content information and external information on career mobility. Using the open data from LinkedIn, we tested our model through Logit regression model and Probit regression model. The results showed that the depth and breadth of the recommendation letter, as well as its relationship and field have significant positive impacts on the career mobility of job seekers. While the social network size has a positive moderating effect on the relationship between the breadth of recommendation letter and career mobility, but negatively affects the relationship between the depth of recommendation letter and career mobility.",
+        "This study makes several theoretical and practical contributions. First, this paper adopts machine learning method to measure the breadth and depth of recommendation letter, thus contributing to the study of measuring textual signals and recommendation letter. Second, this study investigates the influence of recommendation letter on career mobility from the perspective of information disclosure, and further studies the moderating effect of social networks size. In addition, the findings of this study also have significant professional consequences for personal career development planning and firm talent management. Our research results show that firms should excavate and retain talents through online social network signals in the process of talent management.",
+        "The remainder of this paper is structured as follows. Section 2 presents the theoretical background and relevant literature. Section 3 develops the research hypotheses. Section 4 outlines the methodology with a brief description. Section 5 reports the results. Section 6 discusses the findings. Finally, in section 7, we present the conclusion."
+      ],
+      "footnotes": [],
+      "text": "The development of social networking sites (SNSs) has greatly changed the traditional way of job hunting (Huang & Fan, 2022;Johnson & Leo, 2020). On SNSs, recruiters can alert users to possible job openings, while job seekers can look for positions they are interested in (Johnson & Leo, 2020). Jobvite's survey revealed that 94% of recruiters look for potential candidates through LinkedIn, and 61% of job seekers are hired through referrals and company recruitment pages. 1 SNSs not only change the traditional job search model, but also affect career mobility. A 2018 LinkedIn report showed that 10.06% of Chinese active members had career mobility. 2 Career mobility refers to the process of employee transfer within and between organizations (Lam, Ng, & Feldman, 2012), which has an important impact on organizational outcomes (Ferreira, Fernandes, Guo, & Rammal, 2022;Seo & Somaya, 2022) and talent management (Mao, Latukha, & Selivanovskikh, 2022).\n\nThere are many factors affect career mobility. Previous research has examined how objective factors affect career mobility, including salary (Lam et al., 2012), education (Zimmerman, 2019) and skills (Mueller, Georgakakis, Greve, Peck, & Ruigrok, 2021). However, existing studies ignored the impact of personal information disclosure and third-party evaluation on career mobility in SNSs. SNSs users have multiple options to submit content and engage in social networking to connect with other (Bapna & Funk, 2021). In particular, SNSs such as LinkedIn allow users to engage in self-presentation, which can provide an objective evaluation of job seekers (Rui, 2018a). The recommendation letter section is a unique function of LinkedIn that allows members to write recommendation letters for each other. This function satisfies members' self-presentation needs very well and helps them obtain better job opportunities (Tifferet & Vilnai-Yavetz, 2018). Prior research has confirmed the significance of self-disclosure on SNSs, with a focus on warranting principles (Rui, 2018a), self-presentation strategies (Bremner & Phung, 2015), and source credibility (Chiang & Suen, 2015). Based on the signaling theory, the recommendation letter disclosed by potential job seekers on SNSs will be used as a signal to prove their ability (Pernkopf, Latzke, & Mayrhofer, 2021). However, the current research lacks clarity on how the specific content and external information of recommendation letter disclosure impact career mobility. Therefore, we propose the first research question: how the content information (breadth and depth) and external information (field and relationship) of recommendation letter disclosed in SNSs affect career mobility?\n\nCompared with traditional labor market, online SNSs allow users to build personal or professional social networks (Li, Lin, & Wang, 2015;Yin, de Vries, Gentile, & Wang, 2019). Social networks exhibit characteristics of visibility and connectivity, making it easy for users to establish potential network relationships with 'friends of friends' (Ellison & Vitak, 2015;Mashayekhi & Head, 2022). The size of one's social network reflects their social capital and connectivity, holding a significant role within SNSs (Mashayekhi & Head, 2022). A large social network can bring a variety of resources, thereby facilitating the transmission of signals on the platform (Shen & Gong, 2019). Therefore, it is imperative to investigate whether social network size has an impact on the use of the recommendation letter function. Thus, we propose the second research question: how does social networks size affect the relationship between the recommendation letter and career mobility?\n\nBased on signaling theory, this paper adopted Latent Dirichlet Allocation (LDA) methods to capture the breadth and depth of recommendation letter, and used elaboration likelihood model (ELM) to explore the impact of recommendation letter's content information and external information on career mobility. Using the open data from LinkedIn, we tested our model through Logit regression model and Probit regression model. The results showed that the depth and breadth of the recommendation letter, as well as its relationship and field have significant positive impacts on the career mobility of job seekers. While the social network size has a positive moderating effect on the relationship between the breadth of recommendation letter and career mobility, but negatively affects the relationship between the depth of recommendation letter and career mobility.\n\nThis study makes several theoretical and practical contributions. First, this paper adopts machine learning method to measure the breadth and depth of recommendation letter, thus contributing to the study of measuring textual signals and recommendation letter. Second, this study investigates the influence of recommendation letter on career mobility from the perspective of information disclosure, and further studies the moderating effect of social networks size. In addition, the findings of this study also have significant professional consequences for personal career development planning and firm talent management. Our research results show that firms should excavate and retain talents through online social network signals in the process of talent management.\n\nThe remainder of this paper is structured as follows. Section 2 presents the theoretical background and relevant literature. Section 3 develops the research hypotheses. Section 4 outlines the methodology with a brief description. Section 5 reports the results. Section 6 discusses the findings. Finally, in section 7, we present the conclusion.",
+      "text_with_footnotes": "The development of social networking sites (SNSs) has greatly changed the traditional way of job hunting (Huang & Fan, 2022;Johnson & Leo, 2020). On SNSs, recruiters can alert users to possible job openings, while job seekers can look for positions they are interested in (Johnson & Leo, 2020). Jobvite's survey revealed that 94% of recruiters look for potential candidates through LinkedIn, and 61% of job seekers are hired through referrals and company recruitment pages. 1 SNSs not only change the traditional job search model, but also affect career mobility. A 2018 LinkedIn report showed that 10.06% of Chinese active members had career mobility. 2 Career mobility refers to the process of employee transfer within and between organizations (Lam, Ng, & Feldman, 2012), which has an important impact on organizational outcomes (Ferreira, Fernandes, Guo, & Rammal, 2022;Seo & Somaya, 2022) and talent management (Mao, Latukha, & Selivanovskikh, 2022).\n\nThere are many factors affect career mobility. Previous research has examined how objective factors affect career mobility, including salary (Lam et al., 2012), education (Zimmerman, 2019) and skills (Mueller, Georgakakis, Greve, Peck, & Ruigrok, 2021). However, existing studies ignored the impact of personal information disclosure and third-party evaluation on career mobility in SNSs. SNSs users have multiple options to submit content and engage in social networking to connect with other (Bapna & Funk, 2021). In particular, SNSs such as LinkedIn allow users to engage in self-presentation, which can provide an objective evaluation of job seekers (Rui, 2018a). The recommendation letter section is a unique function of LinkedIn that allows members to write recommendation letters for each other. This function satisfies members' self-presentation needs very well and helps them obtain better job opportunities (Tifferet & Vilnai-Yavetz, 2018). Prior research has confirmed the significance of self-disclosure on SNSs, with a focus on warranting principles (Rui, 2018a), self-presentation strategies (Bremner & Phung, 2015), and source credibility (Chiang & Suen, 2015). Based on the signaling theory, the recommendation letter disclosed by potential job seekers on SNSs will be used as a signal to prove their ability (Pernkopf, Latzke, & Mayrhofer, 2021). However, the current research lacks clarity on how the specific content and external information of recommendation letter disclosure impact career mobility. Therefore, we propose the first research question: how the content information (breadth and depth) and external information (field and relationship) of recommendation letter disclosed in SNSs affect career mobility?\n\nCompared with traditional labor market, online SNSs allow users to build personal or professional social networks (Li, Lin, & Wang, 2015;Yin, de Vries, Gentile, & Wang, 2019). Social networks exhibit characteristics of visibility and connectivity, making it easy for users to establish potential network relationships with 'friends of friends' (Ellison & Vitak, 2015;Mashayekhi & Head, 2022). The size of one's social network reflects their social capital and connectivity, holding a significant role within SNSs (Mashayekhi & Head, 2022). A large social network can bring a variety of resources, thereby facilitating the transmission of signals on the platform (Shen & Gong, 2019). Therefore, it is imperative to investigate whether social network size has an impact on the use of the recommendation letter function. Thus, we propose the second research question: how does social networks size affect the relationship between the recommendation letter and career mobility?\n\nBased on signaling theory, this paper adopted Latent Dirichlet Allocation (LDA) methods to capture the breadth and depth of recommendation letter, and used elaboration likelihood model (ELM) to explore the impact of recommendation letter's content information and external information on career mobility. Using the open data from LinkedIn, we tested our model through Logit regression model and Probit regression model. The results showed that the depth and breadth of the recommendation letter, as well as its relationship and field have significant positive impacts on the career mobility of job seekers. While the social network size has a positive moderating effect on the relationship between the breadth of recommendation letter and career mobility, but negatively affects the relationship between the depth of recommendation letter and career mobility.\n\nThis study makes several theoretical and practical contributions. First, this paper adopts machine learning method to measure the breadth and depth of recommendation letter, thus contributing to the study of measuring textual signals and recommendation letter. Second, this study investigates the influence of recommendation letter on career mobility from the perspective of information disclosure, and further studies the moderating effect of social networks size. In addition, the findings of this study also have significant professional consequences for personal career development planning and firm talent management. Our research results show that firms should excavate and retain talents through online social network signals in the process of talent management.\n\nThe remainder of this paper is structured as follows. Section 2 presents the theoretical background and relevant literature. Section 3 develops the research hypotheses. Section 4 outlines the methodology with a brief description. Section 5 reports the results. Section 6 discusses the findings. Finally, in section 7, we present the conclusion.",
+      "preview_head": "The development of social networking sites (SNSs) has greatly changed the traditional way of job hunting (Huang & Fan, 2022;Johnson & Leo, 2020). On SNSs, recruiters can alert users to possible job openings, while job seekers can look for positions they are interested in (Johnson & Leo, 2020). Jobvite's survey revealed that 94% of recruiters look for potential candidates through LinkedIn, and 61% of job seekers are hired through referrals and company recruitment pages. 1 SNSs not only change the traditional job search model, but also affect career mobility.",
+      "preview_tail": "Section 5 reports the results. Section 6 discusses the findings. Finally, in section 7, we present the conclusion.",
+      "word_count": 822,
+      "paragraph_count": 6,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Literature review",
+      "header_norm": "literature review",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Career mobility",
+      "header_norm": "career mobility",
+      "container_raw": "Literature review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "Career mobility refers to the process of employee transfer within and between organizations (Lam et al., 2012). Career mobility has an important impact on organizational outcomes, such as innovation capability (Seo & Somaya, 2022;Tang & Zhang, 2022), knowledge management (Ferreira et al., 2022;Roy and Sarkar), and firm competitiveness (Bae & Lee, 2021). In addition, the understanding of career mobility is helpful for firms to retain, recruit and develop talents (Greenwood, Ganju, & Angst, 2019). From the perspective of human resources managers, understanding employees' career paths can help retain key talent (Teng, Zhu, Liu, & Xiong, 2021). For recruiters, identifying potential competitors helps to enhance firm's competitiveness (McCracken, Currie, & Harrison, 2016). From the employees' viewpoint, comprehending their personal career development is conducive to foster personal growth and advancement (Huang & Zhang, 2016;Parmentier & Fischer, 2021).",
+        "There are many factors that affect career mobility, among which social network and salary (Hagedorn & Manovskii, 2013) are the most important factors. Social networks increase the confidence of recruiters in the accuracy of the material (Granovetter, 2005). And the study found that social networks have a greater effect in the job-hunting process than direct job-hunting (Holzer, 1988). In addition, education (Zimmerman, 2019) and skills (Mueller et al., 2021) all affect career mobility. However, existing studies ignore the impact of personal information disclosure and third-party evaluation on career mobility in professional social networking sites."
+      ],
+      "footnotes": [],
+      "text": "Career mobility refers to the process of employee transfer within and between organizations (Lam et al., 2012). Career mobility has an important impact on organizational outcomes, such as innovation capability (Seo & Somaya, 2022;Tang & Zhang, 2022), knowledge management (Ferreira et al., 2022;Roy and Sarkar), and firm competitiveness (Bae & Lee, 2021). In addition, the understanding of career mobility is helpful for firms to retain, recruit and develop talents (Greenwood, Ganju, & Angst, 2019). From the perspective of human resources managers, understanding employees' career paths can help retain key talent (Teng, Zhu, Liu, & Xiong, 2021). For recruiters, identifying potential competitors helps to enhance firm's competitiveness (McCracken, Currie, & Harrison, 2016). From the employees' viewpoint, comprehending their personal career development is conducive to foster personal growth and advancement (Huang & Zhang, 2016;Parmentier & Fischer, 2021).\n\nThere are many factors that affect career mobility, among which social network and salary (Hagedorn & Manovskii, 2013) are the most important factors. Social networks increase the confidence of recruiters in the accuracy of the material (Granovetter, 2005). And the study found that social networks have a greater effect in the job-hunting process than direct job-hunting (Holzer, 1988). In addition, education (Zimmerman, 2019) and skills (Mueller et al., 2021) all affect career mobility. However, existing studies ignore the impact of personal information disclosure and third-party evaluation on career mobility in professional social networking sites.",
+      "text_with_footnotes": "Career mobility refers to the process of employee transfer within and between organizations (Lam et al., 2012). Career mobility has an important impact on organizational outcomes, such as innovation capability (Seo & Somaya, 2022;Tang & Zhang, 2022), knowledge management (Ferreira et al., 2022;Roy and Sarkar), and firm competitiveness (Bae & Lee, 2021). In addition, the understanding of career mobility is helpful for firms to retain, recruit and develop talents (Greenwood, Ganju, & Angst, 2019). From the perspective of human resources managers, understanding employees' career paths can help retain key talent (Teng, Zhu, Liu, & Xiong, 2021). For recruiters, identifying potential competitors helps to enhance firm's competitiveness (McCracken, Currie, & Harrison, 2016). From the employees' viewpoint, comprehending their personal career development is conducive to foster personal growth and advancement (Huang & Zhang, 2016;Parmentier & Fischer, 2021).\n\nThere are many factors that affect career mobility, among which social network and salary (Hagedorn & Manovskii, 2013) are the most important factors. Social networks increase the confidence of recruiters in the accuracy of the material (Granovetter, 2005). And the study found that social networks have a greater effect in the job-hunting process than direct job-hunting (Holzer, 1988). In addition, education (Zimmerman, 2019) and skills (Mueller et al., 2021) all affect career mobility. However, existing studies ignore the impact of personal information disclosure and third-party evaluation on career mobility in professional social networking sites.",
+      "preview_head": "Career mobility refers to the process of employee transfer within and between organizations (Lam et al., 2012). Career mobility has an important impact on organizational outcomes, such as innovation capability (Seo & Somaya, 2022;Tang & Zhang, 2022), knowledge management (Ferreira et al., 2022;Roy and Sarkar), and firm competitiveness (Bae & Lee, 2021). In addition, the understanding of career mobility is helpful for firms to retain, recruit and develop talents (Greenwood, Ganju, & Angst, 2019).",
+      "preview_tail": "And the study found that social networks have a greater effect in the job-hunting process than direct job-hunting (Holzer, 1988). In addition, education (Zimmerman, 2019) and skills (Mueller et al., 2021) all affect career mobility. However, existing studies ignore the impact of personal information disclosure and third-party evaluation on career mobility in professional social networking sites.",
+      "word_count": 229,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of career mobility, citing prior research and summarizing what is ("
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Signaling theory",
+      "header_norm": "signaling theory",
+      "container_raw": "Literature review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "Market efficiency and total resource allocation are negatively impacted by the market phenomena of information asymmetry, and signal theory is an important theory to reduce or solve the phenomenon of information asymmetry (Connelly, Certo, Ireland, & Reutzel, 2011;Tiwana & Bush, 2014;Trung Dam-Huy & Wang, 2020). In economics, the study of signal theory is mainly related to the signaling effect of corporate dividend policy (Guldiken, Tupper, Nair, & Yu, 2017;Teo, Nishant, & Koh, 2016;Zhan, Mu, Nishant, & Singhal, 2022), while the application in management is mainly reflected in the impact on organizational behavior (Hentschel, Braun, Peus, & Frey, 2021;Huang & Zhang, 2016). Recruitment is an important step in human resource management. The information asymmetry between job seekers and recruiters is a typical problem of signal transmission between people and organizations (Shields & Hernandez, 2020). Based on the signaling theory, when employees send positive signals to the labor market, they can improve their status in the labor market (Galperin, Hahl, Sterling, & Guo, 2020). In this study, we dissect the recommendation letter into external and content signals to thoroughly investigate its effectiveness."
+      ],
+      "footnotes": [],
+      "text": "Market efficiency and total resource allocation are negatively impacted by the market phenomena of information asymmetry, and signal theory is an important theory to reduce or solve the phenomenon of information asymmetry (Connelly, Certo, Ireland, & Reutzel, 2011;Tiwana & Bush, 2014;Trung Dam-Huy & Wang, 2020). In economics, the study of signal theory is mainly related to the signaling effect of corporate dividend policy (Guldiken, Tupper, Nair, & Yu, 2017;Teo, Nishant, & Koh, 2016;Zhan, Mu, Nishant, & Singhal, 2022), while the application in management is mainly reflected in the impact on organizational behavior (Hentschel, Braun, Peus, & Frey, 2021;Huang & Zhang, 2016). Recruitment is an important step in human resource management. The information asymmetry between job seekers and recruiters is a typical problem of signal transmission between people and organizations (Shields & Hernandez, 2020). Based on the signaling theory, when employees send positive signals to the labor market, they can improve their status in the labor market (Galperin, Hahl, Sterling, & Guo, 2020). In this study, we dissect the recommendation letter into external and content signals to thoroughly investigate its effectiveness.",
+      "text_with_footnotes": "Market efficiency and total resource allocation are negatively impacted by the market phenomena of information asymmetry, and signal theory is an important theory to reduce or solve the phenomenon of information asymmetry (Connelly, Certo, Ireland, & Reutzel, 2011;Tiwana & Bush, 2014;Trung Dam-Huy & Wang, 2020). In economics, the study of signal theory is mainly related to the signaling effect of corporate dividend policy (Guldiken, Tupper, Nair, & Yu, 2017;Teo, Nishant, & Koh, 2016;Zhan, Mu, Nishant, & Singhal, 2022), while the application in management is mainly reflected in the impact on organizational behavior (Hentschel, Braun, Peus, & Frey, 2021;Huang & Zhang, 2016). Recruitment is an important step in human resource management. The information asymmetry between job seekers and recruiters is a typical problem of signal transmission between people and organizations (Shields & Hernandez, 2020). Based on the signaling theory, when employees send positive signals to the labor market, they can improve their status in the labor market (Galperin, Hahl, Sterling, & Guo, 2020). In this study, we dissect the recommendation letter into external and content signals to thoroughly investigate its effectiveness.",
+      "preview_head": "Market efficiency and total resource allocation are negatively impacted by the market phenomena of information asymmetry, and signal theory is an important theory to reduce or solve the phenomenon of information asymmetry (Connelly, Certo, Ireland, & Reutzel, 2011;Tiwana & Bush, 2014;Trung Dam-Huy & Wang, 2020). In economics, the study of signal theory is mainly related to the signaling effect of corporate dividend policy (Guldiken, Tupper, Nair, & Yu, 2017;Teo, Nishant, & Koh, 2016;Zhan, Mu, Nishant, & Singhal, 2022), while the application in management is mainly reflected in the impact on organizational behavior (Hentschel, Braun, Peus, & Frey, 2021;Huang & Zhang, 2016). Recruitment is an important step in human resource management.",
+      "preview_tail": "The information asymmetry between job seekers and recruiters is a typical problem of signal transmission between people and organizations (Shields & Hernandez, 2020). Based on the signaling theory, when employees send positive signals to the labor market, they can improve their status in the labor market (Galperin, Hahl, Sterling, & Guo, 2020). In this study, we dissect the recommendation letter into external and content signals to thoroughly investigate its effectiveness.",
+      "word_count": 180,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains signaling theory, referencing foundational and recent literature, and is fully"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Elaboration likelihood model",
+      "header_norm": "elaboration likelihood model",
+      "container_raw": "Literature review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "The Elaboration Likelihood Model (ELM) (Petty & Cacioppo, 1986) can explain the internal reaction mechanism of individual's attitude change in the face of persuasive information (Wang, Chao, Yu, & Zhang, 2022). ELM demonstrates that people process information in two different ways: the central route and the peripheral route (Allison, Davis, Webb, & Short, 2017;Li, Zhang, & Han, 2021;Wang, Fan, & Bae, 2019). In the central route, individuals need a lot of cognitive efforts to conduct in-depth and detailed analysis of information, which emphasizes the content of information (Allison et al., 2017;Kang & Namkung, 2019). On the contrary, the cognitive effort required by the peripheral route is relatively less, and individuals form judgments through some situational clues of information (Allison et al., 2017;Kang & Namkung, 2019).",
+        "In recent years, the ELM has been used in online labor market. For example, Evertz, Kollitz, and Suss (2021) utilized the ELM model to investigate the effect of favorable online recommendations from job review websites on organizational allure. Similarly, Gregory, Meade, and Thompson (2013) analyzed the connection between internet recruitment sites and organizational attractiveness. This paper combines signaling theory and ELM to investigate the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility."
+      ],
+      "footnotes": [],
+      "text": "The Elaboration Likelihood Model (ELM) (Petty & Cacioppo, 1986) can explain the internal reaction mechanism of individual's attitude change in the face of persuasive information (Wang, Chao, Yu, & Zhang, 2022). ELM demonstrates that people process information in two different ways: the central route and the peripheral route (Allison, Davis, Webb, & Short, 2017;Li, Zhang, & Han, 2021;Wang, Fan, & Bae, 2019). In the central route, individuals need a lot of cognitive efforts to conduct in-depth and detailed analysis of information, which emphasizes the content of information (Allison et al., 2017;Kang & Namkung, 2019). On the contrary, the cognitive effort required by the peripheral route is relatively less, and individuals form judgments through some situational clues of information (Allison et al., 2017;Kang & Namkung, 2019).\n\nIn recent years, the ELM has been used in online labor market. For example, Evertz, Kollitz, and Suss (2021) utilized the ELM model to investigate the effect of favorable online recommendations from job review websites on organizational allure. Similarly, Gregory, Meade, and Thompson (2013) analyzed the connection between internet recruitment sites and organizational attractiveness. This paper combines signaling theory and ELM to investigate the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility.",
+      "text_with_footnotes": "The Elaboration Likelihood Model (ELM) (Petty & Cacioppo, 1986) can explain the internal reaction mechanism of individual's attitude change in the face of persuasive information (Wang, Chao, Yu, & Zhang, 2022). ELM demonstrates that people process information in two different ways: the central route and the peripheral route (Allison, Davis, Webb, & Short, 2017;Li, Zhang, & Han, 2021;Wang, Fan, & Bae, 2019). In the central route, individuals need a lot of cognitive efforts to conduct in-depth and detailed analysis of information, which emphasizes the content of information (Allison et al., 2017;Kang & Namkung, 2019). On the contrary, the cognitive effort required by the peripheral route is relatively less, and individuals form judgments through some situational clues of information (Allison et al., 2017;Kang & Namkung, 2019).\n\nIn recent years, the ELM has been used in online labor market. For example, Evertz, Kollitz, and Suss (2021) utilized the ELM model to investigate the effect of favorable online recommendations from job review websites on organizational allure. Similarly, Gregory, Meade, and Thompson (2013) analyzed the connection between internet recruitment sites and organizational attractiveness. This paper combines signaling theory and ELM to investigate the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility.",
+      "preview_head": "The Elaboration Likelihood Model (ELM) (Petty & Cacioppo, 1986) can explain the internal reaction mechanism of individual's attitude change in the face of persuasive information (Wang, Chao, Yu, & Zhang, 2022). ELM demonstrates that people process information in two different ways: the central route and the peripheral route (Allison, Davis, Webb, & Short, 2017;Li, Zhang, & Han, 2021;Wang, Fan, & Bae, 2019). In the central route, individuals need a lot of cognitive efforts to conduct in-depth and detailed analysis of information, which emphasizes the content of information (Allison et al., 2017;Kang & Namkung, 2019).",
+      "preview_tail": "In recent years, the ELM has been used in online labor market. For example, Evertz, Kollitz, and Suss (2021) utilized the ELM model to investigate the effect of favorable online recommendations from job review websites on organizational allure. Similarly, Gregory, Meade, and Thompson (2013) analyzed the connection between internet recruitment sites and organizational attractiveness. This paper combines signaling theory and ELM to investigate the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility.",
+      "word_count": 207,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section introduces the Elaboration Likelihood Model (ELM), citing its origin and applications, "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Hypothesis development",
+      "header_norm": "hypothesis development",
+      "container_raw": "Literature review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "The information asymmetry between job seekers and recruiters is an important factor affecting the efficiency of career mobility (Pernkopf et al., 2021). Based on the signaling theory, the recommendation letter disclosed by potential job seekers on SNSs will be used as a signal to prove their ability (Maurer & Cook, 2011;Pernkopf et al., 2021). Signals are sent to recruiters through social networking sites to get information about the abilities of job seekers (Maurer & Cook, 2011;Pernkopf et al., 2021), so that job seekers can make a better impression on them in the application process. ELM demonstrates that people process information in two different ways (Allison et al., 2017;Wang et al., 2022). Fig. 1 depicts the conceptual model."
+      ],
+      "footnotes": [],
+      "text": "The information asymmetry between job seekers and recruiters is an important factor affecting the efficiency of career mobility (Pernkopf et al., 2021). Based on the signaling theory, the recommendation letter disclosed by potential job seekers on SNSs will be used as a signal to prove their ability (Maurer & Cook, 2011;Pernkopf et al., 2021). Signals are sent to recruiters through social networking sites to get information about the abilities of job seekers (Maurer & Cook, 2011;Pernkopf et al., 2021), so that job seekers can make a better impression on them in the application process. ELM demonstrates that people process information in two different ways (Allison et al., 2017;Wang et al., 2022). Fig. 1 depicts the conceptual model.",
+      "text_with_footnotes": "The information asymmetry between job seekers and recruiters is an important factor affecting the efficiency of career mobility (Pernkopf et al., 2021). Based on the signaling theory, the recommendation letter disclosed by potential job seekers on SNSs will be used as a signal to prove their ability (Maurer & Cook, 2011;Pernkopf et al., 2021). Signals are sent to recruiters through social networking sites to get information about the abilities of job seekers (Maurer & Cook, 2011;Pernkopf et al., 2021), so that job seekers can make a better impression on them in the application process. ELM demonstrates that people process information in two different ways (Allison et al., 2017;Wang et al., 2022). Fig. 1 depicts the conceptual model.",
+      "preview_head": "The information asymmetry between job seekers and recruiters is an important factor affecting the efficiency of career mobility (Pernkopf et al., 2021). Based on the signaling theory, the recommendation letter disclosed by potential job seekers on SNSs will be used as a signal to prove their ability (Maurer & Cook, 2011;Pernkopf et al., 2021). Signals are sent to recruiters through social networking sites to get information about the abilities of job seekers (Maurer & Cook, 2011;Pernkopf et al., 2021), so that job seekers can make a better impression on them in the application process.",
+      "preview_tail": "Signals are sent to recruiters through social networking sites to get information about the abilities of job seekers (Maurer & Cook, 2011;Pernkopf et al., 2021), so that job seekers can make a better impression on them in the application process. ELM demonstrates that people process information in two different ways (Allison et al., 2017;Wang et al., 2022). Fig. 1 depicts the conceptual model.",
+      "word_count": 117,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*hypothes[ie]s"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*hypothes[ie]s",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Central route",
+      "header_norm": "central route",
+      "container_raw": "Literature review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "According to the ELM model, the central route is that the information receiver decides after careful thinking and analysis after receiving the information content (Allison et al., 2017). SNSs give users plenty of chances to share their own content and engage in social surfing to meet new people (Bapna & Funk, 2021). Information transmission makes the impact of third-party evaluation on career mobility increasingly apparent (Ge, Huang, & Png, 2016). Hoek, O'Kane, and McCracken (2016) pointed out that employers can help companies identify candidates as part of recruitment by browsing social media online profiles. The recommendation letter can be used as a signal to convey the individual's ability or other advantages to the recruiter (Rui, 2018a), thus affecting the individual's career mobility. Tomlinson and Newman (2018) found that the rhetorical devices of online recommendation letters are attractive to individuals. As the depth and breadth of the information content have different effects on the recipient, we divide the content information of the letter of recommendation into two aspects: the breadth and depth of the recommendation letter. In the existing literature, the breadth of information disclosure usually refers to the diversity or the number of topics shared by the whistleblower (Greene, Derlega, & Mathews, 2006). A higher breadth of recommendation disclosure can send a signal to the recipient of a closer relationship, build trust, and trigger more positive feelings (Baruh & Cemalcilar, 2018). Depth is usually defined as the closeness of disclosure, which helps to reduce uncertainty (Greene et al., 2006). Baruh and Cemalcilar (2015) found that in the context of Twitter, the depth of disclosure of personal profile increases the viewer's confidence in the attribution of the profile. Self-disclosure primarily aims to provide the recipient with a more comprehensive understanding of oneself (Lei, Wu, Deng, & Ye, 2023;Wei, He, Zhang, Zhao, & Zhao, 2020). The increasing depth and breadth of a recommendation letter reflect the sender's desire to showcase themselves more prominently (Zhang, Qi, Wei, & He, 2023), signifying a stronger commitment to their career mobility. We hypothesize that.",
+        "H1. The depth of the recommendation letter has a positive impact on career mobility."
+      ],
+      "footnotes": [],
+      "text": "According to the ELM model, the central route is that the information receiver decides after careful thinking and analysis after receiving the information content (Allison et al., 2017). SNSs give users plenty of chances to share their own content and engage in social surfing to meet new people (Bapna & Funk, 2021). Information transmission makes the impact of third-party evaluation on career mobility increasingly apparent (Ge, Huang, & Png, 2016). Hoek, O'Kane, and McCracken (2016) pointed out that employers can help companies identify candidates as part of recruitment by browsing social media online profiles. The recommendation letter can be used as a signal to convey the individual's ability or other advantages to the recruiter (Rui, 2018a), thus affecting the individual's career mobility. Tomlinson and Newman (2018) found that the rhetorical devices of online recommendation letters are attractive to individuals. As the depth and breadth of the information content have different effects on the recipient, we divide the content information of the letter of recommendation into two aspects: the breadth and depth of the recommendation letter. In the existing literature, the breadth of information disclosure usually refers to the diversity or the number of topics shared by the whistleblower (Greene, Derlega, & Mathews, 2006). A higher breadth of recommendation disclosure can send a signal to the recipient of a closer relationship, build trust, and trigger more positive feelings (Baruh & Cemalcilar, 2018). Depth is usually defined as the closeness of disclosure, which helps to reduce uncertainty (Greene et al., 2006). Baruh and Cemalcilar (2015) found that in the context of Twitter, the depth of disclosure of personal profile increases the viewer's confidence in the attribution of the profile. Self-disclosure primarily aims to provide the recipient with a more comprehensive understanding of oneself (Lei, Wu, Deng, & Ye, 2023;Wei, He, Zhang, Zhao, & Zhao, 2020). The increasing depth and breadth of a recommendation letter reflect the sender's desire to showcase themselves more prominently (Zhang, Qi, Wei, & He, 2023), signifying a stronger commitment to their career mobility. We hypothesize that.\n\nH1. The depth of the recommendation letter has a positive impact on career mobility.",
+      "text_with_footnotes": "According to the ELM model, the central route is that the information receiver decides after careful thinking and analysis after receiving the information content (Allison et al., 2017). SNSs give users plenty of chances to share their own content and engage in social surfing to meet new people (Bapna & Funk, 2021). Information transmission makes the impact of third-party evaluation on career mobility increasingly apparent (Ge, Huang, & Png, 2016). Hoek, O'Kane, and McCracken (2016) pointed out that employers can help companies identify candidates as part of recruitment by browsing social media online profiles. The recommendation letter can be used as a signal to convey the individual's ability or other advantages to the recruiter (Rui, 2018a), thus affecting the individual's career mobility. Tomlinson and Newman (2018) found that the rhetorical devices of online recommendation letters are attractive to individuals. As the depth and breadth of the information content have different effects on the recipient, we divide the content information of the letter of recommendation into two aspects: the breadth and depth of the recommendation letter. In the existing literature, the breadth of information disclosure usually refers to the diversity or the number of topics shared by the whistleblower (Greene, Derlega, & Mathews, 2006). A higher breadth of recommendation disclosure can send a signal to the recipient of a closer relationship, build trust, and trigger more positive feelings (Baruh & Cemalcilar, 2018). Depth is usually defined as the closeness of disclosure, which helps to reduce uncertainty (Greene et al., 2006). Baruh and Cemalcilar (2015) found that in the context of Twitter, the depth of disclosure of personal profile increases the viewer's confidence in the attribution of the profile. Self-disclosure primarily aims to provide the recipient with a more comprehensive understanding of oneself (Lei, Wu, Deng, & Ye, 2023;Wei, He, Zhang, Zhao, & Zhao, 2020). The increasing depth and breadth of a recommendation letter reflect the sender's desire to showcase themselves more prominently (Zhang, Qi, Wei, & He, 2023), signifying a stronger commitment to their career mobility. We hypothesize that.\n\nH1. The depth of the recommendation letter has a positive impact on career mobility.",
+      "preview_head": "According to the ELM model, the central route is that the information receiver decides after careful thinking and analysis after receiving the information content (Allison et al., 2017). SNSs give users plenty of chances to share their own content and engage in social surfing to meet new people (Bapna & Funk, 2021). Information transmission makes the impact of third-party evaluation on career mobility increasingly apparent (Ge, Huang, & Png, 2016).",
+      "preview_tail": "H1. The depth of the recommendation letter has a positive impact on career mobility.",
+      "word_count": 352,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section explains the central route of ELM with citations and theoretical explanation."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "It introduces a hypothesis (H1), which is part of the study's conceptual model and signals a shift t"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "H2.",
+      "header_norm": "h2",
+      "container_raw": "Literature review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "The breadth of recommendation letter has a positive impact on career mobility."
+      ],
+      "footnotes": [],
+      "text": "The breadth of recommendation letter has a positive impact on career mobility.",
+      "text_with_footnotes": "The breadth of recommendation letter has a positive impact on career mobility.",
+      "preview_head": "The breadth of recommendation letter has a positive impact on career mobility.",
+      "preview_tail": "The breadth of recommendation letter has a positive impact on career mobility.",
+      "word_count": 12,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section states a hypothesis (H2), which is part of the study's conceptual framework and signals"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Peripheral route",
+      "header_norm": "peripheral route",
+      "container_raw": "Literature review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "ELM believes that central cues and peripheral cues work together to convince the recipient of information, and people frequently respond to peripheral cues before central cues (Aghakhani, Oh, Gregg, & Karimi, 2021). Before reading the content of recommendation letter, people may see information about the relationship between the presenter and the referee in recommendation section. The social relationship between the presenter and the job seeker, such as the superior-subordinate relationship and the congruence of the field, will have an impact on the recommendation effect (Rui, 2018a). The online recommendation letter provided by the former supervisor is more effective than that provided by the former subordinate (Rui, 2018a). The recommendation letter of provided by subordinates are generally considered to be more likely to be manipulated (Rui, 2018b), so observers may doubt the authenticity of the letter of recommendation and have a negative impact. And the recommendation effect will be improved when the recommendation is consistent with the referral in the field (Pieper, 2015). Working in the same field means that references have a deeper understanding of the referrals (Pieper, 2015), thus reducing the uncertainty of information and providing more professional evaluation. We hypothesize that.",
+        "H3. The field congruence between the referrer and the referee will have a positive impact on career mobility."
+      ],
+      "footnotes": [],
+      "text": "ELM believes that central cues and peripheral cues work together to convince the recipient of information, and people frequently respond to peripheral cues before central cues (Aghakhani, Oh, Gregg, & Karimi, 2021). Before reading the content of recommendation letter, people may see information about the relationship between the presenter and the referee in recommendation section. The social relationship between the presenter and the job seeker, such as the superior-subordinate relationship and the congruence of the field, will have an impact on the recommendation effect (Rui, 2018a). The online recommendation letter provided by the former supervisor is more effective than that provided by the former subordinate (Rui, 2018a). The recommendation letter of provided by subordinates are generally considered to be more likely to be manipulated (Rui, 2018b), so observers may doubt the authenticity of the letter of recommendation and have a negative impact. And the recommendation effect will be improved when the recommendation is consistent with the referral in the field (Pieper, 2015). Working in the same field means that references have a deeper understanding of the referrals (Pieper, 2015), thus reducing the uncertainty of information and providing more professional evaluation. We hypothesize that.\n\nH3. The field congruence between the referrer and the referee will have a positive impact on career mobility.",
+      "text_with_footnotes": "ELM believes that central cues and peripheral cues work together to convince the recipient of information, and people frequently respond to peripheral cues before central cues (Aghakhani, Oh, Gregg, & Karimi, 2021). Before reading the content of recommendation letter, people may see information about the relationship between the presenter and the referee in recommendation section. The social relationship between the presenter and the job seeker, such as the superior-subordinate relationship and the congruence of the field, will have an impact on the recommendation effect (Rui, 2018a). The online recommendation letter provided by the former supervisor is more effective than that provided by the former subordinate (Rui, 2018a). The recommendation letter of provided by subordinates are generally considered to be more likely to be manipulated (Rui, 2018b), so observers may doubt the authenticity of the letter of recommendation and have a negative impact. And the recommendation effect will be improved when the recommendation is consistent with the referral in the field (Pieper, 2015). Working in the same field means that references have a deeper understanding of the referrals (Pieper, 2015), thus reducing the uncertainty of information and providing more professional evaluation. We hypothesize that.\n\nH3. The field congruence between the referrer and the referee will have a positive impact on career mobility.",
+      "preview_head": "ELM believes that central cues and peripheral cues work together to convince the recipient of information, and people frequently respond to peripheral cues before central cues (Aghakhani, Oh, Gregg, & Karimi, 2021). Before reading the content of recommendation letter, people may see information about the relationship between the presenter and the referee in recommendation section. The social relationship between the presenter and the job seeker, such as the superior-subordinate relationship and the congruence of the field, will have an impact on the recommendation effect (Rui, 2018a).",
+      "preview_tail": "H3. The field congruence between the referrer and the referee will have a positive impact on career mobility.",
+      "word_count": 211,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section explains the peripheral route of ELM with citations and theoretical explanation."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "It introduces a hypothesis (H3), which is part of the study's conceptual model and signals a shift t"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "H4.",
+      "header_norm": "h4",
+      "container_raw": "Literature review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "The relationship between referrer and the referee will have a positive impact on career mobility."
+      ],
+      "footnotes": [],
+      "text": "The relationship between referrer and the referee will have a positive impact on career mobility.",
+      "text_with_footnotes": "The relationship between referrer and the referee will have a positive impact on career mobility.",
+      "preview_head": "The relationship between referrer and the referee will have a positive impact on career mobility.",
+      "preview_tail": "The relationship between referrer and the referee will have a positive impact on career mobility.",
+      "word_count": 15,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section states a hypothesis (H4), which is part of the study's conceptual framework and signals"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Moderating effect",
+      "header_norm": "moderating effect",
+      "container_raw": "Literature review",
+      "container_norm": "literature review",
+      "is_container": false,
+      "paragraphs": [
+        "SNSs give users plenty of chances to share their own content and engage in social surfing to meet new people (Bapna & Funk, 2021). Network size is a feature of social connections (Riedl, Kobler, Goswami, & Kremar, 2013), which reflects how many resources that individuals can get from the network (Lin, Tov, & Qiu, 2014). The relationship between social structure and job search demonstrates that \"it's not what you know, but who you know,\" demonstrating how social ties influence the labor market (GranovetterMark, 1985). The social networks size reflects the number of resources that individuals can get from the network. Social networking relationships not only provide direct contact with hiring managers, but also boost the confidence of recruiters in the accuracy of the information (Granovetter, 2005). Combined with the characteristics of the recommendation letter, we believe that the social network size of the referee on LinkedIn may affect the probability and credibility of the recommendation letter, thus affecting the effectiveness of the content of the recommendation letter and career mobility. We hypothesize that.",
+        "H5. social network size positively moderates the effect of the breadth of the recommendation letter on career mobility.",
+        "H6. social network size positively moderates the effect of the depth of the recommendation letter on career mobility."
+      ],
+      "footnotes": [],
+      "text": "SNSs give users plenty of chances to share their own content and engage in social surfing to meet new people (Bapna & Funk, 2021). Network size is a feature of social connections (Riedl, Kobler, Goswami, & Kremar, 2013), which reflects how many resources that individuals can get from the network (Lin, Tov, & Qiu, 2014). The relationship between social structure and job search demonstrates that \"it's not what you know, but who you know,\" demonstrating how social ties influence the labor market (GranovetterMark, 1985). The social networks size reflects the number of resources that individuals can get from the network. Social networking relationships not only provide direct contact with hiring managers, but also boost the confidence of recruiters in the accuracy of the information (Granovetter, 2005). Combined with the characteristics of the recommendation letter, we believe that the social network size of the referee on LinkedIn may affect the probability and credibility of the recommendation letter, thus affecting the effectiveness of the content of the recommendation letter and career mobility. We hypothesize that.\n\nH5. social network size positively moderates the effect of the breadth of the recommendation letter on career mobility.\n\nH6. social network size positively moderates the effect of the depth of the recommendation letter on career mobility.",
+      "text_with_footnotes": "SNSs give users plenty of chances to share their own content and engage in social surfing to meet new people (Bapna & Funk, 2021). Network size is a feature of social connections (Riedl, Kobler, Goswami, & Kremar, 2013), which reflects how many resources that individuals can get from the network (Lin, Tov, & Qiu, 2014). The relationship between social structure and job search demonstrates that \"it's not what you know, but who you know,\" demonstrating how social ties influence the labor market (GranovetterMark, 1985). The social networks size reflects the number of resources that individuals can get from the network. Social networking relationships not only provide direct contact with hiring managers, but also boost the confidence of recruiters in the accuracy of the information (Granovetter, 2005). Combined with the characteristics of the recommendation letter, we believe that the social network size of the referee on LinkedIn may affect the probability and credibility of the recommendation letter, thus affecting the effectiveness of the content of the recommendation letter and career mobility. We hypothesize that.\n\nH5. social network size positively moderates the effect of the breadth of the recommendation letter on career mobility.\n\nH6. social network size positively moderates the effect of the depth of the recommendation letter on career mobility.",
+      "preview_head": "SNSs give users plenty of chances to share their own content and engage in social surfing to meet new people (Bapna & Funk, 2021). Network size is a feature of social connections (Riedl, Kobler, Goswami, & Kremar, 2013), which reflects how many resources that individuals can get from the network (Lin, Tov, & Qiu, 2014). The relationship between social structure and job search demonstrates that \"it's not what you know, but who you know,\" demonstrating how social ties influence the labor market (GranovetterMark, 1985).",
+      "preview_tail": "H6. social network size positively moderates the effect of the depth of the recommendation letter on career mobility.",
+      "word_count": 209,
+      "paragraph_count": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.5,
+          "reason": "The section discusses theoretical background on social networks and network size, with citations."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.5,
+          "reason": "It introduces a hypothesis (H6) and discusses the moderating effect, which is part of the study's co"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.93,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Methodology",
+      "header_norm": "methodology",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Data collection",
+      "header_norm": "data collection",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "We randomly retrieved 5000 data from LinkedIn (https://www.li nkedin.cn/incareer/). With more than 800 million users globally, LinkedIn is a sizable social media network focused on the workplace. It is dedicated to developing a \"one-stop career development platform\" to connect people with countless options. The recommendation letter section is a unique function of LinkedIn that allows members to write recommendation letters for each other. This function satisfies members' self-presentation needs very well and helps them obtain better job opportunities (Tifferet & Vilnai-Yavetz, 2018). Through the LinkedIn recommendation letter section, we can obtain not only the content of recommendation letters received by LinkedIn members but also can know the relationship between the referrer and refereed, recommendation time, recommendation field, and so on.",
+        "However, not everyone will use this unique function of LinkedIn and display their testimonials to the public. Therefore, referring to Rui (2018a), we screened out 3000 members who used the recommendation letter function from the 5000 randomly obtained data, and further filtered 1000 members that did not show their recommendation letters to the public, and finally obtained 2000 valid data as the sample of our research."
+      ],
+      "footnotes": [],
+      "text": "We randomly retrieved 5000 data from LinkedIn (https://www.li nkedin.cn/incareer/). With more than 800 million users globally, LinkedIn is a sizable social media network focused on the workplace. It is dedicated to developing a \"one-stop career development platform\" to connect people with countless options. The recommendation letter section is a unique function of LinkedIn that allows members to write recommendation letters for each other. This function satisfies members' self-presentation needs very well and helps them obtain better job opportunities (Tifferet & Vilnai-Yavetz, 2018). Through the LinkedIn recommendation letter section, we can obtain not only the content of recommendation letters received by LinkedIn members but also can know the relationship between the referrer and refereed, recommendation time, recommendation field, and so on.\n\nHowever, not everyone will use this unique function of LinkedIn and display their testimonials to the public. Therefore, referring to Rui (2018a), we screened out 3000 members who used the recommendation letter function from the 5000 randomly obtained data, and further filtered 1000 members that did not show their recommendation letters to the public, and finally obtained 2000 valid data as the sample of our research.",
+      "text_with_footnotes": "We randomly retrieved 5000 data from LinkedIn (https://www.li nkedin.cn/incareer/). With more than 800 million users globally, LinkedIn is a sizable social media network focused on the workplace. It is dedicated to developing a \"one-stop career development platform\" to connect people with countless options. The recommendation letter section is a unique function of LinkedIn that allows members to write recommendation letters for each other. This function satisfies members' self-presentation needs very well and helps them obtain better job opportunities (Tifferet & Vilnai-Yavetz, 2018). Through the LinkedIn recommendation letter section, we can obtain not only the content of recommendation letters received by LinkedIn members but also can know the relationship between the referrer and refereed, recommendation time, recommendation field, and so on.\n\nHowever, not everyone will use this unique function of LinkedIn and display their testimonials to the public. Therefore, referring to Rui (2018a), we screened out 3000 members who used the recommendation letter function from the 5000 randomly obtained data, and further filtered 1000 members that did not show their recommendation letters to the public, and finally obtained 2000 valid data as the sample of our research.",
+      "preview_head": "We randomly retrieved 5000 data from LinkedIn (https://www.li nkedin.cn/incareer/). With more than 800 million users globally, LinkedIn is a sizable social media network focused on the workplace. It is dedicated to developing a \"one-stop career development platform\" to connect people with countless options.",
+      "preview_tail": "However, not everyone will use this unique function of LinkedIn and display their testimonials to the public. Therefore, referring to Rui (2018a), we screened out 3000 members who used the recommendation letter function from the 5000 randomly obtained data, and further filtered 1000 members that did not show their recommendation letters to the public, and finally obtained 2000 valid data as the sample of our research.",
+      "word_count": 186,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*data\\s+(collection|sources"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*data\\s+(collection|sources",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Variables measurements",
+      "header_norm": "variables measurements",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "This paper combines signaling theory, ELM and machine learning methods to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. To generate the required variables from the complex text dataset, we processed the samples following the procedure shown in Fig. 2."
+      ],
+      "footnotes": [],
+      "text": "This paper combines signaling theory, ELM and machine learning methods to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. To generate the required variables from the complex text dataset, we processed the samples following the procedure shown in Fig. 2.",
+      "text_with_footnotes": "This paper combines signaling theory, ELM and machine learning methods to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. To generate the required variables from the complex text dataset, we processed the samples following the procedure shown in Fig. 2.",
+      "preview_head": "This paper combines signaling theory, ELM and machine learning methods to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. To generate the required variables from the complex text dataset, we processed the samples following the procedure shown in Fig. 2.",
+      "preview_tail": "This paper combines signaling theory, ELM and machine learning methods to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. To generate the required variables from the complex text dataset, we processed the samples following the procedure shown in Fig. 2.",
+      "word_count": 52,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the operationalization of variables, data processing, and the methodological "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Dependent variable",
+      "header_norm": "dependent variable",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "Career mobility (mobility). Career mobility refers to the process of employee transfer within and between organizations (Lam et al., 2012). Following the measurement method in the literature by Heinesen, Imai, and Maruyama (2018) we counted whether the referee had career mobility after the time point when s/he received the recommendation letter and converted it into a binary variable as the dependent variable of this paper, where 1 represents career mobility and 0 represents no career mobility."
+      ],
+      "footnotes": [],
+      "text": "Career mobility (mobility). Career mobility refers to the process of employee transfer within and between organizations (Lam et al., 2012). Following the measurement method in the literature by Heinesen, Imai, and Maruyama (2018) we counted whether the referee had career mobility after the time point when s/he received the recommendation letter and converted it into a binary variable as the dependent variable of this paper, where 1 represents career mobility and 0 represents no career mobility.",
+      "text_with_footnotes": "Career mobility (mobility). Career mobility refers to the process of employee transfer within and between organizations (Lam et al., 2012). Following the measurement method in the literature by Heinesen, Imai, and Maruyama (2018) we counted whether the referee had career mobility after the time point when s/he received the recommendation letter and converted it into a binary variable as the dependent variable of this paper, where 1 represents career mobility and 0 represents no career mobility.",
+      "preview_head": "Career mobility (mobility). Career mobility refers to the process of employee transfer within and between organizations (Lam et al., 2012). Following the measurement method in the literature by Heinesen, Imai, and Maruyama (2018) we counted whether the referee had career mobility after the time point when s/he received the recommendation letter and converted it into a binary variable as the dependent variable of this paper, where 1 represents career mobility and 0 represents no career mobility.",
+      "preview_tail": "Career mobility (mobility). Career mobility refers to the process of employee transfer within and between organizations (Lam et al., 2012). Following the measurement method in the literature by Heinesen, Imai, and Maruyama (2018) we counted whether the referee had career mobility after the time point when s/he received the recommendation letter and converted it into a binary variable as the dependent variable of this paper, where 1 represents career mobility and 0 represents no career mobility.",
+      "word_count": 76,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*(dependent|independent|con"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*(dependent|independent|con",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Independent variables",
+      "header_norm": "independent variables",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "4.2.2.1. Central route independent variables. The central route of ELM includes two independent variables, that is, the depth and the breadth of recommendation letter contents. An example of a recommendation letter on LinkedIn is shown in Fig. 3.",
+        "Recommendation letter content data is collected in the form of documents, and different recommendation letters differ in the richness (breadth) and detail (depth) of the content. The recommendation letter represents member's self-presentation or self-disclosure (Rui, 2018a). According to social penetration theory, the breadth of self-disclosure is the scope of the information areas disclosed, wider or narrower (Wei et al., 2020), while the depth of disclosure is more about the quality of information (Osatuyi, Passerini, Ravarini, & Grandhi, 2018). The length characteristic is also regarded as a signal of information quality in extant literature on various research subjects. For example, the number of words contained in a product's description on the crowdfunding website has a significantly positive impact on successful fundraising (Kim, Por, & Yang, 2017). Therefore, following Wei et al. (2020), this paper uses theLDA method (Blei, Ng, & Jordan, 2003) to capture the breadth of recommendation letter, while uses the average length of Fig. 2. Data processing procedure. recommendation letter on each topic as the depth of it. The specific measurements are as follows.",
+        "4.2.2.1.1. Latent Dirichlet Allocation method. Latent Dirichlet Allocation (LDA) is a probabilistic model commonly used in natural language processing and machine learning for topic modeling, which is a three-layer Bayesian probabilistic model with a three-layer structure of words, topics, and documents (Blei, 2012). Using the conjugation relationship of the words in the document to cluster the words by topic, two probability distributions of \"document-topic\" and \"topic-word\" are obtained (Blei et al., 2003). As shown in Fig. 4, the LDA topic modeling processes a document as following steps.",
+        "First, sampling from the Dirichlet distribution α produces the topic distribution θ i of document i.",
+        "Second, sampling from the multinomial distribution of topics (θ i ) to generate the topic of the jth word of document i.",
+        "Third, sampling from the Dirichlet distribution β to generate the word distribution φ zi,j corresponding to the topic z i,j .",
+        "Finally, sampling the final word w i,j from the multinomial distribution of words φ zi,j .",
+        "In simple terms, LDA has the ability to uncover hidden patterns within documents by leveraging user-defined topics and two prior"
+      ],
+      "footnotes": [],
+      "text": "4.2.2.1. Central route independent variables. The central route of ELM includes two independent variables, that is, the depth and the breadth of recommendation letter contents. An example of a recommendation letter on LinkedIn is shown in Fig. 3.\n\nRecommendation letter content data is collected in the form of documents, and different recommendation letters differ in the richness (breadth) and detail (depth) of the content. The recommendation letter represents member's self-presentation or self-disclosure (Rui, 2018a). According to social penetration theory, the breadth of self-disclosure is the scope of the information areas disclosed, wider or narrower (Wei et al., 2020), while the depth of disclosure is more about the quality of information (Osatuyi, Passerini, Ravarini, & Grandhi, 2018). The length characteristic is also regarded as a signal of information quality in extant literature on various research subjects. For example, the number of words contained in a product's description on the crowdfunding website has a significantly positive impact on successful fundraising (Kim, Por, & Yang, 2017). Therefore, following Wei et al. (2020), this paper uses theLDA method (Blei, Ng, & Jordan, 2003) to capture the breadth of recommendation letter, while uses the average length of Fig. 2. Data processing procedure. recommendation letter on each topic as the depth of it. The specific measurements are as follows.\n\n4.2.2.1.1. Latent Dirichlet Allocation method. Latent Dirichlet Allocation (LDA) is a probabilistic model commonly used in natural language processing and machine learning for topic modeling, which is a three-layer Bayesian probabilistic model with a three-layer structure of words, topics, and documents (Blei, 2012). Using the conjugation relationship of the words in the document to cluster the words by topic, two probability distributions of \"document-topic\" and \"topic-word\" are obtained (Blei et al., 2003). As shown in Fig. 4, the LDA topic modeling processes a document as following steps.\n\nFirst, sampling from the Dirichlet distribution α produces the topic distribution θ i of document i.\n\nSecond, sampling from the multinomial distribution of topics (θ i ) to generate the topic of the jth word of document i.\n\nThird, sampling from the Dirichlet distribution β to generate the word distribution φ zi,j corresponding to the topic z i,j .\n\nFinally, sampling the final word w i,j from the multinomial distribution of words φ zi,j .\n\nIn simple terms, LDA has the ability to uncover hidden patterns within documents by leveraging user-defined topics and two prior",
+      "text_with_footnotes": "4.2.2.1. Central route independent variables. The central route of ELM includes two independent variables, that is, the depth and the breadth of recommendation letter contents. An example of a recommendation letter on LinkedIn is shown in Fig. 3.\n\nRecommendation letter content data is collected in the form of documents, and different recommendation letters differ in the richness (breadth) and detail (depth) of the content. The recommendation letter represents member's self-presentation or self-disclosure (Rui, 2018a). According to social penetration theory, the breadth of self-disclosure is the scope of the information areas disclosed, wider or narrower (Wei et al., 2020), while the depth of disclosure is more about the quality of information (Osatuyi, Passerini, Ravarini, & Grandhi, 2018). The length characteristic is also regarded as a signal of information quality in extant literature on various research subjects. For example, the number of words contained in a product's description on the crowdfunding website has a significantly positive impact on successful fundraising (Kim, Por, & Yang, 2017). Therefore, following Wei et al. (2020), this paper uses theLDA method (Blei, Ng, & Jordan, 2003) to capture the breadth of recommendation letter, while uses the average length of Fig. 2. Data processing procedure. recommendation letter on each topic as the depth of it. The specific measurements are as follows.\n\n4.2.2.1.1. Latent Dirichlet Allocation method. Latent Dirichlet Allocation (LDA) is a probabilistic model commonly used in natural language processing and machine learning for topic modeling, which is a three-layer Bayesian probabilistic model with a three-layer structure of words, topics, and documents (Blei, 2012). Using the conjugation relationship of the words in the document to cluster the words by topic, two probability distributions of \"document-topic\" and \"topic-word\" are obtained (Blei et al., 2003). As shown in Fig. 4, the LDA topic modeling processes a document as following steps.\n\nFirst, sampling from the Dirichlet distribution α produces the topic distribution θ i of document i.\n\nSecond, sampling from the multinomial distribution of topics (θ i ) to generate the topic of the jth word of document i.\n\nThird, sampling from the Dirichlet distribution β to generate the word distribution φ zi,j corresponding to the topic z i,j .\n\nFinally, sampling the final word w i,j from the multinomial distribution of words φ zi,j .\n\nIn simple terms, LDA has the ability to uncover hidden patterns within documents by leveraging user-defined topics and two prior",
+      "preview_head": "4.2.2.1. Central route independent variables. The central route of ELM includes two independent variables, that is, the depth and the breadth of recommendation letter contents.",
+      "preview_tail": "In simple terms, LDA has the ability to uncover hidden patterns within documents by leveraging user-defined topics and two prior",
+      "word_count": 395,
+      "paragraph_count": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*(dependent|independent|con"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*(dependent|independent|con",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Breadth and depth of recommendation letter.",
+      "header_norm": "breadth and depth of recommendation letter",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "Based on our configuration, LDA generates two distributions: P(document|topic), representing the likelihood of a topic given a specific document, and P(word|topic), indicating the likelihood of a word given a particular topic. In the realm of literature utilizing LDA for analysis, researchers have predominantly employed the perplexity curve to ascertain the optimal number of topics (Vu, Li, & Law, 2019;Xiang, Du, Ma, & Fan, 2017). Perplexity in this context signifies that the trained model exhibits uncertainty regarding the topics present in specific documents. Consequently, lower perplexity values signify reduced uncertainty and correspond to superior clustering outcomes. The perplexity calculation is expressed by the following equation:",
+        ")",
+        ".",
+        "(1)",
+        "In this equation, where N represents the total number of words within the dataset, and P(w) denotes the frequency distribution of various words in the dataset. The calculation formula can be expressed as",
+        "in which P(z | d) signifies the probability of specific topics appearing in different document, and P(w | z) represents the probability of particular words belonging to different topics. This equation is fundamental in assessing the perplexity of an LDA model, shedding light on the model's ability to assign topics to words within documents effectively. Based on the multinomial distribution of topics generated by the LDA topic model for each document, we derive a texttopic matrix shown in Table 1, the predominant topics within the text are primarily T3 and T12. Following Wei et al. (2020) and Pass, Patel, Stuart, Barnacle, and Patel ( 2018), this study defines the number of topics as the Breadth of recommendation letter, while defines the average length of recommendation letter on each topic as the Depth of recommendation letter. According to the outcomes of the LDA model's calculations and the character count statistics within recommendation letters, the Depth calculation formula is as follows:"
+      ],
+      "footnotes": [],
+      "text": "Based on our configuration, LDA generates two distributions: P(document|topic), representing the likelihood of a topic given a specific document, and P(word|topic), indicating the likelihood of a word given a particular topic. In the realm of literature utilizing LDA for analysis, researchers have predominantly employed the perplexity curve to ascertain the optimal number of topics (Vu, Li, & Law, 2019;Xiang, Du, Ma, & Fan, 2017). Perplexity in this context signifies that the trained model exhibits uncertainty regarding the topics present in specific documents. Consequently, lower perplexity values signify reduced uncertainty and correspond to superior clustering outcomes. The perplexity calculation is expressed by the following equation:\n\n)\n\n.\n\n(1)\n\nIn this equation, where N represents the total number of words within the dataset, and P(w) denotes the frequency distribution of various words in the dataset. The calculation formula can be expressed as\n\nin which P(z | d) signifies the probability of specific topics appearing in different document, and P(w | z) represents the probability of particular words belonging to different topics. This equation is fundamental in assessing the perplexity of an LDA model, shedding light on the model's ability to assign topics to words within documents effectively. Based on the multinomial distribution of topics generated by the LDA topic model for each document, we derive a texttopic matrix shown in Table 1, the predominant topics within the text are primarily T3 and T12. Following Wei et al. (2020) and Pass, Patel, Stuart, Barnacle, and Patel ( 2018), this study defines the number of topics as the Breadth of recommendation letter, while defines the average length of recommendation letter on each topic as the Depth of recommendation letter. According to the outcomes of the LDA model's calculations and the character count statistics within recommendation letters, the Depth calculation formula is as follows:",
+      "text_with_footnotes": "Based on our configuration, LDA generates two distributions: P(document|topic), representing the likelihood of a topic given a specific document, and P(word|topic), indicating the likelihood of a word given a particular topic. In the realm of literature utilizing LDA for analysis, researchers have predominantly employed the perplexity curve to ascertain the optimal number of topics (Vu, Li, & Law, 2019;Xiang, Du, Ma, & Fan, 2017). Perplexity in this context signifies that the trained model exhibits uncertainty regarding the topics present in specific documents. Consequently, lower perplexity values signify reduced uncertainty and correspond to superior clustering outcomes. The perplexity calculation is expressed by the following equation:\n\n)\n\n.\n\n(1)\n\nIn this equation, where N represents the total number of words within the dataset, and P(w) denotes the frequency distribution of various words in the dataset. The calculation formula can be expressed as\n\nin which P(z | d) signifies the probability of specific topics appearing in different document, and P(w | z) represents the probability of particular words belonging to different topics. This equation is fundamental in assessing the perplexity of an LDA model, shedding light on the model's ability to assign topics to words within documents effectively. Based on the multinomial distribution of topics generated by the LDA topic model for each document, we derive a texttopic matrix shown in Table 1, the predominant topics within the text are primarily T3 and T12. Following Wei et al. (2020) and Pass, Patel, Stuart, Barnacle, and Patel ( 2018), this study defines the number of topics as the Breadth of recommendation letter, while defines the average length of recommendation letter on each topic as the Depth of recommendation letter. According to the outcomes of the LDA model's calculations and the character count statistics within recommendation letters, the Depth calculation formula is as follows:",
+      "preview_head": "Based on our configuration, LDA generates two distributions: P(document|topic), representing the likelihood of a topic given a specific document, and P(word|topic), indicating the likelihood of a word given a particular topic. In the realm of literature utilizing LDA for analysis, researchers have predominantly employed the perplexity curve to ascertain the optimal number of topics (Vu, Li, & Law, 2019;Xiang, Du, Ma, & Fan, 2017). Perplexity in this context signifies that the trained model exhibits uncertainty regarding the topics present in specific documents.",
+      "preview_tail": "Based on the multinomial distribution of topics generated by the LDA topic model for each document, we derive a texttopic matrix shown in Table 1, the predominant topics within the text are primarily T3 and T12. Following Wei et al. (2020) and Pass, Patel, Stuart, Barnacle, and Patel ( 2018), this study defines the number of topics as the Breadth of recommendation letter, while defines the average length of recommendation letter on each topic as the Depth of recommendation letter. According to the outcomes of the LDA model's calculations and the character count statistics within recommendation letters, the Depth calculation formula is as follows:",
+      "word_count": 299,
+      "paragraph_count": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the use of LDA for variable construction and describes the process for measurin"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Depth=",
+      "header_norm": "depth",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "The number of characters in a recommendation letter The number of topics in a recommendation letter .",
+        "(2)",
+        "Table 2 shows examples of Breadth and Depth calculation results."
+      ],
+      "footnotes": [],
+      "text": "The number of characters in a recommendation letter The number of topics in a recommendation letter .\n\n(2)\n\nTable 2 shows examples of Breadth and Depth calculation results.",
+      "text_with_footnotes": "The number of characters in a recommendation letter The number of topics in a recommendation letter .\n\n(2)\n\nTable 2 shows examples of Breadth and Depth calculation results.",
+      "preview_head": "The number of characters in a recommendation letter The number of topics in a recommendation letter .",
+      "preview_tail": "Table 2 shows examples of Breadth and Depth calculation results.",
+      "word_count": 28,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how the depth and breadth of recommendation letters are measured, including e"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "Peripheral route independent variables.",
+      "header_norm": "peripheral route independent variables",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "The peripheral route of ELM also includes two independent variables, that is, the relation and the field between the referrer and refereed. Recommendation letter external information mainly refers to the characteristics of persons associated with recommendation letters."
+      ],
+      "footnotes": [],
+      "text": "The peripheral route of ELM also includes two independent variables, that is, the relation and the field between the referrer and refereed. Recommendation letter external information mainly refers to the characteristics of persons associated with recommendation letters.",
+      "text_with_footnotes": "The peripheral route of ELM also includes two independent variables, that is, the relation and the field between the referrer and refereed. Recommendation letter external information mainly refers to the characteristics of persons associated with recommendation letters.",
+      "preview_head": "The peripheral route of ELM also includes two independent variables, that is, the relation and the field between the referrer and refereed. Recommendation letter external information mainly refers to the characteristics of persons associated with recommendation letters.",
+      "preview_tail": "The peripheral route of ELM also includes two independent variables, that is, the relation and the field between the referrer and refereed. Recommendation letter external information mainly refers to the characteristics of persons associated with recommendation letters.",
+      "word_count": 37,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the operationalization of peripheral route independent variables, focusing on"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Relationships (Relations).",
+      "header_norm": "relationships relations",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "The definition of relations in this study is the relationship between the referrer and the referee in a career or life. Referring to Rui (2018a) measurement method in the literature, the relationship is divided into three categories: superior, equal, and inferior. Based on this, we divided the relations between the referrer and the referee into three types, where 1 means the referrer is the referee's superior (leader, teacher, professor, etc.), 0 means the referrer and the referrer are peers (classmates, colleagues, etc.), and -1 represents the referrer is the referee's subordinate (employee, etc.).",
+        "Field (Field). Field refers to whether the referrer and the referee work in the same occupational field. Following Rui (2018a) and Pieper (2015), we compare the fields of the referrer and the referee and compute it as a binary variable, in which 1 represents they are in the same field and 0 represents they are in different fields."
+      ],
+      "footnotes": [],
+      "text": "The definition of relations in this study is the relationship between the referrer and the referee in a career or life. Referring to Rui (2018a) measurement method in the literature, the relationship is divided into three categories: superior, equal, and inferior. Based on this, we divided the relations between the referrer and the referee into three types, where 1 means the referrer is the referee's superior (leader, teacher, professor, etc.), 0 means the referrer and the referrer are peers (classmates, colleagues, etc.), and -1 represents the referrer is the referee's subordinate (employee, etc.).\n\nField (Field). Field refers to whether the referrer and the referee work in the same occupational field. Following Rui (2018a) and Pieper (2015), we compare the fields of the referrer and the referee and compute it as a binary variable, in which 1 represents they are in the same field and 0 represents they are in different fields.",
+      "text_with_footnotes": "The definition of relations in this study is the relationship between the referrer and the referee in a career or life. Referring to Rui (2018a) measurement method in the literature, the relationship is divided into three categories: superior, equal, and inferior. Based on this, we divided the relations between the referrer and the referee into three types, where 1 means the referrer is the referee's superior (leader, teacher, professor, etc.), 0 means the referrer and the referrer are peers (classmates, colleagues, etc.), and -1 represents the referrer is the referee's subordinate (employee, etc.).\n\nField (Field). Field refers to whether the referrer and the referee work in the same occupational field. Following Rui (2018a) and Pieper (2015), we compare the fields of the referrer and the referee and compute it as a binary variable, in which 1 represents they are in the same field and 0 represents they are in different fields.",
+      "preview_head": "The definition of relations in this study is the relationship between the referrer and the referee in a career or life. Referring to Rui (2018a) measurement method in the literature, the relationship is divided into three categories: superior, equal, and inferior. Based on this, we divided the relations between the referrer and the referee into three types, where 1 means the referrer is the referee's superior (leader, teacher, professor, etc.), 0 means the referrer and the referrer are peers (classmates, colleagues, etc.), and -1 represents the referrer is the referee's subordinate (employee, etc.).",
+      "preview_tail": "Field (Field). Field refers to whether the referrer and the referee work in the same occupational field. Following Rui (2018a) and Pieper (2015), we compare the fields of the referrer and the referee and compute it as a binary variable, in which 1 represents they are in the same field and 0 represents they are in different fields.",
+      "word_count": 151,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section defines operationalizations for key variables (relations, field) used in the study, and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "Although it references prior work, the main function is to describe how variables are measured in *"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Moderating variable",
+      "header_norm": "moderating variable",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "Social network size (Network). The size of the referee's social network may affect the probability of others browsing her/his personal homepage and reading her/his recommendation letter. Therefore, this study selects the referee's social network size as a moderating variable, which is specifically expressed as each referee's social network size, that is, the number of contacts of referrers (Banerji & Reimer, 2019)."
+      ],
+      "footnotes": [],
+      "text": "Social network size (Network). The size of the referee's social network may affect the probability of others browsing her/his personal homepage and reading her/his recommendation letter. Therefore, this study selects the referee's social network size as a moderating variable, which is specifically expressed as each referee's social network size, that is, the number of contacts of referrers (Banerji & Reimer, 2019).",
+      "text_with_footnotes": "Social network size (Network). The size of the referee's social network may affect the probability of others browsing her/his personal homepage and reading her/his recommendation letter. Therefore, this study selects the referee's social network size as a moderating variable, which is specifically expressed as each referee's social network size, that is, the number of contacts of referrers (Banerji & Reimer, 2019).",
+      "preview_head": "Social network size (Network). The size of the referee's social network may affect the probability of others browsing her/his personal homepage and reading her/his recommendation letter. Therefore, this study selects the referee's social network size as a moderating variable, which is specifically expressed as each referee's social network size, that is, the number of contacts of referrers (Banerji & Reimer, 2019).",
+      "preview_tail": "Social network size (Network). The size of the referee's social network may affect the probability of others browsing her/his personal homepage and reading her/his recommendation letter. Therefore, this study selects the referee's social network size as a moderating variable, which is specifically expressed as each referee's social network size, that is, the number of contacts of referrers (Banerji & Reimer, 2019).",
+      "word_count": 61,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the operationalization and measurement of the moderating variable (social network size) in"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "Control variables",
+      "header_norm": "control variables",
+      "container_raw": "Methodology",
+      "container_norm": "methodology",
+      "is_container": false,
+      "paragraphs": [
+        "To guarantee the reliability of our results and clearly observe the influence of the independent variables concerned in this paper, based on the previous literature (Sharifian, Manly, Brickman, & Zahodne, 2019;Zimmerman, 2019), we select the Educational Degree (Degree) of the referee and the number of Skills (Skills)of the referee as control variables.",
+        "In summary, the main variables are shown in Table 3."
+      ],
+      "footnotes": [],
+      "text": "To guarantee the reliability of our results and clearly observe the influence of the independent variables concerned in this paper, based on the previous literature (Sharifian, Manly, Brickman, & Zahodne, 2019;Zimmerman, 2019), we select the Educational Degree (Degree) of the referee and the number of Skills (Skills)of the referee as control variables.\n\nIn summary, the main variables are shown in Table 3.",
+      "text_with_footnotes": "To guarantee the reliability of our results and clearly observe the influence of the independent variables concerned in this paper, based on the previous literature (Sharifian, Manly, Brickman, & Zahodne, 2019;Zimmerman, 2019), we select the Educational Degree (Degree) of the referee and the number of Skills (Skills)of the referee as control variables.\n\nIn summary, the main variables are shown in Table 3.",
+      "preview_head": "To guarantee the reliability of our results and clearly observe the influence of the independent variables concerned in this paper, based on the previous literature (Sharifian, Manly, Brickman, & Zahodne, 2019;Zimmerman, 2019), we select the Educational Degree (Degree) of the referee and the number of Skills (Skills)of the referee as control variables.",
+      "preview_tail": "In summary, the main variables are shown in Table 3.",
+      "word_count": 62,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*(dependent|independent|con"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*(dependent|independent|con",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 24,
+      "depth": 0,
+      "header_raw": "Regression analysis",
+      "header_norm": "regression analysis",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Before regression analysis, we conducted descriptive statistics and correlation analysis to test the correlation between variables, and the results are shown in Table 4. It can be seen that there is a significant correlation between the Breadth and Depth variables of recommendation letter and career mobility.",
+        "To verify the impact of recommendation content information (breadth and depth) and external information (field and relations) on career mobility, as well as the moderating effect of social networks on the central route relationship, this paper uses a Logit regression model (cf., Dong, Hou, Huang, Liu, and Zhang (2023)). We estimated that",
+        "where i= 1, …N for each member, NS i represents the social network size, X i represents the vector formed by all control variables, including degree and skills. We mainly concerned with the β 1 , β 2 , β 3 and β 4 , which characterized how career mobility would change with both recom- mendation content information and external information, and δ n (n = 1, 2), which represented the impacts of moderators (i.e., social network size) on the relationship between recommendation content information and career mobility. For the remaining coefficients, γ shows the effect of all control variables, α and ε represent constant term and error term respectively.",
+        "The results are presented as shown in Table 5. Model 1 includes only control variables. Model 2 examines the effects of recommendation content information (breadth and depth) and external information (field and relations) on career mobility. The results show that the breadth of recommendation letter, depth of recommendation letter, relationship and field have significant positive effects on career mobility (β 1 = 0.184, p< 0.01; β 2 = 0.134,p< 0.01; β 3 = 0.121,p< 0.05; β 4 = 0.212,p< 0.01; ). Thus, H1, H2, H3, and H4 are supported. In models 3-5, we added moderating variables. In Model 3, the results indicated that the social network size has a positive moderating effect on the relationship between the breadth of recommendation letter and career mobility (δ 1 = 0.154, p< 0.01). Therefore, the H5 has been supported. In Model 4, the social network size has a negative moderating effect on the relationship between the depth of recommendation letter and career mobility (δ 2 = -0.119,p< 0.05), which is contrary to H6. Model 5 combines both Model 3 and Model 4 to investigate the moderating effect of social network size on both relations between the depth and breadth of recommendation letter and career mobility (δ 1 = 0.128, p< 0.05; δ 2 = -0.092, p< 0.1), and the results are consistent with Models 3 and 4."
+      ],
+      "footnotes": [],
+      "text": "Before regression analysis, we conducted descriptive statistics and correlation analysis to test the correlation between variables, and the results are shown in Table 4. It can be seen that there is a significant correlation between the Breadth and Depth variables of recommendation letter and career mobility.\n\nTo verify the impact of recommendation content information (breadth and depth) and external information (field and relations) on career mobility, as well as the moderating effect of social networks on the central route relationship, this paper uses a Logit regression model (cf., Dong, Hou, Huang, Liu, and Zhang (2023)). We estimated that\n\nwhere i= 1, …N for each member, NS i represents the social network size, X i represents the vector formed by all control variables, including degree and skills. We mainly concerned with the β 1 , β 2 , β 3 and β 4 , which characterized how career mobility would change with both recom- mendation content information and external information, and δ n (n = 1, 2), which represented the impacts of moderators (i.e., social network size) on the relationship between recommendation content information and career mobility. For the remaining coefficients, γ shows the effect of all control variables, α and ε represent constant term and error term respectively.\n\nThe results are presented as shown in Table 5. Model 1 includes only control variables. Model 2 examines the effects of recommendation content information (breadth and depth) and external information (field and relations) on career mobility. The results show that the breadth of recommendation letter, depth of recommendation letter, relationship and field have significant positive effects on career mobility (β 1 = 0.184, p< 0.01; β 2 = 0.134,p< 0.01; β 3 = 0.121,p< 0.05; β 4 = 0.212,p< 0.01; ). Thus, H1, H2, H3, and H4 are supported. In models 3-5, we added moderating variables. In Model 3, the results indicated that the social network size has a positive moderating effect on the relationship between the breadth of recommendation letter and career mobility (δ 1 = 0.154, p< 0.01). Therefore, the H5 has been supported. In Model 4, the social network size has a negative moderating effect on the relationship between the depth of recommendation letter and career mobility (δ 2 = -0.119,p< 0.05), which is contrary to H6. Model 5 combines both Model 3 and Model 4 to investigate the moderating effect of social network size on both relations between the depth and breadth of recommendation letter and career mobility (δ 1 = 0.128, p< 0.05; δ 2 = -0.092, p< 0.1), and the results are consistent with Models 3 and 4.",
+      "text_with_footnotes": "Before regression analysis, we conducted descriptive statistics and correlation analysis to test the correlation between variables, and the results are shown in Table 4. It can be seen that there is a significant correlation between the Breadth and Depth variables of recommendation letter and career mobility.\n\nTo verify the impact of recommendation content information (breadth and depth) and external information (field and relations) on career mobility, as well as the moderating effect of social networks on the central route relationship, this paper uses a Logit regression model (cf., Dong, Hou, Huang, Liu, and Zhang (2023)). We estimated that\n\nwhere i= 1, …N for each member, NS i represents the social network size, X i represents the vector formed by all control variables, including degree and skills. We mainly concerned with the β 1 , β 2 , β 3 and β 4 , which characterized how career mobility would change with both recom- mendation content information and external information, and δ n (n = 1, 2), which represented the impacts of moderators (i.e., social network size) on the relationship between recommendation content information and career mobility. For the remaining coefficients, γ shows the effect of all control variables, α and ε represent constant term and error term respectively.\n\nThe results are presented as shown in Table 5. Model 1 includes only control variables. Model 2 examines the effects of recommendation content information (breadth and depth) and external information (field and relations) on career mobility. The results show that the breadth of recommendation letter, depth of recommendation letter, relationship and field have significant positive effects on career mobility (β 1 = 0.184, p< 0.01; β 2 = 0.134,p< 0.01; β 3 = 0.121,p< 0.05; β 4 = 0.212,p< 0.01; ). Thus, H1, H2, H3, and H4 are supported. In models 3-5, we added moderating variables. In Model 3, the results indicated that the social network size has a positive moderating effect on the relationship between the breadth of recommendation letter and career mobility (δ 1 = 0.154, p< 0.01). Therefore, the H5 has been supported. In Model 4, the social network size has a negative moderating effect on the relationship between the depth of recommendation letter and career mobility (δ 2 = -0.119,p< 0.05), which is contrary to H6. Model 5 combines both Model 3 and Model 4 to investigate the moderating effect of social network size on both relations between the depth and breadth of recommendation letter and career mobility (δ 1 = 0.128, p< 0.05; δ 2 = -0.092, p< 0.1), and the results are consistent with Models 3 and 4.",
+      "preview_head": "Before regression analysis, we conducted descriptive statistics and correlation analysis to test the correlation between variables, and the results are shown in Table 4. It can be seen that there is a significant correlation between the Breadth and Depth variables of recommendation letter and career mobility.",
+      "preview_tail": "In Model 3, the results indicated that the social network size has a positive moderating effect on the relationship between the breadth of recommendation letter and career mobility (δ 1 = 0.154, p< 0.01). Therefore, the H5 has been supported. In Model 4, the social network size has a negative moderating effect on the relationship between the depth of recommendation letter and career mobility (δ 2 = -0.119,p< 0.05), which is contrary to H6. Model 5 combines both Model 3 and Model 4 to investigate the moderating effect of social network size on both relations between the depth and breadth of recommendation letter and career mobility (δ 1 = 0.128, p< 0.05; δ 2 = -0.092, p< 0.1), and the results are consistent with Models 3 and 4.",
+      "word_count": 432,
+      "paragraph_count": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*regression\\s+(results?|ana"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*regression\\s+(results?|ana",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 25,
+      "depth": 0,
+      "header_raw": "Robust check",
+      "header_norm": "robust check",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "The Logit regression model chosen in this paper may bring some contingency. Therefore, this paper uses the Probit model for regression to eliminate the contingency. Following Bidwell, Choi, and Fernandez-Mateo (2023), we estimated that",
+        "where Mobility * i was a binary variable representing whether the career mobility has occurred (1) or not (0).",
+        "The results of model 7 in Table 6 are basically consistent with that of model 2. The breadth of recommendation letter, depth of recommendation letter, relationship and field have significant positive effects on"
+      ],
+      "footnotes": [],
+      "text": "The Logit regression model chosen in this paper may bring some contingency. Therefore, this paper uses the Probit model for regression to eliminate the contingency. Following Bidwell, Choi, and Fernandez-Mateo (2023), we estimated that\n\nwhere Mobility * i was a binary variable representing whether the career mobility has occurred (1) or not (0).\n\nThe results of model 7 in Table 6 are basically consistent with that of model 2. The breadth of recommendation letter, depth of recommendation letter, relationship and field have significant positive effects on",
+      "text_with_footnotes": "The Logit regression model chosen in this paper may bring some contingency. Therefore, this paper uses the Probit model for regression to eliminate the contingency. Following Bidwell, Choi, and Fernandez-Mateo (2023), we estimated that\n\nwhere Mobility * i was a binary variable representing whether the career mobility has occurred (1) or not (0).\n\nThe results of model 7 in Table 6 are basically consistent with that of model 2. The breadth of recommendation letter, depth of recommendation letter, relationship and field have significant positive effects on",
+      "preview_head": "The Logit regression model chosen in this paper may bring some contingency. Therefore, this paper uses the Probit model for regression to eliminate the contingency. Following Bidwell, Choi, and Fernandez-Mateo (2023), we estimated that",
+      "preview_tail": "The results of model 7 in Table 6 are basically consistent with that of model 2. The breadth of recommendation letter, depth of recommendation letter, relationship and field have significant positive effects on",
+      "word_count": 86,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports results of robustness checks (Probit regression), including findings and consistency with pr"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes the use of an alternative estimation method (Probit model) as a robustness check."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 26,
+      "depth": 0,
+      "header_raw": "Independent Variables",
+      "header_norm": "independent variables",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Breadth of recommendation letter content",
+        "The number of topics covered in one recommendation letter.",
+        "The number of topics resulting from an LDA topic analysis."
+      ],
+      "footnotes": [],
+      "text": "Breadth of recommendation letter content\n\nThe number of topics covered in one recommendation letter.\n\nThe number of topics resulting from an LDA topic analysis.",
+      "text_with_footnotes": "Breadth of recommendation letter content\n\nThe number of topics covered in one recommendation letter.\n\nThe number of topics resulting from an LDA topic analysis.",
+      "preview_head": "Breadth of recommendation letter content",
+      "preview_tail": "The number of topics resulting from an LDA topic analysis.",
+      "word_count": 24,
+      "paragraph_count": 3,
+      "_original_container_raw": "Results",
+      "_original_container_norm": "results",
+      "_container_unnested": true,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*(dependent|independent|con"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*(dependent|independent|con",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 27,
+      "depth": 0,
+      "header_raw": "Depth of recommendation letter content",
+      "header_norm": "depth of recommendation letter content",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Average text length on a topic in a recommendation letter.",
+        "The quotient of the number of characters in a letter of recommendation and the number of its topics."
+      ],
+      "footnotes": [],
+      "text": "Average text length on a topic in a recommendation letter.\n\nThe quotient of the number of characters in a letter of recommendation and the number of its topics.",
+      "text_with_footnotes": "Average text length on a topic in a recommendation letter.\n\nThe quotient of the number of characters in a letter of recommendation and the number of its topics.",
+      "preview_head": "Average text length on a topic in a recommendation letter.",
+      "preview_tail": "The quotient of the number of characters in a letter of recommendation and the number of its topics.",
+      "word_count": 28,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines how the 'depth of recommendation letter content' is measured/calculated for the analysis."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 28,
+      "depth": 0,
+      "header_raw": "Relations",
+      "header_norm": "relations",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "The relationship between the referrer and the referee in a career or life.",
+        "1 means the referrer is the referee's superior. 0 means they are peers.",
+        "-1 represents the referrer is the referee's subordinate."
+      ],
+      "footnotes": [],
+      "text": "The relationship between the referrer and the referee in a career or life.\n\n1 means the referrer is the referee's superior. 0 means they are peers.\n\n-1 represents the referrer is the referee's subordinate.",
+      "text_with_footnotes": "The relationship between the referrer and the referee in a career or life.\n\n1 means the referrer is the referee's superior. 0 means they are peers.\n\n-1 represents the referrer is the referee's subordinate.",
+      "preview_head": "The relationship between the referrer and the referee in a career or life.",
+      "preview_tail": "-1 represents the referrer is the referee's subordinate.",
+      "word_count": 34,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines the operationalization of the 'relations' variable for the study's analysis."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 29,
+      "depth": 0,
+      "header_raw": "Field",
+      "header_norm": "field",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Whether the referrer and the referee are in the same field 1 represents the same field of work. 0 represents a different field of work."
+      ],
+      "footnotes": [],
+      "text": "Whether the referrer and the referee are in the same field 1 represents the same field of work. 0 represents a different field of work.",
+      "text_with_footnotes": "Whether the referrer and the referee are in the same field 1 represents the same field of work. 0 represents a different field of work.",
+      "preview_head": "Whether the referrer and the referee are in the same field 1 represents the same field of work. 0 represents a different field of work.",
+      "preview_tail": "Whether the referrer and the referee are in the same field 1 represents the same field of work. 0 represents a different field of work.",
+      "word_count": 25,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines the operationalization of the 'field' variable for the study's analysis."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 30,
+      "depth": 0,
+      "header_raw": "Moderating Variable Social network size",
+      "header_norm": "moderating variable social network size",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "The referee's contacts' total number.",
+        "The number of contacts on the referee's profile."
+      ],
+      "footnotes": [],
+      "text": "The referee's contacts' total number.\n\nThe number of contacts on the referee's profile.",
+      "text_with_footnotes": "The referee's contacts' total number.\n\nThe number of contacts on the referee's profile.",
+      "preview_head": "The referee's contacts' total number.",
+      "preview_tail": "The number of contacts on the referee's profile.",
+      "word_count": 13,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines the operationalization of the moderating variable 'social network size' for the study."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 31,
+      "depth": 0,
+      "header_raw": "Control Variables Degree",
+      "header_norm": "control variables degree",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The highest educational qualification of the referee.",
+        "0 -high school education and below. 1 -a bachelor's degree. 2 -a master's degree.",
+        "3 -doctoral degree."
+      ],
+      "footnotes": [],
+      "text": "The highest educational qualification of the referee.\n\n0 -high school education and below. 1 -a bachelor's degree. 2 -a master's degree.\n\n3 -doctoral degree.",
+      "text_with_footnotes": "The highest educational qualification of the referee.\n\n0 -high school education and below. 1 -a bachelor's degree. 2 -a master's degree.\n\n3 -doctoral degree.",
+      "preview_head": "The highest educational qualification of the referee.",
+      "preview_tail": "3 -doctoral degree.",
+      "word_count": 24,
+      "paragraph_count": 3,
+      "_original_container_raw": "Results",
+      "_original_container_norm": "results",
+      "_container_unnested": true,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*(dependent|independent|con"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*(dependent|independent|con",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 32,
+      "depth": 0,
+      "header_raw": "Skills",
+      "header_norm": "skills",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Skills the referee possesses.",
+        "The number of skills the referee has displayed on the profile."
+      ],
+      "footnotes": [],
+      "text": "Skills the referee possesses.\n\nThe number of skills the referee has displayed on the profile.",
+      "text_with_footnotes": "Skills the referee possesses.\n\nThe number of skills the referee has displayed on the profile.",
+      "preview_head": "Skills the referee possesses.",
+      "preview_tail": "The number of skills the referee has displayed on the profile.",
+      "word_count": 15,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Defines how the 'skills' variable is measured for the analysis."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 33,
+      "depth": 0,
+      "header_raw": "Table 4",
+      "header_norm": "table 4",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Descriptive statistics and correlation analysis.",
+        "Mobility Breadth Depth Relations Field Network degree skills Mobility 1 Breadth 0.075*** 1 Depth 0.053** -0.230*** 1 Relations 0.103*** 0.049** 0.021 1 Field 0.069*** 0.019 0.035 0.038* 1 Network 0.195*** 0.061*** 0.040* -0.043* 0.006 1 Degree 0.184*** 0.013 0.024 0.043* 0.034 0.144*** 1 Skills 0.101*** 0.003 0.058*** -0.086*** 0.011 0.292*** 0.070*** 1 Mean 0.627 1.289 309.199 0.223 0.476 282.787 1.135 22.633 Std 0.484 0.562 195.501 0.548 0.499 170.957 0.687 13.637 *p < 0.1, **p < 0.05, ***p < 0.01. The moderating effects of social networks size presented in Models 8-10 (δ 1 = 0.071, p< 0.05; δ 2 = -0.057, p< 0.1) are similar to Models 3-5. Thus, H5 is supported."
+      ],
+      "footnotes": [],
+      "text": "Descriptive statistics and correlation analysis.\n\nMobility Breadth Depth Relations Field Network degree skills Mobility 1 Breadth 0.075*** 1 Depth 0.053** -0.230*** 1 Relations 0.103*** 0.049** 0.021 1 Field 0.069*** 0.019 0.035 0.038* 1 Network 0.195*** 0.061*** 0.040* -0.043* 0.006 1 Degree 0.184*** 0.013 0.024 0.043* 0.034 0.144*** 1 Skills 0.101*** 0.003 0.058*** -0.086*** 0.011 0.292*** 0.070*** 1 Mean 0.627 1.289 309.199 0.223 0.476 282.787 1.135 22.633 Std 0.484 0.562 195.501 0.548 0.499 170.957 0.687 13.637 *p < 0.1, **p < 0.05, ***p < 0.01. The moderating effects of social networks size presented in Models 8-10 (δ 1 = 0.071, p< 0.05; δ 2 = -0.057, p< 0.1) are similar to Models 3-5. Thus, H5 is supported.",
+      "text_with_footnotes": "Descriptive statistics and correlation analysis.\n\nMobility Breadth Depth Relations Field Network degree skills Mobility 1 Breadth 0.075*** 1 Depth 0.053** -0.230*** 1 Relations 0.103*** 0.049** 0.021 1 Field 0.069*** 0.019 0.035 0.038* 1 Network 0.195*** 0.061*** 0.040* -0.043* 0.006 1 Degree 0.184*** 0.013 0.024 0.043* 0.034 0.144*** 1 Skills 0.101*** 0.003 0.058*** -0.086*** 0.011 0.292*** 0.070*** 1 Mean 0.627 1.289 309.199 0.223 0.476 282.787 1.135 22.633 Std 0.484 0.562 195.501 0.548 0.499 170.957 0.687 13.637 *p < 0.1, **p < 0.05, ***p < 0.01. The moderating effects of social networks size presented in Models 8-10 (δ 1 = 0.071, p< 0.05; δ 2 = -0.057, p< 0.1) are similar to Models 3-5. Thus, H5 is supported.",
+      "preview_head": "Descriptive statistics and correlation analysis.",
+      "preview_tail": "Mobility Breadth Depth Relations Field Network degree skills Mobility 1 Breadth 0.075*** 1 Depth 0.053** -0.230*** 1 Relations 0.103*** 0.049** 0.021 1 Field 0.069*** 0.019 0.035 0.038* 1 Network 0.195*** 0.061*** 0.040* -0.043* 0.006 1 Degree 0.184*** 0.013 0.024 0.043* 0.034 0.144*** 1 Skills 0.101*** 0.003 0.058*** -0.086*** 0.011 0.292*** 0.070*** 1 Mean 0.627 1.289 309.199 0.223 0.476 282.787 1.135 22.633 Std 0.484 0.562 195.501 0.548 0.499 170.957 0.687 13.637 *p < 0.1, **p < 0.05, ***p < 0.01. The moderating effects of social networks size presented in Models 8-10 (δ 1 = 0.071, p< 0.05; δ 2 = -0.057, p< 0.1) are similar to Models 3-5. Thus, H5 is supported.",
+      "word_count": 116,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents descriptive statistics and correlation analysis, which are empirical results from the study"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 34,
+      "depth": 0,
+      "header_raw": "Discussion",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 35,
+      "depth": 0,
+      "header_raw": "Key findings",
+      "header_norm": "key findings",
+      "container_raw": "Discussion",
+      "container_norm": "discussion",
+      "is_container": false,
+      "paragraphs": [
+        "Based on the open data from LinkedIn, this paper combines signaling theory, ELM and machine learning methods to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. The results show that the depth and breadth of the recommendation letter, as well as its relationship and field have a significant positive impact on the career mobility of job seekers. This arises largely attributed to social penetration theory, which emphasizes the integral role of self-disclosure in the development of social relationships (Alibakhshi & Srivastava, 2022;Osatuyi et al., 2018). Self-disclosure primarily aims to provide the recipient with a more comprehensive understanding of oneself (Lei et al., 2023;Wei et al., 2020). The increasing depth and breadth of a recommendation letter reflect the sender's desire to showcase themselves more prominently (Zhang et al., 2023), signifying a stronger commitment to their career mobility. Moreover, signaling theory illusthat information disclosed by potential job seekers on social networking websites are used as signals to illustrates their abilities (Maurer & Cook, 2011;Pernkopf et al., 2021), thereby enhancing career mobility.",
+        "Moreover, the social network size has a positive moderating effect on the breadth of recommendation letter and career mobility. One possible explanation for this phenomenon is that social networking relationships can facilitate job seekers' direct contact with hiring managers (Garg & Telang, 2018), thereby boosting recruiters' confidence in the information's accuracy (Baruh & Cemalcilar, 2018). In contrast to the depth of information content, the breadth of information content is more likely to capture the attention of potential recruiters (Tomlinson & Newman, 2018). A higher breadth of information within one's profile can increase the viewer's trust and interpersonal attractiveness to personal profile (Baruh & Cemalcilar, 2018).",
+        "However, the association between the depth of recommendation letter and career mobility is negatively moderated by the social network size. In accordance with the social penetration theory, it is also emphasized that self-disclosure typically requires deeper and more intimate relationships (Osatuyi et al., 2018;Pentina, Hancock, & Xie, 2023). Users with larger social network size may have connected with numerous individuals, but these connections tend to be relatively shallow (Mashayekhi & Head, 2022), lacking depth and intimacy. Consequently, recruiters may exhibit distrust toward the depth of content in recommendation letter. In addition, the degree of self-information disclosure and the depth of recommendation letter, as the description of a certain feature of the recommended person, may produce \"information overload\" (Fan & Zhang, 2020), so as to reduce the impact of the depth of the recommendation letter on career mobility."
+      ],
+      "footnotes": [],
+      "text": "Based on the open data from LinkedIn, this paper combines signaling theory, ELM and machine learning methods to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. The results show that the depth and breadth of the recommendation letter, as well as its relationship and field have a significant positive impact on the career mobility of job seekers. This arises largely attributed to social penetration theory, which emphasizes the integral role of self-disclosure in the development of social relationships (Alibakhshi & Srivastava, 2022;Osatuyi et al., 2018). Self-disclosure primarily aims to provide the recipient with a more comprehensive understanding of oneself (Lei et al., 2023;Wei et al., 2020). The increasing depth and breadth of a recommendation letter reflect the sender's desire to showcase themselves more prominently (Zhang et al., 2023), signifying a stronger commitment to their career mobility. Moreover, signaling theory illusthat information disclosed by potential job seekers on social networking websites are used as signals to illustrates their abilities (Maurer & Cook, 2011;Pernkopf et al., 2021), thereby enhancing career mobility.\n\nMoreover, the social network size has a positive moderating effect on the breadth of recommendation letter and career mobility. One possible explanation for this phenomenon is that social networking relationships can facilitate job seekers' direct contact with hiring managers (Garg & Telang, 2018), thereby boosting recruiters' confidence in the information's accuracy (Baruh & Cemalcilar, 2018). In contrast to the depth of information content, the breadth of information content is more likely to capture the attention of potential recruiters (Tomlinson & Newman, 2018). A higher breadth of information within one's profile can increase the viewer's trust and interpersonal attractiveness to personal profile (Baruh & Cemalcilar, 2018).\n\nHowever, the association between the depth of recommendation letter and career mobility is negatively moderated by the social network size. In accordance with the social penetration theory, it is also emphasized that self-disclosure typically requires deeper and more intimate relationships (Osatuyi et al., 2018;Pentina, Hancock, & Xie, 2023). Users with larger social network size may have connected with numerous individuals, but these connections tend to be relatively shallow (Mashayekhi & Head, 2022), lacking depth and intimacy. Consequently, recruiters may exhibit distrust toward the depth of content in recommendation letter. In addition, the degree of self-information disclosure and the depth of recommendation letter, as the description of a certain feature of the recommended person, may produce \"information overload\" (Fan & Zhang, 2020), so as to reduce the impact of the depth of the recommendation letter on career mobility.",
+      "text_with_footnotes": "Based on the open data from LinkedIn, this paper combines signaling theory, ELM and machine learning methods to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. The results show that the depth and breadth of the recommendation letter, as well as its relationship and field have a significant positive impact on the career mobility of job seekers. This arises largely attributed to social penetration theory, which emphasizes the integral role of self-disclosure in the development of social relationships (Alibakhshi & Srivastava, 2022;Osatuyi et al., 2018). Self-disclosure primarily aims to provide the recipient with a more comprehensive understanding of oneself (Lei et al., 2023;Wei et al., 2020). The increasing depth and breadth of a recommendation letter reflect the sender's desire to showcase themselves more prominently (Zhang et al., 2023), signifying a stronger commitment to their career mobility. Moreover, signaling theory illusthat information disclosed by potential job seekers on social networking websites are used as signals to illustrates their abilities (Maurer & Cook, 2011;Pernkopf et al., 2021), thereby enhancing career mobility.\n\nMoreover, the social network size has a positive moderating effect on the breadth of recommendation letter and career mobility. One possible explanation for this phenomenon is that social networking relationships can facilitate job seekers' direct contact with hiring managers (Garg & Telang, 2018), thereby boosting recruiters' confidence in the information's accuracy (Baruh & Cemalcilar, 2018). In contrast to the depth of information content, the breadth of information content is more likely to capture the attention of potential recruiters (Tomlinson & Newman, 2018). A higher breadth of information within one's profile can increase the viewer's trust and interpersonal attractiveness to personal profile (Baruh & Cemalcilar, 2018).\n\nHowever, the association between the depth of recommendation letter and career mobility is negatively moderated by the social network size. In accordance with the social penetration theory, it is also emphasized that self-disclosure typically requires deeper and more intimate relationships (Osatuyi et al., 2018;Pentina, Hancock, & Xie, 2023). Users with larger social network size may have connected with numerous individuals, but these connections tend to be relatively shallow (Mashayekhi & Head, 2022), lacking depth and intimacy. Consequently, recruiters may exhibit distrust toward the depth of content in recommendation letter. In addition, the degree of self-information disclosure and the depth of recommendation letter, as the description of a certain feature of the recommended person, may produce \"information overload\" (Fan & Zhang, 2020), so as to reduce the impact of the depth of the recommendation letter on career mobility.",
+      "preview_head": "Based on the open data from LinkedIn, this paper combines signaling theory, ELM and machine learning methods to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. The results show that the depth and breadth of the recommendation letter, as well as its relationship and field have a significant positive impact on the career mobility of job seekers. This arises largely attributed to social penetration theory, which emphasizes the integral role of self-disclosure in the development of social relationships (Alibakhshi & Srivastava, 2022;Osatuyi et al., 2018).",
+      "preview_tail": "Users with larger social network size may have connected with numerous individuals, but these connections tend to be relatively shallow (Mashayekhi & Head, 2022), lacking depth and intimacy. Consequently, recruiters may exhibit distrust toward the depth of content in recommendation letter. In addition, the degree of self-information disclosure and the depth of recommendation letter, as the description of a certain feature of the recommended person, may produce \"information overload\" (Fan & Zhang, 2020), so as to reduce the impact of the depth of the recommendation letter on career mobility.",
+      "word_count": 423,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Summarizes the main empirical findings of the study, referencing the results of the analysis."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Includes some interpretation and theoretical implications, but the main focus is on reporting key fi"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 36,
+      "depth": 0,
+      "header_raw": "Theoretical implications",
+      "header_norm": "theoretical implications",
+      "container_raw": "Discussion",
+      "container_norm": "discussion",
+      "is_container": false,
+      "paragraphs": [
+        "This paper contributes to existing research from two perspectives. First, this paper extends the signaling theory in SNSs through the lens of self-disclosure. Previous studies focused primarily on various factors like text length (Chen, Zhou, Jin, & Chen, 2023, emotion (Fan & Zhang, 2020), language (Tomlinson & Newman, 2018) when examining text signals. In the context of career mobility, this paper adopts machine learning to measure the breadth and depth of recommendation letter, thus contributing to the study of information disclosure and recommendation letter. This research addresses the challenge of evaluating the informational content of recommendation letter and provides valuable guidance for future research.",
+        "Second, this paper also contributes new insights to the field of career mobility by exploring self-disclose information in SNSs. Previous studies have explored the impact of objective factors on career mobility, including salary (Lam et al., 2012), education (Zimmerman, 2019) and skills (Mueller et al., 2021). However, existing studies ignored the impact of personal information disclosure and third-party evaluation on career mobility in professional SNSs. SNSs give users plenty of chances to share their own content and engage with others in social surfing. This study investigates the influence of recommendation letters on career mobility from the perspective of information disclosure, and further explores the moderating mechanism of social networks size. The results enrich the theoretical understanding on recommendation letters and their role in career mobility, and provide a feasible idea for future study of career mobility."
+      ],
+      "footnotes": [],
+      "text": "This paper contributes to existing research from two perspectives. First, this paper extends the signaling theory in SNSs through the lens of self-disclosure. Previous studies focused primarily on various factors like text length (Chen, Zhou, Jin, & Chen, 2023, emotion (Fan & Zhang, 2020), language (Tomlinson & Newman, 2018) when examining text signals. In the context of career mobility, this paper adopts machine learning to measure the breadth and depth of recommendation letter, thus contributing to the study of information disclosure and recommendation letter. This research addresses the challenge of evaluating the informational content of recommendation letter and provides valuable guidance for future research.\n\nSecond, this paper also contributes new insights to the field of career mobility by exploring self-disclose information in SNSs. Previous studies have explored the impact of objective factors on career mobility, including salary (Lam et al., 2012), education (Zimmerman, 2019) and skills (Mueller et al., 2021). However, existing studies ignored the impact of personal information disclosure and third-party evaluation on career mobility in professional SNSs. SNSs give users plenty of chances to share their own content and engage with others in social surfing. This study investigates the influence of recommendation letters on career mobility from the perspective of information disclosure, and further explores the moderating mechanism of social networks size. The results enrich the theoretical understanding on recommendation letters and their role in career mobility, and provide a feasible idea for future study of career mobility.",
+      "text_with_footnotes": "This paper contributes to existing research from two perspectives. First, this paper extends the signaling theory in SNSs through the lens of self-disclosure. Previous studies focused primarily on various factors like text length (Chen, Zhou, Jin, & Chen, 2023, emotion (Fan & Zhang, 2020), language (Tomlinson & Newman, 2018) when examining text signals. In the context of career mobility, this paper adopts machine learning to measure the breadth and depth of recommendation letter, thus contributing to the study of information disclosure and recommendation letter. This research addresses the challenge of evaluating the informational content of recommendation letter and provides valuable guidance for future research.\n\nSecond, this paper also contributes new insights to the field of career mobility by exploring self-disclose information in SNSs. Previous studies have explored the impact of objective factors on career mobility, including salary (Lam et al., 2012), education (Zimmerman, 2019) and skills (Mueller et al., 2021). However, existing studies ignored the impact of personal information disclosure and third-party evaluation on career mobility in professional SNSs. SNSs give users plenty of chances to share their own content and engage with others in social surfing. This study investigates the influence of recommendation letters on career mobility from the perspective of information disclosure, and further explores the moderating mechanism of social networks size. The results enrich the theoretical understanding on recommendation letters and their role in career mobility, and provide a feasible idea for future study of career mobility.",
+      "preview_head": "This paper contributes to existing research from two perspectives. First, this paper extends the signaling theory in SNSs through the lens of self-disclosure. Previous studies focused primarily on various factors like text length (Chen, Zhou, Jin, & Chen, 2023, emotion (Fan & Zhang, 2020), language (Tomlinson & Newman, 2018) when examining text signals.",
+      "preview_tail": "SNSs give users plenty of chances to share their own content and engage with others in social surfing. This study investigates the influence of recommendation letters on career mobility from the perspective of information disclosure, and further explores the moderating mechanism of social networks size. The results enrich the theoretical understanding on recommendation letters and their role in career mobility, and provide a feasible idea for future study of career mobility.",
+      "word_count": 240,
+      "paragraph_count": 2,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*theoretical\\s+implications"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*theoretical\\s+implications",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 37,
+      "depth": 0,
+      "header_raw": "Practical implications",
+      "header_norm": "practical implications",
+      "container_raw": "Discussion",
+      "container_norm": "discussion",
+      "is_container": false,
+      "paragraphs": [
+        "This paper has three key practical implications. First, the measurement method of the depth and breadth of the recommendation letter proposed in this paper can be extended to the text signal evaluation of various online SNSs. Managers and recruiters can gain a precise understanding of the information disclosure of employees and potential job seekers by automatically and accurately calculating the breadth and depth of recommendation letter or other content information signals. Second, for s for users of SNSs, it is essential to focus on both the content and external aspects of self-disclosure. In addition, users should actively establish and expand the social networks size and increase the confidence of recruiters in the accuracy of the information (Granovetter, 2005). Third, this paper also has significant professional consequences for personal career development planning and firm talent management. The results show that firms should excavate and retain talents through online social network signals in the process of talent management."
+      ],
+      "footnotes": [],
+      "text": "This paper has three key practical implications. First, the measurement method of the depth and breadth of the recommendation letter proposed in this paper can be extended to the text signal evaluation of various online SNSs. Managers and recruiters can gain a precise understanding of the information disclosure of employees and potential job seekers by automatically and accurately calculating the breadth and depth of recommendation letter or other content information signals. Second, for s for users of SNSs, it is essential to focus on both the content and external aspects of self-disclosure. In addition, users should actively establish and expand the social networks size and increase the confidence of recruiters in the accuracy of the information (Granovetter, 2005). Third, this paper also has significant professional consequences for personal career development planning and firm talent management. The results show that firms should excavate and retain talents through online social network signals in the process of talent management.",
+      "text_with_footnotes": "This paper has three key practical implications. First, the measurement method of the depth and breadth of the recommendation letter proposed in this paper can be extended to the text signal evaluation of various online SNSs. Managers and recruiters can gain a precise understanding of the information disclosure of employees and potential job seekers by automatically and accurately calculating the breadth and depth of recommendation letter or other content information signals. Second, for s for users of SNSs, it is essential to focus on both the content and external aspects of self-disclosure. In addition, users should actively establish and expand the social networks size and increase the confidence of recruiters in the accuracy of the information (Granovetter, 2005). Third, this paper also has significant professional consequences for personal career development planning and firm talent management. The results show that firms should excavate and retain talents through online social network signals in the process of talent management.",
+      "preview_head": "This paper has three key practical implications. First, the measurement method of the depth and breadth of the recommendation letter proposed in this paper can be extended to the text signal evaluation of various online SNSs. Managers and recruiters can gain a precise understanding of the information disclosure of employees and potential job seekers by automatically and accurately calculating the breadth and depth of recommendation letter or other content information signals.",
+      "preview_tail": "In addition, users should actively establish and expand the social networks size and increase the confidence of recruiters in the accuracy of the information (Granovetter, 2005). Third, this paper also has significant professional consequences for personal career development planning and firm talent management. The results show that firms should excavate and retain talents through online social network signals in the process of talent management.",
+      "word_count": 156,
+      "paragraph_count": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*practical\\s+implications?"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*practical\\s+implications?",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 38,
+      "depth": 0,
+      "header_raw": "Limitation and future direction",
+      "header_norm": "limitation and future direction",
+      "container_raw": "Discussion",
+      "container_norm": "discussion",
+      "is_container": false,
+      "paragraphs": [
+        "This paper confirms the relationship between recommendation letters and career mobility. However, our work is not without limitations. First, there exist numerous other factors that affect the effectiveness of recommendation letter, such as the degree of emotion (Fan & Zhang, 2020), language (Tomlinson & Newman, 2018). Consequently, we encourage additional research to incorporate emotional aspects into the analysis of recommendation letter, which could yield more intriguing insights. Second, this study is based on LinkedIn user data. The choice of different data sources may have a certain impact on the results. In the future research, expanding the scope of selection or changing the data sources could draw a more universal conclusion. Third, we only considered to what extent network size moderates the impact of recommendation letter on career mobility. In reality, users' social networks consist of members with various characteristics (Ying, Chiu, & Zhang, 2018). Therefore, investigating the role of network diversity in the mechanism between recommendation letters and career mobility is intriguing."
+      ],
+      "footnotes": [],
+      "text": "This paper confirms the relationship between recommendation letters and career mobility. However, our work is not without limitations. First, there exist numerous other factors that affect the effectiveness of recommendation letter, such as the degree of emotion (Fan & Zhang, 2020), language (Tomlinson & Newman, 2018). Consequently, we encourage additional research to incorporate emotional aspects into the analysis of recommendation letter, which could yield more intriguing insights. Second, this study is based on LinkedIn user data. The choice of different data sources may have a certain impact on the results. In the future research, expanding the scope of selection or changing the data sources could draw a more universal conclusion. Third, we only considered to what extent network size moderates the impact of recommendation letter on career mobility. In reality, users' social networks consist of members with various characteristics (Ying, Chiu, & Zhang, 2018). Therefore, investigating the role of network diversity in the mechanism between recommendation letters and career mobility is intriguing.",
+      "text_with_footnotes": "This paper confirms the relationship between recommendation letters and career mobility. However, our work is not without limitations. First, there exist numerous other factors that affect the effectiveness of recommendation letter, such as the degree of emotion (Fan & Zhang, 2020), language (Tomlinson & Newman, 2018). Consequently, we encourage additional research to incorporate emotional aspects into the analysis of recommendation letter, which could yield more intriguing insights. Second, this study is based on LinkedIn user data. The choice of different data sources may have a certain impact on the results. In the future research, expanding the scope of selection or changing the data sources could draw a more universal conclusion. Third, we only considered to what extent network size moderates the impact of recommendation letter on career mobility. In reality, users' social networks consist of members with various characteristics (Ying, Chiu, & Zhang, 2018). Therefore, investigating the role of network diversity in the mechanism between recommendation letters and career mobility is intriguing.",
+      "preview_head": "This paper confirms the relationship between recommendation letters and career mobility. However, our work is not without limitations. First, there exist numerous other factors that affect the effectiveness of recommendation letter, such as the degree of emotion (Fan & Zhang, 2020), language (Tomlinson & Newman, 2018).",
+      "preview_tail": "Third, we only considered to what extent network size moderates the impact of recommendation letter on career mobility. In reality, users' social networks consist of members with various characteristics (Ying, Chiu, & Zhang, 2018). Therefore, investigating the role of network diversity in the mechanism between recommendation letters and career mobility is intriguing.",
+      "word_count": 162,
+      "paragraph_count": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.5,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.5,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "merged_section:DISCUSSION+CONCLUSION",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 39,
+      "depth": 0,
+      "header_raw": "Conclusions",
+      "header_norm": "conclusions",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The purpose of this paper is to investigate how and to what extent recommendation letter can affect career mobility. This paper combines signaling theory, ELM and machine learning method to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. The results show that both content information and external information of the recommendation letter have significant positive impacts on the career mobility. Moreover, the social network size shown converse moderating effects between recommendation letter content information (breadth and depth) and career mobility. This paper extends the boundaries of signal theory by creatively using machine learning methods to measure textual signals (e.g., recommendation letter). The results also provide practical implications for personal career development and firm talent management."
+      ],
+      "footnotes": [],
+      "text": "The purpose of this paper is to investigate how and to what extent recommendation letter can affect career mobility. This paper combines signaling theory, ELM and machine learning method to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. The results show that both content information and external information of the recommendation letter have significant positive impacts on the career mobility. Moreover, the social network size shown converse moderating effects between recommendation letter content information (breadth and depth) and career mobility. This paper extends the boundaries of signal theory by creatively using machine learning methods to measure textual signals (e.g., recommendation letter). The results also provide practical implications for personal career development and firm talent management.",
+      "text_with_footnotes": "The purpose of this paper is to investigate how and to what extent recommendation letter can affect career mobility. This paper combines signaling theory, ELM and machine learning method to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. The results show that both content information and external information of the recommendation letter have significant positive impacts on the career mobility. Moreover, the social network size shown converse moderating effects between recommendation letter content information (breadth and depth) and career mobility. This paper extends the boundaries of signal theory by creatively using machine learning methods to measure textual signals (e.g., recommendation letter). The results also provide practical implications for personal career development and firm talent management.",
+      "preview_head": "The purpose of this paper is to investigate how and to what extent recommendation letter can affect career mobility. This paper combines signaling theory, ELM and machine learning method to explore the impact of recommendation letter content information (breadth and depth) and external information (field and relationship) on career mobility. The results show that both content information and external information of the recommendation letter have significant positive impacts on the career mobility.",
+      "preview_tail": "Moreover, the social network size shown converse moderating effects between recommendation letter content information (breadth and depth) and career mobility. This paper extends the boundaries of signal theory by creatively using machine learning methods to measure textual signals (e.g., recommendation letter). The results also provide practical implications for personal career development and firm talent management.",
+      "word_count": 127,
+      "paragraph_count": 1,
+      "_original_container_raw": "Discussion",
+      "_original_container_norm": "discussion",
+      "_container_unnested": true,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*conclusion(s)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*conclusion(s)?\\s*$",
+      "major_label": "CONCLUSION"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 40,
+      "depth": 0,
+      "header_raw": "CRediT authorship contribution statement",
+      "header_norm": "credit authorship contribution statement",
+      "container_raw": "Discussion",
+      "container_norm": "discussion",
+      "is_container": false,
+      "paragraphs": [
+        "Rui Chang: Investigation, Data curation, Formal analysis, Writingoriginal draft. Xin Wei: Data curation, Methodology, Writing -review & editing. Xi Zhang: Conceptualization, Writing -review & editing, Supervision, Funding acquisition. Hui Xiong: Supervision. Hengshu Zhu: Supervision."
+      ],
+      "footnotes": [],
+      "text": "Rui Chang: Investigation, Data curation, Formal analysis, Writingoriginal draft. Xin Wei: Data curation, Methodology, Writing -review & editing. Xi Zhang: Conceptualization, Writing -review & editing, Supervision, Funding acquisition. Hui Xiong: Supervision. Hengshu Zhu: Supervision.",
+      "text_with_footnotes": "Rui Chang: Investigation, Data curation, Formal analysis, Writingoriginal draft. Xin Wei: Data curation, Methodology, Writing -review & editing. Xi Zhang: Conceptualization, Writing -review & editing, Supervision, Funding acquisition. Hui Xiong: Supervision. Hengshu Zhu: Supervision.",
+      "preview_head": "Rui Chang: Investigation, Data curation, Formal analysis, Writingoriginal draft. Xin Wei: Data curation, Methodology, Writing -review & editing. Xi Zhang: Conceptualization, Writing -review & editing, Supervision, Funding acquisition.",
+      "preview_tail": "Xi Zhang: Conceptualization, Writing -review & editing, Supervision, Funding acquisition. Hui Xiong: Supervision. Hengshu Zhu: Supervision.",
+      "word_count": 34,
+      "paragraph_count": 1,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Authorship contribution statements are not part of the main scientific content sections."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    },
+    {
+      "paper_id": "Chang et al. - 2024 - How recommendation letters affect career Mobility：Evidence from a social networking sites LinkedIn",
+      "sec_index": 41,
+      "depth": 0,
+      "header_raw": "Declaration of competing interest",
+      "header_norm": "declaration of competing interest",
+      "container_raw": "Discussion",
+      "container_norm": "discussion",
+      "is_container": false,
+      "paragraphs": [
+        "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+      ],
+      "footnotes": [],
+      "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "text_with_footnotes": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "preview_head": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "preview_tail": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+      "word_count": 26,
+      "paragraph_count": 1,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Declaration of competing interest is a standard disclosure, not part of the scientific content."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "OTHER"
+    }
+  ],
+  "stats": {
+    "total_sections": 41,
+    "content_sections": 37,
+    "total_words": 5666,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 41,
+    "by_source": {
+      "heuristic": 13,
+      "llm": 24,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

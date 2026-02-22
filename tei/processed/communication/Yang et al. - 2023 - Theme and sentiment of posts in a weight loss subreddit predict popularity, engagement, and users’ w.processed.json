@@ -1,0 +1,457 @@
+{
+  "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/communication/Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w.tei.xml",
+  "metadata": {
+    "title": "Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ weight loss: a computational approach",
+    "authors": [
+      "Qinghua Yang",
+      "Andrew Ledbetter",
+      "Jie Zhuang",
+      "Adam Richards"
+    ],
+    "journal": "Human Communication Research",
+    "year": "2023",
+    "doi": "10.1093/hcr/hqad023",
+    "keywords": [
+      "topic modeling",
+      "sentiment",
+      "weight loss",
+      "Reddit",
+      "social support",
+      "goal setting"
+    ]
+  },
+  "abstract": "Despite the common use of social media to discuss health issues, little is known about how features of user-generated content influence users' health outcomes. To address this gap, we longitudinally studied large-scale conversations on the subreddit r/loseit, an online weight loss community, by computationally analyzing the themes and sentiment of users' posts and examining their associations with users' self-reported weight loss. Our study identified 28 distinct topics on r/loseit, many of which significantly predicted post score and the number of responsive comments. We also found that the post score was predicted by positive sentiments, whereas the number of comments was predicted by negative sentiments. Further, users' posts on the topic of goal setting significantly predicted their self-reported weight loss, and such association was amplified when the post score and the number of comments are high. Our findings have important theoretical and practical implications for the relationship between interactions in online communities and health outcomes.",
+  "sections": [
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "NO_HEADER",
+      "header_norm": "",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Social networking sites (SNSs) play an increasingly important role in facilitating health information exchanges and related decision making (Fox & Purcell, 2010). Compared to offline health networks, online networks have multiple advantages, including overcoming geographical constraints, text-based and asynchronous communication, and anonymity, despite several disadvantages such as limited nonverbal cues and potential hurtful remarks (DeAndrea, 2015;Wright et al., 2011). The various interactive affordances provided by SNSs (e.g., posting, commenting), especially online support groups (OSGs), not only enable users to exchange health information and participate in discussions, but also generate a series of psychological changes, such as a sense of agency, inclusion, and support (Sundar et al., 2015). Because of such affordances, meta-analyses and systematic reviews have documented a positive impact of using SNSs on health behaviors (e.g., Laranjo et al., 2015) and outcomes (Yang, 2017(Yang, , 2020)).",
+        "With the rise of computational methods, researchers have begun to utilize the large corpus of user-generated content to further explore how the use of SNSs predicts health behaviors. For example, by analyzing user-generated content from SNSs using a machine learning approach, scholars can unobtrusively detect depression symptoms (Eichstaedt et al., 2018) or capture recovery risk in substance use (Kornfield et al., 2018) based on linguistic features. Liu and Yin (2020) innovatively predicted r/loseit users' weight loss via topics of their posts; however, they did not perform sentiment analysis or examine factors driving content popularity and engagement, nor did they analyze the moderating effects of topics and users' engagement on weight loss. Examining these forms of engagement may provide insight into the mechanisms by which OSG use predicts health outcomes (Myneni et al., 2015).",
+        "In this brief report, we attempt to fill this gap by analyzing the themes and sentiments of conversations on the subreddit r/loseit, 1 an OSG devoted to weight loss. The flairs 2 on r/loseit include the users' age, gender, and more importantly, weight information, such as their starting, current, goal, and/or lost weight. The subreddit, as an interactive online community that combines SNSs and bulletin board affordances, enables users to report weight information using flairs, which allows us to assess the association between user-generated content and users' self-reported health outcomes. This study examines the thematic nature of posts, and there is an ongoing debate around the theoretical nature of individual topics. Some have suggested that individual topics may be operationalized as frames (DiMaggio et al., 2013). Others, however, have argued that single topics may be thought of as linguistic devices or elements (Van Gorp, 2007) and that their theoretical meaning as frames may require clustering (Walter & Ophir, 2019). Given this lingering theoretical debate around frames (Entman, 1993) and that topic modeling (Walter & Ophir, 2019) is not central to our main arguments, we refer to the analyzed units as \"topics\" and \"sentiments\" directly in our investigation."
+      ],
+      "footnotes": [],
+      "text": "Social networking sites (SNSs) play an increasingly important role in facilitating health information exchanges and related decision making (Fox & Purcell, 2010). Compared to offline health networks, online networks have multiple advantages, including overcoming geographical constraints, text-based and asynchronous communication, and anonymity, despite several disadvantages such as limited nonverbal cues and potential hurtful remarks (DeAndrea, 2015;Wright et al., 2011). The various interactive affordances provided by SNSs (e.g., posting, commenting), especially online support groups (OSGs), not only enable users to exchange health information and participate in discussions, but also generate a series of psychological changes, such as a sense of agency, inclusion, and support (Sundar et al., 2015). Because of such affordances, meta-analyses and systematic reviews have documented a positive impact of using SNSs on health behaviors (e.g., Laranjo et al., 2015) and outcomes (Yang, 2017(Yang, , 2020)).\n\nWith the rise of computational methods, researchers have begun to utilize the large corpus of user-generated content to further explore how the use of SNSs predicts health behaviors. For example, by analyzing user-generated content from SNSs using a machine learning approach, scholars can unobtrusively detect depression symptoms (Eichstaedt et al., 2018) or capture recovery risk in substance use (Kornfield et al., 2018) based on linguistic features. Liu and Yin (2020) innovatively predicted r/loseit users' weight loss via topics of their posts; however, they did not perform sentiment analysis or examine factors driving content popularity and engagement, nor did they analyze the moderating effects of topics and users' engagement on weight loss. Examining these forms of engagement may provide insight into the mechanisms by which OSG use predicts health outcomes (Myneni et al., 2015).\n\nIn this brief report, we attempt to fill this gap by analyzing the themes and sentiments of conversations on the subreddit r/loseit, 1 an OSG devoted to weight loss. The flairs 2 on r/loseit include the users' age, gender, and more importantly, weight information, such as their starting, current, goal, and/or lost weight. The subreddit, as an interactive online community that combines SNSs and bulletin board affordances, enables users to report weight information using flairs, which allows us to assess the association between user-generated content and users' self-reported health outcomes. This study examines the thematic nature of posts, and there is an ongoing debate around the theoretical nature of individual topics. Some have suggested that individual topics may be operationalized as frames (DiMaggio et al., 2013). Others, however, have argued that single topics may be thought of as linguistic devices or elements (Van Gorp, 2007) and that their theoretical meaning as frames may require clustering (Walter & Ophir, 2019). Given this lingering theoretical debate around frames (Entman, 1993) and that topic modeling (Walter & Ophir, 2019) is not central to our main arguments, we refer to the analyzed units as \"topics\" and \"sentiments\" directly in our investigation.",
+      "text_with_footnotes": "Social networking sites (SNSs) play an increasingly important role in facilitating health information exchanges and related decision making (Fox & Purcell, 2010). Compared to offline health networks, online networks have multiple advantages, including overcoming geographical constraints, text-based and asynchronous communication, and anonymity, despite several disadvantages such as limited nonverbal cues and potential hurtful remarks (DeAndrea, 2015;Wright et al., 2011). The various interactive affordances provided by SNSs (e.g., posting, commenting), especially online support groups (OSGs), not only enable users to exchange health information and participate in discussions, but also generate a series of psychological changes, such as a sense of agency, inclusion, and support (Sundar et al., 2015). Because of such affordances, meta-analyses and systematic reviews have documented a positive impact of using SNSs on health behaviors (e.g., Laranjo et al., 2015) and outcomes (Yang, 2017(Yang, , 2020)).\n\nWith the rise of computational methods, researchers have begun to utilize the large corpus of user-generated content to further explore how the use of SNSs predicts health behaviors. For example, by analyzing user-generated content from SNSs using a machine learning approach, scholars can unobtrusively detect depression symptoms (Eichstaedt et al., 2018) or capture recovery risk in substance use (Kornfield et al., 2018) based on linguistic features. Liu and Yin (2020) innovatively predicted r/loseit users' weight loss via topics of their posts; however, they did not perform sentiment analysis or examine factors driving content popularity and engagement, nor did they analyze the moderating effects of topics and users' engagement on weight loss. Examining these forms of engagement may provide insight into the mechanisms by which OSG use predicts health outcomes (Myneni et al., 2015).\n\nIn this brief report, we attempt to fill this gap by analyzing the themes and sentiments of conversations on the subreddit r/loseit, 1 an OSG devoted to weight loss. The flairs 2 on r/loseit include the users' age, gender, and more importantly, weight information, such as their starting, current, goal, and/or lost weight. The subreddit, as an interactive online community that combines SNSs and bulletin board affordances, enables users to report weight information using flairs, which allows us to assess the association between user-generated content and users' self-reported health outcomes. This study examines the thematic nature of posts, and there is an ongoing debate around the theoretical nature of individual topics. Some have suggested that individual topics may be operationalized as frames (DiMaggio et al., 2013). Others, however, have argued that single topics may be thought of as linguistic devices or elements (Van Gorp, 2007) and that their theoretical meaning as frames may require clustering (Walter & Ophir, 2019). Given this lingering theoretical debate around frames (Entman, 1993) and that topic modeling (Walter & Ophir, 2019) is not central to our main arguments, we refer to the analyzed units as \"topics\" and \"sentiments\" directly in our investigation.",
+      "preview_head": "Social networking sites (SNSs) play an increasingly important role in facilitating health information exchanges and related decision making (Fox & Purcell, 2010). Compared to offline health networks, online networks have multiple advantages, including overcoming geographical constraints, text-based and asynchronous communication, and anonymity, despite several disadvantages such as limited nonverbal cues and potential hurtful remarks (DeAndrea, 2015;Wright et al., 2011). The various interactive affordances provided by SNSs (e.g., posting, commenting), especially online support groups (OSGs), not only enable users to exchange health information and participate in discussions, but also generate a series of psychological changes, such as a sense of agency, inclusion, and support (Sundar et al., 2015).",
+      "preview_tail": "Some have suggested that individual topics may be operationalized as frames (DiMaggio et al., 2013). Others, however, have argued that single topics may be thought of as linguistic devices or elements (Van Gorp, 2007) and that their theoretical meaning as frames may require clustering (Walter & Ophir, 2019). Given this lingering theoretical debate around frames (Entman, 1993) and that topic modeling (Walter & Ophir, 2019) is not central to our main arguments, we refer to the analyzed units as \"topics\" and \"sentiments\" directly in our investigation.",
+      "word_count": 467,
+      "paragraph_count": 3,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, discusses the importance of SNSs for health information, as"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "While there are some citations, the main function is to introduce the topic and motivate the study, "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Research questions",
+      "header_norm": "research questions",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The first objective of the current study was to provide insights into the nature of online communities by analyzing the topics and sentiments of conversations on the subreddit r/loseit. In this analysis, we focused on posts as the unit of analysis, because users who take the time to post are highly involved users and contribute more powerfully to the overall discourse of the subreddit than less involved users (e.g., lurkers; Muntinga et al., 2011). RQ1 was proposed to understand the prevalent topics and sentiments of posts on r/loseit.",
+        "In addition to describing the content, we sought to investigate how message features predicted online interactions, specifically message popularity and engagement. According to previous health and crisis communication research, certain topics are more likely to be engaging and receive responses in online communities (Sutton et al., 2014;Yang et al., 2018). Message sentiment has also been found to impact popularity and engagement but with mixed empirical evidence. Several studies have supported a positivity bias, as positive messages, which boost the recipients' mood and enhance sharers' public image, were more likely to be well received and commented on (Berger, 2014;Berger & Milkman, 2012;Yang et al., 2018). In contrast, other research has discovered that negative messages draw more attention, receive more reactions from the audience, and are more likely to be transmitted as credible and helpful information (Bebbington et al., 2017;Hornik et al., 2015). Given these mixed results, RQ2 was proposed to examine what topics and sentiments of posts were associated with the endorsement of posts and the propagation of conversations within the ensuing thread on r/loseit.",
+        "At the OSG user level, a few studies have identified the associations between message features (e.g., topics) and users' health outcomes. For example, messages exchanged in QuitNet that featured social support, traditions, and progress were significantly associated with the intention to abstain from smoking whereas other themes (e.g., users' personal stories) were not (Myneni et al., 2015). Applying natural language processing to a large-scale analysis of counseling conversations, Althoff et al. (2016) identified five linguistic features, such as whether counselors responded with surprise, that related to counseling outcomes. Given this, this study investigates what topics and sentiments of posts were associated with a weight change (RQ3)."
+      ],
+      "footnotes": [],
+      "text": "The first objective of the current study was to provide insights into the nature of online communities by analyzing the topics and sentiments of conversations on the subreddit r/loseit. In this analysis, we focused on posts as the unit of analysis, because users who take the time to post are highly involved users and contribute more powerfully to the overall discourse of the subreddit than less involved users (e.g., lurkers; Muntinga et al., 2011). RQ1 was proposed to understand the prevalent topics and sentiments of posts on r/loseit.\n\nIn addition to describing the content, we sought to investigate how message features predicted online interactions, specifically message popularity and engagement. According to previous health and crisis communication research, certain topics are more likely to be engaging and receive responses in online communities (Sutton et al., 2014;Yang et al., 2018). Message sentiment has also been found to impact popularity and engagement but with mixed empirical evidence. Several studies have supported a positivity bias, as positive messages, which boost the recipients' mood and enhance sharers' public image, were more likely to be well received and commented on (Berger, 2014;Berger & Milkman, 2012;Yang et al., 2018). In contrast, other research has discovered that negative messages draw more attention, receive more reactions from the audience, and are more likely to be transmitted as credible and helpful information (Bebbington et al., 2017;Hornik et al., 2015). Given these mixed results, RQ2 was proposed to examine what topics and sentiments of posts were associated with the endorsement of posts and the propagation of conversations within the ensuing thread on r/loseit.\n\nAt the OSG user level, a few studies have identified the associations between message features (e.g., topics) and users' health outcomes. For example, messages exchanged in QuitNet that featured social support, traditions, and progress were significantly associated with the intention to abstain from smoking whereas other themes (e.g., users' personal stories) were not (Myneni et al., 2015). Applying natural language processing to a large-scale analysis of counseling conversations, Althoff et al. (2016) identified five linguistic features, such as whether counselors responded with surprise, that related to counseling outcomes. Given this, this study investigates what topics and sentiments of posts were associated with a weight change (RQ3).",
+      "text_with_footnotes": "The first objective of the current study was to provide insights into the nature of online communities by analyzing the topics and sentiments of conversations on the subreddit r/loseit. In this analysis, we focused on posts as the unit of analysis, because users who take the time to post are highly involved users and contribute more powerfully to the overall discourse of the subreddit than less involved users (e.g., lurkers; Muntinga et al., 2011). RQ1 was proposed to understand the prevalent topics and sentiments of posts on r/loseit.\n\nIn addition to describing the content, we sought to investigate how message features predicted online interactions, specifically message popularity and engagement. According to previous health and crisis communication research, certain topics are more likely to be engaging and receive responses in online communities (Sutton et al., 2014;Yang et al., 2018). Message sentiment has also been found to impact popularity and engagement but with mixed empirical evidence. Several studies have supported a positivity bias, as positive messages, which boost the recipients' mood and enhance sharers' public image, were more likely to be well received and commented on (Berger, 2014;Berger & Milkman, 2012;Yang et al., 2018). In contrast, other research has discovered that negative messages draw more attention, receive more reactions from the audience, and are more likely to be transmitted as credible and helpful information (Bebbington et al., 2017;Hornik et al., 2015). Given these mixed results, RQ2 was proposed to examine what topics and sentiments of posts were associated with the endorsement of posts and the propagation of conversations within the ensuing thread on r/loseit.\n\nAt the OSG user level, a few studies have identified the associations between message features (e.g., topics) and users' health outcomes. For example, messages exchanged in QuitNet that featured social support, traditions, and progress were significantly associated with the intention to abstain from smoking whereas other themes (e.g., users' personal stories) were not (Myneni et al., 2015). Applying natural language processing to a large-scale analysis of counseling conversations, Althoff et al. (2016) identified five linguistic features, such as whether counselors responded with surprise, that related to counseling outcomes. Given this, this study investigates what topics and sentiments of posts were associated with a weight change (RQ3).",
+      "preview_head": "The first objective of the current study was to provide insights into the nature of online communities by analyzing the topics and sentiments of conversations on the subreddit r/loseit. In this analysis, we focused on posts as the unit of analysis, because users who take the time to post are highly involved users and contribute more powerfully to the overall discourse of the subreddit than less involved users (e.g., lurkers; Muntinga et al., 2011). RQ1 was proposed to understand the prevalent topics and sentiments of posts on r/loseit.",
+      "preview_tail": "For example, messages exchanged in QuitNet that featured social support, traditions, and progress were significantly associated with the intention to abstain from smoking whereas other themes (e.g., users' personal stories) were not (Myneni et al., 2015). Applying natural language processing to a large-scale analysis of counseling conversations, Althoff et al. (2016) identified five linguistic features, such as whether counselors responded with surprise, that related to counseling outcomes. Given this, this study investigates what topics and sentiments of posts were associated with a weight change (RQ3).",
+      "word_count": 368,
+      "paragraph_count": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*research\\s+questions?"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*research\\s+questions?",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Method",
+      "header_norm": "method",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Data collection",
+      "header_norm": "data collection",
+      "container_raw": "Method",
+      "container_norm": "method",
+      "is_container": false,
+      "paragraphs": [
+        "Data were collected on a weekly basis from April 19, 2019 to February 28, 2020, using the R package \"RedditExtractoR\". The information collected for each post included the written content, date of submission, upvoted post score, number of responsive comments within the post's thread, usernames of those who posted, and the flair with the weight information associated with each username at the time of posting. In total, 21,154 unique posts were analyzed."
+      ],
+      "footnotes": [],
+      "text": "Data were collected on a weekly basis from April 19, 2019 to February 28, 2020, using the R package \"RedditExtractoR\". The information collected for each post included the written content, date of submission, upvoted post score, number of responsive comments within the post's thread, usernames of those who posted, and the flair with the weight information associated with each username at the time of posting. In total, 21,154 unique posts were analyzed.",
+      "text_with_footnotes": "Data were collected on a weekly basis from April 19, 2019 to February 28, 2020, using the R package \"RedditExtractoR\". The information collected for each post included the written content, date of submission, upvoted post score, number of responsive comments within the post's thread, usernames of those who posted, and the flair with the weight information associated with each username at the time of posting. In total, 21,154 unique posts were analyzed.",
+      "preview_head": "Data were collected on a weekly basis from April 19, 2019 to February 28, 2020, using the R package \"RedditExtractoR\". The information collected for each post included the written content, date of submission, upvoted post score, number of responsive comments within the post's thread, usernames of those who posted, and the flair with the weight information associated with each username at the time of posting. In total, 21,154 unique posts were analyzed.",
+      "preview_tail": "Data were collected on a weekly basis from April 19, 2019 to February 28, 2020, using the R package \"RedditExtractoR\". The information collected for each post included the written content, date of submission, upvoted post score, number of responsive comments within the post's thread, usernames of those who posted, and the flair with the weight information associated with each username at the time of posting. In total, 21,154 unique posts were analyzed.",
+      "word_count": 72,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*data\\s+(collection|sources"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*data\\s+(collection|sources",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Measures",
+      "header_norm": "measures",
+      "container_raw": "Method",
+      "container_norm": "method",
+      "is_container": false,
+      "paragraphs": [
+        "The message popularity and engagement were operationalized as the post score (i.e., number of upvotes minus downvotes by users) and the number of comments, respectively. To extract quantitative information about users' weight from their flairs, their self-reported starting weight, current weight, and weight loss (all in pounds) at all time points were parsed using regular expressions in Java. In total, 6,331 users who reported at least two valid flairs were retained in this data set. A Supplementary Material includes details for the data collection, measures, additional results, and figures for this project."
+      ],
+      "footnotes": [],
+      "text": "The message popularity and engagement were operationalized as the post score (i.e., number of upvotes minus downvotes by users) and the number of comments, respectively. To extract quantitative information about users' weight from their flairs, their self-reported starting weight, current weight, and weight loss (all in pounds) at all time points were parsed using regular expressions in Java. In total, 6,331 users who reported at least two valid flairs were retained in this data set. A Supplementary Material includes details for the data collection, measures, additional results, and figures for this project.",
+      "text_with_footnotes": "The message popularity and engagement were operationalized as the post score (i.e., number of upvotes minus downvotes by users) and the number of comments, respectively. To extract quantitative information about users' weight from their flairs, their self-reported starting weight, current weight, and weight loss (all in pounds) at all time points were parsed using regular expressions in Java. In total, 6,331 users who reported at least two valid flairs were retained in this data set. A Supplementary Material includes details for the data collection, measures, additional results, and figures for this project.",
+      "preview_head": "The message popularity and engagement were operationalized as the post score (i.e., number of upvotes minus downvotes by users) and the number of comments, respectively. To extract quantitative information about users' weight from their flairs, their self-reported starting weight, current weight, and weight loss (all in pounds) at all time points were parsed using regular expressions in Java. In total, 6,331 users who reported at least two valid flairs were retained in this data set. A Supplementary Material includes details for the data collection, measures, additional results, and figures for this project.",
+      "preview_tail": "The message popularity and engagement were operationalized as the post score (i.e., number of upvotes minus downvotes by users) and the number of comments, respectively. To extract quantitative information about users' weight from their flairs, their self-reported starting weight, current weight, and weight loss (all in pounds) at all time points were parsed using regular expressions in Java. In total, 6,331 users who reported at least two valid flairs were retained in this data set. A Supplementary Material includes details for the data collection, measures, additional results, and figures for this project.",
+      "word_count": 92,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*measures?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*measures?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Mixed-method analyses",
+      "header_norm": "mixed method analyses",
+      "container_raw": "Method",
+      "container_norm": "method",
+      "is_container": false,
+      "paragraphs": [
+        "We analyzed the prevalent themes of r/loseit posts using topic modeling with the \"stm\" package in R (Roberts et al., 2019) to identify major topics on r/loseit and estimate the proportion of each topic's occurrence. All texts were first preprocessed following the standard and validated procedure (Maier et al., 2018). We followed a three-step approach (see Supplementary Material and Table 1 for details) to optimize and validate the topic model to answer RQ1. Sentiment analysis, a technique for quantifying the valence of a string of words, was conducted based on the Bing lexicon using the R package \"tidytext\" (Silge et al., 2016). We modified the lexicon for this specific context and generated the positive and negative sentiment post scores for each post using the customized Bing lexicon. To answer RQ3, we aggregated the post data and combined them with the flair data prepared in earlier steps by the same user and conducted analyses at the user level. The nonparametric bootstrapping approach was implemented to answer RQs 2 and 3."
+      ],
+      "footnotes": [],
+      "text": "We analyzed the prevalent themes of r/loseit posts using topic modeling with the \"stm\" package in R (Roberts et al., 2019) to identify major topics on r/loseit and estimate the proportion of each topic's occurrence. All texts were first preprocessed following the standard and validated procedure (Maier et al., 2018). We followed a three-step approach (see Supplementary Material and Table 1 for details) to optimize and validate the topic model to answer RQ1. Sentiment analysis, a technique for quantifying the valence of a string of words, was conducted based on the Bing lexicon using the R package \"tidytext\" (Silge et al., 2016). We modified the lexicon for this specific context and generated the positive and negative sentiment post scores for each post using the customized Bing lexicon. To answer RQ3, we aggregated the post data and combined them with the flair data prepared in earlier steps by the same user and conducted analyses at the user level. The nonparametric bootstrapping approach was implemented to answer RQs 2 and 3.",
+      "text_with_footnotes": "We analyzed the prevalent themes of r/loseit posts using topic modeling with the \"stm\" package in R (Roberts et al., 2019) to identify major topics on r/loseit and estimate the proportion of each topic's occurrence. All texts were first preprocessed following the standard and validated procedure (Maier et al., 2018). We followed a three-step approach (see Supplementary Material and Table 1 for details) to optimize and validate the topic model to answer RQ1. Sentiment analysis, a technique for quantifying the valence of a string of words, was conducted based on the Bing lexicon using the R package \"tidytext\" (Silge et al., 2016). We modified the lexicon for this specific context and generated the positive and negative sentiment post scores for each post using the customized Bing lexicon. To answer RQ3, we aggregated the post data and combined them with the flair data prepared in earlier steps by the same user and conducted analyses at the user level. The nonparametric bootstrapping approach was implemented to answer RQs 2 and 3.",
+      "preview_head": "We analyzed the prevalent themes of r/loseit posts using topic modeling with the \"stm\" package in R (Roberts et al., 2019) to identify major topics on r/loseit and estimate the proportion of each topic's occurrence. All texts were first preprocessed following the standard and validated procedure (Maier et al., 2018). We followed a three-step approach (see Supplementary Material and Table 1 for details) to optimize and validate the topic model to answer RQ1.",
+      "preview_tail": "We modified the lexicon for this specific context and generated the positive and negative sentiment post scores for each post using the customized Bing lexicon. To answer RQ3, we aggregated the post data and combined them with the flair data prepared in earlier steps by the same user and conducted analyses at the user level. The nonparametric bootstrapping approach was implemented to answer RQs 2 and 3.",
+      "word_count": 169,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the analytic procedures, including topic modeling, sentiment analysis, and da"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "RQ1: Topics and sentiments",
+      "header_norm": "rq1 topics and sentiments",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "We labeled the 28 weight-related topics and categorized them into seven general themes for interpretation purposes (see Supplementary Material and Table 2 for details), which answered RQ1. Among the 21,154 unique r/loseit posts, 21,082 (99.7%) contained at least one sentiment word. Specifically, 19,881 posts contained at least one positive word, with positive sentiment post score ranging from 0 to 109 (M ¼ 4.46, Mdn ¼ 3.00, SD ¼ 4.26), and 20,596 posts contained at least one negative word, with negative sentiment post score ranging from 1 to 111 (M ¼ 6.68, Mdn ¼ 5.00, SD ¼ 6.11). The majority of posts (63.5%) contained more negative sentiments than positive sentiments, and 10.1% of the posts contained equal amounts of positive and negative sentiments."
+      ],
+      "footnotes": [],
+      "text": "We labeled the 28 weight-related topics and categorized them into seven general themes for interpretation purposes (see Supplementary Material and Table 2 for details), which answered RQ1. Among the 21,154 unique r/loseit posts, 21,082 (99.7%) contained at least one sentiment word. Specifically, 19,881 posts contained at least one positive word, with positive sentiment post score ranging from 0 to 109 (M ¼ 4.46, Mdn ¼ 3.00, SD ¼ 4.26), and 20,596 posts contained at least one negative word, with negative sentiment post score ranging from 1 to 111 (M ¼ 6.68, Mdn ¼ 5.00, SD ¼ 6.11). The majority of posts (63.5%) contained more negative sentiments than positive sentiments, and 10.1% of the posts contained equal amounts of positive and negative sentiments.",
+      "text_with_footnotes": "We labeled the 28 weight-related topics and categorized them into seven general themes for interpretation purposes (see Supplementary Material and Table 2 for details), which answered RQ1. Among the 21,154 unique r/loseit posts, 21,082 (99.7%) contained at least one sentiment word. Specifically, 19,881 posts contained at least one positive word, with positive sentiment post score ranging from 0 to 109 (M ¼ 4.46, Mdn ¼ 3.00, SD ¼ 4.26), and 20,596 posts contained at least one negative word, with negative sentiment post score ranging from 1 to 111 (M ¼ 6.68, Mdn ¼ 5.00, SD ¼ 6.11). The majority of posts (63.5%) contained more negative sentiments than positive sentiments, and 10.1% of the posts contained equal amounts of positive and negative sentiments.",
+      "preview_head": "We labeled the 28 weight-related topics and categorized them into seven general themes for interpretation purposes (see Supplementary Material and Table 2 for details), which answered RQ1. Among the 21,154 unique r/loseit posts, 21,082 (99.7%) contained at least one sentiment word. Specifically, 19,881 posts contained at least one positive word, with positive sentiment post score ranging from 0 to 109 (M ¼ 4.46, Mdn ¼ 3.00, SD ¼ 4.26), and 20,596 posts contained at least one negative word, with negative sentiment post score ranging from 1 to 111 (M ¼ 6.68, Mdn ¼ 5.00, SD ¼ 6.11).",
+      "preview_tail": "Among the 21,154 unique r/loseit posts, 21,082 (99.7%) contained at least one sentiment word. Specifically, 19,881 posts contained at least one positive word, with positive sentiment post score ranging from 0 to 109 (M ¼ 4.46, Mdn ¼ 3.00, SD ¼ 4.26), and 20,596 posts contained at least one negative word, with negative sentiment post score ranging from 1 to 111 (M ¼ 6.68, Mdn ¼ 5.00, SD ¼ 6.11). The majority of posts (63.5%) contained more negative sentiments than positive sentiments, and 10.1% of the posts contained equal amounts of positive and negative sentiments.",
+      "word_count": 122,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the findings for RQ1, including the number of topics, themes, and sentiment di"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "RQ2: Topic and sentiments predicting post score and number of comments",
+      "header_norm": "rq2 topic and sentiments predicting post score and number of comments",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "To answer RQ2, several topics were found to be significantly associated with post score and the number of comments, after controlling for the length of the posts (see Table 3 for details). Specifically, post score was positively predicted by cheat meal (B ¼ 28.81, p < .001), emotional or stress eating (B ¼ 32.79, p < .001), workout plan (B ¼ 23.64, p < .001), goal setting and progress (B ¼ 11.60, p < .05), life events (B ¼ 14.43, p < .001), body image (B ¼ 29.12, p < .001), clothing size (B ¼ 24.98, p < .001), motivation (B ¼ 28.51, p < .001), advice management (B ¼ 37.36, p < .001), and negatively by eating disorder (B ¼ À23.27, p < .001), weekly reports (B ¼ À19.44, p < .001), and medication (B ¼ À13.52, p < .001). Regarding the number of comments as the outcome, cheat meal (B ¼ 1.30, p < .05), job-related weight concern (B ¼ 3.39, p < .001), body image (B ¼ 1.27, p < .01), advice management (B ¼ 4.75, p < .001), and other's comments (B ¼ 0.79, p < .05) were positive predictors, whereas eating disorder (B ¼ À2.16, p < .001), muscle training (B ¼ À0.72, p < .05), goal setting and progress (B ¼ À1.01, p < .01), weekly reports (B ¼ À1.68, p < .001), and workout team competition updates (B ¼ À0.71, p < .01) were negative predictors. Furthermore, the post score was associated with positive sentiments (B ¼ 34.76, p < .01), whereas the number of comments was associated with negative sentiments (B ¼ 1.53, p < .01)."
+      ],
+      "footnotes": [],
+      "text": "To answer RQ2, several topics were found to be significantly associated with post score and the number of comments, after controlling for the length of the posts (see Table 3 for details). Specifically, post score was positively predicted by cheat meal (B ¼ 28.81, p < .001), emotional or stress eating (B ¼ 32.79, p < .001), workout plan (B ¼ 23.64, p < .001), goal setting and progress (B ¼ 11.60, p < .05), life events (B ¼ 14.43, p < .001), body image (B ¼ 29.12, p < .001), clothing size (B ¼ 24.98, p < .001), motivation (B ¼ 28.51, p < .001), advice management (B ¼ 37.36, p < .001), and negatively by eating disorder (B ¼ À23.27, p < .001), weekly reports (B ¼ À19.44, p < .001), and medication (B ¼ À13.52, p < .001). Regarding the number of comments as the outcome, cheat meal (B ¼ 1.30, p < .05), job-related weight concern (B ¼ 3.39, p < .001), body image (B ¼ 1.27, p < .01), advice management (B ¼ 4.75, p < .001), and other's comments (B ¼ 0.79, p < .05) were positive predictors, whereas eating disorder (B ¼ À2.16, p < .001), muscle training (B ¼ À0.72, p < .05), goal setting and progress (B ¼ À1.01, p < .01), weekly reports (B ¼ À1.68, p < .001), and workout team competition updates (B ¼ À0.71, p < .01) were negative predictors. Furthermore, the post score was associated with positive sentiments (B ¼ 34.76, p < .01), whereas the number of comments was associated with negative sentiments (B ¼ 1.53, p < .01).",
+      "text_with_footnotes": "To answer RQ2, several topics were found to be significantly associated with post score and the number of comments, after controlling for the length of the posts (see Table 3 for details). Specifically, post score was positively predicted by cheat meal (B ¼ 28.81, p < .001), emotional or stress eating (B ¼ 32.79, p < .001), workout plan (B ¼ 23.64, p < .001), goal setting and progress (B ¼ 11.60, p < .05), life events (B ¼ 14.43, p < .001), body image (B ¼ 29.12, p < .001), clothing size (B ¼ 24.98, p < .001), motivation (B ¼ 28.51, p < .001), advice management (B ¼ 37.36, p < .001), and negatively by eating disorder (B ¼ À23.27, p < .001), weekly reports (B ¼ À19.44, p < .001), and medication (B ¼ À13.52, p < .001). Regarding the number of comments as the outcome, cheat meal (B ¼ 1.30, p < .05), job-related weight concern (B ¼ 3.39, p < .001), body image (B ¼ 1.27, p < .01), advice management (B ¼ 4.75, p < .001), and other's comments (B ¼ 0.79, p < .05) were positive predictors, whereas eating disorder (B ¼ À2.16, p < .001), muscle training (B ¼ À0.72, p < .05), goal setting and progress (B ¼ À1.01, p < .01), weekly reports (B ¼ À1.68, p < .001), and workout team competition updates (B ¼ À0.71, p < .01) were negative predictors. Furthermore, the post score was associated with positive sentiments (B ¼ 34.76, p < .01), whereas the number of comments was associated with negative sentiments (B ¼ 1.53, p < .01).",
+      "preview_head": "To answer RQ2, several topics were found to be significantly associated with post score and the number of comments, after controlling for the length of the posts (see Table 3 for details). Specifically, post score was positively predicted by cheat meal (B ¼ 28.81, p < .001), emotional or stress eating (B ¼ 32.79, p < .001), workout plan (B ¼ 23.64, p < .001), goal setting and progress (B ¼ 11.60, p < .05), life events (B ¼ 14.43, p < .001), body image (B ¼ 29.12, p < .001), clothing size (B ¼ 24.98, p < .001), motivation (B ¼ 28.51, p < .001), advice management (B ¼ 37.36, p < .001), and negatively by eating disorder (B ¼ À23.27, p < .001), weekly reports (B ¼ À19.44, p < .001), and medication (B ¼ À13.52, p < .001). Regarding the number of comments as the outcome, cheat meal (B ¼ 1.30, p < .05), job-related weight concern (B ¼ 3.39, p < .001), body image (B ¼ 1.27, p < .01), advice management (B ¼ 4.75, p < .001), and other's comments (B ¼ 0.79, p < .05) were positive predictors, whereas eating disorder (B ¼ À2.16, p < .001), muscle training (B ¼ À0.72, p < .05), goal setting and progress (B ¼ À1.01, p < .01), weekly reports (B ¼ À1.68, p < .001), and workout team competition updates (B ¼ À0.71, p < .01) were negative predictors.",
+      "preview_tail": "Specifically, post score was positively predicted by cheat meal (B ¼ 28.81, p < .001), emotional or stress eating (B ¼ 32.79, p < .001), workout plan (B ¼ 23.64, p < .001), goal setting and progress (B ¼ 11.60, p < .05), life events (B ¼ 14.43, p < .001), body image (B ¼ 29.12, p < .001), clothing size (B ¼ 24.98, p < .001), motivation (B ¼ 28.51, p < .001), advice management (B ¼ 37.36, p < .001), and negatively by eating disorder (B ¼ À23.27, p < .001), weekly reports (B ¼ À19.44, p < .001), and medication (B ¼ À13.52, p < .001). Regarding the number of comments as the outcome, cheat meal (B ¼ 1.30, p < .05), job-related weight concern (B ¼ 3.39, p < .001), body image (B ¼ 1.27, p < .01), advice management (B ¼ 4.75, p < .001), and other's comments (B ¼ 0.79, p < .05) were positive predictors, whereas eating disorder (B ¼ À2.16, p < .001), muscle training (B ¼ À0.72, p < .05), goal setting and progress (B ¼ À1.01, p < .01), weekly reports (B ¼ À1.68, p < .001), and workout team competition updates (B ¼ À0.71, p < .01) were negative predictors. Furthermore, the post score was associated with positive sentiments (B ¼ 34.76, p < .01), whereas the number of comments was associated with negative sentiments (B ¼ 1.53, p < .01).",
+      "word_count": 274,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports statistical findings for RQ2, including which topics and sentiments predict po"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "RQ3: Topic and sentiments predicting weight loss",
+      "header_norm": "rq3 topic and sentiments predicting weight loss",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "To address RQ3, the bootstrapping approach was performed given the Leptokurtic distribution of weight loss, and the number of days between T1 and T2 and the number of posts by each user were controlled in the bootstrapped model. Results showed that the topic goal setting and progress (B ¼ 3.10, p < .001) was positively associated with the user's self-reported weight loss (see Table 3 for details). To probe the association between the goal setting and progress topic and weight loss, we conducted a post hoc analysis examining the extent to which the significant association might be moderated by user engagement (i.e., post score, number of comments) from other users. Results indicated a significant three-way interaction between topic, comments, and post score (B ¼ À0.88 [95% CI: À2.33 to À0.08] , p ¼ .03). Figure 1 decomposes this three-way interaction effect, revealing that the positive association between the topic (i.e., goal setting and progress) and weight loss was stronger when the engagement was higher."
+      ],
+      "footnotes": [],
+      "text": "To address RQ3, the bootstrapping approach was performed given the Leptokurtic distribution of weight loss, and the number of days between T1 and T2 and the number of posts by each user were controlled in the bootstrapped model. Results showed that the topic goal setting and progress (B ¼ 3.10, p < .001) was positively associated with the user's self-reported weight loss (see Table 3 for details). To probe the association between the goal setting and progress topic and weight loss, we conducted a post hoc analysis examining the extent to which the significant association might be moderated by user engagement (i.e., post score, number of comments) from other users. Results indicated a significant three-way interaction between topic, comments, and post score (B ¼ À0.88 [95% CI: À2.33 to À0.08] , p ¼ .03). Figure 1 decomposes this three-way interaction effect, revealing that the positive association between the topic (i.e., goal setting and progress) and weight loss was stronger when the engagement was higher.",
+      "text_with_footnotes": "To address RQ3, the bootstrapping approach was performed given the Leptokurtic distribution of weight loss, and the number of days between T1 and T2 and the number of posts by each user were controlled in the bootstrapped model. Results showed that the topic goal setting and progress (B ¼ 3.10, p < .001) was positively associated with the user's self-reported weight loss (see Table 3 for details). To probe the association between the goal setting and progress topic and weight loss, we conducted a post hoc analysis examining the extent to which the significant association might be moderated by user engagement (i.e., post score, number of comments) from other users. Results indicated a significant three-way interaction between topic, comments, and post score (B ¼ À0.88 [95% CI: À2.33 to À0.08] , p ¼ .03). Figure 1 decomposes this three-way interaction effect, revealing that the positive association between the topic (i.e., goal setting and progress) and weight loss was stronger when the engagement was higher.",
+      "preview_head": "To address RQ3, the bootstrapping approach was performed given the Leptokurtic distribution of weight loss, and the number of days between T1 and T2 and the number of posts by each user were controlled in the bootstrapped model. Results showed that the topic goal setting and progress (B ¼ 3.10, p < .001) was positively associated with the user's self-reported weight loss (see Table 3 for details). To probe the association between the goal setting and progress topic and weight loss, we conducted a post hoc analysis examining the extent to which the significant association might be moderated by user engagement (i.e., post score, number of comments) from other users.",
+      "preview_tail": "To probe the association between the goal setting and progress topic and weight loss, we conducted a post hoc analysis examining the extent to which the significant association might be moderated by user engagement (i.e., post score, number of comments) from other users. Results indicated a significant three-way interaction between topic, comments, and post score (B ¼ À0.88 [95% CI: À2.33 to À0.08] , p ¼ .03). Figure 1 decomposes this three-way interaction effect, revealing that the positive association between the topic (i.e., goal setting and progress) and weight loss was stronger when the engagement was higher.",
+      "word_count": 164,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the results for RQ3, including statistical associations between topics/sentime"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 1.0,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Discussion",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "By computationally analyzing a corpus of posts on r/loseit spanning 10 months, our study identified 28 unique topics appearing on the weight loss OSG, among which 12 significantly predicted post score, 11 predicted the number of comments, and one predicted users' weight loss. The topic modeling results indicated that users are not only interested in losing weight per se but also in related upstream (e.g., motivation, goal setting) and downstream (e.g., body image, clothing size) topics. Messages regarding physical exercise, appearance, motivation, and interpersonal communication were generally applauded, whereas reports and weight-related health conditions were less favored by the audience. Posts regarding interpersonal communication, such as managing weightrelated advice, tended to promote conversations within a thread, reflecting Reddit's affordances of being both an SNS and discussion forum.",
+        "The pattern of identifying a higher volume of negative than positive sentiments in this study is consistent with previous sentiment analysis of weight-related posts on other SNS (e.g., Twitter; Kent et al., 2016). Posts with positive sentiments were more likely to receive upvotes, which shows consistency with the positivity bias (Berger & Milkman, 2012;Kim, 2015), and suggests r/loseit users' desire for positive energy that keeps fueling them in the weight loss journey. However, posts with negative sentiment facilitated the generation of comments, which supports the negativity bias (Bebbington et al., 2017;Hornik et al., 2015). Viewed holistically, the empirical evidence from the current study suggests the independence of posts' popularity and engagement and that negative topics could be the catalyst for online discussion.",
+        "One primary finding is that including goal setting and progress in posts significantly predicted weight loss. This finding can be understood through the lens of social cognitive theory (SCT; Bandura, 1986). By enabling users to publish their goals and progress, r/loseit enables users to self-regulate their behaviors and track their progress in a way that holds them accountable to other OSG users, which is conducive to their weight loss. Another plausible explanation, especially in a visible online context, is a public commitment (Knox & Inkster, 1968). According to Knox and Inkster (1968), public commitment strengthens individual confidence in the desired action and subsequently increases their motivation to follow through with the committed action. When users post their weight loss goals and report their progress on an open SNS, they are publicizing their commitment to their goals and a stronger motivation to enact the goal may follow (Knox & Inkster, 1968). Indeed, Nyer and Dellande (2010) found that public commitments resulted in subsequent weight loss. Building off the self-perception theory, Bem (1972) argued that when individuals made a public presentation of their attitudes and belief, the public presentations motivated the individual to engage in behaviors that characteristically imply their embracement and support of the beliefs. Several experiments built upon the selfperception theory have demonstrated that public commitment to a goal or a cause serves as an important prerequisite for subsequent behaviors (e.g., Kelly & Rodriguez, 2006;Vaidyanathan & Aggarwal, 2005).",
+        "Relatedly, we found that as users' posts about goal setting and progress increased in public engagement (i.e., as post score and the number of comments increased), users reported greater weight loss in future flair updates. SCT posits that an individual, behavior, and environment continually interact to influence behavior in a triadic and reciprocal manner (Bandura, 1986). Presumably, the publicly available metadata (i.e., post score, comments) that indicate other users' engagement and reflect social norms would enhance the poster's self-efficacy and perceived social support as predictors of weight loss (Burke et al., 2015;Cavallo et al., 2012), providing guidance to future social media-based weight loss intervention design. Finally, in line with previous studies (Mo & Coulson, 2010;Muntinga et al., 2011), this research shows that content creators, who demonstrate the highest level of"
+      ],
+      "footnotes": [],
+      "text": "By computationally analyzing a corpus of posts on r/loseit spanning 10 months, our study identified 28 unique topics appearing on the weight loss OSG, among which 12 significantly predicted post score, 11 predicted the number of comments, and one predicted users' weight loss. The topic modeling results indicated that users are not only interested in losing weight per se but also in related upstream (e.g., motivation, goal setting) and downstream (e.g., body image, clothing size) topics. Messages regarding physical exercise, appearance, motivation, and interpersonal communication were generally applauded, whereas reports and weight-related health conditions were less favored by the audience. Posts regarding interpersonal communication, such as managing weightrelated advice, tended to promote conversations within a thread, reflecting Reddit's affordances of being both an SNS and discussion forum.\n\nThe pattern of identifying a higher volume of negative than positive sentiments in this study is consistent with previous sentiment analysis of weight-related posts on other SNS (e.g., Twitter; Kent et al., 2016). Posts with positive sentiments were more likely to receive upvotes, which shows consistency with the positivity bias (Berger & Milkman, 2012;Kim, 2015), and suggests r/loseit users' desire for positive energy that keeps fueling them in the weight loss journey. However, posts with negative sentiment facilitated the generation of comments, which supports the negativity bias (Bebbington et al., 2017;Hornik et al., 2015). Viewed holistically, the empirical evidence from the current study suggests the independence of posts' popularity and engagement and that negative topics could be the catalyst for online discussion.\n\nOne primary finding is that including goal setting and progress in posts significantly predicted weight loss. This finding can be understood through the lens of social cognitive theory (SCT; Bandura, 1986). By enabling users to publish their goals and progress, r/loseit enables users to self-regulate their behaviors and track their progress in a way that holds them accountable to other OSG users, which is conducive to their weight loss. Another plausible explanation, especially in a visible online context, is a public commitment (Knox & Inkster, 1968). According to Knox and Inkster (1968), public commitment strengthens individual confidence in the desired action and subsequently increases their motivation to follow through with the committed action. When users post their weight loss goals and report their progress on an open SNS, they are publicizing their commitment to their goals and a stronger motivation to enact the goal may follow (Knox & Inkster, 1968). Indeed, Nyer and Dellande (2010) found that public commitments resulted in subsequent weight loss. Building off the self-perception theory, Bem (1972) argued that when individuals made a public presentation of their attitudes and belief, the public presentations motivated the individual to engage in behaviors that characteristically imply their embracement and support of the beliefs. Several experiments built upon the selfperception theory have demonstrated that public commitment to a goal or a cause serves as an important prerequisite for subsequent behaviors (e.g., Kelly & Rodriguez, 2006;Vaidyanathan & Aggarwal, 2005).\n\nRelatedly, we found that as users' posts about goal setting and progress increased in public engagement (i.e., as post score and the number of comments increased), users reported greater weight loss in future flair updates. SCT posits that an individual, behavior, and environment continually interact to influence behavior in a triadic and reciprocal manner (Bandura, 1986). Presumably, the publicly available metadata (i.e., post score, comments) that indicate other users' engagement and reflect social norms would enhance the poster's self-efficacy and perceived social support as predictors of weight loss (Burke et al., 2015;Cavallo et al., 2012), providing guidance to future social media-based weight loss intervention design. Finally, in line with previous studies (Mo & Coulson, 2010;Muntinga et al., 2011), this research shows that content creators, who demonstrate the highest level of",
+      "text_with_footnotes": "By computationally analyzing a corpus of posts on r/loseit spanning 10 months, our study identified 28 unique topics appearing on the weight loss OSG, among which 12 significantly predicted post score, 11 predicted the number of comments, and one predicted users' weight loss. The topic modeling results indicated that users are not only interested in losing weight per se but also in related upstream (e.g., motivation, goal setting) and downstream (e.g., body image, clothing size) topics. Messages regarding physical exercise, appearance, motivation, and interpersonal communication were generally applauded, whereas reports and weight-related health conditions were less favored by the audience. Posts regarding interpersonal communication, such as managing weightrelated advice, tended to promote conversations within a thread, reflecting Reddit's affordances of being both an SNS and discussion forum.\n\nThe pattern of identifying a higher volume of negative than positive sentiments in this study is consistent with previous sentiment analysis of weight-related posts on other SNS (e.g., Twitter; Kent et al., 2016). Posts with positive sentiments were more likely to receive upvotes, which shows consistency with the positivity bias (Berger & Milkman, 2012;Kim, 2015), and suggests r/loseit users' desire for positive energy that keeps fueling them in the weight loss journey. However, posts with negative sentiment facilitated the generation of comments, which supports the negativity bias (Bebbington et al., 2017;Hornik et al., 2015). Viewed holistically, the empirical evidence from the current study suggests the independence of posts' popularity and engagement and that negative topics could be the catalyst for online discussion.\n\nOne primary finding is that including goal setting and progress in posts significantly predicted weight loss. This finding can be understood through the lens of social cognitive theory (SCT; Bandura, 1986). By enabling users to publish their goals and progress, r/loseit enables users to self-regulate their behaviors and track their progress in a way that holds them accountable to other OSG users, which is conducive to their weight loss. Another plausible explanation, especially in a visible online context, is a public commitment (Knox & Inkster, 1968). According to Knox and Inkster (1968), public commitment strengthens individual confidence in the desired action and subsequently increases their motivation to follow through with the committed action. When users post their weight loss goals and report their progress on an open SNS, they are publicizing their commitment to their goals and a stronger motivation to enact the goal may follow (Knox & Inkster, 1968). Indeed, Nyer and Dellande (2010) found that public commitments resulted in subsequent weight loss. Building off the self-perception theory, Bem (1972) argued that when individuals made a public presentation of their attitudes and belief, the public presentations motivated the individual to engage in behaviors that characteristically imply their embracement and support of the beliefs. Several experiments built upon the selfperception theory have demonstrated that public commitment to a goal or a cause serves as an important prerequisite for subsequent behaviors (e.g., Kelly & Rodriguez, 2006;Vaidyanathan & Aggarwal, 2005).\n\nRelatedly, we found that as users' posts about goal setting and progress increased in public engagement (i.e., as post score and the number of comments increased), users reported greater weight loss in future flair updates. SCT posits that an individual, behavior, and environment continually interact to influence behavior in a triadic and reciprocal manner (Bandura, 1986). Presumably, the publicly available metadata (i.e., post score, comments) that indicate other users' engagement and reflect social norms would enhance the poster's self-efficacy and perceived social support as predictors of weight loss (Burke et al., 2015;Cavallo et al., 2012), providing guidance to future social media-based weight loss intervention design. Finally, in line with previous studies (Mo & Coulson, 2010;Muntinga et al., 2011), this research shows that content creators, who demonstrate the highest level of",
+      "preview_head": "By computationally analyzing a corpus of posts on r/loseit spanning 10 months, our study identified 28 unique topics appearing on the weight loss OSG, among which 12 significantly predicted post score, 11 predicted the number of comments, and one predicted users' weight loss. The topic modeling results indicated that users are not only interested in losing weight per se but also in related upstream (e.g., motivation, goal setting) and downstream (e.g., body image, clothing size) topics. Messages regarding physical exercise, appearance, motivation, and interpersonal communication were generally applauded, whereas reports and weight-related health conditions were less favored by the audience.",
+      "preview_tail": "SCT posits that an individual, behavior, and environment continually interact to influence behavior in a triadic and reciprocal manner (Bandura, 1986). Presumably, the publicly available metadata (i.e., post score, comments) that indicate other users' engagement and reflect social norms would enhance the poster's self-efficacy and perceived social support as predictors of weight loss (Burke et al., 2015;Cavallo et al., 2012), providing guidance to future social media-based weight loss intervention design. Finally, in line with previous studies (Mo & Coulson, 2010;Muntinga et al., 2011), this research shows that content creators, who demonstrate the highest level of",
+      "word_count": 617,
+      "paragraph_count": 4,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*discussion\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*discussion\\s*$",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Limitations and future research",
+      "header_norm": "limitations and future research",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Despite the study's findings, several limitations should be noted. First, we customized the Bing lexicon to enhance the validity of sentiment analysis in this specific context, e.g., by treating \"weight loss\" as a positively valenced term. We think this is a sensible assumption given the purpose of this OSG, but it may not accurately reflect how all users perceive weight loss, and this choice could also conflate sentiment with weight loss (although the lack of a significant association between positive sentiment and weight loss mitigates this concern somewhat). Second, the current study did not examine OSG users other than creators, who are most likely to reap benefits from participation in the OSGs (Mo & Coulson, 2010;Muntinga et al., 2011), nor did we analyze the dynamism of interactive conversations. Future research is encouraged to Note. The number of days between T1 and T2, the number of posts by each user, and the length of each post were controlled in the bootstrapped models. The range of VIFs for each regression analysis was 1.13 to 6.14 (M ¼ 2.94) when predicting the post score and the number of comments and was 1.06 to 4.02 (M ¼ 2.33) when predicting the self-reported weight loss, which mitigated our concern about multicollinearity. To enhance the predictability of our results, the predictors were standardized prior to analysis, and thus the regression coefficients represent the amount of change predicted in the dependent variable given one standard deviation change in the predictor. Topic 15 was not analyzed as a predictor to avoid multicollinearity. * p < .05, ** p < .01, *** p < .001.",
+        "examine the groups of less active users (e.g., lurkers, commenters) and the role of other interactivity dimensions, such as contingency and flow, on users' health outcomes. Finally, given the ongoing debate around the theoretical nature of individual topics (DiMaggio et al., 2013;Van Gorp, 2007;Walter & Ophir, 2019), we presented the analyzed elements as \"topics\" directly. Future research may continue to explore the exact theoretical meaning of such linguistic devices."
+      ],
+      "footnotes": [],
+      "text": "Despite the study's findings, several limitations should be noted. First, we customized the Bing lexicon to enhance the validity of sentiment analysis in this specific context, e.g., by treating \"weight loss\" as a positively valenced term. We think this is a sensible assumption given the purpose of this OSG, but it may not accurately reflect how all users perceive weight loss, and this choice could also conflate sentiment with weight loss (although the lack of a significant association between positive sentiment and weight loss mitigates this concern somewhat). Second, the current study did not examine OSG users other than creators, who are most likely to reap benefits from participation in the OSGs (Mo & Coulson, 2010;Muntinga et al., 2011), nor did we analyze the dynamism of interactive conversations. Future research is encouraged to Note. The number of days between T1 and T2, the number of posts by each user, and the length of each post were controlled in the bootstrapped models. The range of VIFs for each regression analysis was 1.13 to 6.14 (M ¼ 2.94) when predicting the post score and the number of comments and was 1.06 to 4.02 (M ¼ 2.33) when predicting the self-reported weight loss, which mitigated our concern about multicollinearity. To enhance the predictability of our results, the predictors were standardized prior to analysis, and thus the regression coefficients represent the amount of change predicted in the dependent variable given one standard deviation change in the predictor. Topic 15 was not analyzed as a predictor to avoid multicollinearity. * p < .05, ** p < .01, *** p < .001.\n\nexamine the groups of less active users (e.g., lurkers, commenters) and the role of other interactivity dimensions, such as contingency and flow, on users' health outcomes. Finally, given the ongoing debate around the theoretical nature of individual topics (DiMaggio et al., 2013;Van Gorp, 2007;Walter & Ophir, 2019), we presented the analyzed elements as \"topics\" directly. Future research may continue to explore the exact theoretical meaning of such linguistic devices.",
+      "text_with_footnotes": "Despite the study's findings, several limitations should be noted. First, we customized the Bing lexicon to enhance the validity of sentiment analysis in this specific context, e.g., by treating \"weight loss\" as a positively valenced term. We think this is a sensible assumption given the purpose of this OSG, but it may not accurately reflect how all users perceive weight loss, and this choice could also conflate sentiment with weight loss (although the lack of a significant association between positive sentiment and weight loss mitigates this concern somewhat). Second, the current study did not examine OSG users other than creators, who are most likely to reap benefits from participation in the OSGs (Mo & Coulson, 2010;Muntinga et al., 2011), nor did we analyze the dynamism of interactive conversations. Future research is encouraged to Note. The number of days between T1 and T2, the number of posts by each user, and the length of each post were controlled in the bootstrapped models. The range of VIFs for each regression analysis was 1.13 to 6.14 (M ¼ 2.94) when predicting the post score and the number of comments and was 1.06 to 4.02 (M ¼ 2.33) when predicting the self-reported weight loss, which mitigated our concern about multicollinearity. To enhance the predictability of our results, the predictors were standardized prior to analysis, and thus the regression coefficients represent the amount of change predicted in the dependent variable given one standard deviation change in the predictor. Topic 15 was not analyzed as a predictor to avoid multicollinearity. * p < .05, ** p < .01, *** p < .001.\n\nexamine the groups of less active users (e.g., lurkers, commenters) and the role of other interactivity dimensions, such as contingency and flow, on users' health outcomes. Finally, given the ongoing debate around the theoretical nature of individual topics (DiMaggio et al., 2013;Van Gorp, 2007;Walter & Ophir, 2019), we presented the analyzed elements as \"topics\" directly. Future research may continue to explore the exact theoretical meaning of such linguistic devices.",
+      "preview_head": "Despite the study's findings, several limitations should be noted. First, we customized the Bing lexicon to enhance the validity of sentiment analysis in this specific context, e.g., by treating \"weight loss\" as a positively valenced term. We think this is a sensible assumption given the purpose of this OSG, but it may not accurately reflect how all users perceive weight loss, and this choice could also conflate sentiment with weight loss (although the lack of a significant association between positive sentiment and weight loss mitigates this concern somewhat). Second, the current study did not examine OSG users other than creators, who are most likely to reap benefits from participation in the OSGs (Mo & Coulson, 2010;Muntinga et al., 2011), nor did we analyze the dynamism of interactive conversations.",
+      "preview_tail": "examine the groups of less active users (e.g., lurkers, commenters) and the role of other interactivity dimensions, such as contingency and flow, on users' health outcomes. Finally, given the ongoing debate around the theoretical nature of individual topics (DiMaggio et al., 2013;Van Gorp, 2007;Walter & Ophir, 2019), we presented the analyzed elements as \"topics\" directly. Future research may continue to explore the exact theoretical meaning of such linguistic devices.",
+      "word_count": 335,
+      "paragraph_count": 2,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.5,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.5,
+          "reason": "merged_section:DISCUSSION+CONCLUSION"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "merged_section:DISCUSSION+CONCLUSION",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Yang et al. - 2023 - Theme and sentiment of posts in a weight loss subreddit predict popularity, engagement, and users’ w",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Conclusion",
+      "header_norm": "conclusion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Taken overall, this investigation provides insight into the association between discussion topics on a health-oriented subreddit and weight loss. Although this analysis cannot establish clear evidence of causation, it is nonetheless notable that goal-and outcome-oriented message frames were associated with health outcomes (Sundar et al., 2015). The interactivity of the medium may foster accountability that facilitates goal fulfillment, and interventions targeting weight loss may benefit from encouraging participants to explicitly announce their goals and regularly track progress. The results also speak to a fundamental tension that may face such communities: Although positively valenced posts receive approval from users and may foster the kind of supportive community desired by the group, negatively valenced posts more strongly fuel ongoing discussion. These results lay a foundation for future research to consider how to enhance both individual and community outcomes in online health support groups."
+      ],
+      "footnotes": [],
+      "text": "Taken overall, this investigation provides insight into the association between discussion topics on a health-oriented subreddit and weight loss. Although this analysis cannot establish clear evidence of causation, it is nonetheless notable that goal-and outcome-oriented message frames were associated with health outcomes (Sundar et al., 2015). The interactivity of the medium may foster accountability that facilitates goal fulfillment, and interventions targeting weight loss may benefit from encouraging participants to explicitly announce their goals and regularly track progress. The results also speak to a fundamental tension that may face such communities: Although positively valenced posts receive approval from users and may foster the kind of supportive community desired by the group, negatively valenced posts more strongly fuel ongoing discussion. These results lay a foundation for future research to consider how to enhance both individual and community outcomes in online health support groups.",
+      "text_with_footnotes": "Taken overall, this investigation provides insight into the association between discussion topics on a health-oriented subreddit and weight loss. Although this analysis cannot establish clear evidence of causation, it is nonetheless notable that goal-and outcome-oriented message frames were associated with health outcomes (Sundar et al., 2015). The interactivity of the medium may foster accountability that facilitates goal fulfillment, and interventions targeting weight loss may benefit from encouraging participants to explicitly announce their goals and regularly track progress. The results also speak to a fundamental tension that may face such communities: Although positively valenced posts receive approval from users and may foster the kind of supportive community desired by the group, negatively valenced posts more strongly fuel ongoing discussion. These results lay a foundation for future research to consider how to enhance both individual and community outcomes in online health support groups.",
+      "preview_head": "Taken overall, this investigation provides insight into the association between discussion topics on a health-oriented subreddit and weight loss. Although this analysis cannot establish clear evidence of causation, it is nonetheless notable that goal-and outcome-oriented message frames were associated with health outcomes (Sundar et al., 2015). The interactivity of the medium may foster accountability that facilitates goal fulfillment, and interventions targeting weight loss may benefit from encouraging participants to explicitly announce their goals and regularly track progress.",
+      "preview_tail": "The interactivity of the medium may foster accountability that facilitates goal fulfillment, and interventions targeting weight loss may benefit from encouraging participants to explicitly announce their goals and regularly track progress. The results also speak to a fundamental tension that may face such communities: Although positively valenced posts receive approval from users and may foster the kind of supportive community desired by the group, negatively valenced posts more strongly fuel ongoing discussion. These results lay a foundation for future research to consider how to enhance both individual and community outcomes in online health support groups.",
+      "word_count": 141,
+      "paragraph_count": 1,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*conclusion(s)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*conclusion(s)?\\s*$",
+      "major_label": "CONCLUSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 13,
+    "content_sections": 11,
+    "total_words": 2821,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 13,
+    "by_source": {
+      "heuristic": 6,
+      "llm": 5,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

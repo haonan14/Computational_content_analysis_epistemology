@@ -1,0 +1,141 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, situates the study in the context of recent political and "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "There is no evidence of a literature review or discussion of prior work in this section."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.0,
+          "reason": "No methods or data collection are described here."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.0,
+          "reason": "No findings or results are reported."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.0,
+          "reason": "No interpretation or implications are discussed."
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.0,
+          "reason": "No summary or closing remarks are present."
+        },
+        {
+          "label": "REFERENCES",
+          "weight": 0.0,
+          "reason": "No references or bibliography."
+        },
+        {
+          "label": "APPENDIX",
+          "weight": 0.0,
+          "reason": "No appendix material."
+        },
+        {
+          "label": "OTHER",
+          "weight": 0.0,
+          "reason": "No other function detected."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section analyzes specific topics (the constitution) in detail, reporting what was found in the "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the findings and their implications for the political system."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports on the topic of Chinese electoral manipulation, describing findings and actions"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the implications for Taiwanese democracy and identity."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports on the topic of Hongkongization, describing findings and the perspectives of "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the implications for Taiwan's democracy and sovereignty."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports on the topic of Sinification of Taiwanese history, describing events and findin"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the implications for education and political change."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports on the KMT's position and actions regarding Taiwan subjectivity, including quot"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is interpretation of the KMT's stance and its implications for curriculum and national identit"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "Section discusses the evolution of framing theory in the context of social media, referencing prior,"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "Section ends with the statement of a research question (RQ1), which is a forward-looking framing."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section opens with a research question but is dominated by discussion of prior work (Nicholls and"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "Section is structured around the statement of a research question (RQ2), which is a framing/roadmap"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews the context of Twitter in Iran and prior studies on the COVID-19 crisis, with heavy"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings about the content and focus of networked frames on Persian Twitter during"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section presents the results of LDA topic modeling, referencing Table 1 and discussing model"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

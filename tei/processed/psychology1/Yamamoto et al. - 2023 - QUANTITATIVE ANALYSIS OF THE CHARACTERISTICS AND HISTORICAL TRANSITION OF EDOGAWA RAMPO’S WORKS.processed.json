@@ -1,0 +1,320 @@
+{
+  "paper_id": "Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/psychology/Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS.tei.xml",
+  "metadata": {
+    "title": "QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+    "authors": [
+      "Tetsuya Yamamoto",
+      "Yasuko Nakamura",
+      "Hideki Ohira",
+      "Mingzhe Jin"
+    ],
+    "journal": "PSYCHOLOGIA",
+    "year": "2023",
+    "doi": "10.2117/psysoc.2023-b036",
+    "keywords": [
+      "Edogawa Rampo",
+      "text mining",
+      "topic model",
+      "machine learning",
+      "quantitative approach",
+      "writing style",
+      "historical transition",
+      "digital humanities",
+      "mystery novel"
+    ]
+  },
+  "abstract": "This study investigates the influence of cultural and societal trends during the Taisho and Showa periods on the works of Edogawa Rampo, a renowned Japanese entertainment novelist. Through quantitative analysis of Rampo's works, this study examined their key characteristics and stylistic changes over time. The results showed a significant difference in the importance of words in each work before and after World War II. Furthermore, four distinct styles of Rampo's works were identified, indicating a tendency for changes in style from eccentricity, monstrosity, and gloominess before the war to aestheticism after the war. Overall, this study highlights the impact of historical and cultural contexts on the artistic expression of Rampo's works.",
+  "sections": [
+    {
+      "paper_id": "Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Introduction",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "It is widely known that music, paintings, novels, and other creative works are strongly influenced by the trends and events of their times (Arimichi & Tsugami, 2007;Michel et al., 2011;Tomioka, 2014;Watanabe & Shiroma, 2019). How did the flow of time affect the creative activities of Edogawa Rampo (1894Rampo ( -1965)), one of Japan's leading entertainment novelists active during the Taisho and Showa periods?",
+        "The content of Edogawa Rampo's works and their creational process have been discussed by many critics in Japan (Miyanaga, 1995;Shimura, 2009). For example, Takano (2013) focused on Rampo's works in the 1920s, analyzing the literary quality and creativity of detective stories by Rampo, such as \"Nisen Doka (The Two-Sen Copper Coin) 1 二銭銅貨\" (published in 1923). Other findings have been accumulated from a variety of perspectives, such as compositional skills and its relation to foreign works in 1 For works that have been translated into English, the English title is given in parentheses.",
+        "\"Shinri Shiken (The Psychological Test) 心理試験\" (published in 1925;Mu, 2020;Ogura, 2009), the characterization of female bandits in \"Kurotokage (The Black Lizard) 黒蜥蜴\" (published in 1934; Koga, 2021), and the discussion of the representation of a madman in \"Ryokui no Oni 緑衣の鬼\" (published in 1936;Suzuki, 2020).",
+        "These studies on Rampo's works have been conducted mainly through close reading of the literature, and it is thought that the understanding of Rampo's works has greatly advanced through detailed qualitative consideration. On the other hand, there has been no studies of Rampo's works using quantitative methods such as text mining.",
+        "The application of natural language processing techniques to literary works has been attracting attention in recent years (Jin & Nakamura, 2021;Liu & Jin, 2017;Uesaka, 2015), and these techniques may generate new insights into Rampo's works.",
+        "In this study, we apply machine learning methods such as topic modelling to Rampo's works in order to analyze the stylistic characteristics of his works and to explore the changes in his style over time."
+      ],
+      "footnotes": [],
+      "text": "It is widely known that music, paintings, novels, and other creative works are strongly influenced by the trends and events of their times (Arimichi & Tsugami, 2007;Michel et al., 2011;Tomioka, 2014;Watanabe & Shiroma, 2019). How did the flow of time affect the creative activities of Edogawa Rampo (1894Rampo ( -1965)), one of Japan's leading entertainment novelists active during the Taisho and Showa periods?\n\nThe content of Edogawa Rampo's works and their creational process have been discussed by many critics in Japan (Miyanaga, 1995;Shimura, 2009). For example, Takano (2013) focused on Rampo's works in the 1920s, analyzing the literary quality and creativity of detective stories by Rampo, such as \"Nisen Doka (The Two-Sen Copper Coin) 1 二銭銅貨\" (published in 1923). Other findings have been accumulated from a variety of perspectives, such as compositional skills and its relation to foreign works in 1 For works that have been translated into English, the English title is given in parentheses.\n\n\"Shinri Shiken (The Psychological Test) 心理試験\" (published in 1925;Mu, 2020;Ogura, 2009), the characterization of female bandits in \"Kurotokage (The Black Lizard) 黒蜥蜴\" (published in 1934; Koga, 2021), and the discussion of the representation of a madman in \"Ryokui no Oni 緑衣の鬼\" (published in 1936;Suzuki, 2020).\n\nThese studies on Rampo's works have been conducted mainly through close reading of the literature, and it is thought that the understanding of Rampo's works has greatly advanced through detailed qualitative consideration. On the other hand, there has been no studies of Rampo's works using quantitative methods such as text mining.\n\nThe application of natural language processing techniques to literary works has been attracting attention in recent years (Jin & Nakamura, 2021;Liu & Jin, 2017;Uesaka, 2015), and these techniques may generate new insights into Rampo's works.\n\nIn this study, we apply machine learning methods such as topic modelling to Rampo's works in order to analyze the stylistic characteristics of his works and to explore the changes in his style over time.",
+      "text_with_footnotes": "It is widely known that music, paintings, novels, and other creative works are strongly influenced by the trends and events of their times (Arimichi & Tsugami, 2007;Michel et al., 2011;Tomioka, 2014;Watanabe & Shiroma, 2019). How did the flow of time affect the creative activities of Edogawa Rampo (1894Rampo ( -1965)), one of Japan's leading entertainment novelists active during the Taisho and Showa periods?\n\nThe content of Edogawa Rampo's works and their creational process have been discussed by many critics in Japan (Miyanaga, 1995;Shimura, 2009). For example, Takano (2013) focused on Rampo's works in the 1920s, analyzing the literary quality and creativity of detective stories by Rampo, such as \"Nisen Doka (The Two-Sen Copper Coin) 1 二銭銅貨\" (published in 1923). Other findings have been accumulated from a variety of perspectives, such as compositional skills and its relation to foreign works in 1 For works that have been translated into English, the English title is given in parentheses.\n\n\"Shinri Shiken (The Psychological Test) 心理試験\" (published in 1925;Mu, 2020;Ogura, 2009), the characterization of female bandits in \"Kurotokage (The Black Lizard) 黒蜥蜴\" (published in 1934; Koga, 2021), and the discussion of the representation of a madman in \"Ryokui no Oni 緑衣の鬼\" (published in 1936;Suzuki, 2020).\n\nThese studies on Rampo's works have been conducted mainly through close reading of the literature, and it is thought that the understanding of Rampo's works has greatly advanced through detailed qualitative consideration. On the other hand, there has been no studies of Rampo's works using quantitative methods such as text mining.\n\nThe application of natural language processing techniques to literary works has been attracting attention in recent years (Jin & Nakamura, 2021;Liu & Jin, 2017;Uesaka, 2015), and these techniques may generate new insights into Rampo's works.\n\nIn this study, we apply machine learning methods such as topic modelling to Rampo's works in order to analyze the stylistic characteristics of his works and to explore the changes in his style over time.",
+      "preview_head": "It is widely known that music, paintings, novels, and other creative works are strongly influenced by the trends and events of their times (Arimichi & Tsugami, 2007;Michel et al., 2011;Tomioka, 2014;Watanabe & Shiroma, 2019). How did the flow of time affect the creative activities of Edogawa Rampo (1894Rampo ( -1965)), one of Japan's leading entertainment novelists active during the Taisho and Showa periods?",
+      "preview_tail": "In this study, we apply machine learning methods such as topic modelling to Rampo's works in order to analyze the stylistic characteristics of his works and to explore the changes in his style over time.",
+      "word_count": 322,
+      "paragraph_count": 6,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Method",
+      "header_norm": "method",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Data Collection and Corpus Creation",
+      "header_norm": "data collection and corpus creation",
+      "container_raw": "Method",
+      "container_norm": "method",
+      "is_container": false,
+      "paragraphs": [
+        "A corpus of 91 Edogawa Rampo's works published between 1923 and 1962 (total number of characters: 4,443,820) was created for all Rampo's works that were included in the Aozora Bunko,foot_0 an electronic library on the Internet that publishes texts of works whose copyrights have expired or whose authors have given permission to use them, as of March 2021. When creating the corpus, we removed furigana from Kanji characters and designated proper nouns (e.g., \"Akechi 明智,\" \"Kobayashi 小林\"), meaningless words, and extremely common words (e.g., \"teru てる,\" \"yo よう,\" \"shi し\") as stop words. The works used to create the corpus are listed in Table 1."
+      ],
+      "footnotes": [],
+      "text": "A corpus of 91 Edogawa Rampo's works published between 1923 and 1962 (total number of characters: 4,443,820) was created for all Rampo's works that were included in the Aozora Bunko,foot_0 an electronic library on the Internet that publishes texts of works whose copyrights have expired or whose authors have given permission to use them, as of March 2021. When creating the corpus, we removed furigana from Kanji characters and designated proper nouns (e.g., \"Akechi 明智,\" \"Kobayashi 小林\"), meaningless words, and extremely common words (e.g., \"teru てる,\" \"yo よう,\" \"shi し\") as stop words. The works used to create the corpus are listed in Table 1.",
+      "text_with_footnotes": "A corpus of 91 Edogawa Rampo's works published between 1923 and 1962 (total number of characters: 4,443,820) was created for all Rampo's works that were included in the Aozora Bunko,foot_0 an electronic library on the Internet that publishes texts of works whose copyrights have expired or whose authors have given permission to use them, as of March 2021. When creating the corpus, we removed furigana from Kanji characters and designated proper nouns (e.g., \"Akechi 明智,\" \"Kobayashi 小林\"), meaningless words, and extremely common words (e.g., \"teru てる,\" \"yo よう,\" \"shi し\") as stop words. The works used to create the corpus are listed in Table 1.",
+      "preview_head": "A corpus of 91 Edogawa Rampo's works published between 1923 and 1962 (total number of characters: 4,443,820) was created for all Rampo's works that were included in the Aozora Bunko,foot_0 an electronic library on the Internet that publishes texts of works whose copyrights have expired or whose authors have given permission to use them, as of March 2021. When creating the corpus, we removed furigana from Kanji characters and designated proper nouns (e.g., \"Akechi 明智,\" \"Kobayashi 小林\"), meaningless words, and extremely common words (e.g., \"teru てる,\" \"yo よう,\" \"shi し\") as stop words. The works used to create the corpus are listed in Table 1.",
+      "preview_tail": "A corpus of 91 Edogawa Rampo's works published between 1923 and 1962 (total number of characters: 4,443,820) was created for all Rampo's works that were included in the Aozora Bunko,foot_0 an electronic library on the Internet that publishes texts of works whose copyrights have expired or whose authors have given permission to use them, as of March 2021. When creating the corpus, we removed furigana from Kanji characters and designated proper nouns (e.g., \"Akechi 明智,\" \"Kobayashi 小林\"), meaningless words, and extremely common words (e.g., \"teru てる,\" \"yo よう,\" \"shi し\") as stop words. The works used to create the corpus are listed in Table 1.",
+      "word_count": 105,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*data\\s+(collection|sources"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*data\\s+(collection|sources",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Features and Analysis Procedure",
+      "header_norm": "features and analysis procedure",
+      "container_raw": "Method",
+      "container_norm": "method",
+      "is_container": false,
+      "paragraphs": [
+        "Morphological analysis was performed on the created corpus using the morphological analyzer MeCab (IPA dictionary). The frequencies of nouns, adjectives, and verbs in the entire corpus were calculated to examine the characteristics of all the works in the corpus (Analysis A).",
+        "Next, the importance of each word was calculated in order to examine the chronological transition of words appearing in Rampo's works. The product of the word's Term Frequency and Inverse Document Frequency (TF-IDF), was used as the importance level in this study. 3 The TF-IDF of each word in each work was dimensionally compressed using t-Distributed Stochastic Neighbor Embedding (t-SNE), 4 and the works were mapped on a two-dimensional coordinate axis (Analysis B). In order to identify the style of Rampo's works in an exploratory manner, topics were extracted from the generated corpus using Latent Dirichlet Allocation (LDA; Analysis C). LDA is a basic topic modeling technique that compresses sentences into topic-specific components, allowing for easy interpretation of the results. The number of topics was determined by considering Perplexity (prediction performance) and Coherence (topic quality).",
+        "Nonparametric Bayesian Co-clustering (Tokuda et al., 2017) was applied to the probability of topic occurrence in each work to visualize the chronological evolution of the style (Analysis D). This analysis method is capable of exhaustively finding potential interaction structures among variables (Yamamoto et al., 2020). Iterative calculations based on the Bayesian optimization principle were performed 15,000 times, and the marginal log-likelihood (Bayesian factor) was calculated as an objective criterion to indicate the goodness of classification. After confirming that the marginal log-likelihood was completely stable, the model with the highest marginal log-likelihood was finally adopted.",
+        "Analyses A-C were performed in Python 3.",
+        "7.4 (Python Software Foundation, 2019), and Analysis D was performed in MATLAB R2016b (The MathWorks, 2016). 1957 Sakasu no Kaijin サーカスの怪人 1957 Tsuma ni Shitsurenshita Otoko 妻に失恋した男 1957 Yojin Gongu 妖人ゴング 1958 Akai Kabutomushi 赤いカブトムシ 1958 Fushigi na Hito ふしぎな人 1958 Kimen-Jo no Himitsu 奇面城の秘密 1958 Tetsujin Q 鉄人 Q 1958 Tojo no Kijutsu-Shi 塔上の奇術師 1958 Yako Ningen (The Shining Man) 夜光人間 1959 Kaijin Niju Menso A かいじん二十めんそう A 1959 Kaijin Niju Menso B かいじん二十めんそう B 1959 Kamen no Kyofu-O 仮面の恐怖王 1960 Denjin M 電人 M 1960 Kaijin to Shonen Tantei 怪人と少年探偵 1960 Yubi 指 1960 Ore wa Niju Menso da おれは二十面相だ 1961 Yoseijin R 妖星人 R 1962 Chojin Nikora 超人ニコラ a For works that have been translated into English, the English title is given in parentheses. b Since there are different works titled \"Kaijin Niju Menso かいじん二十めんそう\" with different contents, \"A\" and \"B\" have been added to the titles to distinguish them in this report. The first appearances of each are as follows: \"Kaijin Niju Menso A,\" Tanoshii Ichinensei, November 1959-March 1960, Kodansha and Tanoshii Nishinensei, April 1960-December 1960, Kodansha. \"Kaijin Niju Menso B,\" Tanoshii Nishinsei, October 1959-March 1960, Kodansha. Year English title a Japanese title b"
+      ],
+      "footnotes": [],
+      "text": "Morphological analysis was performed on the created corpus using the morphological analyzer MeCab (IPA dictionary). The frequencies of nouns, adjectives, and verbs in the entire corpus were calculated to examine the characteristics of all the works in the corpus (Analysis A).\n\nNext, the importance of each word was calculated in order to examine the chronological transition of words appearing in Rampo's works. The product of the word's Term Frequency and Inverse Document Frequency (TF-IDF), was used as the importance level in this study. 3 The TF-IDF of each word in each work was dimensionally compressed using t-Distributed Stochastic Neighbor Embedding (t-SNE), 4 and the works were mapped on a two-dimensional coordinate axis (Analysis B). In order to identify the style of Rampo's works in an exploratory manner, topics were extracted from the generated corpus using Latent Dirichlet Allocation (LDA; Analysis C). LDA is a basic topic modeling technique that compresses sentences into topic-specific components, allowing for easy interpretation of the results. The number of topics was determined by considering Perplexity (prediction performance) and Coherence (topic quality).\n\nNonparametric Bayesian Co-clustering (Tokuda et al., 2017) was applied to the probability of topic occurrence in each work to visualize the chronological evolution of the style (Analysis D). This analysis method is capable of exhaustively finding potential interaction structures among variables (Yamamoto et al., 2020). Iterative calculations based on the Bayesian optimization principle were performed 15,000 times, and the marginal log-likelihood (Bayesian factor) was calculated as an objective criterion to indicate the goodness of classification. After confirming that the marginal log-likelihood was completely stable, the model with the highest marginal log-likelihood was finally adopted.\n\nAnalyses A-C were performed in Python 3.\n\n7.4 (Python Software Foundation, 2019), and Analysis D was performed in MATLAB R2016b (The MathWorks, 2016). 1957 Sakasu no Kaijin サーカスの怪人 1957 Tsuma ni Shitsurenshita Otoko 妻に失恋した男 1957 Yojin Gongu 妖人ゴング 1958 Akai Kabutomushi 赤いカブトムシ 1958 Fushigi na Hito ふしぎな人 1958 Kimen-Jo no Himitsu 奇面城の秘密 1958 Tetsujin Q 鉄人 Q 1958 Tojo no Kijutsu-Shi 塔上の奇術師 1958 Yako Ningen (The Shining Man) 夜光人間 1959 Kaijin Niju Menso A かいじん二十めんそう A 1959 Kaijin Niju Menso B かいじん二十めんそう B 1959 Kamen no Kyofu-O 仮面の恐怖王 1960 Denjin M 電人 M 1960 Kaijin to Shonen Tantei 怪人と少年探偵 1960 Yubi 指 1960 Ore wa Niju Menso da おれは二十面相だ 1961 Yoseijin R 妖星人 R 1962 Chojin Nikora 超人ニコラ a For works that have been translated into English, the English title is given in parentheses. b Since there are different works titled \"Kaijin Niju Menso かいじん二十めんそう\" with different contents, \"A\" and \"B\" have been added to the titles to distinguish them in this report. The first appearances of each are as follows: \"Kaijin Niju Menso A,\" Tanoshii Ichinensei, November 1959-March 1960, Kodansha and Tanoshii Nishinensei, April 1960-December 1960, Kodansha. \"Kaijin Niju Menso B,\" Tanoshii Nishinsei, October 1959-March 1960, Kodansha. Year English title a Japanese title b",
+      "text_with_footnotes": "Morphological analysis was performed on the created corpus using the morphological analyzer MeCab (IPA dictionary). The frequencies of nouns, adjectives, and verbs in the entire corpus were calculated to examine the characteristics of all the works in the corpus (Analysis A).\n\nNext, the importance of each word was calculated in order to examine the chronological transition of words appearing in Rampo's works. The product of the word's Term Frequency and Inverse Document Frequency (TF-IDF), was used as the importance level in this study. 3 The TF-IDF of each word in each work was dimensionally compressed using t-Distributed Stochastic Neighbor Embedding (t-SNE), 4 and the works were mapped on a two-dimensional coordinate axis (Analysis B). In order to identify the style of Rampo's works in an exploratory manner, topics were extracted from the generated corpus using Latent Dirichlet Allocation (LDA; Analysis C). LDA is a basic topic modeling technique that compresses sentences into topic-specific components, allowing for easy interpretation of the results. The number of topics was determined by considering Perplexity (prediction performance) and Coherence (topic quality).\n\nNonparametric Bayesian Co-clustering (Tokuda et al., 2017) was applied to the probability of topic occurrence in each work to visualize the chronological evolution of the style (Analysis D). This analysis method is capable of exhaustively finding potential interaction structures among variables (Yamamoto et al., 2020). Iterative calculations based on the Bayesian optimization principle were performed 15,000 times, and the marginal log-likelihood (Bayesian factor) was calculated as an objective criterion to indicate the goodness of classification. After confirming that the marginal log-likelihood was completely stable, the model with the highest marginal log-likelihood was finally adopted.\n\nAnalyses A-C were performed in Python 3.\n\n7.4 (Python Software Foundation, 2019), and Analysis D was performed in MATLAB R2016b (The MathWorks, 2016). 1957 Sakasu no Kaijin サーカスの怪人 1957 Tsuma ni Shitsurenshita Otoko 妻に失恋した男 1957 Yojin Gongu 妖人ゴング 1958 Akai Kabutomushi 赤いカブトムシ 1958 Fushigi na Hito ふしぎな人 1958 Kimen-Jo no Himitsu 奇面城の秘密 1958 Tetsujin Q 鉄人 Q 1958 Tojo no Kijutsu-Shi 塔上の奇術師 1958 Yako Ningen (The Shining Man) 夜光人間 1959 Kaijin Niju Menso A かいじん二十めんそう A 1959 Kaijin Niju Menso B かいじん二十めんそう B 1959 Kamen no Kyofu-O 仮面の恐怖王 1960 Denjin M 電人 M 1960 Kaijin to Shonen Tantei 怪人と少年探偵 1960 Yubi 指 1960 Ore wa Niju Menso da おれは二十面相だ 1961 Yoseijin R 妖星人 R 1962 Chojin Nikora 超人ニコラ a For works that have been translated into English, the English title is given in parentheses. b Since there are different works titled \"Kaijin Niju Menso かいじん二十めんそう\" with different contents, \"A\" and \"B\" have been added to the titles to distinguish them in this report. The first appearances of each are as follows: \"Kaijin Niju Menso A,\" Tanoshii Ichinensei, November 1959-March 1960, Kodansha and Tanoshii Nishinensei, April 1960-December 1960, Kodansha. \"Kaijin Niju Menso B,\" Tanoshii Nishinsei, October 1959-March 1960, Kodansha. Year English title a Japanese title b",
+      "preview_head": "Morphological analysis was performed on the created corpus using the morphological analyzer MeCab (IPA dictionary). The frequencies of nouns, adjectives, and verbs in the entire corpus were calculated to examine the characteristics of all the works in the corpus (Analysis A).",
+      "preview_tail": "7.4 (Python Software Foundation, 2019), and Analysis D was performed in MATLAB R2016b (The MathWorks, 2016). 1957 Sakasu no Kaijin サーカスの怪人 1957 Tsuma ni Shitsurenshita Otoko 妻に失恋した男 1957 Yojin Gongu 妖人ゴング 1958 Akai Kabutomushi 赤いカブトムシ 1958 Fushigi na Hito ふしぎな人 1958 Kimen-Jo no Himitsu 奇面城の秘密 1958 Tetsujin Q 鉄人 Q 1958 Tojo no Kijutsu-Shi 塔上の奇術師 1958 Yako Ningen (The Shining Man) 夜光人間 1959 Kaijin Niju Menso A かいじん二十めんそう A 1959 Kaijin Niju Menso B かいじん二十めんそう B 1959 Kamen no Kyofu-O 仮面の恐怖王 1960 Denjin M 電人 M 1960 Kaijin to Shonen Tantei 怪人と少年探偵 1960 Yubi 指 1960 Ore wa Niju Menso da おれは二十面相だ 1961 Yoseijin R 妖星人 R 1962 Chojin Nikora 超人ニコラ a For works that have been translated into English, the English title is given in parentheses. b Since there are different works titled \"Kaijin Niju Menso かいじん二十めんそう\" with different contents, \"A\" and \"B\" have been added to the titles to distinguish them in this report. The first appearances of each are as follows: \"Kaijin Niju Menso A,\" Tanoshii Ichinensei, November 1959-March 1960, Kodansha and Tanoshii Nishinensei, April 1960-December 1960, Kodansha. \"Kaijin Niju Menso B,\" Tanoshii Nishinsei, October 1959-March 1960, Kodansha. Year English title a Japanese title b",
+      "word_count": 475,
+      "paragraph_count": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the analytical procedures, tools (MeCab, Python, MATLAB), and steps taken by *Y"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the analytical procedures, tools (MeCab, Python, MATLAB), and steps taken by *Y"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Characteristics of Rampo's Works by Frequency of Word Appearances in Each Part of Speech",
+      "header_norm": "characteristics of rampo s works by frequency of word appearances in each part of speech",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "To comprehend the characteristics of the words throughout all the works, a word cloud was created based on the entire corpus used. The most frequently appearing words for each part of speech (nouns, verbs, and adjectives) are shown in Fig. 1.",
+        "In the noun category, words such as \"watashi (I) 私,\" \"boku (I) 僕,\" \"kao (face) 顔,\" and \"kare (he) 彼\" appeared frequently, which may indicate the monologue technique used for characterization in \"Ningen Isu (The Human Chair) 人間椅子\" (published in 1925) and the psychological portrayal of the behavior and inner life of the killer in \"Shinri Shiken (The Psychological Test) 心理試験\" (published in 1925). Additionally, the words \"tantei (detective) 探偵,\" \"shonen (boy) 少年,\" \"menso (faces) 面相,\" and \"hakase (doctor) 博士\" are considered to be words that frequently appear in Rampo's representative works, the \"Shonen Tanteidan (Boy Detectives Club) 少年探偵団\" series. Hence, such results may indicate the major genre of Rampo's works-mystery novels.",
+        "In terms of adjectives, the frequent use of words such as \"kuroi (black) 黒い,\" \"osoroshi (horrifying) 恐ろしい,\" and \"kowai (scary) こわい\" are reminiscent of works of the bizarre. The words \"shiroi (white) 白い,\" \"utsukushii (beautiful) 美しい,\" and \"ayashii (mysterious) あやしい\" may represent the aesthetic style of Rampo's works. Other words such as \"warui (bad) 悪い,\" \"akai (red) 赤い,\" and \"okashii (strange) おか しい\" remind us of Rampo's highly criminal and again, bizarre works.",
+        "As for verbs, frequently occurring words such as \"rare られ,\" \"miru (see) 見る,\" and \"omou (think) 思う\" were extracted, but it was difficult to interpret them unambiguously. Among the above parts of speech, adjectives were used in the following analysis because they were considered the most informative in interpreting the style of Rampo's works.",
+        "Chronological Changes of Rampo's Works Based on the Importance of Words Fig. 2 displays the results of mapping Rampo's works in two-dimensional space based on the importance of words in each work. The findings reveal that his works were broadly classified into two groups: those from the 1920s to the 1930s (upper right of Fig. 2) and those from the late 1940s to the 1960s (center to lower left of Fig. 2). These results indicate that the words used by Rampo varied from period to period, particularly before and after World War II (WWII;1939-1945). In addition, \"Shonen Tanteidan (Boy Detectives Club) 少年探偵団\" and \"Yokai Hakase 妖怪博士\" (published in 1937-1938) were positioned similarly to the works published in the 1950s and 1960s (Fig. 2a), suggesting that these works were dissimilar to other works from the 1930s. Other works such as \"Akuryo Monogatari 悪霊物語\" (published in 1954) and \"Tsuma ni Shitsurenshita Otoko 妻に失恋した男\" (published in 1957) were positioned in the same dimension as prewar works (Fig. 2b), which may indicate that these works adopted methods and expressions from the past.",
+        "As described above, the words used in Rampo's works vary depending on the time period, suggesting the possibility of changes in style over time. However, it is difficult to determine which specific stylistic changes occurred in Rampo's works based on these analyses. Therefore, in the following analysis, we attempted to extract the style used and visualize the chronological transition of style."
+      ],
+      "footnotes": [],
+      "text": "To comprehend the characteristics of the words throughout all the works, a word cloud was created based on the entire corpus used. The most frequently appearing words for each part of speech (nouns, verbs, and adjectives) are shown in Fig. 1.\n\nIn the noun category, words such as \"watashi (I) 私,\" \"boku (I) 僕,\" \"kao (face) 顔,\" and \"kare (he) 彼\" appeared frequently, which may indicate the monologue technique used for characterization in \"Ningen Isu (The Human Chair) 人間椅子\" (published in 1925) and the psychological portrayal of the behavior and inner life of the killer in \"Shinri Shiken (The Psychological Test) 心理試験\" (published in 1925). Additionally, the words \"tantei (detective) 探偵,\" \"shonen (boy) 少年,\" \"menso (faces) 面相,\" and \"hakase (doctor) 博士\" are considered to be words that frequently appear in Rampo's representative works, the \"Shonen Tanteidan (Boy Detectives Club) 少年探偵団\" series. Hence, such results may indicate the major genre of Rampo's works-mystery novels.\n\nIn terms of adjectives, the frequent use of words such as \"kuroi (black) 黒い,\" \"osoroshi (horrifying) 恐ろしい,\" and \"kowai (scary) こわい\" are reminiscent of works of the bizarre. The words \"shiroi (white) 白い,\" \"utsukushii (beautiful) 美しい,\" and \"ayashii (mysterious) あやしい\" may represent the aesthetic style of Rampo's works. Other words such as \"warui (bad) 悪い,\" \"akai (red) 赤い,\" and \"okashii (strange) おか しい\" remind us of Rampo's highly criminal and again, bizarre works.\n\nAs for verbs, frequently occurring words such as \"rare られ,\" \"miru (see) 見る,\" and \"omou (think) 思う\" were extracted, but it was difficult to interpret them unambiguously. Among the above parts of speech, adjectives were used in the following analysis because they were considered the most informative in interpreting the style of Rampo's works.\n\nChronological Changes of Rampo's Works Based on the Importance of Words Fig. 2 displays the results of mapping Rampo's works in two-dimensional space based on the importance of words in each work. The findings reveal that his works were broadly classified into two groups: those from the 1920s to the 1930s (upper right of Fig. 2) and those from the late 1940s to the 1960s (center to lower left of Fig. 2). These results indicate that the words used by Rampo varied from period to period, particularly before and after World War II (WWII;1939-1945). In addition, \"Shonen Tanteidan (Boy Detectives Club) 少年探偵団\" and \"Yokai Hakase 妖怪博士\" (published in 1937-1938) were positioned similarly to the works published in the 1950s and 1960s (Fig. 2a), suggesting that these works were dissimilar to other works from the 1930s. Other works such as \"Akuryo Monogatari 悪霊物語\" (published in 1954) and \"Tsuma ni Shitsurenshita Otoko 妻に失恋した男\" (published in 1957) were positioned in the same dimension as prewar works (Fig. 2b), which may indicate that these works adopted methods and expressions from the past.\n\nAs described above, the words used in Rampo's works vary depending on the time period, suggesting the possibility of changes in style over time. However, it is difficult to determine which specific stylistic changes occurred in Rampo's works based on these analyses. Therefore, in the following analysis, we attempted to extract the style used and visualize the chronological transition of style.",
+      "text_with_footnotes": "To comprehend the characteristics of the words throughout all the works, a word cloud was created based on the entire corpus used. The most frequently appearing words for each part of speech (nouns, verbs, and adjectives) are shown in Fig. 1.\n\nIn the noun category, words such as \"watashi (I) 私,\" \"boku (I) 僕,\" \"kao (face) 顔,\" and \"kare (he) 彼\" appeared frequently, which may indicate the monologue technique used for characterization in \"Ningen Isu (The Human Chair) 人間椅子\" (published in 1925) and the psychological portrayal of the behavior and inner life of the killer in \"Shinri Shiken (The Psychological Test) 心理試験\" (published in 1925). Additionally, the words \"tantei (detective) 探偵,\" \"shonen (boy) 少年,\" \"menso (faces) 面相,\" and \"hakase (doctor) 博士\" are considered to be words that frequently appear in Rampo's representative works, the \"Shonen Tanteidan (Boy Detectives Club) 少年探偵団\" series. Hence, such results may indicate the major genre of Rampo's works-mystery novels.\n\nIn terms of adjectives, the frequent use of words such as \"kuroi (black) 黒い,\" \"osoroshi (horrifying) 恐ろしい,\" and \"kowai (scary) こわい\" are reminiscent of works of the bizarre. The words \"shiroi (white) 白い,\" \"utsukushii (beautiful) 美しい,\" and \"ayashii (mysterious) あやしい\" may represent the aesthetic style of Rampo's works. Other words such as \"warui (bad) 悪い,\" \"akai (red) 赤い,\" and \"okashii (strange) おか しい\" remind us of Rampo's highly criminal and again, bizarre works.\n\nAs for verbs, frequently occurring words such as \"rare られ,\" \"miru (see) 見る,\" and \"omou (think) 思う\" were extracted, but it was difficult to interpret them unambiguously. Among the above parts of speech, adjectives were used in the following analysis because they were considered the most informative in interpreting the style of Rampo's works.\n\nChronological Changes of Rampo's Works Based on the Importance of Words Fig. 2 displays the results of mapping Rampo's works in two-dimensional space based on the importance of words in each work. The findings reveal that his works were broadly classified into two groups: those from the 1920s to the 1930s (upper right of Fig. 2) and those from the late 1940s to the 1960s (center to lower left of Fig. 2). These results indicate that the words used by Rampo varied from period to period, particularly before and after World War II (WWII;1939-1945). In addition, \"Shonen Tanteidan (Boy Detectives Club) 少年探偵団\" and \"Yokai Hakase 妖怪博士\" (published in 1937-1938) were positioned similarly to the works published in the 1950s and 1960s (Fig. 2a), suggesting that these works were dissimilar to other works from the 1930s. Other works such as \"Akuryo Monogatari 悪霊物語\" (published in 1954) and \"Tsuma ni Shitsurenshita Otoko 妻に失恋した男\" (published in 1957) were positioned in the same dimension as prewar works (Fig. 2b), which may indicate that these works adopted methods and expressions from the past.\n\nAs described above, the words used in Rampo's works vary depending on the time period, suggesting the possibility of changes in style over time. However, it is difficult to determine which specific stylistic changes occurred in Rampo's works based on these analyses. Therefore, in the following analysis, we attempted to extract the style used and visualize the chronological transition of style.",
+      "preview_head": "To comprehend the characteristics of the words throughout all the works, a word cloud was created based on the entire corpus used. The most frequently appearing words for each part of speech (nouns, verbs, and adjectives) are shown in Fig. 1.",
+      "preview_tail": "As described above, the words used in Rampo's works vary depending on the time period, suggesting the possibility of changes in style over time. However, it is difficult to determine which specific stylistic changes occurred in Rampo's works based on these analyses. Therefore, in the following analysis, we attempted to extract the style used and visualize the chronological transition of style.",
+      "word_count": 519,
+      "paragraph_count": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports findings from the word frequency analysis and word cloud visualizations, summar"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "The final sentences begin to interpret the results, suggesting possible changes in style over time."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Extraction of Topics Indicative of Rampo's Style",
+      "header_norm": "extraction of topics indicative of rampo s style",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "In order to obtain Rampo's style reflected in each work, topics were extracted by applying LDA to words that appeared in two or more works and to words that appeared in less than 20% of all works (1054 words in total). In terms of Perplexity (prediction performance) and Coherence (topic quality), which are the main selection indices for the number of topics, it is desirable to have low perplexity and high coherence values (Sato, 2015). These indices were calculated when the number of topics was set from 1 to 10 (Fig. 3). Taking into account the calculated indices and the desire to understand the style from various perspectives, four topics were chosen.",
+        "As a result of examining words with high probability of belonging to each topic, each topic was classified into the following categories (see also Appendix): eccentricity (Topic 1: \"daijina [important] だいじな,\" \"ureshii [happy] うれしい,\" and \"asamashii [miserable] あさましい,\" etc.), gloominess (Topic 2: \"usugurai [dim] うすぐらい,\" \"sabishii [lonely] 淋しい,\" and \"waruku [bad] わるく,\" etc.), aestheticism (Topic 3: \"utsukushii [beautiful] 美しい,\" \"fukai [deep] ふかい,\" and \"yasashii [gentle] やさし い,\" etc.), monstrosity (Topic 4: \"osoroshii [horrible] 恐ろしい,\" \"tsumetai [cold] つめ たい,\" and \"minikui [ugly] 醜い,\" etc.). These topics were considered to indicate the style of Rampo's works."
+      ],
+      "footnotes": [],
+      "text": "In order to obtain Rampo's style reflected in each work, topics were extracted by applying LDA to words that appeared in two or more works and to words that appeared in less than 20% of all works (1054 words in total). In terms of Perplexity (prediction performance) and Coherence (topic quality), which are the main selection indices for the number of topics, it is desirable to have low perplexity and high coherence values (Sato, 2015). These indices were calculated when the number of topics was set from 1 to 10 (Fig. 3). Taking into account the calculated indices and the desire to understand the style from various perspectives, four topics were chosen.\n\nAs a result of examining words with high probability of belonging to each topic, each topic was classified into the following categories (see also Appendix): eccentricity (Topic 1: \"daijina [important] だいじな,\" \"ureshii [happy] うれしい,\" and \"asamashii [miserable] あさましい,\" etc.), gloominess (Topic 2: \"usugurai [dim] うすぐらい,\" \"sabishii [lonely] 淋しい,\" and \"waruku [bad] わるく,\" etc.), aestheticism (Topic 3: \"utsukushii [beautiful] 美しい,\" \"fukai [deep] ふかい,\" and \"yasashii [gentle] やさし い,\" etc.), monstrosity (Topic 4: \"osoroshii [horrible] 恐ろしい,\" \"tsumetai [cold] つめ たい,\" and \"minikui [ugly] 醜い,\" etc.). These topics were considered to indicate the style of Rampo's works.",
+      "text_with_footnotes": "In order to obtain Rampo's style reflected in each work, topics were extracted by applying LDA to words that appeared in two or more works and to words that appeared in less than 20% of all works (1054 words in total). In terms of Perplexity (prediction performance) and Coherence (topic quality), which are the main selection indices for the number of topics, it is desirable to have low perplexity and high coherence values (Sato, 2015). These indices were calculated when the number of topics was set from 1 to 10 (Fig. 3). Taking into account the calculated indices and the desire to understand the style from various perspectives, four topics were chosen.\n\nAs a result of examining words with high probability of belonging to each topic, each topic was classified into the following categories (see also Appendix): eccentricity (Topic 1: \"daijina [important] だいじな,\" \"ureshii [happy] うれしい,\" and \"asamashii [miserable] あさましい,\" etc.), gloominess (Topic 2: \"usugurai [dim] うすぐらい,\" \"sabishii [lonely] 淋しい,\" and \"waruku [bad] わるく,\" etc.), aestheticism (Topic 3: \"utsukushii [beautiful] 美しい,\" \"fukai [deep] ふかい,\" and \"yasashii [gentle] やさし い,\" etc.), monstrosity (Topic 4: \"osoroshii [horrible] 恐ろしい,\" \"tsumetai [cold] つめ たい,\" and \"minikui [ugly] 醜い,\" etc.). These topics were considered to indicate the style of Rampo's works.",
+      "preview_head": "In order to obtain Rampo's style reflected in each work, topics were extracted by applying LDA to words that appeared in two or more works and to words that appeared in less than 20% of all works (1054 words in total). In terms of Perplexity (prediction performance) and Coherence (topic quality), which are the main selection indices for the number of topics, it is desirable to have low perplexity and high coherence values (Sato, 2015). These indices were calculated when the number of topics was set from 1 to 10 (Fig. 3).",
+      "preview_tail": "As a result of examining words with high probability of belonging to each topic, each topic was classified into the following categories (see also Appendix): eccentricity (Topic 1: \"daijina [important] だいじな,\" \"ureshii [happy] うれしい,\" and \"asamashii [miserable] あさましい,\" etc.), gloominess (Topic 2: \"usugurai [dim] うすぐらい,\" \"sabishii [lonely] 淋しい,\" and \"waruku [bad] わるく,\" etc.), aestheticism (Topic 3: \"utsukushii [beautiful] 美しい,\" \"fukai [deep] ふかい,\" and \"yasashii [gentle] やさし い,\" etc.), monstrosity (Topic 4: \"osoroshii [horrible] 恐ろしい,\" \"tsumetai [cold] つめ たい,\" and \"minikui [ugly] 醜い,\" etc.). These topics were considered to indicate the style of Rampo's works.",
+      "word_count": 206,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.85,
+          "reason": "The section reports the results of topic modeling (LDA), including the process and the resulting top"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.15,
+          "reason": "There is some interpretation of what the topics mean in relation to Rampo's style."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Yamamoto et al. - 2023 - QUANTITATIVE ANALYSIS OF THE CHARACTERISTICS AND HISTORICAL TRANSITION OF EDOGAWA RAMPO’S WORKS",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Chronological Changes of Rampo's Works Based on the Topic of His Styles",
+      "header_norm": "chronological changes of rampo s works based on the topic of his styles",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Nonparametric Bayesian co-clustering was applied to the probability of belonging to each topic of Rampo's works, and 10 clusters were identified (Fig. 4).",
+        "As a striking result, cluster 1 (CL1) consisted largely of works with eccentricity, cluster 2 (CL2) with aestheticism, cluster 3 (CL3) with monstrosity, and cluster 4 (CL4) with gloominess. Among these, CL1, CL3, and CL4 were predominantly comprised of pre-WWII works (83.3%, 76%, and 85.7%, respectively), whereas CL2 was mainly composed of post-WWII works (88%).",
+        "In the prewar period, Rampo's works tended to be characterized by eccentricity, monstrosity, and gloominess, while those in the postwar period tended to be markedly more aesthetic in nature. These results are consistent with and extend the discussion by Takano (2013), who noted that \"grotesque and erotic expressions are prominent in Rampo's works from the late 1920s to the mid-1930s.\"",
+        "On the other hand, the above clusters consist of only 53.4% of the total works, indicating that the remaining clusters include works that combine multiple styles. This suggests that Rampo continued to publish works in all styles throughout his career."
+      ],
+      "footnotes": [],
+      "text": "Nonparametric Bayesian co-clustering was applied to the probability of belonging to each topic of Rampo's works, and 10 clusters were identified (Fig. 4).\n\nAs a striking result, cluster 1 (CL1) consisted largely of works with eccentricity, cluster 2 (CL2) with aestheticism, cluster 3 (CL3) with monstrosity, and cluster 4 (CL4) with gloominess. Among these, CL1, CL3, and CL4 were predominantly comprised of pre-WWII works (83.3%, 76%, and 85.7%, respectively), whereas CL2 was mainly composed of post-WWII works (88%).\n\nIn the prewar period, Rampo's works tended to be characterized by eccentricity, monstrosity, and gloominess, while those in the postwar period tended to be markedly more aesthetic in nature. These results are consistent with and extend the discussion by Takano (2013), who noted that \"grotesque and erotic expressions are prominent in Rampo's works from the late 1920s to the mid-1930s.\"\n\nOn the other hand, the above clusters consist of only 53.4% of the total works, indicating that the remaining clusters include works that combine multiple styles. This suggests that Rampo continued to publish works in all styles throughout his career.",
+      "text_with_footnotes": "Nonparametric Bayesian co-clustering was applied to the probability of belonging to each topic of Rampo's works, and 10 clusters were identified (Fig. 4).\n\nAs a striking result, cluster 1 (CL1) consisted largely of works with eccentricity, cluster 2 (CL2) with aestheticism, cluster 3 (CL3) with monstrosity, and cluster 4 (CL4) with gloominess. Among these, CL1, CL3, and CL4 were predominantly comprised of pre-WWII works (83.3%, 76%, and 85.7%, respectively), whereas CL2 was mainly composed of post-WWII works (88%).\n\nIn the prewar period, Rampo's works tended to be characterized by eccentricity, monstrosity, and gloominess, while those in the postwar period tended to be markedly more aesthetic in nature. These results are consistent with and extend the discussion by Takano (2013), who noted that \"grotesque and erotic expressions are prominent in Rampo's works from the late 1920s to the mid-1930s.\"\n\nOn the other hand, the above clusters consist of only 53.4% of the total works, indicating that the remaining clusters include works that combine multiple styles. This suggests that Rampo continued to publish works in all styles throughout his career.",
+      "preview_head": "Nonparametric Bayesian co-clustering was applied to the probability of belonging to each topic of Rampo's works, and 10 clusters were identified (Fig. 4).",
+      "preview_tail": "On the other hand, the above clusters consist of only 53.4% of the total works, indicating that the remaining clusters include works that combine multiple styles. This suggests that Rampo continued to publish works in all styles throughout his career.",
+      "word_count": 178,
+      "paragraph_count": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports the application of Bayesian co-clustering and the identification of clusters, in"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "The section interprets the meaning of the clusters, discussing implications for Rampo's evolving sty"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.93,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    }
+  ],
+  "stats": {
+    "total_sections": 8,
+    "content_sections": 6,
+    "total_words": 1805,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 8,
+    "by_source": {
+      "heuristic": 2,
+      "llm": 4,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

@@ -1,0 +1,19 @@
+data:
+  raw_pdfs: "data/raw"
+  intermediate: "data/intermediate"
+  outputs: "data/outputs"
+
+parsing:
+  min_paragraph_chars: 200
+
+zoning:
+  enabled: true
+  hf_model: "pritamdeka/PubMedBert-PubMed200kRCT"
+  batch_size: 16
+  max_sent_chars: 2000
+
+llm:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0
+  max_tokens: 1500

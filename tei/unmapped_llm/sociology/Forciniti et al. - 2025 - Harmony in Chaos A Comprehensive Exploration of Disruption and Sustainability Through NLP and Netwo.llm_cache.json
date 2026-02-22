@@ -1,0 +1,84 @@
+{
+  "classifications": [
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the technical details of lemmatization, text annotation, and network analysis, all"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the technical details of lemmatization, text annotation, and network analysis, all"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the corpus, lexical statistics, and pre-processing steps, which are methodological."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports findings from community detection and describes the results of the network analysis,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Some brief reference to the methodological approach (matrix M, projection), but focus is on findings"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "Describes the application of the Embedded Topic Model (ETM) to sub-corpora, which is a method."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "Reports the performance of ETM versus LDA and discusses the results of the topic modeling."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings from bipartite network analysis and topic affiliation matrix."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section includes interpretation of results and suggestions for future research directions."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

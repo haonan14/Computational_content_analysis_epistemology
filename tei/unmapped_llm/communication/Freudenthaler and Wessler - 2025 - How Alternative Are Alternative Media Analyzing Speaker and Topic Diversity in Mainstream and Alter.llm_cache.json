@@ -1,0 +1,174 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, situates the study in the context of online and legacy/alt"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section introduces the research context (online media, mainstream vs. alternative), frames the '"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research on migration and refugee news coverage, referencing existing lit"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Dense with citations and summary of what is known about migration/refugee coverage; describes prior"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses theoretical concepts of speaker and content diversity, referencing prior research and fact"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explains key concepts (speaker/content diversity), cites prior work, and sets up theoretical backgr"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Expands on previous research, defines 'alternative media', and sets up expectations based on prior l"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Continues literature review, defines alternative media, and discusses expectations based on prior s"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the methodological approach for measuring speaker and topic diversity, including the use o"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the methods used in the study (content analysis, measurement approach), focusing on what t"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details the coding procedure for speakers, including coder training and operationalization, which a"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process for coding speakers, coder training, and calculation of diversity index; all "
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use of LDA topic modeling and cluster analysis for assessing topic diversity, focusing"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the topic modeling and clustering procedures, including data cleaning and analysis steps;"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on speaker diversity, referencing tables and observed patterns, and directly answe"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Presents findings (tables, patterns, diversity index) and answers research question about speaker d"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on topic diversity, including statistical comparisons and observed patterns, focus"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes results of topic diversity analysis, including statistical tests and interpretation of fi"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Provides clarifications and technical notes (e.g., definition of 'partisan', explanation of Helling"
+        },
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Contains supplementary notes and technical clarifications, typical of an appendix or endnotes secti"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "paper_id": "Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/psychology/Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation.tei.xml",
+  "metadata": {
+    "title": "<b>stm</b>: An <i>R</i> Package for Structural Topic Models",
+    "authors": [
+      "Margaret Roberts",
+      "Brandon Stewart",
+      "Dustin Tingley"
+    ],
+    "journal": "Journal of Statistical Software",
+    "year": "2019",
+    "doi": "10.18637/jss.v091.i02",
+    "keywords": []
+  },
+  "abstract": "",
+  "sections": [
+    {
+      "paper_id": "Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "NO_HEADER",
+      "header_norm": "",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Experiment 1 • Between-subjects: 8 target groups: women, men, heterosexual women/men, homosexual women/men, bisexual women/men • 824 Swedish speaking participants recruited from social media groups Experiment 2 • Between-subjects: 11 target groups: women, men, heterosexual people, homosexual people, bisexual people, heterosexual women/men, homosexual women/men, bisexual women/men • 1099 British nationals recruited from Prolific.co Measures ▪ Free association attribute generation task ▪ Numerical ratings of similarity to general gender/sexual orientation groups. • Qualitative data was analysed using content analysis (experiment 1) and structural topic modelling (experiment 2; Roberts et al., 2019) • Similarity ratings were analysed with a series of 2 (gender:",
+        "women, men) × 3 (sexual orientation: heterosexual, homosexual, bisexual) ANOVAs"
+      ],
+      "footnotes": [],
+      "text": "Experiment 1 • Between-subjects: 8 target groups: women, men, heterosexual women/men, homosexual women/men, bisexual women/men • 824 Swedish speaking participants recruited from social media groups Experiment 2 • Between-subjects: 11 target groups: women, men, heterosexual people, homosexual people, bisexual people, heterosexual women/men, homosexual women/men, bisexual women/men • 1099 British nationals recruited from Prolific.co Measures ▪ Free association attribute generation task ▪ Numerical ratings of similarity to general gender/sexual orientation groups. • Qualitative data was analysed using content analysis (experiment 1) and structural topic modelling (experiment 2; Roberts et al., 2019) • Similarity ratings were analysed with a series of 2 (gender:\n\nwomen, men) × 3 (sexual orientation: heterosexual, homosexual, bisexual) ANOVAs",
+      "text_with_footnotes": "Experiment 1 • Between-subjects: 8 target groups: women, men, heterosexual women/men, homosexual women/men, bisexual women/men • 824 Swedish speaking participants recruited from social media groups Experiment 2 • Between-subjects: 11 target groups: women, men, heterosexual people, homosexual people, bisexual people, heterosexual women/men, homosexual women/men, bisexual women/men • 1099 British nationals recruited from Prolific.co Measures ▪ Free association attribute generation task ▪ Numerical ratings of similarity to general gender/sexual orientation groups. • Qualitative data was analysed using content analysis (experiment 1) and structural topic modelling (experiment 2; Roberts et al., 2019) • Similarity ratings were analysed with a series of 2 (gender:\n\nwomen, men) × 3 (sexual orientation: heterosexual, homosexual, bisexual) ANOVAs",
+      "preview_head": "Experiment 1 • Between-subjects: 8 target groups: women, men, heterosexual women/men, homosexual women/men, bisexual women/men • 824 Swedish speaking participants recruited from social media groups Experiment 2 • Between-subjects: 11 target groups: women, men, heterosexual people, homosexual people, bisexual people, heterosexual women/men, homosexual women/men, bisexual women/men • 1099 British nationals recruited from Prolific.co Measures ▪ Free association attribute generation task ▪ Numerical ratings of similarity to general gender/sexual orientation groups. • Qualitative data was analysed using content analysis (experiment 1) and structural topic modelling (experiment 2; Roberts et al., 2019) • Similarity ratings were analysed with a series of 2 (gender:",
+      "preview_tail": "women, men) × 3 (sexual orientation: heterosexual, homosexual, bisexual) ANOVAs",
+      "word_count": 111,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the experimental design, participant recruitment, and variables for two experiments; all '"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the experimental design, participant recruitment, and variables for two experiments; all '"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Prototypicality at the Intersection of Gender and Sexual Orientation",
+      "header_norm": "prototypicality at the intersection of gender and sexual orientation",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The intersectional invisibility hypothesis (IIH) suggests that individuals with multiple marginalised identities are seen as nonprototypical representatives of either of the groups they belong to, and therefore experience invisibility (Purdie-Vaughns & Eibach, 2008).",
+        "Two online experiments were conducted in Sweden and the UK to test the IIH for groups at the intersection of the genders women and men and the sexual orientations heterosexual, homosexual, and bisexual."
+      ],
+      "footnotes": [],
+      "text": "The intersectional invisibility hypothesis (IIH) suggests that individuals with multiple marginalised identities are seen as nonprototypical representatives of either of the groups they belong to, and therefore experience invisibility (Purdie-Vaughns & Eibach, 2008).\n\nTwo online experiments were conducted in Sweden and the UK to test the IIH for groups at the intersection of the genders women and men and the sexual orientations heterosexual, homosexual, and bisexual.",
+      "text_with_footnotes": "The intersectional invisibility hypothesis (IIH) suggests that individuals with multiple marginalised identities are seen as nonprototypical representatives of either of the groups they belong to, and therefore experience invisibility (Purdie-Vaughns & Eibach, 2008).\n\nTwo online experiments were conducted in Sweden and the UK to test the IIH for groups at the intersection of the genders women and men and the sexual orientations heterosexual, homosexual, and bisexual.",
+      "preview_head": "The intersectional invisibility hypothesis (IIH) suggests that individuals with multiple marginalised identities are seen as nonprototypical representatives of either of the groups they belong to, and therefore experience invisibility (Purdie-Vaughns & Eibach, 2008).",
+      "preview_tail": "Two online experiments were conducted in Sweden and the UK to test the IIH for groups at the intersection of the genders women and men and the sexual orientations heterosexual, homosexual, and bisexual.",
+      "word_count": 66,
+      "paragraph_count": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Frames the research problem, introduces the intersectional invisibility hypothesis, and states the '"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "AMANDA KLYSING, LUND UNIVERSITY, SWEDEN",
+      "header_norm": "amanda klysing lund university sweden",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Prototypes of general gender groups are influenced by heterocentrism. Perceptions of 'women' and 'men' in general = perceptions of heterosexual women/men The prototype for 'homosexual people' is influenced by androcentrism, the prototype for 'bisexual people' is instead closer to that of 'bisexual women' Intersectional invisibility hypothesis supported for the prototype of 'homosexual women'"
+      ],
+      "footnotes": [],
+      "text": "Prototypes of general gender groups are influenced by heterocentrism. Perceptions of 'women' and 'men' in general = perceptions of heterosexual women/men The prototype for 'homosexual people' is influenced by androcentrism, the prototype for 'bisexual people' is instead closer to that of 'bisexual women' Intersectional invisibility hypothesis supported for the prototype of 'homosexual women'",
+      "text_with_footnotes": "Prototypes of general gender groups are influenced by heterocentrism. Perceptions of 'women' and 'men' in general = perceptions of heterosexual women/men The prototype for 'homosexual people' is influenced by androcentrism, the prototype for 'bisexual people' is instead closer to that of 'bisexual women' Intersectional invisibility hypothesis supported for the prototype of 'homosexual women'",
+      "preview_head": "Prototypes of general gender groups are influenced by heterocentrism. Perceptions of 'women' and 'men' in general = perceptions of heterosexual women/men The prototype for 'homosexual people' is influenced by androcentrism, the prototype for 'bisexual people' is instead closer to that of 'bisexual women' Intersectional invisibility hypothesis supported for the prototype of 'homosexual women'",
+      "preview_tail": "Prototypes of general gender groups are influenced by heterocentrism. Perceptions of 'women' and 'men' in general = perceptions of heterosexual women/men The prototype for 'homosexual people' is influenced by androcentrism, the prototype for 'bisexual people' is instead closer to that of 'bisexual women' Intersectional invisibility hypothesis supported for the prototype of 'homosexual women'",
+      "word_count": 53,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Summarizes the main findings and patterns regarding prototypes and group perceptions."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation of the results, connecting findings to concepts like heterocentrism and"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Conclusions",
+      "header_norm": "conclusions",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Amanda Klysing, Department of Psychology, Lund university. E-mail: Amanda.Klysing@psy.lu.se"
+      ],
+      "footnotes": [],
+      "text": "Amanda Klysing, Department of Psychology, Lund university. E-mail: Amanda.Klysing@psy.lu.se",
+      "text_with_footnotes": "Amanda Klysing, Department of Psychology, Lund university. E-mail: Amanda.Klysing@psy.lu.se",
+      "preview_head": "Amanda Klysing, Department of Psychology, Lund university. E-mail: Amanda.Klysing@psy.lu.se",
+      "preview_tail": "Amanda Klysing, Department of Psychology, Lund university. E-mail: Amanda.Klysing@psy.lu.se",
+      "word_count": 9,
+      "paragraph_count": 1,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*conclusion(s)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*conclusion(s)?\\s*$",
+      "major_label": "CONCLUSION"
+    },
+    {
+      "paper_id": "Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Contact",
+      "header_norm": "contact",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Mean ratings of target group similarity to women/men. Error bars represent the 95% CI of the mean."
+      ],
+      "footnotes": [],
+      "text": "Mean ratings of target group similarity to women/men. Error bars represent the 95% CI of the mean.",
+      "text_with_footnotes": "Mean ratings of target group similarity to women/men. Error bars represent the 95% CI of the mean.",
+      "preview_head": "Mean ratings of target group similarity to women/men. Error bars represent the 95% CI of the mean.",
+      "preview_tail": "Mean ratings of target group similarity to women/men. Error bars represent the 95% CI of the mean.",
+      "word_count": 17,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports mean ratings and error bars, which are direct findings from the study."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Theoretical background",
+      "header_norm": "theoretical background",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Methods"
+      ],
+      "footnotes": [],
+      "text": "Methods",
+      "text_with_footnotes": "Methods",
+      "preview_head": "Methods",
+      "preview_tail": "Methods",
+      "word_count": 1,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*theoretical\\s+(background|"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*theoretical\\s+(background|",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "HYPOTHESES",
+      "header_norm": "hypotheses",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "H 1 : Prototypes for general gender groups will be more similar to prototypes for heterosexual women and men H 2 : Prototypes for general sexual orientation groups will be more similar to the men in each sexual orientation group H 3 : Groups with more than one marginalised identity will be viewed as a less prototypical member of both their gender and sexual orientation Normative femininity Normative masculinity Butch and kind Effeminate hedonism Less prevalent for homosexual and bisexual women, no difference in topic prevalence among men Less prevalent for homosexual and bisexual men, more prevalent for homosexual and bisexual women More prevalent for homosexual and bisexual women, more prevalent for 'homosexual women' than 'homosexual people' More prevalent for homosexual and bisexual men, more prevalent for 'homosexual people' than 'homosexual women' Rule followers Rule breakers Attractive but flighty Most prevalent for 'heterosexual people', no difference in prevalence between heterosexual women and men More prevalent for all sexual minority target groups, more prevalent for 'bisexual men' than 'bisexual people' More prevalent for bisexual women and men, less prevalent for 'bisexual men' than 'bisexual people'",
+        "Homosexual men more similar to 'homosexual people' in general. Bisexual women more similar to 'bisexual people' in general H2 Homosexual women were intersectionally invisible. No support for invisibility for bisexual women."
+      ],
+      "footnotes": [],
+      "text": "H 1 : Prototypes for general gender groups will be more similar to prototypes for heterosexual women and men H 2 : Prototypes for general sexual orientation groups will be more similar to the men in each sexual orientation group H 3 : Groups with more than one marginalised identity will be viewed as a less prototypical member of both their gender and sexual orientation Normative femininity Normative masculinity Butch and kind Effeminate hedonism Less prevalent for homosexual and bisexual women, no difference in topic prevalence among men Less prevalent for homosexual and bisexual men, more prevalent for homosexual and bisexual women More prevalent for homosexual and bisexual women, more prevalent for 'homosexual women' than 'homosexual people' More prevalent for homosexual and bisexual men, more prevalent for 'homosexual people' than 'homosexual women' Rule followers Rule breakers Attractive but flighty Most prevalent for 'heterosexual people', no difference in prevalence between heterosexual women and men More prevalent for all sexual minority target groups, more prevalent for 'bisexual men' than 'bisexual people' More prevalent for bisexual women and men, less prevalent for 'bisexual men' than 'bisexual people'\n\nHomosexual men more similar to 'homosexual people' in general. Bisexual women more similar to 'bisexual people' in general H2 Homosexual women were intersectionally invisible. No support for invisibility for bisexual women.",
+      "text_with_footnotes": "H 1 : Prototypes for general gender groups will be more similar to prototypes for heterosexual women and men H 2 : Prototypes for general sexual orientation groups will be more similar to the men in each sexual orientation group H 3 : Groups with more than one marginalised identity will be viewed as a less prototypical member of both their gender and sexual orientation Normative femininity Normative masculinity Butch and kind Effeminate hedonism Less prevalent for homosexual and bisexual women, no difference in topic prevalence among men Less prevalent for homosexual and bisexual men, more prevalent for homosexual and bisexual women More prevalent for homosexual and bisexual women, more prevalent for 'homosexual women' than 'homosexual people' More prevalent for homosexual and bisexual men, more prevalent for 'homosexual people' than 'homosexual women' Rule followers Rule breakers Attractive but flighty Most prevalent for 'heterosexual people', no difference in prevalence between heterosexual women and men More prevalent for all sexual minority target groups, more prevalent for 'bisexual men' than 'bisexual people' More prevalent for bisexual women and men, less prevalent for 'bisexual men' than 'bisexual people'\n\nHomosexual men more similar to 'homosexual people' in general. Bisexual women more similar to 'bisexual people' in general H2 Homosexual women were intersectionally invisible. No support for invisibility for bisexual women.",
+      "preview_head": "H 1 : Prototypes for general gender groups will be more similar to prototypes for heterosexual women and men H 2 : Prototypes for general sexual orientation groups will be more similar to the men in each sexual orientation group H 3 : Groups with more than one marginalised identity will be viewed as a less prototypical member of both their gender and sexual orientation Normative femininity Normative masculinity Butch and kind Effeminate hedonism Less prevalent for homosexual and bisexual women, no difference in topic prevalence among men Less prevalent for homosexual and bisexual men, more prevalent for homosexual and bisexual women More prevalent for homosexual and bisexual women, more prevalent for 'homosexual women' than 'homosexual people' More prevalent for homosexual and bisexual men, more prevalent for 'homosexual people' than 'homosexual women' Rule followers Rule breakers Attractive but flighty Most prevalent for 'heterosexual people', no difference in prevalence between heterosexual women and men More prevalent for all sexual minority target groups, more prevalent for 'bisexual men' than 'bisexual people' More prevalent for bisexual women and men, less prevalent for 'bisexual men' than 'bisexual people'",
+      "preview_tail": "Homosexual men more similar to 'homosexual people' in general. Bisexual women more similar to 'bisexual people' in general H2 Homosexual women were intersectionally invisible. No support for invisibility for bisexual women.",
+      "word_count": 215,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*hypothes[ie]s"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*hypothes[ie]s",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Klysing - 2023 - Prototypicality at the intersection of gender and sexual orientation",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "H3",
+      "header_norm": "h3",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Heterosexual women/men more similar to 'women'/'men' in general H1"
+      ],
+      "footnotes": [],
+      "text": "Heterosexual women/men more similar to 'women'/'men' in general H1",
+      "text_with_footnotes": "Heterosexual women/men more similar to 'women'/'men' in general H1",
+      "preview_head": "Heterosexual women/men more similar to 'women'/'men' in general H1",
+      "preview_tail": "Heterosexual women/men more similar to 'women'/'men' in general H1",
+      "word_count": 9,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "States hypotheses and findings about group similarity, indicating results of the analysis."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    }
+  ],
+  "stats": {
+    "total_sections": 8,
+    "content_sections": 8,
+    "total_words": 481,
+    "has_abstract": false
+  },
+  "classification_stats": {
+    "total": 8,
+    "by_source": {
+      "heuristic": 3,
+      "llm": 5,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

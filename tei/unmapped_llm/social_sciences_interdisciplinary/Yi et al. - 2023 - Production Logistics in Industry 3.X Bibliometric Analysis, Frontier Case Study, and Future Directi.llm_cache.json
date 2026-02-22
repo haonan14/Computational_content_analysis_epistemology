@@ -1,0 +1,197 @@
+{
+  "classifications": [
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports the results of keyword clustering analysis from bibliometric data, including Q,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is some reference to the analysis method (keyword clustering), but the focus is on reporting Q"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section synthesizes and reports the main topics and findings from the bibliometric analysis, as"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the results, identifies research gaps, and discusses implications for future"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the bibliometric findings and research gaps, and introduces the rationale"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "It also describes the approach for the case study that follows, setting up the methods to be used."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the case background and the operation mode of SPLS, focusing on the design and approach"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Continues to detail the operation mode and mechanisms of SPLS, focusing on the technical and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the specific decision-making methods (ATC) used in the SPLS system, focusing on the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports the application and observed effects of the decision-making framework in an industrial"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes how the framework was applied in practice, including implementation details."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Continues to report on the application and effects of the framework in the industrial case study."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Includes some description of the implementation process in the enterprise."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the physical objects and operational logic flow in the SPLS, focusing on system design"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Continues to detail the operational logic and decision-making issues in the SPLS, focusing on the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the smart digitization technologies and their role in the SPLS, focusing on the technical"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section describes the analysis of production logistics processes and resource behaviors using 's"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive language about the implications of analytics for decision-making and 'int"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports specific quantitative improvements (e.g., efficiency, timeliness, storage time)"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

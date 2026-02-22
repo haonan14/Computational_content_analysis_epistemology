@@ -1,0 +1,140 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research, discusses existing theories, and cites previous work on the key"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews prior research, discusses existing theories, and cites previous work on the key"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section presents a theory from prior literature, referencing studies and arguments made by past"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section presents a theory from prior literature, referencing studies and arguments made by past"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses a second theory from prior literature, citing authors and summarizing their"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section discusses a second theory from prior literature, citing authors and summarizing their"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section introduces a third theory from prior literature, referencing claims and arguments made"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section introduces a third theory from prior literature, referencing claims and arguments made"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the experimental design, including manipulations and procedures, which are"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section describes the experimental design, including manipulations and procedures, which are"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the rationale and criteria for case selection, which is a methodological"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section details the rationale and criteria for case selection, which is a methodological"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports empirical findings, referencing figures and describing observed effects and"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports empirical findings, referencing figures and describing observed effects and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section provides supplementary notes and technical details, which are typically found in an"
+        },
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "The section provides supplementary notes and technical details, which are typically found in an"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

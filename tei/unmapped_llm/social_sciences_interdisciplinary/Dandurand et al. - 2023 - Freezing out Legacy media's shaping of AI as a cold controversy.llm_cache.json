@@ -1,0 +1,84 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews concepts and prior scholarship on news making, legacy media, and AI, citing key"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "The section interprets how journalistic practices shape public understanding of AI, referencing both"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "There are references to prior work and concepts (e.g., Jasanoff, Marres, Broussard), situating the"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the role of experts in media, connecting their interventions to broader"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "It references prior studies and theoretical concepts (e.g., Colleret and Gingras, Bengio) to frame"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "This section synthesizes and interprets findings from previous sections, discussing implications of"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "It references prior concepts (e.g., 'fourth industrial revolution') and situates the discussion in"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "This section interprets the economic and discursive framing of AI in Canada, discussing implications"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "It references specific data (e.g., $1.5 billion in funding) and outcomes of the media's framing,"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

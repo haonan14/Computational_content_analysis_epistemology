@@ -1,0 +1,101 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section introduces the context, motivation, and goals of the study, including the shift to online/sc"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "Section introduces the context, motivation, and goals of the study, including the shift to online/sc"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides theoretical background and literature context for science communication, with heavy"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides theoretical background and literature context for science communication, with heavy"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the content analysis method, including metrics and references to methodological li"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the content analysis method, including metrics and references to methodological li"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings from the topic modeling analysis, including figures, model selection, and i"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings from the topic modeling analysis, including figures, model selection, and i"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Section reports findings from the link analysis, including proportions and patterns of web links."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Section interprets the findings, discusses implications, and connects results to broader questions."
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "Section also summarizes the study and provides closing remarks, blending discussion and conclusion."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

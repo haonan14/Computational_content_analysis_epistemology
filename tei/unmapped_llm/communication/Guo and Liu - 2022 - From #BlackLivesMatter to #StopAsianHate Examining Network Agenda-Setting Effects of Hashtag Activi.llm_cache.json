@@ -1,0 +1,84 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces hashtag activism, and situates the study in the"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.0,
+          "reason": "While there are some citations, the main function is to introduce the topic and research context."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work and context on BLM and SAH movements, with heavy use of citations, a"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.0,
+          "reason": "The section is not primarily introducing the paper, but rather reviewing background literature."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides theoretical background on agenda-setting theory, citing foundational work and "
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.0,
+          "reason": "The section is not introducing the paper, but rather reviewing theory."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.6,
+          "reason": "This section presents research questions and hypotheses, which is part of framing the study and its "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.4,
+          "reason": "The section also references prior work and theoretical expectations, especially in the hypotheses."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the operationalization of the network, data processing, and analytic techniqu"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

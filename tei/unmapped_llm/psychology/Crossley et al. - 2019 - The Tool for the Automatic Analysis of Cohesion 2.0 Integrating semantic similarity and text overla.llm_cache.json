@@ -1,0 +1,115 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the tool, and outlines the studies conducted, a"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section introduces the tool, its features, and the two studies, providing the research context, "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines cohesion, discusses its importance, and cites foundational and prior research, "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews methods for assessing discourse cohesion, referencing prior studies and developm"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Describes computational models and prior work on semantic similarity, with citations and theoretical"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Begins to describe how TAACO calculates semantic similarity, hinting at the paper's own approach."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Explains the concept of keyword overlap and references general approaches, with theoretical backgrou"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes how indices are calculated, relating to the paper's own tool."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the essay evaluation process, raters, and analytic focus, all actions taken by the authors"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the integrated speaking tasks, participant demographics, and data collection procedures, a"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the materials used in the study, including surveys, tests, and TAACO indices, all pertaini"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

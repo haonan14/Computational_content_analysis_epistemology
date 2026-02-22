@@ -1,0 +1,89 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section provides a conceptual and technical overview of the Structural Topic Model (STM), with,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "The section also introduces how STM is used in the context of the paper, bridging into the methods."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports the findings from the STM analysis, including diagnostics, optimal number of top"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive commentary on the meaning and implications of the identified topics."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.85,
+          "reason": "This section presents the results of mapping topics to metadata (publication years/types), with tab"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.15,
+          "reason": "Some interpretive statements about the patterns and their implications are included."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports findings on the convergence between topics and conceptual pillars, describing "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is interpretive analysis of the connections and gaps between theory and practice."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "This section provides a final summary, closing remarks, and some forward-looking statements."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretive synthesis and reflection on the study's implications."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

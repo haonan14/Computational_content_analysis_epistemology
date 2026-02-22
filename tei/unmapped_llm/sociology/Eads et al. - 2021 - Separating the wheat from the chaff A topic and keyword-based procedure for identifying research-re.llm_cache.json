@@ -1,0 +1,180 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section develops a conceptual typology and describes different ways texts relate to a research topic"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Section also discusses how the typology informs the design of a semi-automatic identification method"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the use of Latent Dirichlet Allocation (LDA) topic modeling as a methodological step"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes a step in the procedure for identifying relevant topics, focusing on the process, "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the procedure for identifying Type 1 texts using topic proportions and word-embedd"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the creation of a 'super' keyword list and its use in identifying text types, which"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the experimental procedure for testing the method, including data extraction, man"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Section describes the calculation of relative entropy and how it is used to identify relevant docum"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Section briefly references the results (e.g., blue and black bars showing identification rates)"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "Section provides example texts illustrating non-relevant cases, which is typical of an appendix"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

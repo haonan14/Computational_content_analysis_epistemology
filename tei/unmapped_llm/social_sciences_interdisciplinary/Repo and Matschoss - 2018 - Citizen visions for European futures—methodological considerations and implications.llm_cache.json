@@ -1,0 +1,33 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the role of citizen involvement in foresight studies, references prior work,,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the role of citizen involvement in foresight studies, references prior work,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "The section 'Endnotes' provides clarifications and technical notes, not substantive content or core-"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

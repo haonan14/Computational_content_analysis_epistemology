@@ -1,0 +1,159 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the construction and characteristics of the Hong Kong Protest News Dataset, a"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "The section details the data sources, selection criteria, and rationale for the dataset used in the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section continues the description of the dataset, including its time horizon and coverage, thus"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section explains the embedding shift analysis technique, a methodological approach used in the"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the computational sentiment analysis method applied to the data, including"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section discusses the volume and timing of news articles, referencing findings and anchoring"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "It also frames the findings in the context of their meaning and relevance, helping to interpret the"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports on the frequency and volume of protest coverage in different newspapers, which"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of why coverage differs, but the main focus is on reporting the"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section presents findings from content analysis regarding rhetorical tactics in news articles."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "It also interprets these findings in terms of press freedom and journalistic practices."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "This section reports on the use and frequency of protest-related keywords, presenting empirical"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation regarding journalistic practices and strategic ambiguity."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from the analysis of word embedding neighborhoods, showing how term"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "It includes some interpretation of what these differences mean for understanding news coverage."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section reports the results of sentiment analysis, including statistics and observed patterns."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "It also interprets the findings in the context of historical and political background."
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

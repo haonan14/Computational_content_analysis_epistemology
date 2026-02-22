@@ -1,0 +1,96 @@
+{
+  "classifications": [
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes specific preprocessing steps (stopword removal, use of NER) applied by the authors to the "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes specific preprocessing steps (stopword removal, use of NER) applied by the authors to the "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the segmentation process used by the authors for topic modeling, detailing their approach."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' decision to model only nouns and the use of POS tagging, which are part of  "
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the authors' decision to model only nouns and the use of POS tagging, which are part of  "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of the Mallet toolkit and the modeling procedure, which are methodological details"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings and observations from the analysis, including visualizations and patterns found in "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes some interpretation and contextualization of the results, especially regarding gendered the"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.6,
+          "reason": "Reports on the gendered nature of topics and presents findings from gender classification analysis."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.4,
+          "reason": "Interprets the meaning of gendered topics and connects findings to broader gender norms."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

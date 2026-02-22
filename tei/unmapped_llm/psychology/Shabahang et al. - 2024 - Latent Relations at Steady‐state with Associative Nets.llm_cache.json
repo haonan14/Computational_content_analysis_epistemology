@@ -1,0 +1,135 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides an overview of latent representation models, describing their assumptions and,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides an overview of latent representation models, describing their assumptions and,"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses the limitations of existing latent representation models, referencing prior"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section primarily reviews instance-based memory theories (e.g., MINERVA2), referencing prior"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "The tail of the section briefly mentions a methodological choice in the present work (relaxing the"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses associative memory models and their theoretical underpinnings, referencing"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some description of the authors' approach (normalization transformation, use of co-"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.6,
+          "reason": "The section introduces the Dynamic-Eigen Net in the context of Hebbian associative nets, providing"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.4,
+          "reason": "The section transitions into describing the authors' model (DEN) and the evaluation task, indicating"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "This section details the simulation procedures, including model training, tasks, and evaluation"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "The tail of the section begins to report comparative results (median ranks, model performance)."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section describes the procedure for applying models to word-pair evaluation tasks, aligning with"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "The tail of the section reports comparative results across models (ranks, association strengths)."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.6,
+          "reason": "The section describes the grid search over hyperparameters and evaluation procedures for the models,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.4,
+          "reason": "The tail of the section reports findings on model performance and relation types, indicating results"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

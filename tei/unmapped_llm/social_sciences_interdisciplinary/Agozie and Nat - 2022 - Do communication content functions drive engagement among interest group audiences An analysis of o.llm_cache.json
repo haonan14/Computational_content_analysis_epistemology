@@ -1,0 +1,50 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on interest group organizations, cites prior research, and reviews/"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on interest group organizations, cites prior research, and reviews/"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section develops the research framework by reviewing definitions, prior findings, and conceptual"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "There is some framing of the study's purpose and how it extends prior work, which is introductory in"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the operationalization of variables, coding procedures, and reliability"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

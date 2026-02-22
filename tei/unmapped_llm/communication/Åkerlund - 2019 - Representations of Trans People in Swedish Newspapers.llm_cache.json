@@ -1,0 +1,209 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and theoretical perspectives on media representations of trans*;"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from the topic modeling analysis of the dataset, describing the topics"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the theoretical background and prior work on Critical Discourse Analysis, as"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.6,
+          "reason": "The section presents quantitative results and findings from the analysis."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.4,
+          "reason": "It also discusses discursive strategies and interprets the meaning of the findings."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports quantitative findings about the frequency and marginalization of trans-related"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section demonstrates and describes discursive strategies found in the data (findings)."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "It interprets the meaning and implications of these discursive strategies."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "This section provides examples and findings from the data about exclusionary tactics."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "It interprets the implications of these findings for understanding exclusion."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section presents findings/examples of how voices are included or excluded in the articles."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "It discusses the impact of these practices on trans representation."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the meaning and implications of the findings, connecting them to broader"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "It references specific findings/examples from the data."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This is a note providing a definition, typical of an appendix or notes section."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This is a note providing a definition, typical of an appendix or notes section."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This is a note clarifying terminology, typical of an appendix or notes section."
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "The section header is a number ('4.') and the content ('Intentional, as well as unconscious,strategi"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "The section header is a number ('5.') and the content is a list of terms, suggesting a glossary or a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "The section header is a number ('6.') and the content provides methodological or coding notes, typic"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

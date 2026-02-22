@@ -1,0 +1,57 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "Section frames the research problem, states hypotheses, and outlines the paper's contributions and a"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Section briefly previews the formal method developed and what the paper will do, but does not go in"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the construction of the network, nodes, edges, and the process for identifying con"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section continues the technical explanation of the clustering method, including the role of the k-m"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the procedure for tracking conversational clusters over time, describing the method"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

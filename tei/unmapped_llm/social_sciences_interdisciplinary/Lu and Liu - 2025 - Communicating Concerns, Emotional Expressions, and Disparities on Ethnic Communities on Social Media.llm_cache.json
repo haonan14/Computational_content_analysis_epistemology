@@ -1,0 +1,69 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "This section reviews prior research on racial and ethnic disparities in public health, referencing a"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "The section ends by stating the research question and sub-questions, which is a framing/roadmap move"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the application of Structural Topic Modeling (STM), including software, model selection, K"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Reports data extraction, sample sizes, and filtering\u2014core methodological details about the dataset"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from STM: identified themes, topics, and emotional expressions for each community"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes and interprets temporal trends in themes/topics, referencing figures and event timing\u2014core"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

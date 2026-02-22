@@ -1,0 +1,33 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Section details data collection decisions, parameters, and analytical strategy, which are core to 'M"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "The section ends with interpretive remarks about methodological choices and openness to new topic m"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Section is an author ORCID and notes, not a substantive research section."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

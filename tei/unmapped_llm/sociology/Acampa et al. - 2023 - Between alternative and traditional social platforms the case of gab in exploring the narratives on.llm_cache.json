@@ -1,0 +1,79 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior research and contextualizes the role of social media during the COVID-19,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section discusses the theoretical background and prior work on alternative social platforms and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "It also introduces the comparative approach and hints at the analytical framework to be used in the"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the data types, coding categories, and analytical procedures, which are all"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports findings from topic modeling and lexical analysis, describing what was found in"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is some interpretation of the results, connecting them to broader social mechanisms and"
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.6,
+          "reason": "This section summarizes the main findings, provides closing remarks, and suggests future research."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.4,
+          "reason": "It also interprets the results, discusses limitations, and connects findings to broader implications"
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

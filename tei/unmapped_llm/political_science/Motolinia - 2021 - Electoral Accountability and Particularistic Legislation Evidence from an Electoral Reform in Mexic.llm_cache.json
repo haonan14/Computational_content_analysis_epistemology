@@ -1,0 +1,138 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior comparative politics literature on candidate-centered electoral procedures and"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section reviews prior comparative politics literature on candidate-centered electoral procedures and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section discusses classic theory and prior research on legislative particularism, with dense use of"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section discusses classic theory and prior research on legislative particularism, with dense use of"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Section states a formal hypothesis (H1), which is part of the study's design."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section reviews prior research on political-business cycles and legislative behavior, with citations"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section reviews prior research on political-business cycles and legislative behavior, with citations"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Section states a formal hypothesis (H2), which is part of the study's design."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section reviews prior research on term lengths and legislative behavior, with citations and theory"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Section reviews prior research on term lengths and legislative behavior, with citations and theory"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Section states a formal hypothesis (H3), which is part of the study's design."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides historical and contextual background on the 2014 electoral reform in Mexico, with"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides historical and contextual background on the 2014 electoral reform in Mexico, with"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section describes the institutional and party system context in Mexico, referencing prior research"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section describes the institutional and party system context in Mexico, referencing prior research"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the use of the correlated topic model (CTM) to measure legislative speech, including"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the use of the correlated topic model (CTM) to measure legislative speech, including"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

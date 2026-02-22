@@ -1,0 +1,67 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on mandate letters, their history, function, and prior scholarly or"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on mandate letters, their history, function, and prior scholarly or"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section discusses the established practice of mandate letters, their purpose, and references to"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "The section also introduces the author's own hypothesis/argument for the paper, setting up the study"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports empirical findings, including counts and patterns found in the analysis of the m"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "The section briefly reiterates the empirical strategy and approach before presenting results."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "APPENDIX",
+      "tags": [
+        {
+          "label": "APPENDIX",
+          "weight": 1.0,
+          "reason": "This section presents supplementary data (word lists, topic tables) that support the main analysis, "
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

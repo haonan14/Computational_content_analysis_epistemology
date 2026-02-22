@@ -1,0 +1,62 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines 'issue entrepreneurs' and discusses the Public Arena Model, referencing prior ("
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "The section reviews literature on social media as a public arena, citing prior studies and situating"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section discusses prior research on social media platforms as research sites, referencing other"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "The end of the section briefly mentions the comparison conducted in Study 2, hinting at the paper's"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from the authors' analysis, specifically changes in discussion themes"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the findings, such as the mention of sarcasm and its implications"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

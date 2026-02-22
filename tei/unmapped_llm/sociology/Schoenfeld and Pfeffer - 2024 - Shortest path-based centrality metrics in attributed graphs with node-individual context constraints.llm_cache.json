@@ -1,0 +1,258 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Section introduces formal definitions and sets up the mathematical framework for the paper's novel ("
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "Some background definitions and concepts are provided, which are standard in the field."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.9,
+          "reason": "Section details the adaptation and calculation of betweenness centrality for the paper's context, a "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the calculation and adaptation of closeness centrality for the context of the pape"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the implementation details of the algorithms and software used, which is a methodo"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the construction and characteristics of the network used for analysis, which is a "
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the process of extracting topic information from text and associating it with networ"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Section describes the evaluation setup and how the centrality metrics are applied and tested."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Section signals the transition to reporting experimental results, as it mentions highlighting exper"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Section describes the procedure for evaluating betweenness centrality under the new constraints, fo"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Section begins to reference the outcomes of the evaluation, but is still primarily methodological."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "Section reports the results of applying the betweenness centrality metric under different parameter"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "Section briefly interprets the impact of the distance function on the results."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "Section reports the results of evaluating betweenness centrality for individual topics, describing"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "Section hints at the interpretive perspective opened by focusing on single vector entries."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "Section reports on the influence of context information on node rankings, describing observed patte"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "Section includes some interpretive commentary on the meaning of the observed changes in rankings."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports the results of a case study on an individual node's betweenness centrality in rela"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Section begins to interpret the findings and sets up further discussion in the next section."
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "sec_index": 15,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports on the use of the Herfindahl-Hirshman index to quantify node embeddedness, with,"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of what the index means for contextual embeddedness, but the main focus"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section describes the evaluation of closeness centrality with context constraints, indicating a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports on the evaluation and comparison of research interests and node rankings, which"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive commentary on the meaning of overlapping error bars and perturbation of"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 18,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section reports the evaluation of centrality values for all topic and threshold variations, and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings about closeness centrality and contextual barriers, referencing figure"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretation of the results, such as learning about gaps and monopolistic structures"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

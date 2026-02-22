@@ -1,0 +1,62 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "This section frames the research questions in terms of discursive style, cultural and literary forms"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "It continues to set up the research problem and approach, but is more focused on theoretical framing"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses the theoretical and rhetorical background, referencing prior work and situating the study"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the convergence of computational and social science methods, and the approach to text as '"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "References broader context and prior work on computational text analysis"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the use of part-of-speech tagging and the process for identifying 'Acts' in the text, i.e."
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

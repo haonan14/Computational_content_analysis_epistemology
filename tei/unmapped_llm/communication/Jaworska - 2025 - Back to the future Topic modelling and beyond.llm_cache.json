@@ -1,0 +1,21 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "The section interprets the meaning of knowledge, discusses implications of LLM-based tools, and the\u00a0"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "The section closes with a call to uphold academic principles and critically assess new tools, which\u00a0"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

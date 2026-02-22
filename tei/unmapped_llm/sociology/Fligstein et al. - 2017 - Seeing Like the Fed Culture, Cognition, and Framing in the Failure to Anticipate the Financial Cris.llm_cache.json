@@ -1,0 +1,83 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the Federal Reserve and the FOMC, outlines the "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides background on the Federal Reserve and FOMC, referencing prior literature and  "
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews the concept of frame analysis, citing foundational works and explaining the key"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses cognitive sociology, reviews relevant literature, and presents hypotheses, wh"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the case-based analytic approach used by the authors, focusing on how they ex"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings from Table 1, discussing evidence for macroeconomics as a primary fr"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports the temporal evolution of topics, referencing Figures 1a and 1b, and interprets"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents results from Table 2, analyzing differences in language by professional backgr"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports findings from a case study of the FOMC's discussion of the housing market, test"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section presents findings from a case study of the FOMC's response to the financial crisis, sh"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the theoretical and methodological implications of the study's findings, con"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses the policy implications of the study, connecting findings to broader issues a"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "REFERENCES",
+      "tags": [
+        {
+          "label": "REFERENCES",
+          "weight": 1.0,
+          "reason": "The 'Notes' section consists of endnotes or footnotes, which are supplementary reference material, a"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior literature on cultural innovation, referencing other scholars and summarz"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "This section frames the theoretical focus and introduces the conceptual model, referencing prior and"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.3,
+          "reason": "It also outlines the paper's aim and research question, which is an introductory function."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Reviews prior work and theory on status decline, with citations and theoretical background."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.1,
+          "reason": "States a hypothesis (H1), which is a prediction, not a result, but is sometimes linked to results."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Some interpretation of the implications of status decline is present."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Reviews prior work and theory on status increase, with citations and theoretical background."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.1,
+          "reason": "States a hypothesis, which is a prediction, not a result, but is sometimes linked to results."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Some interpretation of the implications of status increase is present."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Reviews prior work and theory on instability in status hierarchies, with citations and theoretical"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.1,
+          "reason": "States a hypothesis, which is a prediction, not a result, but is sometimes linked to results."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Some interpretation of the implications of instability is present."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "Discusses theoretical scope conditions and limitations, referencing prior literature."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Interprets and qualifies the hypotheses, which is a discussion function."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Provides background on the empirical context, referencing prior work and situating the study."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Begins to describe the empirical setting and sample, which is a methods function."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes control variables and measurement, which is a methods function."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the modeling approach, data structure, and estimation strategy, which are all methods."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

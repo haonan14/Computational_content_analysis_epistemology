@@ -1,0 +1,157 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "The section opens with a review of the theoretical and historical background of term frequency in a)"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "The section transitions to describing two methodological approaches (closed- and open-vocabulary) to"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes how term frequencies are used as variables in hypothesis testing, focusing on operationali"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "Includes references to prior studies and examples (e.g., Ashokkumar and Pennebaker, Brady) to illust"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the open-vocabulary approach as an inductive method for analyzing term frequencies, includ"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "References to prior research and examples (e.g., Eichstaedt et al 2015) to illustrate the method's "
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Focuses on methodological approaches to analyzing document structure, including document-term matrix"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "Mentions prior work and general background to contextualize the methods."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes Bayesian inference and latent Dirichlet allocation (LDA) as methods for topic modeling, in"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "References foundational work (Blei et al 2003) and situates Bayesian approaches in the broader field"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes network-based approaches to document structure analysis, including map analysis and commun"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "References to critics of Bayesian approaches and prior work (e.g., Carley 1994) to contextualize the"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Opens with a historical and theoretical overview of semantic similarity analysis, referencing Osgood"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Describes how semantic similarity analysis is applied and differentiates between types of applicatio"
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the within-corpus approach to word embeddings, focusing on how patterns are learned and ho"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions findings from research (e.g., associations found in cultural contexts) as examples of what "
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the between-corpus approach, focusing on comparing embeddings across corpora and methodolo"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "References findings and applications of the Bayesian approach to illustrate the method's utility."
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

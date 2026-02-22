@@ -1,0 +1,67 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports empirical findings about the frequency, timing, and length of news coverage of,"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "This section reports empirical findings about the frequency, timing, and length of news coverage of,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports on the representation of M\u0101ori and P\u0101keh\u0101 sources in news stories, with specific"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.2,
+          "reason": "The opening references prior studies and literature (Rankine et al. 2022) to contextualize the issue"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "The section presents findings about the use of imagery in news reporting, with specific data on the"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports on Stuff's use of te reo M\u0101ori and tikanga in news coverage, referencing data on"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "The section opens with references to prior research and legal context (Higgins and Keane 2013; Smith"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

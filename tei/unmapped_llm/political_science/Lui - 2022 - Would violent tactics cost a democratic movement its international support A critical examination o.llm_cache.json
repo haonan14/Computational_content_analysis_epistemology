@@ -1,0 +1,103 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "REFERENCES",
+      "tags": [
+        {
+          "label": "REFERENCES",
+          "weight": 1.0,
+          "reason": "Section consists entirely of citation references (e.g., 'Cross and Snow (2012)'), which is typical '"
+        },
+        {
+          "label": "REFERENCES",
+          "weight": 1.0,
+          "reason": "Section consists entirely of citation references (e.g., 'Cross and Snow (2012)'), which is typical '"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section provides background on the Hong Kong protests, context, and prior events, which is typical '"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Section also describes the use of tweets and infographics as data sources, indicating some methods."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes how outcome variable 1 (negative sentiment in tweets) is measured and analyzed, as"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section details the operationalization and measurement of outcome variable 2 (tweet counts), which i"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section explains the use of TextBlob for sentiment analysis and discusses data processing, which is "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "REFERENCES",
+      "tags": [
+        {
+          "label": "REFERENCES",
+          "weight": 1.0,
+          "reason": "Section consists solely of a citation (Petchler and Gonz\u00e1lez-Bail\u00f3n (2015)), which is a reference."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "Section summarizes the paper's contributions, reiterates the research focus, and discusses methodolo"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section also touches on methodological implications and future research opportunities, which is disc"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "classifications": [
+    {
+      "sec_index": 0,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, situates the study in the context of big data and racism,,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "The section reviews prior work, cites many sources, and discusses theoretical and methodological leg"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "It briefly transitions to the author's own project, but the main function is literature review."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the Hybra research project, its focus, funding, team, and general research design."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Mentions findings about right-wing populist ideology and racist discourse, but this is secondary to"
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.9,
+          "reason": "Details the data collection process, challenges with data sources, and methodological issues (black-"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "Touches on epistemological challenges and the integration of qualitative and big data approaches."
+        }
+      ],
+      "confidence": 0.93
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the second methodological approach, focusing on case selection and data sources."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "Briefly reports what the case studies showed about experiences of racism and responses."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.8,
+          "reason": "Describes the third methodological approach, including action research and technical interventions."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Discusses implications for understanding how platforms benefit from racism and the mechanisms of dat"
+        }
+      ],
+      "confidence": 0.92
+    }
+  ]
+}

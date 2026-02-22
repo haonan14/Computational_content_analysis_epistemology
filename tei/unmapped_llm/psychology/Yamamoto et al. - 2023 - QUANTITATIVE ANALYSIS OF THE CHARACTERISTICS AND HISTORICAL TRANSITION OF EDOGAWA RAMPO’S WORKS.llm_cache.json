@@ -1,0 +1,72 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the analytical procedures, tools (MeCab, Python, MATLAB), and steps taken by *Y"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the analytical procedures, tools (MeCab, Python, MATLAB), and steps taken by *Y"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.9,
+          "reason": "The section reports findings from the word frequency analysis and word cloud visualizations, summar"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.1,
+          "reason": "The final sentences begin to interpret the results, suggesting possible changes in style over time."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.85,
+          "reason": "The section reports the results of topic modeling (LDA), including the process and the resulting top"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.15,
+          "reason": "There is some interpretation of what the topics mean in relation to Rampo's style."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports the application of Bayesian co-clustering and the identification of clusters, in"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "The section interprets the meaning of the clusters, discussing implications for Rampo's evolving sty"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

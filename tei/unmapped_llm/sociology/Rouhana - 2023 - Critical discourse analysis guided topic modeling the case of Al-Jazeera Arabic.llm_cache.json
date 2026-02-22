@@ -1,0 +1,120 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section explains the theoretical background and prior uses of LDA, referencing other scholars and L2"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Section briefly touches on how LDA is used in this study, but the main focus is on background and L2"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section discusses methodological choices and procedures for extracting topics, including how the #of"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports the output of the topic modeling (e.g., what topics were found, their proportions, L"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Section includes some interpretation of what the results mean for the research questions."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Section interprets the limitations of the topic modeling results and discusses their implications."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Section provides theoretical justification for using critical discourse analysis, referencing its pu"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Section situates the guided approach in the context of prior work and theoretical advances in CDA an"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Section transitions to proposing a new methodological approach, but the main focus is on theoretical"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Section describes the CDA-guided topic modeling procedure and how it is implemented in this study."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports findings from applying topic modeling to the datasets (articles and comments)."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section discusses limitations and interprets the results in the context of the research questions."
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

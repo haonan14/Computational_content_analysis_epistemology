@@ -1,0 +1,72 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section describes the implementation and use of MALLET LDA, parameters, and approaches to topic/"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "There is substantial discussion of prior work and citations (e.g., McCallum, 2002; Ganegedara et al."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "The section describes the implementation and use of MALLET LDA, parameters, and approaches to topic/"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from network analysis and describes patterns observed in the data (e.g."
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "There is some interpretive commentary on what the observed patterns mean (e.g., 'dominated by a con"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section details findings for different periods, referencing figures and reporting topic patterns"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "There is interpretation of the meaning of the patterns, such as the significance of self-loops and t"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Disclosure statements are not part of the main research narrative and serve an administrative functi"
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

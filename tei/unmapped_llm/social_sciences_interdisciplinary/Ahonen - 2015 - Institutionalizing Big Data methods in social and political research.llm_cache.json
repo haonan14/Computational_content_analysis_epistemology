@@ -1,0 +1,125 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.9,
+          "reason": "Section discusses the theoretical rationale, references prior work (e.g., Lowndes and Roberts, 2013;"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.1,
+          "reason": "Section frames the article's theoretical approach, which is a minor introductory function."
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the research material, data sources, and selection criteria for the study\u2014core methods."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports findings from the latent trait scaling method, including similarities between documents/case"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Briefly describes the method used, but focus is on reporting results."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports findings from topic modeling, including substantive interpretations and country/topic groupi"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "Describes the topic modeling approach and rationale for number of topics, but focus is on findings."
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.7,
+          "reason": "Discusses prior comparisons between traditional and Big Data methods, with citations to other works."
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "Mentions methodological choices and rationale for using topic modeling in this study."
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.8,
+          "reason": "Interprets the meaning and implications of the Big Data methods, their evolution, and contributions."
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.2,
+          "reason": "References the contributions and findings of the study, but focus is on interpretation."
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Focuses on interpreting the broader social and political implications of Big Data methods and their"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 12,
+      "primary_label": "OTHER",
+      "tags": [
+        {
+          "label": "OTHER",
+          "weight": 1.0,
+          "reason": "Standard conflict of interest statement; not part of the research narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

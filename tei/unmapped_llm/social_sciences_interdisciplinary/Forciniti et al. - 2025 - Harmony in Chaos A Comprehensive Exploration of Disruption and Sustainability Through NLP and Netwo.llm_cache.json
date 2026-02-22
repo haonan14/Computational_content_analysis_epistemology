@@ -1,0 +1,84 @@
+{
+  "classifications": [
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the technical details of the lemmatization process, the use of pre-trained Po"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the technical details of the lemmatization process, the use of pre-trained Po"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the corpus, lexical statistics, and pre-processing steps, all of which are part"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 9,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the community detection process, matrix construction, and graph analysis, which are method"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions Table 2 and describes the lemmas that determined document partitioning, indicating some rep"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the application of the Embedded Topic Model (ETM) to sub-corpora and methodological choic"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Reports on the performance of ETM versus LDA, including metrics like perplexity and topic coherence,"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings from the bipartite network analysis, including the structure of the topic-community"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretation of results and suggestions for future research directions, indicating some d"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "classifications": [
+    {
+      "sec_index": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the use of the Structural Topic Model (STM), including the rationale for its,"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the use of the Structural Topic Model (STM), including the rationale for its,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details how the STM model output was interpreted, how topics were selected and labeled,"
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

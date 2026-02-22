@@ -1,0 +1,38 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Section reports findings from LDA models, describes figures, keyword prevalence, and specific policy"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Some interpretation of results and connection to policy guidelines is present"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Section reports on Topic 2 from the LDA model, presents statistics (29.3% of keywords), and gives a)"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Section interprets findings in the context of corporate governance and provides illustrative policy/"
+        }
+      ],
+      "confidence": 0.93
+    }
+  ]
+}

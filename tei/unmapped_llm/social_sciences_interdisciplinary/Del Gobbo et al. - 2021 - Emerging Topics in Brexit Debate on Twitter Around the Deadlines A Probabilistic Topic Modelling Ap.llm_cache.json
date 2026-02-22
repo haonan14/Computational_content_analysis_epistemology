@@ -1,0 +1,55 @@
+{
+  "classifications": [
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides theoretical background on probabilistic topic models, referencing prior work,,"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section provides theoretical background on probabilistic topic models, referencing prior work,"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "The section reports the findings from applying LDA to the Brexit tweet corpus, including topic words"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.3,
+          "reason": "There is some description of the LDA setup and parameter choices, but the main focus is on reporting"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "The section reports findings from dynamic topic modeling, including topic transitions and top words"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "There is a brief mention of the modeling approach and reference to methods, but the main content is"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

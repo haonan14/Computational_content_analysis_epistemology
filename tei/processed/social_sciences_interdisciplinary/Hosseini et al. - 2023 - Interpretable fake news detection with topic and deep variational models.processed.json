@@ -1,0 +1,1130 @@
+{
+  "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/social_sciences_interdisciplinary/Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models.tei.xml",
+  "metadata": {
+    "title": "Interpretable Fake News Detection with Topic and Deep Variational Models ⋆",
+    "authors": [
+      "Marjan Hosseini",
+      "Alireza Sabet",
+      "Suining He",
+      "Derek Aguiar"
+    ],
+    "journal": "",
+    "year": "2022",
+    "doi": "",
+    "keywords": [
+      "Fake News Misinformation Social Media Interpretability Topic Models Variational Autoencoder Conceptualization",
+      "methodology",
+      "software",
+      "validation",
+      "investigation",
+      "data curation",
+      "writingoriginal draft",
+      "visualization. Alireza Javadian Sabet: Conceptualization",
+      "methodology",
+      "software",
+      "validation",
+      "investigation",
+      "data curation",
+      "writing -original draft",
+      "visualization. Suining He: Supervision",
+      "conceptualization",
+      "methodology",
+      "validation",
+      "investigation",
+      "writing -review & editing. Derek Aguiar: Supervision",
+      "funding acquisition",
+      "conceptualization",
+      "methodology",
+      "validation",
+      "investigation",
+      "writing -review & editing"
+    ]
+  },
+  "abstract": "The growing societal dependence on social media and user generated content for news and information has increased the influence of unreliable sources and fake content, which muddles public discourse and lessens trust in the media. Validating the credibility of such information is a difficult task that is susceptible to confirmation bias, leading to the development of algorithmic techniques to distinguish between fake and real news. However, most existing methods are challenging to interpret, making it difficult to establish trust in predictions, and make assumptions that are unrealistic in many real-world scenarios, e.g., the availability of audiovisual features or provenance. In this work, we focus on fake news detection of textual content using interpretable features and methods. In particular, we have developed a deep probabilistic model that integrates a dense representation of textual news using a variational autoencoder and bi-directional Long Short-Term Memory (LSTM) networks with semantic topic-related features inferred from a Bayesian admixture model. Extensive experimental studies with 3 real-world datasets demonstrate that our model achieves comparable performance to state-of-theart competing models while facilitating model interpretability from the learned topics. Finally, we have conducted model ablation studies to justify the effectiveness and accuracy of integrating neural embeddings and topic features both quantitatively by evaluating performance and qualitatively through separability in lower dimensional embeddings. ⋆ MH and DA were funded by DA's University of Connecticut start-up research funds.",
+  "sections": [
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "Introduction",
+      "header_norm": "introduction",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The increased availability and consumption of user generated content on the internet has provided an ideal environment for propagating fake news, or fabricated information that imitates news media. While fake news has existed since at least the 1 st century BC (Posetti and Matthews, 2018), the prevalence of online social media (OSM) and the echo chamber effect of content servicing algorithms have significantly increased the number of fake news domains and their associated web traffic (Cinelli et al., 2021). For instance, there was a significant increase in the number of fake news web domains prior to the 2016 U.S. presidential election (Chalkiadakis et al., 2021) and an estimated 41.8% of their traffic was driven by OSM (Allcott and Gentzkow, 2017). False information is shared by more people and spreads faster than true information, particularly for political topics (Vosoughi et al., 2018). Platforms like Twitter and Facebook are integral to this increased exposure, allowing users to easily share and promote content without being subject to journalistic norms and ethical standards (Posetti and Matthews, 2018). This is in stark contrast with traditional professional journalism that strives for truthfulness, accuracy, objectiveness, fairness, and accountability (Society of Professional Journalists, 2021). OSM are also increasingly exploited as a primary news source; 53% -62% of U.S. adults often or sometimes rely on OSM as their source of daily news (Carminati et al., 2012).",
+        "The rise of fake news and OSM as a preferred news medium has been associated with detrimental effects on society (Hindman and Barash, 2018;Lee, 2019). In the political domain, consuming fake news is associated with decreased trust towards news media and increased political polarization (Guess et al., 2020). Based on the effects of media in general, it has been suggested that fake news can encourage extremism, increase cynicism, and apathy (Lazer et al., 2018), and deepens belief in false claims or conspiracy theories (Guess et al., 2020). One mechanism for combating the sharing of false information is to annotate news articles with the truthfulness of the underlying claims. Evidence suggests that fake news headlines are considered less accurate when people are warned about the potentially false or misleading nature of the content (Clayton et al., 2020).",
+        "Detecting and classifying fake news is therefore a vital goal to curtail its spread and impact. However, we need to carefully address the following two major challenges to detect and disrupt fake news early in its propagation and to establish and retain public trust.",
+        "Challenge 1 -Model Interpretability while Retaining Accuracy: Facebook, Twitter, and other OSM have begun classifying user generated content using third party fact checking organizations such as Snopes and Politifact and automated AI systems (Babaei et al., 2019). News articles are either classified as a binary (real or fake) or ordinal categorical variable (e.g., Politifact's Truth-O-Meter) based on a level of \"realness\". Snopes and Politifact are highly accurate and explainable, but can be slow due to the human editorial resources that are required to pass judgment (Politifact, 2020;Snopes, 2019). In contrast, automatic classification of fake news using AI is highly efficient and can be accurate (Pennycook and Rand, 2019), but typically rely solely on \"black box\" models, i.e., deep neural networks (Došilović et al., 2018). It is often difficult to comprehend how and why these models generated a prediction, i.e. interpret the model, which is a precursor for understanding the model and ultimately establishing user trust (Rudin, 2019;Gilpin et al., 2018).",
+        "Challenge 2 -Missing Data Modalities: AI-based fake news classification systems often assume the availability of specific data modalities, including textual content, images, user profiles (sources), network traffic, or audiovisual content (Khattar et al., 2019;Li et al., 2014;Qian et al., 2018;Wang, 2017;Zhang et al., 2020). However, in many real-world scenarios, acquiring many of these modalities is challenging or not possible due to data scarcity, privacy concerns, or technical limitations (Stieglitz et al., 2018). Many news articles do not provide images (One, 2021), and although user profile information might be helpful in some scenarios, it does not necessarily characterize credibility (Moens et al., 2014). Finally, provenance in OSM is difficult to establish since it is common to propagate information without mentioning the original author."
+      ],
+      "footnotes": [],
+      "text": "The increased availability and consumption of user generated content on the internet has provided an ideal environment for propagating fake news, or fabricated information that imitates news media. While fake news has existed since at least the 1 st century BC (Posetti and Matthews, 2018), the prevalence of online social media (OSM) and the echo chamber effect of content servicing algorithms have significantly increased the number of fake news domains and their associated web traffic (Cinelli et al., 2021). For instance, there was a significant increase in the number of fake news web domains prior to the 2016 U.S. presidential election (Chalkiadakis et al., 2021) and an estimated 41.8% of their traffic was driven by OSM (Allcott and Gentzkow, 2017). False information is shared by more people and spreads faster than true information, particularly for political topics (Vosoughi et al., 2018). Platforms like Twitter and Facebook are integral to this increased exposure, allowing users to easily share and promote content without being subject to journalistic norms and ethical standards (Posetti and Matthews, 2018). This is in stark contrast with traditional professional journalism that strives for truthfulness, accuracy, objectiveness, fairness, and accountability (Society of Professional Journalists, 2021). OSM are also increasingly exploited as a primary news source; 53% -62% of U.S. adults often or sometimes rely on OSM as their source of daily news (Carminati et al., 2012).\n\nThe rise of fake news and OSM as a preferred news medium has been associated with detrimental effects on society (Hindman and Barash, 2018;Lee, 2019). In the political domain, consuming fake news is associated with decreased trust towards news media and increased political polarization (Guess et al., 2020). Based on the effects of media in general, it has been suggested that fake news can encourage extremism, increase cynicism, and apathy (Lazer et al., 2018), and deepens belief in false claims or conspiracy theories (Guess et al., 2020). One mechanism for combating the sharing of false information is to annotate news articles with the truthfulness of the underlying claims. Evidence suggests that fake news headlines are considered less accurate when people are warned about the potentially false or misleading nature of the content (Clayton et al., 2020).\n\nDetecting and classifying fake news is therefore a vital goal to curtail its spread and impact. However, we need to carefully address the following two major challenges to detect and disrupt fake news early in its propagation and to establish and retain public trust.\n\nChallenge 1 -Model Interpretability while Retaining Accuracy: Facebook, Twitter, and other OSM have begun classifying user generated content using third party fact checking organizations such as Snopes and Politifact and automated AI systems (Babaei et al., 2019). News articles are either classified as a binary (real or fake) or ordinal categorical variable (e.g., Politifact's Truth-O-Meter) based on a level of \"realness\". Snopes and Politifact are highly accurate and explainable, but can be slow due to the human editorial resources that are required to pass judgment (Politifact, 2020;Snopes, 2019). In contrast, automatic classification of fake news using AI is highly efficient and can be accurate (Pennycook and Rand, 2019), but typically rely solely on \"black box\" models, i.e., deep neural networks (Došilović et al., 2018). It is often difficult to comprehend how and why these models generated a prediction, i.e. interpret the model, which is a precursor for understanding the model and ultimately establishing user trust (Rudin, 2019;Gilpin et al., 2018).\n\nChallenge 2 -Missing Data Modalities: AI-based fake news classification systems often assume the availability of specific data modalities, including textual content, images, user profiles (sources), network traffic, or audiovisual content (Khattar et al., 2019;Li et al., 2014;Qian et al., 2018;Wang, 2017;Zhang et al., 2020). However, in many real-world scenarios, acquiring many of these modalities is challenging or not possible due to data scarcity, privacy concerns, or technical limitations (Stieglitz et al., 2018). Many news articles do not provide images (One, 2021), and although user profile information might be helpful in some scenarios, it does not necessarily characterize credibility (Moens et al., 2014). Finally, provenance in OSM is difficult to establish since it is common to propagate information without mentioning the original author.",
+      "text_with_footnotes": "The increased availability and consumption of user generated content on the internet has provided an ideal environment for propagating fake news, or fabricated information that imitates news media. While fake news has existed since at least the 1 st century BC (Posetti and Matthews, 2018), the prevalence of online social media (OSM) and the echo chamber effect of content servicing algorithms have significantly increased the number of fake news domains and their associated web traffic (Cinelli et al., 2021). For instance, there was a significant increase in the number of fake news web domains prior to the 2016 U.S. presidential election (Chalkiadakis et al., 2021) and an estimated 41.8% of their traffic was driven by OSM (Allcott and Gentzkow, 2017). False information is shared by more people and spreads faster than true information, particularly for political topics (Vosoughi et al., 2018). Platforms like Twitter and Facebook are integral to this increased exposure, allowing users to easily share and promote content without being subject to journalistic norms and ethical standards (Posetti and Matthews, 2018). This is in stark contrast with traditional professional journalism that strives for truthfulness, accuracy, objectiveness, fairness, and accountability (Society of Professional Journalists, 2021). OSM are also increasingly exploited as a primary news source; 53% -62% of U.S. adults often or sometimes rely on OSM as their source of daily news (Carminati et al., 2012).\n\nThe rise of fake news and OSM as a preferred news medium has been associated with detrimental effects on society (Hindman and Barash, 2018;Lee, 2019). In the political domain, consuming fake news is associated with decreased trust towards news media and increased political polarization (Guess et al., 2020). Based on the effects of media in general, it has been suggested that fake news can encourage extremism, increase cynicism, and apathy (Lazer et al., 2018), and deepens belief in false claims or conspiracy theories (Guess et al., 2020). One mechanism for combating the sharing of false information is to annotate news articles with the truthfulness of the underlying claims. Evidence suggests that fake news headlines are considered less accurate when people are warned about the potentially false or misleading nature of the content (Clayton et al., 2020).\n\nDetecting and classifying fake news is therefore a vital goal to curtail its spread and impact. However, we need to carefully address the following two major challenges to detect and disrupt fake news early in its propagation and to establish and retain public trust.\n\nChallenge 1 -Model Interpretability while Retaining Accuracy: Facebook, Twitter, and other OSM have begun classifying user generated content using third party fact checking organizations such as Snopes and Politifact and automated AI systems (Babaei et al., 2019). News articles are either classified as a binary (real or fake) or ordinal categorical variable (e.g., Politifact's Truth-O-Meter) based on a level of \"realness\". Snopes and Politifact are highly accurate and explainable, but can be slow due to the human editorial resources that are required to pass judgment (Politifact, 2020;Snopes, 2019). In contrast, automatic classification of fake news using AI is highly efficient and can be accurate (Pennycook and Rand, 2019), but typically rely solely on \"black box\" models, i.e., deep neural networks (Došilović et al., 2018). It is often difficult to comprehend how and why these models generated a prediction, i.e. interpret the model, which is a precursor for understanding the model and ultimately establishing user trust (Rudin, 2019;Gilpin et al., 2018).\n\nChallenge 2 -Missing Data Modalities: AI-based fake news classification systems often assume the availability of specific data modalities, including textual content, images, user profiles (sources), network traffic, or audiovisual content (Khattar et al., 2019;Li et al., 2014;Qian et al., 2018;Wang, 2017;Zhang et al., 2020). However, in many real-world scenarios, acquiring many of these modalities is challenging or not possible due to data scarcity, privacy concerns, or technical limitations (Stieglitz et al., 2018). Many news articles do not provide images (One, 2021), and although user profile information might be helpful in some scenarios, it does not necessarily characterize credibility (Moens et al., 2014). Finally, provenance in OSM is difficult to establish since it is common to propagate information without mentioning the original author.",
+      "preview_head": "The increased availability and consumption of user generated content on the internet has provided an ideal environment for propagating fake news, or fabricated information that imitates news media. While fake news has existed since at least the 1 st century BC (Posetti and Matthews, 2018), the prevalence of online social media (OSM) and the echo chamber effect of content servicing algorithms have significantly increased the number of fake news domains and their associated web traffic (Cinelli et al., 2021). For instance, there was a significant increase in the number of fake news web domains prior to the 2016 U.S. presidential election (Chalkiadakis et al., 2021) and an estimated 41.8% of their traffic was driven by OSM (Allcott and Gentzkow, 2017).",
+      "preview_tail": "However, in many real-world scenarios, acquiring many of these modalities is challenging or not possible due to data scarcity, privacy concerns, or technical limitations (Stieglitz et al., 2018). Many news articles do not provide images (One, 2021), and although user profile information might be helpful in some scenarios, it does not necessarily characterize credibility (Moens et al., 2014). Finally, provenance in OSM is difficult to establish since it is common to propagate information without mentioning the original author.",
+      "word_count": 689,
+      "paragraph_count": 5,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*introduction\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*introduction\\s*$",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Contributions",
+      "header_norm": "contributions",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "In this work, we consider automated fake news classification considering a data scarcity scenario where only textual content is available. We have developed a novel architecture, LDAVAE, that couples Bayesian topic modelling -in particular, latent Dirichlet allocation (LDA) -with a bi-directional long short-term memory (LSTM) based variational autoencoder (VAE) (Fig. 1). Pretraining the bi-directional LSTM and VAE ensures our methods are accurate and can be applied quickly during test time; topic modelling provides a probabilistic mechanism for (a) inferring the topic composition of news articles, which is often assumed to be known, (b) using learned topics as features to improve classification accuracy, and (c) interpreting the model and features. The learned representation is then used to classify news as real or fake.",
+        "We have conducted extensive studies to compare LDAVAE with state-of-the-art (SOTA) fake news classification models using the Information Security and Object Technology (ISOT) data (Ahmed et al., 2018), COVID-19 (COVID) data (Banik, 2020), and Twitter data (Boididou et al., 2018). First, we have internally evaluated several classification methods with respect to accuracy, F1 score, false positive rates (FPR), and false negative rates (FNR) for six classifiers across each dataset. Second, we have conducted an extensive ablation study to demonstrate the utility of including thematic features by comparing accuracies across each classifier for LDAVAE, LDAVAE without topic embeddings, and LDAVAE without VAE embeddings. Third, we have demonstrated highly competitive performance in terms of above-mentioned four metrics with competing SOTA methods (Khattar et al., 2019;Mikolov et al., 2010;Wang, 2017;Zhang et al., 2020) while retaining interpretability. To summarize, we make the following four major contributions: i. designing a novel fake news detection method that combines the strengths of probabilistic and deep generative modelling (interpretability and accuracy as illustrated in Fig. 1) and makes few assumptions about the richness of the input: (a) only requires text and (b) infers topics instead of relying on noisy or discrete topic labels;",
+        "ii. providing a procedure for model interpretation that we demonstrate on experimental data;",
+        "iii. justifying the choice in classification method and using topic-based features through an extensive ablation study;",
+        "iv. demonstrating highly competitive performance on several metrics while providing both model and feature based interpretability.",
+        "The source code for LDAVAE and evaluation scripts are freely available on GitHubfoot_0 ."
+      ],
+      "footnotes": [],
+      "text": "In this work, we consider automated fake news classification considering a data scarcity scenario where only textual content is available. We have developed a novel architecture, LDAVAE, that couples Bayesian topic modelling -in particular, latent Dirichlet allocation (LDA) -with a bi-directional long short-term memory (LSTM) based variational autoencoder (VAE) (Fig. 1). Pretraining the bi-directional LSTM and VAE ensures our methods are accurate and can be applied quickly during test time; topic modelling provides a probabilistic mechanism for (a) inferring the topic composition of news articles, which is often assumed to be known, (b) using learned topics as features to improve classification accuracy, and (c) interpreting the model and features. The learned representation is then used to classify news as real or fake.\n\nWe have conducted extensive studies to compare LDAVAE with state-of-the-art (SOTA) fake news classification models using the Information Security and Object Technology (ISOT) data (Ahmed et al., 2018), COVID-19 (COVID) data (Banik, 2020), and Twitter data (Boididou et al., 2018). First, we have internally evaluated several classification methods with respect to accuracy, F1 score, false positive rates (FPR), and false negative rates (FNR) for six classifiers across each dataset. Second, we have conducted an extensive ablation study to demonstrate the utility of including thematic features by comparing accuracies across each classifier for LDAVAE, LDAVAE without topic embeddings, and LDAVAE without VAE embeddings. Third, we have demonstrated highly competitive performance in terms of above-mentioned four metrics with competing SOTA methods (Khattar et al., 2019;Mikolov et al., 2010;Wang, 2017;Zhang et al., 2020) while retaining interpretability. To summarize, we make the following four major contributions: i. designing a novel fake news detection method that combines the strengths of probabilistic and deep generative modelling (interpretability and accuracy as illustrated in Fig. 1) and makes few assumptions about the richness of the input: (a) only requires text and (b) infers topics instead of relying on noisy or discrete topic labels;\n\nii. providing a procedure for model interpretation that we demonstrate on experimental data;\n\niii. justifying the choice in classification method and using topic-based features through an extensive ablation study;\n\niv. demonstrating highly competitive performance on several metrics while providing both model and feature based interpretability.\n\nThe source code for LDAVAE and evaluation scripts are freely available on GitHubfoot_0 .",
+      "text_with_footnotes": "In this work, we consider automated fake news classification considering a data scarcity scenario where only textual content is available. We have developed a novel architecture, LDAVAE, that couples Bayesian topic modelling -in particular, latent Dirichlet allocation (LDA) -with a bi-directional long short-term memory (LSTM) based variational autoencoder (VAE) (Fig. 1). Pretraining the bi-directional LSTM and VAE ensures our methods are accurate and can be applied quickly during test time; topic modelling provides a probabilistic mechanism for (a) inferring the topic composition of news articles, which is often assumed to be known, (b) using learned topics as features to improve classification accuracy, and (c) interpreting the model and features. The learned representation is then used to classify news as real or fake.\n\nWe have conducted extensive studies to compare LDAVAE with state-of-the-art (SOTA) fake news classification models using the Information Security and Object Technology (ISOT) data (Ahmed et al., 2018), COVID-19 (COVID) data (Banik, 2020), and Twitter data (Boididou et al., 2018). First, we have internally evaluated several classification methods with respect to accuracy, F1 score, false positive rates (FPR), and false negative rates (FNR) for six classifiers across each dataset. Second, we have conducted an extensive ablation study to demonstrate the utility of including thematic features by comparing accuracies across each classifier for LDAVAE, LDAVAE without topic embeddings, and LDAVAE without VAE embeddings. Third, we have demonstrated highly competitive performance in terms of above-mentioned four metrics with competing SOTA methods (Khattar et al., 2019;Mikolov et al., 2010;Wang, 2017;Zhang et al., 2020) while retaining interpretability. To summarize, we make the following four major contributions: i. designing a novel fake news detection method that combines the strengths of probabilistic and deep generative modelling (interpretability and accuracy as illustrated in Fig. 1) and makes few assumptions about the richness of the input: (a) only requires text and (b) infers topics instead of relying on noisy or discrete topic labels;\n\nii. providing a procedure for model interpretation that we demonstrate on experimental data;\n\niii. justifying the choice in classification method and using topic-based features through an extensive ablation study;\n\niv. demonstrating highly competitive performance on several metrics while providing both model and feature based interpretability.\n\nThe source code for LDAVAE and evaluation scripts are freely available on GitHubfoot_0 .",
+      "preview_head": "In this work, we consider automated fake news classification considering a data scarcity scenario where only textual content is available. We have developed a novel architecture, LDAVAE, that couples Bayesian topic modelling -in particular, latent Dirichlet allocation (LDA) -with a bi-directional long short-term memory (LSTM) based variational autoencoder (VAE) (Fig. 1). Pretraining the bi-directional LSTM and VAE ensures our methods are accurate and can be applied quickly during test time; topic modelling provides a probabilistic mechanism for (a) inferring the topic composition of news articles, which is often assumed to be known, (b) using learned topics as features to improve classification accuracy, and (c) interpreting the model and features.",
+      "preview_tail": "The source code for LDAVAE and evaluation scripts are freely available on GitHubfoot_0 .",
+      "word_count": 376,
+      "paragraph_count": 6,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section explicitly outlines the paper's main contributions, framing the research problem, the '"
+        },
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section explicitly outlines the paper's main contributions, framing the research problem, the '"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Problem Formulation and Background",
+      "header_norm": "problem formulation and background",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Fake News Detection Problem: Definition and Notations",
+      "header_norm": "fake news detection problem definition and notations",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "A fake news article is a text-based document that is intentionally false or misleading (Antoun et al., 2020). In this work, fake news detection refers to the binary classification of news articles as fake or real. Let the training set be  = { 1 , … , } where each element is a news article (sample) indexed by ∈ {1, … , }. A news article = ( , ) consists of an input and class label pair where ∈ {0, 1} and is a multi-dimensional vector that depends on the textual representation of the model. If",
+        "= ( 1 , … , , … , ) and = ( 1 , … , , … , ) are the input news articles and labels for training data, then the fake news detection problem is formally defined as learning a function  , parameterized by that uses  to build a classifier for predicting class labels ̂ , i.e.,",
+        "The objective is to minimize an arbitrary error criterion ( ) between actual class labels and predictions (Eq. 1), i.e., * = arg min ( , ̂ ),",
+        "where"
+      ],
+      "footnotes": [],
+      "text": "A fake news article is a text-based document that is intentionally false or misleading (Antoun et al., 2020). In this work, fake news detection refers to the binary classification of news articles as fake or real. Let the training set be  = { 1 , … , } where each element is a news article (sample) indexed by ∈ {1, … , }. A news article = ( , ) consists of an input and class label pair where ∈ {0, 1} and is a multi-dimensional vector that depends on the textual representation of the model. If\n\n= ( 1 , … , , … , ) and = ( 1 , … , , … , ) are the input news articles and labels for training data, then the fake news detection problem is formally defined as learning a function  , parameterized by that uses  to build a classifier for predicting class labels ̂ , i.e.,\n\nThe objective is to minimize an arbitrary error criterion ( ) between actual class labels and predictions (Eq. 1), i.e., * = arg min ( , ̂ ),\n\nwhere",
+      "text_with_footnotes": "A fake news article is a text-based document that is intentionally false or misleading (Antoun et al., 2020). In this work, fake news detection refers to the binary classification of news articles as fake or real. Let the training set be  = { 1 , … , } where each element is a news article (sample) indexed by ∈ {1, … , }. A news article = ( , ) consists of an input and class label pair where ∈ {0, 1} and is a multi-dimensional vector that depends on the textual representation of the model. If\n\n= ( 1 , … , , … , ) and = ( 1 , … , , … , ) are the input news articles and labels for training data, then the fake news detection problem is formally defined as learning a function  , parameterized by that uses  to build a classifier for predicting class labels ̂ , i.e.,\n\nThe objective is to minimize an arbitrary error criterion ( ) between actual class labels and predictions (Eq. 1), i.e., * = arg min ( , ̂ ),\n\nwhere",
+      "preview_head": "A fake news article is a text-based document that is intentionally false or misleading (Antoun et al., 2020). In this work, fake news detection refers to the binary classification of news articles as fake or real. Let the training set be  = { 1 , … , } where each element is a news article (sample) indexed by ∈ {1, … , }. A news article = ( , ) consists of an input and class label pair where ∈ {0, 1} and is a multi-dimensional vector that depends on the textual representation of the model.",
+      "preview_tail": "where",
+      "word_count": 189,
+      "paragraph_count": 4,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section defines the fake news detection problem and introduces the notation and setup for the *"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "Latent Dirichlet Allocation",
+      "header_norm": "latent dirichlet allocation",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "Latent Dirichlet allocation (LDA) is an admixture model that represents topics as distributions over a word vocabulary and documents as a collection of words, each of which is sampled from a latent topic (Blei et al., 2003). Documents are then represented as distributions over topics. LDA can be defined graphically (Fig. 2) or through its joint probability distribution (Eq. 2).",
+        "Let , , and be the number of news documents, the number of words in the th news document, and the number of topics respectively. Let matrix be the collection of observed words ( ) in a news documents where = 1, … , and = 1, … , , and and are model hyperparameters. During training, we infer the posterior distributions of (distribution of the topics in the ℎ news article), (distribution of the words in topic ), and (the mapping from observed word to a topic)."
+      ],
+      "footnotes": [],
+      "text": "Latent Dirichlet allocation (LDA) is an admixture model that represents topics as distributions over a word vocabulary and documents as a collection of words, each of which is sampled from a latent topic (Blei et al., 2003). Documents are then represented as distributions over topics. LDA can be defined graphically (Fig. 2) or through its joint probability distribution (Eq. 2).\n\nLet , , and be the number of news documents, the number of words in the th news document, and the number of topics respectively. Let matrix be the collection of observed words ( ) in a news documents where = 1, … , and = 1, … , , and and are model hyperparameters. During training, we infer the posterior distributions of (distribution of the topics in the ℎ news article), (distribution of the words in topic ), and (the mapping from observed word to a topic).",
+      "text_with_footnotes": "Latent Dirichlet allocation (LDA) is an admixture model that represents topics as distributions over a word vocabulary and documents as a collection of words, each of which is sampled from a latent topic (Blei et al., 2003). Documents are then represented as distributions over topics. LDA can be defined graphically (Fig. 2) or through its joint probability distribution (Eq. 2).\n\nLet , , and be the number of news documents, the number of words in the th news document, and the number of topics respectively. Let matrix be the collection of observed words ( ) in a news documents where = 1, … , and = 1, … , , and and are model hyperparameters. During training, we infer the posterior distributions of (distribution of the topics in the ℎ news article), (distribution of the words in topic ), and (the mapping from observed word to a topic).",
+      "preview_head": "Latent Dirichlet allocation (LDA) is an admixture model that represents topics as distributions over a word vocabulary and documents as a collection of words, each of which is sampled from a latent topic (Blei et al., 2003). Documents are then represented as distributions over topics. LDA can be defined graphically (Fig. 2) or through its joint probability distribution (Eq. 2).",
+      "preview_tail": "Let , , and be the number of news documents, the number of words in the th news document, and the number of topics respectively. Let matrix be the collection of observed words ( ) in a news documents where = 1, … , and = 1, … , , and and are model hyperparameters. During training, we infer the posterior distributions of (distribution of the topics in the ℎ news article), (distribution of the words in topic ), and (the mapping from observed word to a topic).",
+      "word_count": 148,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the Latent Dirichlet Allocation (LDA) model, referencing prior work (Blei et "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Variational Autoencoder (VAE)",
+      "header_norm": "variational autoencoder vae",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "A VAE is an unsupervised deep neural architecture that learns to embed and reconstruct input samples (Kingma and Welling, 2013). It first encodes the input to the parameters of a lower dimensional multivariate normal distribution with isotropic covariance, samples from this distribution to construct a vector (i.e., the latent space), and then, the decoder reconstructs the input from . The objective is derived from a variational lower bound on the marginal log-likelihood and consists of maximizing the sum of an expected loglikelihood term ( | ) and the negative Kullback-Leibler (KL) divergence between the posterior and prior distributions ( ( | )|| ( ))."
+      ],
+      "footnotes": [],
+      "text": "A VAE is an unsupervised deep neural architecture that learns to embed and reconstruct input samples (Kingma and Welling, 2013). It first encodes the input to the parameters of a lower dimensional multivariate normal distribution with isotropic covariance, samples from this distribution to construct a vector (i.e., the latent space), and then, the decoder reconstructs the input from . The objective is derived from a variational lower bound on the marginal log-likelihood and consists of maximizing the sum of an expected loglikelihood term ( | ) and the negative Kullback-Leibler (KL) divergence between the posterior and prior distributions ( ( | )|| ( )).",
+      "text_with_footnotes": "A VAE is an unsupervised deep neural architecture that learns to embed and reconstruct input samples (Kingma and Welling, 2013). It first encodes the input to the parameters of a lower dimensional multivariate normal distribution with isotropic covariance, samples from this distribution to construct a vector (i.e., the latent space), and then, the decoder reconstructs the input from . The objective is derived from a variational lower bound on the marginal log-likelihood and consists of maximizing the sum of an expected loglikelihood term ( | ) and the negative Kullback-Leibler (KL) divergence between the posterior and prior distributions ( ( | )|| ( )).",
+      "preview_head": "A VAE is an unsupervised deep neural architecture that learns to embed and reconstruct input samples (Kingma and Welling, 2013). It first encodes the input to the parameters of a lower dimensional multivariate normal distribution with isotropic covariance, samples from this distribution to construct a vector (i.e., the latent space), and then, the decoder reconstructs the input from . The objective is derived from a variational lower bound on the marginal log-likelihood and consists of maximizing the sum of an expected loglikelihood term ( | ) and the negative Kullback-Leibler (KL) divergence between the posterior and prior distributions ( ( | )|| ( )).",
+      "preview_tail": "A VAE is an unsupervised deep neural architecture that learns to embed and reconstruct input samples (Kingma and Welling, 2013). It first encodes the input to the parameters of a lower dimensional multivariate normal distribution with isotropic covariance, samples from this distribution to construct a vector (i.e., the latent space), and then, the decoder reconstructs the input from . The objective is derived from a variational lower bound on the marginal log-likelihood and consists of maximizing the sum of an expected loglikelihood term ( | ) and the negative Kullback-Leibler (KL) divergence between the posterior and prior distributions ( ( | )|| ( )).",
+      "word_count": 104,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains the Variational Autoencoder (VAE) model, referencing prior work (Kingma and W"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Long Short-Term Memory",
+      "header_norm": "long short term memory",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "Long short-term memory (LSTM) is a recurrent neural network (RNN) developed to address the problem of vanishing gradients and to accommodate longer-term dependencies than traditional RNNs (Hochreiter and Schmidhuber, 1997). Long-term dependencies with arbitrary gaps are modelled using a series of LSTM units that consist of input, output, and forget gates. A bidirectional-LSTM combines two independent recurrent layers side-by-side, one of which receives the input sequence while the other receives a reversed copy (Graves and Schmidhuber, 2005). By processing both the forward and backward directions simultaneously, bidirectional-LSTMs exhibit improved performance over traditional LSTMs for sequence classification problems (Liu and Guo, 2019)."
+      ],
+      "footnotes": [],
+      "text": "Long short-term memory (LSTM) is a recurrent neural network (RNN) developed to address the problem of vanishing gradients and to accommodate longer-term dependencies than traditional RNNs (Hochreiter and Schmidhuber, 1997). Long-term dependencies with arbitrary gaps are modelled using a series of LSTM units that consist of input, output, and forget gates. A bidirectional-LSTM combines two independent recurrent layers side-by-side, one of which receives the input sequence while the other receives a reversed copy (Graves and Schmidhuber, 2005). By processing both the forward and backward directions simultaneously, bidirectional-LSTMs exhibit improved performance over traditional LSTMs for sequence classification problems (Liu and Guo, 2019).",
+      "text_with_footnotes": "Long short-term memory (LSTM) is a recurrent neural network (RNN) developed to address the problem of vanishing gradients and to accommodate longer-term dependencies than traditional RNNs (Hochreiter and Schmidhuber, 1997). Long-term dependencies with arbitrary gaps are modelled using a series of LSTM units that consist of input, output, and forget gates. A bidirectional-LSTM combines two independent recurrent layers side-by-side, one of which receives the input sequence while the other receives a reversed copy (Graves and Schmidhuber, 2005). By processing both the forward and backward directions simultaneously, bidirectional-LSTMs exhibit improved performance over traditional LSTMs for sequence classification problems (Liu and Guo, 2019).",
+      "preview_head": "Long short-term memory (LSTM) is a recurrent neural network (RNN) developed to address the problem of vanishing gradients and to accommodate longer-term dependencies than traditional RNNs (Hochreiter and Schmidhuber, 1997). Long-term dependencies with arbitrary gaps are modelled using a series of LSTM units that consist of input, output, and forget gates. A bidirectional-LSTM combines two independent recurrent layers side-by-side, one of which receives the input sequence while the other receives a reversed copy (Graves and Schmidhuber, 2005).",
+      "preview_tail": "Long-term dependencies with arbitrary gaps are modelled using a series of LSTM units that consist of input, output, and forget gates. A bidirectional-LSTM combines two independent recurrent layers side-by-side, one of which receives the input sequence while the other receives a reversed copy (Graves and Schmidhuber, 2005). By processing both the forward and backward directions simultaneously, bidirectional-LSTMs exhibit improved performance over traditional LSTMs for sequence classification problems (Liu and Guo, 2019).",
+      "word_count": 101,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section describes the Long Short-Term Memory (LSTM) model, referencing prior work (Hochreiter "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Word2vec",
+      "header_norm": "word2vec",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "Standard approaches to representing words and documents consider feature vectors in a high dimensional vocabulary . The word2vec model is a two-layer neural network that learns word embeddings that attempts to maximize log ( | ), or the log probability of a given word given an input word (Mikolov et al., 2013). After training on a corpus, word2vec embeds words into a significantly lower dimensional space , such that the cosine distance of semantically similar word embeddings is small and semantically dissimilar words is high."
+      ],
+      "footnotes": [],
+      "text": "Standard approaches to representing words and documents consider feature vectors in a high dimensional vocabulary . The word2vec model is a two-layer neural network that learns word embeddings that attempts to maximize log ( | ), or the log probability of a given word given an input word (Mikolov et al., 2013). After training on a corpus, word2vec embeds words into a significantly lower dimensional space , such that the cosine distance of semantically similar word embeddings is small and semantically dissimilar words is high.",
+      "text_with_footnotes": "Standard approaches to representing words and documents consider feature vectors in a high dimensional vocabulary . The word2vec model is a two-layer neural network that learns word embeddings that attempts to maximize log ( | ), or the log probability of a given word given an input word (Mikolov et al., 2013). After training on a corpus, word2vec embeds words into a significantly lower dimensional space , such that the cosine distance of semantically similar word embeddings is small and semantically dissimilar words is high.",
+      "preview_head": "Standard approaches to representing words and documents consider feature vectors in a high dimensional vocabulary . The word2vec model is a two-layer neural network that learns word embeddings that attempts to maximize log ( | ), or the log probability of a given word given an input word (Mikolov et al., 2013). After training on a corpus, word2vec embeds words into a significantly lower dimensional space , such that the cosine distance of semantically similar word embeddings is small and semantically dissimilar words is high.",
+      "preview_tail": "Standard approaches to representing words and documents consider feature vectors in a high dimensional vocabulary . The word2vec model is a two-layer neural network that learns word embeddings that attempts to maximize log ( | ), or the log probability of a given word given an input word (Mikolov et al., 2013). After training on a corpus, word2vec embeds words into a significantly lower dimensional space , such that the cosine distance of semantically similar word embeddings is small and semantically dissimilar words is high.",
+      "word_count": 85,
+      "paragraph_count": 1,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section explains the word2vec model, referencing prior work (Mikolov et al.) and describing th"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Dimensionality Reduction",
+      "header_norm": "dimensionality reduction",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "Dimensionality reduction methods are designed to transform high-dimensional data into a lower-dimensional space while attempting to preserve some meaningful properties of the original data (Cunningham and Ghahramani, 2015). Unlike feature selection methods that seek to subselect a set of features without augmenting them, dimensionality reduction methods transform features through this lower dimensional mapping. They are typically applied for low dimensional visualizations and exploration of data and results, data compression or denoising, or as a step prior to unsupervised or supervised learning (Rosipal et al., 2001). In this work, we consider two dimensionality reduction methods: principle component analysis and t-distributed stochastic neighbor embedding.",
+        "Principle component analysis (PCA) is a linear dimension reduction method that uses an eigendecomposition to factorize data covariance matrix in terms of its eigenvectors and eigenvalues and find the axes in which data has more variance (Ringnér, 2008). Then it projects the data points to these new orthogonal axes such that the greatest variance by any projection of the data comes to lie on the first coordinate. In other words, it transforms many correlated variables into a smaller number of uncorrelated variables (principal components). The first principal component accounts for as much of the variability in the data as possible, and each succeeding component accounts for as much of the remaining variability as possible. However, it is unable to capture non-linear relationship between variables.",
+        "T-distributed stochastic neighbor embedding (t-SNE) is a non-linear probabilistic dimensionality reduction method designed for visualizing high dimensional data; it is based on the idea that similar objects in the high dimensional space should be represented proportionally closer to each other than dissimilar objects in lower-dimensional space (Van der Maaten and Hinton, 2008). To accomplish this, t-SNE minimizes the KL divergence between a joint probability distribution, in the high dimensional space and a joint probability distribution in the low dimensional space. The t-SNE cost function is a symmetrized version of the SNE cost function with simpler gradients and a Student t distribution to compute the similarity between pairs of points, which is more appropriate for data with outliers. Unlike PCA, t-SNE captures the non-linear relationships between random variables focusing on local structure, but does not preserve global distances or densities (Narayan et al., 2021)."
+      ],
+      "footnotes": [],
+      "text": "Dimensionality reduction methods are designed to transform high-dimensional data into a lower-dimensional space while attempting to preserve some meaningful properties of the original data (Cunningham and Ghahramani, 2015). Unlike feature selection methods that seek to subselect a set of features without augmenting them, dimensionality reduction methods transform features through this lower dimensional mapping. They are typically applied for low dimensional visualizations and exploration of data and results, data compression or denoising, or as a step prior to unsupervised or supervised learning (Rosipal et al., 2001). In this work, we consider two dimensionality reduction methods: principle component analysis and t-distributed stochastic neighbor embedding.\n\nPrinciple component analysis (PCA) is a linear dimension reduction method that uses an eigendecomposition to factorize data covariance matrix in terms of its eigenvectors and eigenvalues and find the axes in which data has more variance (Ringnér, 2008). Then it projects the data points to these new orthogonal axes such that the greatest variance by any projection of the data comes to lie on the first coordinate. In other words, it transforms many correlated variables into a smaller number of uncorrelated variables (principal components). The first principal component accounts for as much of the variability in the data as possible, and each succeeding component accounts for as much of the remaining variability as possible. However, it is unable to capture non-linear relationship between variables.\n\nT-distributed stochastic neighbor embedding (t-SNE) is a non-linear probabilistic dimensionality reduction method designed for visualizing high dimensional data; it is based on the idea that similar objects in the high dimensional space should be represented proportionally closer to each other than dissimilar objects in lower-dimensional space (Van der Maaten and Hinton, 2008). To accomplish this, t-SNE minimizes the KL divergence between a joint probability distribution, in the high dimensional space and a joint probability distribution in the low dimensional space. The t-SNE cost function is a symmetrized version of the SNE cost function with simpler gradients and a Student t distribution to compute the similarity between pairs of points, which is more appropriate for data with outliers. Unlike PCA, t-SNE captures the non-linear relationships between random variables focusing on local structure, but does not preserve global distances or densities (Narayan et al., 2021).",
+      "text_with_footnotes": "Dimensionality reduction methods are designed to transform high-dimensional data into a lower-dimensional space while attempting to preserve some meaningful properties of the original data (Cunningham and Ghahramani, 2015). Unlike feature selection methods that seek to subselect a set of features without augmenting them, dimensionality reduction methods transform features through this lower dimensional mapping. They are typically applied for low dimensional visualizations and exploration of data and results, data compression or denoising, or as a step prior to unsupervised or supervised learning (Rosipal et al., 2001). In this work, we consider two dimensionality reduction methods: principle component analysis and t-distributed stochastic neighbor embedding.\n\nPrinciple component analysis (PCA) is a linear dimension reduction method that uses an eigendecomposition to factorize data covariance matrix in terms of its eigenvectors and eigenvalues and find the axes in which data has more variance (Ringnér, 2008). Then it projects the data points to these new orthogonal axes such that the greatest variance by any projection of the data comes to lie on the first coordinate. In other words, it transforms many correlated variables into a smaller number of uncorrelated variables (principal components). The first principal component accounts for as much of the variability in the data as possible, and each succeeding component accounts for as much of the remaining variability as possible. However, it is unable to capture non-linear relationship between variables.\n\nT-distributed stochastic neighbor embedding (t-SNE) is a non-linear probabilistic dimensionality reduction method designed for visualizing high dimensional data; it is based on the idea that similar objects in the high dimensional space should be represented proportionally closer to each other than dissimilar objects in lower-dimensional space (Van der Maaten and Hinton, 2008). To accomplish this, t-SNE minimizes the KL divergence between a joint probability distribution, in the high dimensional space and a joint probability distribution in the low dimensional space. The t-SNE cost function is a symmetrized version of the SNE cost function with simpler gradients and a Student t distribution to compute the similarity between pairs of points, which is more appropriate for data with outliers. Unlike PCA, t-SNE captures the non-linear relationships between random variables focusing on local structure, but does not preserve global distances or densities (Narayan et al., 2021).",
+      "preview_head": "Dimensionality reduction methods are designed to transform high-dimensional data into a lower-dimensional space while attempting to preserve some meaningful properties of the original data (Cunningham and Ghahramani, 2015). Unlike feature selection methods that seek to subselect a set of features without augmenting them, dimensionality reduction methods transform features through this lower dimensional mapping. They are typically applied for low dimensional visualizations and exploration of data and results, data compression or denoising, or as a step prior to unsupervised or supervised learning (Rosipal et al., 2001).",
+      "preview_tail": "To accomplish this, t-SNE minimizes the KL divergence between a joint probability distribution, in the high dimensional space and a joint probability distribution in the low dimensional space. The t-SNE cost function is a symmetrized version of the SNE cost function with simpler gradients and a Student t distribution to compute the similarity between pairs of points, which is more appropriate for data with outliers. Unlike PCA, t-SNE captures the non-linear relationships between random variables focusing on local structure, but does not preserve global distances or densities (Narayan et al., 2021).",
+      "word_count": 369,
+      "paragraph_count": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses dimensionality reduction methods, referencing prior work (Cunningham and Gh"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "Prior Work in Fake News Detection",
+      "header_norm": "prior work in fake news detection",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "Methods for classifying fake news employ a subset of three primary strategies: propagation-based, source-based and content-based. The motivation for propagation-based techniques is that the diffusion and spread of fake news through social media differs systematically from real news in terms of the speed and the patterns of propagation (Vosoughi et al., 2018;Jin et al., 2014). Source-based methods use features derived from the provenance of news articles, including the general behavior of the source in OSM (Baly et al., 2018). When available, detection using source-based methods can be accurate and fast, however it is often the case that information concerning the spread of news or its authorship is not observed for other users; even when observed, source-based methods can suffer from legitimate users unintentionally spreading fake news that was initiated from other sources (Zhou and Zafarani, 2020). We elaborate more thoroughly on content-based approaches since this is the primary focus of LDAVAE.",
+        "Content-based techniques extract features from the content of news such as text, images, or audiovisual content (Khattar et al., 2019;Wang, 2017;Zhang et al., 2020). This approach assumes that features such as the language, topic, and style of the news body are discriminative attributes for validating its authenticity (Afroz et al., 2012;Rashkin et al., 2017;Rubin et al., 2016). Here, we focus on the textual news content since this information is typically always available for news articles.",
+        "Textual content-based features can be categorized into three main types. Syntactic features include statistical information about the sentences, like sentence complexity and the frequency of different parts of speech or specific patterns. Lexical features concern the usage of specific words or phrases in the texts, such as bi-grams and tri-grams.",
+        "Semantic features correspond to the meaning surrounding text and are extracted using techniques from natural language processing (NLP) and data mining such as sentiment analysis (Liu et al., 2010) and emotion mining (Yadollahi et al., 2017). Recently, extracting word embeddings (Mikolov et al., 2013) and topics from text (Ito et al., 2015) has been proposed as potentially useful features for supervised learning. Features can be extracted manually through domain knowledge, but this task is tedious and subject to bias; in contrast, deep learning methods learn features automatically from neural embeddings of the textual content, which can be done more efficiently and with less human bias (Ma et al., 2016). Neural embeddings are then typically used as input for machine learning classifiers, such as support vector machines (SVM), random forests (RF), decision trees, or logistic regression (LR), or deep learning methods such as RNNs (Mikolov et al., 2010) or convolutional neural networks (CNN) (Bondielli and Marcelloni, 2019).",
+        "Based on these prior studies, various approaches based on deep learning components have been studied. The Multimodal Variational Autoencoder for Fake News Detection (MVAE) uses a shared representation of the news for further classification as fake or real based on multi-modal variational autoencoder (Khattar et al., 2019). FakeDetector uses latent representation of the text, text subject, and information about the authors profile (e.g., their title, job, and credibility) (Zhang et al., 2020). The Hybrid CNN is a deep learning based method, with parallel CNN and LSTM layers for processing different modalities (Wang, 2017).",
+        "Our proposed work differs from most of the prior studies in the following three aspects: (1) Probabilistic model parameters in LDAVAE are interpretable as topic distributions for each document and word distributions for each topic in a news articles corpus; the posterior means of learned parameters are used as additional features for classification.",
+        "(2) Our model requires only textual data. (3) We retain excellent efficiency by integrating a deep architecture (VAE) with LDA."
+      ],
+      "footnotes": [],
+      "text": "Methods for classifying fake news employ a subset of three primary strategies: propagation-based, source-based and content-based. The motivation for propagation-based techniques is that the diffusion and spread of fake news through social media differs systematically from real news in terms of the speed and the patterns of propagation (Vosoughi et al., 2018;Jin et al., 2014). Source-based methods use features derived from the provenance of news articles, including the general behavior of the source in OSM (Baly et al., 2018). When available, detection using source-based methods can be accurate and fast, however it is often the case that information concerning the spread of news or its authorship is not observed for other users; even when observed, source-based methods can suffer from legitimate users unintentionally spreading fake news that was initiated from other sources (Zhou and Zafarani, 2020). We elaborate more thoroughly on content-based approaches since this is the primary focus of LDAVAE.\n\nContent-based techniques extract features from the content of news such as text, images, or audiovisual content (Khattar et al., 2019;Wang, 2017;Zhang et al., 2020). This approach assumes that features such as the language, topic, and style of the news body are discriminative attributes for validating its authenticity (Afroz et al., 2012;Rashkin et al., 2017;Rubin et al., 2016). Here, we focus on the textual news content since this information is typically always available for news articles.\n\nTextual content-based features can be categorized into three main types. Syntactic features include statistical information about the sentences, like sentence complexity and the frequency of different parts of speech or specific patterns. Lexical features concern the usage of specific words or phrases in the texts, such as bi-grams and tri-grams.\n\nSemantic features correspond to the meaning surrounding text and are extracted using techniques from natural language processing (NLP) and data mining such as sentiment analysis (Liu et al., 2010) and emotion mining (Yadollahi et al., 2017). Recently, extracting word embeddings (Mikolov et al., 2013) and topics from text (Ito et al., 2015) has been proposed as potentially useful features for supervised learning. Features can be extracted manually through domain knowledge, but this task is tedious and subject to bias; in contrast, deep learning methods learn features automatically from neural embeddings of the textual content, which can be done more efficiently and with less human bias (Ma et al., 2016). Neural embeddings are then typically used as input for machine learning classifiers, such as support vector machines (SVM), random forests (RF), decision trees, or logistic regression (LR), or deep learning methods such as RNNs (Mikolov et al., 2010) or convolutional neural networks (CNN) (Bondielli and Marcelloni, 2019).\n\nBased on these prior studies, various approaches based on deep learning components have been studied. The Multimodal Variational Autoencoder for Fake News Detection (MVAE) uses a shared representation of the news for further classification as fake or real based on multi-modal variational autoencoder (Khattar et al., 2019). FakeDetector uses latent representation of the text, text subject, and information about the authors profile (e.g., their title, job, and credibility) (Zhang et al., 2020). The Hybrid CNN is a deep learning based method, with parallel CNN and LSTM layers for processing different modalities (Wang, 2017).\n\nOur proposed work differs from most of the prior studies in the following three aspects: (1) Probabilistic model parameters in LDAVAE are interpretable as topic distributions for each document and word distributions for each topic in a news articles corpus; the posterior means of learned parameters are used as additional features for classification.\n\n(2) Our model requires only textual data. (3) We retain excellent efficiency by integrating a deep architecture (VAE) with LDA.",
+      "text_with_footnotes": "Methods for classifying fake news employ a subset of three primary strategies: propagation-based, source-based and content-based. The motivation for propagation-based techniques is that the diffusion and spread of fake news through social media differs systematically from real news in terms of the speed and the patterns of propagation (Vosoughi et al., 2018;Jin et al., 2014). Source-based methods use features derived from the provenance of news articles, including the general behavior of the source in OSM (Baly et al., 2018). When available, detection using source-based methods can be accurate and fast, however it is often the case that information concerning the spread of news or its authorship is not observed for other users; even when observed, source-based methods can suffer from legitimate users unintentionally spreading fake news that was initiated from other sources (Zhou and Zafarani, 2020). We elaborate more thoroughly on content-based approaches since this is the primary focus of LDAVAE.\n\nContent-based techniques extract features from the content of news such as text, images, or audiovisual content (Khattar et al., 2019;Wang, 2017;Zhang et al., 2020). This approach assumes that features such as the language, topic, and style of the news body are discriminative attributes for validating its authenticity (Afroz et al., 2012;Rashkin et al., 2017;Rubin et al., 2016). Here, we focus on the textual news content since this information is typically always available for news articles.\n\nTextual content-based features can be categorized into three main types. Syntactic features include statistical information about the sentences, like sentence complexity and the frequency of different parts of speech or specific patterns. Lexical features concern the usage of specific words or phrases in the texts, such as bi-grams and tri-grams.\n\nSemantic features correspond to the meaning surrounding text and are extracted using techniques from natural language processing (NLP) and data mining such as sentiment analysis (Liu et al., 2010) and emotion mining (Yadollahi et al., 2017). Recently, extracting word embeddings (Mikolov et al., 2013) and topics from text (Ito et al., 2015) has been proposed as potentially useful features for supervised learning. Features can be extracted manually through domain knowledge, but this task is tedious and subject to bias; in contrast, deep learning methods learn features automatically from neural embeddings of the textual content, which can be done more efficiently and with less human bias (Ma et al., 2016). Neural embeddings are then typically used as input for machine learning classifiers, such as support vector machines (SVM), random forests (RF), decision trees, or logistic regression (LR), or deep learning methods such as RNNs (Mikolov et al., 2010) or convolutional neural networks (CNN) (Bondielli and Marcelloni, 2019).\n\nBased on these prior studies, various approaches based on deep learning components have been studied. The Multimodal Variational Autoencoder for Fake News Detection (MVAE) uses a shared representation of the news for further classification as fake or real based on multi-modal variational autoencoder (Khattar et al., 2019). FakeDetector uses latent representation of the text, text subject, and information about the authors profile (e.g., their title, job, and credibility) (Zhang et al., 2020). The Hybrid CNN is a deep learning based method, with parallel CNN and LSTM layers for processing different modalities (Wang, 2017).\n\nOur proposed work differs from most of the prior studies in the following three aspects: (1) Probabilistic model parameters in LDAVAE are interpretable as topic distributions for each document and word distributions for each topic in a news articles corpus; the posterior means of learned parameters are used as additional features for classification.\n\n(2) Our model requires only textual data. (3) We retain excellent efficiency by integrating a deep architecture (VAE) with LDA.",
+      "preview_head": "Methods for classifying fake news employ a subset of three primary strategies: propagation-based, source-based and content-based. The motivation for propagation-based techniques is that the diffusion and spread of fake news through social media differs systematically from real news in terms of the speed and the patterns of propagation (Vosoughi et al., 2018;Jin et al., 2014). Source-based methods use features derived from the provenance of news articles, including the general behavior of the source in OSM (Baly et al., 2018). When available, detection using source-based methods can be accurate and fast, however it is often the case that information concerning the spread of news or its authorship is not observed for other users; even when observed, source-based methods can suffer from legitimate users unintentionally spreading fake news that was initiated from other sources (Zhou and Zafarani, 2020).",
+      "preview_tail": "(2) Our model requires only textual data. (3) We retain excellent efficiency by integrating a deep architecture (VAE) with LDA.",
+      "word_count": 598,
+      "paragraph_count": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*prior\\s+(work|research|lit"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*prior\\s+(work|research|lit",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Proposed Method",
+      "header_norm": "proposed method",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "Our method, LDAVAE, is based on two views of news article text: a deep neural embedding and a probabilistic topic embedding. LDAVAE uses a VAE for extracting a lower dimensional semantic representation of the news article and an LDA model for extracting topic-based features. The LDA model differs from the VAE in that the parameter values of the latent variables are highly interpretable. Our motivation for combining the two representations is that they capture similar but complementary discriminative features for fake news classification that will ultimately increase model performance, while retaining interpretability of model parameters."
+      ],
+      "footnotes": [],
+      "text": "Our method, LDAVAE, is based on two views of news article text: a deep neural embedding and a probabilistic topic embedding. LDAVAE uses a VAE for extracting a lower dimensional semantic representation of the news article and an LDA model for extracting topic-based features. The LDA model differs from the VAE in that the parameter values of the latent variables are highly interpretable. Our motivation for combining the two representations is that they capture similar but complementary discriminative features for fake news classification that will ultimately increase model performance, while retaining interpretability of model parameters.",
+      "text_with_footnotes": "Our method, LDAVAE, is based on two views of news article text: a deep neural embedding and a probabilistic topic embedding. LDAVAE uses a VAE for extracting a lower dimensional semantic representation of the news article and an LDA model for extracting topic-based features. The LDA model differs from the VAE in that the parameter values of the latent variables are highly interpretable. Our motivation for combining the two representations is that they capture similar but complementary discriminative features for fake news classification that will ultimately increase model performance, while retaining interpretability of model parameters.",
+      "preview_head": "Our method, LDAVAE, is based on two views of news article text: a deep neural embedding and a probabilistic topic embedding. LDAVAE uses a VAE for extracting a lower dimensional semantic representation of the news article and an LDA model for extracting topic-based features. The LDA model differs from the VAE in that the parameter values of the latent variables are highly interpretable.",
+      "preview_tail": "LDAVAE uses a VAE for extracting a lower dimensional semantic representation of the news article and an LDA model for extracting topic-based features. The LDA model differs from the VAE in that the parameter values of the latent variables are highly interpretable. Our motivation for combining the two representations is that they capture similar but complementary discriminative features for fake news classification that will ultimately increase model performance, while retaining interpretability of model parameters.",
+      "word_count": 95,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Variational Autoencoder",
+      "header_norm": "variational autoencoder",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "The VAE component in our model, composed of an encoder and decoder, is extended to include a classifier and corresponding cross-entropy loss (Khattar et al., 2019). The architecture of the encoder and decoder is composed of bidirectional LSTM (Bi-LSTM; Fig. 3) and fully connected layers. The Bi-LSTM architecture introduces a new layer of LSTM units that processes the sequence tokens in the backward direction. This overcomes the limitations of a traditional scheme by preserving the information from the past in the forward layer and from the future in the backward layer. In the forward unit of our model (Fig. 3 bottom), the information from words positioning before the th word token ( ) are passed through -1 and -1 , i.e.,",
+        "(3)",
+        "For the same word ( ) future words are taken into consideration in the backward LSTM unit (upper part in Fig. 3). The information from the future are passed through ′ +1 and ′ +1 , i.e.,",
+        "where is the sigmoid function, , , and are forget, input and output gates and memory state at position in the input text. ,  ′ , and ′ are weight matrices and and ′ are the bias vectors and ⊙ denotes element-wise matrix multiplication. Then, the output is ( ) = ( , ′ ). Here concatenates and ′ (Fig. 3).",
+        "To incorporate labels, we couple a classifier along with the encoder and decoder such that during training the parameters are optimized with respect to the unsupervised VAE ( ) and classifier ( ) losses. The VAE loss is given by:",
+        "where ( ) is word in sample , is the number of latent features assumed in the encoder, and  and  are the cross entropy and KL divergence loss functions in the news set . The classifier loss is given by:",
+        "where and ̂ denote the label and the probability that news article is fake computed by the classifier. The optimized parameters * minimize the total loss function:",
+        "The output of the decoder is the generated news articles. The decoder has a similar architecture to the encoder but in the opposite order of layers for the purpose of reconstructing the input from the latent space. In our framework, the desired features to be extracted from the VAE are the extracted latent features which are a || × matrix."
+      ],
+      "footnotes": [],
+      "text": "The VAE component in our model, composed of an encoder and decoder, is extended to include a classifier and corresponding cross-entropy loss (Khattar et al., 2019). The architecture of the encoder and decoder is composed of bidirectional LSTM (Bi-LSTM; Fig. 3) and fully connected layers. The Bi-LSTM architecture introduces a new layer of LSTM units that processes the sequence tokens in the backward direction. This overcomes the limitations of a traditional scheme by preserving the information from the past in the forward layer and from the future in the backward layer. In the forward unit of our model (Fig. 3 bottom), the information from words positioning before the th word token ( ) are passed through -1 and -1 , i.e.,\n\n(3)\n\nFor the same word ( ) future words are taken into consideration in the backward LSTM unit (upper part in Fig. 3). The information from the future are passed through ′ +1 and ′ +1 , i.e.,\n\nwhere is the sigmoid function, , , and are forget, input and output gates and memory state at position in the input text. ,  ′ , and ′ are weight matrices and and ′ are the bias vectors and ⊙ denotes element-wise matrix multiplication. Then, the output is ( ) = ( , ′ ). Here concatenates and ′ (Fig. 3).\n\nTo incorporate labels, we couple a classifier along with the encoder and decoder such that during training the parameters are optimized with respect to the unsupervised VAE ( ) and classifier ( ) losses. The VAE loss is given by:\n\nwhere ( ) is word in sample , is the number of latent features assumed in the encoder, and  and  are the cross entropy and KL divergence loss functions in the news set . The classifier loss is given by:\n\nwhere and ̂ denote the label and the probability that news article is fake computed by the classifier. The optimized parameters * minimize the total loss function:\n\nThe output of the decoder is the generated news articles. The decoder has a similar architecture to the encoder but in the opposite order of layers for the purpose of reconstructing the input from the latent space. In our framework, the desired features to be extracted from the VAE are the extracted latent features which are a || × matrix.",
+      "text_with_footnotes": "The VAE component in our model, composed of an encoder and decoder, is extended to include a classifier and corresponding cross-entropy loss (Khattar et al., 2019). The architecture of the encoder and decoder is composed of bidirectional LSTM (Bi-LSTM; Fig. 3) and fully connected layers. The Bi-LSTM architecture introduces a new layer of LSTM units that processes the sequence tokens in the backward direction. This overcomes the limitations of a traditional scheme by preserving the information from the past in the forward layer and from the future in the backward layer. In the forward unit of our model (Fig. 3 bottom), the information from words positioning before the th word token ( ) are passed through -1 and -1 , i.e.,\n\n(3)\n\nFor the same word ( ) future words are taken into consideration in the backward LSTM unit (upper part in Fig. 3). The information from the future are passed through ′ +1 and ′ +1 , i.e.,\n\nwhere is the sigmoid function, , , and are forget, input and output gates and memory state at position in the input text. ,  ′ , and ′ are weight matrices and and ′ are the bias vectors and ⊙ denotes element-wise matrix multiplication. Then, the output is ( ) = ( , ′ ). Here concatenates and ′ (Fig. 3).\n\nTo incorporate labels, we couple a classifier along with the encoder and decoder such that during training the parameters are optimized with respect to the unsupervised VAE ( ) and classifier ( ) losses. The VAE loss is given by:\n\nwhere ( ) is word in sample , is the number of latent features assumed in the encoder, and  and  are the cross entropy and KL divergence loss functions in the news set . The classifier loss is given by:\n\nwhere and ̂ denote the label and the probability that news article is fake computed by the classifier. The optimized parameters * minimize the total loss function:\n\nThe output of the decoder is the generated news articles. The decoder has a similar architecture to the encoder but in the opposite order of layers for the purpose of reconstructing the input from the latent space. In our framework, the desired features to be extracted from the VAE are the extracted latent features which are a || × matrix.",
+      "preview_head": "The VAE component in our model, composed of an encoder and decoder, is extended to include a classifier and corresponding cross-entropy loss (Khattar et al., 2019). The architecture of the encoder and decoder is composed of bidirectional LSTM (Bi-LSTM; Fig. 3) and fully connected layers. The Bi-LSTM architecture introduces a new layer of LSTM units that processes the sequence tokens in the backward direction.",
+      "preview_tail": "The output of the decoder is the generated news articles. The decoder has a similar architecture to the encoder but in the opposite order of layers for the purpose of reconstructing the input from the latent space. In our framework, the desired features to be extracted from the VAE are the extracted latent features which are a || × matrix.",
+      "word_count": 390,
+      "paragraph_count": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the implementation of the VAE component in the authors' model, including archi"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Latent Dirichlet Allocation",
+      "header_norm": "latent dirichlet allocation",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "Latent Dirichlet allocation (LDA) is the unsupervised component in our model that jointly infers latent topics (distributions over words in a vocabulary) and the distribution of topics for each document. The generative model for LDA is as follows:",
+        "We use stochastic variational inference to approximate the posterior distribution (Fig. 2 and Eq. 2) (Hoffman et al., 2013). In this context, stochastic variation inference uses stochastic optimization on the mean field variational distribution to iteratively optimize the evidence lower bound for the model specified in Equation 8. Here, is th word in the th post, and determines the assignment of to a topic. The variational posterior for model parameter = ( ) is an × matrix where is the number of news articles, is the number of topics, and element represents the probability of generating a word from topic in news article . The -dimensional vectors are concatenated to the corresponding -dimensional latent features from the VAE (Fig. 1)."
+      ],
+      "footnotes": [],
+      "text": "Latent Dirichlet allocation (LDA) is the unsupervised component in our model that jointly infers latent topics (distributions over words in a vocabulary) and the distribution of topics for each document. The generative model for LDA is as follows:\n\nWe use stochastic variational inference to approximate the posterior distribution (Fig. 2 and Eq. 2) (Hoffman et al., 2013). In this context, stochastic variation inference uses stochastic optimization on the mean field variational distribution to iteratively optimize the evidence lower bound for the model specified in Equation 8. Here, is th word in the th post, and determines the assignment of to a topic. The variational posterior for model parameter = ( ) is an × matrix where is the number of news articles, is the number of topics, and element represents the probability of generating a word from topic in news article . The -dimensional vectors are concatenated to the corresponding -dimensional latent features from the VAE (Fig. 1).",
+      "text_with_footnotes": "Latent Dirichlet allocation (LDA) is the unsupervised component in our model that jointly infers latent topics (distributions over words in a vocabulary) and the distribution of topics for each document. The generative model for LDA is as follows:\n\nWe use stochastic variational inference to approximate the posterior distribution (Fig. 2 and Eq. 2) (Hoffman et al., 2013). In this context, stochastic variation inference uses stochastic optimization on the mean field variational distribution to iteratively optimize the evidence lower bound for the model specified in Equation 8. Here, is th word in the th post, and determines the assignment of to a topic. The variational posterior for model parameter = ( ) is an × matrix where is the number of news articles, is the number of topics, and element represents the probability of generating a word from topic in news article . The -dimensional vectors are concatenated to the corresponding -dimensional latent features from the VAE (Fig. 1).",
+      "preview_head": "Latent Dirichlet allocation (LDA) is the unsupervised component in our model that jointly infers latent topics (distributions over words in a vocabulary) and the distribution of topics for each document. The generative model for LDA is as follows:",
+      "preview_tail": "Here, is th word in the th post, and determines the assignment of to a topic. The variational posterior for model parameter = ( ) is an × matrix where is the number of news articles, is the number of topics, and element represents the probability of generating a word from topic in news article . The -dimensional vectors are concatenated to the corresponding -dimensional latent features from the VAE (Fig. 1).",
+      "word_count": 158,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes how LDA is used as a component in the authors' model, focusing on their spe"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "Classifier",
+      "header_norm": "classifier",
+      "container_raw": "Problem Formulation and Background",
+      "container_norm": "problem formulation and background",
+      "is_container": false,
+      "paragraphs": [
+        "The classifier receives the concatenated and VAE embedding feature vector as input and outputs the news article label. We test six classifiers that include discriminative, generative, interpretable, and deep models: MLP, SVM, LR, Naïve Bayes (NB), RF, and KNN. Our motivation for including a diverse set of classifiers is to allow for model selection based on the characteristics of the data and desired downstream tasks (e.g., prioritizing interpretability of classification model)."
+      ],
+      "footnotes": [],
+      "text": "The classifier receives the concatenated and VAE embedding feature vector as input and outputs the news article label. We test six classifiers that include discriminative, generative, interpretable, and deep models: MLP, SVM, LR, Naïve Bayes (NB), RF, and KNN. Our motivation for including a diverse set of classifiers is to allow for model selection based on the characteristics of the data and desired downstream tasks (e.g., prioritizing interpretability of classification model).",
+      "text_with_footnotes": "The classifier receives the concatenated and VAE embedding feature vector as input and outputs the news article label. We test six classifiers that include discriminative, generative, interpretable, and deep models: MLP, SVM, LR, Naïve Bayes (NB), RF, and KNN. Our motivation for including a diverse set of classifiers is to allow for model selection based on the characteristics of the data and desired downstream tasks (e.g., prioritizing interpretability of classification model).",
+      "preview_head": "The classifier receives the concatenated and VAE embedding feature vector as input and outputs the news article label. We test six classifiers that include discriminative, generative, interpretable, and deep models: MLP, SVM, LR, Naïve Bayes (NB), RF, and KNN. Our motivation for including a diverse set of classifiers is to allow for model selection based on the characteristics of the data and desired downstream tasks (e.g., prioritizing interpretability of classification model).",
+      "preview_tail": "The classifier receives the concatenated and VAE embedding feature vector as input and outputs the news article label. We test six classifiers that include discriminative, generative, interpretable, and deep models: MLP, SVM, LR, Naïve Bayes (NB), RF, and KNN. Our motivation for including a diverse set of classifiers is to allow for model selection based on the characteristics of the data and desired downstream tasks (e.g., prioritizing interpretability of classification model).",
+      "word_count": 71,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the classifier component of the authors' model, including the types of class"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Preprocessing",
+      "header_norm": "preprocessing",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Before the data were input into LDAVAE, the text was tokenized, non-English text and stop words were removed, hyperlinks, parentheses, and characters that are not expected to be in the words, such as '-', '@' and '#' were removed. If the data is imbalanced, we over sample the minority class using a nearest neighbor extension of the Synthetic Minority Oversampling Technique (SMOTE) algorithm for categorical data (SMOTEN) (Chawla et al., 2002). These methods are commonly used for text classification in imbalanced data scenarios (Zhao et al., 2021). Then as a preprocessing step for the VAE component, we transform the words todimensional vectors by applying the distributed word2vec pre-trained model (Mikolov et al., 2013). As a result of this transformation, semantically similar words are mapped closer to each other in the in the dimensional space than semantically dissimilar words."
+      ],
+      "footnotes": [],
+      "text": "Before the data were input into LDAVAE, the text was tokenized, non-English text and stop words were removed, hyperlinks, parentheses, and characters that are not expected to be in the words, such as '-', '@' and '#' were removed. If the data is imbalanced, we over sample the minority class using a nearest neighbor extension of the Synthetic Minority Oversampling Technique (SMOTE) algorithm for categorical data (SMOTEN) (Chawla et al., 2002). These methods are commonly used for text classification in imbalanced data scenarios (Zhao et al., 2021). Then as a preprocessing step for the VAE component, we transform the words todimensional vectors by applying the distributed word2vec pre-trained model (Mikolov et al., 2013). As a result of this transformation, semantically similar words are mapped closer to each other in the in the dimensional space than semantically dissimilar words.",
+      "text_with_footnotes": "Before the data were input into LDAVAE, the text was tokenized, non-English text and stop words were removed, hyperlinks, parentheses, and characters that are not expected to be in the words, such as '-', '@' and '#' were removed. If the data is imbalanced, we over sample the minority class using a nearest neighbor extension of the Synthetic Minority Oversampling Technique (SMOTE) algorithm for categorical data (SMOTEN) (Chawla et al., 2002). These methods are commonly used for text classification in imbalanced data scenarios (Zhao et al., 2021). Then as a preprocessing step for the VAE component, we transform the words todimensional vectors by applying the distributed word2vec pre-trained model (Mikolov et al., 2013). As a result of this transformation, semantically similar words are mapped closer to each other in the in the dimensional space than semantically dissimilar words.",
+      "preview_head": "Before the data were input into LDAVAE, the text was tokenized, non-English text and stop words were removed, hyperlinks, parentheses, and characters that are not expected to be in the words, such as '-', '@' and '#' were removed. If the data is imbalanced, we over sample the minority class using a nearest neighbor extension of the Synthetic Minority Oversampling Technique (SMOTE) algorithm for categorical data (SMOTEN) (Chawla et al., 2002). These methods are commonly used for text classification in imbalanced data scenarios (Zhao et al., 2021). Then as a preprocessing step for the VAE component, we transform the words todimensional vectors by applying the distributed word2vec pre-trained model (Mikolov et al., 2013).",
+      "preview_tail": "These methods are commonly used for text classification in imbalanced data scenarios (Zhao et al., 2021). Then as a preprocessing step for the VAE component, we transform the words todimensional vectors by applying the distributed word2vec pre-trained model (Mikolov et al., 2013). As a result of this transformation, semantically similar words are mapped closer to each other in the in the dimensional space than semantically dissimilar words.",
+      "word_count": 138,
+      "paragraph_count": 1,
+      "_original_container_raw": "Results",
+      "_original_container_norm": "results",
+      "_container_unnested": true,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*preprocessing"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*preprocessing",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Datasets Studied",
+      "header_norm": "datasets studied",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "We consider three fake news datasets that contain shorter OSM-shared news samples that we denote as news posts."
+      ],
+      "footnotes": [],
+      "text": "We consider three fake news datasets that contain shorter OSM-shared news samples that we denote as news posts.",
+      "text_with_footnotes": "We consider three fake news datasets that contain shorter OSM-shared news samples that we denote as news posts.",
+      "preview_head": "We consider three fake news datasets that contain shorter OSM-shared news samples that we denote as news posts.",
+      "preview_tail": "We consider three fake news datasets that contain shorter OSM-shared news samples that we denote as news posts.",
+      "word_count": 18,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section introduces the datasets used in the study, which is a standard part of the methods se"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "ISOT",
+      "header_norm": "isot",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "The ISOT fake news dataset contains 44, 898 labeled news posts with a maximum length of 36 words (21, 417 real, 23, 481 fake) (Ahmed et al., 2018). The authentic and fake news are collected from the news agency Reuters and unreliable websites (flagged by Politifact) respectively. The majority of the data are political news from 2016 to 2017. Although the data are cleaned, the punctuation and grammatical mistakes in the fake news posts are retained in the original data (Ahmed et al., 2018). After preprocessing, the number of samples was reduced to 44, 143 (22, 727 fake and 21, 416 real). The similarity between real and fake news post word usage in the ISOT dataset suggests the real and fake news posts are not well separated by word frequencies alone (Fig. 4)."
+      ],
+      "footnotes": [],
+      "text": "The ISOT fake news dataset contains 44, 898 labeled news posts with a maximum length of 36 words (21, 417 real, 23, 481 fake) (Ahmed et al., 2018). The authentic and fake news are collected from the news agency Reuters and unreliable websites (flagged by Politifact) respectively. The majority of the data are political news from 2016 to 2017. Although the data are cleaned, the punctuation and grammatical mistakes in the fake news posts are retained in the original data (Ahmed et al., 2018). After preprocessing, the number of samples was reduced to 44, 143 (22, 727 fake and 21, 416 real). The similarity between real and fake news post word usage in the ISOT dataset suggests the real and fake news posts are not well separated by word frequencies alone (Fig. 4).",
+      "text_with_footnotes": "The ISOT fake news dataset contains 44, 898 labeled news posts with a maximum length of 36 words (21, 417 real, 23, 481 fake) (Ahmed et al., 2018). The authentic and fake news are collected from the news agency Reuters and unreliable websites (flagged by Politifact) respectively. The majority of the data are political news from 2016 to 2017. Although the data are cleaned, the punctuation and grammatical mistakes in the fake news posts are retained in the original data (Ahmed et al., 2018). After preprocessing, the number of samples was reduced to 44, 143 (22, 727 fake and 21, 416 real). The similarity between real and fake news post word usage in the ISOT dataset suggests the real and fake news posts are not well separated by word frequencies alone (Fig. 4).",
+      "preview_head": "The ISOT fake news dataset contains 44, 898 labeled news posts with a maximum length of 36 words (21, 417 real, 23, 481 fake) (Ahmed et al., 2018). The authentic and fake news are collected from the news agency Reuters and unreliable websites (flagged by Politifact) respectively. The majority of the data are political news from 2016 to 2017.",
+      "preview_tail": "Although the data are cleaned, the punctuation and grammatical mistakes in the fake news posts are retained in the original data (Ahmed et al., 2018). After preprocessing, the number of samples was reduced to 44, 143 (22, 727 fake and 21, 416 real). The similarity between real and fake news post word usage in the ISOT dataset suggests the real and fake news posts are not well separated by word frequencies alone (Fig. 4).",
+      "word_count": 133,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the ISOT dataset, including its composition and preprocessing, which is typ"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "COVID",
+      "header_norm": "covid",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Published in Nov 2020, the COVID dataset is a recently collected and labeled dataset that contains 10, 201 news headlines shared on OSM related to COVID-19 (Banik, 2020). After preprocessing, the COVID data consisted of 9, 999 news headlines with binary real or fake labels, and a maximum post length of 115 words. Classifying fake news headlines is challenging in this data due to class imbalance. Among the 9, 999 headlines, only 463 are labeled as real news, so we synthesized 6, 695 additional real news samples for a total sample size of 16, 694. Unlike the ISOT data, word usage appears to be qualitatively different between real and fake news posts; e.g., terms associated with China are more prevalent in fake news posts (Fig. 5)."
+      ],
+      "footnotes": [],
+      "text": "Published in Nov 2020, the COVID dataset is a recently collected and labeled dataset that contains 10, 201 news headlines shared on OSM related to COVID-19 (Banik, 2020). After preprocessing, the COVID data consisted of 9, 999 news headlines with binary real or fake labels, and a maximum post length of 115 words. Classifying fake news headlines is challenging in this data due to class imbalance. Among the 9, 999 headlines, only 463 are labeled as real news, so we synthesized 6, 695 additional real news samples for a total sample size of 16, 694. Unlike the ISOT data, word usage appears to be qualitatively different between real and fake news posts; e.g., terms associated with China are more prevalent in fake news posts (Fig. 5).",
+      "text_with_footnotes": "Published in Nov 2020, the COVID dataset is a recently collected and labeled dataset that contains 10, 201 news headlines shared on OSM related to COVID-19 (Banik, 2020). After preprocessing, the COVID data consisted of 9, 999 news headlines with binary real or fake labels, and a maximum post length of 115 words. Classifying fake news headlines is challenging in this data due to class imbalance. Among the 9, 999 headlines, only 463 are labeled as real news, so we synthesized 6, 695 additional real news samples for a total sample size of 16, 694. Unlike the ISOT data, word usage appears to be qualitatively different between real and fake news posts; e.g., terms associated with China are more prevalent in fake news posts (Fig. 5).",
+      "preview_head": "Published in Nov 2020, the COVID dataset is a recently collected and labeled dataset that contains 10, 201 news headlines shared on OSM related to COVID-19 (Banik, 2020). After preprocessing, the COVID data consisted of 9, 999 news headlines with binary real or fake labels, and a maximum post length of 115 words. Classifying fake news headlines is challenging in this data due to class imbalance.",
+      "preview_tail": "Classifying fake news headlines is challenging in this data due to class imbalance. Among the 9, 999 headlines, only 463 are labeled as real news, so we synthesized 6, 695 additional real news samples for a total sample size of 16, 694. Unlike the ISOT data, word usage appears to be qualitatively different between real and fake news posts; e.g., terms associated with China are more prevalent in fake news posts (Fig. 5).",
+      "word_count": 126,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section describes the COVID dataset used in the study, including its collection, preprocessing,"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Twitter",
+      "header_norm": "twitter",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "The Twitter dataset (Boididou et al., 2018) is another benchmark that was originally collected for the MediaEval Workshop in 2016 (Detection and visualization of misleading content on Twitter, 2018). It includes 15, 629 labeled tweets of maximum length 31 words and covering 17 events. The number of fake and real posts are 9, 404 and 6, 225 respectively. After preprocessing, the number of samples was reduced to 12, 242, among which 7, 205 are fake and 5, 037 are real. The data contains information about the news post such as the source and textual content. Our motivation to use this dataset is three-fold: it is often used to evaluate fake news classifiers (Can and Alatas, 2019;Khattar et al., 2019;Verdoliva, 2020); it contains tweets from different events; and we expect the LDA model will find distinguishable topics after training. However, this dataset is challenging due to the small length of news posts and the presence of noise and many non meaningful words in the text, which is reflected in the word frequencies (Fig. 6)."
+      ],
+      "footnotes": [],
+      "text": "The Twitter dataset (Boididou et al., 2018) is another benchmark that was originally collected for the MediaEval Workshop in 2016 (Detection and visualization of misleading content on Twitter, 2018). It includes 15, 629 labeled tweets of maximum length 31 words and covering 17 events. The number of fake and real posts are 9, 404 and 6, 225 respectively. After preprocessing, the number of samples was reduced to 12, 242, among which 7, 205 are fake and 5, 037 are real. The data contains information about the news post such as the source and textual content. Our motivation to use this dataset is three-fold: it is often used to evaluate fake news classifiers (Can and Alatas, 2019;Khattar et al., 2019;Verdoliva, 2020); it contains tweets from different events; and we expect the LDA model will find distinguishable topics after training. However, this dataset is challenging due to the small length of news posts and the presence of noise and many non meaningful words in the text, which is reflected in the word frequencies (Fig. 6).",
+      "text_with_footnotes": "The Twitter dataset (Boididou et al., 2018) is another benchmark that was originally collected for the MediaEval Workshop in 2016 (Detection and visualization of misleading content on Twitter, 2018). It includes 15, 629 labeled tweets of maximum length 31 words and covering 17 events. The number of fake and real posts are 9, 404 and 6, 225 respectively. After preprocessing, the number of samples was reduced to 12, 242, among which 7, 205 are fake and 5, 037 are real. The data contains information about the news post such as the source and textual content. Our motivation to use this dataset is three-fold: it is often used to evaluate fake news classifiers (Can and Alatas, 2019;Khattar et al., 2019;Verdoliva, 2020); it contains tweets from different events; and we expect the LDA model will find distinguishable topics after training. However, this dataset is challenging due to the small length of news posts and the presence of noise and many non meaningful words in the text, which is reflected in the word frequencies (Fig. 6).",
+      "preview_head": "The Twitter dataset (Boididou et al., 2018) is another benchmark that was originally collected for the MediaEval Workshop in 2016 (Detection and visualization of misleading content on Twitter, 2018). It includes 15, 629 labeled tweets of maximum length 31 words and covering 17 events. The number of fake and real posts are 9, 404 and 6, 225 respectively.",
+      "preview_tail": "After preprocessing, the number of samples was reduced to 12, 242, among which 7, 205 are fake and 5, 037 are real. The data contains information about the news post such as the source and textual content. Our motivation to use this dataset is three-fold: it is often used to evaluate fake news classifiers (Can and Alatas, 2019;Khattar et al., 2019;Verdoliva, 2020); it contains tweets from different events; and we expect the LDA model will find distinguishable topics after training. However, this dataset is challenging due to the small length of news posts and the presence of noise and many non meaningful words in the text, which is reflected in the word frequencies (Fig. 6).",
+      "word_count": 173,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section details the Twitter dataset, its characteristics, and preprocessing steps, which are a"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Evaluation criteria",
+      "header_norm": "evaluation criteria",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "We evaluate the performance of LDAVAE both qualitatively and quantitatively and also internally with respect to the different input feature sets and classifier models and externally to 4 state-of-the-art competing methods."
+      ],
+      "footnotes": [],
+      "text": "We evaluate the performance of LDAVAE both qualitatively and quantitatively and also internally with respect to the different input feature sets and classifier models and externally to 4 state-of-the-art competing methods.",
+      "text_with_footnotes": "We evaluate the performance of LDAVAE both qualitatively and quantitatively and also internally with respect to the different input feature sets and classifier models and externally to 4 state-of-the-art competing methods.",
+      "preview_head": "We evaluate the performance of LDAVAE both qualitatively and quantitatively and also internally with respect to the different input feature sets and classifier models and externally to 4 state-of-the-art competing methods.",
+      "preview_tail": "We evaluate the performance of LDAVAE both qualitatively and quantitatively and also internally with respect to the different input feature sets and classifier models and externally to 4 state-of-the-art competing methods.",
+      "word_count": 31,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section outlines the evaluation criteria and procedures for assessing the model, which is a met"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "Interpreting model parameters",
+      "header_norm": "interpreting model parameters",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "We qualitatively evaluate the separability of features sets obtained by the VAE, LDA, and their concatenation on training and test sets using PCA and t-SNE. The concatenated feature matrices of size | | × ( + ) and | | × ( + ) for  and  respectively, are embedded down to 2 dimensions. We also consider the distribution of topics across fake and real articles. We visualize the average posterior mean of the variational parameters for across real and fake news articles with radar plots."
+      ],
+      "footnotes": [],
+      "text": "We qualitatively evaluate the separability of features sets obtained by the VAE, LDA, and their concatenation on training and test sets using PCA and t-SNE. The concatenated feature matrices of size | | × ( + ) and | | × ( + ) for  and  respectively, are embedded down to 2 dimensions. We also consider the distribution of topics across fake and real articles. We visualize the average posterior mean of the variational parameters for across real and fake news articles with radar plots.",
+      "text_with_footnotes": "We qualitatively evaluate the separability of features sets obtained by the VAE, LDA, and their concatenation on training and test sets using PCA and t-SNE. The concatenated feature matrices of size | | × ( + ) and | | × ( + ) for  and  respectively, are embedded down to 2 dimensions. We also consider the distribution of topics across fake and real articles. We visualize the average posterior mean of the variational parameters for across real and fake news articles with radar plots.",
+      "preview_head": "We qualitatively evaluate the separability of features sets obtained by the VAE, LDA, and their concatenation on training and test sets using PCA and t-SNE. The concatenated feature matrices of size | | × ( + ) and | | × ( + ) for  and  respectively, are embedded down to 2 dimensions. We also consider the distribution of topics across fake and real articles.",
+      "preview_tail": "The concatenated feature matrices of size | | × ( + ) and | | × ( + ) for  and  respectively, are embedded down to 2 dimensions. We also consider the distribution of topics across fake and real articles. We visualize the average posterior mean of the variational parameters for across real and fake news articles with radar plots.",
+      "word_count": 87,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the qualitative evaluation and feature analysis methods (PCA, t-SNE) used to interpret mod"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Metrics on classification outcome",
+      "header_norm": "metrics on classification outcome",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "We compute accuracy, F1 score, false positive rate, and false negative rates internally for LDAVAE using the feature sets obtained by VAE, LDA, and their concatenation. Accuracy is the ratio of the total correct labels to the size of the dataset:",
+        "where TP, TN, FP, and FN are true positives, true negative, false positives, and false negatives, respectively. Precision is the fraction of actual fake news among all the fake detected news TP TP + FP and recall is the ratio of news truly detected as fake to all the fake news in the data TP TP + FN . We present the precision and recall as their harmonic mean:",
+        "We also consider the false positive (FPR = FP TN + FP ) and false negative rates (FNR = FN FN + TP )."
+      ],
+      "footnotes": [],
+      "text": "We compute accuracy, F1 score, false positive rate, and false negative rates internally for LDAVAE using the feature sets obtained by VAE, LDA, and their concatenation. Accuracy is the ratio of the total correct labels to the size of the dataset:\n\nwhere TP, TN, FP, and FN are true positives, true negative, false positives, and false negatives, respectively. Precision is the fraction of actual fake news among all the fake detected news TP TP + FP and recall is the ratio of news truly detected as fake to all the fake news in the data TP TP + FN . We present the precision and recall as their harmonic mean:\n\nWe also consider the false positive (FPR = FP TN + FP ) and false negative rates (FNR = FN FN + TP ).",
+      "text_with_footnotes": "We compute accuracy, F1 score, false positive rate, and false negative rates internally for LDAVAE using the feature sets obtained by VAE, LDA, and their concatenation. Accuracy is the ratio of the total correct labels to the size of the dataset:\n\nwhere TP, TN, FP, and FN are true positives, true negative, false positives, and false negatives, respectively. Precision is the fraction of actual fake news among all the fake detected news TP TP + FP and recall is the ratio of news truly detected as fake to all the fake news in the data TP TP + FN . We present the precision and recall as their harmonic mean:\n\nWe also consider the false positive (FPR = FP TN + FP ) and false negative rates (FNR = FN FN + TP ).",
+      "preview_head": "We compute accuracy, F1 score, false positive rate, and false negative rates internally for LDAVAE using the feature sets obtained by VAE, LDA, and their concatenation. Accuracy is the ratio of the total correct labels to the size of the dataset:",
+      "preview_tail": "We also consider the false positive (FPR = FP TN + FP ) and false negative rates (FNR = FN FN + TP ).",
+      "word_count": 134,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the metrics (accuracy, F1, FPR, FNR) used to evaluate classification outcomes, which is a m"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 24,
+      "depth": 0,
+      "header_raw": "Experimental Settings",
+      "header_norm": "experimental settings",
+      "container_raw": "Results",
+      "container_norm": "results",
+      "is_container": false,
+      "paragraphs": [
+        "Each news post is considered as a vector of words (1) , … , ( ) where = { ∶ = 1, … , }. Using a word2vec model pretrained on the Google News dataset (Rehurek and Sojka, 2011;Mikolov et al., 2013), we produced -dimensional embeddings for each word in the three datasets resulting in a | | × embedding matrix, where | | is the size of vocabulary set in the model. The input to the VAE is the concatenation of all word embeddings in a news post; if ≤ , we apply zero-padding to set the input vector dimension to × . For each dataset, the VAE is trained to minimize the reconstruction and classifier loss (Eq. 7) on 90% of the data. Architectural details, code documentation, and details for reproducing the subsequent analyses are available in the code repositoryfoot_1 .",
+        "LDA is trained on the same 90% training data as the VAE, however we make the assumption that a news post can be represented as a set of words in the vocabulary (i.e. bags of words). We tune the number of topics ∈ {8, 10, 16, 32, 64} using the coherence score of the trained model on a validation set. Although perplexity and predictive likelihood are also used for model evaluation, maximizing coherence has been previously associated with better interpretability (Röder et al., 2015). We concatenate the features extracted from the LDA and VAE models and apply six widely used classifiers, MLP, RF, SVM, LR, NB, and KNN."
+      ],
+      "footnotes": [],
+      "text": "Each news post is considered as a vector of words (1) , … , ( ) where = { ∶ = 1, … , }. Using a word2vec model pretrained on the Google News dataset (Rehurek and Sojka, 2011;Mikolov et al., 2013), we produced -dimensional embeddings for each word in the three datasets resulting in a | | × embedding matrix, where | | is the size of vocabulary set in the model. The input to the VAE is the concatenation of all word embeddings in a news post; if ≤ , we apply zero-padding to set the input vector dimension to × . For each dataset, the VAE is trained to minimize the reconstruction and classifier loss (Eq. 7) on 90% of the data. Architectural details, code documentation, and details for reproducing the subsequent analyses are available in the code repositoryfoot_1 .\n\nLDA is trained on the same 90% training data as the VAE, however we make the assumption that a news post can be represented as a set of words in the vocabulary (i.e. bags of words). We tune the number of topics ∈ {8, 10, 16, 32, 64} using the coherence score of the trained model on a validation set. Although perplexity and predictive likelihood are also used for model evaluation, maximizing coherence has been previously associated with better interpretability (Röder et al., 2015). We concatenate the features extracted from the LDA and VAE models and apply six widely used classifiers, MLP, RF, SVM, LR, NB, and KNN.",
+      "text_with_footnotes": "Each news post is considered as a vector of words (1) , … , ( ) where = { ∶ = 1, … , }. Using a word2vec model pretrained on the Google News dataset (Rehurek and Sojka, 2011;Mikolov et al., 2013), we produced -dimensional embeddings for each word in the three datasets resulting in a | | × embedding matrix, where | | is the size of vocabulary set in the model. The input to the VAE is the concatenation of all word embeddings in a news post; if ≤ , we apply zero-padding to set the input vector dimension to × . For each dataset, the VAE is trained to minimize the reconstruction and classifier loss (Eq. 7) on 90% of the data. Architectural details, code documentation, and details for reproducing the subsequent analyses are available in the code repositoryfoot_1 .\n\nLDA is trained on the same 90% training data as the VAE, however we make the assumption that a news post can be represented as a set of words in the vocabulary (i.e. bags of words). We tune the number of topics ∈ {8, 10, 16, 32, 64} using the coherence score of the trained model on a validation set. Although perplexity and predictive likelihood are also used for model evaluation, maximizing coherence has been previously associated with better interpretability (Röder et al., 2015). We concatenate the features extracted from the LDA and VAE models and apply six widely used classifiers, MLP, RF, SVM, LR, NB, and KNN.",
+      "preview_head": "Each news post is considered as a vector of words (1) , … , ( ) where = { ∶ = 1, … , }. Using a word2vec model pretrained on the Google News dataset (Rehurek and Sojka, 2011;Mikolov et al., 2013), we produced -dimensional embeddings for each word in the three datasets resulting in a | | × embedding matrix, where | | is the size of vocabulary set in the model. The input to the VAE is the concatenation of all word embeddings in a news post; if ≤ , we apply zero-padding to set the input vector dimension to × .",
+      "preview_tail": "LDA is trained on the same 90% training data as the VAE, however we make the assumption that a news post can be represented as a set of words in the vocabulary (i.e. bags of words). We tune the number of topics ∈ {8, 10, 16, 32, 64} using the coherence score of the trained model on a validation set. Although perplexity and predictive likelihood are also used for model evaluation, maximizing coherence has been previously associated with better interpretability (Röder et al., 2015). We concatenate the features extracted from the LDA and VAE models and apply six widely used classifiers, MLP, RF, SVM, LR, NB, and KNN.",
+      "word_count": 251,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes experimental settings, including data representation, embedding generation, and model trai"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 25,
+      "depth": 0,
+      "header_raw": "Fake News Classification Results",
+      "header_norm": "fake news classification results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 26,
+      "depth": 0,
+      "header_raw": "Ablation Study",
+      "header_norm": "ablation study",
+      "container_raw": "Fake News Classification Results",
+      "container_norm": "fake news classification results",
+      "is_container": false,
+      "paragraphs": [
+        "We first evaluated the usefulness of integrating neural embeddings and topic features in LDAVAE by comparing the news post classification accuracy using only LDA features, only VAE features, and combined LDA and VAE features. Simultaneously, we compare the accuracy, F1 score, FPR, and FNR for the six classifiers across the three datasets.",
+        "For most of the dataset and evaluation criteria configurations, classifier performance was higher when the two feature sets are concatenated (Tab. 1). While the LDAVAE is most frequently the highest scoring model configuration, topic features alone (LDA) achieve a higher accuracy and F1 score in the Twitter dataset, potentially because the frequency of fake news posts vary based on topics (Torabi Asr and Taboada, 2019). In fact, the VAE only classifiers perform poorly on the Twitter dataset in general possibly due to the short and unstructured nature of Twitter news posts. This underscores the usefulness of incorporating topic features into fake news classification. Since random forest classifiers yielded the best aggregate results, we only consider random forest classifiers for the subsequent results."
+      ],
+      "footnotes": [],
+      "text": "We first evaluated the usefulness of integrating neural embeddings and topic features in LDAVAE by comparing the news post classification accuracy using only LDA features, only VAE features, and combined LDA and VAE features. Simultaneously, we compare the accuracy, F1 score, FPR, and FNR for the six classifiers across the three datasets.\n\nFor most of the dataset and evaluation criteria configurations, classifier performance was higher when the two feature sets are concatenated (Tab. 1). While the LDAVAE is most frequently the highest scoring model configuration, topic features alone (LDA) achieve a higher accuracy and F1 score in the Twitter dataset, potentially because the frequency of fake news posts vary based on topics (Torabi Asr and Taboada, 2019). In fact, the VAE only classifiers perform poorly on the Twitter dataset in general possibly due to the short and unstructured nature of Twitter news posts. This underscores the usefulness of incorporating topic features into fake news classification. Since random forest classifiers yielded the best aggregate results, we only consider random forest classifiers for the subsequent results.",
+      "text_with_footnotes": "We first evaluated the usefulness of integrating neural embeddings and topic features in LDAVAE by comparing the news post classification accuracy using only LDA features, only VAE features, and combined LDA and VAE features. Simultaneously, we compare the accuracy, F1 score, FPR, and FNR for the six classifiers across the three datasets.\n\nFor most of the dataset and evaluation criteria configurations, classifier performance was higher when the two feature sets are concatenated (Tab. 1). While the LDAVAE is most frequently the highest scoring model configuration, topic features alone (LDA) achieve a higher accuracy and F1 score in the Twitter dataset, potentially because the frequency of fake news posts vary based on topics (Torabi Asr and Taboada, 2019). In fact, the VAE only classifiers perform poorly on the Twitter dataset in general possibly due to the short and unstructured nature of Twitter news posts. This underscores the usefulness of incorporating topic features into fake news classification. Since random forest classifiers yielded the best aggregate results, we only consider random forest classifiers for the subsequent results.",
+      "preview_head": "We first evaluated the usefulness of integrating neural embeddings and topic features in LDAVAE by comparing the news post classification accuracy using only LDA features, only VAE features, and combined LDA and VAE features. Simultaneously, we compare the accuracy, F1 score, FPR, and FNR for the six classifiers across the three datasets.",
+      "preview_tail": "In fact, the VAE only classifiers perform poorly on the Twitter dataset in general possibly due to the short and unstructured nature of Twitter news posts. This underscores the usefulness of incorporating topic features into fake news classification. Since random forest classifiers yielded the best aggregate results, we only consider random forest classifiers for the subsequent results.",
+      "word_count": 174,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Reports the outcomes of the ablation study, comparing classification accuracy and other metrics acro"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Includes some interpretation of why certain models perform better or worse, especially regarding the"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 27,
+      "depth": 0,
+      "header_raw": "Comparison with SOTA",
+      "header_norm": "comparison with sota",
+      "container_raw": "Fake News Classification Results",
+      "container_norm": "fake news classification results",
+      "is_container": false,
+      "paragraphs": [
+        "Next, we compare the performance of LDAVAE to four SOTA methods in the same category of fake news classification (content-based): MVAE (Khattar et al., 2019), FakeDetector (Zhang et al., 2020), Hybrid CNN (Wang, 2017) and RNN (Mikolov et al., 2010). To keep the analysis consistent across methods, we modified the methods to only consider textual data, e.g., we removed the layers of MVAE associated with image processing.",
+        "LDAVAE achieves the best accuracy and F1 score in the ISOT dataset, which is the largest dataset in terms of news post quantity and is also well-curated compared to the other datasets since it includes articles from Reuters and human labeled fake news posts; it also achieves comparable results on the COVID and Twitter data (Tab. 2). Both the Twitter and COVID datasets are noisy and model training was performed without syntactic or semantic text correction. Among the three datasets, the performance of VAE-based methods is worst on the Twitter data likely due to having few samples and news posts having short length. Additionally, the VAE objective function, which requires balancing the reconstruction error, classification error, and sample genera- tion quality, is difficult to balance during training for specific downstream tasks such as classification (Böhm and Seljak, 2020). RNNs use a simpler autoregressive architecture and the results deteriorate when the sequence length is increased."
+      ],
+      "footnotes": [],
+      "text": "Next, we compare the performance of LDAVAE to four SOTA methods in the same category of fake news classification (content-based): MVAE (Khattar et al., 2019), FakeDetector (Zhang et al., 2020), Hybrid CNN (Wang, 2017) and RNN (Mikolov et al., 2010). To keep the analysis consistent across methods, we modified the methods to only consider textual data, e.g., we removed the layers of MVAE associated with image processing.\n\nLDAVAE achieves the best accuracy and F1 score in the ISOT dataset, which is the largest dataset in terms of news post quantity and is also well-curated compared to the other datasets since it includes articles from Reuters and human labeled fake news posts; it also achieves comparable results on the COVID and Twitter data (Tab. 2). Both the Twitter and COVID datasets are noisy and model training was performed without syntactic or semantic text correction. Among the three datasets, the performance of VAE-based methods is worst on the Twitter data likely due to having few samples and news posts having short length. Additionally, the VAE objective function, which requires balancing the reconstruction error, classification error, and sample genera- tion quality, is difficult to balance during training for specific downstream tasks such as classification (Böhm and Seljak, 2020). RNNs use a simpler autoregressive architecture and the results deteriorate when the sequence length is increased.",
+      "text_with_footnotes": "Next, we compare the performance of LDAVAE to four SOTA methods in the same category of fake news classification (content-based): MVAE (Khattar et al., 2019), FakeDetector (Zhang et al., 2020), Hybrid CNN (Wang, 2017) and RNN (Mikolov et al., 2010). To keep the analysis consistent across methods, we modified the methods to only consider textual data, e.g., we removed the layers of MVAE associated with image processing.\n\nLDAVAE achieves the best accuracy and F1 score in the ISOT dataset, which is the largest dataset in terms of news post quantity and is also well-curated compared to the other datasets since it includes articles from Reuters and human labeled fake news posts; it also achieves comparable results on the COVID and Twitter data (Tab. 2). Both the Twitter and COVID datasets are noisy and model training was performed without syntactic or semantic text correction. Among the three datasets, the performance of VAE-based methods is worst on the Twitter data likely due to having few samples and news posts having short length. Additionally, the VAE objective function, which requires balancing the reconstruction error, classification error, and sample genera- tion quality, is difficult to balance during training for specific downstream tasks such as classification (Böhm and Seljak, 2020). RNNs use a simpler autoregressive architecture and the results deteriorate when the sequence length is increased.",
+      "preview_head": "Next, we compare the performance of LDAVAE to four SOTA methods in the same category of fake news classification (content-based): MVAE (Khattar et al., 2019), FakeDetector (Zhang et al., 2020), Hybrid CNN (Wang, 2017) and RNN (Mikolov et al., 2010). To keep the analysis consistent across methods, we modified the methods to only consider textual data, e.g., we removed the layers of MVAE associated with image processing.",
+      "preview_tail": "Among the three datasets, the performance of VAE-based methods is worst on the Twitter data likely due to having few samples and news posts having short length. Additionally, the VAE objective function, which requires balancing the reconstruction error, classification error, and sample genera- tion quality, is difficult to balance during training for specific downstream tasks such as classification (Böhm and Seljak, 2020). RNNs use a simpler autoregressive architecture and the results deteriorate when the sequence length is increased.",
+      "word_count": 221,
+      "paragraph_count": 2,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.8,
+          "reason": "Presents comparative results of the proposed method against state-of-the-art baselines, focusing on "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.2,
+          "reason": "Provides some interpretation of the comparative performance, especially regarding dataset characteri"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 28,
+      "depth": 0,
+      "header_raw": "Model Interpretability",
+      "header_norm": "model interpretability",
+      "container_raw": "Fake News Classification Results",
+      "container_norm": "fake news classification results",
+      "is_container": false,
+      "paragraphs": [
+        "Here, we explore the interpretability of LDAVAE through analysis and visualization of the parameters in the LDA model."
+      ],
+      "footnotes": [],
+      "text": "Here, we explore the interpretability of LDAVAE through analysis and visualization of the parameters in the LDA model.",
+      "text_with_footnotes": "Here, we explore the interpretability of LDAVAE through analysis and visualization of the parameters in the LDA model.",
+      "preview_head": "Here, we explore the interpretability of LDAVAE through analysis and visualization of the parameters in the LDA model.",
+      "preview_tail": "Here, we explore the interpretability of LDAVAE through analysis and visualization of the parameters in the LDA model.",
+      "word_count": 18,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Introduces the approach for analyzing and visualizing model interpretability, which is a methodologi"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 29,
+      "depth": 0,
+      "header_raw": "News Post Topic Distributions",
+      "header_norm": "news post topic distributions",
+      "container_raw": "Fake News Classification Results",
+      "container_norm": "fake news classification results",
+      "is_container": false,
+      "paragraphs": [
+        "The variable posteriors of and are interpretable as the distribution of words in topics and the distribution of topics in the news posts respectively. Further, posterior inference yields a distribution rather than point estimates, consequently the parameter uncertainty can be presented to users to give flexibility in interpreting variable importance and effect regarding the class label. For example, we interpret the effect of topics on class outcome by visualizing the topic distribution across news posts and separated by their labels. Specifically, we set the number of topics = 10 (for visualization purposes) and plot the averaged posterior means of for real and fake news posts (Fig. 7). The frequencies of topics in real and fake news posts are largely distinct with some topic overlap. The topics that are more discriminative can be interpreted as larger differences in average posterior means. For example, all topics besides 0 and 4 are informative in the ISOT dataset (Fig. 7 (a))."
+      ],
+      "footnotes": [],
+      "text": "The variable posteriors of and are interpretable as the distribution of words in topics and the distribution of topics in the news posts respectively. Further, posterior inference yields a distribution rather than point estimates, consequently the parameter uncertainty can be presented to users to give flexibility in interpreting variable importance and effect regarding the class label. For example, we interpret the effect of topics on class outcome by visualizing the topic distribution across news posts and separated by their labels. Specifically, we set the number of topics = 10 (for visualization purposes) and plot the averaged posterior means of for real and fake news posts (Fig. 7). The frequencies of topics in real and fake news posts are largely distinct with some topic overlap. The topics that are more discriminative can be interpreted as larger differences in average posterior means. For example, all topics besides 0 and 4 are informative in the ISOT dataset (Fig. 7 (a)).",
+      "text_with_footnotes": "The variable posteriors of and are interpretable as the distribution of words in topics and the distribution of topics in the news posts respectively. Further, posterior inference yields a distribution rather than point estimates, consequently the parameter uncertainty can be presented to users to give flexibility in interpreting variable importance and effect regarding the class label. For example, we interpret the effect of topics on class outcome by visualizing the topic distribution across news posts and separated by their labels. Specifically, we set the number of topics = 10 (for visualization purposes) and plot the averaged posterior means of for real and fake news posts (Fig. 7). The frequencies of topics in real and fake news posts are largely distinct with some topic overlap. The topics that are more discriminative can be interpreted as larger differences in average posterior means. For example, all topics besides 0 and 4 are informative in the ISOT dataset (Fig. 7 (a)).",
+      "preview_head": "The variable posteriors of and are interpretable as the distribution of words in topics and the distribution of topics in the news posts respectively. Further, posterior inference yields a distribution rather than point estimates, consequently the parameter uncertainty can be presented to users to give flexibility in interpreting variable importance and effect regarding the class label. For example, we interpret the effect of topics on class outcome by visualizing the topic distribution across news posts and separated by their labels.",
+      "preview_tail": "The frequencies of topics in real and fake news posts are largely distinct with some topic overlap. The topics that are more discriminative can be interpreted as larger differences in average posterior means. For example, all topics besides 0 and 4 are informative in the ISOT dataset (Fig. 7 (a)).",
+      "word_count": 157,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports findings about topic distributions in real and fake news posts, including interpretability o"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretation of the results, such as the distinctiveness and discriminative power of topi"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.96,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 30,
+      "depth": 0,
+      "header_raw": "Topic Distributions",
+      "header_norm": "topic distributions",
+      "container_raw": "Fake News Classification Results",
+      "container_norm": "fake news classification results",
+      "is_container": false,
+      "paragraphs": [
+        "For each dataset, we compute the most discriminatory topics using LDAVAE parameters and . We consider the two topics that have the largest difference in the average posterior means of variables across real and fake news posts. In other words, we sort the vector (| ∑ ∈ ̂ -∑ ∈ ̂ |) =1 in descending order where  and  are the training sample sets for fake and real news posts respectively. We then plot the normalized frequency of the top 20 most frequent words (Fig. 7 (b, c)). Word distributions in discriminative topics are subtly different. For example, while words associated with U.S. conservative politics and China were found in both topics associated with real and fake news, their frequencies were substantially different."
+      ],
+      "footnotes": [],
+      "text": "For each dataset, we compute the most discriminatory topics using LDAVAE parameters and . We consider the two topics that have the largest difference in the average posterior means of variables across real and fake news posts. In other words, we sort the vector (| ∑ ∈ ̂ -∑ ∈ ̂ |) =1 in descending order where  and  are the training sample sets for fake and real news posts respectively. We then plot the normalized frequency of the top 20 most frequent words (Fig. 7 (b, c)). Word distributions in discriminative topics are subtly different. For example, while words associated with U.S. conservative politics and China were found in both topics associated with real and fake news, their frequencies were substantially different.",
+      "text_with_footnotes": "For each dataset, we compute the most discriminatory topics using LDAVAE parameters and . We consider the two topics that have the largest difference in the average posterior means of variables across real and fake news posts. In other words, we sort the vector (| ∑ ∈ ̂ -∑ ∈ ̂ |) =1 in descending order where  and  are the training sample sets for fake and real news posts respectively. We then plot the normalized frequency of the top 20 most frequent words (Fig. 7 (b, c)). Word distributions in discriminative topics are subtly different. For example, while words associated with U.S. conservative politics and China were found in both topics associated with real and fake news, their frequencies were substantially different.",
+      "preview_head": "For each dataset, we compute the most discriminatory topics using LDAVAE parameters and . We consider the two topics that have the largest difference in the average posterior means of variables across real and fake news posts. In other words, we sort the vector (| ∑ ∈ ̂ -∑ ∈ ̂ |) =1 in descending order where  and  are the training sample sets for fake and real news posts respectively.",
+      "preview_tail": "We then plot the normalized frequency of the top 20 most frequent words (Fig. 7 (b, c)). Word distributions in discriminative topics are subtly different. For example, while words associated with U.S. conservative politics and China were found in both topics associated with real and fake news, their frequencies were substantially different.",
+      "word_count": 124,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports the computation and visualization of discriminatory topics and word distributions, focusing "
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretation of the subtle differences in word distributions and their implications for f"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.96,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 31,
+      "depth": 0,
+      "header_raw": "Dimensionality Reduction",
+      "header_norm": "dimensionality reduction",
+      "container_raw": "Fake News Classification Results",
+      "container_norm": "fake news classification results",
+      "is_container": false,
+      "paragraphs": [
+        "Lastly, we qualitatively evaluated the separability of LDA, VAE, and combined LDA and VAE features in 2dimensional embeddings for the ISOT dataset; the plots of other datasets show similar behavior. We applied PCA and t-SNE to the features learned from the different architecture configurations with = 10 and = = 32 (Figs. 8 and 9). We observe that in both PCA and t-SNE plots, the real and fake news posts are well separated by the combined VAE and LDA features."
+      ],
+      "footnotes": [],
+      "text": "Lastly, we qualitatively evaluated the separability of LDA, VAE, and combined LDA and VAE features in 2dimensional embeddings for the ISOT dataset; the plots of other datasets show similar behavior. We applied PCA and t-SNE to the features learned from the different architecture configurations with = 10 and = = 32 (Figs. 8 and 9). We observe that in both PCA and t-SNE plots, the real and fake news posts are well separated by the combined VAE and LDA features.",
+      "text_with_footnotes": "Lastly, we qualitatively evaluated the separability of LDA, VAE, and combined LDA and VAE features in 2dimensional embeddings for the ISOT dataset; the plots of other datasets show similar behavior. We applied PCA and t-SNE to the features learned from the different architecture configurations with = 10 and = = 32 (Figs. 8 and 9). We observe that in both PCA and t-SNE plots, the real and fake news posts are well separated by the combined VAE and LDA features.",
+      "preview_head": "Lastly, we qualitatively evaluated the separability of LDA, VAE, and combined LDA and VAE features in 2dimensional embeddings for the ISOT dataset; the plots of other datasets show similar behavior. We applied PCA and t-SNE to the features learned from the different architecture configurations with = 10 and = = 32 (Figs. 8 and 9). We observe that in both PCA and t-SNE plots, the real and fake news posts are well separated by the combined VAE and LDA features.",
+      "preview_tail": "Lastly, we qualitatively evaluated the separability of LDA, VAE, and combined LDA and VAE features in 2dimensional embeddings for the ISOT dataset; the plots of other datasets show similar behavior. We applied PCA and t-SNE to the features learned from the different architecture configurations with = 10 and = = 32 (Figs. 8 and 9). We observe that in both PCA and t-SNE plots, the real and fake news posts are well separated by the combined VAE and LDA features.",
+      "word_count": 80,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 0.7,
+          "reason": "Reports the qualitative evaluation of feature separability using dimensionality reduction techniques"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "Includes interpretation of the results regarding feature separability and model performance."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.96,
+      "label_reason": "llm",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Hosseini et al. - 2023 - Interpretable fake news detection with topic and deep variational models",
+      "sec_index": 32,
+      "depth": 0,
+      "header_raw": "Conclusion and Future Work",
+      "header_norm": "conclusion and future work",
+      "container_raw": "Fake News Classification Results",
+      "container_norm": "fake news classification results",
+      "is_container": false,
+      "paragraphs": [
+        "We proposed LDAVAE, a combined LDA, supervised Bi-LSTM VAE, and classifier architecture for classifying fake news text. We use a Bayesian admixture model for topic modelling to increase the interpretability of the method, add informative features, and remove the necessity of costly manual topic selection. We justified our architecture with an extensive ablation study and evaluated performance of LDAVAE by comparing with 4 SOTA baseline methods across 3 datasets and showed highly competitive performance. We then provided mechanisms to evaluate the interpretability of model parameters and class discrimination allowing for exploration of the model and features.",
+        "The main disadvantage of our modelling assumptions is that we cannot extract features from multimedia data. In addition, training a separate probabilistic model requires additional computation, however understanding the model and important features are crucial for providing explanations and establishing user trust. More sophisticated natural language architectures that use self-attention, like transformers, should provide a mechanism for improving accuracy. Integrating transformers, which typically model text as an ordered sequence, with topics that are intrinsically unordered is a priming area of future work (Wang et al., 2020). Also, alternatives to VAEs, like architectures based on normalizing flows, should be investigated in the context of fake news detection (Böhm and Seljak, 2020). For example, the Probabilistic Auto-Encoder leverages normalizing flows to achieve better reconstruction than traditional VAEs while retaining high sample quality. Future work may also consider applying feature selection techniques suitable for high dimensional data or selecting the dimension of the autoencoder latent space (Brankovic et al., 2018;Hosseini, 2018), and using the text provided in reviews (Qian et al., 2018) and conversation graphs (Brambilla et al., 2021a) of live events participants (Brambilla et al., 2021b;Javadian Sabet et al., 2021) to detect the disinformation propagation on inner circles (de Souza et al., 2020)."
+      ],
+      "footnotes": [],
+      "text": "We proposed LDAVAE, a combined LDA, supervised Bi-LSTM VAE, and classifier architecture for classifying fake news text. We use a Bayesian admixture model for topic modelling to increase the interpretability of the method, add informative features, and remove the necessity of costly manual topic selection. We justified our architecture with an extensive ablation study and evaluated performance of LDAVAE by comparing with 4 SOTA baseline methods across 3 datasets and showed highly competitive performance. We then provided mechanisms to evaluate the interpretability of model parameters and class discrimination allowing for exploration of the model and features.\n\nThe main disadvantage of our modelling assumptions is that we cannot extract features from multimedia data. In addition, training a separate probabilistic model requires additional computation, however understanding the model and important features are crucial for providing explanations and establishing user trust. More sophisticated natural language architectures that use self-attention, like transformers, should provide a mechanism for improving accuracy. Integrating transformers, which typically model text as an ordered sequence, with topics that are intrinsically unordered is a priming area of future work (Wang et al., 2020). Also, alternatives to VAEs, like architectures based on normalizing flows, should be investigated in the context of fake news detection (Böhm and Seljak, 2020). For example, the Probabilistic Auto-Encoder leverages normalizing flows to achieve better reconstruction than traditional VAEs while retaining high sample quality. Future work may also consider applying feature selection techniques suitable for high dimensional data or selecting the dimension of the autoencoder latent space (Brankovic et al., 2018;Hosseini, 2018), and using the text provided in reviews (Qian et al., 2018) and conversation graphs (Brambilla et al., 2021a) of live events participants (Brambilla et al., 2021b;Javadian Sabet et al., 2021) to detect the disinformation propagation on inner circles (de Souza et al., 2020).",
+      "text_with_footnotes": "We proposed LDAVAE, a combined LDA, supervised Bi-LSTM VAE, and classifier architecture for classifying fake news text. We use a Bayesian admixture model for topic modelling to increase the interpretability of the method, add informative features, and remove the necessity of costly manual topic selection. We justified our architecture with an extensive ablation study and evaluated performance of LDAVAE by comparing with 4 SOTA baseline methods across 3 datasets and showed highly competitive performance. We then provided mechanisms to evaluate the interpretability of model parameters and class discrimination allowing for exploration of the model and features.\n\nThe main disadvantage of our modelling assumptions is that we cannot extract features from multimedia data. In addition, training a separate probabilistic model requires additional computation, however understanding the model and important features are crucial for providing explanations and establishing user trust. More sophisticated natural language architectures that use self-attention, like transformers, should provide a mechanism for improving accuracy. Integrating transformers, which typically model text as an ordered sequence, with topics that are intrinsically unordered is a priming area of future work (Wang et al., 2020). Also, alternatives to VAEs, like architectures based on normalizing flows, should be investigated in the context of fake news detection (Böhm and Seljak, 2020). For example, the Probabilistic Auto-Encoder leverages normalizing flows to achieve better reconstruction than traditional VAEs while retaining high sample quality. Future work may also consider applying feature selection techniques suitable for high dimensional data or selecting the dimension of the autoencoder latent space (Brankovic et al., 2018;Hosseini, 2018), and using the text provided in reviews (Qian et al., 2018) and conversation graphs (Brambilla et al., 2021a) of live events participants (Brambilla et al., 2021b;Javadian Sabet et al., 2021) to detect the disinformation propagation on inner circles (de Souza et al., 2020).",
+      "preview_head": "We proposed LDAVAE, a combined LDA, supervised Bi-LSTM VAE, and classifier architecture for classifying fake news text. We use a Bayesian admixture model for topic modelling to increase the interpretability of the method, add informative features, and remove the necessity of costly manual topic selection. We justified our architecture with an extensive ablation study and evaluated performance of LDAVAE by comparing with 4 SOTA baseline methods across 3 datasets and showed highly competitive performance.",
+      "preview_tail": "Also, alternatives to VAEs, like architectures based on normalizing flows, should be investigated in the context of fake news detection (Böhm and Seljak, 2020). For example, the Probabilistic Auto-Encoder leverages normalizing flows to achieve better reconstruction than traditional VAEs while retaining high sample quality. Future work may also consider applying feature selection techniques suitable for high dimensional data or selecting the dimension of the autoencoder latent space (Brankovic et al., 2018;Hosseini, 2018), and using the text provided in reviews (Qian et al., 2018) and conversation graphs (Brambilla et al., 2021a) of live events participants (Brambilla et al., 2021b;Javadian Sabet et al., 2021) to detect the disinformation propagation on inner circles (de Souza et al., 2020).",
+      "word_count": 297,
+      "paragraph_count": 2,
+      "primary_label": "CONCLUSION",
+      "tags": [
+        {
+          "label": "CONCLUSION",
+          "weight": 0.7,
+          "reason": "The section summarizes the main contributions of the paper, restates the proposed method, and offers"
+        },
+        {
+          "label": "DISCUSSION",
+          "weight": 0.3,
+          "reason": "The section also discusses implications, interpretability, and suggests future research directions, "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "CONCLUSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 32,
+    "content_sections": 29,
+    "total_words": 5535,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 32,
+    "by_source": {
+      "heuristic": 4,
+      "llm": 25,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

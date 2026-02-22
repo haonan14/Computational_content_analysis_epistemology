@@ -1,0 +1,813 @@
+{
+  "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+  "tei_path": "/content/drive/MyDrive/content_analysis_epistemology/papers/tei/raw/psychology/Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers..tei.xml",
+  "metadata": {
+    "title": "Supplemental Material for People Constrain Their Semantic Associations When Talking to Both Friends and Strangers",
+    "authors": [
+      "Shelly Tsang",
+      "Jennie Lipson",
+      "Anna Snyder",
+      "Adrienne Wood",
+      "Isabelle Maule",
+      "Connor Thoms",
+      "Sukanya Barman",
+      "Yuqian Chen",
+      "Kaitlyn Chi",
+      "Elaine Zeng",
+      "Sally Park"
+    ],
+    "journal": "Journal of Experimental Psychology: General",
+    "year": "2024",
+    "doi": "10.1037/xge0001549.supp",
+    "keywords": [
+      "conversation",
+      "accommodation",
+      "common ground",
+      "topic modeling",
+      "semantic associations"
+    ]
+  },
+  "abstract": "During conversations, people face a trade-off between establishing understanding and making interesting and unique contributions. How do people balance this when deciding which concepts to reference, and does it matter how well they know their conversation partner? In the present work, participants made stream-of-consciousness word associations either with a partner or alone-simplified versions of dialogue and monologue. Participants made semantically narrower and more predictable word associations with a stranger than alone (Study 1), suggesting that they constrain their associations to establish mutual understanding. Increasing closeness (Study 2) or having a prior relationship (Study 3) did not moderate this effect. Thus, even during a task that does not depend on establishing mutual understanding, people sacrifice being interesting for the sake of being understood.\n\nAcross three experiments, we find that people make narrower semantic associations with another individual, verses by themselves, suggesting that people seem to sacrifice variability in language to connect with a partner. Who the partner is, a friend or stranger, did not change the findings. People often accommodate each other in conversations, and this article suggests they do so in another way: by making smaller topic leaps.",
+  "sections": [
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 1,
+      "depth": 0,
+      "header_raw": "NO_HEADER",
+      "header_norm": "",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Conversation requires balancing two goals: to be understood and to be interesting. People must translate their thoughts into language their audience can understand (Wray & Grace, 2007) while also introducing new ideas and information (van Burgsteden et al., 2022). The former requires semantic convergence, which enables coordination, comprehension, and cooperation (Clark & Schaefer, 1989;Gonzales et al., 2010). The latter requires making references and associations that are unfamiliar to a partner. Such divergence contributes to creativity and enjoyment and improves dyadic decision making (Tolins & Fox Tree, 2021). In this article, we ask whether conversation partners spontaneously alter their stream-of-consciousness thoughts in the service of convergence or divergence."
+      ],
+      "footnotes": [],
+      "text": "Conversation requires balancing two goals: to be understood and to be interesting. People must translate their thoughts into language their audience can understand (Wray & Grace, 2007) while also introducing new ideas and information (van Burgsteden et al., 2022). The former requires semantic convergence, which enables coordination, comprehension, and cooperation (Clark & Schaefer, 1989;Gonzales et al., 2010). The latter requires making references and associations that are unfamiliar to a partner. Such divergence contributes to creativity and enjoyment and improves dyadic decision making (Tolins & Fox Tree, 2021). In this article, we ask whether conversation partners spontaneously alter their stream-of-consciousness thoughts in the service of convergence or divergence.",
+      "text_with_footnotes": "Conversation requires balancing two goals: to be understood and to be interesting. People must translate their thoughts into language their audience can understand (Wray & Grace, 2007) while also introducing new ideas and information (van Burgsteden et al., 2022). The former requires semantic convergence, which enables coordination, comprehension, and cooperation (Clark & Schaefer, 1989;Gonzales et al., 2010). The latter requires making references and associations that are unfamiliar to a partner. Such divergence contributes to creativity and enjoyment and improves dyadic decision making (Tolins & Fox Tree, 2021). In this article, we ask whether conversation partners spontaneously alter their stream-of-consciousness thoughts in the service of convergence or divergence.",
+      "preview_head": "Conversation requires balancing two goals: to be understood and to be interesting. People must translate their thoughts into language their audience can understand (Wray & Grace, 2007) while also introducing new ideas and information (van Burgsteden et al., 2022). The former requires semantic convergence, which enables coordination, comprehension, and cooperation (Clark & Schaefer, 1989;Gonzales et al., 2010).",
+      "preview_tail": "The latter requires making references and associations that are unfamiliar to a partner. Such divergence contributes to creativity and enjoyment and improves dyadic decision making (Tolins & Fox Tree, 2021). In this article, we ask whether conversation partners spontaneously alter their stream-of-consciousness thoughts in the service of convergence or divergence.",
+      "word_count": 107,
+      "paragraph_count": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "This section frames the research problem, introduces the dual goals of conversation, and sets up the"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 2,
+      "depth": 0,
+      "header_raw": "Conversational Convergence: Becoming More Similar",
+      "header_norm": "conversational convergence becoming more similar",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "To promote understanding during conversation and connect (Gallois et al., 2005), individuals converge on shared language and common knowledge (Clark & Brennan, 1991). They repeat each other's words, refer to objects using the same names, and even use similar syntax (Fussell & Krauss, 1989b;Pollmann & Krahmer, 2018;Schober & Carstensen, 2009). People do this based on what they assume the other knows. Experts talking to novices use descriptions instead of nuanced vocabulary terms. Once the expert knows that the novice knows the term, they use it more (Isaacs & Clark, 1987).",
+        "People also try to establish that what has been said has been understood, known as \"grounding\" (Clark & Brennan, 1991). This reduces the cognitive effort needed by the recipients (Manson et al., 2013). Converging also serves a social function: according to Communication Accommodation Theory, similarity can help people get along, appear more likeable, and grow closer (Gallois et al., 2005). Indeed, individuals that converge are perceived by recipients as more competent, warm, and cooperative (Gallois et al., 2005). Conversations that have more grounding are rated to be higher in quality (Guydish & Tree, 2021), and listeners report liking hearing familiar stories more than novel stories (Cooney et al., 2017). Thus, by converging, people can discuss things that are mutually understandable (Garrod & Pickering, 2004) and serve social goals."
+      ],
+      "footnotes": [],
+      "text": "To promote understanding during conversation and connect (Gallois et al., 2005), individuals converge on shared language and common knowledge (Clark & Brennan, 1991). They repeat each other's words, refer to objects using the same names, and even use similar syntax (Fussell & Krauss, 1989b;Pollmann & Krahmer, 2018;Schober & Carstensen, 2009). People do this based on what they assume the other knows. Experts talking to novices use descriptions instead of nuanced vocabulary terms. Once the expert knows that the novice knows the term, they use it more (Isaacs & Clark, 1987).\n\nPeople also try to establish that what has been said has been understood, known as \"grounding\" (Clark & Brennan, 1991). This reduces the cognitive effort needed by the recipients (Manson et al., 2013). Converging also serves a social function: according to Communication Accommodation Theory, similarity can help people get along, appear more likeable, and grow closer (Gallois et al., 2005). Indeed, individuals that converge are perceived by recipients as more competent, warm, and cooperative (Gallois et al., 2005). Conversations that have more grounding are rated to be higher in quality (Guydish & Tree, 2021), and listeners report liking hearing familiar stories more than novel stories (Cooney et al., 2017). Thus, by converging, people can discuss things that are mutually understandable (Garrod & Pickering, 2004) and serve social goals.",
+      "text_with_footnotes": "To promote understanding during conversation and connect (Gallois et al., 2005), individuals converge on shared language and common knowledge (Clark & Brennan, 1991). They repeat each other's words, refer to objects using the same names, and even use similar syntax (Fussell & Krauss, 1989b;Pollmann & Krahmer, 2018;Schober & Carstensen, 2009). People do this based on what they assume the other knows. Experts talking to novices use descriptions instead of nuanced vocabulary terms. Once the expert knows that the novice knows the term, they use it more (Isaacs & Clark, 1987).\n\nPeople also try to establish that what has been said has been understood, known as \"grounding\" (Clark & Brennan, 1991). This reduces the cognitive effort needed by the recipients (Manson et al., 2013). Converging also serves a social function: according to Communication Accommodation Theory, similarity can help people get along, appear more likeable, and grow closer (Gallois et al., 2005). Indeed, individuals that converge are perceived by recipients as more competent, warm, and cooperative (Gallois et al., 2005). Conversations that have more grounding are rated to be higher in quality (Guydish & Tree, 2021), and listeners report liking hearing familiar stories more than novel stories (Cooney et al., 2017). Thus, by converging, people can discuss things that are mutually understandable (Garrod & Pickering, 2004) and serve social goals.",
+      "preview_head": "To promote understanding during conversation and connect (Gallois et al., 2005), individuals converge on shared language and common knowledge (Clark & Brennan, 1991). They repeat each other's words, refer to objects using the same names, and even use similar syntax (Fussell & Krauss, 1989b;Pollmann & Krahmer, 2018;Schober & Carstensen, 2009). People do this based on what they assume the other knows.",
+      "preview_tail": "Indeed, individuals that converge are perceived by recipients as more competent, warm, and cooperative (Gallois et al., 2005). Conversations that have more grounding are rated to be higher in quality (Guydish & Tree, 2021), and listeners report liking hearing familiar stories more than novel stories (Cooney et al., 2017). Thus, by converging, people can discuss things that are mutually understandable (Garrod & Pickering, 2004) and serve social goals.",
+      "word_count": 218,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section reviews prior work on conversational convergence, citing multiple studies and summariz"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 3,
+      "depth": 0,
+      "header_raw": "Conversational Divergence: Being Interesting and Novel",
+      "header_norm": "conversational divergence being interesting and novel",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Another common goal during conversation is to exchange information, engage, and be interesting and interested. When thinking alone, people derive pleasure from thoughts that traverse conceptual ground (Mason & Bar, 2012) and are varied (Pronin & Jacobs, 2008). Reading sequences of words that mimic fluid mental progression increases happiness compared to reading sequences of words that cover less conceptual ground (Mason & Bar, 2012).",
+        "A similar association between semantic breadth, enjoyment, and creativity emerges in conversation. People prefer conversations that are low in repetition (See et al., 2019). Groups that use more diverse language are better able to complete problem-solving tasks (Tylén et al., 2020). Yet thoughts that are too divergent from each other are unlikely to be understood. Therefore, it is important to investigate how people manage the tradeoff of being a divergent thinker and converging with a partner."
+      ],
+      "footnotes": [],
+      "text": "Another common goal during conversation is to exchange information, engage, and be interesting and interested. When thinking alone, people derive pleasure from thoughts that traverse conceptual ground (Mason & Bar, 2012) and are varied (Pronin & Jacobs, 2008). Reading sequences of words that mimic fluid mental progression increases happiness compared to reading sequences of words that cover less conceptual ground (Mason & Bar, 2012).\n\nA similar association between semantic breadth, enjoyment, and creativity emerges in conversation. People prefer conversations that are low in repetition (See et al., 2019). Groups that use more diverse language are better able to complete problem-solving tasks (Tylén et al., 2020). Yet thoughts that are too divergent from each other are unlikely to be understood. Therefore, it is important to investigate how people manage the tradeoff of being a divergent thinker and converging with a partner.",
+      "text_with_footnotes": "Another common goal during conversation is to exchange information, engage, and be interesting and interested. When thinking alone, people derive pleasure from thoughts that traverse conceptual ground (Mason & Bar, 2012) and are varied (Pronin & Jacobs, 2008). Reading sequences of words that mimic fluid mental progression increases happiness compared to reading sequences of words that cover less conceptual ground (Mason & Bar, 2012).\n\nA similar association between semantic breadth, enjoyment, and creativity emerges in conversation. People prefer conversations that are low in repetition (See et al., 2019). Groups that use more diverse language are better able to complete problem-solving tasks (Tylén et al., 2020). Yet thoughts that are too divergent from each other are unlikely to be understood. Therefore, it is important to investigate how people manage the tradeoff of being a divergent thinker and converging with a partner.",
+      "preview_head": "Another common goal during conversation is to exchange information, engage, and be interesting and interested. When thinking alone, people derive pleasure from thoughts that traverse conceptual ground (Mason & Bar, 2012) and are varied (Pronin & Jacobs, 2008). Reading sequences of words that mimic fluid mental progression increases happiness compared to reading sequences of words that cover less conceptual ground (Mason & Bar, 2012).",
+      "preview_tail": "Groups that use more diverse language are better able to complete problem-solving tasks (Tylén et al., 2020). Yet thoughts that are too divergent from each other are unlikely to be understood. Therefore, it is important to investigate how people manage the tradeoff of being a divergent thinker and converging with a partner.",
+      "word_count": 140,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section discusses prior research on conversational divergence, referencing other scholars and "
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 4,
+      "depth": 0,
+      "header_raw": "Do Friends Make Broader Semantic Associations Than Strangers?",
+      "header_norm": "do friends make broader semantic associations than strangers",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "How might friendship shape the topic trajectory of conversations? Conversation partners talk differently depending on how well they know each other. Conversations with friends involve more mutual knowledge, self-disclosure, and are more relaxed compared to conversations with acquaintances (Planalp & Benson, 1992). Friends have shared experiences and reference points, so they can draw upon a greater range of topics to talk about in conversation (Clark & Marshall, 1981). Perhaps friends can make semantic associations that might seem distant to an outsider because their partner has the idiosyncratic knowledge necessary to recognize the connections between concepts. Rapid shifting of topics is a characteristic of more intimate conversation (Heritage, 1989). Friends raise more topics in conversation than strangers (Hornstein, 1985;Planalp, 1993). However, other work suggests friends do not communicate more accurately or efficiently than strangers, even though friends have a larger body of common ground language (Fussell & Krauss, 1989a;Pollmann & Krahmer, 2018;Schober & Carstensen, 2009).",
+        "Prior work on topic switching with friends and strangers has been in the context of naturalistic conversation, where partners can contextualize concepts, engage in grounding, and make repairs at moments of misunderstanding. Do friends and strangers converse differently in the absence of such linguistic scaffolding? The present work uses a more controlled paradigm-a dyadic word association task-to reduce conversation to its most basic form: the exchange of units of ideas. This allows us to ask, first, whether interaction partners constrain their stream-of-consciousness semantic associations for the sake of convergence. Second, we ask whether strangers constrain their semantic associations more than friends, even when there is no way to contextualize topic changes."
+      ],
+      "footnotes": [],
+      "text": "How might friendship shape the topic trajectory of conversations? Conversation partners talk differently depending on how well they know each other. Conversations with friends involve more mutual knowledge, self-disclosure, and are more relaxed compared to conversations with acquaintances (Planalp & Benson, 1992). Friends have shared experiences and reference points, so they can draw upon a greater range of topics to talk about in conversation (Clark & Marshall, 1981). Perhaps friends can make semantic associations that might seem distant to an outsider because their partner has the idiosyncratic knowledge necessary to recognize the connections between concepts. Rapid shifting of topics is a characteristic of more intimate conversation (Heritage, 1989). Friends raise more topics in conversation than strangers (Hornstein, 1985;Planalp, 1993). However, other work suggests friends do not communicate more accurately or efficiently than strangers, even though friends have a larger body of common ground language (Fussell & Krauss, 1989a;Pollmann & Krahmer, 2018;Schober & Carstensen, 2009).\n\nPrior work on topic switching with friends and strangers has been in the context of naturalistic conversation, where partners can contextualize concepts, engage in grounding, and make repairs at moments of misunderstanding. Do friends and strangers converse differently in the absence of such linguistic scaffolding? The present work uses a more controlled paradigm-a dyadic word association task-to reduce conversation to its most basic form: the exchange of units of ideas. This allows us to ask, first, whether interaction partners constrain their stream-of-consciousness semantic associations for the sake of convergence. Second, we ask whether strangers constrain their semantic associations more than friends, even when there is no way to contextualize topic changes.",
+      "text_with_footnotes": "How might friendship shape the topic trajectory of conversations? Conversation partners talk differently depending on how well they know each other. Conversations with friends involve more mutual knowledge, self-disclosure, and are more relaxed compared to conversations with acquaintances (Planalp & Benson, 1992). Friends have shared experiences and reference points, so they can draw upon a greater range of topics to talk about in conversation (Clark & Marshall, 1981). Perhaps friends can make semantic associations that might seem distant to an outsider because their partner has the idiosyncratic knowledge necessary to recognize the connections between concepts. Rapid shifting of topics is a characteristic of more intimate conversation (Heritage, 1989). Friends raise more topics in conversation than strangers (Hornstein, 1985;Planalp, 1993). However, other work suggests friends do not communicate more accurately or efficiently than strangers, even though friends have a larger body of common ground language (Fussell & Krauss, 1989a;Pollmann & Krahmer, 2018;Schober & Carstensen, 2009).\n\nPrior work on topic switching with friends and strangers has been in the context of naturalistic conversation, where partners can contextualize concepts, engage in grounding, and make repairs at moments of misunderstanding. Do friends and strangers converse differently in the absence of such linguistic scaffolding? The present work uses a more controlled paradigm-a dyadic word association task-to reduce conversation to its most basic form: the exchange of units of ideas. This allows us to ask, first, whether interaction partners constrain their stream-of-consciousness semantic associations for the sake of convergence. Second, we ask whether strangers constrain their semantic associations more than friends, even when there is no way to contextualize topic changes.",
+      "preview_head": "How might friendship shape the topic trajectory of conversations? Conversation partners talk differently depending on how well they know each other. Conversations with friends involve more mutual knowledge, self-disclosure, and are more relaxed compared to conversations with acquaintances (Planalp & Benson, 1992).",
+      "preview_tail": "The present work uses a more controlled paradigm-a dyadic word association task-to reduce conversation to its most basic form: the exchange of units of ideas. This allows us to ask, first, whether interaction partners constrain their stream-of-consciousness semantic associations for the sake of convergence. Second, we ask whether strangers constrain their semantic associations more than friends, even when there is no way to contextualize topic changes.",
+      "word_count": 265,
+      "paragraph_count": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.8,
+          "reason": "The section reviews literature on how friendship affects conversation, with citations and summary o"
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "It also transitions to the present work and frames the research questions, but the dominant functio"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "THEORY_LIT"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 5,
+      "depth": 0,
+      "header_raw": "The Present Study",
+      "header_norm": "the present study",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The present work asks whether people prioritize conversational convergence or divergence when they do not have the ability to convey or correct misunderstandings. And do their priorities differ when with friends versus strangers? Answering these questions will shed light on, among other things, how to maximize creativity of teams (Paulus, 2000). If dyads, even close friends, prioritize convergence, they might constrain their creativity for the sake of being understood.",
+        "We use a social word association task where participants jointly generated a continuous stream of words, alternating contributions. We quantified the breadth of associations made by using Gray et al.'s ( 2019) \"forward flow\" calculator, which relies on natural language embeddings to gauge the extent to which words progress through semantic space. To compare the breadth of word associations, we measured participants' performance when completing the task together against a baseline where they performed the task individually.",
+        "Based on the tasks of conversation-to be understood and to be interesting-we can generate two competing hypotheses. People may generate more diverse thoughts when working together than individually, because collaboration introduces creativity and new ideas (Kenworthy et al., 2023). Alternatively, people may constrain their thoughts in order to be liked and understood (Matlin & Zajonc, 1968), potentially narrowing their semantic associations when working with a partner. Evidence suggests that groups working together tend to produce fewer creative solutions, as individuals may fixate on their partners' suggestions and conform to them (Kohn & Smith, 2011).",
+        "Finally, we predicted that a get-to-know-you task (Study 2) or preexisting friendship (Study 3) might allow partners to loosen their conversational constraints and make broader semantic associations than when talking to a stranger. Friends have more common ground language (Fussell & Krauss, 1989b;Schober & Carstensen, 2009), which may allow them to transition to different topics more easily. Groups of friends also have more divergent thoughts than groups of strangers (Deutsch et al., 1991;Rodrigues et al., 2021). However, these studies involved more naturalistic conversation that allowed friends to ground and contextualize their semantic and topic leaps. The present work asks whether the shared references of friends free them to take bigger semantic leaps even when they cannot add context. Together, these studies examine how conversation partners balance being understood and being interesting at the level of single semantic units-words."
+      ],
+      "footnotes": [],
+      "text": "The present work asks whether people prioritize conversational convergence or divergence when they do not have the ability to convey or correct misunderstandings. And do their priorities differ when with friends versus strangers? Answering these questions will shed light on, among other things, how to maximize creativity of teams (Paulus, 2000). If dyads, even close friends, prioritize convergence, they might constrain their creativity for the sake of being understood.\n\nWe use a social word association task where participants jointly generated a continuous stream of words, alternating contributions. We quantified the breadth of associations made by using Gray et al.'s ( 2019) \"forward flow\" calculator, which relies on natural language embeddings to gauge the extent to which words progress through semantic space. To compare the breadth of word associations, we measured participants' performance when completing the task together against a baseline where they performed the task individually.\n\nBased on the tasks of conversation-to be understood and to be interesting-we can generate two competing hypotheses. People may generate more diverse thoughts when working together than individually, because collaboration introduces creativity and new ideas (Kenworthy et al., 2023). Alternatively, people may constrain their thoughts in order to be liked and understood (Matlin & Zajonc, 1968), potentially narrowing their semantic associations when working with a partner. Evidence suggests that groups working together tend to produce fewer creative solutions, as individuals may fixate on their partners' suggestions and conform to them (Kohn & Smith, 2011).\n\nFinally, we predicted that a get-to-know-you task (Study 2) or preexisting friendship (Study 3) might allow partners to loosen their conversational constraints and make broader semantic associations than when talking to a stranger. Friends have more common ground language (Fussell & Krauss, 1989b;Schober & Carstensen, 2009), which may allow them to transition to different topics more easily. Groups of friends also have more divergent thoughts than groups of strangers (Deutsch et al., 1991;Rodrigues et al., 2021). However, these studies involved more naturalistic conversation that allowed friends to ground and contextualize their semantic and topic leaps. The present work asks whether the shared references of friends free them to take bigger semantic leaps even when they cannot add context. Together, these studies examine how conversation partners balance being understood and being interesting at the level of single semantic units-words.",
+      "text_with_footnotes": "The present work asks whether people prioritize conversational convergence or divergence when they do not have the ability to convey or correct misunderstandings. And do their priorities differ when with friends versus strangers? Answering these questions will shed light on, among other things, how to maximize creativity of teams (Paulus, 2000). If dyads, even close friends, prioritize convergence, they might constrain their creativity for the sake of being understood.\n\nWe use a social word association task where participants jointly generated a continuous stream of words, alternating contributions. We quantified the breadth of associations made by using Gray et al.'s ( 2019) \"forward flow\" calculator, which relies on natural language embeddings to gauge the extent to which words progress through semantic space. To compare the breadth of word associations, we measured participants' performance when completing the task together against a baseline where they performed the task individually.\n\nBased on the tasks of conversation-to be understood and to be interesting-we can generate two competing hypotheses. People may generate more diverse thoughts when working together than individually, because collaboration introduces creativity and new ideas (Kenworthy et al., 2023). Alternatively, people may constrain their thoughts in order to be liked and understood (Matlin & Zajonc, 1968), potentially narrowing their semantic associations when working with a partner. Evidence suggests that groups working together tend to produce fewer creative solutions, as individuals may fixate on their partners' suggestions and conform to them (Kohn & Smith, 2011).\n\nFinally, we predicted that a get-to-know-you task (Study 2) or preexisting friendship (Study 3) might allow partners to loosen their conversational constraints and make broader semantic associations than when talking to a stranger. Friends have more common ground language (Fussell & Krauss, 1989b;Schober & Carstensen, 2009), which may allow them to transition to different topics more easily. Groups of friends also have more divergent thoughts than groups of strangers (Deutsch et al., 1991;Rodrigues et al., 2021). However, these studies involved more naturalistic conversation that allowed friends to ground and contextualize their semantic and topic leaps. The present work asks whether the shared references of friends free them to take bigger semantic leaps even when they cannot add context. Together, these studies examine how conversation partners balance being understood and being interesting at the level of single semantic units-words.",
+      "preview_head": "The present work asks whether people prioritize conversational convergence or divergence when they do not have the ability to convey or correct misunderstandings. And do their priorities differ when with friends versus strangers? Answering these questions will shed light on, among other things, how to maximize creativity of teams (Paulus, 2000).",
+      "preview_tail": "However, these studies involved more naturalistic conversation that allowed friends to ground and contextualize their semantic and topic leaps. The present work asks whether the shared references of friends free them to take bigger semantic leaps even when they cannot add context. Together, these studies examine how conversation partners balance being understood and being interesting at the level of single semantic units-words.",
+      "word_count": 378,
+      "paragraph_count": 4,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 0.7,
+          "reason": "This section clearly states the research questions and frames the study's purpose."
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 0.3,
+          "reason": "It briefly references prior studies to contrast the present approach, but the main function is to s"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.93,
+      "label_reason": "llm",
+      "major_label": "INTRO"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 6,
+      "depth": 0,
+      "header_raw": "Overview of Method",
+      "header_norm": "overview of method",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": true,
+      "paragraphs": [],
+      "footnotes": [],
+      "text": "",
+      "text_with_footnotes": "",
+      "preview_head": "",
+      "preview_tail": "",
+      "word_count": 0,
+      "paragraph_count": 0,
+      "primary_label": null,
+      "tags": [],
+      "label_source": "container",
+      "major_label": null
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 7,
+      "depth": 0,
+      "header_raw": "Transparency and Openness",
+      "header_norm": "transparency and openness",
+      "container_raw": "Overview of Method",
+      "container_norm": "overview of method",
+      "is_container": false,
+      "paragraphs": [
+        "Study materials, deidentified data, and code are available online (Tsang & Wood, 2023; https://osf.io/y9atu/). The online supplemental materials provide additional details about the methods and secondary analyses."
+      ],
+      "footnotes": [],
+      "text": "Study materials, deidentified data, and code are available online (Tsang & Wood, 2023; https://osf.io/y9atu/). The online supplemental materials provide additional details about the methods and secondary analyses.",
+      "text_with_footnotes": "Study materials, deidentified data, and code are available online (Tsang & Wood, 2023; https://osf.io/y9atu/). The online supplemental materials provide additional details about the methods and secondary analyses.",
+      "preview_head": "Study materials, deidentified data, and code are available online (Tsang & Wood, 2023; https://osf.io/y9atu/). The online supplemental materials provide additional details about the methods and secondary analyses.",
+      "preview_tail": "Study materials, deidentified data, and code are available online (Tsang & Wood, 2023; https://osf.io/y9atu/). The online supplemental materials provide additional details about the methods and secondary analyses.",
+      "word_count": 27,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "This section provides information about data, materials, code availability, and supplemental method"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 8,
+      "depth": 0,
+      "header_raw": "Word Association Task",
+      "header_norm": "word association task",
+      "container_raw": "Overview of Method",
+      "container_norm": "overview of method",
+      "is_container": false,
+      "paragraphs": [
+        "In all three studies, participants completed the word association task in pairs. Each trial began with a seed word (e.g., \"snow\") read aloud by the experimenter. Participants then spoke aloud the next word that came to mind based on the seed word (e.g., \"white\"), then the next word that came to mind based on that word, repeating for a total of 20 words. They were instructed to say the first word that comes to mind, that is one word and not a proper noun (script in the online supplemental materials). Studies 1 and 2 occurred during the height of the COVID-19 pandemic and were conducted over Zoom. Study 3 occurred after in-person testing resumed and was conducted in a laboratory.",
+        "All dyads completed a block of four rounds of solo trials (alternating whose turn it was) and a block of four rounds of dyad trials (alternating who goes first), with the order of these blocks counterbalanced across dyads. The experimenter recorded the words and asked for any clarification at the end of the trial."
+      ],
+      "footnotes": [],
+      "text": "In all three studies, participants completed the word association task in pairs. Each trial began with a seed word (e.g., \"snow\") read aloud by the experimenter. Participants then spoke aloud the next word that came to mind based on the seed word (e.g., \"white\"), then the next word that came to mind based on that word, repeating for a total of 20 words. They were instructed to say the first word that comes to mind, that is one word and not a proper noun (script in the online supplemental materials). Studies 1 and 2 occurred during the height of the COVID-19 pandemic and were conducted over Zoom. Study 3 occurred after in-person testing resumed and was conducted in a laboratory.\n\nAll dyads completed a block of four rounds of solo trials (alternating whose turn it was) and a block of four rounds of dyad trials (alternating who goes first), with the order of these blocks counterbalanced across dyads. The experimenter recorded the words and asked for any clarification at the end of the trial.",
+      "text_with_footnotes": "In all three studies, participants completed the word association task in pairs. Each trial began with a seed word (e.g., \"snow\") read aloud by the experimenter. Participants then spoke aloud the next word that came to mind based on the seed word (e.g., \"white\"), then the next word that came to mind based on that word, repeating for a total of 20 words. They were instructed to say the first word that comes to mind, that is one word and not a proper noun (script in the online supplemental materials). Studies 1 and 2 occurred during the height of the COVID-19 pandemic and were conducted over Zoom. Study 3 occurred after in-person testing resumed and was conducted in a laboratory.\n\nAll dyads completed a block of four rounds of solo trials (alternating whose turn it was) and a block of four rounds of dyad trials (alternating who goes first), with the order of these blocks counterbalanced across dyads. The experimenter recorded the words and asked for any clarification at the end of the trial.",
+      "preview_head": "In all three studies, participants completed the word association task in pairs. Each trial began with a seed word (e.g., \"snow\") read aloud by the experimenter. Participants then spoke aloud the next word that came to mind based on the seed word (e.g., \"white\"), then the next word that came to mind based on that word, repeating for a total of 20 words.",
+      "preview_tail": "All dyads completed a block of four rounds of solo trials (alternating whose turn it was) and a block of four rounds of dyad trials (alternating who goes first), with the order of these blocks counterbalanced across dyads. The experimenter recorded the words and asked for any clarification at the end of the trial.",
+      "word_count": 174,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the word association task procedure, including how participants completed the task and th"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 9,
+      "depth": 0,
+      "header_raw": "Dyad Trials",
+      "header_norm": "dyad trials",
+      "container_raw": "Overview of Method",
+      "container_norm": "overview of method",
+      "is_container": false,
+      "paragraphs": [
+        "The participants alternated generating words, saying what word came to mind based on their partner's most recent word until they had reached 20 words (Figure 1)."
+      ],
+      "footnotes": [],
+      "text": "The participants alternated generating words, saying what word came to mind based on their partner's most recent word until they had reached 20 words (Figure 1).",
+      "text_with_footnotes": "The participants alternated generating words, saying what word came to mind based on their partner's most recent word until they had reached 20 words (Figure 1).",
+      "preview_head": "The participants alternated generating words, saying what word came to mind based on their partner's most recent word until they had reached 20 words (Figure 1).",
+      "preview_tail": "The participants alternated generating words, saying what word came to mind based on their partner's most recent word until they had reached 20 words (Figure 1).",
+      "word_count": 26,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the procedure for dyad trials, detailing how participants alternated generating words."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 10,
+      "depth": 0,
+      "header_raw": "Solo Trials",
+      "header_norm": "solo trials",
+      "container_raw": "Overview of Method",
+      "container_norm": "overview of method",
+      "is_container": false,
+      "paragraphs": [
+        "To mimic the rhythm of turn-taking as well as keeping conditions as similar as possible, one participant generated words while the other participant repeated them, until they reached 20 generated words."
+      ],
+      "footnotes": [],
+      "text": "To mimic the rhythm of turn-taking as well as keeping conditions as similar as possible, one participant generated words while the other participant repeated them, until they reached 20 generated words.",
+      "text_with_footnotes": "To mimic the rhythm of turn-taking as well as keeping conditions as similar as possible, one participant generated words while the other participant repeated them, until they reached 20 generated words.",
+      "preview_head": "To mimic the rhythm of turn-taking as well as keeping conditions as similar as possible, one participant generated words while the other participant repeated them, until they reached 20 generated words.",
+      "preview_tail": "To mimic the rhythm of turn-taking as well as keeping conditions as similar as possible, one participant generated words while the other participant repeated them, until they reached 20 generated words.",
+      "word_count": 31,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the procedure for solo trials, including participant actions and trial structure."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 11,
+      "depth": 0,
+      "header_raw": "Quantifying Semantic Breadth",
+      "header_norm": "quantifying semantic breadth",
+      "container_raw": "Overview of Method",
+      "container_norm": "overview of method",
+      "is_container": false,
+      "paragraphs": [
+        "We used Gray et al.'s (2019) \"forward flow\" score calculator, based on latent semantic analysis (Deerwester et al., 1990) to measure the semantic distances between words. This calculator assesses how much each word diverges from all previous words in a list. Scores range from 0 to 100, with lower scores indicating more semantic relatedness. We calculated one score for each trial, totaling eight scores per dyad.",
+        "There were occasional words that were not in the dictionary (\"NAs\"), such as proper nouns that accounted for 2.2%-2.5% of all words. We controlled for missing values in our analyses. The number of NAs did not differ across conditions."
+      ],
+      "footnotes": [],
+      "text": "We used Gray et al.'s (2019) \"forward flow\" score calculator, based on latent semantic analysis (Deerwester et al., 1990) to measure the semantic distances between words. This calculator assesses how much each word diverges from all previous words in a list. Scores range from 0 to 100, with lower scores indicating more semantic relatedness. We calculated one score for each trial, totaling eight scores per dyad.\n\nThere were occasional words that were not in the dictionary (\"NAs\"), such as proper nouns that accounted for 2.2%-2.5% of all words. We controlled for missing values in our analyses. The number of NAs did not differ across conditions.",
+      "text_with_footnotes": "We used Gray et al.'s (2019) \"forward flow\" score calculator, based on latent semantic analysis (Deerwester et al., 1990) to measure the semantic distances between words. This calculator assesses how much each word diverges from all previous words in a list. Scores range from 0 to 100, with lower scores indicating more semantic relatedness. We calculated one score for each trial, totaling eight scores per dyad.\n\nThere were occasional words that were not in the dictionary (\"NAs\"), such as proper nouns that accounted for 2.2%-2.5% of all words. We controlled for missing values in our analyses. The number of NAs did not differ across conditions.",
+      "preview_head": "We used Gray et al.'s (2019) \"forward flow\" score calculator, based on latent semantic analysis (Deerwester et al., 1990) to measure the semantic distances between words. This calculator assesses how much each word diverges from all previous words in a list. Scores range from 0 to 100, with lower scores indicating more semantic relatedness. We calculated one score for each trial, totaling eight scores per dyad.",
+      "preview_tail": "There were occasional words that were not in the dictionary (\"NAs\"), such as proper nouns that accounted for 2.2%-2.5% of all words. We controlled for missing values in our analyses. The number of NAs did not differ across conditions.",
+      "word_count": 105,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the measurement and quantification of semantic breadth, including the use of a specific sc"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.99,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 12,
+      "depth": 0,
+      "header_raw": "Study 1",
+      "header_norm": "study 1",
+      "container_raw": "Overview of Method",
+      "container_norm": "overview of method",
+      "is_container": false,
+      "paragraphs": [
+        "Study 1 asked whether pairs of unacquainted participants show more semantic divergence on a word association task completed alone or together."
+      ],
+      "footnotes": [],
+      "text": "Study 1 asked whether pairs of unacquainted participants show more semantic divergence on a word association task completed alone or together.",
+      "text_with_footnotes": "Study 1 asked whether pairs of unacquainted participants show more semantic divergence on a word association task completed alone or together.",
+      "preview_head": "Study 1 asked whether pairs of unacquainted participants show more semantic divergence on a word association task completed alone or together.",
+      "preview_tail": "Study 1 asked whether pairs of unacquainted participants show more semantic divergence on a word association task completed alone or together.",
+      "word_count": 21,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Introduces Study 1 and its research question, focusing on the experimental design and comparison."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.97,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 13,
+      "depth": 0,
+      "header_raw": "Method",
+      "header_norm": "method",
+      "container_raw": "Overview of Method",
+      "container_norm": "overview of method",
+      "is_container": false,
+      "paragraphs": [
+        "One hundred undergraduate participants (M age = 19.64, SD age = 1.29; 81 female, 18 male, one nonbinary; 49 White, 27 Asian, 12 Note. See the online article for the color version of this figure."
+      ],
+      "footnotes": [],
+      "text": "One hundred undergraduate participants (M age = 19.64, SD age = 1.29; 81 female, 18 male, one nonbinary; 49 White, 27 Asian, 12 Note. See the online article for the color version of this figure.",
+      "text_with_footnotes": "One hundred undergraduate participants (M age = 19.64, SD age = 1.29; 81 female, 18 male, one nonbinary; 49 White, 27 Asian, 12 Note. See the online article for the color version of this figure.",
+      "preview_head": "One hundred undergraduate participants (M age = 19.64, SD age = 1.29; 81 female, 18 male, one nonbinary; 49 White, 27 Asian, 12 Note. See the online article for the color version of this figure.",
+      "preview_tail": "One hundred undergraduate participants (M age = 19.64, SD age = 1.29; 81 female, 18 male, one nonbinary; 49 White, 27 Asian, 12 Note. See the online article for the color version of this figure.",
+      "word_count": 35,
+      "paragraph_count": 1,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 14,
+      "depth": 0,
+      "header_raw": "SOCIAL SEMANTIC ASSOCIATIONS 1409",
+      "header_norm": "social semantic associations 1409",
+      "container_raw": "Overview of Method",
+      "container_norm": "overview of method",
+      "is_container": false,
+      "paragraphs": [
+        "This document is copyrighted by the American Psychological Association or one of its allied publishers.",
+        "This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.",
+        "All rights, including for text and data mining, AI training, and similar technologies, are reserved.",
+        "Black or African American, seven other, five prefer not to answer), or 50 dyads, completed the survey in exchange for $7. For all studies, we asked \"What is your gender?,\" with options: female, male, nonbinary/third gender, prefer to self-describe, and prefer not to say. For race, we asked \"What is your race?,\" with options: White, Black or African American, Asian, American Indian or Alaska Native, Native Hawaiian or other Pacific Islander, other, and prefer not to answer.",
+        "The two participants joined a Zoom meeting with their videos on with an experimenter for the Word Association Task (see above)."
+      ],
+      "footnotes": [],
+      "text": "This document is copyrighted by the American Psychological Association or one of its allied publishers.\n\nThis article is intended solely for the personal use of the individual user and is not to be disseminated broadly.\n\nAll rights, including for text and data mining, AI training, and similar technologies, are reserved.\n\nBlack or African American, seven other, five prefer not to answer), or 50 dyads, completed the survey in exchange for $7. For all studies, we asked \"What is your gender?,\" with options: female, male, nonbinary/third gender, prefer to self-describe, and prefer not to say. For race, we asked \"What is your race?,\" with options: White, Black or African American, Asian, American Indian or Alaska Native, Native Hawaiian or other Pacific Islander, other, and prefer not to answer.\n\nThe two participants joined a Zoom meeting with their videos on with an experimenter for the Word Association Task (see above).",
+      "text_with_footnotes": "This document is copyrighted by the American Psychological Association or one of its allied publishers.\n\nThis article is intended solely for the personal use of the individual user and is not to be disseminated broadly.\n\nAll rights, including for text and data mining, AI training, and similar technologies, are reserved.\n\nBlack or African American, seven other, five prefer not to answer), or 50 dyads, completed the survey in exchange for $7. For all studies, we asked \"What is your gender?,\" with options: female, male, nonbinary/third gender, prefer to self-describe, and prefer not to say. For race, we asked \"What is your race?,\" with options: White, Black or African American, Asian, American Indian or Alaska Native, Native Hawaiian or other Pacific Islander, other, and prefer not to answer.\n\nThe two participants joined a Zoom meeting with their videos on with an experimenter for the Word Association Task (see above).",
+      "preview_head": "This document is copyrighted by the American Psychological Association or one of its allied publishers.",
+      "preview_tail": "The two participants joined a Zoom meeting with their videos on with an experimenter for the Word Association Task (see above).",
+      "word_count": 148,
+      "paragraph_count": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the experimental procedure for Study 1, including participant setup and task execution."
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.98,
+      "label_reason": "llm",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 15,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "We found that forward flow scores in solo trials (M = 77.2, SD = 5.7) were higher than forward flow scores for dyad trials (M = 74.9, SD = 5.9), B = 2.3, SE = 0.5, t(346.48) = 4.85, p , .001 (see Table 1). Dyads together generated narrower semantic associations compared to individual members of the same dyads."
+      ],
+      "footnotes": [],
+      "text": "We found that forward flow scores in solo trials (M = 77.2, SD = 5.7) were higher than forward flow scores for dyad trials (M = 74.9, SD = 5.9), B = 2.3, SE = 0.5, t(346.48) = 4.85, p , .001 (see Table 1). Dyads together generated narrower semantic associations compared to individual members of the same dyads.",
+      "text_with_footnotes": "We found that forward flow scores in solo trials (M = 77.2, SD = 5.7) were higher than forward flow scores for dyad trials (M = 74.9, SD = 5.9), B = 2.3, SE = 0.5, t(346.48) = 4.85, p , .001 (see Table 1). Dyads together generated narrower semantic associations compared to individual members of the same dyads.",
+      "preview_head": "We found that forward flow scores in solo trials (M = 77.2, SD = 5.7) were higher than forward flow scores for dyad trials (M = 74.9, SD = 5.9), B = 2.3, SE = 0.5, t(346.48) = 4.85, p , .001 (see Table 1). Dyads together generated narrower semantic associations compared to individual members of the same dyads.",
+      "preview_tail": "We found that forward flow scores in solo trials (M = 77.2, SD = 5.7) were higher than forward flow scores for dyad trials (M = 74.9, SD = 5.9), B = 2.3, SE = 0.5, t(346.48) = 4.85, p , .001 (see Table 1). Dyads together generated narrower semantic associations compared to individual members of the same dyads.",
+      "word_count": 59,
+      "paragraph_count": 1,
+      "_original_container_raw": "Overview of Method",
+      "_original_container_norm": "overview of method",
+      "_container_unnested": true,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*results?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*results?\\s*$",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 16,
+      "depth": 0,
+      "header_raw": "Discussion",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Study 1 suggests that strangers limit their thoughts during idea exchange. Study 2 asked whether partners constrain their thoughts less in the dyad condition once they have gotten to know each other through a get-to-know-you task. Perhaps people only constrain their thoughts when talking to someone they have never interacted with before and with whom they have not established trust. Previous research has suggested that friends may switch topics more than strangers because they are more comfortable doing so (Heritage, 1989). By randomly assigning people to do the word task with a stranger or \"fast friend,\" we address the correlational shortcomings of prior work examining the effect of partner familiarity and liking on conversational divergence (Planalp & Benson, 1992)."
+      ],
+      "footnotes": [],
+      "text": "Study 1 suggests that strangers limit their thoughts during idea exchange. Study 2 asked whether partners constrain their thoughts less in the dyad condition once they have gotten to know each other through a get-to-know-you task. Perhaps people only constrain their thoughts when talking to someone they have never interacted with before and with whom they have not established trust. Previous research has suggested that friends may switch topics more than strangers because they are more comfortable doing so (Heritage, 1989). By randomly assigning people to do the word task with a stranger or \"fast friend,\" we address the correlational shortcomings of prior work examining the effect of partner familiarity and liking on conversational divergence (Planalp & Benson, 1992).",
+      "text_with_footnotes": "Study 1 suggests that strangers limit their thoughts during idea exchange. Study 2 asked whether partners constrain their thoughts less in the dyad condition once they have gotten to know each other through a get-to-know-you task. Perhaps people only constrain their thoughts when talking to someone they have never interacted with before and with whom they have not established trust. Previous research has suggested that friends may switch topics more than strangers because they are more comfortable doing so (Heritage, 1989). By randomly assigning people to do the word task with a stranger or \"fast friend,\" we address the correlational shortcomings of prior work examining the effect of partner familiarity and liking on conversational divergence (Planalp & Benson, 1992).",
+      "preview_head": "Study 1 suggests that strangers limit their thoughts during idea exchange. Study 2 asked whether partners constrain their thoughts less in the dyad condition once they have gotten to know each other through a get-to-know-you task. Perhaps people only constrain their thoughts when talking to someone they have never interacted with before and with whom they have not established trust. Previous research has suggested that friends may switch topics more than strangers because they are more comfortable doing so (Heritage, 1989).",
+      "preview_tail": "Study 2 asked whether partners constrain their thoughts less in the dyad condition once they have gotten to know each other through a get-to-know-you task. Perhaps people only constrain their thoughts when talking to someone they have never interacted with before and with whom they have not established trust. Previous research has suggested that friends may switch topics more than strangers because they are more comfortable doing so (Heritage, 1989). By randomly assigning people to do the word task with a stranger or \"fast friend,\" we address the correlational shortcomings of prior work examining the effect of partner familiarity and liking on conversational divergence (Planalp & Benson, 1992).",
+      "word_count": 119,
+      "paragraph_count": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*discussion\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*discussion\\s*$",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 17,
+      "depth": 0,
+      "header_raw": "Study 2 Method",
+      "header_norm": "study 2 method",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Undergraduate participants completed the study session in groups of four (280 participants in 70 groups) in exchange for course credit. One dyad was not included due to experimenter error, resulting in 278 participants (M age = 19.5, SD = 1.15; 115 male, 157 female, one preferred to self-describe, and five did not respond; 172 White, 72 Asian, 10 Black or African American, 19 other, one prefer not to answer, and four did not respond).",
+        "At the beginning of each session, four previously unacquainted participants joined a Zoom room. They were randomly split into two pairs and sent to separate breakout rooms. There, an experimenter guided them through a \"fast friends\" exercise adapted from Aron et al. (1997)). Participants were given a set of personal questions and instructed to answer them together for 10 min. They then repeated the process with a second set of questions from the same source.",
+        "While participants were conversing, experimenters randomly assigned dyads (via coin flip) to stay with their \"friend\" (n = 78 dyads) or switch partners with someone from the session's other dyad (n = 61 dyads) for the word association task. Each experimenter went with a dyad to a Zoom breakout room and guided the participants through the word association task. Participants reported liking their fast friend partner more (M = 6.34) than the stranger partner (M = 5.91), t(219) = 5.1, p , .001."
+      ],
+      "footnotes": [],
+      "text": "Undergraduate participants completed the study session in groups of four (280 participants in 70 groups) in exchange for course credit. One dyad was not included due to experimenter error, resulting in 278 participants (M age = 19.5, SD = 1.15; 115 male, 157 female, one preferred to self-describe, and five did not respond; 172 White, 72 Asian, 10 Black or African American, 19 other, one prefer not to answer, and four did not respond).\n\nAt the beginning of each session, four previously unacquainted participants joined a Zoom room. They were randomly split into two pairs and sent to separate breakout rooms. There, an experimenter guided them through a \"fast friends\" exercise adapted from Aron et al. (1997)). Participants were given a set of personal questions and instructed to answer them together for 10 min. They then repeated the process with a second set of questions from the same source.\n\nWhile participants were conversing, experimenters randomly assigned dyads (via coin flip) to stay with their \"friend\" (n = 78 dyads) or switch partners with someone from the session's other dyad (n = 61 dyads) for the word association task. Each experimenter went with a dyad to a Zoom breakout room and guided the participants through the word association task. Participants reported liking their fast friend partner more (M = 6.34) than the stranger partner (M = 5.91), t(219) = 5.1, p , .001.",
+      "text_with_footnotes": "Undergraduate participants completed the study session in groups of four (280 participants in 70 groups) in exchange for course credit. One dyad was not included due to experimenter error, resulting in 278 participants (M age = 19.5, SD = 1.15; 115 male, 157 female, one preferred to self-describe, and five did not respond; 172 White, 72 Asian, 10 Black or African American, 19 other, one prefer not to answer, and four did not respond).\n\nAt the beginning of each session, four previously unacquainted participants joined a Zoom room. They were randomly split into two pairs and sent to separate breakout rooms. There, an experimenter guided them through a \"fast friends\" exercise adapted from Aron et al. (1997)). Participants were given a set of personal questions and instructed to answer them together for 10 min. They then repeated the process with a second set of questions from the same source.\n\nWhile participants were conversing, experimenters randomly assigned dyads (via coin flip) to stay with their \"friend\" (n = 78 dyads) or switch partners with someone from the session's other dyad (n = 61 dyads) for the word association task. Each experimenter went with a dyad to a Zoom breakout room and guided the participants through the word association task. Participants reported liking their fast friend partner more (M = 6.34) than the stranger partner (M = 5.91), t(219) = 5.1, p , .001.",
+      "preview_head": "Undergraduate participants completed the study session in groups of four (280 participants in 70 groups) in exchange for course credit. One dyad was not included due to experimenter error, resulting in 278 participants (M age = 19.5, SD = 1.15; 115 male, 157 female, one preferred to self-describe, and five did not respond; 172 White, 72 Asian, 10 Black or African American, 19 other, one prefer not to answer, and four did not respond).",
+      "preview_tail": "While participants were conversing, experimenters randomly assigned dyads (via coin flip) to stay with their \"friend\" (n = 78 dyads) or switch partners with someone from the session's other dyad (n = 61 dyads) for the word association task. Each experimenter went with a dyad to a Zoom breakout room and guided the participants through the word association task. Participants reported liking their fast friend partner more (M = 6.34) than the stranger partner (M = 5.91), t(219) = 5.1, p , .001.",
+      "word_count": 232,
+      "paragraph_count": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 18,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "We used linear mixed-effects to model the interaction between the within-group trial condition (solo vs. dyad) and the between-group friendship condition (fast friend vs. stranger). Contrary to our hypothesis, we did not find a significant interaction effect. We again found that flow scores for solo trials (M = 77.3, SD = 5.0) were higher than for dyad trials (M = 76.0, SD = 5.3), B = 1.0, SE = 0.3, t(968.8) = 3.75, p , .001. We did not find a significant main effect of friendship."
+      ],
+      "footnotes": [],
+      "text": "We used linear mixed-effects to model the interaction between the within-group trial condition (solo vs. dyad) and the between-group friendship condition (fast friend vs. stranger). Contrary to our hypothesis, we did not find a significant interaction effect. We again found that flow scores for solo trials (M = 77.3, SD = 5.0) were higher than for dyad trials (M = 76.0, SD = 5.3), B = 1.0, SE = 0.3, t(968.8) = 3.75, p , .001. We did not find a significant main effect of friendship.",
+      "text_with_footnotes": "We used linear mixed-effects to model the interaction between the within-group trial condition (solo vs. dyad) and the between-group friendship condition (fast friend vs. stranger). Contrary to our hypothesis, we did not find a significant interaction effect. We again found that flow scores for solo trials (M = 77.3, SD = 5.0) were higher than for dyad trials (M = 76.0, SD = 5.3), B = 1.0, SE = 0.3, t(968.8) = 3.75, p , .001. We did not find a significant main effect of friendship.",
+      "preview_head": "We used linear mixed-effects to model the interaction between the within-group trial condition (solo vs. dyad) and the between-group friendship condition (fast friend vs. stranger). Contrary to our hypothesis, we did not find a significant interaction effect. We again found that flow scores for solo trials (M = 77.3, SD = 5.0) were higher than for dyad trials (M = 76.0, SD = 5.3), B = 1.0, SE = 0.3, t(968.8) = 3.75, p , .001.",
+      "preview_tail": "Contrary to our hypothesis, we did not find a significant interaction effect. We again found that flow scores for solo trials (M = 77.3, SD = 5.0) were higher than for dyad trials (M = 76.0, SD = 5.3), B = 1.0, SE = 0.3, t(968.8) = 3.75, p , .001. We did not find a significant main effect of friendship.",
+      "word_count": 86,
+      "paragraph_count": 1,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*results?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*results?\\s*$",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 19,
+      "depth": 0,
+      "header_raw": "Discussion",
+      "header_norm": "discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Participants did not alter how much they constrained their word associations when they completed the task with their new fast friend than when participants completed it with strangers. One limitation of Study 2 is that the participants were not truly \"friends\" after a 20-min Fast Friends paradigm. Friends may be able to rapidly change subjects not only because they feel more comfortable with each other, but also because they have shared knowledge and experience, so leaps may not feel as abrupt. We, therefore, next examined if actual friends would have greater forward flow compared to strangers."
+      ],
+      "footnotes": [],
+      "text": "Participants did not alter how much they constrained their word associations when they completed the task with their new fast friend than when participants completed it with strangers. One limitation of Study 2 is that the participants were not truly \"friends\" after a 20-min Fast Friends paradigm. Friends may be able to rapidly change subjects not only because they feel more comfortable with each other, but also because they have shared knowledge and experience, so leaps may not feel as abrupt. We, therefore, next examined if actual friends would have greater forward flow compared to strangers.",
+      "text_with_footnotes": "Participants did not alter how much they constrained their word associations when they completed the task with their new fast friend than when participants completed it with strangers. One limitation of Study 2 is that the participants were not truly \"friends\" after a 20-min Fast Friends paradigm. Friends may be able to rapidly change subjects not only because they feel more comfortable with each other, but also because they have shared knowledge and experience, so leaps may not feel as abrupt. We, therefore, next examined if actual friends would have greater forward flow compared to strangers.",
+      "preview_head": "Participants did not alter how much they constrained their word associations when they completed the task with their new fast friend than when participants completed it with strangers. One limitation of Study 2 is that the participants were not truly \"friends\" after a 20-min Fast Friends paradigm. Friends may be able to rapidly change subjects not only because they feel more comfortable with each other, but also because they have shared knowledge and experience, so leaps may not feel as abrupt.",
+      "preview_tail": "One limitation of Study 2 is that the participants were not truly \"friends\" after a 20-min Fast Friends paradigm. Friends may be able to rapidly change subjects not only because they feel more comfortable with each other, but also because they have shared knowledge and experience, so leaps may not feel as abrupt. We, therefore, next examined if actual friends would have greater forward flow compared to strangers.",
+      "word_count": 96,
+      "paragraph_count": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*discussion\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*discussion\\s*$",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 20,
+      "depth": 0,
+      "header_raw": "Study 3 Method",
+      "header_norm": "study 3 method",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Undergraduate students (n = 124, 62 dyads) participated in exchange for course credit (M age = 18.9, SD age = 1.34; 88 female, 34 male, one nonbinary, one preferred not to answer; 68 White, 15 Black or African American, 32 Asian, seven other, and two prefer not to answer). For Study 3, we switched to an in-person laboratory setting due to relaxation of in-person testing restrictions after the COVID-19 pandemic. Unlike Study 2, the friends condition was within-subject, so all participants did the word association task with a friend and with a stranger.",
+        "Two pairs of friends participated in each session. All participants did the forward flow task both with their friend and with someone in the other friend pair (i.e., a stranger), with order counterbalanced. Participants reported liking their friend (M = 6.37) more than the stranger (M = 4.44), M diff = 1.94, t(123) = 18.2, p , .001."
+      ],
+      "footnotes": [],
+      "text": "Undergraduate students (n = 124, 62 dyads) participated in exchange for course credit (M age = 18.9, SD age = 1.34; 88 female, 34 male, one nonbinary, one preferred not to answer; 68 White, 15 Black or African American, 32 Asian, seven other, and two prefer not to answer). For Study 3, we switched to an in-person laboratory setting due to relaxation of in-person testing restrictions after the COVID-19 pandemic. Unlike Study 2, the friends condition was within-subject, so all participants did the word association task with a friend and with a stranger.\n\nTwo pairs of friends participated in each session. All participants did the forward flow task both with their friend and with someone in the other friend pair (i.e., a stranger), with order counterbalanced. Participants reported liking their friend (M = 6.37) more than the stranger (M = 4.44), M diff = 1.94, t(123) = 18.2, p , .001.",
+      "text_with_footnotes": "Undergraduate students (n = 124, 62 dyads) participated in exchange for course credit (M age = 18.9, SD age = 1.34; 88 female, 34 male, one nonbinary, one preferred not to answer; 68 White, 15 Black or African American, 32 Asian, seven other, and two prefer not to answer). For Study 3, we switched to an in-person laboratory setting due to relaxation of in-person testing restrictions after the COVID-19 pandemic. Unlike Study 2, the friends condition was within-subject, so all participants did the word association task with a friend and with a stranger.\n\nTwo pairs of friends participated in each session. All participants did the forward flow task both with their friend and with someone in the other friend pair (i.e., a stranger), with order counterbalanced. Participants reported liking their friend (M = 6.37) more than the stranger (M = 4.44), M diff = 1.94, t(123) = 18.2, p , .001.",
+      "preview_head": "Undergraduate students (n = 124, 62 dyads) participated in exchange for course credit (M age = 18.9, SD age = 1.34; 88 female, 34 male, one nonbinary, one preferred not to answer; 68 White, 15 Black or African American, 32 Asian, seven other, and two prefer not to answer). For Study 3, we switched to an in-person laboratory setting due to relaxation of in-person testing restrictions after the COVID-19 pandemic. Unlike Study 2, the friends condition was within-subject, so all participants did the word association task with a friend and with a stranger.",
+      "preview_tail": "Two pairs of friends participated in each session. All participants did the forward flow task both with their friend and with someone in the other friend pair (i.e., a stranger), with order counterbalanced. Participants reported liking their friend (M = 6.37) more than the stranger (M = 4.44), M diff = 1.94, t(123) = 18.2, p , .001.",
+      "word_count": 151,
+      "paragraph_count": 2,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "pattern:\\bmethod(s|ology)?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:\\bmethod(s|ology)?\\s*$",
+      "major_label": "METHODS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 21,
+      "depth": 0,
+      "header_raw": "Results",
+      "header_norm": "results",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "We used mixed-effects modeling to regress trial-level forward flow scores on two within-session independent variables: friendship Dyad trials 74.9 5.9 75.6 5.5 76.6 5.0 75.5 6.2 75.7 5.5 Solo trials 77.2 5.7 77.3 5.0 77.4 5.0 77.0 5.4 76.1 5.6",
+        "Note. Forward flow scores ranged from 1 to 100, with higher numbers indicating greater semantic distance between words.",
+        "level (stranger dyad vs. friend dyad) and trial condition (solo vs. dyad). As in Study 2, we did not find a significant interaction, nor a significant main effect of friendship level. We again found that solo trials (M = 76.5, SD = 5.5) had greater forward flow scores than dyad trials (M = 75.6, SD = 5.9), B = 0.80, SE = 0.3, t(863.98) = 2.63, p = .009 (Figure 2)."
+      ],
+      "footnotes": [],
+      "text": "We used mixed-effects modeling to regress trial-level forward flow scores on two within-session independent variables: friendship Dyad trials 74.9 5.9 75.6 5.5 76.6 5.0 75.5 6.2 75.7 5.5 Solo trials 77.2 5.7 77.3 5.0 77.4 5.0 77.0 5.4 76.1 5.6\n\nNote. Forward flow scores ranged from 1 to 100, with higher numbers indicating greater semantic distance between words.\n\nlevel (stranger dyad vs. friend dyad) and trial condition (solo vs. dyad). As in Study 2, we did not find a significant interaction, nor a significant main effect of friendship level. We again found that solo trials (M = 76.5, SD = 5.5) had greater forward flow scores than dyad trials (M = 75.6, SD = 5.9), B = 0.80, SE = 0.3, t(863.98) = 2.63, p = .009 (Figure 2).",
+      "text_with_footnotes": "We used mixed-effects modeling to regress trial-level forward flow scores on two within-session independent variables: friendship Dyad trials 74.9 5.9 75.6 5.5 76.6 5.0 75.5 6.2 75.7 5.5 Solo trials 77.2 5.7 77.3 5.0 77.4 5.0 77.0 5.4 76.1 5.6\n\nNote. Forward flow scores ranged from 1 to 100, with higher numbers indicating greater semantic distance between words.\n\nlevel (stranger dyad vs. friend dyad) and trial condition (solo vs. dyad). As in Study 2, we did not find a significant interaction, nor a significant main effect of friendship level. We again found that solo trials (M = 76.5, SD = 5.5) had greater forward flow scores than dyad trials (M = 75.6, SD = 5.9), B = 0.80, SE = 0.3, t(863.98) = 2.63, p = .009 (Figure 2).",
+      "preview_head": "We used mixed-effects modeling to regress trial-level forward flow scores on two within-session independent variables: friendship Dyad trials 74.9 5.9 75.6 5.5 76.6 5.0 75.5 6.2 75.7 5.5 Solo trials 77.2 5.7 77.3 5.0 77.4 5.0 77.0 5.4 76.1 5.6",
+      "preview_tail": "level (stranger dyad vs. friend dyad) and trial condition (solo vs. dyad). As in Study 2, we did not find a significant interaction, nor a significant main effect of friendship level. We again found that solo trials (M = 76.5, SD = 5.5) had greater forward flow scores than dyad trials (M = 75.6, SD = 5.9), B = 0.80, SE = 0.3, t(863.98) = 2.63, p = .009 (Figure 2).",
+      "word_count": 129,
+      "paragraph_count": 3,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*results?\\s*$"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.95,
+      "label_reason": "pattern:^\\s*results?\\s*$",
+      "major_label": "RESULTS"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 22,
+      "depth": 0,
+      "header_raw": "General Discussion",
+      "header_norm": "general discussion",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "The present work used a novel social word association task that reduced conversation to its simplest form: the exchange of individual units of ideas. Across three studies, we showed that people spontaneously constrain their semantic associations when doing the task with a partner compared to when doing it independently. Surprisingly, they did this regardless of whether they interacted with a stranger, a new friend (Study 2), or an existing friend (Study 3). Yet analyses in the online supplemental materials find mixed correlational evidence that partners like each other more when they semantically diverge during dyadic trials.",
+        "These results suggest that when conversation partners do not have the opportunity to provide context and clarification about how one thought is connected to another, they err on the side of convergence rather than divergence. They constrain their spontaneous free associations to make associations they think their partner will understand. This has been demonstrated in other linguistic domains as well: Adams et al. (2018) found that people converge on their unique textisms in instant messaging. Additionally, there are many other mediums of communication where this effect may or may not emerge. We demonstrated that people constrain semantic associations in videoconferencing and face-to-face settings, but it is possible that other mediums, such as texting, may allow for different affordances (Clark & Brennan, 1991).",
+        "Our results, using a tightly controlled paradigm and an objective measure of semantic breadth, complement evidence that groups generate fewer novel ideas in brainstorming sessions than the same number of individuals working independently (Kohn & Smith, 2011). Future work should unpack the psychological mediators of this phenomenon, such as reaction time (Templeton et al., 2022). Perhaps our participants became fixated on their partners' words and struggled to deviate from them, rather than constraining their word associations to be understood. Additional research can disentangle these two explanations for the present results, for instance, by comparing how much participants constrain themselves with a human partner versus a computer. Presumably participants would not try to be understandable with a computer, but they might still become fixated on the generated words. Another limitation of our study is that participants have more time to think about their next word in the solo trials than in dyad trials. Some work has suggested that creativity increases after an incubation period (Yang & Wu, 2022). Our study did not have the explicit goal to be creative or generate broad semantic associations, so we cannot say that more time explicitly led to broader associations, but it is still a potential confound that future work can address."
+      ],
+      "footnotes": [],
+      "text": "The present work used a novel social word association task that reduced conversation to its simplest form: the exchange of individual units of ideas. Across three studies, we showed that people spontaneously constrain their semantic associations when doing the task with a partner compared to when doing it independently. Surprisingly, they did this regardless of whether they interacted with a stranger, a new friend (Study 2), or an existing friend (Study 3). Yet analyses in the online supplemental materials find mixed correlational evidence that partners like each other more when they semantically diverge during dyadic trials.\n\nThese results suggest that when conversation partners do not have the opportunity to provide context and clarification about how one thought is connected to another, they err on the side of convergence rather than divergence. They constrain their spontaneous free associations to make associations they think their partner will understand. This has been demonstrated in other linguistic domains as well: Adams et al. (2018) found that people converge on their unique textisms in instant messaging. Additionally, there are many other mediums of communication where this effect may or may not emerge. We demonstrated that people constrain semantic associations in videoconferencing and face-to-face settings, but it is possible that other mediums, such as texting, may allow for different affordances (Clark & Brennan, 1991).\n\nOur results, using a tightly controlled paradigm and an objective measure of semantic breadth, complement evidence that groups generate fewer novel ideas in brainstorming sessions than the same number of individuals working independently (Kohn & Smith, 2011). Future work should unpack the psychological mediators of this phenomenon, such as reaction time (Templeton et al., 2022). Perhaps our participants became fixated on their partners' words and struggled to deviate from them, rather than constraining their word associations to be understood. Additional research can disentangle these two explanations for the present results, for instance, by comparing how much participants constrain themselves with a human partner versus a computer. Presumably participants would not try to be understandable with a computer, but they might still become fixated on the generated words. Another limitation of our study is that participants have more time to think about their next word in the solo trials than in dyad trials. Some work has suggested that creativity increases after an incubation period (Yang & Wu, 2022). Our study did not have the explicit goal to be creative or generate broad semantic associations, so we cannot say that more time explicitly led to broader associations, but it is still a potential confound that future work can address.",
+      "text_with_footnotes": "The present work used a novel social word association task that reduced conversation to its simplest form: the exchange of individual units of ideas. Across three studies, we showed that people spontaneously constrain their semantic associations when doing the task with a partner compared to when doing it independently. Surprisingly, they did this regardless of whether they interacted with a stranger, a new friend (Study 2), or an existing friend (Study 3). Yet analyses in the online supplemental materials find mixed correlational evidence that partners like each other more when they semantically diverge during dyadic trials.\n\nThese results suggest that when conversation partners do not have the opportunity to provide context and clarification about how one thought is connected to another, they err on the side of convergence rather than divergence. They constrain their spontaneous free associations to make associations they think their partner will understand. This has been demonstrated in other linguistic domains as well: Adams et al. (2018) found that people converge on their unique textisms in instant messaging. Additionally, there are many other mediums of communication where this effect may or may not emerge. We demonstrated that people constrain semantic associations in videoconferencing and face-to-face settings, but it is possible that other mediums, such as texting, may allow for different affordances (Clark & Brennan, 1991).\n\nOur results, using a tightly controlled paradigm and an objective measure of semantic breadth, complement evidence that groups generate fewer novel ideas in brainstorming sessions than the same number of individuals working independently (Kohn & Smith, 2011). Future work should unpack the psychological mediators of this phenomenon, such as reaction time (Templeton et al., 2022). Perhaps our participants became fixated on their partners' words and struggled to deviate from them, rather than constraining their word associations to be understood. Additional research can disentangle these two explanations for the present results, for instance, by comparing how much participants constrain themselves with a human partner versus a computer. Presumably participants would not try to be understandable with a computer, but they might still become fixated on the generated words. Another limitation of our study is that participants have more time to think about their next word in the solo trials than in dyad trials. Some work has suggested that creativity increases after an incubation period (Yang & Wu, 2022). Our study did not have the explicit goal to be creative or generate broad semantic associations, so we cannot say that more time explicitly led to broader associations, but it is still a potential confound that future work can address.",
+      "preview_head": "The present work used a novel social word association task that reduced conversation to its simplest form: the exchange of individual units of ideas. Across three studies, we showed that people spontaneously constrain their semantic associations when doing the task with a partner compared to when doing it independently. Surprisingly, they did this regardless of whether they interacted with a stranger, a new friend (Study 2), or an existing friend (Study 3).",
+      "preview_tail": "Another limitation of our study is that participants have more time to think about their next word in the solo trials than in dyad trials. Some work has suggested that creativity increases after an incubation period (Yang & Wu, 2022). Our study did not have the explicit goal to be creative or generate broad semantic associations, so we cannot say that more time explicitly led to broader associations, but it is still a potential confound that future work can address.",
+      "word_count": 425,
+      "paragraph_count": 3,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "pattern:^\\s*general\\s+discussion"
+        }
+      ],
+      "label_source": "heuristic",
+      "confidence": 0.85,
+      "label_reason": "pattern:^\\s*general\\s+discussion",
+      "major_label": "DISCUSSION"
+    },
+    {
+      "paper_id": "Tsang et al. - 2024 - People constrain their semantic associations when talking to both friends and strangers.",
+      "sec_index": 23,
+      "depth": 0,
+      "header_raw": "Constraints on Generality",
+      "header_norm": "constraints on generality",
+      "container_raw": null,
+      "container_norm": null,
+      "is_container": false,
+      "paragraphs": [
+        "Our social word association task is not true conversation. Future work should examine the semantic trajectory of natural dialogue (versus monologue). When people can ground, repair, and provide context for topic transitions, they may no longer constrain themselves. Additionally, while our sample consists of college students, we believe that the general phenomenon would apply to other populations, due to the basic desire to connect and the ubiquity of conversation. Note. Error bars represent standard deviations. See the online article for the color version of this figure.",
+        "In summary, we find evidence for a new way people may accommodate each other in conversations: by making smaller topic leaps than they would make during independent thought. In naturalistic conversation, where contextualizing is possible, friends may use their shared references and greater perceived freedom to explore conversation space more than strangers (Planalp & Benson, 1992). But at the level of individual semantic units, they appear to equally prioritize comprehension (although we should use caution drawing conclusions from a null result). When conversation is reduced to its simplest form, people sacrifice being interesting for the sake of being understood."
+      ],
+      "footnotes": [],
+      "text": "Our social word association task is not true conversation. Future work should examine the semantic trajectory of natural dialogue (versus monologue). When people can ground, repair, and provide context for topic transitions, they may no longer constrain themselves. Additionally, while our sample consists of college students, we believe that the general phenomenon would apply to other populations, due to the basic desire to connect and the ubiquity of conversation. Note. Error bars represent standard deviations. See the online article for the color version of this figure.\n\nIn summary, we find evidence for a new way people may accommodate each other in conversations: by making smaller topic leaps than they would make during independent thought. In naturalistic conversation, where contextualizing is possible, friends may use their shared references and greater perceived freedom to explore conversation space more than strangers (Planalp & Benson, 1992). But at the level of individual semantic units, they appear to equally prioritize comprehension (although we should use caution drawing conclusions from a null result). When conversation is reduced to its simplest form, people sacrifice being interesting for the sake of being understood.",
+      "text_with_footnotes": "Our social word association task is not true conversation. Future work should examine the semantic trajectory of natural dialogue (versus monologue). When people can ground, repair, and provide context for topic transitions, they may no longer constrain themselves. Additionally, while our sample consists of college students, we believe that the general phenomenon would apply to other populations, due to the basic desire to connect and the ubiquity of conversation. Note. Error bars represent standard deviations. See the online article for the color version of this figure.\n\nIn summary, we find evidence for a new way people may accommodate each other in conversations: by making smaller topic leaps than they would make during independent thought. In naturalistic conversation, where contextualizing is possible, friends may use their shared references and greater perceived freedom to explore conversation space more than strangers (Planalp & Benson, 1992). But at the level of individual semantic units, they appear to equally prioritize comprehension (although we should use caution drawing conclusions from a null result). When conversation is reduced to its simplest form, people sacrifice being interesting for the sake of being understood.",
+      "preview_head": "Our social word association task is not true conversation. Future work should examine the semantic trajectory of natural dialogue (versus monologue). When people can ground, repair, and provide context for topic transitions, they may no longer constrain themselves.",
+      "preview_tail": "In naturalistic conversation, where contextualizing is possible, friends may use their shared references and greater perceived freedom to explore conversation space more than strangers (Planalp & Benson, 1992). But at the level of individual semantic units, they appear to equally prioritize comprehension (although we should use caution drawing conclusions from a null result). When conversation is reduced to its simplest form, people sacrifice being interesting for the sake of being understood.",
+      "word_count": 185,
+      "paragraph_count": 2,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "This section interprets the limitations of the study, discusses the artificiality of the task, and p"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "It also points toward future research directions and wraps up implications, which is characteristic"
+        }
+      ],
+      "label_source": "llm",
+      "confidence": 0.95,
+      "label_reason": "llm",
+      "major_label": "DISCUSSION"
+    }
+  ],
+  "stats": {
+    "total_sections": 23,
+    "content_sections": 22,
+    "total_words": 3157,
+    "has_abstract": true
+  },
+  "classification_stats": {
+    "total": 23,
+    "by_source": {
+      "heuristic": 9,
+      "llm": 13,
+      "propagated": 0
+    },
+    "model": "gpt-4.1",
+    "multi_tag_enabled": true
+  }
+}

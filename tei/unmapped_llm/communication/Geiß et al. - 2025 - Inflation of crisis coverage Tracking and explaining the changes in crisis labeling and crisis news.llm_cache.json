@@ -1,0 +1,499 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "INTRO",
+      "tags": [
+        {
+          "label": "INTRO",
+          "weight": 1.0,
+          "reason": "The section frames the research problem, situates the study in the context of public crises, and all"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 2,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section defines and conceptualizes 'crisis coverage', referencing prior literature and theory."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 3,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Describes the theoretical framework of escalation states, referencing prior concepts and literature."
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "sec_index": 4,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses theoretical drivers of crisis coverage, focusing on conceptual and literature-based trends"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Presents an explanatory framework, theorizing processes and referencing literature to build argument"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 7,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses the role of advocacy groups as crisis frame sponsors, drawing on prior literature and caus"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explores the theoretical link between popular consent and crisis coverage, referencing historical an"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses public spending intensity as a theoretical driver, citing prior research and building theo"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explores public spending diversity as a theoretical driver, referencing prior work and building theo"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 13,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Discusses media penetration as a theoretical driver, referencing prior literature and theory."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 14,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "Explores media autonomy as a theoretical driver, citing prior research and building theoretical arg"
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 16,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "States research questions and hypotheses, referencing theoretical expectations and prior literature."
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "sec_index": 17,
+      "primary_label": "THEORY_LIT",
+      "tags": [
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section states a hypothesis (H4.2) and frames an expected relationship, which is a theoretical/"
+        },
+        {
+          "label": "THEORY_LIT",
+          "weight": 1.0,
+          "reason": "This section states a hypothesis (H4.2) and frames an expected relationship, which is a theoretical/"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 19,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data source (The Times archive), time period, and rationale for sample selection, all "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 20,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how the total coverage sample was constructed and measured, which is a methodological step."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 21,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the search string and process for constructing the crisis coverage sample, including data "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 23,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Details preprocessing routines and corpus construction, which are methodological procedures."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 24,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the use and setup of structural topic modeling (STM) for CNW detection, a methodological "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 25,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the process for identifying and extracting crisis news waves using time series analysis, "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 26,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the construction of the advocacy group indicator using NER, a methodological step."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 28,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes operationalization and measurement of media logic and media penetration, which are "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 29,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how government spending intensity is calculated, a methodological/measurement detail."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 30,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the calculation of government spending diversity, a methodological/measurement step."
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 31,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains how the count of unique organizations per year was constructed from NER data, a "
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 32,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes a variable construction step ('number of years elapsed'), which is a methodological detail"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 34,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the analytic strategy for testing hypotheses, regression models, and robustness checks; no"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 36,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings (statistical results, effect sizes, replication, support for H1.3); no interpretive"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 37,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Describes observed patterns and outliers in the data (e.g., years with high counts), which is report"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 39,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports statistical results of models with government spending as predictors, including significance"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 40,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports statistical results for media logic predictors, including model improvement and confidence i"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 42,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Summarizes main insights and interprets the meaning of the results, connecting to broader theory"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 43,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Focuses on interpretation, implications, and claims linked to findings, inviting further debate"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 44,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Interprets mechanisms and theoretical implications of findings (mediatization, state expansion),"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 45,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.7,
+          "reason": "Speculates on future trends and interprets possible trajectories based on findings, which is disc"
+        },
+        {
+          "label": "CONCLUSION",
+          "weight": 0.3,
+          "reason": "Touches on future outlook and closing thoughts, which are often part of a conclusion"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 46,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "Engages in normative interpretation and theoretical implications of the results (inflation vs. ju"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 48,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes validation and measurement procedures for a key variable (crisis frame sponsor activity),"
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "sec_index": 49,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses methodological limitations and interpretive issues regarding the detection of"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.0,
+          "reason": "Although it references a methodological criterion, the focus is on interpretation and limitation, so"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 50,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the causal assumptions, discusses alternative explanations, and references"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 51,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section discusses the generalizability of the findings, situating them in broader contexts and"
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "sec_index": 52,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 1.0,
+          "reason": "This section interprets the historical context and implications of the analysis, connecting findings"
+        }
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

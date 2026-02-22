@@ -1,0 +1,26 @@
+{
+  "classifications": [
+    {
+      "sec_index": 1,
+      "primary_label": "DISCUSSION",
+      "tags": [
+        {
+          "label": "DISCUSSION",
+          "weight": 0.6,
+          "reason": "The section is interpretive, reflecting on the meaning, implications, and contingencies of using new"
+        },
+        {
+          "label": "METHODS",
+          "weight": 0.2,
+          "reason": "The section describes the research project, its aims, and the use of computational text analysis, i."
+        },
+        {
+          "label": "INTRO",
+          "weight": 0.2,
+          "reason": "The section opens with framing the research problem, motivation, and context, referencing prior work"
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

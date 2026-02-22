@@ -1,0 +1,106 @@
+{
+  "classifications": [
+    {
+      "sec_index": 3,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data sources (Europarl corpus), how data was collected, and how machine-translated and"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Describes the data sources (Europarl corpus), how data was collected, and how machine-translated and"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 5,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the estimation of topic models (LDA), the algorithms and software used, and the process for"
+        },
+        {
+          "label": "METHODS",
+          "weight": 1.0,
+          "reason": "Explains the estimation of topic models (LDA), the algorithms and software used, and the process for"
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "sec_index": 6,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Section likely details the process of extracting and matching stems and topics, which is a technical"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "If the section includes reporting of which stems load on which topics, it may also contain some"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "sec_index": 8,
+      "primary_label": "METHODS",
+      "tags": [
+        {
+          "label": "METHODS",
+          "weight": 0.7,
+          "reason": "Describes the procedure for matching topics at the corpus level, including algorithms and matching"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 0.3,
+          "reason": "Mentions outcomes of the matching procedure and notes on its effectiveness, indicating some results"
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "sec_index": 10,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from comparing document-level bags of words, including similarity scores and"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings from comparing document-level bags of words, including similarity scores and"
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "sec_index": 11,
+      "primary_label": "RESULTS",
+      "tags": [
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on the similarity of topic assignments and content between machine-translated and"
+        },
+        {
+          "label": "RESULTS",
+          "weight": 1.0,
+          "reason": "Reports findings on the similarity of topic assignments and content between machine-translated and"
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}
