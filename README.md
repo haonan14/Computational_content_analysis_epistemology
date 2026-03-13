@@ -1,9 +1,7 @@
 # Computational Content Analysis Epistemology: The Domestication of Topic Modeling
 
 ## Overview
-This repository contains the scripts, data pipelines, and configuration files for a research project analyzing the "domestication" of computational content analysis. Specifically, this project investigates how topic modeling methodologies are adopted, adapted, and implemented across different social science disciplines. 
-
-By framing the adoption of computational methods through the lens of the sociology of science and knowledge, this research explores how different disciplinary cultures shape the application of text-as-data methodologies.
+This repository contains the data-processing pipeline, analytical code, and manuscript materials for Domesticating the Algorithm: Epistemic Drift and the Erosion of Disciplinary Distinctiveness in Computational Text Analysis. The project examines how five social science disciplines—Sociology, Political Science, Communication, Psychology, and Interdisciplinary Social Sciences—adopt and stabilize unsupervised topic modeling in published research. Drawing on a corpus of 769 full-text articles published between 2009 and 2024, the repository documents the workflow for corpus construction, PDF parsing, section classification, large language model-based information extraction, variable construction, statistical analysis, and figure and table generation. It is designed as a reproducible research archive for tracing how documented implementation practices vary across disciplines and change over time.
 
 ## Methodology
 The project pipeline involves several key stages:
